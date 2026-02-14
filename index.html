@@ -1,0 +1,1733 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png"
+    href="https://res.cloudinary.com/dprafk917/image/upload/v1769939688/FAV-ICONS-adobe_nisyxz.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Marcellus&family=Dancing+Script:wght@400..700&display=swap"
+    rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            'sans': ['DM Sans', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+            'display': ['Marcellus', 'serif'],
+            'body': ['DM Sans', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+          },
+          fontSize: { 'base': ['9pt', { lineHeight: '1.5' }] }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="css/styles.css">
+  <meta name="description" content="Retrofusion Boutique Homestays - Luxury villa stays in Lonavala." />
+  <meta property="og:title" content="Retrofusion - Luxury Boutique Homestays in Lonavala" />
+  <title>Retrofusion - Luxury Boutique Homestays in Lonavala</title>
+</head>
+
+<body>
+  <div class="min-h-screen bg-stone-50">
+
+    <!-- ===== NAVBAR ===== -->
+    <nav id="navbar"
+      class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-transparent animate-slide-down">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-16 sm:h-20">
+          <a href="index.html" class="flex items-center">
+            <img id="nav-logo"
+              src="https://res.cloudinary.com/damfndmrm/image/upload/v1765779522/Retro_fusion_logo_nmc7kf.png"
+              alt="Retrofusion Logo" class="h-8 sm:h-14 w-auto transition-all duration-300 brightness-0 invert" />
+          </a>
+          <div class="hidden lg:flex items-center space-x-6 xl:space-x-8">
+            <a href="about.html"
+              class="nav-link text-white hover:text-amber-400 transition-colors font-medium text-lg relative group">
+              <span class="text-sm sm:text-base lg:text-lg">About</span>
+              <span
+                class="absolute -bottom-1 left-0 w-0 h-0.5 bg-amber-600 transition-all duration-300 group-hover:w-full"></span>
+            </a>
+            <a href="contact.html"
+              class="nav-link text-white hover:text-amber-400 transition-colors font-medium text-lg relative group">
+              <span class="text-sm sm:text-base lg:text-lg">Contact</span>
+              <span
+                class="absolute -bottom-1 left-0 w-0 h-0.5 bg-amber-600 transition-all duration-300 group-hover:w-full"></span>
+            </a>
+            <div id="villas-dropdown-btn" class="relative">
+              <button
+                class="nav-link text-white hover:text-amber-400 transition-colors font-medium text-lg flex items-center space-x-1 group">
+                <span class="text-sm sm:text-base lg:text-lg">Our Villas</span>
+                <svg class="w-4 h-4 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor"
+                  viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+                <span
+                  class="absolute -bottom-1 left-0 w-0 h-0.5 bg-amber-600 transition-all duration-300 group-hover:w-full"></span>
+              </button>
+            </div>
+          </div>
+          <div class="lg:hidden">
+            <button id="mobile-menu-btn" class="text-white hover:text-amber-600 transition-colors">
+              <svg id="menu-icon" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+              </svg>
+              <svg id="close-icon" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Mobile Menu -->
+      <div id="mobile-menu"
+        class="lg:hidden bg-white/95 backdrop-blur-md border-t border-stone-200 hidden overflow-hidden transition-all duration-300"
+        style="max-height:0;opacity:0;">
+        <div class="px-4 py-6 space-y-4">
+          <div class="flex justify-center mb-6"><img
+              src="https://res.cloudinary.com/damfndmrm/image/upload/v1765779522/Retro_fusion_logo_nmc7kf.png"
+              alt="Retrofusion Logo" class="h-14 w-auto" /></div>
+          <a href="about.html"
+            class="block px-3 py-3 text-stone-700 hover:text-amber-600 hover:bg-amber-50 font-medium text-base sm:text-lg rounded-lg transition-colors">About</a>
+          <a href="contact.html"
+            class="block px-3 py-3 text-stone-700 hover:text-amber-600 hover:bg-amber-50 font-medium text-base sm:text-lg rounded-lg transition-colors">Contact</a>
+          <div class="border-t border-stone-200 pt-4">
+            <button id="mobile-villas-btn"
+              class="w-full flex items-center justify-between px-3 py-3 text-stone-700 hover:text-amber-600 font-medium text-base sm:text-lg">
+              <span>Our Villas</span>
+              <svg class="mobile-chevron w-4 h-4 transition-transform" fill="none" stroke="currentColor"
+                viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            <div id="mobile-villas-panel" class="ml-4 mt-2 space-y-2 overflow-hidden transition-all duration-300"
+              style="max-height:0;opacity:0;">
+              <a href="viswa-villa.html"
+                class="block px-3 py-2 text-stone-600 hover:text-amber-600 hover:bg-amber-50 rounded-lg transition-colors text-base">Retro
+                Visawa</a>
+              <a href="neo-villa.html"
+                class="block px-3 py-2 text-stone-600 hover:text-amber-600 hover:bg-amber-50 rounded-lg transition-colors text-base">Neo
+                Retro Villa</a>
+              <a href="retro-villa.html"
+                class="block px-3 py-2 text-stone-600 hover:text-amber-600 hover:bg-amber-50 rounded-lg transition-colors text-base">Retro
+                Villa</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ===== MEGA MENU ===== -->
+    <div id="mega-menu" class="mega-menu-wrapper"
+      style="opacity:0;transform:translateY(-10px);transition:all 0.2s ease;">
+      <div class="w-full max-w-7xl bg-white shadow-2xl border border-stone-200 rounded-2xl overflow-hidden">
+        <div class="px-6 sm:px-8 lg:px-10 py-6 sm:py-8">
+          <div class="flex items-center justify-between mb-6">
+            <div>
+              <h3 class="text-xl sm:text-2xl font-bold text-stone-800 font-display">Our <span
+                  class="text-amber-600">Villas</span></h3>
+              <p class="text-stone-500 text-sm mt-1">Discover our curated collection of luxury stays</p>
+            </div>
+            <a href="about.html"
+              class="text-amber-600 hover:text-amber-700 text-sm font-medium flex items-center gap-1 transition-colors">View
+              all <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg></a>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-5 lg:gap-6">
+            <a href="viswa-villa.html" class="group block">
+              <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-all duration-500">
+                <div class="relative h-40 sm:h-44 md:h-48 overflow-hidden"><img
+                    src="https://res.cloudinary.com/dprafk917/video/upload/so_2/v1769858399/8wr207mfxnrmy0cvd61bd2gn1g_result__viprl7.jpg"
+                    alt="Retro Visawa"
+                    class="w-full h-full object-cover scale-110 transition-transform duration-700 group-hover:scale-125" />
+                  <div
+                    class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/20 to-transparent group-hover:from-black/85 transition-colors duration-300">
+                  </div>
+                  <div class="absolute bottom-0 left-0 right-0 p-4">
+                    <h4
+                      class="text-lg lg:text-xl font-bold text-white mb-0.5 group-hover:text-amber-300 transition-colors font-display">
+                      Retro Visawa</h4>
+                    <p class="text-white/80 text-xs font-light">Spacious 4BHK with private pool for groups</p>
+                    <div
+                      class="mt-2 flex items-center gap-1.5 text-amber-400 text-xs font-medium opacity-0 group-hover:opacity-100 transform translate-y-2 group-hover:translate-y-0 transition-all duration-300">
+                      <span>Explore</span><svg class="w-3 h-3 group-hover:translate-x-1 transition-transform"
+                        fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                          d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="neo-villa.html" class="group block">
+              <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-all duration-500">
+                <div class="relative h-40 sm:h-44 md:h-48 overflow-hidden"><img
+                    src="https://res.cloudinary.com/dprafk917/video/upload/so_2/v1768241694/1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg"
+                    alt="Neo Retro Villa"
+                    class="w-full h-full object-cover scale-110 transition-transform duration-700 group-hover:scale-125" />
+                  <div
+                    class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/20 to-transparent group-hover:from-black/85 transition-colors duration-300">
+                  </div>
+                  <div class="absolute bottom-0 left-0 right-0 p-4">
+                    <h4
+                      class="text-lg lg:text-xl font-bold text-white mb-0.5 group-hover:text-amber-300 transition-colors font-display">
+                      Neo Retro Villa</h4>
+                    <p class="text-white/80 text-xs font-light">Artistic retreat with jacuzzi &amp; mountain views</p>
+                    <div
+                      class="mt-2 flex items-center gap-1.5 text-amber-400 text-xs font-medium opacity-0 group-hover:opacity-100 transform translate-y-2 group-hover:translate-y-0 transition-all duration-300">
+                      <span>Explore</span><svg class="w-3 h-3 group-hover:translate-x-1 transition-transform"
+                        fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                          d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="retro-villa.html" class="group block">
+              <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-all duration-500">
+                <div class="relative h-40 sm:h-44 md:h-48 overflow-hidden"><img
+                    src="https://res.cloudinary.com/dprafk917/video/upload/so_3/v1769867671/final_nkd4ry.jpg"
+                    alt="Retro Villa"
+                    class="w-full h-full object-cover scale-110 transition-transform duration-700 group-hover:scale-125" />
+                  <div
+                    class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/20 to-transparent group-hover:from-black/85 transition-colors duration-300">
+                  </div>
+                  <div class="absolute bottom-0 left-0 right-0 p-4">
+                    <h4
+                      class="text-lg lg:text-xl font-bold text-white mb-0.5 group-hover:text-amber-300 transition-colors font-display">
+                      Retro Villa</h4>
+                    <p class="text-white/80 text-xs font-light">Vintage escape with plunge pool &amp; terrace</p>
+                    <div
+                      class="mt-2 flex items-center gap-1.5 text-amber-400 text-xs font-medium opacity-0 group-hover:opacity-100 transform translate-y-2 group-hover:translate-y-0 transition-all duration-300">
+                      <span>Explore</span><svg class="w-3 h-3 group-hover:translate-x-1 transition-transform"
+                        fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                          d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section id="hero-section" class="relative h-screen flex items-center justify-center overflow-hidden touch-pan-y">
+      <div class="absolute inset-0 w-full h-full">
+        <div id="hero-current-layer" class="hero-image-layer" style="z-index:1;"><img id="hero-current-img"
+            src="https://res.cloudinary.com/dprafk917/image/upload/v1769868140/B30_yc8rqu.webp"
+            alt="Retrofusion Homestay" /></div>
+        <div id="hero-prev-layer" class="hero-image-layer" style="z-index:2;display:none;"><img id="hero-prev-img"
+            src="" alt="Retrofusion Homestay" /></div>
+        <div class="absolute inset-0 bg-gradient-to-b from-black/30 via-black/20 to-black/40 z-10"></div>
+        <div class="absolute inset-0 z-10"
+          style="background:radial-gradient(ellipse at center,transparent 0%,rgba(0,0,0,0.2) 100%)"></div>
+      </div>
+      <div class="relative z-20 text-center text-white px-4 pointer-events-none">
+        <p class="text-amber-400 text-sm md:text-base uppercase tracking-[0.3em] mb-4 font-light animate-fade-in-up"
+          style="opacity:0;animation-delay:0.3s;">Welcome to</p>
+        <h1 class="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 leading-none font-display animate-fade-in-up"
+          style="opacity:0;animation-delay:0.5s;">
+          <span
+            class="bg-gradient-to-r from-white via-stone-100 to-white bg-clip-text text-transparent drop-shadow-2xl">Retrofusion</span>
+        </h1>
+        <p class="text-base md:text-xl text-stone-300/90 font-light tracking-wide max-w-xl mx-auto animate-fade-in-up"
+          style="opacity:0;animation-delay:0.9s;">Experience our <span class="text-amber-400 font-normal">boutique
+            homestays</span> where vintage charm meets modern luxury</p>
+        <div
+          class="w-20 h-[1px] bg-gradient-to-r from-transparent via-amber-400 to-transparent mx-auto mt-8 animate-scale-x">
+        </div>
+      </div>
+      <div class="absolute bottom-24 left-0 right-0 z-20 pointer-events-auto animate-fade-in-up"
+        style="opacity:0;animation-delay:1.5s;">
+        <div class="flex items-center justify-center gap-8 md:gap-16">
+          <a href="neo-villa.html" class="group relative">
+            <div class="flex flex-col items-center"><span
+                class="text-white/90 text-sm md:text-base lg:text-lg tracking-[0.2em] uppercase font-light transition-all duration-300 group-hover:text-amber-400 font-display">Neo
+                Retro Villa</span><span
+                class="block w-0 h-[1px] bg-amber-400 transition-all duration-500 group-hover:w-full mt-2"></span></div>
+          </a>
+          <a href="viswa-villa.html" class="group relative">
+            <div class="flex flex-col items-center"><span
+                class="text-white/90 text-sm md:text-base lg:text-lg tracking-[0.2em] uppercase font-light transition-all duration-300 group-hover:text-amber-400 font-display">Retro
+                Visawa</span><span
+                class="block w-0 h-[1px] bg-amber-400 transition-all duration-500 group-hover:w-full mt-2"></span></div>
+          </a>
+          <a href="retro-villa.html" class="group relative">
+            <div class="flex flex-col items-center"><span
+                class="text-white/90 text-sm md:text-base lg:text-lg tracking-[0.2em] uppercase font-light transition-all duration-300 group-hover:text-amber-400 font-display">Retro
+                Villa</span><span
+                class="block w-0 h-[1px] bg-amber-400 transition-all duration-500 group-hover:w-full mt-2"></span></div>
+          </a>
+        </div>
+      </div>
+      <div class="absolute bottom-8 left-1/2 -translate-x-1/2 z-20 animate-fade-in"
+        style="opacity:0;animation-delay:2s;">
+        <div class="flex flex-col items-center gap-2 animate-bounce-slow">
+          <div class="w-[1px] h-8 bg-gradient-to-b from-amber-400/50 to-transparent"></div>
+        </div>
+      </div>
+      <div class="absolute bottom-8 right-8 z-20 flex gap-2">
+        <button class="hero-indicator w-6 h-2 rounded-full bg-amber-400 transition-all duration-300"
+          aria-label="Go to slide 1"></button>
+        <button class="hero-indicator w-2 h-2 rounded-full bg-white/40 hover:bg-white/60 transition-all duration-300"
+          aria-label="Go to slide 2"></button>
+        <button class="hero-indicator w-2 h-2 rounded-full bg-white/40 hover:bg-white/60 transition-all duration-300"
+          aria-label="Go to slide 3"></button>
+        <button class="hero-indicator w-2 h-2 rounded-full bg-white/40 hover:bg-white/60 transition-all duration-300"
+          aria-label="Go to slide 4"></button>
+      </div>
+      <div
+        class="absolute top-0 left-0 w-64 h-64 bg-gradient-to-br from-amber-400/5 to-transparent pointer-events-none z-10">
+      </div>
+      <div
+        class="absolute bottom-0 right-0 w-64 h-64 bg-gradient-to-tl from-amber-400/5 to-transparent pointer-events-none z-10">
+      </div>
+    </section>
+
+    <!-- SECTIONS PLACEHOLDER - Will be added next -->
+    <!-- ===== PREMIUM FEATURES STRIP ===== -->
+    <section class="py-8 bg-white scroll-reveal">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-center mb-12 gap-4">
+          <div class="relative flex-1 max-w-48 h-px bg-amber-200">
+            <div class="absolute -right-1 -top-1 w-2 h-2 bg-amber-200 transform rotate-45"></div>
+          </div>
+          <h2 class="text-2xl md:text-3xl font-bold text-stone-800 tracking-wide whitespace-nowrap font-display">The
+            Retrofusion Experience</h2>
+          <div class="relative flex-1 max-w-48 h-px bg-amber-200">
+            <div class="absolute -left-1 -top-1 w-2 h-2 bg-amber-200 transform rotate-45"></div>
+          </div>
+        </div>
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 md:gap-6">
+          <div
+            class="flex flex-col items-center text-center relative hover:-translate-y-1 transition-transform duration-200">
+            <div
+              class="w-16 h-16 bg-stone-50 border border-stone-200 rounded-full flex items-center justify-center mb-5 hover:bg-amber-50 transition-colors text-stone-600">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <path d="M2 20h20M8 12h8v4H8zM7 12l5-4 5 4M4 14h4v2H4zM16 14h4v2h-4zM3 14l3-2 3 2M15 14l3-2 3 2"
+                  stroke-width="1.5" />
+              </svg>
+            </div>
+            <div class="text-stone-700 text-sm md:text-base lg:text-lg font-medium leading-relaxed whitespace-pre-line">
+              Private Luxury<br />Villas</div>
+          </div>
+          <div
+            class="flex flex-col items-center text-center relative hover:-translate-y-1 transition-transform duration-200">
+            <div
+              class="w-16 h-16 bg-stone-50 border border-stone-200 rounded-full flex items-center justify-center mb-5 hover:bg-amber-50 transition-colors text-stone-600">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <path d="M3 8V6h18v2M4 8V6.5h16V8M6 8v12M9 8v12M12 8v12M15 8v12M18 8v12M2 20h20M10 20v-4c2-2 4 0 4 0v4"
+                  stroke-width="1.5" />
+              </svg>
+            </div>
+            <div class="text-stone-700 text-sm md:text-base lg:text-lg font-medium leading-relaxed whitespace-pre-line">
+              Exclusive Retro<br />Architecture</div>
+          </div>
+          <div
+            class="flex flex-col items-center text-center relative hover:-translate-y-1 transition-transform duration-200">
+            <div
+              class="w-16 h-16 bg-stone-50 border border-stone-200 rounded-full flex items-center justify-center mb-5 hover:bg-amber-50 transition-colors text-stone-600">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <rect x="3" y="8" width="18" height="12" rx="2" stroke-width="1.5" />
+                <circle cx="8" cy="12" r="1" />
+                <circle cx="16" cy="12" r="1" />
+                <path d="M4 10c4 1 8 0 12 1s4-1 8 0" stroke-width="1.5" />
+              </svg>
+            </div>
+            <div class="text-stone-700 text-sm md:text-base lg:text-lg font-medium leading-relaxed whitespace-pre-line">
+              Private Pool &<br />Jacuzzi</div>
+          </div>
+          <div
+            class="flex flex-col items-center text-center relative hover:-translate-y-1 transition-transform duration-200">
+            <div
+              class="w-16 h-16 bg-stone-50 border border-stone-200 rounded-full flex items-center justify-center mb-5 hover:bg-amber-50 transition-colors text-stone-600">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <path d="M12 4l1.5 4.5h4.5l-3.5 3 1.5 4.5-4-3-4 3 1.5-4.5-3.5-3h4.5z" stroke-width="1.2" />
+                <path d="M8 16c4-2 8 0 8 0v-4" stroke-width="1.5" />
+                <path d="M6 19h12" stroke-width="1.5" />
+              </svg>
+            </div>
+            <div class="text-stone-700 text-sm md:text-base lg:text-lg font-medium leading-relaxed whitespace-pre-line">
+              5-Star Concierge<br />Experience</div>
+          </div>
+          <div
+            class="flex flex-col items-center text-center relative hover:-translate-y-1 transition-transform duration-200">
+            <div
+              class="w-16 h-16 bg-stone-50 border border-stone-200 rounded-full flex items-center justify-center mb-5 hover:bg-amber-50 transition-colors text-stone-600">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <path d="M3 15l4-7 4 4 4-6 4 4 2 5" stroke-width="1.5" />
+                <path d="M6 15v4" stroke-width="1.5" />
+                <path d="M18 15v4" stroke-width="1.5" />
+                <path d="M2 19h20" stroke-width="1.5" />
+              </svg>
+            </div>
+            <div class="text-stone-700 text-sm md:text-base lg:text-lg font-medium leading-relaxed whitespace-pre-line">
+              Nature-Surrounded,<br />Quiet Location</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FEATURED PROPERTIES ===== -->
+    <section class="py-8 bg-gradient-to-br from-stone-50 via-amber-50/30 to-stone-100 scroll-reveal">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="mb-12">
+          <h2 class="text-4xl md:text-5xl font-display text-stone-800 mb-6 tracking-wider font-bold">Featured Properties
+          </h2>
+          <p class="text-lg text-stone-600 max-w-2xl leading-relaxed">Discover our luxury villas</p>
+        </div>
+        <div class="w-full">
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 w-full">
+            <!-- Card 1 -->
+            <div
+              class="villa-card relative h-[400px] w-full cursor-pointer group overflow-hidden rounded-[2rem] shadow-2xl hover:shadow-[0_30px_60px_-12px_rgba(0,0,0,0.3)] transition-all duration-700 transform hover:scale-[1.03] border-2 border-white/20">
+              <img src="https://res.cloudinary.com/dprafk917/image/upload/v1770226534/N36_om6t9d.jpg" alt="Retro Villa"
+                class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" />
+              <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+              <div class="absolute bottom-8 left-8 villa-card-name transition-opacity duration-300">
+                <h3 class="text-2xl font-display text-white tracking-wide mb-2 font-bold">Retro Villa</h3>
+                <div class="flex items-center text-white/90 text-sm gap-2">
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                  </svg>
+                  <span class="uppercase tracking-widest font-medium">Lonavala</span>
+                </div>
+              </div>
+              <div
+                class="villa-card-overlay absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/95 via-black/80 to-transparent p-8 backdrop-blur-sm">
+                <div class="space-y-6 pt-16">
+                  <div>
+                    <h3 class="text-3xl font-display text-white tracking-wide mb-2 font-bold">Retro Villa</h3>
+                    <div class="flex items-center text-white/90 text-sm gap-2 mb-4">
+                      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                          d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                          d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                      </svg>
+                      <span class="uppercase tracking-widest font-medium">Lonavala</span>
+                    </div>
+                    <div class="w-16 h-1 bg-gradient-to-r from-amber-400 to-amber-600 rounded-full"></div>
+                  </div>
+                  <p class="text-white/95 text-sm leading-relaxed font-light">Step into vintage charm with modern
+                    luxury. Features classic architecture with contemporary amenities.</p>
+                  <div class="grid grid-cols-2 gap-4">
+                    <div
+                      class="flex items-center gap-3 bg-white/15 backdrop-blur-md p-4 rounded-2xl border border-white/30 hover:bg-white/20 transition-colors duration-300">
+                      <svg class="w-5 h-5 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                          d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
+                      </svg>
+                      <div><span class="text-white font-semibold text-base">12</span>
+                        <p class="text-white/80 text-xs uppercase tracking-wider">Guests</p>
+                      </div>
+                    </div>
+                    <div
+                      class="flex items-center gap-3 bg-white/15 backdrop-blur-md p-4 rounded-2xl border border-white/30 hover:bg-white/20 transition-colors duration-300">
+                      <svg class="w-5 h-5 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                          d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+                      </svg>
+                      <div><span class="text-white font-semibold text-base">4</span>
+                        <p class="text-white/80 text-xs uppercase tracking-wider">BHK</p>
+                      </div>
+                    </div>
+                  </div>
+                  <a href="retro-villa.html"
+                    class="block w-full py-4 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-white font-bold rounded-2xl transition-all duration-300 uppercase tracking-wider text-sm shadow-xl hover:shadow-2xl text-center transform hover:-translate-y-1">Explore
+                    Villa</a>
+                </div>
+              </div>
+            </div>
+            <!-- Card 2 -->
+            <div
+              class="villa-card relative h-[400px] w-full cursor-pointer group overflow-hidden rounded-[2rem] shadow-2xl hover:shadow-[0_30px_60px_-12px_rgba(0,0,0,0.3)] transition-all duration-700 transform hover:scale-[1.03] border-2 border-white/20">
+              <img
+                src="https://res.cloudinary.com/dprafk917/video/upload/so_2/v1768241694/1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg"
+                alt="Neo Retro Villa"
+                class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" />
+              <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+              <div class="absolute bottom-8 left-8 villa-card-name transition-opacity duration-300">
+                <h3 class="text-2xl font-display text-white tracking-wide mb-2 font-bold">Neo Retro Villa</h3>
+                <div class="flex items-center text-white/90 text-sm gap-2">
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                  </svg>
+                  <span class="uppercase tracking-widest font-medium">Lonavala</span>
+                </div>
+              </div>
+              <div
+                class="villa-card-overlay absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/95 via-black/80 to-transparent p-8 backdrop-blur-sm">
+                <div class="space-y-6 pt-16">
+                  <div>
+                    <h3 class="text-3xl font-display text-white tracking-wide mb-2 font-bold">Neo Retro Villa</h3>
+                    <div class="flex items-center text-white/90 text-sm gap-2 mb-4">
+                      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                          d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                          d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                      </svg>
+                      <span class="uppercase tracking-widest font-medium">Lonavala</span>
+                    </div>
+                    <div class="w-16 h-1 bg-gradient-to-r from-amber-400 to-amber-600 rounded-full"></div>
+                  </div>
+                  <p class="text-white/95 text-sm leading-relaxed font-light">Contemporary design meets timeless
+                    comfort. Perfect blend of modern aesthetics and cozy elegance.</p>
+                  <div class="grid grid-cols-2 gap-4">
+                    <div
+                      class="flex items-center gap-3 bg-white/15 backdrop-blur-md p-4 rounded-2xl border border-white/30 hover:bg-white/20 transition-colors duration-300">
+                      <svg class="w-5 h-5 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                          d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
+                      </svg>
+                      <div><span class="text-white font-semibold text-base">8</span>
+                        <p class="text-white/80 text-xs uppercase tracking-wider">Guests</p>
+                      </div>
+                    </div>
+                    <div
+                      class="flex items-center gap-3 bg-white/15 backdrop-blur-md p-4 rounded-2xl border border-white/30 hover:bg-white/20 transition-colors duration-300">
+                      <svg class="w-5 h-5 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                          d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+                      </svg>
+                      <div><span class="text-white font-semibold text-base">3</span>
+                        <p class="text-white/80 text-xs uppercase tracking-wider">BHK</p>
+                      </div>
+                    </div>
+                  </div>
+                  <a href="neo-villa.html"
+                    class="block w-full py-4 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-white font-bold rounded-2xl transition-all duration-300 uppercase tracking-wider text-sm shadow-xl hover:shadow-2xl text-center transform hover:-translate-y-1">Explore
+                    Villa</a>
+                </div>
+              </div>
+            </div>
+            <!-- Card 3 -->
+            <div
+              class="villa-card relative h-[400px] w-full cursor-pointer group overflow-hidden rounded-[2rem] shadow-2xl hover:shadow-[0_30px_60px_-12px_rgba(0,0,0,0.3)] transition-all duration-700 transform hover:scale-[1.03] border-2 border-white/20">
+              <img
+                src="https://res.cloudinary.com/dprafk917/image/upload/v1770225615/8492832a-d4f1-4821-90d7-8ebaf7c90dce_mbiuqk.png"
+                alt="Retro Visawa"
+                class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" />
+              <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+              <div class="absolute bottom-8 left-8 villa-card-name transition-opacity duration-300">
+                <h3 class="text-2xl font-display text-white tracking-wide mb-2 font-bold">Retro Visawa</h3>
+                <div class="flex items-center text-white/90 text-sm gap-2">
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                  </svg>
+                  <span class="uppercase tracking-widest font-medium">Lonavala</span>
+                </div>
+              </div>
+              <div
+                class="villa-card-overlay absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/95 via-black/80 to-transparent p-8 backdrop-blur-sm">
+                <div class="space-y-6 pt-16">
+                  <div>
+                    <h3 class="text-3xl font-display text-white tracking-wide mb-2 font-bold">Retro Visawa</h3>
+                    <div class="flex items-center text-white/90 text-sm gap-2 mb-4">
+                      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                          d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                          d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                      </svg>
+                      <span class="uppercase tracking-widest font-medium">Lonavala</span>
+                    </div>
+                    <div class="w-16 h-1 bg-gradient-to-r from-amber-400 to-amber-600 rounded-full"></div>
+                  </div>
+                  <p class="text-white/95 text-sm leading-relaxed font-light">Serene escape surrounded by nature.
+                    Spacious villa offering tranquil moments and premium amenities.</p>
+                  <div class="grid grid-cols-2 gap-4">
+                    <div
+                      class="flex items-center gap-3 bg-white/15 backdrop-blur-md p-4 rounded-2xl border border-white/30 hover:bg-white/20 transition-colors duration-300">
+                      <svg class="w-5 h-5 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                          d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
+                      </svg>
+                      <div><span class="text-white font-semibold text-base">15</span>
+                        <p class="text-white/80 text-xs uppercase tracking-wider">Guests</p>
+                      </div>
+                    </div>
+                    <div
+                      class="flex items-center gap-3 bg-white/15 backdrop-blur-md p-4 rounded-2xl border border-white/30 hover:bg-white/20 transition-colors duration-300">
+                      <svg class="w-5 h-5 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                          d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+                      </svg>
+                      <div><span class="text-white font-semibold text-base">5</span>
+                        <p class="text-white/80 text-xs uppercase tracking-wider">BHK</p>
+                      </div>
+                    </div>
+                  </div>
+                  <a href="viswa-villa.html"
+                    class="block w-full py-4 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-white font-bold rounded-2xl transition-all duration-300 uppercase tracking-wider text-sm shadow-xl hover:shadow-2xl text-center transform hover:-translate-y-1">Explore
+                    Villa</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== COLLECTION SECTION ===== -->
+    <section class="py-8 bg-gradient-to-br from-white via-stone-50/30 to-stone-100/20 scroll-reveal">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="mb-8 lg:mb-12">
+          <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-stone-900 mb-3">Collections For You</h2>
+          <p class="text-base sm:text-lg text-stone-500 max-w-2xl leading-relaxed">Discover our curated collection of
+            luxury villas in Lonavala for unforgettable homestay experiences!</p>
+        </div>
+        <!-- Desktop Grid -->
+        <div class="hidden lg:grid grid-cols-4 gap-6">
+          <!-- Col 1 -->
+          <div class="flex flex-col gap-6 h-[600px]">
+            <a href="retro-villa.html"
+              class="relative w-full rounded-3xl overflow-hidden group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-[1.02] border border-stone-200 block flex-[1.4] hover:-translate-y-1">
+              <img src="https://res.cloudinary.com/dprafk917/image/upload/v1770226533/N34_stewru.jpg"
+                class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                alt="Retro Villa" />
+              <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent"></div>
+              <div class="absolute bottom-6 left-6 text-white">
+                <h3 class="text-xl md:text-2xl font-bold font-display tracking-wide drop-shadow-lg">Retro Villa</h3>
+              </div>
+            </a>
+            <a href="retro-villa.html"
+              class="relative w-full rounded-3xl overflow-hidden group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-[1.02] border border-stone-200 block flex-1 hover:-translate-y-1">
+              <img src="https://res.cloudinary.com/dprafk917/image/upload/v1769863054/03.1_c7vcel.jpg"
+                class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                alt="Private Pool" />
+              <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent"></div>
+              <div class="absolute bottom-6 left-6 text-white">
+                <h3 class="text-xl md:text-2xl font-bold font-display tracking-wide drop-shadow-lg">Private Pool</h3>
+              </div>
+            </a>
+          </div>
+          <!-- Col 2 -->
+          <div class="flex flex-col gap-6 h-[600px]">
+            <a href="retro-villa.html"
+              class="relative w-full rounded-3xl overflow-hidden group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-[1.02] border border-stone-200 block flex-1 hover:-translate-y-1">
+              <img src="https://res.cloudinary.com/dprafk917/image/upload/v1769868140/B30_yc8rqu.webp"
+                class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                alt="Mountain Views" />
+              <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent"></div>
+              <div class="absolute bottom-6 left-6 text-white">
+                <h3 class="text-xl md:text-2xl font-bold font-display tracking-wide drop-shadow-lg">Mountain Views</h3>
+              </div>
+            </a>
+            <a href="neo-villa.html"
+              class="relative w-full rounded-3xl overflow-hidden group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-[1.02] border border-stone-200 block flex-[1.4] hover:-translate-y-1">
+              <img src="https://res.cloudinary.com/dprafk917/image/upload/v1769863039/01_qwhl8a.jpg"
+                class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                alt="Neo-Retro Villa" />
+              <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent"></div>
+              <div class="absolute bottom-6 left-6 text-white">
+                <h3 class="text-xl md:text-2xl font-bold font-display tracking-wide drop-shadow-lg">Neo-Retro Villa</h3>
+              </div>
+            </a>
+          </div>
+          <!-- Col 3 -->
+          <div class="flex flex-col gap-6 h-[600px]">
+            <a href="viswa-villa.html"
+              class="relative w-full rounded-3xl overflow-hidden group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-[1.02] border border-stone-200 block flex-[1.4] hover:-translate-y-1">
+              <img src="https://res.cloudinary.com/dprafk917/image/upload/v1769862646/pool_ckwldd.png"
+                class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                alt="Retro Visawa" />
+              <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent"></div>
+              <div class="absolute bottom-6 left-6 text-white">
+                <h3 class="text-xl md:text-2xl font-bold font-display tracking-wide drop-shadow-lg">Retro Visawa</h3>
+              </div>
+            </a>
+            <a href="retro-villa.html"
+              class="relative w-full rounded-3xl overflow-hidden group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-[1.02] border border-stone-200 block flex-1 hover:-translate-y-1">
+              <img src="https://res.cloudinary.com/dprafk917/image/upload/v1769868142/G31_mdlfjh.webp"
+                class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                alt="Pet-Friendly Stays" />
+              <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent"></div>
+              <div class="absolute bottom-6 left-6 text-white">
+                <h3 class="text-xl md:text-2xl font-bold font-display tracking-wide drop-shadow-lg">Pet-Friendly Stays
+                </h3>
+              </div>
+            </a>
+          </div>
+          <!-- Col 4 -->
+          <div class="flex flex-col gap-6 h-[600px]">
+            <a href="neo-villa.html"
+              class="relative w-full rounded-3xl overflow-hidden group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-[1.02] border border-stone-200 block flex-1 hover:-translate-y-1">
+              <img src="https://res.cloudinary.com/dprafk917/image/upload/v1769863043/08.1_cth2qs.jpg"
+                class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                alt="Vintage Interiors" />
+              <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent"></div>
+              <div class="absolute bottom-6 left-6 text-white">
+                <h3 class="text-xl md:text-2xl font-bold font-display tracking-wide drop-shadow-lg">Vintage Interiors
+                </h3>
+              </div>
+            </a>
+            <a href="viswa-villa.html"
+              class="relative w-full rounded-3xl overflow-hidden group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-[1.02] border border-stone-200 block flex-[1.4] hover:-translate-y-1">
+              <img src="https://res.cloudinary.com/dprafk917/image/upload/v1769863044/14_w8imzc.jpg"
+                class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                alt="Lonavala Escape" />
+              <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent"></div>
+              <div class="absolute bottom-6 left-6 text-white">
+                <h3 class="text-xl md:text-2xl font-bold font-display tracking-wide drop-shadow-lg">Lonavala Escape</h3>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- Mobile Grid -->
+        <div class="lg:hidden overflow-x-auto scrollbar-hide -mx-4 px-4">
+          <div class="flex gap-4 pb-4" style="scroll-snap-type: x mandatory;">
+            <!-- Mobile Col 1 -->
+            <div class="flex flex-col gap-4 min-w-[280px]" style="scroll-snap-align: start;">
+              <a href="retro-villa.html" class="relative w-full h-64 rounded-2xl overflow-hidden shadow-lg block">
+                <img src="https://res.cloudinary.com/dprafk917/image/upload/v1770226533/N34_stewru.jpg"
+                  class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                  alt="Retro Villa" />
+                <div class="absolute inset-0 bg-gradient-to-t from-black/90 to-transparent"></div>
+                <h3 class="absolute bottom-4 left-4 text-white font-bold">Retro Villa</h3>
+              </a>
+              <a href="retro-villa.html" class="relative w-full h-48 rounded-2xl overflow-hidden shadow-lg block">
+                <img src="https://res.cloudinary.com/dprafk917/image/upload/v1769863054/03.1_c7vcel.jpg"
+                  class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                  alt="Private Pool" />
+                <div class="absolute inset-0 bg-gradient-to-t from-black/90 to-transparent"></div>
+                <h3 class="absolute bottom-4 left-4 text-white font-bold">Private Pool</h3>
+              </a>
+            </div>
+            <!-- Mobile Col 2 -->
+            <div class="flex flex-col gap-4 min-w-[280px]" style="scroll-snap-align: start;">
+              <a href="retro-villa.html" class="relative w-full h-48 rounded-2xl overflow-hidden shadow-lg block">
+                <img src="https://res.cloudinary.com/dprafk917/image/upload/v1769868140/B30_yc8rqu.webp"
+                  class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                  alt="Mountain Views" />
+                <div class="absolute inset-0 bg-gradient-to-t from-black/90 to-transparent"></div>
+                <h3 class="absolute bottom-4 left-4 text-white font-bold">Mountain Views</h3>
+              </a>
+              <a href="neo-villa.html" class="relative w-full h-64 rounded-2xl overflow-hidden shadow-lg block">
+                <img src="https://res.cloudinary.com/dprafk917/image/upload/v1769863039/01_qwhl8a.jpg"
+                  class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                  alt="Neo-Retro Villa" />
+                <div class="absolute inset-0 bg-gradient-to-t from-black/90 to-transparent"></div>
+                <h3 class="absolute bottom-4 left-4 text-white font-bold">Neo-Retro Villa</h3>
+              </a>
+            </div>
+            <!-- Mobile Col 3 -->
+            <div class="flex flex-col gap-4 min-w-[280px]" style="scroll-snap-align: start;">
+              <a href="viswa-villa.html" class="relative w-full h-64 rounded-2xl overflow-hidden shadow-lg block">
+                <img src="https://res.cloudinary.com/dprafk917/image/upload/v1769862646/pool_ckwldd.png"
+                  class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                  alt="Retro Visawa" />
+                <div class="absolute inset-0 bg-gradient-to-t from-black/90 to-transparent"></div>
+                <h3 class="absolute bottom-4 left-4 text-white font-bold">Retro Visawa</h3>
+              </a>
+              <a href="retro-villa.html" class="relative w-full h-48 rounded-2xl overflow-hidden shadow-lg block">
+                <img src="https://res.cloudinary.com/dprafk917/image/upload/v1769868142/G31_mdlfjh.webp"
+                  class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                  alt="Pet-Friendly Stays" />
+                <div class="absolute inset-0 bg-gradient-to-t from-black/90 to-transparent"></div>
+                <h3 class="absolute bottom-4 left-4 text-white font-bold">Pet-Friendly Stays</h3>
+              </a>
+            </div>
+            <!-- Mobile Col 4 -->
+            <div class="flex flex-col gap-4 min-w-[280px]" style="scroll-snap-align: start;">
+              <a href="neo-villa.html" class="relative w-full h-48 rounded-2xl overflow-hidden shadow-lg block">
+                <img src="https://res.cloudinary.com/dprafk917/image/upload/v1769863043/08.1_cth2qs.jpg"
+                  class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                  alt="Vintage Interiors" />
+                <div class="absolute inset-0 bg-gradient-to-t from-black/90 to-transparent"></div>
+                <h3 class="absolute bottom-4 left-4 text-white font-bold">Vintage Interiors</h3>
+              </a>
+              <a href="viswa-villa.html" class="relative w-full h-64 rounded-2xl overflow-hidden shadow-lg block">
+                <img src="https://res.cloudinary.com/dprafk917/image/upload/v1769863044/14_w8imzc.jpg"
+                  class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                  alt="Lonavala Escape" />
+                <div class="absolute inset-0 bg-gradient-to-t from-black/90 to-transparent"></div>
+                <h3 class="absolute bottom-4 left-4 text-white font-bold">Lonavala Escape</h3>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTIONS PLACEHOLDER 2 -->
+    <!-- ===== ABOUT RETROFUSION ===== -->
+    <section class="py-16 md:py-8 bg-white relative overflow-hidden scroll-reveal">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- Heading Section -->
+        <div class="mb-12 lg:mb-16">
+          <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-stone-900 mb-4">
+            About Retrofusion
+          </h2>
+          <p class="text-base sm:text-lg text-stone-500 max-w-2xl">
+            Your home away from home in the hills of Lonavala
+          </p>
+        </div>
+
+        <!-- Content Grid: Text Left, Image Collage Right -->
+        <div class="flex flex-col lg:flex-row gap-12 lg:gap-16 items-start">
+
+          <!-- LEFT: Content -->
+          <div class="w-full lg:w-1/2 space-y-8">
+
+            <!-- Main Description -->
+            <div>
+              <p class="text-lg leading-relaxed text-stone-700 mb-6">
+                Started as a passion project by a group of friends who fell in love with Lonavala's misty hills,
+                Retrofusion is now home to three beautiful villas. We wanted to create spaces where families could
+                gather, friends could reconnect, and couples could escape the city chaos.
+              </p>
+            </div>
+
+            <!-- Key Highlights Grid -->
+            <div class="grid grid-cols-2 gap-4">
+              <div class="bg-stone-50 p-5 rounded-xl border border-stone-200">
+                <div class="text-3xl font-bold text-amber-600 mb-2">500+</div>
+                <div class="text-sm text-stone-600">Happy Guests</div>
+              </div>
+              <div class="bg-stone-50 p-5 rounded-xl border border-stone-200">
+                <div class="text-3xl font-bold text-amber-600 mb-2">24/7</div>
+                <div class="text-sm text-stone-600">Caretaker Support</div>
+              </div>
+            </div>
+
+            <!-- Feature Cards -->
+            <div class="space-y-4">
+              <div class="bg-gradient-to-br from-amber-50 to-orange-50 p-6 rounded-xl border border-amber-200">
+                <h3 class="font-bold text-stone-800 mb-2 text-lg">What Makes Us Different</h3>
+                <p class="text-stone-600 text-base leading-relaxed">
+                  We live in Lonavala. We know the best chai spots, the hidden viewpoints, and we're always a call away
+                  if you need anything during your stay.
+                </p>
+              </div>
+
+              <div class="bg-gradient-to-br from-stone-50 to-stone-100 p-6 rounded-xl border border-stone-200">
+                <h3 class="font-bold text-stone-800 mb-2 text-lg">Perfect For</h3>
+                <p class="text-stone-600 text-base leading-relaxed">
+                  Birthday celebrations, anniversary getaways, family reunions, corporate offsites, or just a weekend
+                  away with your loved ones.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- RIGHT: Image Collage -->
+          <div class="w-full lg:w-1/2">
+            <div class="grid grid-cols-2 gap-4 h-[500px]">
+              <!-- Top Left - Tall -->
+              <div
+                class="row-span-2 rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <img src="https://res.cloudinary.com/dprafk917/image/upload/v1769863039/01_qwhl8a.jpg"
+                  alt="Neo Villa Living Area"
+                  class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+              </div>
+
+              <!-- Top Right -->
+              <div class="rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <img src="https://res.cloudinary.com/dprafk917/image/upload/v1769868143/M01_jjmwdw.webp"
+                  alt="Retro Villa Pool"
+                  class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+              </div>
+
+              <!-- Bottom Right -->
+              <div class="rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <img src="https://res.cloudinary.com/dprafk917/image/upload/v1769862646/pool_ckwldd.png"
+                  alt="Visawa Villa Pool"
+                  class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== RETROFUSION STANDARD ===== -->
+    <section class="py-10 md:py-10 bg-white px-4 sm:px-6 lg:px-16 overflow-hidden scroll-reveal">
+      <div class="max-w-7xl mx-auto">
+        <!-- Heading Section -->
+        <div class="mb-10 lg:mb-12">
+          <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-stone-900 mb-3">
+            The Retrofusion Standard
+          </h2>
+          <p class="text-base sm:text-lg text-stone-500">
+            Enjoy our signature features that make every stay effortless and enjoyable.
+          </p>
+        </div>
+
+        <!-- Content Grid: Slider Left, Icons Right -->
+        <div class="flex flex-col lg:flex-row gap-8 lg:gap-12 items-start">
+          <!-- LEFT: Image Slider -->
+          <div class="w-full lg:w-[45%] lg:flex-shrink-0">
+            <div class="relative overflow-hidden rounded-lg">
+              <img id="retrofusion-slider-img"
+                src="https://res.cloudinary.com/dprafk917/image/upload/v1769863054/03.1_c7vcel.jpg"
+                alt="Retrofusion experience" class="w-full h-[280px] sm:h-[340px] lg:h-[360px] object-cover" />
+
+              <!-- Navigation Arrow - Inside Image on Right -->
+              <button id="retrofusion-slider-next" aria-label="Next image" class="absolute right-3 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-white/90 hover:bg-white
+                        flex items-center justify-center shadow-md transition-all duration-200">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-stone-700" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                </svg>
+              </button>
+
+              <!-- Left Arrow for mobile usability (also serves as PREV) -->
+              <button id="retrofusion-slider-prev" aria-label="Previous image" class="absolute left-3 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-white/90 hover:bg-white
+                        flex items-center justify-center shadow-md transition-all duration-200">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-stone-700" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <!-- RIGHT: Features grid - 2 rows × 4 columns -->
+          <div class="w-full lg:flex-1">
+            <div class="grid grid-cols-4 gap-x-4 gap-y-8 sm:gap-x-6 lg:gap-x-8 lg:gap-y-10">
+              <!-- Item 1: Personalised Celebrations -->
+              <div class="flex flex-col items-center text-center">
+                <div class="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 mb-2 sm:mb-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="#1A1A1A"
+                    stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="w-full h-full">
+                    <path d="M22 38h56v44H22z" />
+                    <path d="M50 38v44M22 60h56" />
+                    <path d="M50 38c0-8-6-14-12-14s-12 6-12 14M50 38c0-8 6-14 12-14s12 6 12 14" />
+                    <path d="M78 24l6-6M86 32l6-6M14 24l-6-6M22 32l-6-6" />
+                  </svg>
+                </div>
+                <p class="text-[10px] sm:text-xs lg:text-sm text-stone-700 leading-tight font-medium">
+                  Personalised<br />Celebrations
+                </p>
+              </div>
+
+              <!-- Item 2: In-house Chef -->
+              <div class="flex flex-col items-center text-center">
+                <div class="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 mb-2 sm:mb-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="#1A1A1A"
+                    stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="w-full h-full">
+                    <path d="M30 48h40c0-8 4-12 10-16S72 12 50 12c-22 0-30 12-30 20s10 8 10 16zM30 36h40" />
+                    <path d="M38 62s2 6 8 9l18 17" />
+                    <path d="M62 62s-2 6-8 9L36 88" />
+                    <path d="M36 60v8c0 3 2.5 5 5 5s5-2 5-5v-8M64 60v7c0 4-4 7-9 7" />
+                  </svg>
+                </div>
+                <p class="text-[10px] sm:text-xs lg:text-sm text-stone-700 leading-tight font-medium">
+                  In-house<br />Chef
+                </p>
+              </div>
+
+              <!-- Item 3: Private Pool -->
+              <div class="flex flex-col items-center text-center">
+                <div class="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 mb-2 sm:mb-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="#1A1A1A"
+                    stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="w-full h-full">
+                    <path d="M15 30h70v45H15z" />
+                    <path d="M25 24v24M35 24v24M25 32h10M25 40h10M45 55c5 0 5-4 10-4s5 4 10 4 5-4 10-4" />
+                    <path d="M45 65c5 0 5-4 10-4s5 4 10 4 5-4 10-4" />
+                  </svg>
+                </div>
+                <p class="text-[10px] sm:text-xs lg:text-sm text-stone-700 leading-tight font-medium">
+                  Private<br />Pool
+                </p>
+              </div>
+
+              <!-- Item 4: Local Experiences -->
+              <div class="flex flex-col items-center text-center">
+                <div class="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 mb-2 sm:mb-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="#1A1A1A"
+                    stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="w-full h-full">
+                    <path d="M50 15c-16.57 0-30 13.43-30 30 0 22.5 30 45 30 45s30-22.5 30-45c0-16.57-13.43-30-30-30z" />
+                    <path d="M35 55l8-12 7 7 15-15" />
+                    <path d="M60 45l5 10h-8" />
+                    <circle cx="65" cy="30" r="3" />
+                  </svg>
+                </div>
+                <p class="text-[10px] sm:text-xs lg:text-sm text-stone-700 leading-tight font-medium">
+                  Local<br />Experiences
+                </p>
+              </div>
+
+              <!-- Item 5: Caretaker Onsite -->
+              <div class="flex flex-col items-center text-center">
+                <div class="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 mb-2 sm:mb-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="#1A1A1A"
+                    stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="w-full h-full">
+                    <circle cx="40" cy="35" r="10" />
+                    <path d="M18 80v-8c0-10 9-17 22-17M58 42l24 18v28H58" />
+                    <path d="M52 46.5L82 69" />
+                    <path d="M76 25c3-3 8-3 11 0s3 8 0 11l-11 11-11-11c-3-3-3-8 0-11s8-3 11 0z" />
+                  </svg>
+                </div>
+                <p class="text-[10px] sm:text-xs lg:text-sm text-stone-700 leading-tight font-medium">
+                  Caretaker<br />Onsite
+                </p>
+              </div>
+
+              <!-- Item 6: Games & Recreation -->
+              <div class="flex flex-col items-center text-center">
+                <div class="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 mb-2 sm:mb-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="#1A1A1A"
+                    stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="w-full h-full">
+                    <rect x="15" y="35" width="50" height="30" rx="8" />
+                    <path d="M25 50h10M30 45v10" />
+                    <circle cx="55" cy="45" r="3" />
+                    <circle cx="48" cy="55" r="3" />
+                    <circle cx="78" cy="50" r="15" />
+                    <path d="M78 35v30M65 50h26M68 40l20 20M68 60l20-20" />
+                  </svg>
+                </div>
+                <p class="text-[10px] sm:text-xs lg:text-sm text-stone-700 leading-tight font-medium">
+                  Games &<br />Recreation
+                </p>
+              </div>
+
+              <!-- Item 7: Butler Service -->
+              <div class="flex flex-col items-center text-center">
+                <div class="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 mb-2 sm:mb-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="#1A1A1A"
+                    stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="w-full h-full">
+                    <path d="M15 70h70" />
+                    <path d="M60 70v-4c0-14-8-26-24-26S12 52 12 66v4" />
+                    <path d="M32 40h8a4 4 0 0 0 0-8h-8a4 4 0 0 0 0 8z" />
+                    <path d="M70 70l12 12c3 3 6 3 9 0v-8c0-5-4-9-9-9h-6" />
+                    <path d="M82 82l-8 8" />
+                  </svg>
+                </div>
+                <p class="text-[10px] sm:text-xs lg:text-sm text-stone-700 leading-tight font-medium">
+                  Butler<br />Service
+                </p>
+              </div>
+
+              <!-- Item 8: Green Open Space -->
+              <div class="flex flex-col items-center text-center">
+                <div class="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 mb-2 sm:mb-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="#1A1A1A"
+                    stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="w-full h-full">
+                    <path d="M10 70c15-10 35-10 50 0s30 5 30-5" />
+                    <path d="M10 85c20-8 40-5 60 5s25-5 25-15" />
+                    <path d="M75 25a10 10 0 0 1 0 20" />
+                    <path d="M75 25V18M85 25h7M82 39l5 5" />
+                    <path d="M30 55V40M25 45l5-5 5 5M25 50l5-5 5 5" />
+                  </svg>
+                </div>
+                <p class="text-[10px] sm:text-xs lg:text-sm text-stone-700 leading-tight font-medium">
+                  Green Open<br />Space
+                </p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== LOYALTY CTA ===== -->
+    <section class="py-16 md:py-8 lg:py-8 bg-white px-4 sm:px-6 lg:px-16 scroll-reveal">
+      <div class="max-w-7xl mx-auto">
+        <div class="relative bg-stone-900 rounded-2xl overflow-hidden shadow-2xl">
+          <!-- Background Image -->
+          <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200&h=400&fit=crop"
+              class="w-full h-full object-cover" alt="Background" />
+            <div class="absolute inset-0 bg-gradient-to-r from-stone-900/95 via-stone-900/85 to-stone-900/70"></div>
+          </div>
+
+          <!-- Content -->
+          <div
+            class="relative z-10 px-8 sm:px-12 lg:px-16 py-12 lg:py-16 flex flex-col lg:flex-row items-center justify-between gap-8">
+            <!-- Left Content -->
+            <div class="flex-1 text-white">
+              <div class="mb-4">
+                <span class="text-lg sm:text-xl font-light tracking-[0.3em] text-amber-400 uppercase">
+                  Retrofusion
+                </span>
+              </div>
+              <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 lg:mb-6 leading-tight">
+                The Loyalty Program
+              </h2>
+              <p class="text-base sm:text-lg text-stone-300 max-w-xl leading-relaxed">
+                Book your next dream villa to earn points and redeem exclusive deals on your next stay.
+              </p>
+            </div>
+
+            <!-- Right CTA Button -->
+            <div class="flex-shrink-0">
+              <a href="contact.html"
+                class="inline-block px-8 py-4 bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white font-bold text-base sm:text-lg rounded-lg shadow-lg transition-all duration-300 uppercase tracking-wide transform hover:scale-105">
+                KNOW MORE
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== BLOG SECTION ===== -->
+    <section class="py-16 md:py-24 bg-white scroll-reveal">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-end mb-12">
+          <div>
+            <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-stone-900 mb-3">
+              Blogs
+            </h2>
+          </div>
+          <div class="flex gap-2">
+            <button id="blog-prev"
+              class="w-10 h-10 border border-stone-300 rounded-full flex items-center justify-center hover:bg-stone-900 hover:text-white hover:border-stone-900 transition-all"><svg
+                class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+              </svg></button>
+            <button id="blog-next"
+              class="w-10 h-10 border border-stone-300 rounded-full flex items-center justify-center hover:bg-stone-900 hover:text-white hover:border-stone-900 transition-all"><svg
+                class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+              </svg></button>
+          </div>
+        </div>
+
+        <div class="relative overflow-hidden pl-1">
+          <div id="blog-slider-track" class="blog-slider-track flex w-full">
+            <!-- Blog Card 1 -->
+            <div class="w-full md:w-1/2 flex-shrink-0 pr-6">
+              <div
+                class="group h-full bg-white rounded-xl shadow-lg overflow-hidden border border-stone-200 hover:shadow-xl transition-shadow duration-300 flex h-40">
+                <!-- Image on LEFT -->
+                <div class="relative w-48 flex-shrink-0 overflow-hidden">
+                  <img src="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800&h=600&fit=crop"
+                    alt="Travel" class="w-full h-full object-cover" />
+                </div>
+                <!-- Content on RIGHT -->
+                <div class="flex-1 p-5 flex flex-col justify-between">
+                  <div>
+                    <h3 class="text-base font-bold text-stone-900 mb-2 line-clamp-2 leading-snug">
+                      Best Places to Travel in November in India:...
+                    </h3>
+                    <p class="text-sm text-stone-600 line-clamp-2">
+                      Places to travel in November in India offer something...
+                    </p>
+                  </div>
+                  <a href="blog-post.html"
+                    class="inline-block self-start px-4 py-2 bg-stone-900 text-white text-sm rounded-lg hover:bg-stone-800 transition-colors duration-200">
+                    Read More
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- Blog Card 2 -->
+            <div class="w-full md:w-1/2 flex-shrink-0 pr-6">
+              <div
+                class="group h-full bg-white rounded-xl shadow-lg overflow-hidden border border-stone-200 hover:shadow-xl transition-shadow duration-300 flex h-40">
+                <!-- Image on LEFT -->
+                <div class="relative w-48 flex-shrink-0 overflow-hidden">
+                  <img src="https://images.unsplash.com/photo-1478145787956-f6f12c59624d?w=800&h=600&fit=crop"
+                    alt="Corporate" class="w-full h-full object-cover" />
+                </div>
+                <!-- Content on RIGHT -->
+                <div class="flex-1 p-5 flex flex-col justify-between">
+                  <div>
+                    <h3 class="text-base font-bold text-stone-900 mb-2 line-clamp-2 leading-snug">
+                      Corporate Retreats in Diwali: Top 10...
+                    </h3>
+                    <p class="text-sm text-stone-600 line-clamp-2">
+                      Celebrating Diwali as a corporate event combines...
+                    </p>
+                  </div>
+                  <a href="blog-post.html"
+                    class="inline-block self-start px-4 py-2 bg-stone-900 text-white text-sm rounded-lg hover:bg-stone-800 transition-colors duration-200">
+                    Read More
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== BOOKING & CONTACT SECTION ===== -->
+    <section id="booking-section" class="bg-stone-50 px-4 sm:px-6 lg:px-16 py-10 lg:py-12 scroll-reveal">
+      <div class="max-w-7xl mx-auto">
+        <!-- Heading - Matching Other Sections -->
+        <div class="mb-8 lg:mb-10">
+          <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-stone-900 mb-3">
+            Effortless Booking in 3 Steps
+          </h2>
+        </div>
+
+        <!-- Main Grid - Left Info, Right Form -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <!-- Left Side - Steps + Contact Info -->
+          <div class="space-y-6">
+            <!-- 3 Steps - Compact Cards -->
+            <div class="space-y-4">
+              <!-- Step 1 -->
+              <div
+                class="bg-white rounded-xl p-5 shadow-md hover:shadow-lg transition-shadow duration-300 border border-stone-200 flex items-center gap-4">
+                <div
+                  class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-amber-600 to-amber-700 text-white rounded-full flex items-center justify-center text-lg font-bold shadow-md">
+                  1
+                </div>
+                <div class="flex-shrink-0 w-12 h-12 bg-amber-100 rounded-full flex items-center justify-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-amber-700" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 20h9"></path>
+                    <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+                  </svg>
+                </div>
+                <div class="flex-1">
+                  <h3 class="text-base font-bold text-stone-900 mb-1">Fill the form</h3>
+                  <p class="text-sm text-stone-600">Complete your booking details</p>
+                </div>
+              </div>
+              <!-- Step 2 -->
+              <div
+                class="bg-white rounded-xl p-5 shadow-md hover:shadow-lg transition-shadow duration-300 border border-stone-200 flex items-center gap-4">
+                <div
+                  class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-amber-600 to-amber-700 text-white rounded-full flex items-center justify-center text-lg font-bold shadow-md">
+                  2
+                </div>
+                <div class="flex-shrink-0 w-12 h-12 bg-amber-100 rounded-full flex items-center justify-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-amber-700" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                  </svg>
+                </div>
+                <div class="flex-1">
+                  <h3 class="text-base font-bold text-stone-900 mb-1">Get a swift reply</h3>
+                  <p class="text-sm text-stone-600">Our team contacts you promptly</p>
+                </div>
+              </div>
+              <!-- Step 3 -->
+              <div
+                class="bg-white rounded-xl p-5 shadow-md hover:shadow-lg transition-shadow duration-300 border border-stone-200 flex items-center gap-4">
+                <div
+                  class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-amber-600 to-amber-700 text-white rounded-full flex items-center justify-center text-lg font-bold shadow-md">
+                  3
+                </div>
+                <div class="flex-shrink-0 w-12 h-12 bg-amber-100 rounded-full flex items-center justify-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-amber-700" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect>
+                    <line x1="1" y1="10" x2="23" y2="10"></line>
+                  </svg>
+                </div>
+                <div class="flex-1">
+                  <h3 class="text-base font-bold text-stone-900 mb-1">Confirm payment</h3>
+                  <p class="text-sm text-stone-600">Secure your reservation</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Contact Information - Compact Card -->
+            <div class="bg-gradient-to-br from-stone-900 to-stone-800 rounded-xl p-6 shadow-xl">
+              <h3 class="text-lg font-bold text-white mb-5 pb-3 border-b border-amber-600/50">
+                Contact Information
+              </h3>
+              <div class="space-y-3">
+                <div class="flex items-center gap-3">
+                  <div class="flex-shrink-0 w-10 h-10 bg-amber-600/20 rounded-full flex items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-amber-400" viewBox="0 0 24 24"
+                      fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <circle cx="12" cy="12" r="10"></circle>
+                      <polyline points="12 6 12 12 16 14"></polyline>
+                    </svg>
+                  </div>
+                  <div class="flex-1 min-w-0">
+                    <p class="text-xs text-amber-400 uppercase tracking-wide mb-0.5">Check-in</p>
+                    <p class="text-sm text-white font-medium truncate">2:00 PM</p>
+                  </div>
+                </div>
+                <div class="flex items-center gap-3">
+                  <div class="flex-shrink-0 w-10 h-10 bg-amber-600/20 rounded-full flex items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-amber-400" viewBox="0 0 24 24"
+                      fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <circle cx="12" cy="12" r="10"></circle>
+                      <polyline points="12 6 12 12 16 14"></polyline>
+                    </svg>
+                  </div>
+                  <div class="flex-1 min-w-0">
+                    <p class="text-xs text-amber-400 uppercase tracking-wide mb-0.5">Check-out</p>
+                    <p class="text-sm text-white font-medium truncate">11:00 AM</p>
+                  </div>
+                </div>
+                <div class="flex items-center gap-3">
+                  <div class="flex-shrink-0 w-10 h-10 bg-amber-600/20 rounded-full flex items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-amber-400" viewBox="0 0 24 24"
+                      fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                      <circle cx="12" cy="10" r="3"></circle>
+                    </svg>
+                  </div>
+                  <div class="flex-1 min-w-0">
+                    <p class="text-xs text-amber-400 uppercase tracking-wide mb-0.5">Address</p>
+                    <p class="text-sm text-white font-medium truncate">Lonavala, Maharashtra</p>
+                  </div>
+                </div>
+                <div class="flex items-center gap-3">
+                  <div class="flex-shrink-0 w-10 h-10 bg-amber-600/20 rounded-full flex items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-amber-400" viewBox="0 0 24 24"
+                      fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path
+                        d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                      </path>
+                    </svg>
+                  </div>
+                  <div class="flex-1 min-w-0">
+                    <p class="text-xs text-amber-400 uppercase tracking-wide mb-0.5">Phone</p>
+                    <p class="text-sm text-white font-medium truncate">+91 89990 36644</p>
+                  </div>
+                </div>
+                <div class="flex items-center gap-3">
+                  <div class="flex-shrink-0 w-10 h-10 bg-amber-600/20 rounded-full flex items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-amber-400" viewBox="0 0 24 24"
+                      fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                      <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                  </div>
+                  <div class="flex-1 min-w-0">
+                    <p class="text-xs text-amber-400 uppercase tracking-wide mb-0.5">Email</p>
+                    <p class="text-sm text-white font-medium truncate">retrofusion2023@gmail.com</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Side - Compact Form -->
+          <div>
+            <div class="bg-white rounded-xl shadow-xl p-6 lg:p-8 border border-stone-200">
+              <h3 class="text-xl lg:text-2xl font-bold text-stone-900 mb-6">Reserve Your Villa</h3>
+              <form id="booking-form" class="space-y-4">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div>
+                    <label class="block text-xs font-semibold text-stone-700 mb-1.5">First Name *</label>
+                    <input type="text" name="firstName" required
+                      class="w-full px-3 py-2 text-sm border border-stone-300 rounded-lg focus:ring-2 focus:ring-amber-600 focus:border-transparent transition-all outline-none"
+                      placeholder="John" />
+                  </div>
+                  <div>
+                    <label class="block text-xs font-semibold text-stone-700 mb-1.5">Last Name *</label>
+                    <input type="text" name="lastName" required
+                      class="w-full px-3 py-2 text-sm border border-stone-300 rounded-lg focus:ring-2 focus:ring-amber-600 focus:border-transparent transition-all outline-none"
+                      placeholder="Doe" />
+                  </div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div>
+                    <label class="block text-xs font-semibold text-stone-700 mb-1.5">Email Address *</label>
+                    <input type="email" name="email" required
+                      class="w-full px-3 py-2 text-sm border border-stone-300 rounded-lg focus:ring-2 focus:ring-amber-600 focus:border-transparent transition-all outline-none"
+                      placeholder="john@example.com" />
+                  </div>
+                  <div>
+                    <label class="block text-xs font-semibold text-stone-700 mb-1.5">Phone Number *</label>
+                    <input type="tel" name="phone" required
+                      class="w-full px-3 py-2 text-sm border border-stone-300 rounded-lg focus:ring-2 focus:ring-amber-600 focus:border-transparent transition-all outline-none"
+                      placeholder="+91 98765 43210" />
+                  </div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div>
+                    <label class="block text-xs font-semibold text-stone-700 mb-1.5">Total Guests *</label>
+                    <input type="number" name="guests" required min="1"
+                      class="w-full px-3 py-2 text-sm border border-stone-300 rounded-lg focus:ring-2 focus:ring-amber-600 focus:border-transparent transition-all outline-none"
+                      placeholder="4" />
+                  </div>
+                  <div>
+                    <label class="block text-xs font-semibold text-stone-700 mb-1.5">Pets</label>
+                    <input type="number" name="pets" min="0"
+                      class="w-full px-3 py-2 text-sm border border-stone-300 rounded-lg focus:ring-2 focus:ring-amber-600 focus:border-transparent transition-all outline-none"
+                      placeholder="0" />
+                  </div>
+                </div>
+                <div>
+                  <label class="block text-xs font-semibold text-stone-700 mb-1.5">Select Villa *</label>
+                  <select name="villa" required
+                    class="w-full px-3 py-2 text-sm border border-stone-300 rounded-lg focus:ring-2 focus:ring-amber-600 focus:border-transparent transition-all outline-none bg-white">
+                    <option value="">Choose a villa</option>
+                    <option value="villa1">Luxury Villa with Pool</option>
+                    <option value="villa2">Cozy Mountain Retreat</option>
+                    <option value="villa3">Panoramic Valley View</option>
+                    <option value="villa4">Premium Lake House</option>
+                  </select>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div>
+                    <label class="block text-xs font-semibold text-stone-700 mb-1.5">Check In *</label>
+                    <input type="date" name="checkIn" required
+                      class="w-full px-3 py-2 text-sm border border-stone-300 rounded-lg focus:ring-2 focus:ring-amber-600 focus:border-transparent transition-all outline-none" />
+                  </div>
+                  <div>
+                    <label class="block text-xs font-semibold text-stone-700 mb-1.5">Check Out *</label>
+                    <input type="date" name="checkOut" required
+                      class="w-full px-3 py-2 text-sm border border-stone-300 rounded-lg focus:ring-2 focus:ring-amber-600 focus:border-transparent transition-all outline-none" />
+                  </div>
+                </div>
+                <div>
+                  <label class="block text-xs font-semibold text-stone-700 mb-1.5">Message</label>
+                  <textarea name="message" rows="3"
+                    class="w-full px-3 py-2 text-sm border border-stone-300 rounded-lg focus:ring-2 focus:ring-amber-600 focus:border-transparent transition-all outline-none resize-none"
+                    placeholder="Any special requests..."></textarea>
+                </div>
+                <button type="submit"
+                  class="w-full py-3 bg-gradient-to-r from-amber-600 to-amber-700 hover:from-amber-700 hover:to-amber-800 text-white font-bold text-sm rounded-lg shadow-lg transition-all duration-300 uppercase tracking-wide">
+                  Contact Now
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <!-- ===== FOOTER ===== -->
+    <footer class="bg-stone-900 text-stone-300 relative overflow-hidden">
+      <!-- Main Footer Content -->
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-20 relative z-10">
+
+        <!-- Top Section - Brand & CTA -->
+        <div
+          class="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-8 mb-16 pb-12 border-b border-white/10">
+          <div class="flex-1">
+            <img src="https://res.cloudinary.com/damfndmrm/image/upload/v1765779522/Retro_fusion_logo_nmc7kf.png"
+              alt="Retrofusion Logo" class="h-16 w-auto mb-4 brightness-0 invert" />
+            <p class="text-stone-400 max-w-md leading-relaxed text-sm">
+              We are a homestay brand in the holiday capital of Maharashtra, Lonavala. We believe in creating a cozy
+              hospitable tapestry for our clients, helping them realise the intimate joys of villa living.
+            </p>
+          </div>
+          <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+            <div class="flex items-center gap-2 text-amber-400">
+              <!-- 5 Stars -->
+              <svg class="w-5 h-5 fill-amber-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                </polygon>
+              </svg>
+              <svg class="w-5 h-5 fill-amber-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                </polygon>
+              </svg>
+              <svg class="w-5 h-5 fill-amber-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                </polygon>
+              </svg>
+              <svg class="w-5 h-5 fill-amber-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                </polygon>
+              </svg>
+              <svg class="w-5 h-5 fill-amber-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                </polygon>
+              </svg>
+              <span class="text-white text-sm ml-2">500+ Happy Guests</span>
+            </div>
+            <a href="tel:+918999036644"
+              class="px-6 py-3 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-white font-semibold rounded-full transition-all duration-300 shadow-lg hover:shadow-amber-500/25 text-sm flex items-center gap-2">
+              <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                </path>
+              </svg>
+              Book Now
+            </a>
+          </div>
+        </div>
+
+        <!-- Middle Section - Links Grid -->
+        <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8 lg:gap-12 mb-16">
+
+          <!-- Contact Info -->
+          <div class="col-span-2 md:col-span-1 lg:col-span-2">
+            <h4 class="text-white font-bold mb-5 text-sm uppercase tracking-wider">Get in Touch</h4>
+            <div class="space-y-4">
+              <a href="tel:+918999036644"
+                class="flex items-center gap-3 text-stone-400 hover:text-amber-400 transition-colors group">
+                <div
+                  class="w-10 h-10 rounded-lg bg-white/5 group-hover:bg-amber-500/20 flex items-center justify-center transition-colors">
+                  <svg class="w-4 h-4 text-amber-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path
+                      d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                    </path>
+                  </svg>
+                </div>
+                <div>
+                  <p class="text-xs text-stone-500">Call Us</p>
+                  <p class="text-sm text-white">+91 89990 36644</p>
+                </div>
+              </a>
+              <a href="mailto:retrofusion2023@gmail.com"
+                class="flex items-center gap-3 text-stone-400 hover:text-amber-400 transition-colors group">
+                <div
+                  class="w-10 h-10 rounded-lg bg-white/5 group-hover:bg-amber-500/20 flex items-center justify-center transition-colors">
+                  <svg class="w-4 h-4 text-amber-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <p class="text-xs text-stone-500">Email Us</p>
+                  <p class="text-sm text-white">retrofusion2023@gmail.com</p>
+                </div>
+              </a>
+            </div>
+
+            <!-- Social Icons -->
+            <div class="flex gap-3 mt-6">
+              <a href="https://www.instagram.com/retrofusion.in/" target="_blank" rel="noopener noreferrer"
+                class="w-10 h-10 rounded-lg bg-white/5 hover:bg-gradient-to-br hover:from-purple-500 hover:to-pink-500 flex items-center justify-center transition-all duration-300">
+                <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                </svg>
+              </a>
+              <a href="https://www.facebook.com/retrofusion.in" target="_blank" rel="noopener noreferrer"
+                class="w-10 h-10 rounded-lg bg-white/5 hover:bg-blue-600 flex items-center justify-center transition-all duration-300">
+                <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                </svg>
+              </a>
+              <a href="https://www.linkedin.com/company/retrofusion/" target="_blank" rel="noopener noreferrer"
+                class="w-10 h-10 rounded-lg bg-white/5 hover:bg-blue-700 flex items-center justify-center transition-all duration-300">
+                <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                  <rect x="2" y="9" width="4" height="12"></rect>
+                  <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Quick Links -->
+          <div>
+            <h4 class="text-white font-bold mb-5 text-sm uppercase tracking-wider">Quick Links</h4>
+            <ul class="space-y-3">
+              <li><a href="index.html"
+                  class="text-stone-400 hover:text-amber-400 transition-colors text-sm flex items-center gap-2 group"><svg
+                    class="w-3 h-3 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg><span class="group-hover:translate-x-1 transition-transform duration-300">Home</span></a></li>
+              <li><a href="about.html"
+                  class="text-stone-400 hover:text-amber-400 transition-colors text-sm flex items-center gap-2 group"><svg
+                    class="w-3 h-3 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg><span class="group-hover:translate-x-1 transition-transform duration-300">Our Story</span></a>
+              </li>
+              <li><a href="neo-villa.html"
+                  class="text-stone-400 hover:text-amber-400 transition-colors text-sm flex items-center gap-2 group"><svg
+                    class="w-3 h-3 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg><span class="group-hover:translate-x-1 transition-transform duration-300">Neo Retro
+                    Villa</span></a></li>
+              <li><a href="contact.html"
+                  class="text-stone-400 hover:text-amber-400 transition-colors text-sm flex items-center gap-2 group"><svg
+                    class="w-3 h-3 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg><span class="group-hover:translate-x-1 transition-transform duration-300">Contact Us</span></a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Our Villas -->
+          <div>
+            <h4 class="text-white font-bold mb-5 text-sm uppercase tracking-wider">Our Villas</h4>
+            <ul class="space-y-3">
+              <li><a href="retro-villa.html"
+                  class="text-stone-400 hover:text-amber-400 transition-colors text-sm flex items-center gap-2 group"><svg
+                    class="w-3 h-3 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg><span class="group-hover:translate-x-1 transition-transform duration-300">Retro Villa</span></a>
+              </li>
+              <li><a href="neo-villa.html"
+                  class="text-stone-400 hover:text-amber-400 transition-colors text-sm flex items-center gap-2 group"><svg
+                    class="w-3 h-3 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg><span class="group-hover:translate-x-1 transition-transform duration-300">Neo Retro
+                    Villa</span></a></li>
+              <li><a href="viswa-villa.html"
+                  class="text-stone-400 hover:text-amber-400 transition-colors text-sm flex items-center gap-2 group"><svg
+                    class="w-3 h-3 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg><span class="group-hover:translate-x-1 transition-transform duration-300">Retro
+                    Visawa</span></a></li>
+              <li><a href="https://www.linkedin.com/company/retrofusion/posts/" target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-stone-400 hover:text-amber-400 transition-colors text-sm flex items-center gap-2 group"><svg
+                    class="w-3 h-3 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg><span class="group-hover:translate-x-1 transition-transform duration-300">LinkedIn
+                    Articles</span></a></li>
+            </ul>
+          </div>
+
+          <!-- Legal -->
+          <div>
+            <h4 class="text-white font-bold mb-5 text-sm uppercase tracking-wider">Legal</h4>
+            <ul class="space-y-3">
+              <li><a href="cancellation-policy.html"
+                  class="text-stone-400 hover:text-amber-400 transition-colors text-sm flex items-center gap-2 group"><svg
+                    class="w-3 h-3 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg><span class="group-hover:translate-x-1 transition-transform duration-300">Cancellation
+                    Policy</span></a></li>
+              <li><a href="privacy-policy.html"
+                  class="text-stone-400 hover:text-amber-400 transition-colors text-sm flex items-center gap-2 group"><svg
+                    class="w-3 h-3 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg><span class="group-hover:translate-x-1 transition-transform duration-300">Privacy
+                    Policy</span></a></li>
+              <li><a href="terms-conditions.html"
+                  class="text-stone-400 hover:text-amber-400 transition-colors text-sm flex items-center gap-2 group"><svg
+                    class="w-3 h-3 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg><span class="group-hover:translate-x-1 transition-transform duration-300">Terms &
+                    Conditions</span></a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Maps Section -->
+        <div class="mb-12">
+          <h4 class="text-white font-bold mb-6 text-sm uppercase tracking-wider flex items-center gap-3">
+            <svg class="w-5 h-5 text-amber-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            Our Locations
+          </h4>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <!-- Map 1 -->
+            <div class="overflow-hidden">
+              <div class="h-40 w-full rounded-xl overflow-hidden">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15109.873760341943!2d73.38454500000002!3d18.777266000000004!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be801aa57c6135d%3A0x824b8eb6beb6dd96!2sRetro!5e0!3m2!1sen!2sin!4v1768252896855!5m2!1sen!2sin"
+                  width="100%" height="100%" style="border: 0" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade" title="Retro Villa Map"></iframe>
+              </div>
+              <p class="text-white text-sm mt-3 hover:text-amber-400 transition-colors cursor-pointer">Retro Villa,
+                Lonavala, Maharashtra</p>
+            </div>
+            <!-- Map 2 -->
+            <div class="overflow-hidden">
+              <div class="h-40 w-full rounded-xl overflow-hidden">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3777.8224756767913!2d73.40316217536163!3d18.7614649823795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be8012168808e5d%3A0xdf3e3ee6735ba0dd!2sNeo%20Retro%2C%20An%20Artist's%20Delight!5e0!3m2!1sen!2sin!4v1768253378393!5m2!1sen!2sin"
+                  width="100%" height="100%" style="border: 0" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade" title="Neo Retro Map"></iframe>
+              </div>
+              <p class="text-white text-sm mt-3 hover:text-amber-400 transition-colors cursor-pointer">Neo Retro,
+                Lonavala, Maharashtra</p>
+            </div>
+            <!-- Map 3 -->
+            <div class="overflow-hidden">
+              <div class="h-40 w-full rounded-xl overflow-hidden">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3777.5261563188674!2d73.38618412536205!3d18.774690932368895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be8019b5d5ccae7%3A0xc6fc42bf9baf54a!2sRetro%20Visawa!5e0!3m2!1sen!2sin!4v1768252988545!5m2!1sen!2sin"
+                  width="100%" height="100%" style="border: 0" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade" title="Retro Visawa Map"></iframe>
+              </div>
+              <p class="text-white text-sm mt-3 hover:text-amber-400 transition-colors cursor-pointer">Retro Visawa,
+                Lonavala, Maharashtra</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bottom Bar -->
+        <div class="pt-8 border-t border-white/10">
+          <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+            <p class="text-stone-500 text-xs text-center md:text-left">
+              &copy; 2024 Retrofusion Boutique Homestays. All Rights Reserved.
+            </p>
+            <p class="text-stone-500 text-xs text-center md:text-right flex items-center gap-1">
+              Designed with <span class="text-amber-500 text-base">♥</span> for Luxury Travelers
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+  </div><!-- end min-h-screen -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
