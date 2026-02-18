@@ -1088,21 +1088,21 @@
     </section>
 
     <!-- ===== BLOG SECTION ===== -->
-    <section class="py-16 md:py-24 bg-white scroll-reveal">
+    <section class="py-16 md:py-24 bg-white scroll-reveal" id="blog-section">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between items-end mb-12">
           <div>
-            <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-stone-900 mb-3">
+            <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-stone-900 mb-3 font-display">
               Blogs
             </h2>
           </div>
           <div class="flex gap-2">
-            <button id="blog-prev"
+            <button id="blog-prev" aria-label="Previous blog post"
               class="w-10 h-10 border border-stone-300 rounded-full flex items-center justify-center hover:bg-stone-900 hover:text-white hover:border-stone-900 transition-all"><svg
                 class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
               </svg></button>
-            <button id="blog-next"
+            <button id="blog-next" aria-label="Next blog post"
               class="w-10 h-10 border border-stone-300 rounded-full flex items-center justify-center hover:bg-stone-900 hover:text-white hover:border-stone-900 transition-all"><svg
                 class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
@@ -1111,58 +1111,13 @@
         </div>
 
         <div class="relative overflow-hidden pl-1">
-          <div id="blog-slider-track" class="blog-slider-track flex w-full">
-            <!-- Blog Card 1 -->
-            <div class="w-full md:w-1/2 flex-shrink-0 pr-6">
-              <div
-                class="group h-full bg-white rounded-xl shadow-lg overflow-hidden border border-stone-200 hover:shadow-xl transition-shadow duration-300 flex h-40">
-                <!-- Image on LEFT -->
-                <div class="relative w-48 flex-shrink-0 overflow-hidden">
-                  <img src="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800&h=600&fit=crop"
-                    alt="Travel" class="w-full h-full object-cover" />
-                </div>
-                <!-- Content on RIGHT -->
-                <div class="flex-1 p-5 flex flex-col justify-between">
-                  <div>
-                    <h3 class="text-base font-bold text-stone-900 mb-2 line-clamp-2 leading-snug">
-                      Best Places to Travel in November in India:...
-                    </h3>
-                    <p class="text-sm text-stone-600 line-clamp-2">
-                      Places to travel in November in India offer something...
-                    </p>
-                  </div>
-                  <a href="blog-post.html"
-                    class="inline-block self-start px-4 py-2 bg-stone-900 text-white text-sm rounded-lg hover:bg-stone-800 transition-colors duration-200">
-                    Read More
-                  </a>
-                </div>
-              </div>
-            </div>
-            <!-- Blog Card 2 -->
-            <div class="w-full md:w-1/2 flex-shrink-0 pr-6">
-              <div
-                class="group h-full bg-white rounded-xl shadow-lg overflow-hidden border border-stone-200 hover:shadow-xl transition-shadow duration-300 flex h-40">
-                <!-- Image on LEFT -->
-                <div class="relative w-48 flex-shrink-0 overflow-hidden">
-                  <img src="https://images.unsplash.com/photo-1478145787956-f6f12c59624d?w=800&h=600&fit=crop"
-                    alt="Corporate" class="w-full h-full object-cover" />
-                </div>
-                <!-- Content on RIGHT -->
-                <div class="flex-1 p-5 flex flex-col justify-between">
-                  <div>
-                    <h3 class="text-base font-bold text-stone-900 mb-2 line-clamp-2 leading-snug">
-                      Corporate Retreats in Diwali: Top 10...
-                    </h3>
-                    <p class="text-sm text-stone-600 line-clamp-2">
-                      Celebrating Diwali as a corporate event combines...
-                    </p>
-                  </div>
-                  <a href="blog-post.html"
-                    class="inline-block self-start px-4 py-2 bg-stone-900 text-white text-sm rounded-lg hover:bg-stone-800 transition-colors duration-200">
-                    Read More
-                  </a>
-                </div>
-              </div>
+          <!-- Dynamic Blog Container -->
+          <div id="blog-container"
+            class="flex flex-nowrap sm:grid sm:grid-cols-2 lg:grid-cols-3 gap-6 overflow-x-auto sm:overflow-visible pb-4 sm:pb-0 snap-x snap-mandatory scrollbar-hide">
+            <!-- Blog posts will be injected here by js/blog.js -->
+            <div class="w-full text-center py-10">
+              <div class="inline-block animate-spin rounded-full h-8 w-8 border-b-2 border-stone-900"></div>
+              <p class="mt-2 text-stone-500 text-sm">Loading latest stories...</p>
             </div>
           </div>
         </div>
@@ -1728,6 +1683,7 @@
 
   </div><!-- end min-h-screen -->
   <script src="js/main.js"></script>
+  <script src="js/blog.js"></script>
 </body>
 
 </html>
