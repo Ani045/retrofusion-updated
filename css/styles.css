@@ -40,6 +40,35 @@ body {
   background: #b45309;
 }
 
+/* Green scrollbar for founder message */
+.founder-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+
+.founder-scroll::-webkit-scrollbar-track {
+  background: #ecf3f1;
+  border-radius: 3px;
+}
+
+.founder-scroll::-webkit-scrollbar-thumb {
+  background: #0F2A24;
+  border-radius: 3px;
+}
+
+.founder-scroll::-webkit-scrollbar-thumb:hover {
+  background: #143c33;
+}
+
+.founder-scroll {
+  scrollbar-color: #0F2A24 #ecf3f1;
+  scrollbar-width: thin;
+}
+
+/* Green-tinted icons */
+.icon-green {
+  filter: brightness(0) saturate(100%) invert(13%) sepia(25%) saturate(1200%) hue-rotate(120deg) brightness(95%);
+}
+
 /* ===== Line Clamp ===== */
 .line-clamp-2 {
   display: -webkit-box;
@@ -321,12 +350,12 @@ img {
 .hero-image-layer {
   position: absolute;
   inset: 0;
-  max-width: 100vw;
+  width: 100%;
   height: 100%;
 }
 
 .hero-image-layer img {
-  max-width: 100vw;
+  width: 100%;
   height: 100%;
   object-fit: cover;
 }

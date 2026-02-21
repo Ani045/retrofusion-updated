@@ -84,7 +84,8 @@ function initMobileMenu() {
         menuOpen = !menuOpen;
         if (menuOpen) {
             mobileMenu.classList.remove('hidden');
-            mobileMenu.style.maxHeight = mobileMenu.scrollHeight + 'px';
+            // Use a large fixed value to avoid clipping when sub-panels expand
+            mobileMenu.style.maxHeight = '2000px';
             mobileMenu.style.opacity = '1';
             if (menuIcon) menuIcon.classList.add('hidden');
             if (closeIcon) closeIcon.classList.remove('hidden');
@@ -100,6 +101,8 @@ function initMobileMenu() {
                 mobileVillasPanel.style.maxHeight = '0';
                 mobileVillasPanel.style.opacity = '0';
             }
+            const chevron = mobileVillasBtn ? mobileVillasBtn.querySelector('.mobile-chevron') : null;
+            if (chevron) chevron.style.transform = 'rotate(0deg)';
         }
     });
 
