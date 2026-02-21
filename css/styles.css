@@ -9,6 +9,12 @@ html {
   scroll-behavior: smooth;
 }
 
+html,
+body {
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
 body {
   font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   font-size: 9pt;
@@ -20,13 +26,16 @@ body {
 ::-webkit-scrollbar {
   width: 8px;
 }
+
 ::-webkit-scrollbar-track {
   background: #f1f5f9;
 }
+
 ::-webkit-scrollbar-thumb {
   background: #d97706;
   border-radius: 4px;
 }
+
 ::-webkit-scrollbar-thumb:hover {
   background: #b45309;
 }
@@ -35,12 +44,15 @@ body {
 .line-clamp-2 {
   display: -webkit-box;
   -webkit-line-clamp: 2;
+  line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+
 .line-clamp-3 {
   display: -webkit-box;
   -webkit-line-clamp: 3;
+  line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
@@ -52,14 +64,17 @@ body {
   color: #1c1917;
   margin: 2rem 0 1rem 0;
 }
+
 .prose p {
   margin: 1rem 0;
   line-height: 1.75;
 }
+
 .prose ul {
   margin: 1rem 0;
   padding-left: 1.5rem;
 }
+
 .prose li {
   margin: 0.5rem 0;
 }
@@ -70,19 +85,27 @@ body {
     opacity: 0;
     transform: translateY(30px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
   }
 }
+
 .animate-fade-in-up {
   animation: fadeInUp 0.6s ease-out forwards;
 }
 
 @keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
+
 .animate-fade-in {
   animation: fadeIn 0.6s ease-out forwards;
 }
@@ -92,48 +115,108 @@ body {
     opacity: 0;
     transform: translateY(-100px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
   }
 }
+
 .animate-slide-down {
   animation: slideDown 0.6s ease-out forwards;
 }
 
 @keyframes scaleX {
-  from { transform: scaleX(0); }
-  to { transform: scaleX(1); }
+  from {
+    transform: scaleX(0);
+  }
+
+  to {
+    transform: scaleX(1);
+  }
 }
+
 .animate-scale-x {
   animation: scaleX 1s ease-out 1.2s forwards;
   transform: scaleX(0);
 }
 
 @keyframes bounce {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(10px); }
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(10px);
+  }
 }
+
 .animate-bounce-slow {
   animation: bounce 1.5s ease-in-out infinite;
 }
 
 /* Stagger animation delays */
-.delay-100 { animation-delay: 0.1s; }
-.delay-200 { animation-delay: 0.2s; }
-.delay-300 { animation-delay: 0.3s; }
-.delay-400 { animation-delay: 0.4s; }
-.delay-500 { animation-delay: 0.5s; }
-.delay-600 { animation-delay: 0.6s; }
-.delay-700 { animation-delay: 0.7s; }
-.delay-800 { animation-delay: 0.8s; }
-.delay-900 { animation-delay: 0.9s; }
-.delay-1000 { animation-delay: 1.0s; }
-.delay-1200 { animation-delay: 1.2s; }
-.delay-1500 { animation-delay: 1.5s; }
-.delay-1700 { animation-delay: 1.7s; }
-.delay-1850 { animation-delay: 1.85s; }
-.delay-2000 { animation-delay: 2.0s; }
+.delay-100 {
+  animation-delay: 0.1s;
+}
+
+.delay-200 {
+  animation-delay: 0.2s;
+}
+
+.delay-300 {
+  animation-delay: 0.3s;
+}
+
+.delay-400 {
+  animation-delay: 0.4s;
+}
+
+.delay-500 {
+  animation-delay: 0.5s;
+}
+
+.delay-600 {
+  animation-delay: 0.6s;
+}
+
+.delay-700 {
+  animation-delay: 0.7s;
+}
+
+.delay-800 {
+  animation-delay: 0.8s;
+}
+
+.delay-900 {
+  animation-delay: 0.9s;
+}
+
+.delay-1000 {
+  animation-delay: 1.0s;
+}
+
+.delay-1200 {
+  animation-delay: 1.2s;
+}
+
+.delay-1500 {
+  animation-delay: 1.5s;
+}
+
+.delay-1700 {
+  animation-delay: 1.7s;
+}
+
+.delay-1850 {
+  animation-delay: 1.85s;
+}
+
+.delay-2000 {
+  animation-delay: 2.0s;
+}
 
 /* Scroll reveal animation */
 .scroll-reveal {
@@ -141,24 +224,29 @@ body {
   transform: translateY(30px);
   transition: opacity 0.8s ease-out, transform 0.8s ease-out;
 }
+
 .scroll-reveal.visible {
   opacity: 1;
   transform: translateY(0);
 }
+
 .scroll-reveal-left {
   opacity: 0;
   transform: translateX(-30px);
   transition: opacity 0.8s ease-out, transform 0.8s ease-out;
 }
+
 .scroll-reveal-left.visible {
   opacity: 1;
   transform: translateX(0);
 }
+
 .scroll-reveal-right {
   opacity: 0;
   transform: translateX(30px);
   transition: opacity 0.8s ease-out, transform 0.8s ease-out;
 }
+
 .scroll-reveal-right.visible {
   opacity: 1;
   transform: translateX(0);
@@ -179,30 +267,39 @@ select:focus {
   position: relative;
   overflow: hidden;
 }
+
 .loading::after {
   content: '';
   position: absolute;
   top: 0;
   left: -100%;
-  width: 100%;
+  max-width: 100vw;
   height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
   animation: loading 1.5s infinite;
 }
+
 @keyframes loading {
-  0% { left: -100%; }
-  100% { left: 100%; }
+  0% {
+    left: -100%;
+  }
+
+  100% {
+    left: 100%;
+  }
 }
 
 /* ===== Responsive image handling ===== */
 img {
-  max-width: 100%;
+  max-width: 100vw;
   height: auto;
 }
 
 /* ===== Print ===== */
 @media print {
-  .no-print { display: none !important; }
+  .no-print {
+    display: none !important;
+  }
 }
 
 /* ===== Scrollbar hide for horizontal scroll ===== */
@@ -210,6 +307,7 @@ img {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
 }
@@ -223,14 +321,23 @@ img {
 .hero-image-layer {
   position: absolute;
   inset: 0;
-  width: 100%;
+  max-width: 100vw;
   height: 100%;
 }
+
 .hero-image-layer img {
-  width: 100%;
+  max-width: 100vw;
   height: 100%;
   object-fit: cover;
-  transform: scale(1.25);
+}
+
+/* ===== Nav Logo White Filter (transparent navbar) ===== */
+#nav-logo {
+  transition: filter 0.3s ease, opacity 0.3s ease;
+}
+
+#nav-logo.logo-white {
+  filter: brightness(0) invert(1);
 }
 
 /* ===== Mega Menu ===== */
@@ -244,17 +351,20 @@ img {
   justify-content: center;
   padding: 0 1rem;
 }
+
 @media (min-width: 640px) {
   .mega-menu-wrapper {
     top: 80px;
     padding: 0 1.5rem;
   }
 }
+
 @media (min-width: 1024px) {
   .mega-menu-wrapper {
     padding: 0 2rem;
   }
 }
+
 .mega-menu-wrapper.active {
   display: flex;
 }
@@ -265,10 +375,12 @@ img {
   opacity: 0;
   transition: all 0.7s ease-out;
 }
+
 .villa-card:hover .villa-card-overlay {
   transform: translateY(0);
   opacity: 1;
 }
+
 .villa-card:hover .villa-card-name {
   opacity: 0;
 }

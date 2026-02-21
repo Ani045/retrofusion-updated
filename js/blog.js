@@ -25,27 +25,29 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
 
                 const cardHTML = `
-                    <div class="w-full md:w-[48%] lg:w-[32%] flex-shrink-0 snap-start">
-                        <div class="group h-full bg-white rounded-xl shadow-md overflow-hidden border border-stone-200 hover:shadow-xl transition-all duration-300 flex flex-col h-full">
+                    <div class="w-[85vw] sm:w-full flex-shrink-0 snap-start h-full">
+                        <article class="h-full bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-all duration-300 group hover:-translate-y-2 flex flex-col border border-stone-100">
                             <!-- Image -->
-                            <div class="relative w-full aspect-[3/4] flex-shrink-0 overflow-hidden bg-stone-100">
-                                <img src="${imageUrl}" alt="${title}" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                            <div class="relative h-56 sm:h-64 flex-shrink-0 overflow-hidden bg-stone-100">
+                                <img src="${imageUrl}" alt="${title}" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
                             </div>
                             <!-- Content -->
-                            <div class="flex-1 p-5 flex flex-col justify-between border-t border-stone-100">
+                            <div class="p-6 flex-1 flex flex-col justify-between">
                                 <div>
-                                    <h3 class="text-base sm:text-lg font-bold text-stone-900 mb-2 line-clamp-2 leading-snug font-display">
+                                    <h3 class="text-xl font-bold text-stone-900 mb-3 font-display leading-tight group-hover:text-amber-700 transition-colors line-clamp-2">
                                         ${title}
                                     </h3>
-                                    <p class="text-xs sm:text-sm text-stone-600 line-clamp-3 mb-4">
+                                    <p class="text-stone-500 text-sm leading-relaxed mb-4 line-clamp-3">
                                         ${excerpt}
                                     </p>
                                 </div>
-                                <a href="${link}" target="_blank" class="inline-block self-start px-5 py-2.5 bg-stone-900 text-white text-xs font-bold uppercase tracking-wider rounded-lg hover:bg-stone-700 transition-colors duration-200">
-                                    Read More
+                                <a href="${link}" target="_blank" class="inline-flex items-center text-stone-900 font-semibold text-sm hover:text-amber-700 transition-colors mt-auto">
+                                    Read More <svg class="w-3 h-3 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                                    </svg>
                                 </a>
                             </div>
-                        </div>
+                        </article>
                     </div>
                 `;
                 blogContainer.insertAdjacentHTML('beforeend', cardHTML);

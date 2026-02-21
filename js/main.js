@@ -27,7 +27,7 @@ function initNavbar() {
             nav.classList.add('bg-white/95', 'backdrop-blur-md', 'shadow-lg');
             nav.classList.remove('bg-transparent');
             if (logo) {
-                logo.classList.remove('brightness-0', 'invert');
+                logo.classList.remove('logo-white');
             }
             navLinks.forEach(link => {
                 link.classList.add('text-stone-800');
@@ -45,7 +45,7 @@ function initNavbar() {
             nav.classList.remove('bg-white/95', 'backdrop-blur-md', 'shadow-lg');
             nav.classList.add('bg-transparent');
             if (logo) {
-                logo.classList.add('brightness-0', 'invert');
+                logo.classList.add('logo-white');
             }
             navLinks.forEach(link => {
                 link.classList.remove('text-stone-800');
