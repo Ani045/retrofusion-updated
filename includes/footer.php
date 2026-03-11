@@ -158,7 +158,7 @@
                     <polyline points="12 5 19 12 12 19"></polyline>
                   </svg><span class="group-hover:translate-x-1 transition-transform duration-300">Our Story</span></a>
               </li>
-              <li><a href="neo-villa.php"
+              <li><a href="neo-retro"
                   class="text-stone-400 hover:text-amber-400 transition-colors text-sm flex items-center gap-2 group"><svg
                     class="w-3 h-3 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300"
                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -183,7 +183,7 @@
           <div>
             <h4 class="text-white font-bold mb-5 text-sm uppercase tracking-wider">Our Villas</h4>
             <ul class="space-y-3">
-              <li><a href="retro-villa.php"
+              <li><a href="retro-villas"
                   class="text-stone-400 hover:text-amber-400 transition-colors text-sm flex items-center gap-2 group"><svg
                     class="w-3 h-3 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300"
                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -192,7 +192,7 @@
                     <polyline points="12 5 19 12 12 19"></polyline>
                   </svg><span class="group-hover:translate-x-1 transition-transform duration-300">Retro Villa</span></a>
               </li>
-              <li><a href="neo-villa.php"
+              <li><a href="neo-retro"
                   class="text-stone-400 hover:text-amber-400 transition-colors text-sm flex items-center gap-2 group"><svg
                     class="w-3 h-3 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300"
                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -201,7 +201,7 @@
                     <polyline points="12 5 19 12 12 19"></polyline>
                   </svg><span class="group-hover:translate-x-1 transition-transform duration-300">Neo Retro
                     Villa</span></a></li>
-              <li><a href="viswa-villa.php"
+              <li><a href="retro-viswa-lonavala"
                   class="text-stone-400 hover:text-amber-400 transition-colors text-sm flex items-center gap-2 group"><svg
                     class="w-3 h-3 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300"
                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"

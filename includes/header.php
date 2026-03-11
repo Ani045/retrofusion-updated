@@ -146,13 +146,13 @@
             </button>
             <div id="mobile-villas-panel" class="ml-4 mt-2 space-y-2 overflow-hidden transition-all duration-300"
               style="max-height:0;opacity:0;">
-              <a href="viswa-villa.php"
+              <a href="retro-viswa-lonavala"
                 class="block px-3 py-2 text-stone-600 hover:text-amber-600 hover:bg-amber-50 rounded-lg transition-colors text-base">Retro
                 Visawa</a>
-              <a href="neo-villa.php"
+              <a href="neo-retro"
                 class="block px-3 py-2 text-stone-600 hover:text-amber-600 hover:bg-amber-50 rounded-lg transition-colors text-base">Neo
                 Retro Villa</a>
-              <a href="retro-villa.php"
+              <a href="retro-villas"
                 class="block px-3 py-2 text-stone-600 hover:text-amber-600 hover:bg-amber-50 rounded-lg transition-colors text-base">Retro
                 Villa</a>
             </div>
@@ -180,7 +180,7 @@
 
           </div>
           <div class="grid grid-cols-1 md:grid-cols-3 gap-5 lg:gap-6">
-            <a href="viswa-villa.php" class="group block">
+            <a href="retro-viswa-lonavala" class="group block">
               <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-all duration-500">
                 <div class="relative h-40 sm:h-44 md:h-48 overflow-hidden"><img
                     src="https://res.cloudinary.com/dprafk917/video/upload/so_2/v1769858399/8wr207mfxnrmy0cvd61bd2gn1g_result__viprl7.jpg"
@@ -205,7 +205,7 @@
                 </div>
               </div>
             </a>
-            <a href="neo-villa.php" class="group block">
+            <a href="neo-retro" class="group block">
               <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-all duration-500">
                 <div class="relative h-40 sm:h-44 md:h-48 overflow-hidden"><img
                     src="https://res.cloudinary.com/dprafk917/video/upload/so_2/v1768241694/1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg"
@@ -231,7 +231,7 @@
                 </div>
               </div>
             </a>
-            <a href="retro-villa.php" class="group block">
+            <a href="retro-villas" class="group block">
               <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-all duration-500">
                 <div class="relative h-40 sm:h-44 md:h-48 overflow-hidden"><img
                     src="https://res.cloudinary.com/dprafk917/video/upload/so_3/v1769867671/final_nkd4ry.jpg"

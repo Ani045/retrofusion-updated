@@ -19,7 +19,7 @@ include 'includes/header.php';
 
           </div>
           <div class="grid grid-cols-1 md:grid-cols-3 gap-5 lg:gap-6">
-            <a href="viswa-villa.php" class="group block">
+            <a href="retro-viswa-lonavala" class="group block">
               <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-all duration-500">
                 <div class="relative h-40 sm:h-44 md:h-48 overflow-hidden"><img
                     src="https://res.cloudinary.com/dprafk917/video/upload/so_2/v1769858399/8wr207mfxnrmy0cvd61bd2gn1g_result__viprl7.jpg"
@@ -45,7 +45,7 @@ include 'includes/header.php';
                 </div>
               </div>
             </a>
-            <a href="neo-villa.php" class="group block">
+            <a href="neo-retro" class="group block">
               <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-all duration-500">
                 <div class="relative h-40 sm:h-44 md:h-48 overflow-hidden"><img
                     src="https://res.cloudinary.com/dprafk917/video/upload/so_2/v1768241694/1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg"
@@ -71,7 +71,7 @@ include 'includes/header.php';
                 </div>
               </div>
             </a>
-            <a href="retro-villa.php" class="group block">
+            <a href="retro-villas" class="group block">
               <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-all duration-500">
                 <div class="relative h-40 sm:h-44 md:h-48 overflow-hidden"><img
                     src="https://res.cloudinary.com/dprafk917/video/upload/so_3/v1769867671/final_nkd4ry.jpg"
