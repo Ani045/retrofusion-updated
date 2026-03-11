@@ -1,373 +1,4 @@
-<!doctype html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/png"
-    href="https://res.cloudinary.com/dprafk917/image/upload/v1769939688/FAV-ICONS-adobe_nisyxz.png" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Marcellus&family=Dancing+Script:wght@400..700&display=swap"
-    rel="stylesheet">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-
-          colors: {
-            amber: {
-              50: '#ecf3f1',
-              100: '#d0e1dd',
-              200: '#a7c8c2',
-              300: '#75a89e',
-              400: '#48857a',
-              500: '#2b695e',
-              600: '#0F2A24',
-              700: '#143c33',
-              800: '#12312b',
-              900: '#112924',
-              950: '#081714',
-            }
-          },
-          fontFamily: {
-            'sans': ['DM Sans', 'ui-sans-serif', 'system-ui', 'sans-serif'],
-            'display': ['Marcellus', 'serif'],
-            'body': ['DM Sans', 'ui-sans-serif', 'system-ui', 'sans-serif'],
-          },
-          fontSize: { 'base': ['9pt', { lineHeight: '1.5' }] }
-        }
-      }
-    }
-  </script>
-  <link rel="stylesheet" href="css/styles.css">
-  <meta name="description" content="Retrofusion Privacy Policy - How we protect your data." />
-  <title>Privacy Policy - Retrofusion Boutique Homestays</title>
-</head>
-
-<body>
-  <div class="min-h-screen bg-[#F4EFEA] overflow-x-hidden">
-
-    <!-- ===== NAVBAR ===== -->
-    <nav id="navbar"
-      class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-transparent animate-slide-down">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="flex justify-between items-center h-16 sm:h-20 w-full">
-          <div class="flex-shrink-0 flex items-center lg:w-1/3 justify-start">
-            <a href="index.html" class="flex items-center">
-              <img id="nav-logo"
-                src="https://res.cloudinary.com/damfndmrm/image/upload/v1771665559/Retrofusion_logo__20260211_230238_0000_sufgcp.png"
-                alt="Retrofusion Logo"
-                class="logo-white w-32 sm:w-40 md:w-48 xl:w-56 h-auto object-contain transition-all duration-300 origin-left" />
-            </a>
-          </div>
-          <div class="hidden lg:flex items-center justify-center space-x-6 xl:space-x-8 lg:w-1/3">
-            <a href="about.html"
-              class="nav-link text-white hover:text-amber-400 transition-colors font-medium text-lg relative group">
-              <span class="text-sm sm:text-base lg:text-lg">About</span>
-              <span
-                class="absolute -bottom-1 left-0 w-0 h-0.5 bg-amber-600 transition-all duration-300 group-hover:w-full"></span>
-            </a>
-            <a href="contact.html"
-              class="nav-link text-white hover:text-amber-400 transition-colors font-medium text-lg relative group">
-              <span class="text-sm sm:text-base lg:text-lg">Contact</span>
-              <span
-                class="absolute -bottom-1 left-0 w-0 h-0.5 bg-amber-600 transition-all duration-300 group-hover:w-full"></span>
-            </a>
-            <div id="villas-dropdown-btn" class="relative">
-              <button
-                class="nav-link text-white hover:text-amber-400 transition-colors font-medium text-lg flex items-center space-x-1 group">
-                <span class="text-sm sm:text-base lg:text-lg">Our Villas</span>
-                <svg class="w-4 h-4 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor"
-                  viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-                </svg>
-                <span
-                  class="absolute -bottom-1 left-0 w-0 h-0.5 bg-amber-600 transition-all duration-300 group-hover:w-full"></span>
-              </button>
-            </div>
-          </div>
-          <div class="flex items-center justify-end lg:w-1/3 gap-4">
-            <a href="contact.html#name"
-              class="hidden lg:flex items-center justify-center bg-[#0F2A24] text-[#F4EFEA] px-6 py-2.5 rounded-full font-medium transition-colors duration-300 hover:bg-amber-600 hover:text-white text-sm xl:text-base border border-transparent hover:border-amber-600">Enquire Now</a>
-            <div class="lg:hidden">
-              <button id="mobile-menu-btn" class="text-white hover:text-amber-600 transition-colors">
-                <svg id="menu-icon" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-                </svg>
-                <svg id="close-icon" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-                </svg>
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Mobile Menu -->
-      <div id="mobile-menu"
-        class="lg:hidden bg-white/95 backdrop-blur-md border-t border-stone-200 hidden overflow-hidden transition-all duration-300"
-        style="max-height:0;opacity:0;">
-        <div class="px-4 py-6 space-y-4">
-          <a href="about.html"
-            class="block px-3 py-3 text-stone-700 hover:text-amber-600 hover:bg-amber-50 font-medium text-base sm:text-lg rounded-lg transition-colors">About</a>
-          <a href="contact.html"
-            class="block px-3 py-3 text-stone-700 hover:text-amber-600 hover:bg-amber-50 font-medium text-base sm:text-lg rounded-lg transition-colors">Contact</a>
-          <div class="border-t border-stone-200 pt-4">
-            <button id="mobile-villas-btn"
-              class="w-full flex items-center justify-between px-3 py-3 text-stone-700 hover:text-amber-600 font-medium text-base sm:text-lg">
-              <span>Our Villas</span>
-              <svg class="mobile-chevron w-4 h-4 transition-transform" fill="none" stroke="currentColor"
-                viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-              </svg>
-            </button>
-            <div id="mobile-villas-panel" class="ml-4 mt-2 space-y-2 overflow-hidden transition-all duration-300"
-              style="max-height:0;opacity:0;">
-              <a href="viswa-villa.html"
-                class="block px-3 py-2 text-stone-600 hover:text-amber-600 hover:bg-amber-50 rounded-lg transition-colors text-base">Retro
-                Visawa</a>
-              <a href="neo-villa.html"
-                class="block px-3 py-2 text-stone-600 hover:text-amber-600 hover:bg-amber-50 rounded-lg transition-colors text-base">Neo
-                Retro Villa</a>
-              <a href="retro-villa.html"
-                class="block px-3 py-2 text-stone-600 hover:text-amber-600 hover:bg-amber-50 rounded-lg transition-colors text-base">Retro
-                Villa</a>
-            </div>
-          </div>
-          <div class="border-t border-stone-200 pt-4">
-            <a href="contact.html#name"
-              class="block w-full text-center bg-[#0F2A24] text-white px-6 py-3 rounded-full font-medium transition-colors duration-300 hover:bg-amber-600 text-base">Enquire Now</a>
-          </div>
-        </div>
-      </div>
-    </nav>
-
-    <!-- ===== MEGA MENU ===== -->
-    <div id="mega-menu" class="mega-menu-wrapper"
-      style="opacity:0;transform:translateY(-10px);transition:all 0.2s ease;">
-      <div class="w-full max-w-7xl bg-white shadow-2xl border border-stone-200 rounded-2xl overflow-hidden">
-        <div class="px-6 sm:px-8 lg:px-10 py-6 sm:py-8">
-          <div class="flex items-center justify-between mb-6">
-            <div>
-              <h3 class="text-xl sm:text-2xl font-bold text-stone-800 font-display">Our <span
-                  class="text-amber-600">Villas</span></h3>
-              <p class="text-stone-500 text-sm mt-1">Discover our curated collection of luxury stays</p>
-            </div>
-            
-          </div>
-          <div class="grid grid-cols-1 md:grid-cols-3 gap-5 lg:gap-6">
-            <a href="viswa-villa.html" class="group block">
-              <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-all duration-500">
-                <div class="relative h-40 sm:h-44 md:h-48 overflow-hidden"><img
-                    src="https://res.cloudinary.com/dprafk917/video/upload/so_2/v1769858399/8wr207mfxnrmy0cvd61bd2gn1g_result__viprl7.jpg"
-                    alt="Retro Visawa" class="w-full h-full object-cover scale-125 transition-transform duration-700" />
-                  <div
-                    class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/20 to-transparent group-hover:from-black/85 transition-colors duration-300">
-                  </div>
-                  <div class="absolute bottom-0 left-0 right-0 p-4">
-                    <h4
-                      class="text-lg lg:text-xl font-bold text-white mb-0.5 group-hover:text-amber-300 transition-colors font-display">
-                      Retro Visawa</h4>
-                    <p class="text-white/80 text-xs font-light">Spacious 4BHK with private pool for groups</p>
-                    <div
-                      class="mt-2 flex items-center gap-1.5 text-amber-400 text-xs font-medium opacity-0 group-hover:opacity-100 transform translate-y-2 group-hover:translate-y-0 transition-all duration-300">
-                      <span>Explore</span><svg class="w-3 h-3 group-hover:translate-x-1 transition-transform"
-                        fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                          d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                      </svg>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-            <a href="neo-villa.html" class="group block">
-              <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-all duration-500">
-                <div class="relative h-40 sm:h-44 md:h-48 overflow-hidden"><img
-                    src="https://res.cloudinary.com/dprafk917/video/upload/so_2/v1768241694/1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg"
-                    alt="Neo Retro Villa"
-                    class="w-full h-full object-cover scale-125 transition-transform duration-700" />
-                  <div
-                    class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/20 to-transparent group-hover:from-black/85 transition-colors duration-300">
-                  </div>
-                  <div class="absolute bottom-0 left-0 right-0 p-4">
-                    <h4
-                      class="text-lg lg:text-xl font-bold text-white mb-0.5 group-hover:text-amber-300 transition-colors font-display">
-                      Neo Retro Villa</h4>
-                    <p class="text-white/80 text-xs font-light">Artistic retreat with jacuzzi &amp; mountain views</p>
-                    <div
-                      class="mt-2 flex items-center gap-1.5 text-amber-400 text-xs font-medium opacity-0 group-hover:opacity-100 transform translate-y-2 group-hover:translate-y-0 transition-all duration-300">
-                      <span>Explore</span><svg class="w-3 h-3 group-hover:translate-x-1 transition-transform"
-                        fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                          d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                      </svg>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-            <a href="retro-villa.html" class="group block">
-              <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-all duration-500">
-                <div class="relative h-40 sm:h-44 md:h-48 overflow-hidden"><img
-                    src="https://res.cloudinary.com/dprafk917/video/upload/so_3/v1769867671/final_nkd4ry.jpg"
-                    alt="Retro Villa" class="w-full h-full object-cover scale-125 transition-transform duration-700" />
-                  <div
-                    class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/20 to-transparent group-hover:from-black/85 transition-colors duration-300">
-                  </div>
-                  <div class="absolute bottom-0 left-0 right-0 p-4">
-                    <h4
-                      class="text-lg lg:text-xl font-bold text-white mb-0.5 group-hover:text-amber-300 transition-colors font-display">
-                      Retro Villa</h4>
-                    <p class="text-white/80 text-xs font-light">Vintage escape with plunge pool &amp; terrace</p>
-                    <div
-                      class="mt-2 flex items-center gap-1.5 text-amber-400 text-xs font-medium opacity-0 group-hover:opacity-100 transform translate-y-2 group-hover:translate-y-0 transition-all duration-300">
-                      <span>Explore</span><svg class="w-3 h-3 group-hover:translate-x-1 transition-transform"
-                        fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                          d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                      </svg>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- ===== PRIVACY POLICY CONTENT ===== -->
-
-    <!-- Hero Section -->
-    <section class="relative h-[40vh] md:h-[50vh] flex items-center justify-center overflow-hidden">
-      <div class="absolute inset-0 z-0">
-        <img
-          src="https://res.cloudinary.com/dprafk917/image/upload/v1768230663/5d93e66d-23b4-4578-bb58-35032b8b39b8_cftv5v.avif"
-          alt="Privacy Policy" class="w-full h-full object-cover" />
-        <div class="absolute inset-0 bg-gradient-to-b from-black/50 via-black/40 to-black/60"></div>
-      </div>
-
-      <div class="relative z-10 text-center px-4 max-w-4xl mx-auto scroll-reveal">
-        <div>
-          <span class="text-white uppercase tracking-[0.3em] text-sm mb-4 block font-light">
-            Legal
-          </span>
-          <h1 class="text-4xl md:text-6xl text-white font-bold mb-4 font-display">
-            Privacy Policy
-          </h1>
-          <p class="text-stone-300 text-lg font-light max-w-xl mx-auto">
-            Your privacy matters to us
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Content Section -->
-    <section class="py-16 md:py-24">
-      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="bg-white rounded-2xl shadow-lg border border-stone-100 p-8 md:p-12 scroll-reveal">
-          <div class="space-y-10">
-            <!-- Section 1 -->
-            <div>
-              <h2 class="text-xl md:text-2xl font-bold text-stone-900 mb-4 font-display">
-                1. Introduction
-              </h2>
-              <p class="text-stone-600 leading-relaxed">
-                At Retrofusion, we are committed to protecting the privacy and security of our
-                customers' information.
-              </p>
-            </div>
-            <!-- Section 2 -->
-            <div class="pt-10 border-t border-stone-100">
-              <h2 class="text-xl md:text-2xl font-bold text-stone-900 mb-4 font-display">
-                2. Information Collection and Use
-              </h2>
-              <p class="text-stone-600 leading-relaxed">
-                We collect personal information (like names, addresses, email addresses, etc.) only when
-                voluntarily submitted by our visitors. This information is used only to fulfill your
-                specific request, unless you give us permission to use it in another manner.
-              </p>
-            </div>
-            <!-- Section 3 -->
-            <div class="pt-10 border-t border-stone-100">
-              <h2 class="text-xl md:text-2xl font-bold text-stone-900 mb-4 font-display">
-                3. Data Storage and Security
-              </h2>
-              <p class="text-stone-600 leading-relaxed">
-                We implement a variety of security measures to maintain the safety of your personal
-                information.
-              </p>
-            </div>
-            <!-- Section 4 -->
-            <div class="pt-10 border-t border-stone-100">
-              <h2 class="text-xl md:text-2xl font-bold text-stone-900 mb-4 font-display">
-                4. Sharing of Data
-              </h2>
-              <p class="text-stone-600 leading-relaxed">
-                We do not sell, trade, or otherwise transfer to outside parties your personally
-                identifiable information.
-              </p>
-            </div>
-            <!-- Section 5 -->
-            <div class="pt-10 border-t border-stone-100">
-              <h2 class="text-xl md:text-2xl font-bold text-stone-900 mb-4 font-display">
-                5. User Rights
-              </h2>
-              <p class="text-stone-600 leading-relaxed">
-                You may request to see the personal data we hold about you and ask us to correct or
-                delete this data.
-              </p>
-            </div>
-            <!-- Section 6 -->
-            <div class="pt-10 border-t border-stone-100">
-              <h2 class="text-xl md:text-2xl font-bold text-stone-900 mb-4 font-display">
-                6. Cookies and Tracking Technologies
-              </h2>
-              <p class="text-stone-600 leading-relaxed">
-                We use cookies to help us remember and process the items in your shopping cart and
-                understand and save your preferences for future visits.
-              </p>
-            </div>
-            <!-- Section 7 -->
-            <div class="pt-10 border-t border-stone-100">
-              <h2 class="text-xl md:text-2xl font-bold text-stone-900 mb-4 font-display">
-                7. Policy Updates
-              </h2>
-              <p class="text-stone-600 leading-relaxed">
-                Our Privacy Policy may change from time to time and all updates will be posted on this
-                page.
-              </p>
-            </div>
-            <!-- Section 8 -->
-            <div class="pt-10 border-t border-stone-100">
-              <h2 class="text-xl md:text-2xl font-bold text-stone-900 mb-4 font-display">
-                8. Contact Information
-              </h2>
-              <p class="text-stone-600 leading-relaxed">
-                If you have any questions about our privacy practices, please contact us at <a
-                  href="mailto:contact@retrofusion.in"
-                  class="text-amber-600 hover:text-amber-700 font-medium">contact@retrofusion.in</a>.
-              </p>
-            </div>
-          </div>
-
-          <!-- Last Updated -->
-          <div class="mt-12 pt-8 border-t border-stone-100">
-            <p class="text-stone-400 text-sm">
-              Last updated: February 2026
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ===== FOOTER ===== -->
-    <!-- ===== FOOTER ===== -->
-    <!-- ===== FOOTER ===== -->
-    <footer class="bg-stone-900 text-stone-300 relative overflow-hidden">
+<footer class="bg-stone-900 text-stone-300 relative overflow-hidden">
       <!-- Main Footer Content -->
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 lg:py-6 relative z-10">
 
@@ -454,7 +85,7 @@
                   <p class="text-sm text-white">+91 89990 36644</p>
                 </div>
               </a>
-              <a href="mailto:retrofusion2023@gmail.com"
+              <a href="mailto:contact@retrofusion.in"
                 class="flex items-center gap-3 text-stone-400 hover:text-amber-400 transition-colors group">
                 <div
                   class="w-10 h-10 rounded-lg bg-white/5 group-hover:bg-amber-500/20 flex items-center justify-center transition-colors">
@@ -466,7 +97,7 @@
                 </div>
                 <div>
                   <p class="text-xs text-stone-500">Email Us</p>
-                  <p class="text-sm text-white">retrofusion2023@gmail.com</p>
+                  <p class="text-sm text-white">contact@retrofusion.in</p>
                 </div>
               </a>
             </div>
@@ -482,15 +113,19 @@
                   <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
                 </svg>
               </a>
-              <a href="https://www.youtube.com/channel/UCuS96gjsWjyapsTCNIT1upA" target="_blank" rel="noopener noreferrer"
+              <a href="https://www.youtube.com/channel/UCuS96gjsWjyapsTCNIT1upA" target="_blank"
+                rel="noopener noreferrer"
                 class="w-10 h-10 rounded-lg bg-white/5 hover:bg-red-600 flex items-center justify-center transition-all duration-300">
                 <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
                   stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33 2.78 2.78 0 0 0 1.94 2c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.33 29 29 0 0 0-.46-5.33z"></path>
+                  <path
+                    d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33 2.78 2.78 0 0 0 1.94 2c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.33 29 29 0 0 0-.46-5.33z">
+                  </path>
                   <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
                 </svg>
               </a>
-              <a href="https://www.linkedin.com/in/retrofusion-boutique-homestays-lonavala/" target="_blank" rel="noopener noreferrer"
+              <a href="https://www.linkedin.com/in/retrofusion-boutique-homestays-lonavala/" target="_blank"
+                rel="noopener noreferrer"
                 class="w-10 h-10 rounded-lg bg-white/5 hover:bg-blue-700 flex items-center justify-center transition-all duration-300">
                 <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
                   stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -506,7 +141,7 @@
           <div>
             <h4 class="text-white font-bold mb-5 text-sm uppercase tracking-wider">Quick Links</h4>
             <ul class="space-y-3">
-              <li><a href="index.html"
+              <li><a href="index.php"
                   class="text-stone-400 hover:text-amber-400 transition-colors text-sm flex items-center gap-2 group"><svg
                     class="w-3 h-3 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300"
                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -514,7 +149,7 @@
                     <line x1="5" y1="12" x2="19" y2="12"></line>
                     <polyline points="12 5 19 12 12 19"></polyline>
                   </svg><span class="group-hover:translate-x-1 transition-transform duration-300">Home</span></a></li>
-              <li><a href="about.html"
+              <li><a href="about.php"
                   class="text-stone-400 hover:text-amber-400 transition-colors text-sm flex items-center gap-2 group"><svg
                     class="w-3 h-3 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300"
                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -523,7 +158,7 @@
                     <polyline points="12 5 19 12 12 19"></polyline>
                   </svg><span class="group-hover:translate-x-1 transition-transform duration-300">Our Story</span></a>
               </li>
-              <li><a href="neo-villa.html"
+              <li><a href="neo-villa.php"
                   class="text-stone-400 hover:text-amber-400 transition-colors text-sm flex items-center gap-2 group"><svg
                     class="w-3 h-3 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300"
                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -532,7 +167,7 @@
                     <polyline points="12 5 19 12 12 19"></polyline>
                   </svg><span class="group-hover:translate-x-1 transition-transform duration-300">Neo Retro
                     Villa</span></a></li>
-              <li><a href="contact.html"
+              <li><a href="contact.php"
                   class="text-stone-400 hover:text-amber-400 transition-colors text-sm flex items-center gap-2 group"><svg
                     class="w-3 h-3 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300"
                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -548,7 +183,7 @@
           <div>
             <h4 class="text-white font-bold mb-5 text-sm uppercase tracking-wider">Our Villas</h4>
             <ul class="space-y-3">
-              <li><a href="retro-villa.html"
+              <li><a href="retro-villa.php"
                   class="text-stone-400 hover:text-amber-400 transition-colors text-sm flex items-center gap-2 group"><svg
                     class="w-3 h-3 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300"
                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -557,7 +192,7 @@
                     <polyline points="12 5 19 12 12 19"></polyline>
                   </svg><span class="group-hover:translate-x-1 transition-transform duration-300">Retro Villa</span></a>
               </li>
-              <li><a href="neo-villa.html"
+              <li><a href="neo-villa.php"
                   class="text-stone-400 hover:text-amber-400 transition-colors text-sm flex items-center gap-2 group"><svg
                     class="w-3 h-3 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300"
                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -566,7 +201,7 @@
                     <polyline points="12 5 19 12 12 19"></polyline>
                   </svg><span class="group-hover:translate-x-1 transition-transform duration-300">Neo Retro
                     Villa</span></a></li>
-              <li><a href="viswa-villa.html"
+              <li><a href="viswa-villa.php"
                   class="text-stone-400 hover:text-amber-400 transition-colors text-sm flex items-center gap-2 group"><svg
                     class="w-3 h-3 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300"
                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -592,7 +227,7 @@
           <div>
             <h4 class="text-white font-bold mb-5 text-sm uppercase tracking-wider">Legal</h4>
             <ul class="space-y-3">
-              <li><a href="cancellation-policy.html"
+              <li><a href="cancellation-policy.php"
                   class="text-stone-400 hover:text-amber-400 transition-colors text-sm flex items-center gap-2 group"><svg
                     class="w-3 h-3 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300"
                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -601,7 +236,7 @@
                     <polyline points="12 5 19 12 12 19"></polyline>
                   </svg><span class="group-hover:translate-x-1 transition-transform duration-300">Cancellation
                     Policy</span></a></li>
-              <li><a href="privacy-policy.html"
+              <li><a href="privacy-policy.php"
                   class="text-stone-400 hover:text-amber-400 transition-colors text-sm flex items-center gap-2 group"><svg
                     class="w-3 h-3 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300"
                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -610,7 +245,7 @@
                     <polyline points="12 5 19 12 12 19"></polyline>
                   </svg><span class="group-hover:translate-x-1 transition-transform duration-300">Privacy
                     Policy</span></a></li>
-              <li><a href="terms-conditions.html"
+              <li><a href="terms-conditions.php"
                   class="text-stone-400 hover:text-amber-400 transition-colors text-sm flex items-center gap-2 group"><svg
                     class="w-3 h-3 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300"
                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -683,9 +318,3 @@
         </div>
       </div>
     </footer>
-
-  </div><!-- end min-h-screen -->
-  <script src="js/main.js"></script>
-</body>
-
-</html>
