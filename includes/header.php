@@ -62,7 +62,7 @@
     }
   </script>
   <link rel="stylesheet" href="css/styles.css">
-  <meta name="description" content="<?php echo $pageDescription ?? \'\'; ?>" />
+  <meta name="description" content="<?php echo $pageDescription ?? ''; ?>" />
   <meta property="og:title" content="Retrofusion - Luxury Boutique Homestays in Lonavala" />
   <title><?php echo $pageTitle ?? "Retrofusion Boutique Homestays"; ?></title>
 </head>
