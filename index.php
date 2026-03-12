@@ -1968,20 +1968,85 @@ include 'includes/header.php';
 <!-- ===== FOOTER ===== -->
 <!-- ===== FOOTER ===== -->
 
-<!-- ===== REVIEW SCHEMA ===== -->
+<!-- ===== SEO STRUCTURED DATA ===== -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "Retrofusion Boutique Homestays",
-  "image": "https://res.cloudinary.com/damfndmrm/image/upload/v1771665559/Retrofusion_logo__20260211_230238_0000_sufgcp.png",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.9",
-    "bestRating": "5",
-    "worstRating": "1",
-    "reviewCount": "900"
-  }
+  "@graph": [
+    {
+      "@type": "LodgingBusiness",
+      "@id": "https://retrofusion.in/#lodgingbusiness",
+      "name": "Retrofusion Boutique Homestays",
+      "description": "Luxury private pool villas offering the ultimate homestay with food in Lonavala.",
+      "image": "https://res.cloudinary.com/damfndmrm/image/upload/v1771665559/Retrofusion_logo__20260211_230238_0000_sufgcp.png",
+      "url": "https://retrofusion.in/",
+      "telephone": "+91 8999036644",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Lonavala",
+        "addressRegion": "Maharashtra",
+        "addressCountry": "IN"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "900"
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://retrofusion.in/#localbusiness",
+      "name": "Retrofusion Boutique Homestays",
+      "image": "https://res.cloudinary.com/damfndmrm/image/upload/v1771665559/Retrofusion_logo__20260211_230238_0000_sufgcp.png",
+      "url": "https://retrofusion.in/"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://retrofusion.in/"
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "Product",
+            "name": "Retro Villa",
+            "url": "https://retrofusion.in/retro-villas",
+            "image": "https://res.cloudinary.com/dprafk917/image/upload/v1770226533/N34_stewru.jpg"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "Product",
+            "name": "Neo Retro Villa",
+            "url": "https://retrofusion.in/neo-retro",
+            "image": "https://res.cloudinary.com/dprafk917/image/upload/v1769863039/01_qwhl8a.jpg"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "Product",
+            "name": "Retro Visawa",
+            "url": "https://retrofusion.in/retro-viswa-lonavala",
+            "image": "https://res.cloudinary.com/damfndmrm/image/upload/v1772474727/Screenshot_2026-03-02_at_11.33.32_PM_wqk7eu.png"
+          }
+        }
+      ]
+    }
+  ]
 }
 </script>
 

@@ -891,20 +891,75 @@ include 'includes/header.php';
 <!-- ===== FOOTER ===== -->
 <!-- ===== FOOTER ===== -->
 
-<!-- ===== REVIEW SCHEMA ===== -->
+<!-- ===== SEO STRUCTURED DATA ===== -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "Neo Retro Villa",
-  "image": "https://res.cloudinary.com/dprafk917/image/upload/v1769863039/01_qwhl8a.jpg",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.9",
-    "bestRating": "5",
-    "worstRating": "1",
-    "reviewCount": "900"
-  }
+  "@graph": [
+    {
+      "@type": "LodgingBusiness",
+      "@id": "https://retrofusion.in/neo-retro#lodgingbusiness",
+      "name": "Neo Retro Villa",
+      "image": "https://res.cloudinary.com/dprafk917/image/upload/v1769863039/01_qwhl8a.jpg",
+      "url": "https://retrofusion.in/neo-retro",
+      "telephone": "+91 8999036644",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Lonavala",
+        "addressRegion": "Maharashtra",
+        "addressCountry": "IN"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "900"
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://retrofusion.in/neo-retro#localbusiness",
+      "name": "Neo Retro Villa",
+      "image": "https://res.cloudinary.com/dprafk917/image/upload/v1769863039/01_qwhl8a.jpg",
+      "url": "https://retrofusion.in/neo-retro"
+    },
+    {
+      "@type": "Product",
+      "@id": "https://retrofusion.in/neo-retro#product",
+      "name": "Neo Retro Villa",
+      "description": "Experience Neo-Retro, a luxurious 4 BHK Villa in Lonavala with private pool.",
+      "image": "https://res.cloudinary.com/dprafk917/image/upload/v1769863039/01_qwhl8a.jpg",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "900"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://retrofusion.in/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Neo Retro Villa",
+          "item": "https://retrofusion.in/neo-retro"
+        }
+      ]
+    },
+    {
+      "@type": "VideoObject",
+      "name": "Neo Retro Villa Lonavala",
+      "description": "A visual tour of the luxurious Neo Retro Villa in Lonavala.",
+      "thumbnailUrl": "https://res.cloudinary.com/dprafk917/image/upload/v1769863039/01_qwhl8a.jpg",
+      "uploadDate": "2024-01-01T08:00:00+08:00",
+      "contentUrl": "https://res.cloudinary.com/dprafk917/video/upload/v1768241694/1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.mp4"
+    }
+  ]
 }
 </script>
 

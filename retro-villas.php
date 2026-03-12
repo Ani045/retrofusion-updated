@@ -866,20 +866,75 @@ include 'includes/header.php';
 <!-- ===== FOOTER ===== -->
 <!-- ===== FOOTER ===== -->
 
-<!-- ===== REVIEW SCHEMA ===== -->
+<!-- ===== SEO STRUCTURED DATA ===== -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "Retro Villa",
-  "image": "https://res.cloudinary.com/dprafk917/image/upload/v1770226533/N34_stewru.jpg",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.9",
-    "bestRating": "5",
-    "worstRating": "1",
-    "reviewCount": "900"
-  }
+  "@graph": [
+    {
+      "@type": "LodgingBusiness",
+      "@id": "https://retrofusion.in/retro-villas#lodgingbusiness",
+      "name": "Retro Villa",
+      "image": "https://res.cloudinary.com/dprafk917/image/upload/v1770226533/N34_stewru.jpg",
+      "url": "https://retrofusion.in/retro-villas",
+      "telephone": "+91 8999036644",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Lonavala",
+        "addressRegion": "Maharashtra",
+        "addressCountry": "IN"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "900"
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://retrofusion.in/retro-villas#localbusiness",
+      "name": "Retro Villa",
+      "image": "https://res.cloudinary.com/dprafk917/image/upload/v1770226533/N34_stewru.jpg",
+      "url": "https://retrofusion.in/retro-villas"
+    },
+    {
+      "@type": "Product",
+      "@id": "https://retrofusion.in/retro-villas#product",
+      "name": "Retro Villa",
+      "description": "Discover Retro Villa, a unique villa in Lonavala with pool. Enjoy vintage luxury and cinema-inspired themes.",
+      "image": "https://res.cloudinary.com/dprafk917/image/upload/v1770226533/N34_stewru.jpg",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "900"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://retrofusion.in/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Retro Villa",
+          "item": "https://retrofusion.in/retro-villas"
+        }
+      ]
+    },
+    {
+      "@type": "VideoObject",
+      "name": "Retro Villa Lonavala",
+      "description": "Explore the beautiful Retro Villa in Lonavala.",
+      "thumbnailUrl": "https://res.cloudinary.com/dprafk917/image/upload/v1770226533/N34_stewru.jpg",
+      "uploadDate": "2024-01-01T08:00:00+08:00",
+      "contentUrl": "https://res.cloudinary.com/dprafk917/video/upload/v1770699275/Untitled_design_1_cner56.mp4"
+    }
+  ]
 }
 </script>
 
