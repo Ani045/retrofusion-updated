@@ -1,6 +1,6 @@
 <?php
-$pageTitle = "Retrofusion - Luxury Boutique Homestays in Lonavala";
-$pageDescription = "Retrofusion Boutique Homestays - Luxury villa stays in Lonavala.";
+$pageTitle = "Retrofusion - Luxury Boutique Homestay in Lonavala | Best Homestay";
+$pageDescription = "Experience the best boutique homestay in Lonavala at Retrofusion. Luxury private pool villas offering the ultimate homestay with food in Lonavala.";
 include 'includes/header.php';
 ?>
 
@@ -18,14 +18,15 @@ include 'includes/header.php';
   </div>
   <div class="relative z-20 text-center text-white px-4 pointer-events-none">
     <p class="text-white text-sm md:text-base uppercase tracking-[0.3em] mb-4 font-light animate-fade-in-up"
-      style="opacity:0;animation-delay:0.3s;">Welcome to</p>
+      style="opacity:0;animation-delay:0.3s;">Welcome to the Best Boutique Homestay in Lonavala</p>
     <h1 class="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 leading-none font-display animate-fade-in-up"
       style="opacity:0;animation-delay:0.5s;">
       <span
         class="bg-gradient-to-r from-white via-stone-100 to-white bg-clip-text text-transparent drop-shadow-2xl">Retrofusion</span>
     </h1>
-    <p class="text-base md:text-xl text-stone-300/90 font-light tracking-wide max-w-2xl mx-auto animate-fade-in-up whitespace-nowrap"
-      style="opacity:0;animation-delay:0.9s;">Three distinct stays, united by one standard of luxury and warmth.</p>
+    <p class="text-base md:text-xl text-stone-300/90 font-light tracking-wide max-w-2xl mx-auto animate-fade-in-up md:whitespace-nowrap"
+      style="opacity:0;animation-delay:0.9s;">Three distinct stays, united by one standard of luxury and warmth at our
+      homestay in Lonavala.</p>
     <div
       class="w-20 h-[1px] bg-gradient-to-r from-transparent via-amber-400 to-transparent mx-auto mt-8 mb-8 animate-scale-x">
     </div>
@@ -321,7 +322,7 @@ include 'includes/header.php';
           <div class="flex flex-col items-center text-center">
             <div class="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 mb-2 sm:mb-3">
               <img src="https://res.cloudinary.com/dprafk917/image/upload/v1771063565/Private_Pool_Jacuzzi_j0gah4.png"
-                alt="Private Pool & Jacuzzi" class="w-full h-full object-contain icon-green">
+                alt="Homestay in Lonavala with swimming pool" class="w-full h-full object-contain icon-green">
             </div>
             <p class="text-[10px] sm:text-xs text-stone-700 leading-tight font-medium">
               Private Pool &<br />Jacuzzi
@@ -420,8 +421,8 @@ include 'includes/header.php';
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="mb-8 lg:mb-12">
       <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#0F2A24] mb-3">Collections For You</h2>
-      <p class="text-base sm:text-lg text-stone-500 max-w-2xl leading-relaxed">Discover our curated collection of
-        luxury villas in Lonavala for unforgettable homestay experiences!</p>
+      <p class="text-base sm:text-lg text-stone-500 max-w-2xl leading-relaxed">Discover our curated collection. Every
+        Retrofusion experience is a premium homestay in Lonavala with private pool for unforgettable memories.</p>
     </div>
     <!-- Desktop Grid -->
     <div class="hidden lg:grid grid-cols-4 gap-6">
@@ -982,7 +983,7 @@ include 'includes/header.php';
         About Retrofusion
       </h2>
       <p class="text-base sm:text-lg text-stone-500 max-w-2xl">
-        Your home away from home in the hills of Lonavala
+        The most charming boutique homestay in Lonavala for families and romantic escapes
       </p>
     </div>
 
@@ -1581,7 +1582,8 @@ include 'includes/header.php';
               </svg>
             </button>
             <div class="faq-content h-0 overflow-hidden transition-all duration-200 opacity-0">
-              <p class="px-5 pb-4 text-stone-300 text-sm leading-relaxed">Yes! We offer an in-house chef service.
+              <p class="px-5 pb-4 text-stone-300 text-sm leading-relaxed">Yes! If you are looking for a homestay with
+                food in Lonavala, we offer an excellent in-house chef service.
                 You can choose from our menu of home-style meals. Meals are prepared fresh and charges are
                 additional. Veg and non-veg options available.</p>
             </div>
