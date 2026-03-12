@@ -1,6 +1,6 @@
 <?php
-$pageTitle = "Retro Villa - Vintage Luxury Stay in Lonavala | Retrofusion";
-$pageDescription = "";
+$pageTitle = "Retro Villa | Villas with Swimming Pool in Lonavala";
+$pageDescription = "Discover Retro Villa, a unique villa in Lonavala with pool. Enjoy vintage luxury and cinema-inspired themes at one of the finest private pool villas in Lonavala.";
 include 'includes/header.php';
 ?>
 
@@ -20,7 +20,7 @@ include 'includes/header.php';
           class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight drop-shadow-2xl font-display">
           Retro Villa</h1>
         <p class="text-base sm:text-lg md:text-xl lg:text-2xl text-white/90 font-light max-w-2xl mx-auto">
-          Explore Luxury Villa Near Lonavala with Swimming Pool and Artistic Retreats</p>
+          Experience one of the premium private pool villas in Lonavala for a vintage retreat</p>
         <p class="text-sm sm:text-base md:text-lg text-white font-light italic font-display">A
           Vintage Escape</p>
       </div>
