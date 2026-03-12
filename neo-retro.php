@@ -1,6 +1,6 @@
 <?php
-$pageTitle = "Neo-Retro Villa - Artistic Luxury Stay in Khandala | Retrofusion";
-$pageDescription = "";
+$pageTitle = "Neo-Retro | 4 BHK Villa in Lonavala with Private Pool";
+$pageDescription = "Experience Neo-Retro, a luxurious 4 BHK Villa in Lonavala with private pool. This unique aesthetic Villa in Lonavala offers an artistic retreat with premium amenities.";
 include 'includes/header.php';
 ?>
 
@@ -21,7 +21,7 @@ include 'includes/header.php';
                     class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight drop-shadow-2xl font-display">
                     Neo-Retro Villa</h1>
                 <p class="text-base sm:text-lg md:text-xl lg:text-2xl text-white/90 font-light max-w-2xl mx-auto">
-                    Luxurious 4 BHK Villa in Lonavala with Swimming Pool</p>
+                    Luxurious 4 BHK Villa in Lonavala with Private Pool</p>
                 <p class="text-sm sm:text-base md:text-lg text-white font-light italic font-display">An
                     Artistic Retreat</p>
             </div>
@@ -61,9 +61,10 @@ include 'includes/header.php';
             </div>
             <div class="flex items-center">
                 <p class="text-stone-600 text-base md:text-lg leading-relaxed">Experience Retrofusion's crown
-                    jewel <span class="font-bold text-stone-800">a 4 BHK Villa in Lonavala</span>
-                    that doubles as a private art gallery. Every space features original art, making it a
-                    truly immersive Boutique homestay near Pune for creative souls.<br>
+                    jewel, <span class="font-bold text-stone-800">a stunning 4 BHK Villa in Lonavala</span>
+                    that doubles as a private art gallery. Every space features original art, making this
+                    <span class="font-bold text-stone-800">Villa in Lonavala</span> a truly immersive retreat for
+                    creative souls.<br>
                     <span class="font-bold text-stone-800">Here, art isn’t just displayed, it lives with
                         you.</span>.
                 </p>
