@@ -56,11 +56,11 @@ include 'includes/header.php';
             <!-- Aligned Images -->
             <div class="flex items-center gap-6 md:gap-10">
               <div class="w-1/2 aspect-[3/4] rounded-[2rem] overflow-hidden shadow-2xl shadow-stone-200">
-                <img src="https://retrofusion.in/assets/img/custom/ruchi_11zon.webp" alt="Ruchi Arora"
+                <img src="https://res.cloudinary.com/dprafk917/image/upload/v1773295624/WhatsApp_Image_2026-03-12_at_11.36.04_utnnut.jpg" alt="Ruchi Arora"
                   class="w-full h-full object-cover transition-transform duration-700 hover:scale-110" />
               </div>
               <div class="w-1/2 aspect-[3/4] rounded-[2rem] overflow-hidden shadow-2xl shadow-stone-200">
-                <img src="https://retrofusion.in/assets/img/custom/jidenter_11zon.webp" alt="Jitendra Arora"
+                <img src="https://res.cloudinary.com/dprafk917/image/upload/v1773295624/WhatsApp_Image_2026-03-12_at_11.36.04_1_yzlrpj.jpg" alt="Jitendra Arora"
                   class="w-full h-full object-cover transition-transform duration-700 hover:scale-110" />
               </div>
             </div>
