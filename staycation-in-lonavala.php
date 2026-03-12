@@ -520,7 +520,12 @@ include 'includes/header.php';
             "@type": "Product",
             "name": "Retro Villa",
             "url": "https://retrofusion.in/retro-villas",
-            "image": "https://res.cloudinary.com/dprafk917/image/upload/v1770226533/N34_stewru.jpg"
+            "image": "https://res.cloudinary.com/dprafk917/image/upload/v1770226533/N34_stewru.jpg",
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.9",
+              "reviewCount": "900"
+            }
           }
         },
         {
@@ -530,7 +535,12 @@ include 'includes/header.php';
             "@type": "Product",
             "name": "Neo Retro Villa",
             "url": "https://retrofusion.in/neo-retro",
-            "image": "https://res.cloudinary.com/dprafk917/image/upload/v1769863039/01_qwhl8a.jpg"
+            "image": "https://res.cloudinary.com/dprafk917/image/upload/v1769863039/01_qwhl8a.jpg",
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.9",
+              "reviewCount": "900"
+            }
           }
         },
         {
@@ -540,7 +550,12 @@ include 'includes/header.php';
             "@type": "Product",
             "name": "Retro Visawa",
             "url": "https://retrofusion.in/retro-viswa-lonavala",
-            "image": "https://res.cloudinary.com/damfndmrm/image/upload/v1772474727/Screenshot_2026-03-02_at_11.33.32_PM_wqk7eu.png"
+            "image": "https://res.cloudinary.com/damfndmrm/image/upload/v1772474727/Screenshot_2026-03-02_at_11.33.32_PM_wqk7eu.png",
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.9",
+              "reviewCount": "900"
+            }
           }
         }
       ]
