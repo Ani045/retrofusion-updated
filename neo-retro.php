@@ -891,6 +891,23 @@ include 'includes/header.php';
 <!-- ===== FOOTER ===== -->
 <!-- ===== FOOTER ===== -->
 
+<!-- ===== REVIEW SCHEMA ===== -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Neo Retro Villa",
+  "image": "https://res.cloudinary.com/dprafk917/image/upload/v1769863039/01_qwhl8a.jpg",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "bestRating": "5",
+    "worstRating": "1",
+    "reviewCount": "900"
+  }
+}
+</script>
+
 <?php include 'includes/footer.php'; ?>
 
 

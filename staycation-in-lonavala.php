@@ -462,6 +462,23 @@ include 'includes/header.php';
     </div>
 </section>
 
+<!-- ===== REVIEW SCHEMA ===== -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Staycation in Lonavala - Retrofusion",
+  "image": "https://res.cloudinary.com/dprafk917/image/upload/v1769868140/B30_yc8rqu.webp",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "bestRating": "5",
+    "worstRating": "1",
+    "reviewCount": "900"
+  }
+}
+</script>
+
 <?php include 'includes/footer.php'; ?>
 <script src="js/main.js"></script>
 </body>

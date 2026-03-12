@@ -1968,6 +1968,23 @@ include 'includes/header.php';
 <!-- ===== FOOTER ===== -->
 <!-- ===== FOOTER ===== -->
 
+<!-- ===== REVIEW SCHEMA ===== -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Retrofusion Boutique Homestays",
+  "image": "https://res.cloudinary.com/damfndmrm/image/upload/v1771665559/Retrofusion_logo__20260211_230238_0000_sufgcp.png",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "bestRating": "5",
+    "worstRating": "1",
+    "reviewCount": "900"
+  }
+}
+</script>
+
 <?php include 'includes/footer.php'; ?>
 
 
