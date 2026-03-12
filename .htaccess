@@ -1,6 +1,10 @@
 RewriteEngine On
 
-# Redirect old .php URLs to new extensionless URLs
+# Redirect /index and /index.php to root domain
+Redirect 301 /index https://retrofusion.in/
+Redirect 301 /index.php https://retrofusion.in/
+
+
 Redirect 301 /retro-villa.php /retro-villas
 Redirect 301 /neo-villa.php /neo-retro
 Redirect 301 /viswa-villa.php /retro-viswa-lonavala
