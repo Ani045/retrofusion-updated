@@ -24,3 +24,9 @@ RewriteRule ^(.*)$ $1.php [L]
 
 
 Redirect 301 /about-founders /about
+Redirect 301 /neo-retro-blog /neo-retro
+Redirect 301 /vegetarian-restaurants-in-lonavala /neo-retro
+Redirect 301 /how-to-plan-trip /blogs
+Redirect 301 /ashtvinayak /blogs
+Redirect 301 /post /blogs
+Redirect 301 /valvan-dam /blogs
