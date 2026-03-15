@@ -21,8 +21,8 @@ include 'includes/header.php';
           <div class="grid grid-cols-1 md:grid-cols-3 gap-5 lg:gap-6">
             <a href="retro-viswa-lonavala" class="group block">
               <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-all duration-500">
-                <div class="relative h-40 sm:h-44 md:h-48 overflow-hidden"><img
-                    src="https://res.cloudinary.com/dprafk917/video/upload/so_2/v1769858399/8wr207mfxnrmy0cvd61bd2gn1g_result__viprl7.jpg"
+                <div class="relative h-40 sm:h-44 md:h-48 overflow-hidden"><img loading="lazy"
+                    src="https://res.cloudinary.com/dprafk917/video/upload/f_auto,q_auto/so_2/v1769858399/8wr207mfxnrmy0cvd61bd2gn1g_result__viprl7.jpg"
                     alt="Retro Visawa"
                     class="w-full h-full object-cover scale-110 transition-transform duration-700 group-hover:scale-125" />
                   <div
@@ -47,8 +47,8 @@ include 'includes/header.php';
             </a>
             <a href="neo-retro" class="group block">
               <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-all duration-500">
-                <div class="relative h-40 sm:h-44 md:h-48 overflow-hidden"><img
-                    src="https://res.cloudinary.com/dprafk917/video/upload/so_2/v1768241694/1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg"
+                <div class="relative h-40 sm:h-44 md:h-48 overflow-hidden"><img loading="lazy"
+                    src="https://res.cloudinary.com/dprafk917/video/upload/f_auto,q_auto/so_2/v1768241694/1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg"
                     alt="Neo Retro Villa"
                     class="w-full h-full object-cover scale-110 transition-transform duration-700 group-hover:scale-125" />
                   <div
@@ -73,8 +73,8 @@ include 'includes/header.php';
             </a>
             <a href="retro-villas" class="group block">
               <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-all duration-500">
-                <div class="relative h-40 sm:h-44 md:h-48 overflow-hidden"><img
-                    src="https://res.cloudinary.com/dprafk917/video/upload/so_3/v1769867671/final_nkd4ry.jpg"
+                <div class="relative h-40 sm:h-44 md:h-48 overflow-hidden"><img loading="lazy"
+                    src="https://res.cloudinary.com/dprafk917/video/upload/f_auto,q_auto/so_3/v1769867671/final_nkd4ry.jpg"
                     alt="Retro Villa"
                     class="w-full h-full object-cover scale-110 transition-transform duration-700 group-hover:scale-125" />
                   <div
@@ -107,8 +107,8 @@ include 'includes/header.php';
     <!-- Hero Section -->
     <section class="relative h-[50vh] md:h-[60vh] flex items-center justify-center overflow-hidden">
       <div class="absolute inset-0 z-0">
-        <img
-          src="https://res.cloudinary.com/dprafk917/image/upload/v1768230663/a613a1b2-edef-4242-8ee3-79ce77bae0e1_yi24hq.avif"
+        <img loading="lazy"
+          src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1768230663/a613a1b2-edef-4242-8ee3-79ce77bae0e1_yi24hq.avif"
           alt="Policies" class="w-full h-full object-cover" />
         <div class="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-stone-900/90"></div>
       </div>

@@ -8,7 +8,7 @@ include 'includes/header.php';
 <section id="hero-section" class="relative h-[80vh] flex items-center justify-center overflow-hidden touch-pan-y">
     <div class="absolute inset-0 w-full h-full">
         <div class="hero-image-layer" style="z-index:1;">
-            <img src="https://res.cloudinary.com/dprafk917/image/upload/v1769868140/B30_yc8rqu.webp"
+            <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868140/B30_yc8rqu.webp"
                 alt="Lonavala Staycation in Luxury Private Villas" class="w-full h-full object-cover" />
         </div>
         <div class="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-black/60 z-10"></div>
@@ -73,7 +73,7 @@ include 'includes/header.php';
             <div
                 class="group relative bg-[#F4EFEA] border border-stone-200 rounded-[2rem] overflow-hidden transition-all duration-500 hover:shadow-2xl hover:-translate-y-2">
                 <div class="relative h-64 overflow-hidden">
-                    <img src="https://res.cloudinary.com/dprafk917/image/upload/v1770226533/N34_stewru.jpg"
+                    <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1770226533/N34_stewru.jpg"
                         alt="Retro Villa - Budget Friendly Staycation in Lonavala"
                         class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
@@ -114,7 +114,7 @@ include 'includes/header.php';
             <div
                 class="group relative bg-[#F4EFEA] border border-stone-200 rounded-[2rem] overflow-hidden transition-all duration-500 hover:shadow-2xl hover:-translate-y-2">
                 <div class="relative h-64 overflow-hidden">
-                    <img src="https://res.cloudinary.com/dprafk917/image/upload/v1769863039/01_qwhl8a.jpg"
+                    <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863039/01_qwhl8a.jpg"
                         alt="Neo Retro Villa - Luxury Art Staycation in Lonavala"
                         class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
@@ -158,7 +158,7 @@ include 'includes/header.php';
             <div
                 class="group relative bg-[#F4EFEA] border border-stone-200 rounded-[2rem] overflow-hidden transition-all duration-500 hover:shadow-2xl hover:-translate-y-2 md:col-span-2 lg:col-span-1">
                 <div class="relative h-64 overflow-hidden">
-                    <img src="https://res.cloudinary.com/damfndmrm/image/upload/v1772474727/Screenshot_2026-03-02_at_11.33.32_PM_wqk7eu.png"
+                    <img loading="lazy" src="https://res.cloudinary.com/damfndmrm/image/upload/f_auto,q_auto/v1772474727/Screenshot_2026-03-02_at_11.33.32_PM_wqk7eu.png"
                         alt="Retro Visawa - Private Pool Villa Staycation Lonavala"
                         class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
@@ -332,16 +332,16 @@ include 'includes/header.php';
             <div class="lg:w-1/2 w-full">
                 <!-- Gallery Grid -->
                 <div class="grid grid-cols-2 gap-4">
-                    <img src="https://res.cloudinary.com/dprafk917/image/upload/v1773076226/27_ipqwdd.jpg"
+                    <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1773076226/27_ipqwdd.jpg"
                         alt="Mountain Views Lonavala"
                         class="rounded-2xl w-full h-[250px] object-cover shadow-lg hover:scale-[1.03] transition-transform duration-500">
-                    <img src="https://res.cloudinary.com/dprafk917/image/upload/v1772868264/1_wqosmq.jpg"
+                    <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1772868264/1_wqosmq.jpg"
                         alt="Staycation Relaxation"
                         class="rounded-2xl w-full h-[250px] object-cover mt-8 shadow-lg hover:scale-[1.03] transition-transform duration-500">
-                    <img src="https://res.cloudinary.com/dprafk917/image/upload/v1773076342/23_wby8bv.jpg"
+                    <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1773076342/23_wby8bv.jpg"
                         alt="Luxury Villa Interior"
                         class="rounded-2xl w-full h-[250px] object-cover -mt-8 shadow-lg hover:scale-[1.03] transition-transform duration-500">
-                    <img src="https://res.cloudinary.com/dprafk917/image/upload/v1772868502/16_fxghyv.jpg"
+                    <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1772868502/16_fxghyv.jpg"
                         alt="Beautiful Staycation Villa"
                         class="rounded-2xl w-full h-[250px] object-cover shadow-lg hover:scale-[1.03] transition-transform duration-500">
                 </div>
@@ -471,7 +471,7 @@ include 'includes/header.php';
       "@type": "LodgingBusiness",
       "@id": "https://retrofusion.in/staycation-in-lonavala#lodgingbusiness",
       "name": "Staycation in Lonavala - Retrofusion",
-      "image": "https://res.cloudinary.com/dprafk917/image/upload/v1769868140/B30_yc8rqu.webp",
+      "image": "https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868140/B30_yc8rqu.webp",
       "url": "https://retrofusion.in/staycation-in-lonavala",
       "telephone": "+91 8999036644",
       "address": {
@@ -490,7 +490,7 @@ include 'includes/header.php';
       "@type": "LocalBusiness",
       "@id": "https://retrofusion.in/staycation-in-lonavala#localbusiness",
       "name": "Staycation in Lonavala - Retrofusion",
-      "image": "https://res.cloudinary.com/dprafk917/image/upload/v1769868140/B30_yc8rqu.webp",
+      "image": "https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868140/B30_yc8rqu.webp",
       "url": "https://retrofusion.in/staycation-in-lonavala"
     },
     {
@@ -520,7 +520,7 @@ include 'includes/header.php';
             "@type": "Product",
             "name": "Retro Villa",
             "url": "https://retrofusion.in/retro-villas",
-            "image": "https://res.cloudinary.com/dprafk917/image/upload/v1770226533/N34_stewru.jpg",
+            "image": "https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1770226533/N34_stewru.jpg",
             "aggregateRating": {
               "@type": "AggregateRating",
               "ratingValue": "4.9",
@@ -535,7 +535,7 @@ include 'includes/header.php';
             "@type": "Product",
             "name": "Neo Retro Villa",
             "url": "https://retrofusion.in/neo-retro",
-            "image": "https://res.cloudinary.com/dprafk917/image/upload/v1769863039/01_qwhl8a.jpg",
+            "image": "https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863039/01_qwhl8a.jpg",
             "aggregateRating": {
               "@type": "AggregateRating",
               "ratingValue": "4.9",
@@ -550,7 +550,7 @@ include 'includes/header.php';
             "@type": "Product",
             "name": "Retro Visawa",
             "url": "https://retrofusion.in/retro-viswa-lonavala",
-            "image": "https://res.cloudinary.com/damfndmrm/image/upload/v1772474727/Screenshot_2026-03-02_at_11.33.32_PM_wqk7eu.png",
+            "image": "https://res.cloudinary.com/damfndmrm/image/upload/f_auto,q_auto/v1772474727/Screenshot_2026-03-02_at_11.33.32_PM_wqk7eu.png",
             "aggregateRating": {
               "@type": "AggregateRating",
               "ratingValue": "4.9",

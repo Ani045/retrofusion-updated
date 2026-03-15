@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <link rel="icon" type="image/png"
-    href="https://res.cloudinary.com/dprafk917/image/upload/v1769939688/FAV-ICONS-adobe_nisyxz.png" />
+    href="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769939688/FAV-ICONS-adobe_nisyxz.png" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <!-- Meta Pixel Code -->
@@ -30,40 +30,11 @@
   <!-- End Meta Pixel Code -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://res.cloudinary.com">
   <link
     href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Marcellus&family=Dancing+Script:wght@400..700&display=swap"
     rel="stylesheet">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-
-          colors: {
-            amber: {
-              50: '#ecf3f1',
-              100: '#d0e1dd',
-              200: '#a7c8c2',
-              300: '#75a89e',
-              400: '#48857a',
-              500: '#2b695e',
-              600: '#0F2A24',
-              700: '#143c33',
-              800: '#12312b',
-              900: '#112924',
-              950: '#081714',
-            }
-          },
-          fontFamily: {
-            'sans': ['DM Sans', 'ui-sans-serif', 'system-ui', 'sans-serif'],
-            'display': ['Marcellus', 'serif'],
-            'body': ['DM Sans', 'ui-sans-serif', 'system-ui', 'sans-serif'],
-          },
-          fontSize: { 'base': ['9pt', { lineHeight: '1.5' }] }
-        }
-      }
-    }
-  </script>
+  <link rel="stylesheet" href="css/tailwind.css">
   <link rel="stylesheet" href="css/styles.css">
   <meta name="description" content="<?php echo $pageDescription ?? ''; ?>" />
   <meta property="og:title" content="Retrofusion - Luxury Boutique Homestays in Lonavala" />
@@ -81,8 +52,8 @@
           <div class="flex-shrink-0 flex items-center lg:w-1/3 justify-start">
             <a href="index.php" class="flex items-center">
               <img id="nav-logo"
-                src="https://res.cloudinary.com/damfndmrm/image/upload/v1771665559/Retrofusion_logo__20260211_230238_0000_sufgcp.png"
-                alt="Retrofusion Logo"
+                src="https://res.cloudinary.com/damfndmrm/image/upload/f_auto,q_auto/v1771665559/Retrofusion_logo__20260211_230238_0000_sufgcp.png"
+                alt="Retrofusion Logo" fetchpriority="high"
                 class="logo-white w-32 sm:w-40 md:w-48 xl:w-56 h-auto object-contain transition-all duration-300 origin-left" />
             </a>
           </div>
@@ -186,7 +157,7 @@
             <a href="retro-viswa-lonavala" class="group block">
               <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-all duration-500">
                 <div class="relative h-40 sm:h-44 md:h-48 overflow-hidden"><img
-                    src="https://res.cloudinary.com/dprafk917/video/upload/so_2/v1769858399/8wr207mfxnrmy0cvd61bd2gn1g_result__viprl7.jpg"
+                    src="https://res.cloudinary.com/dprafk917/video/upload/f_auto,q_auto/so_2/v1769858399/8wr207mfxnrmy0cvd61bd2gn1g_result__viprl7.jpg"
                     alt="Retro Visawa" class="w-full h-full object-cover scale-125 transition-transform duration-700" />
                   <div
                     class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/20 to-transparent group-hover:from-black/85 transition-colors duration-300">
@@ -211,7 +182,7 @@
             <a href="neo-retro" class="group block">
               <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-all duration-500">
                 <div class="relative h-40 sm:h-44 md:h-48 overflow-hidden"><img
-                    src="https://res.cloudinary.com/dprafk917/video/upload/so_2/v1768241694/1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg"
+                    src="https://res.cloudinary.com/dprafk917/video/upload/f_auto,q_auto/so_2/v1768241694/1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg"
                     alt="Neo Retro Villa"
                     class="w-full h-full object-cover scale-125 transition-transform duration-700" />
                   <div
@@ -237,7 +208,7 @@
             <a href="retro-villas" class="group block">
               <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-all duration-500">
                 <div class="relative h-40 sm:h-44 md:h-48 overflow-hidden"><img
-                    src="https://res.cloudinary.com/dprafk917/video/upload/so_3/v1769867671/final_nkd4ry.jpg"
+                    src="https://res.cloudinary.com/dprafk917/video/upload/f_auto,q_auto/so_3/v1769867671/final_nkd4ry.jpg"
                     alt="Retro Villa" class="w-full h-full object-cover scale-125 transition-transform duration-700" />
                   <div
                     class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/20 to-transparent group-hover:from-black/85 transition-colors duration-300">

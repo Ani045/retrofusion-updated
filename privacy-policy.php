@@ -9,8 +9,8 @@ include 'includes/header.php';
     <!-- Hero Section -->
     <section class="relative h-[40vh] md:h-[50vh] flex items-center justify-center overflow-hidden">
       <div class="absolute inset-0 z-0">
-        <img
-          src="https://res.cloudinary.com/dprafk917/image/upload/v1768230663/5d93e66d-23b4-4578-bb58-35032b8b39b8_cftv5v.avif"
+        <img loading="lazy"
+          src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1768230663/5d93e66d-23b4-4578-bb58-35032b8b39b8_cftv5v.avif"
           alt="Privacy Policy" class="w-full h-full object-cover" />
         <div class="absolute inset-0 bg-gradient-to-b from-black/50 via-black/40 to-black/60"></div>
       </div>

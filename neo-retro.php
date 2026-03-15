@@ -8,9 +8,9 @@ include 'includes/header.php';
 <section class="relative h-screen overflow-hidden">
     <video autoplay loop muted playsinline preload="auto" onloadeddata="this.play();"
         class="absolute inset-0 w-full h-full object-cover scale-[1.3]"
-        poster="https://res.cloudinary.com/dprafk917/image/upload/v1769863039/01_qwhl8a.jpg">
+        poster="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863039/01_qwhl8a.jpg">
         <source
-            src="https://res.cloudinary.com/dprafk917/video/upload/v1768241694/1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.mp4"
+            src="https://res.cloudinary.com/dprafk917/video/upload/f_auto,q_auto/v1768241694/1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.mp4"
             type="video/mp4" />
     </video>
     <div class="absolute inset-0 bg-gradient-to-b from-black/30 via-black/20 to-black/40"></div>
@@ -72,18 +72,18 @@ include 'includes/header.php';
         </div>
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8">
             <div class="relative group overflow-hidden rounded-3xl">
-                <img src="https://res.cloudinary.com/dprafk917/image/upload/v1769863039/01_qwhl8a.jpg"
+                <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863039/01_qwhl8a.jpg"
                     alt="Neo Retro Villa Exterior"
                     class="w-full h-[400px] md:h-[500px] object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
             <div class="grid grid-rows-2 gap-6">
                 <div class="relative group overflow-hidden rounded-3xl">
-                    <img src="https://res.cloudinary.com/dprafk917/image/upload/v1769863054/03.1_c7vcel.jpg"
+                    <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863054/03.1_c7vcel.jpg"
                         alt="Neo Retro Villa Interior"
                         class="w-full h-[190px] md:h-[235px] object-cover transition-transform duration-700 group-hover:scale-105" />
                 </div>
                 <div class="relative group overflow-hidden rounded-3xl">
-                    <img src="https://res.cloudinary.com/dprafk917/image/upload/v1769863047/29_qtp6zr.jpg"
+                    <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863047/29_qtp6zr.jpg"
                         alt="Neo Retro Villa Pool Area"
                         class="w-full h-[190px] md:h-[235px] object-cover transition-transform duration-700 group-hover:scale-105" />
                 </div>
@@ -93,10 +93,10 @@ include 'includes/header.php';
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-10 md:mt-14 scroll-reveal">
         <div class="relative overflow-hidden rounded-3xl shadow-xl">
             <!-- Mobile Banner -->
-            <img src="https://res.cloudinary.com/damfndmrm/image/upload/v1771657870/IMG_20260210_165137_zisu7q.jpg"
+            <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1773566228/for_neo_and_viswa_mobile_fdd9bu.png"
                 alt="Neo Retro Villa Features Mobile" class="block sm:hidden w-full h-auto object-cover" />
             <!-- Desktop Banner -->
-            <img src="https://res.cloudinary.com/dprafk917/image/upload/v1771065916/Villa_banner_hyh4th.png"
+            <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1773566229/for_neo_and_viswa_laptop_s58iv5.png"
                 alt="Neo Retro Villa Features Desktop" class="hidden sm:block w-full h-auto object-cover" />
         </div>
     </div>
@@ -229,7 +229,7 @@ include 'includes/header.php';
                 <!-- Image 1 -->
                 <div class="relative overflow-hidden group cursor-pointer col-span-2 md:col-span-2 row-span-1 md:row-span-2 rounded-2xl shadow-lg"
                     onclick="openLightbox(0)">
-                    <img src="https://res.cloudinary.com/dprafk917/image/upload/v1769863054/03.1_c7vcel.jpg"
+                    <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863054/03.1_c7vcel.jpg"
                         class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                         alt="Villa View 1">
                     <div
@@ -249,7 +249,7 @@ include 'includes/header.php';
                 <!-- Image 2 -->
                 <div class="relative overflow-hidden group cursor-pointer col-span-2 md:col-span-2 row-span-1 md:row-span-1 rounded-2xl shadow-lg hidden md:block"
                     onclick="openLightbox(1)">
-                    <img src="https://res.cloudinary.com/dprafk917/image/upload/v1769863054/12_myvknr.jpg"
+                    <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863054/12_myvknr.jpg"
                         class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                         alt="Villa View 2">
                     <div
@@ -269,7 +269,7 @@ include 'includes/header.php';
                 <!-- Image 3 -->
                 <div class="relative overflow-hidden group cursor-pointer col-span-1 md:col-span-1 row-span-1 md:row-span-1 rounded-2xl shadow-lg"
                     onclick="openLightbox(2)">
-                    <img src="https://res.cloudinary.com/dprafk917/image/upload/v1769863051/07.1_u8yrn6.jpg"
+                    <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863051/07.1_u8yrn6.jpg"
                         class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                         alt="Villa View 3">
                     <div
@@ -289,7 +289,7 @@ include 'includes/header.php';
                 <!-- Image 4 -->
                 <div class="relative overflow-hidden group cursor-pointer col-span-1 md:col-span-1 row-span-1 md:row-span-1 rounded-2xl shadow-lg"
                     onclick="openLightbox(3)">
-                    <img src="https://res.cloudinary.com/dprafk917/image/upload/v1769863051/08.2_ws3oiy.jpg"
+                    <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863051/08.2_ws3oiy.jpg"
                         class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                         alt="Villa View 4">
                     <div
@@ -492,7 +492,7 @@ include 'includes/header.php';
 <!-- ===== FAQ & CTA SECTION ===== -->
 <section class="relative py-12 md:py-14 overflow-hidden">
     <div class="absolute inset-0">
-        <img src="https://res.cloudinary.com/dprafk917/image/upload/v1769863046/19_jxrtxx.jpg"
+        <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863046/19_jxrtxx.jpg"
             alt="Neo-Retro Villa Background" class="w-full h-full object-cover" />
         <div class="absolute inset-0 bg-gradient-to-r from-black/70 via-black/60 to-black/50"></div>
     </div>
@@ -657,7 +657,7 @@ include 'includes/header.php';
                         <!-- Screenshot uploaded by user -->
                         <div class="pt-9 sm:pt-11 w-full flex flex-col items-center">
                             <a href="https://www.instagram.com/retrofusion.in/" target="_blank" class="w-full">
-                                <img src="https://res.cloudinary.com/damfndmrm/image/upload/v1772471878/Screenshot_2026-03-02_at_10.47.42_PM_wo3toj.png"
+                                <img loading="lazy" src="https://res.cloudinary.com/damfndmrm/image/upload/f_auto,q_auto/v1772471878/Screenshot_2026-03-02_at_10.47.42_PM_wo3toj.png"
                                     alt="Instagram Profile Screenshot"
                                     class="w-full h-auto block opacity-95 transition-opacity duration-300 group-hover/screen:opacity-100" />
                             </a>
@@ -690,7 +690,7 @@ include 'includes/header.php';
                         </div>
                         <!-- Image with amber border -->
                         <div class="mx-2.5 mb-2 border-[3px] border-amber-600 rounded-lg overflow-hidden">
-                            <img src="https://res.cloudinary.com/dprafk917/image/upload/v1772473164/Screenshot_2026-03-02_at_11.08.01_PM_a5g0vs.png"
+                            <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1772473164/Screenshot_2026-03-02_at_11.08.01_PM_a5g0vs.png"
                                 alt="Instagram Post"
                                 class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" />
                         </div>
@@ -743,7 +743,7 @@ include 'includes/header.php';
                                 class="text-[10px] font-bold text-amber-600 border border-amber-600 rounded px-1.5 py-0.5">FOLLOW</span>
                         </div>
                         <div class="mx-2.5 mb-2 border-[3px] border-amber-600 rounded-lg overflow-hidden">
-                            <img src="https://res.cloudinary.com/dprafk917/image/upload/v1772473164/Screenshot_2026-03-02_at_11.07.23_PM_sbgs0f.png"
+                            <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1772473164/Screenshot_2026-03-02_at_11.07.23_PM_sbgs0f.png"
                                 alt="Instagram Post"
                                 class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" />
                         </div>
@@ -795,7 +795,7 @@ include 'includes/header.php';
                                 class="text-[10px] font-bold text-amber-600 border border-amber-600 rounded px-1.5 py-0.5">FOLLOW</span>
                         </div>
                         <div class="mx-2.5 mb-2 border-[3px] border-amber-600 rounded-lg overflow-hidden">
-                            <img src="https://res.cloudinary.com/dprafk917/image/upload/v1772473163/Screenshot_2026-03-02_at_11.07.36_PM_ftkdee.png"
+                            <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1772473163/Screenshot_2026-03-02_at_11.07.36_PM_ftkdee.png"
                                 alt="Instagram Post"
                                 class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" />
                         </div>
@@ -847,7 +847,7 @@ include 'includes/header.php';
                                 class="text-[10px] font-bold text-amber-600 border border-amber-600 rounded px-1.5 py-0.5">FOLLOW</span>
                         </div>
                         <div class="mx-2.5 mb-2 border-[3px] border-amber-600 rounded-lg overflow-hidden">
-                            <img src="https://res.cloudinary.com/dprafk917/image/upload/v1772473163/Screenshot_2026-03-02_at_11.07.51_PM_yzseuz.png"
+                            <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1772473163/Screenshot_2026-03-02_at_11.07.51_PM_yzseuz.png"
                                 alt="Instagram Post"
                                 class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" />
                         </div>
@@ -900,7 +900,7 @@ include 'includes/header.php';
       "@type": "LodgingBusiness",
       "@id": "https://retrofusion.in/neo-retro#lodgingbusiness",
       "name": "Neo Retro Villa",
-      "image": "https://res.cloudinary.com/dprafk917/image/upload/v1769863039/01_qwhl8a.jpg",
+      "image": "https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863039/01_qwhl8a.jpg",
       "url": "https://retrofusion.in/neo-retro",
       "telephone": "+91 8999036644",
       "address": {
@@ -919,7 +919,7 @@ include 'includes/header.php';
       "@type": "LocalBusiness",
       "@id": "https://retrofusion.in/neo-retro#localbusiness",
       "name": "Neo Retro Villa",
-      "image": "https://res.cloudinary.com/dprafk917/image/upload/v1769863039/01_qwhl8a.jpg",
+      "image": "https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863039/01_qwhl8a.jpg",
       "url": "https://retrofusion.in/neo-retro"
     },
     {
@@ -927,7 +927,7 @@ include 'includes/header.php';
       "@id": "https://retrofusion.in/neo-retro#product",
       "name": "Neo Retro Villa",
       "description": "Experience Neo-Retro, a luxurious 4 BHK Villa in Lonavala with private pool.",
-      "image": "https://res.cloudinary.com/dprafk917/image/upload/v1769863039/01_qwhl8a.jpg",
+      "image": "https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863039/01_qwhl8a.jpg",
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.9",
@@ -955,9 +955,9 @@ include 'includes/header.php';
       "@type": "VideoObject",
       "name": "Neo Retro Villa Lonavala",
       "description": "A visual tour of the luxurious Neo Retro Villa in Lonavala.",
-      "thumbnailUrl": "https://res.cloudinary.com/dprafk917/image/upload/v1769863039/01_qwhl8a.jpg",
+      "thumbnailUrl": "https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863039/01_qwhl8a.jpg",
       "uploadDate": "2024-01-01T08:00:00+08:00",
-      "contentUrl": "https://res.cloudinary.com/dprafk917/video/upload/v1768241694/1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.mp4"
+      "contentUrl": "https://res.cloudinary.com/dprafk917/video/upload/f_auto,q_auto/v1768241694/1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.mp4"
     }
   ]
 }
@@ -991,7 +991,7 @@ include 'includes/header.php';
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
         </svg>
     </button>
-    <img id="lightbox-img" src="" alt="Gallery"
+    <img loading="lazy" id="lightbox-img" src="" alt="Gallery"
         class="max-w-[90vw] max-h-[85vh] object-contain rounded-lg shadow-2xl transition-transform duration-300"
         onclick="event.stopPropagation()">
     <div class="absolute bottom-4 left-1/2 -translate-x-1/2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
@@ -1002,22 +1002,22 @@ include 'includes/header.php';
 </div><!-- end min-h-screen -->
 <script>
     window.galleryImages = [
-        'https://res.cloudinary.com/dprafk917/image/upload/v1769863054/03.1_c7vcel.jpg',
-        'https://res.cloudinary.com/dprafk917/image/upload/v1769863054/12_myvknr.jpg',
-        'https://res.cloudinary.com/dprafk917/image/upload/v1769863051/07.1_u8yrn6.jpg',
-        'https://res.cloudinary.com/dprafk917/image/upload/v1769863051/08.2_ws3oiy.jpg',
-        'https://res.cloudinary.com/dprafk917/image/upload/v1769863047/29_qtp6zr.jpg',
-        'https://res.cloudinary.com/dprafk917/image/upload/v1769863047/20_haycpz.jpg',
-        'https://res.cloudinary.com/dprafk917/image/upload/v1769863046/19_jxrtxx.jpg',
-        'https://res.cloudinary.com/dprafk917/image/upload/v1769863045/18_xqydeo.jpg',
-        'https://res.cloudinary.com/dprafk917/image/upload/v1769863044/14_w8imzc.jpg',
-        'https://res.cloudinary.com/dprafk917/image/upload/v1769863043/08.1_cth2qs.jpg',
-        'https://res.cloudinary.com/dprafk917/image/upload/v1769863043/09_ufowaj.jpg',
-        'https://res.cloudinary.com/dprafk917/image/upload/v1769863041/04_s8l8dy.jpg',
-        'https://res.cloudinary.com/dprafk917/image/upload/v1769863040/07_jrnhvd.jpg',
-        'https://res.cloudinary.com/dprafk917/image/upload/v1769863040/05_sty1kz.jpg',
-        'https://res.cloudinary.com/dprafk917/image/upload/v1769863039/01_qwhl8a.jpg',
-        'https://res.cloudinary.com/dprafk917/image/upload/v1769863039/06_mk52qt.jpg',
+        'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863054/03.1_c7vcel.jpg',
+        'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863054/12_myvknr.jpg',
+        'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863051/07.1_u8yrn6.jpg',
+        'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863051/08.2_ws3oiy.jpg',
+        'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863047/29_qtp6zr.jpg',
+        'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863047/20_haycpz.jpg',
+        'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863046/19_jxrtxx.jpg',
+        'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863045/18_xqydeo.jpg',
+        'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863044/14_w8imzc.jpg',
+        'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863043/08.1_cth2qs.jpg',
+        'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863043/09_ufowaj.jpg',
+        'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863041/04_s8l8dy.jpg',
+        'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863040/07_jrnhvd.jpg',
+        'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863040/05_sty1kz.jpg',
+        'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863039/01_qwhl8a.jpg',
+        'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863039/06_mk52qt.jpg',
     ];
 
     // Define sets to match React component logic exactly

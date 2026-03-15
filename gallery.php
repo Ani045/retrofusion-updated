@@ -21,8 +21,8 @@ include 'includes/header.php';
           <div class="grid grid-cols-1 md:grid-cols-3 gap-5 lg:gap-6">
             <a href="retro-viswa-lonavala" class="group block">
               <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-all duration-500">
-                <div class="relative h-40 sm:h-44 md:h-48 overflow-hidden"><img
-                    src="https://res.cloudinary.com/dprafk917/video/upload/so_2/v1769858399/8wr207mfxnrmy0cvd61bd2gn1g_result__viprl7.jpg"
+                <div class="relative h-40 sm:h-44 md:h-48 overflow-hidden"><img loading="lazy"
+                    src="https://res.cloudinary.com/dprafk917/video/upload/f_auto,q_auto/so_2/v1769858399/8wr207mfxnrmy0cvd61bd2gn1g_result__viprl7.jpg"
                     alt="Retro Visawa"
                     class="w-full h-full object-cover scale-110 transition-transform duration-700 group-hover:scale-125" />
                   <div
@@ -47,8 +47,8 @@ include 'includes/header.php';
             </a>
             <a href="neo-retro" class="group block">
               <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-all duration-500">
-                <div class="relative h-40 sm:h-44 md:h-48 overflow-hidden"><img
-                    src="https://res.cloudinary.com/dprafk917/video/upload/so_2/v1768241694/1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg"
+                <div class="relative h-40 sm:h-44 md:h-48 overflow-hidden"><img loading="lazy"
+                    src="https://res.cloudinary.com/dprafk917/video/upload/f_auto,q_auto/so_2/v1768241694/1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg"
                     alt="Neo Retro Villa"
                     class="w-full h-full object-cover scale-110 transition-transform duration-700 group-hover:scale-125" />
                   <div
@@ -73,8 +73,8 @@ include 'includes/header.php';
             </a>
             <a href="retro-villas" class="group block">
               <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-all duration-500">
-                <div class="relative h-40 sm:h-44 md:h-48 overflow-hidden"><img
-                    src="https://res.cloudinary.com/dprafk917/video/upload/so_3/v1769867671/final_nkd4ry.jpg"
+                <div class="relative h-40 sm:h-44 md:h-48 overflow-hidden"><img loading="lazy"
+                    src="https://res.cloudinary.com/dprafk917/video/upload/f_auto,q_auto/so_3/v1769867671/final_nkd4ry.jpg"
                     alt="Retro Villa"
                     class="w-full h-full object-cover scale-110 transition-transform duration-700 group-hover:scale-125" />
                   <div
@@ -107,8 +107,8 @@ include 'includes/header.php';
     <!-- Hero Section -->
     <section class="relative h-[50vh] md:h-[60vh] flex items-center justify-center overflow-hidden">
       <div class="absolute inset-0 z-0">
-        <img
-          src="https://res.cloudinary.com/dprafk917/image/upload/v1768230663/a613a1b2-edef-4242-8ee3-79ce77bae0e1_yi24hq.avif"
+        <img loading="lazy"
+          src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1768230663/a613a1b2-edef-4242-8ee3-79ce77bae0e1_yi24hq.avif"
           alt="Gallery" class="w-full h-full object-cover" />
         <div class="absolute inset-0 bg-gradient-to-b from-black/30 via-black/20 to-black/50"></div>
       </div>
@@ -155,7 +155,7 @@ include 'includes/header.php';
           <div class="gallery-item group cursor-pointer" data-category="exterior"
             onclick="openLightbox('https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&h=600&fit=crop', 'Retro Villa Exterior', 'Beautiful facade with vintage charm')">
             <div class="aspect-square overflow-hidden rounded-2xl shadow-lg relative">
-              <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&h=600&fit=crop"
+              <img loading="lazy" src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&h=600&fit=crop"
                 alt="Retro Villa Exterior"
                 class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
               <div
@@ -171,7 +171,7 @@ include 'includes/header.php';
           <div class="gallery-item group cursor-pointer" data-category="amenities"
             onclick="openLightbox('https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=800&h=600&fit=crop', 'Private Swimming Pool', 'Relax in your own private oasis')">
             <div class="aspect-square overflow-hidden rounded-2xl shadow-lg relative">
-              <img src="https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=800&h=600&fit=crop"
+              <img loading="lazy" src="https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=800&h=600&fit=crop"
                 alt="Private Swimming Pool"
                 class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
               <div
@@ -187,7 +187,7 @@ include 'includes/header.php';
           <div class="gallery-item group cursor-pointer" data-category="interior"
             onclick="openLightbox('https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=600&fit=crop', 'Living Room', 'Spacious and elegantly furnished')">
             <div class="aspect-square overflow-hidden rounded-2xl shadow-lg relative">
-              <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=600&fit=crop"
+              <img loading="lazy" src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=600&fit=crop"
                 alt="Living Room"
                 class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
               <div
@@ -203,7 +203,7 @@ include 'includes/header.php';
           <div class="gallery-item group cursor-pointer" data-category="interior"
             onclick="openLightbox('https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=800&h=600&fit=crop', 'Master Bedroom', 'Comfortable luxury with retro touches')">
             <div class="aspect-square overflow-hidden rounded-2xl shadow-lg relative">
-              <img src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=800&h=600&fit=crop"
+              <img loading="lazy" src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=800&h=600&fit=crop"
                 alt="Master Bedroom"
                 class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
               <div
@@ -219,7 +219,7 @@ include 'includes/header.php';
           <div class="gallery-item group cursor-pointer" data-category="exterior"
             onclick="openLightbox('https://images.unsplash.com/photo-1613977257363-707ba9348227?w=800&h=600&fit=crop', 'Neo Retro Villa', 'Modern architecture meets vintage design')">
             <div class="aspect-square overflow-hidden rounded-2xl shadow-lg relative">
-              <img src="https://images.unsplash.com/photo-1613977257363-707ba9348227?w=800&h=600&fit=crop"
+              <img loading="lazy" src="https://images.unsplash.com/photo-1613977257363-707ba9348227?w=800&h=600&fit=crop"
                 alt="Neo Retro Villa"
                 class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
               <div
@@ -235,7 +235,7 @@ include 'includes/header.php';
           <div class="gallery-item group cursor-pointer" data-category="interior"
             onclick="openLightbox('https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?w=800&h=600&fit=crop', 'Dining Area', 'Perfect for family meals and gatherings')">
             <div class="aspect-square overflow-hidden rounded-2xl shadow-lg relative">
-              <img src="https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?w=800&h=600&fit=crop"
+              <img loading="lazy" src="https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?w=800&h=600&fit=crop"
                 alt="Dining Area"
                 class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
               <div
@@ -251,7 +251,7 @@ include 'includes/header.php';
           <div class="gallery-item group cursor-pointer" data-category="amenities"
             onclick="openLightbox('https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=600&fit=crop', 'Kitchen', 'Fully equipped modern kitchen')">
             <div class="aspect-square overflow-hidden rounded-2xl shadow-lg relative">
-              <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=600&fit=crop" alt="Kitchen"
+              <img loading="lazy" src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=600&fit=crop" alt="Kitchen"
                 class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
               <div
                 class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
@@ -266,7 +266,7 @@ include 'includes/header.php';
           <div class="gallery-item group cursor-pointer" data-category="interior"
             onclick="openLightbox('https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&h=600&fit=crop', 'Cozy Corner', 'Comfortable seating with vintage charm')">
             <div class="aspect-square overflow-hidden rounded-2xl shadow-lg relative">
-              <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&h=600&fit=crop"
+              <img loading="lazy" src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&h=600&fit=crop"
                 alt="Cozy Corner"
                 class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
               <div
@@ -282,7 +282,7 @@ include 'includes/header.php';
           <div class="gallery-item group cursor-pointer" data-category="views"
             onclick="openLightbox('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop', 'Lonavala Hills', 'Scenic mountain views from the villa')">
             <div class="aspect-square overflow-hidden rounded-2xl shadow-lg relative">
-              <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop"
+              <img loading="lazy" src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop"
                 alt="Lonavala Hills"
                 class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
               <div
@@ -298,7 +298,7 @@ include 'includes/header.php';
           <div class="gallery-item group cursor-pointer" data-category="views"
             onclick="openLightbox('https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=800&h=600&fit=crop', 'Monsoon Magic', 'Lush greenery during monsoon season')">
             <div class="aspect-square overflow-hidden rounded-2xl shadow-lg relative">
-              <img src="https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=800&h=600&fit=crop"
+              <img loading="lazy" src="https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=800&h=600&fit=crop"
                 alt="Monsoon Magic"
                 class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
               <div
@@ -314,7 +314,7 @@ include 'includes/header.php';
           <div class="gallery-item group cursor-pointer" data-category="amenities"
             onclick="openLightbox('https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&h=600&fit=crop', 'Outdoor Dining', 'Al fresco dining experience')">
             <div class="aspect-square overflow-hidden rounded-2xl shadow-lg relative">
-              <img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&h=600&fit=crop"
+              <img loading="lazy" src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&h=600&fit=crop"
                 alt="Outdoor Dining"
                 class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
               <div
@@ -330,7 +330,7 @@ include 'includes/header.php';
           <div class="gallery-item group cursor-pointer" data-category="exterior"
             onclick="openLightbox('https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&h=600&fit=crop', 'Garden Area', 'Beautifully landscaped gardens')">
             <div class="aspect-square overflow-hidden rounded-2xl shadow-lg relative">
-              <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&h=600&fit=crop"
+              <img loading="lazy" src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&h=600&fit=crop"
                 alt="Garden Area"
                 class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
               <div
@@ -355,7 +355,7 @@ include 'includes/header.php';
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
           </svg>
         </button>
-        <img id="lightbox-img" src="" alt="" class="w-full h-auto max-h-[85vh] object-contain rounded-lg" />
+        <img loading="lazy" id="lightbox-img" src="" alt="" class="w-full h-auto max-h-[85vh] object-contain rounded-lg" />
         <div class="text-center mt-4">
           <h3 id="lightbox-title" class="text-2xl font-bold text-white mb-2 font-display"></h3>
           <p id="lightbox-desc" class="text-stone-300 font-light"></p>

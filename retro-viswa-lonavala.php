@@ -8,9 +8,9 @@ include 'includes/header.php';
     <section class="relative h-screen overflow-hidden">
       <video autoplay loop muted playsinline preload="auto" onloadeddata="this.play();"
         class="absolute inset-0 w-full h-full object-cover scale-[1.3]"
-        poster="https://res.cloudinary.com/dprafk917/video/upload/so_2/v1769858399/8wr207mfxnrmy0cvd61bd2gn1g_result__viprl7.jpg">
+        poster="https://res.cloudinary.com/dprafk917/video/upload/f_auto,q_auto/so_2/v1769858399/8wr207mfxnrmy0cvd61bd2gn1g_result__viprl7.jpg">
         <source
-          src="https://res.cloudinary.com/dprafk917/video/upload/v1769858399/8wr207mfxnrmy0cvd61bd2gn1g_result__viprl7.mp4"
+          src="https://res.cloudinary.com/dprafk917/video/upload/f_auto,q_auto/v1769858399/8wr207mfxnrmy0cvd61bd2gn1g_result__viprl7.mp4"
           type="video/mp4" />
       </video>
       <div class="absolute inset-0 bg-gradient-to-b from-black/30 via-black/20 to-black/40"></div>
@@ -70,19 +70,19 @@ include 'includes/header.php';
         </div>
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8">
           <div class="relative group overflow-hidden rounded-3xl">
-            <img
-              src="https://res.cloudinary.com/dprafk917/video/upload/so_2/v1769858399/8wr207mfxnrmy0cvd61bd2gn1g_result__viprl7.jpg"
+            <img loading="lazy"
+              src="https://res.cloudinary.com/dprafk917/video/upload/f_auto,q_auto/so_2/v1769858399/8wr207mfxnrmy0cvd61bd2gn1g_result__viprl7.jpg"
               alt="Retro Visawa Exterior"
               class="w-full h-[400px] md:h-[500px] object-cover transition-transform duration-700 group-hover:scale-105" />
           </div>
           <div class="grid grid-rows-2 gap-6">
             <div class="relative group overflow-hidden rounded-3xl">
-              <img src="https://res.cloudinary.com/dprafk917/image/upload/v1769862646/pool_ckwldd.png"
+              <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769862646/pool_ckwldd.png"
                 alt="Retro Visawa Pool"
                 class="w-full h-[190px] md:h-[235px] object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
             <div class="relative group overflow-hidden rounded-3xl">
-              <img src="https://res.cloudinary.com/dprafk917/image/upload/v1769862645/shape_ufdcac.jpg"
+              <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769862645/shape_ufdcac.jpg"
                 alt="Retro Visawa Interior"
                 class="w-full h-[190px] md:h-[235px] object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
@@ -92,10 +92,10 @@ include 'includes/header.php';
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-10 md:mt-14 scroll-reveal">
         <div class="relative overflow-hidden rounded-3xl shadow-xl">
           <!-- Mobile Banner -->
-          <img src="https://res.cloudinary.com/damfndmrm/image/upload/v1771657870/IMG_20260210_165137_zisu7q.jpg"
+          <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1773566228/for_neo_and_viswa_mobile_fdd9bu.png"
             alt="Retro Visawa Features Mobile" class="block sm:hidden w-full h-auto object-cover" />
           <!-- Desktop Banner -->
-          <img src="https://res.cloudinary.com/dprafk917/image/upload/v1771065916/Villa_banner_hyh4th.png"
+          <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1773566229/for_neo_and_viswa_laptop_s58iv5.png"
             alt="Retro Visawa Features Desktop" class="hidden sm:block w-full h-auto object-cover" />
         </div>
       </div>
@@ -221,7 +221,7 @@ include 'includes/header.php';
             <div
               class="relative overflow-hidden group cursor-pointer col-span-2 md:col-span-2 row-span-1 md:row-span-2 rounded-2xl shadow-lg"
               onclick="openLightbox(0)">
-              <img src="https://res.cloudinary.com/dprafk917/image/upload/v1769862645/shape_ufdcac.jpg"
+              <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769862645/shape_ufdcac.jpg"
                 class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 alt="Retro Visawa Interior">
               <div
@@ -241,7 +241,7 @@ include 'includes/header.php';
             <div
               class="relative overflow-hidden group cursor-pointer col-span-2 md:col-span-2 row-span-1 md:row-span-1 rounded-2xl shadow-lg hidden md:block"
               onclick="openLightbox(1)">
-              <img src="https://res.cloudinary.com/dprafk917/image/upload/v1769862646/small_ysri1e.png"
+              <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769862646/small_ysri1e.png"
                 class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 alt="Retro Visawa Detail">
               <div
@@ -261,7 +261,7 @@ include 'includes/header.php';
             <div
               class="relative overflow-hidden group cursor-pointer col-span-1 md:col-span-1 row-span-1 md:row-span-1 rounded-2xl shadow-lg"
               onclick="openLightbox(2)">
-              <img src="https://res.cloudinary.com/dprafk917/image/upload/v1769862646/20_p33hnk.png"
+              <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769862646/20_p33hnk.png"
                 class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 alt="Retro Visawa Bedroom">
               <div
@@ -281,7 +281,7 @@ include 'includes/header.php';
             <div
               class="relative overflow-hidden group cursor-pointer col-span-1 md:col-span-1 row-span-1 md:row-span-1 rounded-2xl shadow-lg"
               onclick="openLightbox(3)">
-              <img src="https://res.cloudinary.com/dprafk917/image/upload/v1769862646/24_m8sem5.png"
+              <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769862646/24_m8sem5.png"
                 class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 alt="Retro Visawa Pool">
               <div
@@ -476,7 +476,7 @@ include 'includes/header.php';
     <!-- ===== FAQ & CTA SECTION ===== -->
     <section class="relative py-12 md:py-14 overflow-hidden">
       <div class="absolute inset-0">
-        <img src="https://res.cloudinary.com/dprafk917/image/upload/v1768248895/7_c3uz2f.avif"
+        <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1768248895/7_c3uz2f.avif"
           alt="Retro Visawa Background" class="w-full h-full object-cover" />
         <div class="absolute inset-0 bg-gradient-to-r from-black/70 via-black/60 to-black/50"></div>
       </div>
@@ -632,8 +632,8 @@ include 'includes/header.php';
                 <!-- Screenshot uploaded by user -->
                 <div class="pt-9 sm:pt-11 w-full flex flex-col items-center">
                   <a href="https://www.instagram.com/retrofusion.in/" target="_blank" class="w-full">
-                    <img
-                      src="https://res.cloudinary.com/damfndmrm/image/upload/v1772471878/Screenshot_2026-03-02_at_10.47.42_PM_wo3toj.png"
+                    <img loading="lazy"
+                      src="https://res.cloudinary.com/damfndmrm/image/upload/f_auto,q_auto/v1772471878/Screenshot_2026-03-02_at_10.47.42_PM_wo3toj.png"
                       alt="Instagram Profile Screenshot"
                       class="w-full h-auto block opacity-95 transition-opacity duration-300 group-hover/screen:opacity-100" />
                   </a>
@@ -665,8 +665,8 @@ include 'includes/header.php';
                 </div>
                 <!-- Image with amber border -->
                 <div class="mx-2.5 mb-2 border-[3px] border-amber-600 rounded-lg overflow-hidden">
-                  <img
-                    src="https://res.cloudinary.com/dprafk917/image/upload/v1772473164/Screenshot_2026-03-02_at_11.08.01_PM_a5g0vs.png"
+                  <img loading="lazy"
+                    src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1772473164/Screenshot_2026-03-02_at_11.08.01_PM_a5g0vs.png"
                     alt="Instagram Post"
                     class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" />
                 </div>
@@ -717,8 +717,8 @@ include 'includes/header.php';
                     class="text-[10px] font-bold text-amber-600 border border-amber-600 rounded px-1.5 py-0.5">FOLLOW</span>
                 </div>
                 <div class="mx-2.5 mb-2 border-[3px] border-amber-600 rounded-lg overflow-hidden">
-                  <img
-                    src="https://res.cloudinary.com/dprafk917/image/upload/v1772473164/Screenshot_2026-03-02_at_11.07.23_PM_sbgs0f.png"
+                  <img loading="lazy"
+                    src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1772473164/Screenshot_2026-03-02_at_11.07.23_PM_sbgs0f.png"
                     alt="Instagram Post"
                     class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" />
                 </div>
@@ -768,8 +768,8 @@ include 'includes/header.php';
                     class="text-[10px] font-bold text-amber-600 border border-amber-600 rounded px-1.5 py-0.5">FOLLOW</span>
                 </div>
                 <div class="mx-2.5 mb-2 border-[3px] border-amber-600 rounded-lg overflow-hidden">
-                  <img
-                    src="https://res.cloudinary.com/dprafk917/image/upload/v1772473163/Screenshot_2026-03-02_at_11.07.36_PM_ftkdee.png"
+                  <img loading="lazy"
+                    src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1772473163/Screenshot_2026-03-02_at_11.07.36_PM_ftkdee.png"
                     alt="Instagram Post"
                     class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" />
                 </div>
@@ -819,8 +819,8 @@ include 'includes/header.php';
                     class="text-[10px] font-bold text-amber-600 border border-amber-600 rounded px-1.5 py-0.5">FOLLOW</span>
                 </div>
                 <div class="mx-2.5 mb-2 border-[3px] border-amber-600 rounded-lg overflow-hidden">
-                  <img
-                    src="https://res.cloudinary.com/dprafk917/image/upload/v1772473163/Screenshot_2026-03-02_at_11.07.51_PM_yzseuz.png"
+                  <img loading="lazy"
+                    src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1772473163/Screenshot_2026-03-02_at_11.07.51_PM_yzseuz.png"
                     alt="Instagram Post"
                     class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" />
                 </div>
@@ -891,7 +891,7 @@ include 'includes/header.php';
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
         </svg>
       </button>
-      <img id="lightbox-img" src="" alt="Gallery"
+      <img loading="lazy" id="lightbox-img" src="" alt="Gallery"
         class="max-w-[90vw] max-h-[85vh] object-contain rounded-lg shadow-2xl transition-transform duration-300"
         onclick="event.stopPropagation()">
       <div class="absolute bottom-4 left-1/2 -translate-x-1/2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
@@ -902,14 +902,14 @@ include 'includes/header.php';
   </div><!-- end min-h-screen -->
   <script>
     window.galleryImages = [
-      'https://res.cloudinary.com/dprafk917/image/upload/v1769862645/shape_ufdcac.jpg',
-      'https://res.cloudinary.com/dprafk917/image/upload/v1769862646/small_ysri1e.png',
-      'https://res.cloudinary.com/dprafk917/image/upload/v1769862646/20_p33hnk.png',
-      'https://res.cloudinary.com/dprafk917/image/upload/v1769862646/24_m8sem5.png',
-      'https://res.cloudinary.com/dprafk917/image/upload/v1769862647/tale_wyqqul.png',
-      'https://res.cloudinary.com/dprafk917/image/upload/v1769862646/pool_ckwldd.png',
-      'https://res.cloudinary.com/dprafk917/image/upload/v1769862646/27_f9uanm.png',
-      'https://res.cloudinary.com/dprafk917/video/upload/so_2/v1769858399/8wr207mfxnrmy0cvd61bd2gn1g_result__viprl7.jpg',
+      'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769862645/shape_ufdcac.jpg',
+      'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769862646/small_ysri1e.png',
+      'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769862646/20_p33hnk.png',
+      'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769862646/24_m8sem5.png',
+      'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769862647/tale_wyqqul.png',
+      'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769862646/pool_ckwldd.png',
+      'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769862646/27_f9uanm.png',
+      'https://res.cloudinary.com/dprafk917/video/upload/f_auto,q_auto/so_2/v1769858399/8wr207mfxnrmy0cvd61bd2gn1g_result__viprl7.jpg',
     ];
   </script>
   <script src="js/main.js"></script>

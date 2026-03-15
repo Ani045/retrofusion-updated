@@ -7,10 +7,10 @@ include 'includes/header.php';
 <!-- ===== HERO SECTION ===== -->
 <section id="hero-section" class="relative h-screen flex items-center justify-center overflow-hidden touch-pan-y">
   <div class="absolute inset-0 w-full h-full">
-    <div id="hero-current-layer" class="hero-image-layer" style="z-index:1;"><img id="hero-current-img"
-        src="https://res.cloudinary.com/dprafk917/image/upload/v1769868140/B30_yc8rqu.webp"
+    <div id="hero-current-layer" class="hero-image-layer" style="z-index:1;"><img loading="lazy" id="hero-current-img"
+        src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868140/B30_yc8rqu.webp"
         alt="Retrofusion Homestay" /></div>
-    <div id="hero-prev-layer" class="hero-image-layer" style="z-index:2;display:none;"><img id="hero-prev-img" src=""
+    <div id="hero-prev-layer" class="hero-image-layer" style="z-index:2;display:none;"><img loading="lazy" id="hero-prev-img" src=""
         alt="Retrofusion Homestay" /></div>
     <div class="absolute inset-0 bg-gradient-to-b from-black/30 via-black/20 to-black/40 z-10"></div>
     <div class="absolute inset-0 z-10"
@@ -76,7 +76,7 @@ include 'includes/header.php';
         <!-- Card 1 -->
         <div
           class="villa-card relative h-[500px] w-full cursor-pointer group overflow-hidden rounded-[2rem] shadow-2xl hover:shadow-[0_30px_60px_-12px_rgba(0,0,0,0.3)] transition-all duration-700 transform hover:scale-[1.03] border-2 border-white/20">
-          <img src="https://res.cloudinary.com/dprafk917/image/upload/v1770226533/N34_stewru.jpg" alt="Retro Villa"
+          <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1770226533/N34_stewru.jpg" alt="Retro Villa"
             class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
           <div class="absolute bottom-8 left-8 villa-card-name transition-opacity duration-300">
@@ -124,8 +124,8 @@ include 'includes/header.php';
         <!-- Card 2 -->
         <div
           class="villa-card relative h-[500px] w-full cursor-pointer group overflow-hidden rounded-[2rem] shadow-2xl hover:shadow-[0_30px_60px_-12px_rgba(0,0,0,0.3)] transition-all duration-700 transform hover:scale-[1.03] border-2 border-white/20">
-          <img
-            src="https://res.cloudinary.com/dprafk917/video/upload/so_2/v1768241694/1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg"
+          <img loading="lazy"
+            src="https://res.cloudinary.com/dprafk917/video/upload/f_auto,q_auto/so_2/v1768241694/1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg"
             alt="Neo Retro Villa"
             class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
@@ -174,8 +174,8 @@ include 'includes/header.php';
         <!-- Card 3 -->
         <div
           class="villa-card relative h-[500px] w-full cursor-pointer group overflow-hidden rounded-[2rem] shadow-2xl hover:shadow-[0_30px_60px_-12px_rgba(0,0,0,0.3)] transition-all duration-700 transform hover:scale-[1.03] border-2 border-white/20">
-          <img
-            src="https://res.cloudinary.com/damfndmrm/image/upload/v1772474727/Screenshot_2026-03-02_at_11.33.32_PM_wqk7eu.png"
+          <img loading="lazy"
+            src="https://res.cloudinary.com/damfndmrm/image/upload/f_auto,q_auto/v1772474727/Screenshot_2026-03-02_at_11.33.32_PM_wqk7eu.png"
             alt="Retro Visawa"
             class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
@@ -268,8 +268,8 @@ include 'includes/header.php';
       <!-- LEFT: Image Slider -->
       <div class="w-full lg:w-[35%] lg:flex-shrink-0">
         <div class="relative overflow-hidden rounded-lg">
-          <img id="retrofusion-slider-img"
-            src="https://res.cloudinary.com/dprafk917/image/upload/v1769863054/03.1_c7vcel.jpg"
+          <img loading="lazy" id="retrofusion-slider-img"
+            src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863054/03.1_c7vcel.jpg"
             alt="Retrofusion experience" class="w-full h-[280px] sm:h-[300px] lg:h-[320px] object-cover" />
 
           <!-- Navigation Arrow - Inside Image on Right -->
@@ -299,7 +299,7 @@ include 'includes/header.php';
           <!-- Item: Private Villas -->
           <div class="flex flex-col items-center text-center">
             <div class="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 mb-2 sm:mb-3">
-              <img src="https://res.cloudinary.com/dprafk917/image/upload/v1771063573/Private_Luxury_Villas_u4cgeg.png"
+              <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1771063573/Private_Luxury_Villas_u4cgeg.png"
                 alt="Private Villas" class="w-full h-full object-contain icon-green">
             </div>
             <p class="text-[10px] sm:text-xs text-stone-700 leading-tight font-medium">
@@ -310,7 +310,7 @@ include 'includes/header.php';
           <!-- Item: Pet Friendly -->
           <div class="flex flex-col items-center text-center">
             <div class="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 mb-2 sm:mb-3 flex items-center justify-center">
-              <img src="https://res.cloudinary.com/damfndmrm/image/upload/v1773247460/pet_e5e6xo.png" alt="Pet Friendly"
+              <img loading="lazy" src="https://res.cloudinary.com/damfndmrm/image/upload/f_auto,q_auto/v1773247460/pet_e5e6xo.png" alt="Pet Friendly"
                 class="w-1/2 h-1/2 object-contain icon-green">
             </div>
             <p class="text-[10px] sm:text-xs text-stone-700 leading-tight font-medium">
@@ -321,7 +321,7 @@ include 'includes/header.php';
           <!-- Item: Private Pool & Jacuzzi -->
           <div class="flex flex-col items-center text-center">
             <div class="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 mb-2 sm:mb-3">
-              <img src="https://res.cloudinary.com/dprafk917/image/upload/v1771063565/Private_Pool_Jacuzzi_j0gah4.png"
+              <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1771063565/Private_Pool_Jacuzzi_j0gah4.png"
                 alt="Homestay in Lonavala with swimming pool" class="w-full h-full object-contain icon-green">
             </div>
             <p class="text-[10px] sm:text-xs text-stone-700 leading-tight font-medium">
@@ -332,8 +332,8 @@ include 'includes/header.php';
           <!-- Item: Mountain Views -->
           <div class="flex flex-col items-center text-center">
             <div class="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 mb-2 sm:mb-3">
-              <img
-                src="https://res.cloudinary.com/dprafk917/image/upload/v1771063574/5-Star_Concierge_Experience_kmhgne.png"
+              <img loading="lazy"
+                src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1771063574/5-Star_Concierge_Experience_kmhgne.png"
                 alt="Mountain Views" class="w-full h-full object-contain icon-green">
             </div>
             <p class="text-[10px] sm:text-xs text-stone-700 leading-tight font-medium">
@@ -344,8 +344,8 @@ include 'includes/header.php';
           <!-- Item: Well-connected Location -->
           <div class="flex flex-col items-center text-center">
             <div class="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 mb-2 sm:mb-3">
-              <img
-                src="https://res.cloudinary.com/dprafk917/image/upload/v1771063570/Nature-Surrounded_Quiet_Location_t2uv6e.png"
+              <img loading="lazy"
+                src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1771063570/Nature-Surrounded_Quiet_Location_t2uv6e.png"
                 alt="Well-connected Location" class="w-full h-full object-contain icon-green">
             </div>
             <p class="text-[10px] sm:text-xs text-stone-700 leading-tight font-medium">
@@ -356,7 +356,7 @@ include 'includes/header.php';
           <!-- Item: In-house Menu -->
           <div class="flex flex-col items-center text-center">
             <div class="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 mb-2 sm:mb-3">
-              <img src="https://res.cloudinary.com/dprafk917/image/upload/v1771063571/In-house_Chef_b1loz2.png"
+              <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1771063571/In-house_Chef_b1loz2.png"
                 alt="In-house Menu" class="w-full h-full object-contain icon-green">
             </div>
             <p class="text-[10px] sm:text-xs text-stone-700 leading-tight font-medium">
@@ -367,7 +367,7 @@ include 'includes/header.php';
           <!-- Item: Local Experiences -->
           <div class="flex flex-col items-center text-center">
             <div class="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 mb-2 sm:mb-3">
-              <img src="https://res.cloudinary.com/dprafk917/image/upload/v1771063556/Local_Experiences_yqatmk.png"
+              <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1771063556/Local_Experiences_yqatmk.png"
                 alt="Local Experiences" class="w-full h-full object-contain icon-green">
             </div>
             <p class="text-[10px] sm:text-xs text-stone-700 leading-tight font-medium">
@@ -378,7 +378,7 @@ include 'includes/header.php';
           <!-- Item: Caretaker Onsite -->
           <div class="flex flex-col items-center text-center">
             <div class="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 mb-2 sm:mb-3">
-              <img src="https://res.cloudinary.com/dprafk917/image/upload/v1771063568/Caretaker_Onsite_dxglxm.png"
+              <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1771063568/Caretaker_Onsite_dxglxm.png"
                 alt="Caretaker Onsite" class="w-full h-full object-contain icon-green">
             </div>
             <p class="text-[10px] sm:text-xs text-stone-700 leading-tight font-medium">
@@ -389,7 +389,7 @@ include 'includes/header.php';
           <!-- Item: Games & Recreation -->
           <div class="flex flex-col items-center text-center">
             <div class="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 mb-2 sm:mb-3">
-              <img src="https://res.cloudinary.com/dprafk917/image/upload/v1771063571/Games_Recreation_xfrlsr.png"
+              <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1771063571/Games_Recreation_xfrlsr.png"
                 alt="Games & Recreation" class="w-full h-full object-contain icon-green">
             </div>
             <p class="text-[10px] sm:text-xs text-stone-700 leading-tight font-medium">
@@ -400,7 +400,7 @@ include 'includes/header.php';
           <!-- Item: Green Open Space -->
           <div class="flex flex-col items-center text-center">
             <div class="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 mb-2 sm:mb-3">
-              <img src="https://res.cloudinary.com/dprafk917/image/upload/v1771063562/Green_Open_Space_lbaszi.png"
+              <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1771063562/Green_Open_Space_lbaszi.png"
                 alt="Green Open Space" class="w-full h-full object-contain icon-green">
             </div>
             <p class="text-[10px] sm:text-xs text-stone-700 leading-tight font-medium">
@@ -430,7 +430,7 @@ include 'includes/header.php';
       <div class="flex flex-col gap-6 h-[600px]">
         <a href="retro-villas"
           class="relative w-full rounded-3xl overflow-hidden group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-[1.02] border border-stone-200 block flex-[1.4] hover:-translate-y-1">
-          <img src="https://res.cloudinary.com/dprafk917/image/upload/v1770226533/N34_stewru.jpg"
+          <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1770226533/N34_stewru.jpg"
             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
             alt="Retro Villa" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
@@ -440,7 +440,7 @@ include 'includes/header.php';
         </a>
         <a href="retro-villas"
           class="relative w-full rounded-3xl overflow-hidden group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-[1.02] border border-stone-200 block flex-1 hover:-translate-y-1">
-          <img src="https://res.cloudinary.com/dprafk917/image/upload/v1769863054/03.1_c7vcel.jpg"
+          <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863054/03.1_c7vcel.jpg"
             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
             alt="Private Pool" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
@@ -453,7 +453,7 @@ include 'includes/header.php';
       <div class="flex flex-col gap-6 h-[600px]">
         <a href="retro-villas"
           class="relative w-full rounded-3xl overflow-hidden group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-[1.02] border border-stone-200 block flex-1 hover:-translate-y-1">
-          <img src="https://res.cloudinary.com/dprafk917/image/upload/v1772868264/1_wqosmq.jpg"
+          <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1772868264/1_wqosmq.jpg"
             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
             alt="Pet-Friendly Stays" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
@@ -464,7 +464,7 @@ include 'includes/header.php';
         </a>
         <a href="neo-retro"
           class="relative w-full rounded-3xl overflow-hidden group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-[1.02] border border-stone-200 block flex-[1.4] hover:-translate-y-1">
-          <img src="https://res.cloudinary.com/dprafk917/image/upload/v1769863039/01_qwhl8a.jpg"
+          <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863039/01_qwhl8a.jpg"
             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
             alt="Neo-Retro Villa" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
@@ -477,8 +477,8 @@ include 'includes/header.php';
       <div class="flex flex-col gap-6 h-[600px]">
         <a href="retro-viswa-lonavala"
           class="relative w-full rounded-3xl overflow-hidden group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-[1.02] border border-stone-200 block flex-[1.4] hover:-translate-y-1">
-          <img
-            src="https://res.cloudinary.com/damfndmrm/image/upload/v1772474727/Screenshot_2026-03-02_at_11.33.32_PM_wqk7eu.png"
+          <img loading="lazy"
+            src="https://res.cloudinary.com/damfndmrm/image/upload/f_auto,q_auto/v1772474727/Screenshot_2026-03-02_at_11.33.32_PM_wqk7eu.png"
             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
             alt="Retro Visawa" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
@@ -488,7 +488,7 @@ include 'includes/header.php';
         </a>
         <a href="retro-villas"
           class="relative w-full rounded-3xl overflow-hidden group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-[1.02] border border-stone-200 block flex-1 hover:-translate-y-1">
-          <img src="https://res.cloudinary.com/dprafk917/image/upload/v1773076226/27_ipqwdd.jpg"
+          <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1773076226/27_ipqwdd.jpg"
             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
             alt="Mountain Views" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
@@ -501,7 +501,7 @@ include 'includes/header.php';
       <div class="flex flex-col gap-6 h-[600px]">
         <a href="neo-retro"
           class="relative w-full rounded-3xl overflow-hidden group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-[1.02] border border-stone-200 block flex-1 hover:-translate-y-1">
-          <img src="https://res.cloudinary.com/dprafk917/image/upload/v1773076342/23_wby8bv.jpg"
+          <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1773076342/23_wby8bv.jpg"
             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
             alt="Serene Interiors" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
@@ -512,7 +512,7 @@ include 'includes/header.php';
         </a>
         <a href="retro-viswa-lonavala"
           class="relative w-full rounded-3xl overflow-hidden group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-[1.02] border border-stone-200 block flex-[1.4] hover:-translate-y-1">
-          <img src="https://res.cloudinary.com/dprafk917/image/upload/v1772868502/16_fxghyv.jpg"
+          <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1772868502/16_fxghyv.jpg"
             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
             alt="Lonavala Escape" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
@@ -528,14 +528,14 @@ include 'includes/header.php';
         <!-- Mobile Col 1 -->
         <div class="flex flex-col gap-4 min-w-[280px]" style="scroll-snap-align: start;">
           <a href="retro-villas" class="relative w-full h-64 rounded-2xl overflow-hidden shadow-lg block">
-            <img src="https://res.cloudinary.com/dprafk917/image/upload/v1770226533/N34_stewru.jpg"
+            <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1770226533/N34_stewru.jpg"
               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               alt="Retro Villa" />
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
             <h3 class="absolute bottom-4 left-4 text-white font-bold">Retro Villa</h3>
           </a>
           <a href="retro-villas" class="relative w-full h-48 rounded-2xl overflow-hidden shadow-lg block">
-            <img src="https://res.cloudinary.com/dprafk917/image/upload/v1769863054/03.1_c7vcel.jpg"
+            <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863054/03.1_c7vcel.jpg"
               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               alt="Private Pool" />
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
@@ -545,14 +545,14 @@ include 'includes/header.php';
         <!-- Mobile Col 2 -->
         <div class="flex flex-col gap-4 min-w-[280px]" style="scroll-snap-align: start;">
           <a href="retro-villas" class="relative w-full h-48 rounded-2xl overflow-hidden shadow-lg block">
-            <img src="https://res.cloudinary.com/dprafk917/image/upload/v1772868264/1_wqosmq.jpg"
+            <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1772868264/1_wqosmq.jpg"
               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               alt="Pet-Friendly Stays" />
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
             <h3 class="absolute bottom-4 left-4 text-white font-bold">Pet-Friendly Stays</h3>
           </a>
           <a href="neo-retro" class="relative w-full h-64 rounded-2xl overflow-hidden shadow-lg block">
-            <img src="https://res.cloudinary.com/dprafk917/image/upload/v1769863039/01_qwhl8a.jpg"
+            <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863039/01_qwhl8a.jpg"
               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               alt="Neo-Retro Villa" />
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
@@ -562,15 +562,15 @@ include 'includes/header.php';
         <!-- Mobile Col 3 -->
         <div class="flex flex-col gap-4 min-w-[280px]" style="scroll-snap-align: start;">
           <a href="retro-viswa-lonavala" class="relative w-full h-64 rounded-2xl overflow-hidden shadow-lg block">
-            <img
-              src="https://res.cloudinary.com/damfndmrm/image/upload/v1772474727/Screenshot_2026-03-02_at_11.33.32_PM_wqk7eu.png"
+            <img loading="lazy"
+              src="https://res.cloudinary.com/damfndmrm/image/upload/f_auto,q_auto/v1772474727/Screenshot_2026-03-02_at_11.33.32_PM_wqk7eu.png"
               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               alt="Retro Visawa" />
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
             <h3 class="absolute bottom-4 left-4 text-white font-bold">Retro Visawa</h3>
           </a>
           <a href="retro-villas" class="relative w-full h-48 rounded-2xl overflow-hidden shadow-lg block">
-            <img src="https://res.cloudinary.com/dprafk917/image/upload/v1773076226/27_ipqwdd.jpg"
+            <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1773076226/27_ipqwdd.jpg"
               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               alt="Mountain Views" />
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
@@ -580,14 +580,14 @@ include 'includes/header.php';
         <!-- Mobile Col 4 -->
         <div class="flex flex-col gap-4 min-w-[280px]" style="scroll-snap-align: start;">
           <a href="neo-retro" class="relative w-full h-48 rounded-2xl overflow-hidden shadow-lg block">
-            <img src="https://res.cloudinary.com/dprafk917/image/upload/v1773076342/23_wby8bv.jpg"
+            <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1773076342/23_wby8bv.jpg"
               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               alt="Serene Interiors" />
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
             <h3 class="absolute bottom-4 left-4 text-white font-bold">Serene Interiors</h3>
           </a>
           <a href="retro-viswa-lonavala" class="relative w-full h-64 rounded-2xl overflow-hidden shadow-lg block">
-            <img src="https://res.cloudinary.com/dprafk917/image/upload/v1772868502/16_fxghyv.jpg"
+            <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1772868502/16_fxghyv.jpg"
               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               alt="Lonavala Escape" />
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
@@ -751,10 +751,10 @@ include 'includes/header.php';
 </section>
 
 <script>
-  const villaData = [{ name: "Retro Villa", badge: "Budget Friendly", badgeColor: "bg-amber-500", tagline: "Where Bollywood Meets Comfort", img: "https://res.cloudinary.com/dprafk917/image/upload/v1770226533/N34_stewru.jpg", link: "retro-villas", airbnb: "https://www.airbnb.co.in/rooms/53210949", features: [{ icon: "\ud83d\udcb0", title: "Budget Friendly", desc: "More affordable and homely \u2014 perfect for a cozy, no-fuss getaway" }, { icon: "\ud83c\udf56", title: "Food & Bonding", desc: "Great experience for bonding over good food with loved ones" }, { icon: "\ud83c\udfac", title: "Retro Bollywood Vibes", desc: "Bollywood Posters, Barbeque setup \u2014 perfect for retro Bollywood fans" }, { icon: "\ud83d\udccd", title: "Prime Location", desc: "Located closer to Della Resorts and Mumbai city for easy access" }] }, { name: "Neo Retro Villa", badge: "\u2726 Most Popular", badgeColor: "bg-gradient-to-r from-amber-500 to-amber-600", tagline: "Art, Romance & Luxury Redefined", img: "https://res.cloudinary.com/dprafk917/image/upload/v1769863039/01_qwhl8a.jpg", link: "neo-retro", airbnb: "https://www.airbnb.co.in/rooms/759365496263211635", features: [{ icon: "\u2728", title: "Luxurious & Spacious", desc: "Premium interiors with ample room to breathe and relax in style" }, { icon: "\ud83d\udc95", title: "For the Romantics", desc: "An ideal retreat for couples seeking a magical escape together" }, { icon: "\ud83c\udfa8", title: "Art Lover\u2019s Paradise", desc: "World Library, Sculptures, Paintings \u2014 for the artistically inclined" }, { icon: "\ud83d\udec1", title: "Hot Tub & Serenity", desc: "Generous Spaces for Shared Moments" }] }, { name: "Retro Visawa", badge: "Group Favourite", badgeColor: "bg-emerald-500", tagline: "Gather, Celebrate & Create Memories", img: "https://res.cloudinary.com/damfndmrm/image/upload/v1772474727/Screenshot_2026-03-02_at_11.33.32_PM_wqk7eu.png", link: "retro-viswa-lonavala", airbnb: "", features: [{ icon: "\ud83c\udfe1", title: "Spacious 4BHK", desc: "Private pool villa perfect for large groups and gatherings" }, { icon: "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d\udc66", title: "Family Reunions", desc: "Ideal for family get-togethers, celebrations and team offsites" }, { icon: "\ud83c\udfad", title: "Vintage-Modern Charm", desc: "Carefully curated interiors blending retro elegance with modern luxury" }, { icon: "\u26f0\ufe0f", title: "Scenic Hilltop", desc: "Nestled in a beautiful Lonavala hilltop with panoramic views" }] }];
+  const villaData = [{ name: "Retro Villa", badge: "Budget Friendly", badgeColor: "bg-amber-500", tagline: "Where Bollywood Meets Comfort", img: "https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1770226533/N34_stewru.jpg", link: "retro-villas", airbnb: "https://www.airbnb.co.in/rooms/53210949", features: [{ icon: "\ud83d\udcb0", title: "Budget Friendly", desc: "More affordable and homely \u2014 perfect for a cozy, no-fuss getaway" }, { icon: "\ud83c\udf56", title: "Food & Bonding", desc: "Great experience for bonding over good food with loved ones" }, { icon: "\ud83c\udfac", title: "Retro Bollywood Vibes", desc: "Bollywood Posters, Barbeque setup \u2014 perfect for retro Bollywood fans" }, { icon: "\ud83d\udccd", title: "Prime Location", desc: "Located closer to Della Resorts and Mumbai city for easy access" }] }, { name: "Neo Retro Villa", badge: "\u2726 Most Popular", badgeColor: "bg-gradient-to-r from-amber-500 to-amber-600", tagline: "Art, Romance & Luxury Redefined", img: "https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863039/01_qwhl8a.jpg", link: "neo-retro", airbnb: "https://www.airbnb.co.in/rooms/759365496263211635", features: [{ icon: "\u2728", title: "Luxurious & Spacious", desc: "Premium interiors with ample room to breathe and relax in style" }, { icon: "\ud83d\udc95", title: "For the Romantics", desc: "An ideal retreat for couples seeking a magical escape together" }, { icon: "\ud83c\udfa8", title: "Art Lover\u2019s Paradise", desc: "World Library, Sculptures, Paintings \u2014 for the artistically inclined" }, { icon: "\ud83d\udec1", title: "Hot Tub & Serenity", desc: "Generous Spaces for Shared Moments" }] }, { name: "Retro Visawa", badge: "Group Favourite", badgeColor: "bg-emerald-500", tagline: "Gather, Celebrate & Create Memories", img: "https://res.cloudinary.com/damfndmrm/image/upload/f_auto,q_auto/v1772474727/Screenshot_2026-03-02_at_11.33.32_PM_wqk7eu.png", link: "retro-viswa-lonavala", airbnb: "", features: [{ icon: "\ud83c\udfe1", title: "Spacious 4BHK", desc: "Private pool villa perfect for large groups and gatherings" }, { icon: "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d\udc66", title: "Family Reunions", desc: "Ideal for family get-togethers, celebrations and team offsites" }, { icon: "\ud83c\udfad", title: "Vintage-Modern Charm", desc: "Carefully curated interiors blending retro elegance with modern luxury" }, { icon: "\u26f0\ufe0f", title: "Scenic Hilltop", desc: "Nestled in a beautiful Lonavala hilltop with panoramic views" }] }];
   let currentVilla = 0;
   function switchVilla(idx) { if (idx === currentVilla) return; currentVilla = idx; document.querySelectorAll('[id^="vtab-"]').forEach(function (t, i) { if (i === idx) t.classList.add('villa-tab-active'); else t.classList.remove('villa-tab-active') }); var d = document.getElementById('villa-display'); d.style.opacity = '0'; d.style.transform = 'translateY(30px)'; setTimeout(function () { renderVilla(idx); d.style.transition = 'opacity 0.5s ease, transform 0.5s ease'; d.style.opacity = '1'; d.style.transform = 'translateY(0)' }, 250) }
-  function renderVilla(idx) { var v = villaData[idx]; var ab = v.airbnb ? '<a href="' + v.airbnb + '" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-amber-400 hover:text-amber-300 text-xs font-medium transition-colors"><span>View on Airbnb</span><svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg></a>' : '<a href="contact.php" class="inline-flex items-center gap-2 text-amber-400 hover:text-amber-300 text-xs font-medium transition-colors"><span>Enquire Now</span><svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg></a>'; var fl = ''; v.features.forEach(function (f, i) { fl += '<div class="flex items-start gap-4 group/feat" style="animation:villa-slide-up 0.5s ease-out ' + i * 0.12 + 's both"><div class="w-12 h-12 rounded-2xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center flex-shrink-0 text-xl group-hover/feat:scale-110 group-hover/feat:bg-amber-500/20 transition-all duration-300">' + f.icon + '</div><div><h5 class="text-white font-semibold text-sm mb-1">' + f.title + '</h5><p class="text-stone-400 text-[13px] leading-relaxed font-light">' + f.desc + '</p></div></div>' }); document.getElementById('villa-display').innerHTML = '<div class="grid grid-cols-1 lg:grid-cols-2 gap-0 items-stretch"><div class="relative rounded-3xl lg:rounded-r-none overflow-hidden h-[350px] md:h-[500px] villa-active-glow"><img src="' + v.img + '" alt="' + v.name + '" class="w-full h-full object-cover"/><div class="absolute inset-0 bg-gradient-to-t from-[#0F2A24] via-[#0F2A24]/20 to-transparent"></div><div class="absolute top-5 left-5 ' + v.badgeColor + ' text-white text-[10px] uppercase tracking-[0.2em] font-bold px-4 py-1.5 rounded-full shadow-lg">' + v.badge + '</div><div class="absolute bottom-0 left-0 right-0 p-8"><h3 class="text-3xl md:text-4xl font-bold text-white font-display mb-2">' + v.name + '</h3><p class="text-amber-300/80 text-sm font-light tracking-wide">' + v.tagline + '</p></div></div><div class="bg-white/[0.04] backdrop-blur-sm border border-white/10 lg:border-l-0 rounded-3xl lg:rounded-l-none p-8 md:p-10 flex flex-col justify-between"><div><h4 class="text-white font-bold text-lg mb-6 flex items-center gap-2"><svg class="w-5 h-5 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/></svg>What Makes It Special</h4><div class="space-y-5">' + fl + '</div></div><div class="mt-8 pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center gap-3"><a href="' + v.link + '" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-white px-7 py-3.5 rounded-xl font-semibold text-sm transition-all duration-300 shadow-lg shadow-amber-500/20 group/btn"><span>Explore ' + v.name + '</span><svg class="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>' + ab + '</div></div></div>' }
+  function renderVilla(idx) { var v = villaData[idx]; var ab = v.airbnb ? '<a href="' + v.airbnb + '" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-amber-400 hover:text-amber-300 text-xs font-medium transition-colors"><span>View on Airbnb</span><svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg></a>' : '<a href="contact.php" class="inline-flex items-center gap-2 text-amber-400 hover:text-amber-300 text-xs font-medium transition-colors"><span>Enquire Now</span><svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg></a>'; var fl = ''; v.features.forEach(function (f, i) { fl += '<div class="flex items-start gap-4 group/feat" style="animation:villa-slide-up 0.5s ease-out ' + i * 0.12 + 's both"><div class="w-12 h-12 rounded-2xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center flex-shrink-0 text-xl group-hover/feat:scale-110 group-hover/feat:bg-amber-500/20 transition-all duration-300">' + f.icon + '</div><div><h5 class="text-white font-semibold text-sm mb-1">' + f.title + '</h5><p class="text-stone-400 text-[13px] leading-relaxed font-light">' + f.desc + '</p></div></div>' }); document.getElementById('villa-display').innerHTML = '<div class="grid grid-cols-1 lg:grid-cols-2 gap-0 items-stretch"><div class="relative rounded-3xl lg:rounded-r-none overflow-hidden h-[350px] md:h-[500px] villa-active-glow"><img loading="lazy" src="' + v.img + '" alt="' + v.name + '" class="w-full h-full object-cover"/><div class="absolute inset-0 bg-gradient-to-t from-[#0F2A24] via-[#0F2A24]/20 to-transparent"></div><div class="absolute top-5 left-5 ' + v.badgeColor + ' text-white text-[10px] uppercase tracking-[0.2em] font-bold px-4 py-1.5 rounded-full shadow-lg">' + v.badge + '</div><div class="absolute bottom-0 left-0 right-0 p-8"><h3 class="text-3xl md:text-4xl font-bold text-white font-display mb-2">' + v.name + '</h3><p class="text-amber-300/80 text-sm font-light tracking-wide">' + v.tagline + '</p></div></div><div class="bg-white/[0.04] backdrop-blur-sm border border-white/10 lg:border-l-0 rounded-3xl lg:rounded-l-none p-8 md:p-10 flex flex-col justify-between"><div><h4 class="text-white font-bold text-lg mb-6 flex items-center gap-2"><svg class="w-5 h-5 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/></svg>What Makes It Special</h4><div class="space-y-5">' + fl + '</div></div><div class="mt-8 pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center gap-3"><a href="' + v.link + '" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-white px-7 py-3.5 rounded-xl font-semibold text-sm transition-all duration-300 shadow-lg shadow-amber-500/20 group/btn"><span>Explore ' + v.name + '</span><svg class="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>' + ab + '</div></div></div>' }
   renderVilla(0);
 </script>
 <!-- ===== OPTION B: STATIC 3-CARD COMPARISON ===== -->
@@ -773,7 +773,7 @@ include 'includes/header.php';
       <div
         class="group relative bg-white border border-stone-200 rounded-3xl overflow-hidden transition-all duration-500 hover:shadow-2xl hover:border-amber-300 hover:-translate-y-2">
         <div class="relative h-56 md:h-64 overflow-hidden">
-          <img src="https://res.cloudinary.com/dprafk917/image/upload/v1770226533/N34_stewru.jpg" alt="Retro Villa"
+          <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1770226533/N34_stewru.jpg" alt="Retro Villa"
             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
           <div class="absolute inset-0 bg-gradient-to-t from-[#0F2A24] via-[#0F2A24]/30 to-transparent"></div>
           <div
@@ -833,7 +833,7 @@ include 'includes/header.php';
       <div
         class="group relative bg-white border-2 border-amber-400 rounded-3xl overflow-hidden transition-all duration-500 hover:shadow-2xl hover:-translate-y-2 lg:scale-[1.03] shadow-lg shadow-amber-100">
         <div class="relative h-56 md:h-64 overflow-hidden">
-          <img src="https://res.cloudinary.com/dprafk917/image/upload/v1769863039/01_qwhl8a.jpg" alt="Neo Retro Villa"
+          <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863039/01_qwhl8a.jpg" alt="Neo Retro Villa"
             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
           <div class="absolute inset-0 bg-gradient-to-t from-[#0F2A24] via-[#0F2A24]/30 to-transparent"></div>
           <div
@@ -892,8 +892,8 @@ include 'includes/header.php';
       <div
         class="group relative bg-white border border-stone-200 rounded-3xl overflow-hidden transition-all duration-500 hover:shadow-2xl hover:border-amber-300 hover:-translate-y-2">
         <div class="relative h-56 md:h-64 overflow-hidden">
-          <img
-            src="https://res.cloudinary.com/damfndmrm/image/upload/v1772474727/Screenshot_2026-03-02_at_11.33.32_PM_wqk7eu.png"
+          <img loading="lazy"
+            src="https://res.cloudinary.com/damfndmrm/image/upload/f_auto,q_auto/v1772474727/Screenshot_2026-03-02_at_11.33.32_PM_wqk7eu.png"
             alt="Retro Visawa"
             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
           <div class="absolute inset-0 bg-gradient-to-t from-[#0F2A24] via-[#0F2A24]/30 to-transparent"></div>
@@ -1057,7 +1057,7 @@ include 'includes/header.php';
     <div class="relative bg-stone-900 rounded-2xl overflow-hidden shadow-2xl">
       <!-- Background Image -->
       <div class="absolute inset-0 z-0">
-        <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200&h=400&fit=crop"
+        <img loading="lazy" src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200&h=400&fit=crop"
           class="w-full h-full object-cover" alt="Background" />
         <div class="absolute inset-0 bg-gradient-to-r from-stone-900/95 via-stone-900/85 to-stone-900/70"></div>
       </div>
@@ -1496,7 +1496,7 @@ include 'includes/header.php';
 <!-- ===== FAQ & CTA SECTION ===== -->
 <section class="relative py-12 md:py-14 overflow-hidden scroll-reveal">
   <div class="absolute inset-0">
-    <img src="https://res.cloudinary.com/dprafk917/image/upload/v1769868140/B30_yc8rqu.webp"
+    <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868140/B30_yc8rqu.webp"
       alt="Retrofusion Villa Background" class="w-full h-full object-cover" />
     <div class="absolute inset-0 bg-gradient-to-r from-black/70 via-black/60 to-black/50"></div>
   </div>
@@ -1680,8 +1680,8 @@ include 'includes/header.php';
             <!-- Screenshot uploaded by user -->
             <div class="pt-9 sm:pt-11 w-full flex flex-col items-center">
               <a href="https://www.instagram.com/retrofusion.in/" target="_blank" class="w-full">
-                <img
-                  src="https://res.cloudinary.com/damfndmrm/image/upload/v1772471878/Screenshot_2026-03-02_at_10.47.42_PM_wo3toj.png"
+                <img loading="lazy"
+                  src="https://res.cloudinary.com/damfndmrm/image/upload/f_auto,q_auto/v1772471878/Screenshot_2026-03-02_at_10.47.42_PM_wo3toj.png"
                   alt="Instagram Profile Screenshot"
                   class="w-full h-auto block opacity-95 transition-opacity duration-300 group-hover/screen:opacity-100" />
               </a>
@@ -1713,8 +1713,8 @@ include 'includes/header.php';
             </div>
             <!-- Image with amber border -->
             <div class="mx-2.5 mb-2 border-[3px] border-amber-600 rounded-lg overflow-hidden">
-              <img
-                src="https://res.cloudinary.com/dprafk917/image/upload/v1772473164/Screenshot_2026-03-02_at_11.08.01_PM_a5g0vs.png"
+              <img loading="lazy"
+                src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1772473164/Screenshot_2026-03-02_at_11.08.01_PM_a5g0vs.png"
                 alt="Instagram Post"
                 class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
@@ -1765,8 +1765,8 @@ include 'includes/header.php';
                 class="text-[10px] font-bold text-amber-600 border border-amber-600 rounded px-1.5 py-0.5">FOLLOW</span>
             </div>
             <div class="mx-2.5 mb-2 border-[3px] border-amber-600 rounded-lg overflow-hidden">
-              <img
-                src="https://res.cloudinary.com/dprafk917/image/upload/v1772473164/Screenshot_2026-03-02_at_11.07.23_PM_sbgs0f.png"
+              <img loading="lazy"
+                src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1772473164/Screenshot_2026-03-02_at_11.07.23_PM_sbgs0f.png"
                 alt="Instagram Post"
                 class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
@@ -1816,8 +1816,8 @@ include 'includes/header.php';
                 class="text-[10px] font-bold text-amber-600 border border-amber-600 rounded px-1.5 py-0.5">FOLLOW</span>
             </div>
             <div class="mx-2.5 mb-2 border-[3px] border-amber-600 rounded-lg overflow-hidden">
-              <img
-                src="https://res.cloudinary.com/dprafk917/image/upload/v1772473163/Screenshot_2026-03-02_at_11.07.36_PM_ftkdee.png"
+              <img loading="lazy"
+                src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1772473163/Screenshot_2026-03-02_at_11.07.36_PM_ftkdee.png"
                 alt="Instagram Post"
                 class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
@@ -1867,8 +1867,8 @@ include 'includes/header.php';
                 class="text-[10px] font-bold text-amber-600 border border-amber-600 rounded px-1.5 py-0.5">FOLLOW</span>
             </div>
             <div class="mx-2.5 mb-2 border-[3px] border-amber-600 rounded-lg overflow-hidden">
-              <img
-                src="https://res.cloudinary.com/dprafk917/image/upload/v1772473163/Screenshot_2026-03-02_at_11.07.51_PM_yzseuz.png"
+              <img loading="lazy"
+                src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1772473163/Screenshot_2026-03-02_at_11.07.51_PM_yzseuz.png"
                 alt="Instagram Post"
                 class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
@@ -1978,7 +1978,7 @@ include 'includes/header.php';
       "@id": "https://retrofusion.in/#lodgingbusiness",
       "name": "Retrofusion Boutique Homestays",
       "description": "Luxury private pool villas offering the ultimate homestay with food in Lonavala.",
-      "image": "https://res.cloudinary.com/damfndmrm/image/upload/v1771665559/Retrofusion_logo__20260211_230238_0000_sufgcp.png",
+      "image": "https://res.cloudinary.com/damfndmrm/image/upload/f_auto,q_auto/v1771665559/Retrofusion_logo__20260211_230238_0000_sufgcp.png",
       "url": "https://retrofusion.in/",
       "telephone": "+91 8999036644",
       "address": {
@@ -1997,7 +1997,7 @@ include 'includes/header.php';
       "@type": "LocalBusiness",
       "@id": "https://retrofusion.in/#localbusiness",
       "name": "Retrofusion Boutique Homestays",
-      "image": "https://res.cloudinary.com/damfndmrm/image/upload/v1771665559/Retrofusion_logo__20260211_230238_0000_sufgcp.png",
+      "image": "https://res.cloudinary.com/damfndmrm/image/upload/f_auto,q_auto/v1771665559/Retrofusion_logo__20260211_230238_0000_sufgcp.png",
       "url": "https://retrofusion.in/"
     },
     {
@@ -2021,7 +2021,7 @@ include 'includes/header.php';
             "@type": "Product",
             "name": "Retro Villa",
             "url": "https://retrofusion.in/retro-villas",
-            "image": "https://res.cloudinary.com/dprafk917/image/upload/v1770226533/N34_stewru.jpg",
+            "image": "https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1770226533/N34_stewru.jpg",
             "aggregateRating": {
               "@type": "AggregateRating",
               "ratingValue": "4.9",
@@ -2036,7 +2036,7 @@ include 'includes/header.php';
             "@type": "Product",
             "name": "Neo Retro Villa",
             "url": "https://retrofusion.in/neo-retro",
-            "image": "https://res.cloudinary.com/dprafk917/image/upload/v1769863039/01_qwhl8a.jpg",
+            "image": "https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863039/01_qwhl8a.jpg",
             "aggregateRating": {
               "@type": "AggregateRating",
               "ratingValue": "4.9",
@@ -2051,7 +2051,7 @@ include 'includes/header.php';
             "@type": "Product",
             "name": "Retro Visawa",
             "url": "https://retrofusion.in/retro-viswa-lonavala",
-            "image": "https://res.cloudinary.com/damfndmrm/image/upload/v1772474727/Screenshot_2026-03-02_at_11.33.32_PM_wqk7eu.png",
+            "image": "https://res.cloudinary.com/damfndmrm/image/upload/f_auto,q_auto/v1772474727/Screenshot_2026-03-02_at_11.33.32_PM_wqk7eu.png",
             "aggregateRating": {
               "@type": "AggregateRating",
               "ratingValue": "4.9",

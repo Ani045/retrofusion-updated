@@ -79,7 +79,7 @@ include 'includes/header.php';
             </div>
             <!-- Logo watermark -->
             <div class="absolute inset-0 flex items-center justify-center pointer-events-none opacity-[0.03]">
-                <img src="https://res.cloudinary.com/damfndmrm/image/upload/v1771665559/Retrofusion_logo__20260211_230238_0000_sufgcp.png"
+                <img loading="lazy" src="https://res.cloudinary.com/damfndmrm/image/upload/f_auto,q_auto/v1771665559/Retrofusion_logo__20260211_230238_0000_sufgcp.png"
                     alt="" class="w-48 h-auto" />
             </div>
 

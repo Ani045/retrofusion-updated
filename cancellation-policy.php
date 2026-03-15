@@ -9,7 +9,7 @@ include 'includes/header.php';
     <!-- Hero Section -->
     <section class="relative h-[40vh] md:h-[50vh] flex items-center justify-center overflow-hidden">
       <div class="absolute inset-0 z-0">
-        <img src="https://res.cloudinary.com/dprafk917/image/upload/v1769863039/01_qwhl8a.jpg" alt="Cancellation Policy"
+        <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863039/01_qwhl8a.jpg" alt="Cancellation Policy"
           class="w-full h-full object-cover" />
         <div class="absolute inset-0 bg-gradient-to-b from-black/50 via-black/40 to-black/60"></div>
       </div>

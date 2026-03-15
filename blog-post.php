@@ -21,8 +21,8 @@ include 'includes/header.php';
           <div class="grid grid-cols-1 md:grid-cols-3 gap-5 lg:gap-6">
             <a href="retro-viswa-lonavala" class="group block">
               <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-all duration-500">
-                <div class="relative h-40 sm:h-44 md:h-48 overflow-hidden"><img
-                    src="https://res.cloudinary.com/dprafk917/video/upload/so_2/v1769858399/8wr207mfxnrmy0cvd61bd2gn1g_result__viprl7.jpg"
+                <div class="relative h-40 sm:h-44 md:h-48 overflow-hidden"><img loading="lazy"
+                    src="https://res.cloudinary.com/dprafk917/video/upload/f_auto,q_auto/so_2/v1769858399/8wr207mfxnrmy0cvd61bd2gn1g_result__viprl7.jpg"
                     alt="Retro Visawa"
                     class="w-full h-full object-cover scale-110 transition-transform duration-700 group-hover:scale-125" />
                   <div
@@ -47,8 +47,8 @@ include 'includes/header.php';
             </a>
             <a href="neo-retro" class="group block">
               <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-all duration-500">
-                <div class="relative h-40 sm:h-44 md:h-48 overflow-hidden"><img
-                    src="https://res.cloudinary.com/dprafk917/video/upload/so_2/v1768241694/1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg"
+                <div class="relative h-40 sm:h-44 md:h-48 overflow-hidden"><img loading="lazy"
+                    src="https://res.cloudinary.com/dprafk917/video/upload/f_auto,q_auto/so_2/v1768241694/1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg"
                     alt="Neo Retro Villa"
                     class="w-full h-full object-cover scale-110 transition-transform duration-700 group-hover:scale-125" />
                   <div
@@ -73,8 +73,8 @@ include 'includes/header.php';
             </a>
             <a href="retro-villas" class="group block">
               <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-all duration-500">
-                <div class="relative h-40 sm:h-44 md:h-48 overflow-hidden"><img
-                    src="https://res.cloudinary.com/dprafk917/video/upload/so_3/v1769867671/final_nkd4ry.jpg"
+                <div class="relative h-40 sm:h-44 md:h-48 overflow-hidden"><img loading="lazy"
+                    src="https://res.cloudinary.com/dprafk917/video/upload/f_auto,q_auto/so_3/v1769867671/final_nkd4ry.jpg"
                     alt="Retro Villa"
                     class="w-full h-full object-cover scale-110 transition-transform duration-700 group-hover:scale-125" />
                   <div
@@ -171,7 +171,7 @@ include 'includes/header.php';
                     <!-- Main Content -->
                     <div class="lg:col-span-3 scroll-reveal">
                         <div class="prose prose-lg prose-stone max-w-none text-stone-700 leading-relaxed">
-                            <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&h=600&fit=crop"
+                            <img loading="lazy" src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&h=600&fit=crop"
                                 alt="The Ultimate Guide to Lonavala"
                                 class="w-full h-96 object-cover rounded-2xl mb-8 shadow-md" />
 
@@ -266,7 +266,7 @@ include 'includes/header.php';
                         <!-- Author Bio -->
                         <div class="bg-[#F4EFEA] p-6 rounded-2xl mb-8 border border-stone-100">
                             <div class="flex items-center space-x-4 mb-4">
-                                <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&h=100&fit=crop&crop=face"
+                                <img loading="lazy" src="https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&h=100&fit=crop&crop=face"
                                     alt="Ruchi Arora" class="w-16 h-16 rounded-full object-cover" />
                                 <div>
                                     <h4 class="font-semibold text-stone-900 font-display">Ruchi Arora</h4>
@@ -311,7 +311,7 @@ include 'includes/header.php';
                     <!-- Post 1 -->
                     <div
                         class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 scroll-reveal">
-                        <img src="https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=400&h=300&fit=crop"
+                        <img loading="lazy" src="https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=400&h=300&fit=crop"
                             alt="Monsoon Magic" class="w-full h-48 object-cover" />
                         <div class="p-6">
                             <h3 class="text-lg font-semibold text-stone-900 mb-3 line-clamp-2 font-display">
@@ -333,7 +333,7 @@ include 'includes/header.php';
                     <!-- Post 2 -->
                     <div
                         class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 scroll-reveal">
-                        <img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=400&h=300&fit=crop"
+                        <img loading="lazy" src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=400&h=300&fit=crop"
                             alt="Local Cuisine Adventures" class="w-full h-48 object-cover" />
                         <div class="p-6">
                             <h3 class="text-lg font-semibold text-stone-900 mb-3 line-clamp-2 font-display">
@@ -355,7 +355,7 @@ include 'includes/header.php';
                     <!-- Post 3 -->
                     <div
                         class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 scroll-reveal">
-                        <img src="https://images.unsplash.com/photo-1551632811-561732d1e306?w=400&h=300&fit=crop"
+                        <img loading="lazy" src="https://images.unsplash.com/photo-1551632811-561732d1e306?w=400&h=300&fit=crop"
                             alt="Adventure Activities" class="w-full h-48 object-cover" />
                         <div class="p-6">
                             <h3 class="text-lg font-semibold text-stone-900 mb-3 line-clamp-2 font-display">
