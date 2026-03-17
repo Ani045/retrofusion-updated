@@ -418,3 +418,143 @@ img {
 .blog-slider-track {
   transition: transform 0.5s ease-out;
 }
+
+/* ===== CTA Button Hover Fix - ensure always visible ===== */
+/* Hero CTA */
+#hero-section a[href="#villas-section"] {
+  background-color: #d97706 !important;
+  color: #ffffff !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+#hero-section a[href="#villas-section"]:hover {
+  background-color: #b45309 !important;
+  color: #ffffff !important;
+  opacity: 1 !important;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(217, 119, 6, 0.4);
+}
+
+/* Navbar Enquire Now button */
+nav a[href="contact.php#name"] {
+  color: #F4EFEA !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+nav a[href="contact.php#name"]:hover {
+  background-color: #d97706 !important;
+  color: #ffffff !important;
+  opacity: 1 !important;
+}
+
+/* Loyalty CTA - Book Now */
+a[href="contact.php"].inline-block {
+  color: #ffffff !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+a[href="contact.php"].inline-block:hover {
+  color: #ffffff !important;
+  opacity: 1 !important;
+  transform: scale(1.05);
+}
+
+/* CTA Section 2 - Explore Our Villas */
+section.bg-\[\#0F2A24\] a[href="#villas-section"] {
+  background-color: #f59e0b !important;
+  color: #0F2A24 !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+section.bg-\[\#0F2A24\] a[href="#villas-section"]:hover {
+  background-color: #d97706 !important;
+  color: #0F2A24 !important;
+  opacity: 1 !important;
+  transform: translateY(-2px);
+}
+
+/* Villa card Explore buttons */
+.villa-card a {
+  color: #ffffff !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+.villa-card a:hover {
+  color: #ffffff !important;
+  opacity: 1 !important;
+}
+
+/* General CTA button visibility guarantee */
+a.bg-gradient-to-r,
+a.bg-amber-600,
+a.bg-amber-500,
+button[type="submit"] {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+a.bg-gradient-to-r:hover,
+a.bg-amber-600:hover,
+a.bg-amber-500:hover,
+button[type="submit"]:hover {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* ===== Mobile Performance Optimizations ===== */
+@media (max-width: 768px) {
+  /* Reduce animation complexity on mobile */
+  .villa-card-overlay {
+    transition: opacity 0.3s ease-out !important;
+    transform: none !important;
+  }
+  .villa-card:hover .villa-card-overlay {
+    transform: none !important;
+  }
+
+  /* Use simpler transitions on mobile */
+  .scroll-reveal {
+    transition: opacity 0.5s ease-out !important;
+    transform: none !important;
+  }
+  .scroll-reveal.visible {
+    transform: none !important;
+  }
+  .scroll-reveal-left,
+  .scroll-reveal-right {
+    transition: opacity 0.5s ease-out !important;
+    transform: none !important;
+  }
+  .scroll-reveal-left.visible,
+  .scroll-reveal-right.visible {
+    transform: none !important;
+  }
+
+  /* Reduce hover transform effects on mobile (touch devices) */
+  .group:hover .group-hover\:scale-110 {
+    transform: none !important;
+  }
+
+  /* Below-the-fold sections - content-visibility for paint efficiency */
+  section:not(#hero-section):not(#villas-section) {
+    content-visibility: auto;
+    contain-intrinsic-size: auto 500px;
+  }
+}
+
+/* Respect prefers-reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .scroll-reveal,
+  .scroll-reveal-left,
+  .scroll-reveal-right {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}

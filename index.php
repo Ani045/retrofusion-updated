@@ -7,7 +7,7 @@ include 'includes/header.php';
 <!-- ===== HERO SECTION ===== -->
 <section id="hero-section" class="relative h-screen flex items-center justify-center overflow-hidden touch-pan-y">
   <div class="absolute inset-0 w-full h-full">
-    <div id="hero-current-layer" class="hero-image-layer" style="z-index:1;"><img loading="lazy" id="hero-current-img"
+    <div id="hero-current-layer" class="hero-image-layer" style="z-index:1;"><img fetchpriority="high" id="hero-current-img"
         src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868140/B30_yc8rqu.webp"
         alt="Retrofusion Homestay" /></div>
     <div id="hero-prev-layer" class="hero-image-layer" style="z-index:2;display:none;"><img loading="lazy" id="hero-prev-img" src=""
@@ -1038,14 +1038,24 @@ include 'includes/header.php';
       <div class="w-full lg:w-1/2">
         <div
           class="relative rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-shadow duration-300 border border-stone-200">
-          <div class="aspect-video">
-            <iframe class="w-full h-full" src="https://www.youtube.com/embed/yveSMI2FTBM?si=vVc25qHq_e3gNNwB"
-              title="YouTube video player" frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <div class="aspect-video relative cursor-pointer group" id="yt-facade" onclick="loadYouTube()">
+            <img loading="lazy" src="https://i.ytimg.com/vi/yveSMI2FTBM/hqdefault.jpg" alt="Watch Retrofusion video" class="w-full h-full object-cover" />
+            <div class="absolute inset-0 bg-black/30 group-hover:bg-black/40 transition-colors duration-300 flex items-center justify-center">
+              <div class="w-16 h-16 md:w-20 md:h-20 bg-red-600 rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
+                <svg class="w-7 h-7 md:w-8 md:h-8 text-white ml-1" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+      <script>
+      function loadYouTube() {
+        var facade = document.getElementById('yt-facade');
+        facade.innerHTML = '<iframe class="w-full h-full absolute inset-0" src="https://www.youtube.com/embed/yveSMI2FTBM?si=vVc25qHq_e3gNNwB&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>';
+        facade.onclick = null;
+        facade.style.cursor = 'default';
+      }
+      </script>
 
     </div>
   </div>
@@ -1401,41 +1411,50 @@ include 'includes/header.php';
 
       <div id="wid_1715160808028"></div>
       <script>
+        // Lazy-load review widget when section comes into view
         (function () {
-          var sc = document.createElement("script");
-          sc.setAttribute("defer", true);
-          sc.setAttribute("src", "https://dbwx2z9xa7qt9.cloudfront.net/bundle.js?cachebust=1715160808028");
-          sc.setAttribute("theme", "light");
-          sc.setAttribute("footer", "false");
-          sc.setAttribute("widget-type", "carousel");
-          sc.setAttribute("token", "663b43a3daaa6fa4f51c5e90");
-          sc.setAttribute('apiurl', "https://server.onlinereviews.tech/api/v0.0.9");
-          sc.setAttribute('stats', "true");
-          sc.setAttribute('addReview', "false");
-          sc.setAttribute('profile-pic', "true");
-          sc.setAttribute('review-name', "true");
-          sc.setAttribute('wl', "true");
-          sc.setAttribute('wlndig', "https://go.meddyreviews.com/retrofusion");
-          sc.setAttribute('lang', "us");
-          var brandStyleObj = {
-            "sidebar_background": "#0F2A24",
-            "sidebar_text": "white",
-            "brand_button_text_color": "white",
-            "brand_main_color": "#0F2A24",
-            "brand_button_border_radius": "16px",
-            "brand_sidebar_text_color_opacity": "#0000001a",
-            "brand_button_hover": "#143c33",
-            "brand_button_active": "#12312b",
-            "brand_main_color_opacity": "#0f2a241a",
-            "brand_font": "DM Sans",
-            "star_color": "#f59e0b",
-            "brand_main_background": "transparent",
-            "brand_card_background": "white",
-            "poweredByLink": "https://meddyreviews.com",
-            "poweredicon": "https://recensioni-io-static-folder.s3.eu-central-1.amazonaws.com/public_onlinereviews/app.meddyreviews.com/topbar.png"
-          };
-          sc.setAttribute('brandStyle', encodeURIComponent(JSON.stringify(brandStyleObj)));
-          document.getElementById("wid_1715160808028").appendChild(sc);
+          var loaded = false;
+          var observer = new IntersectionObserver(function(entries) {
+            if (entries[0].isIntersecting && !loaded) {
+              loaded = true;
+              observer.disconnect();
+              var sc = document.createElement("script");
+              sc.setAttribute("defer", true);
+              sc.setAttribute("src", "https://dbwx2z9xa7qt9.cloudfront.net/bundle.js?cachebust=1715160808028");
+              sc.setAttribute("theme", "light");
+              sc.setAttribute("footer", "false");
+              sc.setAttribute("widget-type", "carousel");
+              sc.setAttribute("token", "663b43a3daaa6fa4f51c5e90");
+              sc.setAttribute('apiurl', "https://server.onlinereviews.tech/api/v0.0.9");
+              sc.setAttribute('stats', "true");
+              sc.setAttribute('addReview', "false");
+              sc.setAttribute('profile-pic', "true");
+              sc.setAttribute('review-name', "true");
+              sc.setAttribute('wl', "true");
+              sc.setAttribute('wlndig', "https://go.meddyreviews.com/retrofusion");
+              sc.setAttribute('lang', "us");
+              var brandStyleObj = {
+                "sidebar_background": "#0F2A24",
+                "sidebar_text": "white",
+                "brand_button_text_color": "white",
+                "brand_main_color": "#0F2A24",
+                "brand_button_border_radius": "16px",
+                "brand_sidebar_text_color_opacity": "#0000001a",
+                "brand_button_hover": "#143c33",
+                "brand_button_active": "#12312b",
+                "brand_main_color_opacity": "#0f2a241a",
+                "brand_font": "DM Sans",
+                "star_color": "#f59e0b",
+                "brand_main_background": "transparent",
+                "brand_card_background": "white",
+                "poweredByLink": "https://meddyreviews.com",
+                "poweredicon": "https://recensioni-io-static-folder.s3.eu-central-1.amazonaws.com/public_onlinereviews/app.meddyreviews.com/topbar.png"
+              };
+              sc.setAttribute('brandStyle', encodeURIComponent(JSON.stringify(brandStyleObj)));
+              document.getElementById("wid_1715160808028").appendChild(sc);
+            }
+          }, { rootMargin: '200px' });
+          observer.observe(document.getElementById("wid_1715160808028"));
         })();
       </script>
     </div>
@@ -1450,42 +1469,51 @@ include 'includes/header.php';
 
       <div id="wid_1731307201256"></div>
       <script>
+        // Lazy-load review widget when section comes into view
         (function () {
-          var sc = document.createElement("script");
-          sc.setAttribute("defer", true);
-          sc.setAttribute("src", "https://dbwx2z9xa7qt9.cloudfront.net/bundle.js?cachebust=1731307201256");
-          sc.setAttribute("theme", "light");
-          sc.setAttribute("footer", "true");
-          sc.setAttribute("widget-type", "carousel");
-          sc.setAttribute("token", "663b4553f4f5945089018ba8");
-          sc.setAttribute('apiurl', "https://server.onlinereviews.tech/api/v0.0.9");
-          sc.setAttribute('stats', "true");
-          sc.setAttribute('addReview', "true");
-          sc.setAttribute('profile-pic', "true");
-          sc.setAttribute('review-name', "true");
-          sc.setAttribute('positive-stars', "false");
-          sc.setAttribute('wl', "true");
-          sc.setAttribute('wlndig', "https://go.meddyreviews.com/neoretro");
-          sc.setAttribute('lang', "us");
-          var brandStyleObj = {
-            "sidebar_background": "#0F2A24",
-            "sidebar_text": "white",
-            "brand_button_text_color": "white",
-            "brand_main_color": "#0F2A24",
-            "brand_button_border_radius": "16px",
-            "brand_sidebar_text_color_opacity": "#0000001a",
-            "brand_button_hover": "#143c33",
-            "brand_button_active": "#12312b",
-            "brand_main_color_opacity": "#0f2a241a",
-            "brand_font": "DM Sans",
-            "star_color": "#f59e0b",
-            "brand_main_background": "transparent",
-            "brand_card_background": "white",
-            "poweredByLink": "https://meddyreviews.com",
-            "poweredicon": "https://recensioni-io-static-folder.s3.eu-central-1.amazonaws.com/public_onlinereviews/app.meddyreviews.com/topbar.png"
-          };
-          sc.setAttribute('brandStyle', encodeURIComponent(JSON.stringify(brandStyleObj)));
-          document.getElementById("wid_1731307201256").appendChild(sc);
+          var loaded = false;
+          var observer = new IntersectionObserver(function(entries) {
+            if (entries[0].isIntersecting && !loaded) {
+              loaded = true;
+              observer.disconnect();
+              var sc = document.createElement("script");
+              sc.setAttribute("defer", true);
+              sc.setAttribute("src", "https://dbwx2z9xa7qt9.cloudfront.net/bundle.js?cachebust=1731307201256");
+              sc.setAttribute("theme", "light");
+              sc.setAttribute("footer", "true");
+              sc.setAttribute("widget-type", "carousel");
+              sc.setAttribute("token", "663b4553f4f5945089018ba8");
+              sc.setAttribute('apiurl', "https://server.onlinereviews.tech/api/v0.0.9");
+              sc.setAttribute('stats', "true");
+              sc.setAttribute('addReview', "true");
+              sc.setAttribute('profile-pic', "true");
+              sc.setAttribute('review-name', "true");
+              sc.setAttribute('positive-stars', "false");
+              sc.setAttribute('wl', "true");
+              sc.setAttribute('wlndig', "https://go.meddyreviews.com/neoretro");
+              sc.setAttribute('lang', "us");
+              var brandStyleObj = {
+                "sidebar_background": "#0F2A24",
+                "sidebar_text": "white",
+                "brand_button_text_color": "white",
+                "brand_main_color": "#0F2A24",
+                "brand_button_border_radius": "16px",
+                "brand_sidebar_text_color_opacity": "#0000001a",
+                "brand_button_hover": "#143c33",
+                "brand_button_active": "#12312b",
+                "brand_main_color_opacity": "#0f2a241a",
+                "brand_font": "DM Sans",
+                "star_color": "#f59e0b",
+                "brand_main_background": "transparent",
+                "brand_card_background": "white",
+                "poweredByLink": "https://meddyreviews.com",
+                "poweredicon": "https://recensioni-io-static-folder.s3.eu-central-1.amazonaws.com/public_onlinereviews/app.meddyreviews.com/topbar.png"
+              };
+              sc.setAttribute('brandStyle', encodeURIComponent(JSON.stringify(brandStyleObj)));
+              document.getElementById("wid_1731307201256").appendChild(sc);
+            }
+          }, { rootMargin: '200px' });
+          observer.observe(document.getElementById("wid_1731307201256"));
         })();
       </script>
     </div>
