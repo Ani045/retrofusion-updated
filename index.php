@@ -32,7 +32,7 @@ include 'includes/header.php';
     </div>
     <div class="flex justify-center animate-fade-in-up pointer-events-auto" style="opacity:0;animation-delay:1.1s;">
       <a href="#villas-section"
-        class="bg-amber-600 hover:bg-amber-700 text-white font-medium px-8 py-3 rounded-full transition-all duration-300 shadow-lg shadow-amber-600/20 hover:shadow-amber-600/40 uppercase tracking-widest text-sm">
+        class="bg-[#0F2A24] hover:bg-[#1a4a3f] text-white font-medium px-8 py-3 rounded-full transition-all duration-300 shadow-lg shadow-[#0F2A24]/20 hover:shadow-[#0F2A24]/40 uppercase tracking-widest text-sm">
         Explore Our Villas
       </a>
     </div>
@@ -965,7 +965,7 @@ include 'includes/header.php';
     <h3 class="text-3xl lg:text-4xl text-white font-display font-bold mb-8">Ready to experience the Retrofusion
       standard?</h3>
     <a href="#villas-section"
-      class="inline-flex items-center gap-2 px-8 py-4 bg-amber-500 hover:bg-amber-600 text-[#0F2A24] font-bold rounded-full transition-all duration-300 shadow-xl transform hover:-translate-y-1 text-base uppercase tracking-wider">
+      class="inline-flex items-center gap-2 px-8 py-4 bg-[#F4EFEA] hover:bg-[#e8dfd6] text-[#0F2A24] font-bold rounded-full transition-all duration-300 shadow-xl transform hover:-translate-y-1 text-base uppercase tracking-wider">
       Explore Our Villas
       <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />

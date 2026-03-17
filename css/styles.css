@@ -32,12 +32,12 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #d97706;
+  background: #0F2A24;
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #b45309;
+  background: #1a4a3f;
 }
 
 /* Green scrollbar for founder message */
@@ -287,7 +287,7 @@ a:focus,
 input:focus,
 textarea:focus,
 select:focus {
-  outline: 2px solid #d97706;
+  outline: 2px solid #0F2A24;
   outline-offset: 2px;
 }
 
@@ -422,17 +422,17 @@ img {
 /* ===== CTA Button Hover Fix - ensure always visible ===== */
 /* Hero CTA */
 #hero-section a[href="#villas-section"] {
-  background-color: #d97706 !important;
+  background-color: #0F2A24 !important;
   color: #ffffff !important;
   opacity: 1 !important;
   visibility: visible !important;
 }
 #hero-section a[href="#villas-section"]:hover {
-  background-color: #b45309 !important;
+  background-color: #1a4a3f !important;
   color: #ffffff !important;
   opacity: 1 !important;
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(217, 119, 6, 0.4);
+  box-shadow: 0 8px 25px rgba(15, 42, 36, 0.4);
 }
 
 /* Navbar Enquire Now button */
@@ -442,7 +442,7 @@ nav a[href="contact.php#name"] {
   visibility: visible !important;
 }
 nav a[href="contact.php#name"]:hover {
-  background-color: #d97706 !important;
+  background-color: #0F2A24 !important;
   color: #ffffff !important;
   opacity: 1 !important;
 }
@@ -461,13 +461,13 @@ a[href="contact.php"].inline-block:hover {
 
 /* CTA Section 2 - Explore Our Villas */
 section.bg-\[\#0F2A24\] a[href="#villas-section"] {
-  background-color: #f59e0b !important;
+  background-color: #F4EFEA !important;
   color: #0F2A24 !important;
   opacity: 1 !important;
   visibility: visible !important;
 }
 section.bg-\[\#0F2A24\] a[href="#villas-section"]:hover {
-  background-color: #d97706 !important;
+  background-color: #e8dfd6 !important;
   color: #0F2A24 !important;
   opacity: 1 !important;
   transform: translateY(-2px);
