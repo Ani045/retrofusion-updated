@@ -20,12 +20,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = isset($_POST['message']) ? strip_tags(trim($_POST['message'])) : 'Not provided';
     $source = isset($_POST['source']) ? strip_tags(trim($_POST['source'])) : 'Website Form';
 
-    // Recipients
-    $to = "satyamrai374@gmail.com, contact@retrofusion.in, retrofusion2023@gmail.com";
-    
+    // Recipients - send individually to ensure all receive
+    $recipients = array(
+        "satyamrai374@gmail.com",
+        "contact@retrofusion.in",
+        "retrofusion2023@gmail.com"
+    );
+
     // Subject
     $subject = "New Lead from Website";
-    
+
     // Email Content
     $email_content = "
     <html>
@@ -37,7 +41,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             .header { background-color: #0F2A24; color: white; padding: 10px; text-align: center; border-radius: 10px 10px 0 0; }
             .content { padding: 20px; }
             .field { margin-bottom: 10px; border-bottom: 1px solid #eee; padding-bottom: 5px; }
-            .label { font-weight: bold; color: #amber-600; width: 150px; display: inline-block; }
+            .label { font-weight: bold; color: #B45309; width: 150px; display: inline-block; }
             .footer { font-size: 12px; color: #777; margin-top: 20px; text-align: center; }
         </style>
     </head>
@@ -74,8 +78,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $headers .= "X-Mailer: PHP/" . phpversion() . "\r\n";
 
 
-    // Send email
-    if (mail($to, $subject, $email_content, $headers)) {
+    // Send email to each recipient individually
+    $all_sent = true;
+    foreach ($recipients as $to) {
+        if (!mail($to, $subject, $email_content, $headers)) {
+            $all_sent = false;
+            file_put_contents('lead_log.txt', date('[Y-m-d H:i:s] ') . "Failed to send email to: " . $to . "\n", FILE_APPEND);
+        }
+    }
+
+    if ($all_sent) {
         // Redirect to a thank you page
         header("Location: thank-you.php?status=success");
         exit();
