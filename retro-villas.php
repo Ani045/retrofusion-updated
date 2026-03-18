@@ -334,7 +334,11 @@ include 'includes/header.php';
           <h3 class="text-2xl font-bold text-[#0F2A24] mb-2 font-display">Reserve Your Villa</h3>
           <p class="text-stone-500 text-sm">Fill in your details and we'll get back to you shortly</p>
         </div>
-        <form action="lead-handler.php" method="POST" class="space-y-5">
+        <form action="https://api.web3forms.com/submit" method="POST" class="space-y-5">
+          <input type="hidden" name="access_key" value="b40c7ab7-986f-4841-88f3-fc177c2002be">
+          <input type="hidden" name="redirect" value="https://retrofusion.in/thank-you">
+          <input type="hidden" name="from_name" value="Retrofusion Website">
+          <input type="hidden" name="subject" value="New Website Lead">
           <input type="hidden" name="source" value="Retro Villa Page">
           <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
