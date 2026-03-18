@@ -21,7 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $source = isset($_POST['source']) ? strip_tags(trim($_POST['source'])) : 'Website Form';
 
     // Recipients
-    $to = "satyamrai374@gmail.com, contact@retrofusion.in";
+    $to = "satyamrai374@gmail.com, contact@retrofusion.in, retrofusion2023@gmail.com";
     
     // Subject
     $subject = "New Lead from Website";

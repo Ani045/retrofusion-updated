@@ -46,11 +46,7 @@ include 'includes/header.php';
                 </h2>
               </div>
 
-              <form action="https://api.web3forms.com/submit" method="POST" class="space-y-5">
-                <input type="hidden" name="access_key" value="b40c7ab7-986f-4841-88f3-fc177c2002be">
-                <input type="hidden" name="redirect" value="https://retrofusion.in/thank-you">
-                <input type="hidden" name="from_name" value="Retrofusion Website">
-                <input type="hidden" name="subject" value="New Website Lead">
+              <form action="lead-handler.php" method="POST" class="space-y-5">
                 <input type="hidden" name="source" value="Contact Us Page">
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
                   <div>
