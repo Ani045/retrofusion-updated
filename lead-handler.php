@@ -1,5 +1,14 @@
 <?php
+ob_start();
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Basic logging for debug
+    $log_source = isset($_POST['source']) ? $_POST['source'] : 'Unknown';
+    file_put_contents('lead_log.txt', date('[Y-m-d H:i:s] ') . "Form submitted from source: " . $log_source . "\n", FILE_APPEND);
+
+
     // Collect and sanitize input data
     $name = isset($_POST['name']) ? strip_tags(trim($_POST['name'])) : 'Not provided';
     $email = isset($_POST['email']) ? filter_var(trim($_POST['email']), FILTER_SANITIZE_EMAIL) : 'Not provided';
@@ -57,10 +66,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     ";
 
     // Headers
+    $from_host = isset($_SERVER['HTTP_HOST']) ? $_SERVER['HTTP_HOST'] : 'retrofusion.in';
     $headers = "MIME-Version: 1.0" . "\r\n";
     $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-    $headers .= "From: Retrofusion Website <noreply@retrofusion.in>" . "\r\n";
+    $headers .= "From: Retrofusion Website <noreply@$from_host>" . "\r\n";
     $headers .= "Reply-To: $email" . "\r\n";
+    $headers .= "X-Mailer: PHP/" . phpversion() . "\r\n";
+
 
     // Send email
     if (mail($to, $subject, $email_content, $headers)) {
@@ -77,4 +89,3 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     header("Location: index.php");
     exit();
 }
-?>
