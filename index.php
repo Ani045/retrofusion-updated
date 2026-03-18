@@ -1295,8 +1295,8 @@ include 'includes/header.php';
       <div>
         <div class="bg-white rounded-xl shadow-xl p-6 lg:p-8 border border-stone-200">
           <h3 class="text-xl lg:text-2xl font-bold text-[#0F2A24] mb-6">Reserve Your Villa</h3>
-          <form action="#" method="POST" class="space-y-5"
-            onsubmit="event.preventDefault(); alert('In a real environment, this form would be submitted!');">
+          <form action="lead-handler.php" method="POST" class="space-y-5">
+            <input type="hidden" name="source" value="Home Page Form">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
               <div>
                 <label class="block text-stone-600 text-sm font-medium mb-2">

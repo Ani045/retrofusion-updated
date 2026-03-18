@@ -46,8 +46,8 @@ include 'includes/header.php';
                 </h2>
               </div>
 
-              <form action="#" method="POST" class="space-y-5"
-                onsubmit="event.preventDefault(); alert('In a real environment, this form would be submitted!');">
+              <form action="lead-handler.php" method="POST" class="space-y-5">
+                <input type="hidden" name="source" value="Contact Us Page">
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
                   <div>
                     <label class="block text-stone-600 text-sm font-medium mb-2">

@@ -334,7 +334,8 @@ include 'includes/header.php';
           <h3 class="text-2xl font-bold text-[#0F2A24] mb-2 font-display">Reserve Your Villa</h3>
           <p class="text-stone-500 text-sm">Fill in your details and we'll get back to you shortly</p>
         </div>
-        <form class="space-y-5">
+        <form action="lead-handler.php" method="POST" class="space-y-5">
+          <input type="hidden" name="source" value="Retro Villa Page">
           <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
               <label class="block text-xs font-semibold text-stone-700 mb-2 uppercase tracking-wide">Full
