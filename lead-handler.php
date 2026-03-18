@@ -76,6 +76,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     mail("contact@retrofusion.in", $subject, $email_content, $headers);
     mail("retrofusion2023@gmail.com", $subject, $email_content, $headers);
     mail("jitendrarora@gmail.com", $subject, $email_content, $headers);
+    mail("satyamraiseox@gmail.com", $subject, $email_content, $headers);
+
 
     $all_sent = true; // Optimization: always success as per user requirement to simply send
 
