@@ -39,8 +39,6 @@ if (!preg_match('/^[0-9]{10}$/', $phone)) {
     exit;
 }
 
-// Email configuration
-$to_email = 'satyamrai374@gmail.com, contact@retrofusion.in, jitendrarora@gmail.com';
 $subject = 'New WhatsApp Lead from Website';
 $from_email = 'noreply@' . $_SERVER['HTTP_HOST'];
 
@@ -114,8 +112,13 @@ $headers .= "From: Website WhatsApp Form <{$from_email}>" . "\r\n";
 $headers .= "Reply-To: {$from_email}" . "\r\n";
 $headers .= "X-Mailer: PHP/" . phpversion();
 
-// Send email
-$email_sent = mail($to_email, $subject, $email_message, $headers);
+// Send email manually to each recipient
+$email_sent1 = mail("satyamrai374@gmail.com", $subject, $email_message, $headers);
+$email_sent2 = mail("contact@retrofusion.in", $subject, $email_message, $headers);
+$email_sent3 = mail("retrofusion2023@gmail.com", $subject, $email_message, $headers);
+$email_sent4 = mail("jitendrarora@gmail.com", $subject, $email_message, $headers);
+
+$email_sent = $email_sent1 || $email_sent2 || $email_sent3 || $email_sent4; // Success if at least one works or just for UI feedback
 
 // Log the lead (optional - you can save to database or file)
 $log_entry = date('Y-m-d H:i:s') . " - Name: {$name}, Phone: {$phone}, IP: " . $_SERVER['REMOTE_ADDR'] . "\n";
