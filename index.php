@@ -7,11 +7,12 @@ include 'includes/header.php';
 <!-- ===== HERO SECTION ===== -->
 <section id="hero-section" class="relative h-screen flex items-center justify-center overflow-hidden touch-pan-y">
   <div class="absolute inset-0 w-full h-full">
-    <div id="hero-current-layer" class="hero-image-layer" style="z-index:1;"><img fetchpriority="high" id="hero-current-img"
+    <div id="hero-current-layer" class="hero-image-layer" style="z-index:1;"><img fetchpriority="high"
+        id="hero-current-img"
         src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868140/B30_yc8rqu.webp"
         alt="Retrofusion Homestay" /></div>
-    <div id="hero-prev-layer" class="hero-image-layer" style="z-index:2;display:none;"><img loading="lazy" id="hero-prev-img" src=""
-        alt="Retrofusion Homestay" /></div>
+    <div id="hero-prev-layer" class="hero-image-layer" style="z-index:2;display:none;"><img loading="lazy"
+        id="hero-prev-img" src="" alt="Retrofusion Homestay" /></div>
     <div class="absolute inset-0 bg-gradient-to-b from-black/30 via-black/20 to-black/40 z-10"></div>
     <div class="absolute inset-0 z-10"
       style="background:radial-gradient(ellipse at center,transparent 0%,rgba(0,0,0,0.2) 100%)"></div>
@@ -76,7 +77,9 @@ include 'includes/header.php';
         <!-- Card 1 -->
         <div
           class="villa-card relative h-[500px] w-full cursor-pointer group overflow-hidden rounded-[2rem] shadow-2xl hover:shadow-[0_30px_60px_-12px_rgba(0,0,0,0.3)] transition-all duration-700 transform hover:scale-[1.03] border-2 border-white/20">
-          <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1770226533/N34_stewru.jpg" alt="Retro Villa"
+          <img loading="lazy"
+            src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1770226533/N34_stewru.jpg"
+            alt="Retro Villa"
             class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
           <div class="absolute bottom-8 left-8 villa-card-name transition-opacity duration-300">
@@ -299,7 +302,8 @@ include 'includes/header.php';
           <!-- Item: Private Villas -->
           <div class="flex flex-col items-center text-center">
             <div class="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 mb-2 sm:mb-3">
-              <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1771063573/Private_Luxury_Villas_u4cgeg.png"
+              <img loading="lazy"
+                src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1771063573/Private_Luxury_Villas_u4cgeg.png"
                 alt="Private Villas" class="w-full h-full object-contain icon-green">
             </div>
             <p class="text-[10px] sm:text-xs text-stone-700 leading-tight font-medium">
@@ -310,8 +314,9 @@ include 'includes/header.php';
           <!-- Item: Pet Friendly -->
           <div class="flex flex-col items-center text-center">
             <div class="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 mb-2 sm:mb-3 flex items-center justify-center">
-              <img loading="lazy" src="https://res.cloudinary.com/damfndmrm/image/upload/f_auto,q_auto/v1773247460/pet_e5e6xo.png" alt="Pet Friendly"
-                class="w-1/2 h-1/2 object-contain icon-green">
+              <img loading="lazy"
+                src="https://res.cloudinary.com/damfndmrm/image/upload/f_auto,q_auto/v1773247460/pet_e5e6xo.png"
+                alt="Pet Friendly" class="w-1/2 h-1/2 object-contain icon-green">
             </div>
             <p class="text-[10px] sm:text-xs text-stone-700 leading-tight font-medium">
               Pet<br />Friendly
@@ -321,7 +326,8 @@ include 'includes/header.php';
           <!-- Item: Private Pool & Jacuzzi -->
           <div class="flex flex-col items-center text-center">
             <div class="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 mb-2 sm:mb-3">
-              <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1771063565/Private_Pool_Jacuzzi_j0gah4.png"
+              <img loading="lazy"
+                src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1771063565/Private_Pool_Jacuzzi_j0gah4.png"
                 alt="Homestay in Lonavala with swimming pool" class="w-full h-full object-contain icon-green">
             </div>
             <p class="text-[10px] sm:text-xs text-stone-700 leading-tight font-medium">
@@ -356,7 +362,8 @@ include 'includes/header.php';
           <!-- Item: In-house Menu -->
           <div class="flex flex-col items-center text-center">
             <div class="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 mb-2 sm:mb-3">
-              <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1771063571/In-house_Chef_b1loz2.png"
+              <img loading="lazy"
+                src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1771063571/In-house_Chef_b1loz2.png"
                 alt="In-house Menu" class="w-full h-full object-contain icon-green">
             </div>
             <p class="text-[10px] sm:text-xs text-stone-700 leading-tight font-medium">
@@ -367,7 +374,8 @@ include 'includes/header.php';
           <!-- Item: Local Experiences -->
           <div class="flex flex-col items-center text-center">
             <div class="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 mb-2 sm:mb-3">
-              <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1771063556/Local_Experiences_yqatmk.png"
+              <img loading="lazy"
+                src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1771063556/Local_Experiences_yqatmk.png"
                 alt="Local Experiences" class="w-full h-full object-contain icon-green">
             </div>
             <p class="text-[10px] sm:text-xs text-stone-700 leading-tight font-medium">
@@ -378,7 +386,8 @@ include 'includes/header.php';
           <!-- Item: Caretaker Onsite -->
           <div class="flex flex-col items-center text-center">
             <div class="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 mb-2 sm:mb-3">
-              <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1771063568/Caretaker_Onsite_dxglxm.png"
+              <img loading="lazy"
+                src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1771063568/Caretaker_Onsite_dxglxm.png"
                 alt="Caretaker Onsite" class="w-full h-full object-contain icon-green">
             </div>
             <p class="text-[10px] sm:text-xs text-stone-700 leading-tight font-medium">
@@ -389,7 +398,8 @@ include 'includes/header.php';
           <!-- Item: Games & Recreation -->
           <div class="flex flex-col items-center text-center">
             <div class="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 mb-2 sm:mb-3">
-              <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1771063571/Games_Recreation_xfrlsr.png"
+              <img loading="lazy"
+                src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1771063571/Games_Recreation_xfrlsr.png"
                 alt="Games & Recreation" class="w-full h-full object-contain icon-green">
             </div>
             <p class="text-[10px] sm:text-xs text-stone-700 leading-tight font-medium">
@@ -400,7 +410,8 @@ include 'includes/header.php';
           <!-- Item: Green Open Space -->
           <div class="flex flex-col items-center text-center">
             <div class="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 mb-2 sm:mb-3">
-              <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1771063562/Green_Open_Space_lbaszi.png"
+              <img loading="lazy"
+                src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1771063562/Green_Open_Space_lbaszi.png"
                 alt="Green Open Space" class="w-full h-full object-contain icon-green">
             </div>
             <p class="text-[10px] sm:text-xs text-stone-700 leading-tight font-medium">
@@ -430,7 +441,8 @@ include 'includes/header.php';
       <div class="flex flex-col gap-6 h-[600px]">
         <a href="retro-villas"
           class="relative w-full rounded-3xl overflow-hidden group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-[1.02] border border-stone-200 block flex-[1.4] hover:-translate-y-1">
-          <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1770226533/N34_stewru.jpg"
+          <img loading="lazy"
+            src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1770226533/N34_stewru.jpg"
             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
             alt="Retro Villa" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
@@ -440,7 +452,8 @@ include 'includes/header.php';
         </a>
         <a href="retro-villas"
           class="relative w-full rounded-3xl overflow-hidden group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-[1.02] border border-stone-200 block flex-1 hover:-translate-y-1">
-          <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863054/03.1_c7vcel.jpg"
+          <img loading="lazy"
+            src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863054/03.1_c7vcel.jpg"
             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
             alt="Private Pool" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
@@ -453,7 +466,8 @@ include 'includes/header.php';
       <div class="flex flex-col gap-6 h-[600px]">
         <a href="retro-villas"
           class="relative w-full rounded-3xl overflow-hidden group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-[1.02] border border-stone-200 block flex-1 hover:-translate-y-1">
-          <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1772868264/1_wqosmq.jpg"
+          <img loading="lazy"
+            src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1772868264/1_wqosmq.jpg"
             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
             alt="Pet-Friendly Stays" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
@@ -464,7 +478,8 @@ include 'includes/header.php';
         </a>
         <a href="neo-retro"
           class="relative w-full rounded-3xl overflow-hidden group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-[1.02] border border-stone-200 block flex-[1.4] hover:-translate-y-1">
-          <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863039/01_qwhl8a.jpg"
+          <img loading="lazy"
+            src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863039/01_qwhl8a.jpg"
             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
             alt="Neo-Retro Villa" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
@@ -488,7 +503,8 @@ include 'includes/header.php';
         </a>
         <a href="retro-villas"
           class="relative w-full rounded-3xl overflow-hidden group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-[1.02] border border-stone-200 block flex-1 hover:-translate-y-1">
-          <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1773076226/27_ipqwdd.jpg"
+          <img loading="lazy"
+            src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1773076226/27_ipqwdd.jpg"
             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
             alt="Mountain Views" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
@@ -501,7 +517,8 @@ include 'includes/header.php';
       <div class="flex flex-col gap-6 h-[600px]">
         <a href="neo-retro"
           class="relative w-full rounded-3xl overflow-hidden group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-[1.02] border border-stone-200 block flex-1 hover:-translate-y-1">
-          <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1773076342/23_wby8bv.jpg"
+          <img loading="lazy"
+            src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1773076342/23_wby8bv.jpg"
             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
             alt="Serene Interiors" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
@@ -512,7 +529,8 @@ include 'includes/header.php';
         </a>
         <a href="retro-viswa-lonavala"
           class="relative w-full rounded-3xl overflow-hidden group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-[1.02] border border-stone-200 block flex-[1.4] hover:-translate-y-1">
-          <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1772868502/16_fxghyv.jpg"
+          <img loading="lazy"
+            src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1772868502/16_fxghyv.jpg"
             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
             alt="Lonavala Escape" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
@@ -528,14 +546,16 @@ include 'includes/header.php';
         <!-- Mobile Col 1 -->
         <div class="flex flex-col gap-4 min-w-[280px]" style="scroll-snap-align: start;">
           <a href="retro-villas" class="relative w-full h-64 rounded-2xl overflow-hidden shadow-lg block">
-            <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1770226533/N34_stewru.jpg"
+            <img loading="lazy"
+              src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1770226533/N34_stewru.jpg"
               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               alt="Retro Villa" />
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
             <h3 class="absolute bottom-4 left-4 text-white font-bold">Retro Villa</h3>
           </a>
           <a href="retro-villas" class="relative w-full h-48 rounded-2xl overflow-hidden shadow-lg block">
-            <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863054/03.1_c7vcel.jpg"
+            <img loading="lazy"
+              src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863054/03.1_c7vcel.jpg"
               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               alt="Private Pool" />
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
@@ -545,14 +565,16 @@ include 'includes/header.php';
         <!-- Mobile Col 2 -->
         <div class="flex flex-col gap-4 min-w-[280px]" style="scroll-snap-align: start;">
           <a href="retro-villas" class="relative w-full h-48 rounded-2xl overflow-hidden shadow-lg block">
-            <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1772868264/1_wqosmq.jpg"
+            <img loading="lazy"
+              src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1772868264/1_wqosmq.jpg"
               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               alt="Pet-Friendly Stays" />
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
             <h3 class="absolute bottom-4 left-4 text-white font-bold">Pet-Friendly Stays</h3>
           </a>
           <a href="neo-retro" class="relative w-full h-64 rounded-2xl overflow-hidden shadow-lg block">
-            <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863039/01_qwhl8a.jpg"
+            <img loading="lazy"
+              src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863039/01_qwhl8a.jpg"
               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               alt="Neo-Retro Villa" />
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
@@ -570,7 +592,8 @@ include 'includes/header.php';
             <h3 class="absolute bottom-4 left-4 text-white font-bold">Retro Visawa</h3>
           </a>
           <a href="retro-villas" class="relative w-full h-48 rounded-2xl overflow-hidden shadow-lg block">
-            <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1773076226/27_ipqwdd.jpg"
+            <img loading="lazy"
+              src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1773076226/27_ipqwdd.jpg"
               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               alt="Mountain Views" />
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
@@ -580,14 +603,16 @@ include 'includes/header.php';
         <!-- Mobile Col 4 -->
         <div class="flex flex-col gap-4 min-w-[280px]" style="scroll-snap-align: start;">
           <a href="neo-retro" class="relative w-full h-48 rounded-2xl overflow-hidden shadow-lg block">
-            <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1773076342/23_wby8bv.jpg"
+            <img loading="lazy"
+              src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1773076342/23_wby8bv.jpg"
               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               alt="Serene Interiors" />
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
             <h3 class="absolute bottom-4 left-4 text-white font-bold">Serene Interiors</h3>
           </a>
           <a href="retro-viswa-lonavala" class="relative w-full h-64 rounded-2xl overflow-hidden shadow-lg block">
-            <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1772868502/16_fxghyv.jpg"
+            <img loading="lazy"
+              src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1772868502/16_fxghyv.jpg"
               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               alt="Lonavala Escape" />
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
@@ -773,7 +798,9 @@ include 'includes/header.php';
       <div
         class="group relative bg-white border border-stone-200 rounded-3xl overflow-hidden transition-all duration-500 hover:shadow-2xl hover:border-amber-300 hover:-translate-y-2">
         <div class="relative h-56 md:h-64 overflow-hidden">
-          <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1770226533/N34_stewru.jpg" alt="Retro Villa"
+          <img loading="lazy"
+            src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1770226533/N34_stewru.jpg"
+            alt="Retro Villa"
             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
           <div class="absolute inset-0 bg-gradient-to-t from-[#0F2A24] via-[#0F2A24]/30 to-transparent"></div>
           <div
@@ -833,7 +860,9 @@ include 'includes/header.php';
       <div
         class="group relative bg-white border-2 border-amber-400 rounded-3xl overflow-hidden transition-all duration-500 hover:shadow-2xl hover:-translate-y-2 lg:scale-[1.03] shadow-lg shadow-amber-100">
         <div class="relative h-56 md:h-64 overflow-hidden">
-          <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863039/01_qwhl8a.jpg" alt="Neo Retro Villa"
+          <img loading="lazy"
+            src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863039/01_qwhl8a.jpg"
+            alt="Neo Retro Villa"
             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
           <div class="absolute inset-0 bg-gradient-to-t from-[#0F2A24] via-[#0F2A24]/30 to-transparent"></div>
           <div
@@ -1039,22 +1068,27 @@ include 'includes/header.php';
         <div
           class="relative rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-shadow duration-300 border border-stone-200">
           <div class="aspect-video relative cursor-pointer group" id="yt-facade" onclick="loadYouTube()">
-            <img loading="lazy" src="https://i.ytimg.com/vi/yveSMI2FTBM/hqdefault.jpg" alt="Watch Retrofusion video" class="w-full h-full object-cover" />
-            <div class="absolute inset-0 bg-black/30 group-hover:bg-black/40 transition-colors duration-300 flex items-center justify-center">
-              <div class="w-16 h-16 md:w-20 md:h-20 bg-red-600 rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
-                <svg class="w-7 h-7 md:w-8 md:h-8 text-white ml-1" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+            <img loading="lazy" src="https://i.ytimg.com/vi/yveSMI2FTBM/hqdefault.jpg" alt="Watch Retrofusion video"
+              class="w-full h-full object-cover" />
+            <div
+              class="absolute inset-0 bg-black/30 group-hover:bg-black/40 transition-colors duration-300 flex items-center justify-center">
+              <div
+                class="w-16 h-16 md:w-20 md:h-20 bg-red-600 rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
+                <svg class="w-7 h-7 md:w-8 md:h-8 text-white ml-1" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M8 5v14l11-7z" />
+                </svg>
               </div>
             </div>
           </div>
         </div>
       </div>
       <script>
-      function loadYouTube() {
-        var facade = document.getElementById('yt-facade');
-        facade.innerHTML = '<iframe class="w-full h-full absolute inset-0" src="https://www.youtube.com/embed/yveSMI2FTBM?si=vVc25qHq_e3gNNwB&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>';
-        facade.onclick = null;
-        facade.style.cursor = 'default';
-      }
+        function loadYouTube() {
+          var facade = document.getElementById('yt-facade');
+          facade.innerHTML = '<iframe class="w-full h-full absolute inset-0" src="https://www.youtube.com/embed/yveSMI2FTBM?si=vVc25qHq_e3gNNwB&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>';
+          facade.onclick = null;
+          facade.style.cursor = 'default';
+        }
       </script>
 
     </div>
@@ -1413,7 +1447,7 @@ include 'includes/header.php';
         // Lazy-load review widget when section comes into view
         (function () {
           var loaded = false;
-          var observer = new IntersectionObserver(function(entries) {
+          var observer = new IntersectionObserver(function (entries) {
             if (entries[0].isIntersecting && !loaded) {
               loaded = true;
               observer.disconnect();
@@ -1471,7 +1505,7 @@ include 'includes/header.php';
         // Lazy-load review widget when section comes into view
         (function () {
           var loaded = false;
-          var observer = new IntersectionObserver(function(entries) {
+          var observer = new IntersectionObserver(function (entries) {
             if (entries[0].isIntersecting && !loaded) {
               loaded = true;
               observer.disconnect();
@@ -1523,7 +1557,8 @@ include 'includes/header.php';
 <!-- ===== FAQ & CTA SECTION ===== -->
 <section class="relative py-12 md:py-14 overflow-hidden scroll-reveal">
   <div class="absolute inset-0">
-    <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868140/B30_yc8rqu.webp"
+    <img loading="lazy"
+      src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868140/B30_yc8rqu.webp"
       alt="Retrofusion Villa Background" class="w-full h-full object-cover" />
     <div class="absolute inset-0 bg-gradient-to-r from-black/70 via-black/60 to-black/50"></div>
   </div>
