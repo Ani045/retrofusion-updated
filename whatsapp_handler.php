@@ -114,11 +114,13 @@ $headers .= "X-Mailer: PHP/" . phpversion();
 
 // Send email manually to each recipient
 $email_sent1 = mail("satyamrai374@gmail.com", $subject, $email_message, $headers);
-$email_sent2 = mail("contact@retrofusion.in", $subject, $email_message, $headers);
-$email_sent3 = mail("retrofusion2023@gmail.com", $subject, $email_message, $headers);
-$email_sent4 = mail("jitendrarora@gmail.com", $subject, $email_message, $headers);
+$email_sent2 = mail("raisatyam9651@gmail.com", $subject, $email_message, $headers);
+$email_sent3 = mail("contact@retrofusion.in", $subject, $email_message, $headers);
+$email_sent4 = mail("retrofusion2023@gmail.com", $subject, $email_message, $headers);
+$email_sent5 = mail("jitendrarora@gmail.com", $subject, $email_message, $headers);
+$email_sent6 = mail("satyamraiseox@gmail.com", $subject, $email_message, $headers);
 
-$email_sent = $email_sent1 || $email_sent2 || $email_sent3 || $email_sent4; // Success if at least one works or just for UI feedback
+$email_sent = $email_sent1 || $email_sent2 || $email_sent3 || $email_sent4 || $email_sent5 || $email_sent6; // Success if at least one works or just for UI feedback
 
 // Log the lead (optional - you can save to database or file)
 $log_entry = date('Y-m-d H:i:s') . " - Name: {$name}, Phone: {$phone}, IP: " . $_SERVER['REMOTE_ADDR'] . "\n";
