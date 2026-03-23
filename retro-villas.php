@@ -1,6 +1,9 @@
 <?php
 $pageTitle = "Retro Villa | Villas with Swimming Pool in Lonavala";
 $pageDescription = "Discover Retro Villa, a unique villa in Lonavala with pool. Enjoy vintage luxury and cinema-inspired themes at one of the finest private pool villas in Lonavala.";
+$canonicalUrl = "https://retrofusion.in/retro-villas";
+$ogTitle = "Retro Villa | Private Pool Villa in Lonavala";
+$ogImage = "https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1770226533/N34_stewru.jpg";
 include 'includes/header.php';
 ?>
 
@@ -18,7 +21,7 @@ include 'includes/header.php';
       <div class="space-y-4 sm:space-y-6 mb-8">
         <h1
           class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight drop-shadow-2xl font-display">
-          Retro Villa</h1>
+          Retro Villa — Private Pool Villa in Lonavala</h1>
         <p class="text-base sm:text-lg md:text-xl lg:text-2xl text-white/90 font-light max-w-2xl mx-auto">
           Experience one of the premium private pool villas in Lonavala for a vintage retreat</p>
         <p class="text-sm sm:text-base md:text-lg text-white font-light italic font-display">A
@@ -59,10 +62,7 @@ include 'includes/header.php';
         <!-- View gallery button removed as requested -->
       </div>
       <div class="flex items-center">
-        <p class="text-stone-600 text-base md:text-lg leading-relaxed">Relive timeless cinema moments at the best
-          villa near Lonavala, with a private plunge pool and curated comforts that make it the best homestay near
-          Mumbai. This villa is filled with vintage posters and charming details inspired by the golden era of
-          Indian cinema.<br>
+        <p class="text-stone-600 text-base md:text-lg leading-relaxed">Relive timeless cinema moments at the <span class="font-bold text-stone-800">best villa near Lonavala</span>. If you are searching for premium <span class="font-bold text-stone-800">villas with swimming pool in Lonavala</span>, Retro Villa offers a vintage escape with curated comforts that make it the best homestay near Mumbai. As one of the most distinctive <span class="font-bold text-stone-800">private pool villas in Lonavala</span>, this <span class="font-bold text-stone-800">villa in Lonavala with pool</span> is filled with vintage posters and charming details inspired by the golden era of Indian cinema.<br>
           <b>Every room has a story. Every corner sparks nostalgia.</b>
         </p>
       </div>
