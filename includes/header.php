@@ -43,7 +43,20 @@
   <link rel="stylesheet" href="css/tailwind.css">
   <link rel="stylesheet" href="css/styles.css">
   <meta name="description" content="<?php echo $pageDescription ?? ''; ?>" />
-  <meta property="og:title" content="Retrofusion - Luxury Boutique Homestays in Lonavala" />
+  <meta property="og:title" content="<?php echo $ogTitle ?? ($pageTitle ?? 'Retrofusion - Luxury Boutique Homestays in Lonavala'); ?>" />
+  <?php if(isset($ogDescription)): ?>
+  <meta property="og:description" content="<?php echo $ogDescription; ?>" />
+  <?php else: ?>
+  <meta property="og:description" content="<?php echo $pageDescription ?? ''; ?>" />
+  <?php endif; ?>
+  <?php if(isset($ogImage)): ?>
+  <meta property="og:image" content="<?php echo $ogImage; ?>" />
+  <?php endif; ?>
+  <?php if(isset($canonicalUrl)): ?>
+  <link rel="canonical" href="<?php echo $canonicalUrl; ?>" />
+  <meta property="og:url" content="<?php echo $canonicalUrl; ?>" />
+  <?php endif; ?>
+  <meta property="og:type" content="website" />
   <title><?php echo $pageTitle ?? "Retrofusion Boutique Homestays"; ?></title>
   <!-- Google Tag Manager -->
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':

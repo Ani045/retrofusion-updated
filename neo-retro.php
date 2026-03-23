@@ -1,6 +1,10 @@
 <?php
-$pageTitle = "Neo-Retro | 4 BHK Villa in Lonavala with Private Pool";
-$pageDescription = "Experience Neo-Retro, a luxurious 4 BHK Villa in Lonavala with private pool. This unique aesthetic Villa in Lonavala offers an artistic retreat with premium amenities.";
+$pageTitle = "Neo-Retro | Luxury 4 BHK Villa in Lonavala with Private Pool";
+$pageDescription = "Experience Neo-Retro, a luxury 4 BHK Villa in Lonavala with private pool. This unique aesthetic private pool villa Lonavala is a Luxury villa Lonavala offering an artistic retreat. The best Villa near Pune / Mumbai for families.";
+$canonicalUrl = "https://retrofusion.in/neo-retro.php";
+$ogTitle = $pageTitle;
+$ogDescription = $pageDescription;
+$ogImage = "https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863039/01_qwhl8a.jpg";
 include 'includes/header.php';
 ?>
 
@@ -19,7 +23,7 @@ include 'includes/header.php';
             <div class="space-y-4 sm:space-y-6 mb-8">
                 <h1
                     class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight drop-shadow-2xl font-display">
-                    Neo-Retro Villa</h1>
+                    Neo-Retro: 4 BHK Villa in Lonavala with Private Pool</h1>
                 <p class="text-base sm:text-lg md:text-xl lg:text-2xl text-white/90 font-light max-w-2xl mx-auto">
                     Luxurious 4 BHK Villa in Lonavala with Private Pool</p>
                 <p class="text-sm sm:text-base md:text-lg text-white font-light italic font-display">An
@@ -56,17 +60,17 @@ include 'includes/header.php';
                     <span class="text-amber-600 text-sm font-medium uppercase tracking-wider">About Us</span>
                 </div>
                 <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-[#0F2A24] mb-6 font-display">
-                    Neo Retro Villa: <span class="text-amber-600">An Artistic Retreat</span></h2>
+                    Neo Retro: <span class="text-amber-600">Luxury Villa Lonavala</span></h2>
                 <!-- View gallery button removed as requested -->
             </div>
             <div class="flex items-center">
                 <p class="text-stone-600 text-base md:text-lg leading-relaxed">Experience Retrofusion's crown
                     jewel, <span class="font-bold text-stone-800">a stunning 4 BHK Villa in Lonavala</span>
                     that doubles as a private art gallery. Every space features original art, making this
-                    <span class="font-bold text-stone-800">Villa in Lonavala</span> a truly immersive retreat for
-                    creative souls.<br>
+                    <span class="font-bold text-stone-800">luxury villa Lonavala</span> a truly immersive retreat for
+                    creative souls. If you are looking for a <span class="font-bold text-stone-800">villa near Pune / Mumbai</span>, our <span class="font-bold text-stone-800">private pool villa Lonavala</span> is the perfect getaway.<br>
                     <span class="font-bold text-stone-800">Here, art isn’t just displayed, it lives with
-                        you.</span>.
+                        you.</span>
                 </p>
             </div>
         </div>
