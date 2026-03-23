@@ -43,6 +43,9 @@
   <link rel="stylesheet" href="css/tailwind.css">
   <link rel="stylesheet" href="css/styles.css">
   <meta name="description" content="<?php echo $pageDescription ?? ''; ?>" />
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
   <meta property="og:title" content="<?php echo $ogTitle ?? ($pageTitle ?? 'Retrofusion - Luxury Boutique Homestays in Lonavala'); ?>" />
   <?php if(isset($ogDescription)): ?>
   <meta property="og:description" content="<?php echo $ogDescription; ?>" />
@@ -56,7 +59,23 @@
   <link rel="canonical" href="<?php echo $canonicalUrl; ?>" />
   <meta property="og:url" content="<?php echo $canonicalUrl; ?>" />
   <?php endif; ?>
-  <meta property="og:type" content="website" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="<?php echo $twitterCard ?? 'summary_large_image'; ?>" />
+  <meta name="twitter:title" content="<?php echo $twitterTitle ?? ($ogTitle ?? ($pageTitle ?? 'Retrofusion - Luxury Boutique Homestays in Lonavala')); ?>" />
+  <?php if(isset($twitterDescription)): ?>
+  <meta name="twitter:description" content="<?php echo $twitterDescription; ?>" />
+  <?php elseif(isset($ogDescription)): ?>
+  <meta name="twitter:description" content="<?php echo $ogDescription; ?>" />
+  <?php else: ?>
+  <meta name="twitter:description" content="<?php echo $pageDescription ?? ''; ?>" />
+  <?php endif; ?>
+  <?php if(isset($twitterImage)): ?>
+  <meta name="twitter:image" content="<?php echo $twitterImage; ?>" />
+  <?php elseif(isset($ogImage)): ?>
+  <meta name="twitter:image" content="<?php echo $ogImage; ?>" />
+  <?php endif; ?>
+
   <title><?php echo $pageTitle ?? "Retrofusion Boutique Homestays"; ?></title>
   <!-- Google Tag Manager -->
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':

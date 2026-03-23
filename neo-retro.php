@@ -1,10 +1,13 @@
 <?php
 $pageTitle = "Neo-Retro | Luxury 4 BHK Villa in Lonavala with Private Pool";
 $pageDescription = "Experience Neo-Retro, a luxury 4 BHK Villa in Lonavala with private pool. This unique aesthetic private pool villa Lonavala is a Luxury villa Lonavala offering an artistic retreat. The best Villa near Pune / Mumbai for families.";
-$canonicalUrl = "https://retrofusion.in/neo-retro.php";
+$canonicalUrl = "https://retrofusion.in/neo-retro";
 $ogTitle = $pageTitle;
 $ogDescription = $pageDescription;
 $ogImage = "https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863039/01_qwhl8a.jpg";
+$twitterCard = "summary_large_image";
+$twitterTitle = "Neo-Retro | Luxury 4 BHK Villa in Lonavala with Private Pool";
+$twitterDescription = "A luxury 4 BHK villa in Lonavala with private pool, jacuzzi & mountain views. Perfect for families & groups near Pune & Mumbai.";
 include 'includes/header.php';
 ?>
 
