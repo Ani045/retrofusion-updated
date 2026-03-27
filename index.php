@@ -1412,6 +1412,24 @@ include 'includes/header.php';
                 placeholder="Tell us about your requirements..."></textarea>
             </div>
 
+            <?php
+            // Generate a simple math CAPTCHA
+            $num1_idx = rand(1, 10);
+            $num2_idx = rand(1, 10);
+            $_SESSION['captcha_answer'] = $num1_idx + $num2_idx;
+            ?>
+            <div class="space-y-2">
+              <label class="block text-stone-600 text-sm font-medium">Verify you are human *</label>
+              <div class="flex items-center gap-4">
+                <span class="px-6 py-3 bg-[#F4EFEA] border border-stone-200 rounded-xl font-bold text-stone-900 text-lg">
+                  <?php echo $num1_idx; ?> + <?php echo $num2_idx; ?> =
+                </span>
+                <input type="number" name="captcha" required
+                  class="flex-1 px-4 py-3 bg-[#F4EFEA] border border-stone-200 rounded-xl focus:ring-2 focus:ring-amber-500 focus:border-amber-500 transition-all outline-none"
+                  placeholder="?" />
+              </div>
+            </div>
+
             <button type="submit"
               class="w-full bg-gradient-to-r from-amber-600 to-amber-700 hover:from-amber-700 hover:to-amber-800 text-white py-4 rounded-xl font-semibold transition-all flex items-center justify-center gap-2 shadow-lg hover:shadow-amber-500/25 transform hover:-translate-y-1">
               <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

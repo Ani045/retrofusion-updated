@@ -1,5 +1,4 @@
 <?php
-
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
@@ -7,9 +6,18 @@ require 'PHPMailer/PHPMailer.php';
 require 'PHPMailer/SMTP.php';
 require 'PHPMailer/Exception.php';
 
+session_start();
 
 $mail = new PHPMailer(true);
 
+// CAPTCHA Validation
+if (!isset($_POST['captcha']) || (int)$_POST['captcha'] !== (int)$_SESSION['captcha_answer']) {
+    echo "<script>
+        alert('Verification failed. Please try again.');
+        window.history.back();
+    </script>";
+    exit();
+}
 
 $body = "";
 $body .= '<h4>New Lead Retrofustion Website</h4>';

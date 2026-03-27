@@ -399,6 +399,24 @@ include 'includes/header.php';
                   class="w-full px-4 py-3 text-sm border border-stone-300 rounded-xl focus:ring-2 focus:ring-amber-500 focus:border-transparent transition-all outline-none resize-none bg-[#F4EFEA]/50 hover:bg-white"
                   placeholder="Tell us about your requirements..."></textarea>
               </div>
+              <?php
+              // Generate a simple math CAPTCHA
+              $num1_rvl = rand(1, 10);
+              $num2_rvl = rand(1, 10);
+              $_SESSION['captcha_answer'] = $num1_rvl + $num2_rvl;
+              ?>
+              <div class="space-y-2">
+                <label class="block text-xs font-semibold text-stone-700 mb-2 uppercase tracking-wide">Verify you are human *</label>
+                <div class="flex items-center gap-4">
+                  <span class="px-6 py-3 bg-[#F4EFEA] border border-stone-300 rounded-xl font-bold text-stone-900 text-lg">
+                    <?php echo $num1_rvl; ?> + <?php echo $num2_rvl; ?> =
+                  </span>
+                  <input type="number" name="captcha" required
+                    class="flex-1 px-4 py-3 text-sm border border-stone-300 rounded-xl focus:ring-2 focus:ring-amber-500 focus:border-transparent transition-all outline-none bg-[#F4EFEA]/50 hover:bg-white"
+                    placeholder="?" />
+                </div>
+              </div>
+
               <button type="submit"
                 class="w-full py-4 bg-gradient-to-r from-amber-600 to-amber-700 hover:from-amber-700 hover:to-amber-800 text-white font-bold text-sm rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 uppercase tracking-wider flex items-center justify-center space-x-2">
                 <span>Send Enquiry</span>

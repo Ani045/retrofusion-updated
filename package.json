@@ -1,0 +1,15 @@
+{
+  "name": "retrofusion-updated",
+  "version": "1.0.0",
+  "description": "Retrofusion Website updated with CAPTCHA and SEO improvements",
+  "scripts": {
+    "dev": "php -S localhost:8000"
+  },
+  "keywords": [
+    "php",
+    "website",
+    "retrofusion"
+  ],
+  "author": "",
+  "license": "ISC"
+}
