@@ -39,7 +39,7 @@ if (!preg_match('/^[0-9]{10}$/', $phone)) {
     exit;
 }
 
-$subject = 'New WhatsApp Lead from Website';
+$subject = 'New WhatsApp Lead from Website (retrofusion)';
 $from_email = 'noreply@' . $_SERVER['HTTP_HOST'];
 
 function getAsianDateTime($timezone_identifier = 'Asia/Kolkata')
