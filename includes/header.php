@@ -731,13 +731,11 @@ if (session_status() === PHP_SESSION_NONE) {
           .then(response => response.json())
           .then(data => {
             if (data.success) {
-              // Close popup
+              // Close popup and reset form
               closeWhatsAppPopup();
+              document.getElementById('whatsappLeadForm').reset();
 
-              // Show success message
-              alert('Thank you! Redirecting to WhatsApp...');
-
-              // Redirect to WhatsApp
+              // Redirect to WhatsApp immediately
               const message = `Hi, I'm ${name}. My phone number is ${phone}. I'm interested in your services.`;
               const whatsappUrl = `https://api.whatsapp.com/send/?phone=%2B919011016791&text=${encodeURIComponent(message)}&type=phone_number&app_absent=0`;
               window.open(whatsappUrl, '_blank');

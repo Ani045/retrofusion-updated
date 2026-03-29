@@ -70,13 +70,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $headers .= "Reply-To: $email" . "\r\n";
     $headers .= "X-Mailer: PHP/" . phpversion() . "\r\n";
 
-    // Send email manually to each recipient
-    mail("satyamrai374@gmail.com", $subject, $email_content, $headers);
-    mail("raisatyam9651@gmail.com", $subject, $email_content, $headers);
-    mail("contact@retrofusion.in", $subject, $email_content, $headers);
-    mail("retrofusion2023@gmail.com", $subject, $email_content, $headers);
-    mail("jitendrarora@gmail.com", $subject, $email_content, $headers);
-    mail("satyamraiseox@gmail.com", $subject, $email_content, $headers);
+    // Send email to multiple recipients in one call for better performance
+    $recipients = "satyamrai374@gmail.com, raisatyam9651@gmail.com, contact@retrofusion.in, retrofusion2023@gmail.com, jitendrarora@gmail.com, satyamraiseox@gmail.com";
+    mail($recipients, $subject, $email_content, $headers);
 
 
     $all_sent = true; // Optimization: always success as per user requirement to simply send
