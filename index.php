@@ -272,7 +272,7 @@ include 'includes/header.php';
       <div class="w-full lg:w-[35%] lg:flex-shrink-0">
         <div class="relative overflow-hidden rounded-lg">
           <img loading="lazy" id="retrofusion-slider-img"
-            src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863054/03.1_c7vcel.jpg"
+            src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1774807173/04_y636xz.jpg"
             alt="Retrofusion experience" class="w-full h-[280px] sm:h-[300px] lg:h-[320px] object-cover" />
 
           <!-- Navigation Arrow - Inside Image on Right -->
@@ -453,7 +453,7 @@ include 'includes/header.php';
         <a href="retro-villas"
           class="relative w-full rounded-3xl overflow-hidden group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-[1.02] border border-stone-200 block flex-1 hover:-translate-y-1">
           <img loading="lazy"
-            src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863054/03.1_c7vcel.jpg"
+            src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1774807176/34_vpeqgv.jpg"
             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
             alt="Private Pool" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
@@ -555,7 +555,7 @@ include 'includes/header.php';
           </a>
           <a href="retro-villas" class="relative w-full h-48 rounded-2xl overflow-hidden shadow-lg block">
             <img loading="lazy"
-              src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863054/03.1_c7vcel.jpg"
+              src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1774807176/34_vpeqgv.jpg"
               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               alt="Private Pool" />
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
@@ -742,13 +742,13 @@ include 'includes/header.php';
     <div class="flex justify-start mb-12 md:mb-16">
       <div class="inline-flex bg-white/[0.04] backdrop-blur-sm rounded-2xl p-1.5 border border-white/10 gap-1">
         <button onclick="switchVilla(0)" id="vtab-0"
-          class="villa-tab-active px-5 md:px-8 py-3 md:py-3.5 rounded-xl text-sm font-semibold transition-all duration-400 text-stone-400 hover:text-white border border-transparent">Retro
+          class="villa-tab-active px-5 md:px-8 py-3 md:py-3.5 rounded-xl text-sm font-semibold transition-all duration-400 text-stone-400 hover:text-white border border-transparent flex items-center gap-2"><span class="w-5 h-5 rounded-full bg-white/20 text-[10px] font-bold flex items-center justify-center">1</span>Retro
           Villa</button>
         <button onclick="switchVilla(1)" id="vtab-1"
-          class="px-5 md:px-8 py-3 md:py-3.5 rounded-xl text-sm font-semibold transition-all duration-400 text-stone-400 hover:text-white border border-transparent">Neo
+          class="px-5 md:px-8 py-3 md:py-3.5 rounded-xl text-sm font-semibold transition-all duration-400 text-stone-400 hover:text-white border border-transparent flex items-center gap-2"><span class="w-5 h-5 rounded-full bg-white/20 text-[10px] font-bold flex items-center justify-center">2</span>Neo
           Retro</button>
         <button onclick="switchVilla(2)" id="vtab-2"
-          class="px-5 md:px-8 py-3 md:py-3.5 rounded-xl text-sm font-semibold transition-all duration-400 text-stone-400 hover:text-white border border-transparent">Retro
+          class="px-5 md:px-8 py-3 md:py-3.5 rounded-xl text-sm font-semibold transition-all duration-400 text-stone-400 hover:text-white border border-transparent flex items-center gap-2"><span class="w-5 h-5 rounded-full bg-white/20 text-[10px] font-bold flex items-center justify-center">3</span>Retro
           Visawa</button>
       </div>
     </div>
@@ -1591,82 +1591,128 @@ include 'includes/header.php';
           <div class="bg-white/10 backdrop-blur-sm rounded-xl border border-white/10 overflow-hidden">
             <button onclick="toggleFAQ(this)"
               class="w-full px-5 py-4 flex items-center justify-between text-left hover:bg-white/5 transition-colors">
-              <h3 class="text-base font-medium text-white pr-4 font-display">Is alcohol allowed at the villas?</h3>
+              <h3 class="text-base font-medium text-white pr-4 font-display">Are the swimming pools private or shared?</h3>
               <svg class="w-4 h-4 text-white/60 flex-shrink-0 transition-transform duration-200" fill="none"
                 stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
               </svg>
             </button>
             <div class="faq-content h-0 overflow-hidden transition-all duration-200 opacity-0">
-              <p class="px-5 pb-4 text-stone-300 text-sm leading-relaxed">Yes, alcohol is allowed at all our villas.
-                You're welcome to bring your own drinks and enjoy them responsibly. We do not sell alcohol on
-                premises, but local shops are nearby.</p>
+              <p class="px-5 pb-4 text-stone-300 text-sm leading-relaxed">Every single villa (Retro, Neo, and Visawa) features its own completely private swimming pool with a dedicated filtration system. You do not share your space with anyone else.</p>
             </div>
           </div>
           <!-- FAQ Item 2 -->
           <div class="bg-white/10 backdrop-blur-sm rounded-xl border border-white/10 overflow-hidden">
             <button onclick="toggleFAQ(this)"
               class="w-full px-5 py-4 flex items-center justify-between text-left hover:bg-white/5 transition-colors">
-              <h3 class="text-base font-medium text-white pr-4 font-display">Are the villas pet-friendly?</h3>
+              <h3 class="text-base font-medium text-white pr-4 font-display">Are the villas elderly-friendly?</h3>
               <svg class="w-4 h-4 text-white/60 flex-shrink-0 transition-transform duration-200" fill="none"
                 stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
               </svg>
             </button>
             <div class="faq-content h-0 overflow-hidden transition-all duration-200 opacity-0">
-              <p class="px-5 pb-4 text-stone-300 text-sm leading-relaxed">Yes! We love furry guests. All three
-                villas are pet-friendly. We just request you keep pets off the furniture and clean up after them.
-                There's plenty of open green space for them to run around.</p>
+              <p class="px-5 pb-4 text-stone-300 text-sm leading-relaxed">Yes. All 3 villas are designed with families in mind, featuring ground-floor only in one step, and spacious ground floor layout for the ease of access and movement for the elderly. Each house has a bedroom with an ensuite washroom on the ground floor.</p>
             </div>
           </div>
           <!-- FAQ Item 3 -->
           <div class="bg-white/10 backdrop-blur-sm rounded-xl border border-white/10 overflow-hidden">
             <button onclick="toggleFAQ(this)"
               class="w-full px-5 py-4 flex items-center justify-between text-left hover:bg-white/5 transition-colors">
-              <h3 class="text-base font-medium text-white pr-4 font-display">Is the pool private?</h3>
+              <h3 class="text-base font-medium text-white pr-4 font-display">Is high-speed Wi-Fi available?</h3>
               <svg class="w-4 h-4 text-white/60 flex-shrink-0 transition-transform duration-200" fill="none"
                 stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
               </svg>
             </button>
             <div class="faq-content h-0 overflow-hidden transition-all duration-200 opacity-0">
-              <p class="px-5 pb-4 text-stone-300 text-sm leading-relaxed">Absolutely. Each villa has its own private
-                pool/plunge pool that is exclusively for your group. No shared facilities - complete privacy is
-                guaranteed.</p>
+              <p class="px-5 pb-4 text-stone-300 text-sm leading-relaxed">Yes, all our villas are equipped with fast, reliable Wi-Fi and power backups, making them perfect for "Workations" or corporate off-sites.</p>
             </div>
           </div>
           <!-- FAQ Item 4 -->
           <div class="bg-white/10 backdrop-blur-sm rounded-xl border border-white/10 overflow-hidden">
             <button onclick="toggleFAQ(this)"
               class="w-full px-5 py-4 flex items-center justify-between text-left hover:bg-white/5 transition-colors">
-              <h3 class="text-base font-medium text-white pr-4 font-display">How far is the nearest market?</h3>
+              <h3 class="text-base font-medium text-white pr-4 font-display">Are pets allowed?</h3>
               <svg class="w-4 h-4 text-white/60 flex-shrink-0 transition-transform duration-200" fill="none"
                 stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
               </svg>
             </button>
             <div class="faq-content h-0 overflow-hidden transition-all duration-200 opacity-0">
-              <p class="px-5 pb-4 text-stone-300 text-sm leading-relaxed">Lonavala market is approximately 5-10
-                minutes by car from our villas. There are plenty of restaurants, convenience stores, and local
-                eateries nearby.</p>
+              <p class="px-5 pb-4 text-stone-300 text-sm leading-relaxed">We love furry friends! We are pet-friendly across selected villas. Please mention that you are bringing a pet when you inquire so we can guide you to the perfect space.</p>
             </div>
           </div>
           <!-- FAQ Item 5 -->
           <div class="bg-white/10 backdrop-blur-sm rounded-xl border border-white/10 overflow-hidden">
             <button onclick="toggleFAQ(this)"
               class="w-full px-5 py-4 flex items-center justify-between text-left hover:bg-white/5 transition-colors">
-              <h3 class="text-base font-medium text-white pr-4 font-display">Is food available at the villa?</h3>
+              <h3 class="text-base font-medium text-white pr-4 font-display">What are the check-in and check-out timings?</h3>
               <svg class="w-4 h-4 text-white/60 flex-shrink-0 transition-transform duration-200" fill="none"
                 stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
               </svg>
             </button>
             <div class="faq-content h-0 overflow-hidden transition-all duration-200 opacity-0">
-              <p class="px-5 pb-4 text-stone-300 text-sm leading-relaxed">Yes! If you are looking for a homestay with
-                food in Lonavala, we offer an excellent in-house chef service.
-                You can choose from our menu of home-style meals. Meals are prepared fresh and charges are
-                additional. Veg and non-veg options available.</p>
+              <p class="px-5 pb-4 text-stone-300 text-sm leading-relaxed">Check-in is at 2:00 PM and Check-out is at 11:00 AM.</p>
             </div>
+          </div>
+
+          <!-- Hidden FAQs (shown on "Show More" click) -->
+          <div id="more-faqs" class="space-y-3 hidden">
+            <!-- FAQ Item 6 -->
+            <div class="bg-white/10 backdrop-blur-sm rounded-xl border border-white/10 overflow-hidden">
+              <button onclick="toggleFAQ(this)"
+                class="w-full px-5 py-4 flex items-center justify-between text-left hover:bg-white/5 transition-colors">
+                <h3 class="text-base font-medium text-white pr-4 font-display">Is alcohol allowed at the villas?</h3>
+                <svg class="w-4 h-4 text-white/60 flex-shrink-0 transition-transform duration-200" fill="none"
+                  stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              <div class="faq-content h-0 overflow-hidden transition-all duration-200 opacity-0">
+                <p class="px-5 pb-4 text-stone-300 text-sm leading-relaxed">Yes, alcohol is allowed at all our villas. You're welcome to bring your own drinks and enjoy them responsibly. We do not sell alcohol on premises, but local shops are nearby.</p>
+              </div>
+            </div>
+            <!-- FAQ Item 7 -->
+            <div class="bg-white/10 backdrop-blur-sm rounded-xl border border-white/10 overflow-hidden">
+              <button onclick="toggleFAQ(this)"
+                class="w-full px-5 py-4 flex items-center justify-between text-left hover:bg-white/5 transition-colors">
+                <h3 class="text-base font-medium text-white pr-4 font-display">How far is the nearest market?</h3>
+                <svg class="w-4 h-4 text-white/60 flex-shrink-0 transition-transform duration-200" fill="none"
+                  stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              <div class="faq-content h-0 overflow-hidden transition-all duration-200 opacity-0">
+                <p class="px-5 pb-4 text-stone-300 text-sm leading-relaxed">Lonavala market is approximately 5-10 minutes by car from our villas. There are plenty of restaurants, convenience stores, and local eateries nearby.</p>
+              </div>
+            </div>
+            <!-- FAQ Item 8 -->
+            <div class="bg-white/10 backdrop-blur-sm rounded-xl border border-white/10 overflow-hidden">
+              <button onclick="toggleFAQ(this)"
+                class="w-full px-5 py-4 flex items-center justify-between text-left hover:bg-white/5 transition-colors">
+                <h3 class="text-base font-medium text-white pr-4 font-display">Is food available at the villa?</h3>
+                <svg class="w-4 h-4 text-white/60 flex-shrink-0 transition-transform duration-200" fill="none"
+                  stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              <div class="faq-content h-0 overflow-hidden transition-all duration-200 opacity-0">
+                <p class="px-5 pb-4 text-stone-300 text-sm leading-relaxed">Yes! We offer an excellent in-house chef service. You can choose from our menu of home-style meals. Meals are prepared fresh and charges are additional. Veg and non-veg options available.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Show More FAQs Button -->
+          <div class="pt-4">
+            <button id="show-more-faqs-btn" onclick="toggleMoreFAQs()"
+              class="w-full px-6 py-3 bg-white/10 hover:bg-white/20 text-white font-semibold text-sm rounded-xl border border-white/30 transition-all duration-300 flex items-center justify-center gap-2">
+              <span>Show More FAQs</span>
+              <svg class="w-4 h-4 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
           </div>
         </div>
       </div>
@@ -1989,6 +2035,23 @@ include 'includes/header.php';
 </section>
 
 <script>
+  // Show More FAQs toggle
+  function toggleMoreFAQs() {
+    const moreFaqs = document.getElementById('more-faqs');
+    const btn = document.getElementById('show-more-faqs-btn');
+    const icon = btn.querySelector('svg');
+    const label = btn.querySelector('span');
+    if (moreFaqs.classList.contains('hidden')) {
+      moreFaqs.classList.remove('hidden');
+      label.textContent = 'Show Less FAQs';
+      icon.style.transform = 'rotate(180deg)';
+    } else {
+      moreFaqs.classList.add('hidden');
+      label.textContent = 'Show More FAQs';
+      icon.style.transform = 'rotate(0deg)';
+    }
+  }
+
   // FAQ toggle (matching villa page pattern)
   function toggleFAQ(btn) {
     const content = btn.nextElementSibling;
