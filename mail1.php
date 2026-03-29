@@ -31,6 +31,29 @@ $body .= 'Check-out: ' . $_POST['checkOut'] . "<br>";
 $body .= 'Villa: ' . $_POST['villa'] . "<br>";
 $body .= 'Message: ' . $_POST['message'] . "<br>";
 
+// Google Sheets Webhook Integration
+$webhook_url = "https://script.google.com/macros/s/AKfycbzAcxEVuQ8n4eVPbetWdb1OvU4YxnVW6-Pn-udCwPnpY0jGsvvXIlNvle-ylYl5-PXLig/exec";
+
+if (!empty($webhook_url)) {
+    $webhook_data = [
+        'name' => $_POST['name'] ?? 'Not Provided',
+        'phone' => $_POST['phone'] ?? 'Not Provided',
+        'email' => $_POST['email'] ?? 'Not Provided',
+        'service' => "Villa: " . ($_POST['villa'] ?? 'Any') . " | Guests: " . ($_POST['guests'] ?? 'Any') . " | Dates: " . ($_POST['checkIn'] ?? 'N/A') . " to " . ($_POST['checkOut'] ?? 'N/A'),
+        'message' => $_POST['message'] ?? 'Not Provided',
+        'source' => 'Website Contact Form'
+    ];
+    
+    $ch = curl_init($webhook_url);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_POST, true);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($webhook_data));
+    curl_setopt($ch, CURLOPT_HTTPHEADER, ['Content-Type: application/json']);
+    curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+    curl_setopt($ch, CURLOPT_TIMEOUT, 5);
+    curl_exec($ch);
+    curl_close($ch);
+}
 
 try {
     // SMTP Settings
