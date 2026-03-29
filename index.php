@@ -1702,6 +1702,62 @@ include 'includes/header.php';
                 <p class="px-5 pb-4 text-stone-300 text-sm leading-relaxed">Yes! We offer an excellent in-house chef service. You can choose from our menu of home-style meals. Meals are prepared fresh and charges are additional. Veg and non-veg options available.</p>
               </div>
             </div>
+
+            <!-- FAQ Item 9 -->
+            <div class="bg-white/10 backdrop-blur-sm rounded-xl border border-white/10 overflow-hidden">
+              <button onclick="toggleFAQ(this)"
+                class="w-full px-5 py-4 flex items-center justify-between text-left hover:bg-white/5 transition-colors">
+                <h3 class="text-base font-medium text-white pr-4 font-display">Is there safe parking available?</h3>
+                <svg class="w-4 h-4 text-white/60 flex-shrink-0 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              <div class="faq-content h-0 overflow-hidden transition-all duration-200 opacity-0">
+                <p class="px-5 pb-4 text-stone-300 text-sm leading-relaxed">Yes, we provide safe, private parking inside and outside the property premises for all our guests.</p>
+              </div>
+            </div>
+
+            <!-- FAQ Item 10 -->
+            <div class="bg-white/10 backdrop-blur-sm rounded-xl border border-white/10 overflow-hidden">
+              <button onclick="toggleFAQ(this)"
+                class="w-full px-5 py-4 flex items-center justify-between text-left hover:bg-white/5 transition-colors">
+                <h3 class="text-base font-medium text-white pr-4 font-display">How do I confirm my booking?</h3>
+                <svg class="w-4 h-4 text-white/60 flex-shrink-0 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              <div class="faq-content h-0 overflow-hidden transition-all duration-200 opacity-0">
+                <p class="px-5 pb-4 text-stone-300 text-sm leading-relaxed">A booking is confirmed once a 50% non-refundable advance payment is made. The remaining balance is to be cleared prior to or upon check-in, with a refundable security deposit.</p>
+              </div>
+            </div>
+
+            <!-- FAQ Item 11 -->
+            <div class="bg-white/10 backdrop-blur-sm rounded-xl border border-white/10 overflow-hidden">
+              <button onclick="toggleFAQ(this)"
+                class="w-full px-5 py-4 flex items-center justify-between text-left hover:bg-white/5 transition-colors">
+                <h3 class="text-base font-medium text-white pr-4 font-display">Is a security deposit required?</h3>
+                <svg class="w-4 h-4 text-white/60 flex-shrink-0 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              <div class="faq-content h-0 overflow-hidden transition-all duration-200 opacity-0">
+                <p class="px-5 pb-4 text-stone-300 text-sm leading-relaxed">Yes, a fully refundable security deposit of 50% of rent or INR 10,000 (whichever is lower) is collected at check-in to cover any incidental damages. It is refunded at check-out upon a quick property inspection.</p>
+              </div>
+            </div>
+
+            <!-- FAQ Item 12 -->
+            <div class="bg-white/10 backdrop-blur-sm rounded-xl border border-white/10 overflow-hidden">
+              <button onclick="toggleFAQ(this)"
+                class="w-full px-5 py-4 flex items-center justify-between text-left hover:bg-white/5 transition-colors">
+                <h3 class="text-base font-medium text-white pr-4 font-display">Can we use the kitchen to cook our own meals?</h3>
+                <svg class="w-4 h-4 text-white/60 flex-shrink-0 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              <div class="faq-content h-0 overflow-hidden transition-all duration-200 opacity-0">
+                <p class="px-5 pb-4 text-stone-300 text-sm leading-relaxed">The main kitchen is operated by our chefs to ensure hygiene and quality. However, basic amenities like a microwave, refrigerator, and kettle are accessible to guests for heating baby food or late-night snacks.</p>
+              </div>
+            </div>
           </div>
 
           <!-- Show More FAQs Button -->
