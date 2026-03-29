@@ -475,20 +475,6 @@ include 'includes/header.php';
             <h3 class="text-xl md:text-2xl font-bold font-display tracking-wide drop-shadow-lg">Mountain Views</h3>
           </div>
         </a>
-        <a href="neo-retro"
-          class="relative w-full rounded-3xl overflow-hidden group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-[1.02] border border-stone-200 block flex-[1.4] hover:-translate-y-1">
-          <img loading="lazy"
-            src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863039/01_qwhl8a.jpg"
-            class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-            alt="Neo-Retro Villa" />
-          <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
-          <div class="absolute bottom-6 left-6 text-white">
-            <h3 class="text-xl md:text-2xl font-bold font-display tracking-wide drop-shadow-lg">Neo-Retro Villa</h3>
-          </div>
-        </a>
-      </div>
-      <!-- Col 3 -->
-      <div class="flex flex-col gap-6 h-[600px]">
         <a href="retro-viswa-lonavala"
           class="relative w-full rounded-3xl overflow-hidden group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-[1.02] border border-stone-200 block flex-[1.4] hover:-translate-y-1">
           <img loading="lazy"
@@ -498,6 +484,20 @@ include 'includes/header.php';
           <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
           <div class="absolute bottom-6 left-6 text-white">
             <h3 class="text-xl md:text-2xl font-bold font-display tracking-wide drop-shadow-lg">Retro Visawa</h3>
+          </div>
+        </a>
+      </div>
+      <!-- Col 3 -->
+      <div class="flex flex-col gap-6 h-[600px]">
+        <a href="neo-retro"
+          class="relative w-full rounded-3xl overflow-hidden group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-[1.02] border border-stone-200 block flex-[1.4] hover:-translate-y-1">
+          <img loading="lazy"
+            src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863039/01_qwhl8a.jpg"
+            class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+            alt="Neo-Retro Villa" />
+          <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
+          <div class="absolute bottom-6 left-6 text-white">
+            <h3 class="text-xl md:text-2xl font-bold font-display tracking-wide drop-shadow-lg">Neo-Retro Villa</h3>
           </div>
         </a>
         <a href="retro-villas"
@@ -571,17 +571,6 @@ include 'includes/header.php';
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
             <h3 class="absolute bottom-4 left-4 text-white font-bold">Mountain Views</h3>
           </a>
-          <a href="neo-retro" class="relative w-full h-64 rounded-2xl overflow-hidden shadow-lg block">
-            <img loading="lazy"
-              src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863039/01_qwhl8a.jpg"
-              class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-              alt="Neo-Retro Villa" />
-            <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-            <h3 class="absolute bottom-4 left-4 text-white font-bold">Neo-Retro Villa</h3>
-          </a>
-        </div>
-        <!-- Mobile Col 3 -->
-        <div class="flex flex-col gap-4 min-w-[280px]" style="scroll-snap-align: start;">
           <a href="retro-viswa-lonavala" class="relative w-full h-64 rounded-2xl overflow-hidden shadow-lg block">
             <img loading="lazy"
               src="https://res.cloudinary.com/damfndmrm/image/upload/f_auto,q_auto/v1772474727/Screenshot_2026-03-02_at_11.33.32_PM_wqk7eu.png"
@@ -589,6 +578,17 @@ include 'includes/header.php';
               alt="Retro Visawa" />
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
             <h3 class="absolute bottom-4 left-4 text-white font-bold">Retro Visawa</h3>
+          </a>
+        </div>
+        <!-- Mobile Col 3 -->
+        <div class="flex flex-col gap-4 min-w-[280px]" style="scroll-snap-align: start;">
+          <a href="neo-retro" class="relative w-full h-64 rounded-2xl overflow-hidden shadow-lg block">
+            <img loading="lazy"
+              src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863039/01_qwhl8a.jpg"
+              class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+              alt="Neo-Retro Villa" />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+            <h3 class="absolute bottom-4 left-4 text-white font-bold">Neo-Retro Villa</h3>
           </a>
           <a href="retro-villas" class="relative w-full h-48 rounded-2xl overflow-hidden shadow-lg block">
             <img loading="lazy"
