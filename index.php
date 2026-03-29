@@ -467,13 +467,12 @@ include 'includes/header.php';
         <a href="retro-villas"
           class="relative w-full rounded-3xl overflow-hidden group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-[1.02] border border-stone-200 block flex-1 hover:-translate-y-1">
           <img loading="lazy"
-            src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1774810811/12_1_mgmkov.jpg"
+            src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1773076226/27_ipqwdd.jpg"
             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-            alt="Pet-Friendly Stays" />
+            alt="Mountain Views" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
           <div class="absolute bottom-6 left-6 text-white">
-            <h3 class="text-xl md:text-2xl font-bold font-display tracking-wide drop-shadow-lg">Pet-Friendly Stays
-            </h3>
+            <h3 class="text-xl md:text-2xl font-bold font-display tracking-wide drop-shadow-lg">Mountain Views</h3>
           </div>
         </a>
         <a href="neo-retro"
@@ -504,12 +503,12 @@ include 'includes/header.php';
         <a href="retro-villas"
           class="relative w-full rounded-3xl overflow-hidden group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-[1.02] border border-stone-200 block flex-1 hover:-translate-y-1">
           <img loading="lazy"
-            src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1773076226/27_ipqwdd.jpg"
+            src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1772868264/1_wqosmq.jpg"
             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-            alt="Mountain Views" />
+            alt="Pet-Friendly Stays" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
           <div class="absolute bottom-6 left-6 text-white">
-            <h3 class="text-xl md:text-2xl font-bold font-display tracking-wide drop-shadow-lg">Mountain Views</h3>
+            <h3 class="text-xl md:text-2xl font-bold font-display tracking-wide drop-shadow-lg">Pet-Friendly Stays</h3>
           </div>
         </a>
       </div>
@@ -566,11 +565,11 @@ include 'includes/header.php';
         <div class="flex flex-col gap-4 min-w-[280px]" style="scroll-snap-align: start;">
           <a href="retro-villas" class="relative w-full h-48 rounded-2xl overflow-hidden shadow-lg block">
             <img loading="lazy"
-              src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1774810811/12_1_mgmkov.jpg"
+              src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1773076226/27_ipqwdd.jpg"
               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-              alt="Pet-Friendly Stays" />
+              alt="Mountain Views" />
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-            <h3 class="absolute bottom-4 left-4 text-white font-bold">Pet-Friendly Stays</h3>
+            <h3 class="absolute bottom-4 left-4 text-white font-bold">Mountain Views</h3>
           </a>
           <a href="neo-retro" class="relative w-full h-64 rounded-2xl overflow-hidden shadow-lg block">
             <img loading="lazy"
@@ -593,11 +592,11 @@ include 'includes/header.php';
           </a>
           <a href="retro-villas" class="relative w-full h-48 rounded-2xl overflow-hidden shadow-lg block">
             <img loading="lazy"
-              src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1773076226/27_ipqwdd.jpg"
+              src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1772868264/1_wqosmq.jpg"
               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-              alt="Mountain Views" />
+              alt="Pet-Friendly Stays" />
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-            <h3 class="absolute bottom-4 left-4 text-white font-bold">Mountain Views</h3>
+            <h3 class="absolute bottom-4 left-4 text-white font-bold">Pet-Friendly Stays</h3>
           </a>
         </div>
         <!-- Mobile Col 4 -->
