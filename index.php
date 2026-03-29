@@ -442,7 +442,7 @@ include 'includes/header.php';
         <a href="retro-villas"
           class="relative w-full rounded-3xl overflow-hidden group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-[1.02] border border-stone-200 block flex-[1.4] hover:-translate-y-1">
           <img loading="lazy"
-            src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1770226533/N34_stewru.jpg"
+            src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1774810653/N35_h2djzp.jpg"
             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
             alt="Retro Villa" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
@@ -467,7 +467,7 @@ include 'includes/header.php';
         <a href="retro-villas"
           class="relative w-full rounded-3xl overflow-hidden group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-[1.02] border border-stone-200 block flex-1 hover:-translate-y-1">
           <img loading="lazy"
-            src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1772868264/1_wqosmq.jpg"
+            src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1774810811/12_1_mgmkov.jpg"
             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
             alt="Pet-Friendly Stays" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
@@ -547,7 +547,7 @@ include 'includes/header.php';
         <div class="flex flex-col gap-4 min-w-[280px]" style="scroll-snap-align: start;">
           <a href="retro-villas" class="relative w-full h-64 rounded-2xl overflow-hidden shadow-lg block">
             <img loading="lazy"
-              src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1770226533/N34_stewru.jpg"
+              src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1774810653/N35_h2djzp.jpg"
               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               alt="Retro Villa" />
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
@@ -566,7 +566,7 @@ include 'includes/header.php';
         <div class="flex flex-col gap-4 min-w-[280px]" style="scroll-snap-align: start;">
           <a href="retro-villas" class="relative w-full h-48 rounded-2xl overflow-hidden shadow-lg block">
             <img loading="lazy"
-              src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1772868264/1_wqosmq.jpg"
+              src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1774810811/12_1_mgmkov.jpg"
               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               alt="Pet-Friendly Stays" />
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
