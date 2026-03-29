@@ -478,7 +478,7 @@ include 'includes/header.php';
         <a href="retro-viswa-lonavala"
           class="relative w-full rounded-3xl overflow-hidden group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-[1.02] border border-stone-200 block flex-[1.4] hover:-translate-y-1">
           <img loading="lazy"
-            src="https://res.cloudinary.com/damfndmrm/image/upload/f_auto,q_auto/v1772474727/Screenshot_2026-03-02_at_11.33.32_PM_wqk7eu.png"
+            src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1774812374/38_ll5e5l.jpg"
             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
             alt="Retro Visawa" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
@@ -573,7 +573,7 @@ include 'includes/header.php';
           </a>
           <a href="retro-viswa-lonavala" class="relative w-full h-64 rounded-2xl overflow-hidden shadow-lg block">
             <img loading="lazy"
-              src="https://res.cloudinary.com/damfndmrm/image/upload/f_auto,q_auto/v1772474727/Screenshot_2026-03-02_at_11.33.32_PM_wqk7eu.png"
+              src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1774812374/38_ll5e5l.jpg"
               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               alt="Retro Visawa" />
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
