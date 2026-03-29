@@ -363,8 +363,11 @@ function initRetrofusionSlider() {
 
     const images = [
         'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1774807173/04_y636xz.jpg',
-        'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863047/20_haycpz.jpg',
-        'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1774807173/09_gvwmnw.jpg',
+        'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1774809448/30_2_xtqtpb.jpg',
+        'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1774809447/06_htf59g.jpg',
+        'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868140/B30_yc8rqu.webp',
+        'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868143/M01_jjmwdw.webp',
+        'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863044/14_w8imzc.jpg',
     ];
     let current = 0;
 
