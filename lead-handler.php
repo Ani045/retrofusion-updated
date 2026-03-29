@@ -72,9 +72,30 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Send email to multiple recipients in one call for better performance
     $recipients = "satyamrai374@gmail.com, raisatyam9651@gmail.com, contact@retrofusion.in, retrofusion2023@gmail.com, jitendrarora@gmail.com, satyamraiseox@gmail.com";
-    mail($recipients, $subject, $email_content, $headers);
-
-
+    // Google Sheets Webhook Integration
+    // Instructions: Paste your deployed Google Apps Script Web App URL below
+    $webhook_url = "https://script.google.com/macros/s/AKfycbzAcxEVuQ8n4eVPbetWdb1OvU4YxnVW6-Pn-udCwPnpY0jGsvvXIlNvle-ylYl5-PXLig/exec";
+    
+    if (!empty($webhook_url)) {
+        $webhook_data = [
+            'name' => $name,
+            'phone' => $phone,
+            'email' => $email,
+            'service' => "Villa: $villa | Guests: $guests | Dates: $checkIn to $checkOut",
+            'message' => $message,
+            'source' => $source
+        ];
+        
+        $ch = curl_init($webhook_url);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_POST, true);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($webhook_data));
+        curl_setopt($ch, CURLOPT_HTTPHEADER, ['Content-Type: application/json']);
+        curl_setopt($ch, CURLOPT_TIMEOUT, 5);
+        curl_exec($ch);
+        curl_close($ch);
+    }
+    
     $all_sent = true; // Optimization: always success as per user requirement to simply send
 
     if ($all_sent) {

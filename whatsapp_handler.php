@@ -116,6 +116,31 @@ $headers .= "X-Mailer: PHP/" . phpversion();
 $recipients = "satyamrai374@gmail.com, jitendrarora@gmail.com";
 $email_sent = mail($recipients, $subject, $email_message, $headers);
 
+// Google Sheets Webhook Integration
+// Instructions: Paste your deployed Google Apps Script Web App URL below
+$webhook_url = "https://script.google.com/macros/s/AKfycbzAcxEVuQ8n4eVPbetWdb1OvU4YxnVW6-Pn-udCwPnpY0jGsvvXIlNvle-ylYl5-PXLig/exec"; 
+
+if (!empty($webhook_url)) {
+    $webhook_data = [
+        'name' => $name,
+        'phone' => $phone,
+        'email' => 'Not Provided',
+        'service' => 'WhatsApp Form Request',
+        'message' => 'Not Provided',
+        'source' => 'WhatsApp Form'
+    ];
+    
+    // Use cURL to send data to the Google Sheets Webhook
+    $ch = curl_init($webhook_url);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_POST, true);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($webhook_data));
+    curl_setopt($ch, CURLOPT_HTTPHEADER, ['Content-Type: application/json']);
+    curl_setopt($ch, CURLOPT_TIMEOUT, 5); // 5 sec timeout to avoid blocking
+    curl_exec($ch);
+    curl_close($ch);
+}
+
 // Log the lead (optional - you can save to database or file)
 $log_entry = date('Y-m-d H:i:s') . " - Name: {$name}, Phone: {$phone}, IP: " . $_SERVER['REMOTE_ADDR'] . "\n";
 file_put_contents('whatsapp_leads.log', $log_entry, FILE_APPEND | LOCK_EX);
