@@ -297,7 +297,7 @@ if (session_status() === PHP_SESSION_NONE) {
     <div id="whatsapp-widget-container">
       <!-- Floating Button -->
       <div class="whatsapp-chat-button" id="whatsappButton" onclick="openWhatsAppDirectly()">
-        <img src="images/whatsapp%20icon.svg" alt="WhatsApp" class="w-8 h-8 object-contain" />
+        <img src="images/whatsapp%20icon.svg" alt="WhatsApp" class="object-contain" />
       </div>
 
       <!-- Popup Modal Overlay -->
@@ -373,7 +373,7 @@ if (session_status() === PHP_SESSION_NONE) {
         right: 20px;
         background: #25D366;
         color: white;
-        padding: 14px;
+        padding: 17px;
         border-radius: 50%;
         cursor: pointer;
         display: flex;
@@ -386,6 +386,11 @@ if (session_status() === PHP_SESSION_NONE) {
         font-weight: 500;
         font-size: 14px;
         z-index: 999999;
+      }
+
+      .whatsapp-chat-button img {
+        width: 38px;
+        height: 38px;
       }
 
       .whatsapp-chat-button:hover {
