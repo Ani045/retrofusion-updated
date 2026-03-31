@@ -476,6 +476,7 @@ include 'includes/header.php';
             </h3>
           </div>
         </a>
+
         <a href="neo-retro"
           class="relative w-full rounded-3xl overflow-hidden group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-[1.02] border border-stone-200 block flex-[1.4] hover:-translate-y-1">
           <img loading="lazy"
@@ -572,6 +573,7 @@ include 'includes/header.php';
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
             <h3 class="absolute bottom-4 left-4 text-white font-bold">Pet-Friendly Stays</h3>
           </a>
+
           <a href="neo-retro" class="relative w-full h-64 rounded-2xl overflow-hidden shadow-lg block">
             <img loading="lazy"
               src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863039/01_qwhl8a.jpg"
