@@ -764,3 +764,5 @@ if (session_status() === PHP_SESSION_NONE) {
         }
       });
     </script>
+
+    <meta name="google-site-verification" content="edqVTHzbdEuUdm9gPRlO6EwAHB_zpWo5FEvTx8qVtUc" />
