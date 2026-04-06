@@ -1,6 +1,6 @@
 <?php
 if (session_status() === PHP_SESSION_NONE) {
-    session_start();
+  session_start();
 }
 ?>
 <!doctype html>
@@ -14,7 +14,7 @@ if (session_status() === PHP_SESSION_NONE) {
 
   <!-- Meta Pixel Code (deferred to not block initial load) -->
   <script>
-    (typeof requestIdleCallback !== 'undefined' ? requestIdleCallback : setTimeout)(function() {
+    (typeof requestIdleCallback !== 'undefined' ? requestIdleCallback : setTimeout)(function () {
       !function (f, b, e, v, n, t, s) {
         if (f.fbq) return; n = f.fbq = function () {
           n.callMethod ?
@@ -40,61 +40,82 @@ if (session_status() === PHP_SESSION_NONE) {
   <link rel="preconnect" href="https://res.cloudinary.com">
   <link rel="dns-prefetch" href="https://i.ytimg.com">
   <link rel="dns-prefetch" href="https://dbwx2z9xa7qt9.cloudfront.net">
-  <link rel="preload" as="image" href="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868140/B30_yc8rqu.webp">
+  <link rel="preload" as="image"
+    href="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868140/B30_yc8rqu.webp">
   <link
     href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Marcellus&family=Dancing+Script:wght@400..700&display=swap"
     rel="stylesheet" media="print" onload="this.media='all'">
-  <noscript><link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Marcellus&family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet"></noscript>
+  <noscript>
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Marcellus&family=Dancing+Script:wght@400..700&display=swap"
+      rel="stylesheet">
+  </noscript>
   <link rel="stylesheet" href="css/tailwind.css">
   <link rel="stylesheet" href="css/styles.css">
   <meta name="description" content="<?php echo $pageDescription ?? ''; ?>" />
-  
+
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="<?php echo $ogTitle ?? ($pageTitle ?? 'Retrofusion - Luxury Boutique Homestays in Lonavala'); ?>" />
-  <?php if(isset($ogDescription)): ?>
+  <meta property="og:title"
+    content="<?php echo $ogTitle ?? ($pageTitle ?? 'Retrofusion - Luxury Boutique Homestays in Lonavala'); ?>" />
+  <?php if (isset($ogDescription)): ?>
   <meta property="og:description" content="<?php echo $ogDescription; ?>" />
-  <?php else: ?>
+  <?php
+else: ?>
   <meta property="og:description" content="<?php echo $pageDescription ?? ''; ?>" />
-  <?php endif; ?>
-  <?php if(isset($ogImage)): ?>
+  <?php
+endif; ?>
+  <?php if (isset($ogImage)): ?>
   <meta property="og:image" content="<?php echo $ogImage; ?>" />
-  <?php endif; ?>
-  <?php if(isset($canonicalUrl)): ?>
+  <?php
+endif; ?>
+  <?php if (isset($canonicalUrl)): ?>
   <link rel="canonical" href="<?php echo $canonicalUrl; ?>" />
   <meta property="og:url" content="<?php echo $canonicalUrl; ?>" />
-  <?php endif; ?>
+  <?php
+endif; ?>
 
   <!-- Twitter -->
   <meta name="twitter:card" content="<?php echo $twitterCard ?? 'summary_large_image'; ?>" />
-  <meta name="twitter:title" content="<?php echo $twitterTitle ?? ($ogTitle ?? ($pageTitle ?? 'Retrofusion - Luxury Boutique Homestays in Lonavala')); ?>" />
-  <?php if(isset($twitterDescription)): ?>
+  <meta name="twitter:title"
+    content="<?php echo $twitterTitle ?? ($ogTitle ?? ($pageTitle ?? 'Retrofusion - Luxury Boutique Homestays in Lonavala')); ?>" />
+  <?php if (isset($twitterDescription)): ?>
   <meta name="twitter:description" content="<?php echo $twitterDescription; ?>" />
-  <?php elseif(isset($ogDescription)): ?>
+  <?php
+elseif (isset($ogDescription)): ?>
   <meta name="twitter:description" content="<?php echo $ogDescription; ?>" />
-  <?php else: ?>
+  <?php
+else: ?>
   <meta name="twitter:description" content="<?php echo $pageDescription ?? ''; ?>" />
-  <?php endif; ?>
-  <?php if(isset($twitterImage)): ?>
+  <?php
+endif; ?>
+  <?php if (isset($twitterImage)): ?>
   <meta name="twitter:image" content="<?php echo $twitterImage; ?>" />
-  <?php elseif(isset($ogImage)): ?>
+  <?php
+elseif (isset($ogImage)): ?>
   <meta name="twitter:image" content="<?php echo $ogImage; ?>" />
-  <?php endif; ?>
+  <?php
+endif; ?>
 
-  <title><?php echo $pageTitle ?? "Retrofusion Boutique Homestays"; ?></title>
+  <title>
+    <?php echo $pageTitle ?? "Retrofusion Boutique Homestays"; ?>
+  </title>
   <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-TMRS6NS8');</script>
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-TMRS6NS8');</script>
   <!-- End Google Tag Manager -->
 </head>
 
 <body>
   <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TMRS6NS8"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TMRS6NS8" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
   <div class="min-h-screen bg-[#F4EFEA] overflow-x-hidden">
 
@@ -766,3 +787,14 @@ if (session_status() === PHP_SESSION_NONE) {
     </script>
 
     <meta name="google-site-verification" content="edqVTHzbdEuUdm9gPRlO6EwAHB_zpWo5FEvTx8qVtUc" />
+
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QWRB2L1TJ8"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+
+      gtag('config', 'G-QWRB2L1TJ8');
+    </script>
