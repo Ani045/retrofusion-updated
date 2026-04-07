@@ -1,7 +1,7 @@
 <?php
 $pageTitle = "4BHK Villa in Lonavala | Private Pool & Luxury Homestay";
-$pageDescription = "Looking for a 4BHK villa in Lonavala? Enjoy luxury stays perfect for family, party, couples, and corporate office outings, featuring a private swing pool.";
-$pageKeywords = "4bhk villa in lonavala, 4bhk villa in lonavala for Family, 4bhk villa in lonavala for party, 4bhk villa in lonavala for couple, 4bhk villa in lonavala with private pool, 4bhk villa in lonavala with swing pool, 4bhk villa in lonavala for corporate office";
+$pageDescription = "Looking for a 4BHK villa in Lonavala? Enjoy luxury stays perfect for family, party, couples, and corporate office outings, featuring a private swimming pool.";
+$pageKeywords = "4bhk villa in lonavala, 4bhk villa in lonavala for Family, 4bhk villa in lonavala for party, 4bhk villa in lonavala for couple, 4bhk villa in lonavala with private pool, 4bhk villa in lonavala with swimming pool, 4bhk villa in lonavala for corporate office";
 $pageRobots = "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1";
 $pageAuthor = "Retrofusion Boutique Homestays";
 $pagePublisher = "Retrofusion Boutique Homestays";
@@ -50,7 +50,7 @@ include 'includes/header.php';
           Your Ultimate <span class="text-amber-600">4BHK Villa</span> Experience</h2>
         
         <p class="text-stone-600 text-base md:text-lg leading-relaxed mb-6">
-          Nestled seamlessly into the natural beauty of the western ghats, our <strong>4BHK villa in Lonavala</strong> provides a majestic retreat away from the city chaos. Enjoy an expansive living space perfectly suited for all your needs. Whether you are seeking a luxurious <strong>4BHK villa in Lonavala with private pool</strong> or a grand <strong>4bhk villa in lonavala with swing pool</strong>, we have you covered.
+          Nestled seamlessly into the natural beauty of the western ghats, our <strong>4BHK villa in Lonavala</strong> provides a majestic retreat away from the city chaos. Enjoy an expansive living space perfectly suited for all your needs. Whether you are seeking a luxurious <strong>4BHK villa in Lonavala with private pool</strong> or a grand <strong>4bhk villa in lonavala with swimming pool</strong>, we have you covered.
         </p>
 
         <ul class="space-y-4 mb-6">
@@ -81,7 +81,7 @@ include 'includes/header.php';
         </div>
         <div class="relative group overflow-hidden rounded-3xl">
           <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868143/M01_jjmwdw.webp"
-            alt="4BHK Villa in Lonavala with private pool" title="4BHK Villa in Lonavala with Private Swing Pool"
+            alt="4BHK Villa in Lonavala with private pool" title="4BHK Villa in Lonavala with Private Swimming Pool"
             class="w-full h-[220px] md:h-[260px] object-cover transition-transform duration-700 group-hover:scale-105" />
         </div>
       </div>
@@ -101,7 +101,7 @@ include 'includes/header.php';
 
       <h3 class="text-xl font-semibold text-[#0F2A24] mt-8 mb-4">Ultimate Privacy: 4BHK Villa in Lonavala with Private Pool</h3>
       <p class="leading-relaxed text-stone-600 mb-6">
-        No vacation is complete without dipping into clear blue waters. Take advantage of an exclusive <strong>4BHK villa in Lonavala with private pool</strong> designed to give you uninterrupted leisure time. Whether it's an early morning swim or a late-night plunge, the privacy of your own pool elevates your holiday experience. And for those looking for aesthetic corners and unique relaxation spots, our <strong>4bhk villa in lonavala with swing pool</strong> setup creates magical moments and picture-perfect memories.
+        No vacation is complete without dipping into clear blue waters. Take advantage of an exclusive <strong>4BHK villa in Lonavala with private pool</strong> designed to give you uninterrupted leisure time. Whether it's an early morning swim or a late-night plunge, the privacy of your own pool elevates your holiday experience. And for those looking for aesthetic corners and unique relaxation spots, our <strong>4bhk villa in lonavala with swimming pool</strong> setup creates magical moments and picture-perfect memories.
       </p>
 
       <h3 class="text-xl font-semibold text-[#0F2A24] mt-8 mb-4">A Space for Every Occasion</h3>
@@ -275,11 +275,11 @@ include 'includes/header.php';
           <!-- FAQ 8 -->
           <div class="bg-white/10 backdrop-blur-sm rounded-xl border border-white/10 overflow-hidden">
             <button onclick="toggleFAQ(this)" class="w-full px-5 py-4 flex items-center justify-between text-left hover:bg-white/5 transition-colors">
-              <h3 class="text-base font-medium text-white pr-4 font-display">Does the property have a swing pool?</h3>
+              <h3 class="text-base font-medium text-white pr-4 font-display">Does the property have a swimming pool?</h3>
               <svg class="w-4 h-4 text-white/60 flex-shrink-0 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
             </button>
             <div class="faq-content h-0 overflow-hidden transition-all duration-200 opacity-0">
-              <p class="px-5 pb-4 text-stone-300 text-sm leading-relaxed">If you are specifically booking our 4bhk villa in lonavala with swing pool option, you'll be delighted by unique outdoor pool accessories and aesthetic swings designed for maximum relaxation and great photographs!</p>
+              <p class="px-5 pb-4 text-stone-300 text-sm leading-relaxed">If you are specifically booking our 4bhk villa in lonavala with swimming pool option, you'll be delighted by unique outdoor pool accessories and aesthetic pool features designed for maximum relaxation and great photographs!</p>
             </div>
           </div>
         </div>
