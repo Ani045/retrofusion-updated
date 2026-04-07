@@ -52,6 +52,12 @@ include 'includes/header.php';
         "@type": "Rating",
         "ratingValue": "5"
       },
+      "occupancy": {
+        "@type": "QuantitativeValue",
+        "minValue": 1,
+        "maxValue": 15,
+        "unitText": "Person"
+      },
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.9",
@@ -60,6 +66,7 @@ include 'includes/header.php';
       "review": [
         {
           "@type": "Review",
+          "datePublished": "2024-03-01T10:00:00+05:30",
           "reviewRating": {
             "@type": "Rating",
             "ratingValue": "5"
