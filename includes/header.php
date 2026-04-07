@@ -31,7 +31,7 @@ if (session_status() === PHP_SESSION_NONE) {
     });
   </script>
   <noscript>
-    <img height="1" width="1" style="display:none"
+    <img height="1" width="1" style="display:none" alt="Facebook Pixel" title="Facebook Tracking Pixel"
       src="https://www.facebook.com/tr?id=737260289429351&ev=PageView&noscript=1" />
   </noscript>
   <!-- End Meta Pixel Code -->
@@ -53,6 +53,18 @@ if (session_status() === PHP_SESSION_NONE) {
   <link rel="stylesheet" href="css/tailwind.css">
   <link rel="stylesheet" href="css/styles.css">
   <meta name="description" content="<?php echo $pageDescription ?? ''; ?>" />
+  <?php if (!empty($pageKeywords)): ?>
+  <meta name="keywords" content="<?php echo $pageKeywords; ?>" />
+  <?php endif; ?>
+  <?php if (!empty($pageRobots)): ?>
+  <meta name="robots" content="<?php echo $pageRobots; ?>" />
+  <?php endif; ?>
+  <?php if (!empty($pageAuthor)): ?>
+  <meta name="author" content="<?php echo $pageAuthor; ?>" />
+  <?php endif; ?>
+  <?php if (!empty($pagePublisher)): ?>
+  <meta name="publisher" content="<?php echo $pagePublisher; ?>" />
+  <?php endif; ?>
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website" />
@@ -128,7 +140,7 @@ endif; ?>
             <a href="index.php" class="flex items-center">
               <img id="nav-logo"
                 src="https://res.cloudinary.com/damfndmrm/image/upload/f_auto,q_auto/v1771665559/Retrofusion_logo__20260211_230238_0000_sufgcp.png"
-                alt="Retrofusion Logo" fetchpriority="high"
+                alt="Retrofusion Logo" title="Retrofusion Boutique Homestays Logo" fetchpriority="high"
                 class="logo-white w-32 sm:w-40 md:w-48 xl:w-56 h-auto object-contain transition-all duration-300 origin-left" />
             </a>
           </div>
@@ -233,7 +245,7 @@ endif; ?>
               <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-all duration-500">
                 <div class="relative h-40 sm:h-44 md:h-48 overflow-hidden"><img
                     src="https://res.cloudinary.com/dprafk917/video/upload/f_auto,q_auto/so_2/v1769858399/8wr207mfxnrmy0cvd61bd2gn1g_result__viprl7.jpg"
-                    alt="Retro Visawa" class="w-full h-full object-cover scale-125 transition-transform duration-700" />
+                    alt="Retro Visawa" title="Retro Visawa Villa" class="w-full h-full object-cover scale-125 transition-transform duration-700" />
                   <div
                     class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/20 to-transparent group-hover:from-black/85 transition-colors duration-300">
                   </div>
@@ -258,7 +270,7 @@ endif; ?>
               <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-all duration-500">
                 <div class="relative h-40 sm:h-44 md:h-48 overflow-hidden"><img
                     src="https://res.cloudinary.com/dprafk917/video/upload/f_auto,q_auto/so_2/v1768241694/1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg"
-                    alt="Neo Retro Villa"
+                    alt="Neo Retro Villa" title="Neo Retro Villa Lonavala"
                     class="w-full h-full object-cover scale-125 transition-transform duration-700" />
                   <div
                     class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/20 to-transparent group-hover:from-black/85 transition-colors duration-300">
@@ -284,7 +296,7 @@ endif; ?>
               <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-all duration-500">
                 <div class="relative h-40 sm:h-44 md:h-48 overflow-hidden"><img
                     src="https://res.cloudinary.com/dprafk917/video/upload/f_auto,q_auto/so_3/v1769867671/final_nkd4ry.jpg"
-                    alt="Retro Villa" class="w-full h-full object-cover scale-125 transition-transform duration-700" />
+                    alt="Retro Villa" title="Retro Villa Homestay" class="w-full h-full object-cover scale-125 transition-transform duration-700" />
                   <div
                     class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/20 to-transparent group-hover:from-black/85 transition-colors duration-300">
                   </div>
@@ -318,7 +330,7 @@ endif; ?>
     <div id="whatsapp-widget-container">
       <!-- Floating Button -->
       <div class="whatsapp-chat-button" id="whatsappButton" onclick="openWhatsAppDirectly()">
-        <img src="images/whatsapp%20icon.svg" alt="WhatsApp" class="object-contain" />
+        <img src="images/whatsapp%20icon.svg" alt="WhatsApp" title="Chat with us on WhatsApp" class="object-contain" />
       </div>
 
       <!-- Popup Modal Overlay -->
