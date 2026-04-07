@@ -19,10 +19,21 @@ include 'includes/header.php';
     {
       "@type": "VacationRental",
       "@id": "https://retrofusion.in/4bhk-villa-in-lonavala.php#property",
+      "additionalType": "https://en.wikipedia.org/wiki/Villa",
+      "identifier": "RF-4BHK-LON",
       "name": "4BHK Villa in Lonavala",
       "description": "Luxurious 4BHK villa in Lonavala featuring a private swimming pool. Ideal for family, couples, parties, and corporate office retreats.",
       "url": "https://retrofusion.in/4bhk-villa-in-lonavala.php",
-      "image": "https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1770226533/N34_stewru.jpg",
+      "image": [
+        "https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1770226533/N34_stewru.jpg",
+        "https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868140/B30_yc8rqu.webp",
+        "https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868140/C26_j6pstx.webp",
+        "https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868140/05_ivb2yz.webp",
+        "https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1770226534/N36_om6t9d.jpg",
+        "https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868155/M08_qewdva.webp",
+        "https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868143/M01_jjmwdw.webp",
+        "https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868142/G31_mdlfjh.webp"
+      ],
       "telephone": "+91 8999036644",
       "address": {
         "@type": "PostalAddress",
@@ -46,6 +57,42 @@ include 'includes/header.php';
         "ratingValue": "4.9",
         "reviewCount": "128"
       },
+      "review": [
+        {
+          "@type": "Review",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Arjun K."
+          },
+          "reviewBody": "Amazing 4BHK villa in Lonavala. The private pool was fantastic and perfect for our family."
+        }
+      ],
+      "containsPlace": [
+        {
+          "@type": "Accommodation",
+          "name": "Luxury Bedroom 1",
+          "numberOfRooms": "1"
+        },
+        {
+          "@type": "Accommodation",
+          "name": "Luxury Bedroom 2",
+          "numberOfRooms": "1"
+        },
+        {
+          "@type": "Accommodation",
+          "name": "Luxury Bedroom 3",
+          "numberOfRooms": "1"
+        },
+        {
+          "@type": "Accommodation",
+          "name": "Luxury Bedroom 4",
+          "numberOfRooms": "1"
+        }
+      ],
       "amenityFeature": [
         {
           "@type": "LocationFeatureSpecification",
