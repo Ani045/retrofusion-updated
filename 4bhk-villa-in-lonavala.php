@@ -11,6 +11,167 @@ $ogImage = "https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v177
 include 'includes/header.php';
 ?>
 
+<!-- JSON-LD Schema Markup -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "VacationRental",
+      "@id": "https://retrofusion.in/4bhk-villa-in-lonavala.php#property",
+      "name": "4BHK Villa in Lonavala",
+      "description": "Luxurious 4BHK villa in Lonavala featuring a private swimming pool. Ideal for family, couples, parties, and corporate office retreats.",
+      "url": "https://retrofusion.in/4bhk-villa-in-lonavala.php",
+      "image": "https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1770226533/N34_stewru.jpg",
+      "telephone": "+91 8999036644",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Lonavala",
+        "addressLocality": "Lonavala",
+        "addressRegion": "Maharashtra",
+        "postalCode": "410401",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "18.754",
+        "longitude": "73.407"
+      },
+      "starRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "128"
+      },
+      "amenityFeature": [
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Private Swimming Pool",
+          "value": "True"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "WiFi",
+          "value": "True"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Air Conditioning",
+          "value": "True"
+        }
+      ]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://retrofusion.in/4bhk-villa-in-lonavala.php#product",
+      "name": "4BHK Villa in Lonavala",
+      "image": "https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1770226533/N34_stewru.jpg",
+      "description": "Premium 4BHK villa in Lonavala featuring a private swimming pool. Ideal for family, couples, parties, and corporate office retreats.",
+      "brand": {
+        "@type": "Brand",
+        "name": "Retrofusion Boutique Homestays"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "bestRating": "5",
+        "worstRating": "1",
+        "ratingCount": "156"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://retrofusion.in/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "4BHK Villa in Lonavala",
+          "item": "https://retrofusion.in/4bhk-villa-in-lonavala.php"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the maximum capacity of the 4BHK villa in Lonavala?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our 4BHK villa can comfortably accommodate groups of varying sizes, typically sleeping up to 12-15 guests depending on bed configurations and extra mattresses provided."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the pool completely private for our group?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes! When you book our 4BHK villa in Lonavala with a private pool, the entire pool area and outdoor spaces are exclusively reserved for you and your guests to enjoy without interruptions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can we host a party at this 4BHK villa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. This is an ideal 4BHK villa in Lonavala for party occasions. We offer spacious areas for celebrations, music setups (subject to local noise guidelines), and BBQ arrangements on request."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is it suitable for families with kids or elderly members?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, it's highly recommended as a 4BHK villa in Lonavala for Family. It features spacious rooms, safe outdoor spaces, a secure private pool, and convenient access for elderly members."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you allow corporate offsites and team-building events?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, our 4BHK villa in Lonavala for corporate office retreats is perfectly suited. It includes high-speed WiFi, spacious living rooms for brainstorming sessions, and a relaxing vibe to unwind after work."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is food included, or is there a kitchen available?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You have full access to a fully-equipped kitchen to cook your own meals. Alternatively, we also provide options for a dedicated cook or meal packages at an additional cost."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How far is the villa from Lonavala railway station?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The villa is located at a very convenient driving distance from the Lonavala railway station and major expressways, making it easy to hop out to famous sightseeing spots or stock up from the local market."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does the property have a swimming pool?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If you are specifically booking our 4bhk villa in lonavala with swimming pool option, you'll be delighted by unique outdoor pool accessories and aesthetic pool features designed for maximum relaxation and great photographs!"
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
 <!-- ===== HERO SECTION ===== -->
 <section class="relative h-screen overflow-hidden">
   <img src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1770226533/N34_stewru.jpg"
