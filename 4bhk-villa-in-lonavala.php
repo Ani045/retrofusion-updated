@@ -1,5 +1,5 @@
 <?php
-$pageTitle = "4BHK Villa in Lonavala | Private Pool & Luxury Homestay";
+$pageTitle = "4BHK Villa in Lonavala with Private Pool & Luxury Homestay";
 $pageDescription = "Looking for a 4BHK villa in Lonavala? Enjoy luxury stays perfect for family, party, couples, and corporate office outings, featuring a private swimming pool.";
 $pageKeywords = "4bhk villa in lonavala, 4bhk villa in lonavala for Family, 4bhk villa in lonavala for party, 4bhk villa in lonavala for couple, 4bhk villa in lonavala with private pool, 4bhk villa in lonavala with swimming pool, 4bhk villa in lonavala for corporate office";
 $pageRobots = "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1";
