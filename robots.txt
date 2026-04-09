@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /wp-admin/
+Disallow: /phpmailer/
+Disallow: /includes/
+Disallow: /dashboard/
+Disallow: /thank-you
+
+Sitemap: https://retrofusion.in/sitemap.xml
