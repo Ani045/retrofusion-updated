@@ -27,7 +27,12 @@ include 'includes/header.php';
       "image": [
         "https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1770226533/N34_stewru.jpg",
         "https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868140/B30_yc8rqu.webp",
-        "https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868140/C26_j6pstx.webp"
+        "https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868140/C26_j6pstx.webp",
+        "https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868140/05_ivb2yz.webp",
+        "https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1770226534/N36_om6t9d.jpg",
+        "https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868155/M08_qewdva.webp",
+        "https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868143/M01_jjmwdw.webp",
+        "https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868142/G31_mdlfjh.webp"
       ],
       "telephone": "+91 8999036644",
       "address": {
@@ -37,6 +42,11 @@ include 'includes/header.php';
         "addressRegion": "Maharashtra",
         "postalCode": "410401",
         "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "18.754",
+        "longitude": "73.407"
       },
       "petsAllowed": "True",
       "amenityFeature": [
@@ -54,6 +64,33 @@ include 'includes/header.php';
           "@type": "LocationFeatureSpecification",
           "name": "Fenced Lawn",
           "value": "True"
+        }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "182"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "datePublished": "2024-03-05T10:00:00+05:30",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Priya S."
+          },
+          "reviewBody": "Amazing pet-friendly stay in Lonavala. The lawns were huge, and my golden retriever had the best time!"
+        }
+      ],
+      "containsPlace": [
+        {
+          "@type": "Accommodation",
+          "name": "Luxury Pet Friendly Lodging",
+          "numberOfRooms": "1"
         }
       ]
     },
@@ -594,6 +631,15 @@ include 'includes/header.php';
               </div>
             </div>
           </div>
+          <div class="mt-8 pt-6 border-t border-stone-700">
+            <p class="text-stone-400 text-sm italic">"Unforgettable luxury stays where your furry family members are always welcome."</p>
+          </div>
+        </div>
+        <div class="rounded-3xl overflow-hidden shadow-2xl border-4 border-white h-[280px] lg:h-[300px]">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60463.39696820842!2d73.36854705!3d18.7564659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be801153de5c8d9%3A0x33b9c7df5e4a0f4e!2sLonavala%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1704067200000!5m2!1sen!2sin"
+            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" title="Retro Villa Location"></iframe>
         </div>
       </div>
     </div>
