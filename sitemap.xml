@@ -3,39 +3,57 @@
   <!-- Core Pages -->
   <url>
     <loc>https://retrofusion.in/</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://retrofusion.in/about</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://retrofusion.in/contact</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://retrofusion.in/gallery</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://retrofusion.in/blog</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
 
   <!-- Villa Detail Pages -->
   <url>
     <loc>https://retrofusion.in/retro-villas</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://retrofusion.in/neo-retro</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://retrofusion.in/retro-viswa-lonavala</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://retrofusion.in/4bhk-villa-in-lonavala</loc>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -43,27 +61,33 @@
   <!-- Location/SEO Pages -->
   <url>
     <loc>https://retrofusion.in/staycation-in-lonavala</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <!-- Legal Pages -->
   <url>
+    <loc>https://retrofusion.in/policies</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://retrofusion.in/cancellation-policy</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://retrofusion.in/privacy-policy</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://retrofusion.in/terms-conditions</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
