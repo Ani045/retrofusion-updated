@@ -264,14 +264,14 @@ include 'includes/header.php';
       
       <div class="grid grid-rows-2 gap-6">
         <div class="relative group overflow-hidden rounded-3xl">
-          <img loading="lazy" src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=800&q=80"
+          <img loading="lazy" src="images/pet-friendly-villa-in-lonavla.jpg"
             alt="Happy pet dog relaxing at the villa" title="Pet Friendly Villa Accommodations"
-            class="w-full h-[220px] md:h-[260px] object-cover transition-transform duration-700 group-hover:scale-105" />
+            class="w-full h-56 md:h-72 object-cover transition-transform duration-700 group-hover:scale-105" />
         </div>
         <div class="relative group overflow-hidden rounded-3xl">
-          <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868143/M01_jjmwdw.webp"
+          <img loading="lazy" src="images/pet_villa_second_generated.png"
             alt="Outdoor area in private pool villas lonavala pet allowed" title="Fenced Lawns in Private Pool Villas Lonavala"
-            class="w-full h-[220px] md:h-[260px] object-cover transition-transform duration-700 group-hover:scale-105" />
+            class="w-full h-56 md:h-72 object-cover transition-transform duration-700 group-hover:scale-105" />
         </div>
       </div>
     </div>

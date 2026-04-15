@@ -292,12 +292,12 @@ include 'includes/header.php';
         <div class="relative group overflow-hidden rounded-3xl">
           <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868140/B30_yc8rqu.webp"
             alt="Luxurious 4BHK Villa in Lonavala living space" title="Luxurious 4BHK Villa in Lonavala Living Space"
-            class="w-full h-[220px] md:h-[260px] object-cover transition-transform duration-700 group-hover:scale-105" />
+            class="w-full h-56 md:h-72 object-cover transition-transform duration-700 group-hover:scale-105" />
         </div>
         <div class="relative group overflow-hidden rounded-3xl">
           <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868143/M01_jjmwdw.webp"
             alt="4BHK Villa in Lonavala with private pool" title="4BHK Villa in Lonavala with Private Swimming Pool"
-            class="w-full h-[220px] md:h-[260px] object-cover transition-transform duration-700 group-hover:scale-105" />
+            class="w-full h-56 md:h-72 object-cover transition-transform duration-700 group-hover:scale-105" />
         </div>
       </div>
     </div>

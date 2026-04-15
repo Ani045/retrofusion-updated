@@ -197,176 +197,12 @@ include 'includes/header.php';
   </div>
 </section>
 
-<!-- ===== OUR OFFERINGS SECTION ===== -->
-<section class="py-8 bg-gradient-to-br from-stone-50 via-amber-50/30 to-stone-100">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="mb-8">
-      <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#0F2A24] mb-3">Our Offerings
-      </h2>
-      <p class="text-base sm:text-lg text-stone-500 max-w-2xl leading-relaxed">Three homes. Three distinct moods.
-        One unforgettable stay</p>
-    </div>
-    <div class="w-full">
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 w-full">
-        <!-- Card 1 -->
-        <div
-          class="villa-card relative h-[500px] w-full cursor-pointer group overflow-hidden rounded-[2rem] shadow-2xl hover:shadow-[0_30px_60px_-12px_rgba(0,0,0,0.3)] transition-all duration-700 transform hover:scale-[1.03] border-2 border-white/20">
-          <img loading="lazy"
-            src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1770226533/N34_stewru.jpg"
-            alt="Retro Villa"
-            class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" />
-          <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
-          <div class="absolute bottom-8 left-8 villa-card-name transition-opacity duration-300">
-            <h3 class="text-3xl font-display text-white tracking-wide mb-1 font-bold">Retro Villa</h3>
-            <p class="text-white/90 text-base font-light italic">For the classic souls</p>
-          </div>
-          <div
-            class="villa-card-overlay absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/95 via-black/80 to-transparent p-8 backdrop-blur-sm">
-            <div class="space-y-6 pt-16">
-              <div>
-                <h3 class="text-3xl font-display text-white tracking-wide mb-1 font-bold">Retro Villa</h3>
-                <p class="text-amber-300/90 text-sm font-light italic mb-4">For the classic souls</p>
-                <div class="w-16 h-1 bg-gradient-to-r from-amber-400 to-amber-600 rounded-full"></div>
-              </div>
-              <p class="text-white/95 text-sm leading-relaxed font-light">A living tribute to retro Bollywood, this
-                villa is created for lovers of timeless films, old-school music, and spaces with personality.</p>
-              <div class="grid grid-cols-2 gap-4">
-                <div
-                  class="flex items-center gap-3 bg-white/15 backdrop-blur-md p-4 rounded-2xl border border-white/30 hover:bg-white/20 transition-colors duration-300">
-                  <svg class="w-5 h-5 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                      d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
-                  </svg>
-                  <div><span class="text-white font-semibold text-base">8+</span>
-                    <p class="text-white/80 text-xs uppercase tracking-wider">Guests</p>
-                  </div>
-                </div>
-                <div
-                  class="flex items-center gap-3 bg-white/15 backdrop-blur-md p-4 rounded-2xl border border-white/30 hover:bg-white/20 transition-colors duration-300">
-                  <svg class="w-5 h-5 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                      d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
-                  </svg>
-                  <div><span class="text-white font-semibold text-base">4</span>
-                    <p class="text-white/80 text-xs uppercase tracking-wider">BHK</p>
-                  </div>
-                </div>
-              </div>
-              <a href="retro-villas"
-                class="block w-full py-4 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-white font-bold rounded-2xl transition-all duration-300 uppercase tracking-wider text-sm shadow-xl hover:shadow-2xl text-center transform hover:-translate-y-1">Explore
-                Villa</a>
-            </div>
-          </div>
-        </div>
-        <!-- Card 2 -->
-        <div
-          class="villa-card relative h-[500px] w-full cursor-pointer group overflow-hidden rounded-[2rem] shadow-2xl hover:shadow-[0_30px_60px_-12px_rgba(0,0,0,0.3)] transition-all duration-700 transform hover:scale-[1.03] border-2 border-white/20">
-          <img loading="lazy"
-            src="https://res.cloudinary.com/dprafk917/video/upload/f_auto,q_auto/so_2/v1768241694/1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg"
-            alt="Neo Retro Villa"
-            class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" />
-          <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
-          <div class="absolute bottom-8 left-8 villa-card-name transition-opacity duration-300">
-            <h3 class="text-3xl font-display text-white tracking-wide mb-1 font-bold">Neo Retro Villa</h3>
-            <p class="text-white/90 text-base font-light italic">For the art lovers</p>
-          </div>
-          <div
-            class="villa-card-overlay absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/95 via-black/80 to-transparent p-8 backdrop-blur-sm">
-            <div class="space-y-6 pt-16">
-              <div>
-                <h3 class="text-3xl font-display text-white tracking-wide mb-1 font-bold">Neo Retro Villa</h3>
-                <p class="text-amber-300/90 text-sm font-light italic mb-4">For the art lovers</p>
-                <div class="w-16 h-1 bg-gradient-to-r from-amber-400 to-amber-600 rounded-full"></div>
-              </div>
-              <p class="text-white/95 text-sm leading-relaxed font-light">Original art surrounds you here. You don't
-                just see art on the walls, the space invites you to slow down and experience it intimately.</p>
-              <div class="grid grid-cols-2 gap-4">
-                <div
-                  class="flex items-center gap-3 bg-white/15 backdrop-blur-md p-4 rounded-2xl border border-white/30 hover:bg-white/20 transition-colors duration-300">
-                  <svg class="w-5 h-5 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                      d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
-                  </svg>
-                  <div><span class="text-white font-semibold text-base">8+</span>
-                    <p class="text-white/80 text-xs uppercase tracking-wider">Guests</p>
-                  </div>
-                </div>
-                <div
-                  class="flex items-center gap-3 bg-white/15 backdrop-blur-md p-4 rounded-2xl border border-white/30 hover:bg-white/20 transition-colors duration-300">
-                  <svg class="w-5 h-5 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                      d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
-                  </svg>
-                  <div><span class="text-white font-semibold text-base">4</span>
-                    <p class="text-white/80 text-xs uppercase tracking-wider">BHK</p>
-                  </div>
-                </div>
-              </div>
-              <a href="neo-retro"
-                class="block w-full py-4 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-white font-bold rounded-2xl transition-all duration-300 uppercase tracking-wider text-sm shadow-xl hover:shadow-2xl text-center transform hover:-translate-y-1">Explore
-                Villa</a>
-            </div>
-          </div>
-        </div>
-        <!-- Card 3 -->
-        <div
-          class="villa-card relative h-[500px] w-full cursor-pointer group overflow-hidden rounded-[2rem] shadow-2xl hover:shadow-[0_30px_60px_-12px_rgba(0,0,0,0.3)] transition-all duration-700 transform hover:scale-[1.03] border-2 border-white/20">
-          <img loading="lazy"
-            src="https://res.cloudinary.com/damfndmrm/image/upload/f_auto,q_auto/v1772474727/Screenshot_2026-03-02_at_11.33.32_PM_wqk7eu.png"
-            alt="Retro Visawa"
-            class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" />
-          <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
-          <div class="absolute bottom-8 left-8 villa-card-name transition-opacity duration-300">
-            <h3 class="text-3xl font-display text-white tracking-wide mb-1 font-bold">Retro Visawa</h3>
-            <p class="text-white/90 text-base font-light italic">For the peace seekers</p>
-          </div>
-          <div
-            class="villa-card-overlay absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/95 via-black/80 to-transparent p-8 backdrop-blur-sm">
-            <div class="space-y-6 pt-16">
-              <div>
-                <h3 class="text-3xl font-display text-white tracking-wide mb-1 font-bold">Retro Visawa</h3>
-                <p class="text-amber-300/90 text-sm font-light italic mb-4">For the peace seekers</p>
-                <div class="w-16 h-1 bg-gradient-to-r from-amber-400 to-amber-600 rounded-full"></div>
-              </div>
-              <p class="text-white/95 text-sm leading-relaxed font-light">A spacious retreat with modern comforts,
-                perfect for unwinding and spending meaningful time with loved ones.</p>
-              <div class="grid grid-cols-2 gap-4">
-                <div
-                  class="flex items-center gap-3 bg-white/15 backdrop-blur-md p-4 rounded-2xl border border-white/30 hover:bg-white/20 transition-colors duration-300">
-                  <svg class="w-5 h-5 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                      d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
-                  </svg>
-                  <div><span class="text-white font-semibold text-base">8+</span>
-                    <p class="text-white/80 text-xs uppercase tracking-wider">Guests</p>
-                  </div>
-                </div>
-                <div
-                  class="flex items-center gap-3 bg-white/15 backdrop-blur-md p-4 rounded-2xl border border-white/30 hover:bg-white/20 transition-colors duration-300">
-                  <svg class="w-5 h-5 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                      d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
-                  </svg>
-                  <div><span class="text-white font-semibold text-base">4</span>
-                    <p class="text-white/80 text-xs uppercase tracking-wider">BHK</p>
-                  </div>
-                </div>
-              </div>
-              <a href="retro-viswa-lonavala"
-                class="block w-full py-4 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-white font-bold rounded-2xl transition-all duration-300 uppercase tracking-wider text-sm shadow-xl hover:shadow-2xl text-center transform hover:-translate-y-1">Explore
-                Villa</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+
 
 <!-- ===== ABOUT & FEATURES SECTION ===== -->
-<section class="py-8 md:py-12 bg-white">
+<section class="py-12 md:py-16 bg-white">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-start">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 mb-10 md:mb-14 items-center">
       <div>
         <div class="flex items-center space-x-2 mb-3">
           <svg class="w-5 h-5 text-amber-600" fill="currentColor" viewBox="0 0 24 24">
@@ -401,16 +237,16 @@ include 'includes/header.php';
         </ul>
       </div>
 
-      <div class="grid grid-rows-2 gap-4">
+      <div class="grid grid-rows-2 gap-6">
         <div class="relative group overflow-hidden rounded-3xl">
           <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868155/M08_qewdva.webp"
             alt="Mountain view from villa balcony" title="Scenic Villas in Lonavala Balcony View"
-            class="w-full h-[200px] md:h-[240px] object-cover transition-transform duration-700 group-hover:scale-105" />
+            class="w-full h-56 md:h-72 object-cover transition-transform duration-700 group-hover:scale-105" />
         </div>
         <div class="relative group overflow-hidden rounded-3xl">
           <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1770226533/N34_stewru.jpg"
             alt="Luxury mountain villa exterior" title="Private Pool Villa Lonavala Hills"
-            class="w-full h-[200px] md:h-[240px] object-cover transition-transform duration-700 group-hover:scale-105" />
+            class="w-full h-56 md:h-72 object-cover transition-transform duration-700 group-hover:scale-105" />
         </div>
       </div>
     </div>
