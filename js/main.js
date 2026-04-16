@@ -172,10 +172,10 @@ function initHeroCarousel() {
     if (!heroSection) return;
 
     const bannerImages = [
-        'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868140/B30_yc8rqu.webp',
-        'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868140/C26_j6pstx.webp',
-        'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863044/14_w8imzc.jpg',
-        'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1774809448/30_2_xtqtpb.jpg',
+        '../images/v1769868140_B30_yc8rqu.webp',
+        '../images/v1769868140_C26_j6pstx.webp',
+        '../images/v1769863044_14_w8imzc.jpg',
+        '../images/v1774809448_30_2_xtqtpb.jpg',
     ];
 
     // Preload images
@@ -362,12 +362,12 @@ function initRetrofusionSlider() {
     if (!sliderImg) return;
 
     const images = [
-        'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1774807173/04_y636xz.jpg',
-        'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1774811620/30_1_eexljz.jpg',
-        'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1774809447/06_htf59g.jpg',
-        'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868140/B30_yc8rqu.webp',
-        'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868143/M01_jjmwdw.webp',
-        'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769863044/14_w8imzc.jpg',
+        '../images/v1774807173_04_y636xz.jpg',
+        '../images/v1774811620_30_1_eexljz.jpg',
+        '../images/v1774809447_06_htf59g.jpg',
+        '../images/v1769868140_B30_yc8rqu.webp',
+        '../images/v1769868143_M01_jjmwdw.webp',
+        '../images/v1769863044_14_w8imzc.jpg',
     ];
     let current = 0;
 
@@ -430,22 +430,22 @@ function initBentoGallery() {
     if (!grid) return;
 
     let allImages = [
-        'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1770226533/N34_stewru.jpg',
-        'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868140/B30_yc8rqu.webp',
-        'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868140/C26_j6pstx.webp',
-        'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868140/05_ivb2yz.webp',
-        'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1770226534/N36_om6t9d.jpg',
-        'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868155/M08_qewdva.webp',
-        'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868143/M01_jjmwdw.webp',
-        'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868142/G31_mdlfjh.webp',
-        'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868143/J24_wrncmb.webp',
-        'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868144/M21_c2fjh0.webp',
-        'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868144/M09_hilzeh.webp',
-        'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868141/I08_mjtxcg.webp',
-        'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868143/F18A_qmvadk.webp',
-        'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868142/H10_byp3oh.webp',
-        'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868142/K17_qzihhb.webp',
-        'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868141/E06_tevptf.webp',
+        '../images/v1770226533_N34_stewru.jpg',
+        '../images/v1769868140_B30_yc8rqu.webp',
+        '../images/v1769868140_C26_j6pstx.webp',
+        '../images/v1769868140_05_ivb2yz.webp',
+        '../images/v1770226534_N36_om6t9d.jpg',
+        '../images/v1769868155_M08_qewdva.webp',
+        '../images/v1769868143_M01_jjmwdw.webp',
+        '../images/v1769868142_G31_mdlfjh.webp',
+        '../images/v1769868143_J24_wrncmb.webp',
+        '../images/v1769868144_M21_c2fjh0.webp',
+        '../images/v1769868144_M09_hilzeh.webp',
+        '../images/v1769868141_I08_mjtxcg.webp',
+        '../images/v1769868143_F18A_qmvadk.webp',
+        '../images/v1769868142_H10_byp3oh.webp',
+        '../images/v1769868142_K17_qzihhb.webp',
+        '../images/v1769868141_E06_tevptf.webp',
     ];
 
     if (window.galleryImages && Array.isArray(window.galleryImages)) {

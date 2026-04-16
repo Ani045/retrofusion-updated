@@ -9,7 +9,7 @@ if (session_status() === PHP_SESSION_NONE) {
 <head>
   <meta charset="UTF-8" />
   <link rel="icon" type="image/png"
-    href="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769939688/FAV-ICONS-adobe_nisyxz.png" />
+    href="../images/v1769939688_FAV-ICONS-adobe_nisyxz.png" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <!-- Meta Pixel Code (deferred to not block initial load) -->
@@ -37,11 +37,11 @@ if (session_status() === PHP_SESSION_NONE) {
   <!-- End Meta Pixel Code -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://res.cloudinary.com">
+
   <link rel="dns-prefetch" href="https://i.ytimg.com">
   <link rel="dns-prefetch" href="https://dbwx2z9xa7qt9.cloudfront.net">
   <link rel="preload" as="image"
-    href="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868140/B30_yc8rqu.webp">
+    href="../images/v1769868140_B30_yc8rqu.webp">
   <link
     href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Marcellus&family=Dancing+Script:wght@400..700&display=swap"
     rel="stylesheet" media="print" onload="this.media='all'">
@@ -139,7 +139,7 @@ endif; ?>
           <div class="flex-shrink-0 flex items-center lg:w-1/3 justify-start">
             <a href="index.php" class="flex items-center">
               <img id="nav-logo"
-                src="https://res.cloudinary.com/damfndmrm/image/upload/f_auto,q_auto/v1771665559/Retrofusion_logo__20260211_230238_0000_sufgcp.png"
+                src="../images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png"
                 alt="Retrofusion Logo" title="Retrofusion Boutique Homestays Logo" fetchpriority="high"
                 class="logo-white w-32 sm:w-40 md:w-48 xl:w-56 h-auto object-contain transition-all duration-300 origin-left" />
             </a>
@@ -244,7 +244,7 @@ endif; ?>
             <a href="retro-viswa-lonavala" class="group block">
               <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-all duration-500">
                 <div class="relative h-40 sm:h-44 md:h-48 overflow-hidden"><img
-                    src="https://res.cloudinary.com/dprafk917/video/upload/f_auto,q_auto/so_2/v1769858399/8wr207mfxnrmy0cvd61bd2gn1g_result__viprl7.jpg"
+                    src="../images/v1769858399_8wr207mfxnrmy0cvd61bd2gn1g_result__viprl7.jpg"
                     alt="Retro Visawa" title="Retro Visawa Villa" class="w-full h-full object-cover scale-125 transition-transform duration-700" />
                   <div
                     class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/20 to-transparent group-hover:from-black/85 transition-colors duration-300">
@@ -269,7 +269,7 @@ endif; ?>
             <a href="neo-retro" class="group block">
               <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-all duration-500">
                 <div class="relative h-40 sm:h-44 md:h-48 overflow-hidden"><img
-                    src="https://res.cloudinary.com/dprafk917/video/upload/f_auto,q_auto/so_2/v1768241694/1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg"
+                    src="../images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg"
                     alt="Neo Retro Villa" title="Neo Retro Villa Lonavala"
                     class="w-full h-full object-cover scale-125 transition-transform duration-700" />
                   <div
@@ -295,7 +295,7 @@ endif; ?>
             <a href="retro-villas" class="group block">
               <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-all duration-500">
                 <div class="relative h-40 sm:h-44 md:h-48 overflow-hidden"><img
-                    src="https://res.cloudinary.com/dprafk917/video/upload/f_auto,q_auto/so_3/v1769867671/final_nkd4ry.jpg"
+                    src="../images/v1769867671_final_nkd4ry.jpg"
                     alt="Retro Villa" title="Retro Villa Homestay" class="w-full h-full object-cover scale-125 transition-transform duration-700" />
                   <div
                     class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/20 to-transparent group-hover:from-black/85 transition-colors duration-300">

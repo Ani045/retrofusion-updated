@@ -7,7 +7,7 @@
           class="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-4 mb-4 pb-4 border-b border-white/10">
           <div class="flex-1">
             <img loading="lazy"
-              src="https://res.cloudinary.com/damfndmrm/image/upload/f_auto,q_auto/v1771665559/Retrofusion_logo__20260211_230238_0000_sufgcp.png"
+              src="../images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png"
               alt="Retrofusion Logo" title="Retrofusion Bookmark Logo" class="w-40 sm:w-48 md:w-56 h-auto object-contain mb-4" />
             <p class="text-stone-400 max-w-md leading-relaxed text-sm">
               We are a homestay brand in the holiday capital of Maharashtra, Lonavala. We believe in creating a cozy

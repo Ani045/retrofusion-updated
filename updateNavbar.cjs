@@ -9,7 +9,7 @@ const replacement = `<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div class="flex-shrink-0 flex items-center lg:w-1/3 justify-start">
             <a href="index.html" class="flex items-center">
               <img id="nav-logo"
-                src="https://res.cloudinary.com/damfndmrm/image/upload/v1771665559/Retrofusion_logo__20260211_230238_0000_sufgcp.png"
+                src="images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png"
                 alt="Retrofusion Logo"
                 class="logo-white w-32 sm:w-40 md:w-48 xl:w-56 h-auto object-contain transition-all duration-300 origin-left" />
             </a>

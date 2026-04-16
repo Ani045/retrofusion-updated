@@ -22,7 +22,7 @@ include 'includes/header.php';
             <a href="retro-viswa-lonavala" class="group block">
               <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-all duration-500">
                 <div class="relative h-40 sm:h-44 md:h-48 overflow-hidden"><img loading="lazy"
-                    src="https://res.cloudinary.com/dprafk917/video/upload/f_auto,q_auto/so_2/v1769858399/8wr207mfxnrmy0cvd61bd2gn1g_result__viprl7.jpg"
+                    src="images/v1769858399_8wr207mfxnrmy0cvd61bd2gn1g_result__viprl7.jpg"
                     alt="Retro Visawa"
                     class="w-full h-full object-cover scale-110 transition-transform duration-700 group-hover:scale-125" />
                   <div
@@ -48,7 +48,7 @@ include 'includes/header.php';
             <a href="neo-retro" class="group block">
               <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-all duration-500">
                 <div class="relative h-40 sm:h-44 md:h-48 overflow-hidden"><img loading="lazy"
-                    src="https://res.cloudinary.com/dprafk917/video/upload/f_auto,q_auto/so_2/v1768241694/1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg"
+                    src="images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg"
                     alt="Neo Retro Villa"
                     class="w-full h-full object-cover scale-110 transition-transform duration-700 group-hover:scale-125" />
                   <div
@@ -74,7 +74,7 @@ include 'includes/header.php';
             <a href="retro-villas" class="group block">
               <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-all duration-500">
                 <div class="relative h-40 sm:h-44 md:h-48 overflow-hidden"><img loading="lazy"
-                    src="https://res.cloudinary.com/dprafk917/video/upload/f_auto,q_auto/so_3/v1769867671/final_nkd4ry.jpg"
+                    src="images/v1769867671_final_nkd4ry.jpg"
                     alt="Retro Villa"
                     class="w-full h-full object-cover scale-110 transition-transform duration-700 group-hover:scale-125" />
                   <div

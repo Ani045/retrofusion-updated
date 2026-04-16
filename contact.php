@@ -10,7 +10,7 @@ include 'includes/header.php';
   <section class="relative h-[68vh] md:h-[85vh] flex items-center justify-center overflow-hidden">
     <div class="absolute inset-0 z-0">
       <img loading="lazy"
-        src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1768230663/a613a1b2-edef-4242-8ee3-79ce77bae0e1_yi24hq.avif"
+        src="images/v1768230663_a613a1b2-edef-4242-8ee3-79ce77bae0e1_yi24hq.avif"
         alt="Contact Us" class="w-full h-full object-cover" />
       <div class="absolute inset-0 bg-gradient-to-b from-black/30 via-black/20 to-black/50"></div>
     </div>
@@ -163,7 +163,7 @@ include 'includes/header.php';
           <!-- Perfect Getaway Image (Mobile Only) -->
           <div class="relative rounded-3xl overflow-hidden h-72 lg:h-80 shadow-xl block lg:hidden">
             <img loading="lazy"
-              src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1768230664/91a15ba5-b5da-4618-b585-5d7f92fa5df3_yqcadt.avif"
+              src="images/v1768230664_91a15ba5-b5da-4618-b585-5d7f92fa5df3_yqcadt.avif"
               alt="Retrofusion Villa"
               class="w-full h-full object-cover transition-transform duration-700 hover:scale-110" />
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
@@ -309,7 +309,7 @@ include 'includes/header.php';
   <!-- <section class="relative py-24 overflow-hidden">
         <div class="absolute inset-0 z-0">
           <img loading="lazy"
-            src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1768230663/5d93e66d-23b4-4578-bb58-35032b8b39b8_cftv5v.avif"
+            src="images/v1768230663_5d93e66d-23b4-4578-bb58-35032b8b39b8_cftv5v.avif"
             alt="Villa Experience" class="w-full h-full object-cover" />
           <div class="absolute inset-0 bg-stone-900/80"></div>
         </div>
@@ -389,7 +389,7 @@ include 'includes/header.php';
             <div class="pt-9 sm:pt-11 w-full flex flex-col items-center">
               <a href="https://www.instagram.com/retrofusion.in/" target="_blank" class="w-full">
                 <img loading="lazy"
-                  src="https://res.cloudinary.com/damfndmrm/image/upload/f_auto,q_auto/v1772471878/Screenshot_2026-03-02_at_10.47.42_PM_wo3toj.png"
+                  src="images/v1772471878_Screenshot_2026-03-02_at_10.47.42_PM_wo3toj.png"
                   alt="Instagram Profile Screenshot"
                   class="w-full h-auto block opacity-95 transition-opacity duration-300 group-hover/screen:opacity-100" />
               </a>
@@ -422,7 +422,7 @@ include 'includes/header.php';
             <!-- Image with amber border -->
             <div class="mx-2.5 mb-2 border-[3px] border-amber-600 rounded-lg overflow-hidden">
               <img loading="lazy"
-                src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1772473164/Screenshot_2026-03-02_at_11.08.01_PM_a5g0vs.png"
+                src="images/v1772473164_Screenshot_2026-03-02_at_11.08.01_PM_a5g0vs.png"
                 alt="Instagram Post"
                 class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
@@ -474,7 +474,7 @@ include 'includes/header.php';
             </div>
             <div class="mx-2.5 mb-2 border-[3px] border-amber-600 rounded-lg overflow-hidden">
               <img loading="lazy"
-                src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1772473164/Screenshot_2026-03-02_at_11.07.23_PM_sbgs0f.png"
+                src="images/v1772473164_Screenshot_2026-03-02_at_11.07.23_PM_sbgs0f.png"
                 alt="Instagram Post"
                 class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
@@ -525,7 +525,7 @@ include 'includes/header.php';
             </div>
             <div class="mx-2.5 mb-2 border-[3px] border-amber-600 rounded-lg overflow-hidden">
               <img loading="lazy"
-                src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1772473163/Screenshot_2026-03-02_at_11.07.36_PM_ftkdee.png"
+                src="images/v1772473163_Screenshot_2026-03-02_at_11.07.36_PM_ftkdee.png"
                 alt="Instagram Post"
                 class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
@@ -576,7 +576,7 @@ include 'includes/header.php';
             </div>
             <div class="mx-2.5 mb-2 border-[3px] border-amber-600 rounded-lg overflow-hidden">
               <img loading="lazy"
-                src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1772473163/Screenshot_2026-03-02_at_11.07.51_PM_yzseuz.png"
+                src="images/v1772473163_Screenshot_2026-03-02_at_11.07.51_PM_yzseuz.png"
                 alt="Instagram Post"
                 class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>

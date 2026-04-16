@@ -7,7 +7,7 @@ $pageAuthor = "Retrofusion Boutique Homestays";
 $pagePublisher = "Retrofusion Boutique Homestays";
 $canonicalUrl = "https://retrofusion.in/pet-friendly-villas-in-lonavala.php";
 $ogTitle = "Premium Pet-Friendly Villas in Lonavala";
-$ogImage = "https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1770226533/N34_stewru.jpg";
+$ogImage = "images/v1770226533_N34_stewru.jpg";
 include 'includes/header.php';
 ?>
 
@@ -25,14 +25,14 @@ include 'includes/header.php';
       "description": "Luxurious pet-friendly villas in Lonavala featuring huge lawns, private swimming pools, and dedicated amenities to make your furry friends feel at home.",
       "url": "https://retrofusion.in/pet-friendly-villas-in-lonavala.php",
       "image": [
-        "https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1770226533/N34_stewru.jpg",
-        "https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868140/B30_yc8rqu.webp",
-        "https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868140/C26_j6pstx.webp",
-        "https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868140/05_ivb2yz.webp",
-        "https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1770226534/N36_om6t9d.jpg",
-        "https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868155/M08_qewdva.webp",
-        "https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868143/M01_jjmwdw.webp",
-        "https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868142/G31_mdlfjh.webp"
+        "images/v1770226533_N34_stewru.jpg",
+        "images/v1769868140_B30_yc8rqu.webp",
+        "images/v1769868140_C26_j6pstx.webp",
+        "images/v1769868140_05_ivb2yz.webp",
+        "images/v1770226534_N36_om6t9d.jpg",
+        "images/v1769868155_M08_qewdva.webp",
+        "images/v1769868143_M01_jjmwdw.webp",
+        "images/v1769868142_G31_mdlfjh.webp"
       ],
       "telephone": "+91 8999036644",
       "address": {
@@ -202,7 +202,7 @@ include 'includes/header.php';
 
 <!-- ===== HERO SECTION ===== -->
 <section class="relative h-screen overflow-hidden">
-  <img src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1770226533/N34_stewru.jpg"
+  <img src="images/v1770226533_N34_stewru.jpg"
     class="absolute inset-0 w-full h-full object-cover" alt="Pet Friendly Villas in Lonavala" title="Pet Friendly Villas in Lonavala with Large Lawns" />
   <div class="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-black/60"></div>
   <div class="relative z-10 h-full flex flex-col justify-center items-center px-4 sm:px-6 lg:px-8">
@@ -344,7 +344,7 @@ include 'includes/header.php';
       <div id="bento-grid" class="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4 h-[400px] md:h-[450px] transition-opacity duration-500">
         <!-- Image 1 -->
         <div class="relative overflow-hidden group cursor-pointer col-span-2 md:col-span-2 row-span-1 md:row-span-2 rounded-2xl shadow-lg" onclick="openLightbox(0)">
-          <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1770226533/N34_stewru.jpg" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="Pet Friendly Estate Exterior" title="Pet Friendly Villas Lonavala Lawns">
+          <img loading="lazy" src="images/v1770226533_N34_stewru.jpg" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="Pet Friendly Estate Exterior" title="Pet Friendly Villas Lonavala Lawns">
           <div class="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors duration-300 flex items-center justify-center">
             <div class="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
               <div class="w-10 h-10 md:w-12 md:h-12 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center">
@@ -355,7 +355,7 @@ include 'includes/header.php';
         </div>
         <!-- Image 2 -->
         <div class="relative overflow-hidden group cursor-pointer col-span-2 md:col-span-2 row-span-1 md:row-span-1 rounded-2xl shadow-lg hidden md:block" onclick="openLightbox(1)">
-          <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868140/B30_yc8rqu.webp" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="Spacious Lonavala Living Room" title="Luxury Pet Friendly Living Space">
+          <img loading="lazy" src="images/v1769868140_B30_yc8rqu.webp" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="Spacious Lonavala Living Room" title="Luxury Pet Friendly Living Space">
           <div class="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors duration-300 flex items-center justify-center">
             <div class="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
               <div class="w-10 h-10 md:w-12 md:h-12 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center">
@@ -366,7 +366,7 @@ include 'includes/header.php';
         </div>
         <!-- Image 3 -->
         <div class="relative overflow-hidden group cursor-pointer col-span-1 md:col-span-1 row-span-1 md:row-span-1 rounded-2xl shadow-lg" onclick="openLightbox(2)">
-          <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868140/C26_j6pstx.webp" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="Cozy Bedrooms" title="Villas in Lonavala for Family and Pets">
+          <img loading="lazy" src="images/v1769868140_C26_j6pstx.webp" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="Cozy Bedrooms" title="Villas in Lonavala for Family and Pets">
           <div class="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors duration-300 flex items-center justify-center">
             <div class="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
               <div class="w-10 h-10 md:w-12 md:h-12 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center">
@@ -377,7 +377,7 @@ include 'includes/header.php';
         </div>
         <!-- Image 4 -->
         <div class="relative overflow-hidden group cursor-pointer col-span-1 md:col-span-1 row-span-1 md:row-span-1 rounded-2xl shadow-lg" onclick="openLightbox(3)">
-          <img loading="lazy" src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868140/05_ivb2yz.webp" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="Private Pool Area" title="Private Pool Villas Lonavala Pet Allowed">
+          <img loading="lazy" src="images/v1769868140_05_ivb2yz.webp" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="Private Pool Area" title="Private Pool Villas Lonavala Pet Allowed">
           <div class="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors duration-300 flex items-center justify-center">
             <div class="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
               <div class="w-10 h-10 md:w-12 md:h-12 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center">
@@ -695,7 +695,7 @@ include 'includes/header.php';
             <div class="pt-9 sm:pt-11 w-full flex flex-col items-center">
               <a href="https://www.instagram.com/retrofusion.in/" target="_blank" class="w-full">
                 <img loading="lazy"
-                  src="https://res.cloudinary.com/damfndmrm/image/upload/f_auto,q_auto/v1772471878/Screenshot_2026-03-02_at_10.47.42_PM_wo3toj.png"
+                  src="images/v1772471878_Screenshot_2026-03-02_at_10.47.42_PM_wo3toj.png"
                   alt="Instagram Profile Screenshot"
                   class="w-full h-auto block opacity-95 transition-opacity duration-300 group-hover/screen:opacity-100" />
               </a>
@@ -728,7 +728,7 @@ include 'includes/header.php';
             <!-- Image with amber border -->
             <div class="mx-2.5 mb-2 border-[3px] border-amber-600 rounded-lg overflow-hidden">
               <img loading="lazy"
-                src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1772473164/Screenshot_2026-03-02_at_11.08.01_PM_a5g0vs.png"
+                src="images/v1772473164_Screenshot_2026-03-02_at_11.08.01_PM_a5g0vs.png"
                 alt="Instagram Post"
                 class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
@@ -780,7 +780,7 @@ include 'includes/header.php';
             </div>
             <div class="mx-2.5 mb-2 border-[3px] border-amber-600 rounded-lg overflow-hidden">
               <img loading="lazy"
-                src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1772473164/Screenshot_2026-03-02_at_11.07.23_PM_sbgs0f.png"
+                src="images/v1772473164_Screenshot_2026-03-02_at_11.07.23_PM_sbgs0f.png"
                 alt="Instagram Post"
                 class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
@@ -831,7 +831,7 @@ include 'includes/header.php';
             </div>
             <div class="mx-2.5 mb-2 border-[3px] border-amber-600 rounded-lg overflow-hidden">
               <img loading="lazy"
-                src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1772473163/Screenshot_2026-03-02_at_11.07.36_PM_ftkdee.png"
+                src="images/v1772473163_Screenshot_2026-03-02_at_11.07.36_PM_ftkdee.png"
                 alt="Instagram Post"
                 class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
@@ -882,7 +882,7 @@ include 'includes/header.php';
             </div>
             <div class="mx-2.5 mb-2 border-[3px] border-amber-600 rounded-lg overflow-hidden">
               <img loading="lazy"
-                src="https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1772473163/Screenshot_2026-03-02_at_11.07.51_PM_yzseuz.png"
+                src="images/v1772473163_Screenshot_2026-03-02_at_11.07.51_PM_yzseuz.png"
                 alt="Instagram Post"
                 class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
@@ -944,22 +944,22 @@ include 'includes/header.php';
 
 <script>
   window.galleryImages = [
-    'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1770226533/N34_stewru.jpg',
-    'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868140/B30_yc8rqu.webp',
-    'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868140/C26_j6pstx.webp',
-    'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868140/05_ivb2yz.webp',
-    'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1770226534/N36_om6t9d.jpg',
-    'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868155/M08_qewdva.webp',
-    'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868143/M01_jjmwdw.webp',
-    'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868142/G31_mdlfjh.webp',
-    'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868143/J24_wrncmb.webp',
-    'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868144/M21_c2fjh0.webp',
-    'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868144/M09_hilzeh.webp',
-    'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868141/I08_mjtxcg.webp',
-    'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868143/F18A_qmvadk.webp',
-    'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868142/H10_byp3oh.webp',
-    'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868142/K17_qzihhb.webp',
-    'https://res.cloudinary.com/dprafk917/image/upload/f_auto,q_auto/v1769868141/E06_tevptf.webp',
+    'images/v1770226533_N34_stewru.jpg',
+    'images/v1769868140_B30_yc8rqu.webp',
+    'images/v1769868140_C26_j6pstx.webp',
+    'images/v1769868140_05_ivb2yz.webp',
+    'images/v1770226534_N36_om6t9d.jpg',
+    'images/v1769868155_M08_qewdva.webp',
+    'images/v1769868143_M01_jjmwdw.webp',
+    'images/v1769868142_G31_mdlfjh.webp',
+    'images/v1769868143_J24_wrncmb.webp',
+    'images/v1769868144_M21_c2fjh0.webp',
+    'images/v1769868144_M09_hilzeh.webp',
+    'images/v1769868141_I08_mjtxcg.webp',
+    'images/v1769868143_F18A_qmvadk.webp',
+    'images/v1769868142_H10_byp3oh.webp',
+    'images/v1769868142_K17_qzihhb.webp',
+    'images/v1769868141_E06_tevptf.webp',
   ];
 
   window.gallerySets = [

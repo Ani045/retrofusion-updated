@@ -5,7 +5,7 @@ const dir = '/Users/aniketsharma/Downloads/ret-homestay-website-redesign/ret-hom
 const files = fs.readdirSync(dir).filter(f => f.endsWith('.html'));
 
 // The one logo used everywhere (footer + header)
-const LOGO_URL = 'https://res.cloudinary.com/damfndmrm/image/upload/v1771665559/Retrofusion_logo__20260211_230238_0000_sufgcp.png';
+const LOGO_URL = 'images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png';
 
 files.forEach(file => {
     const filePath = path.join(dir, file);
