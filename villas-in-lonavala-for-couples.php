@@ -5,7 +5,7 @@ $pageKeywords = "4BHK Villas in Lonavala for Couple Staycation, Weekend Stay in 
 $pageRobots = "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1";
 $pageAuthor = "Retrofusion Boutique Homestays";
 $pagePublisher = "Retrofusion Boutique Homestays";
-$canonicalUrl = "https://retrofusion.in/4bhk-villas-in-lonavala-for-couples";
+$canonicalUrl = "https://retrofusion.in/villas-in-lonavala-for-couples";
 $ogTitle = "Romantic 4BHK Villas in Lonavala | Intimate Couple Escapes";
 $ogImage = "images/couples_villa_lonavala_hero.png";
 include 'includes/header.php';
@@ -18,10 +18,10 @@ include 'includes/header.php';
   "@graph": [
     {
       "@type": "LodgingBusiness",
-      "@id": "https://retrofusion.in/4bhk-villas-in-lonavala-for-couples#lodging",
+      "@id": "https://retrofusion.in/villas-in-lonavala-for-couples#lodging",
       "name": "Romantic Villas in Lonavala for Couples - Retrofusion",
       "description": "Intimate and private 4BHK villas in Lonavala designed for couple staycations. Featuring private pools, romantic dining, and mountain views.",
-      "url": "https://retrofusion.in/4bhk-villas-in-lonavala-for-couples",
+      "url": "https://retrofusion.in/villas-in-lonavala-for-couples",
       "image": [
         "https://retrofusion.in/images/couples_villa_lonavala_hero.png",
         "https://retrofusion.in/images/v1774810269_12_lo4gpx.jpg",
@@ -63,7 +63,7 @@ include 'includes/header.php';
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://retrofusion.in/4bhk-villas-in-lonavala-for-couples#breadcrumb",
+      "@id": "https://retrofusion.in/villas-in-lonavala-for-couples#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -75,13 +75,13 @@ include 'includes/header.php';
           "@type": "ListItem",
           "position": 2,
           "name": "Villas for Couples",
-          "item": "https://retrofusion.in/4bhk-villas-in-lonavala-for-couples"
+          "item": "https://retrofusion.in/villas-in-lonavala-for-couples"
         }
       ]
     },
     {
       "@type": "ItemList",
-      "@id": "https://retrofusion.in/4bhk-villas-in-lonavala-for-couples#itemlist",
+      "@id": "https://retrofusion.in/villas-in-lonavala-for-couples#itemlist",
       "name": "Best Couple Retreats in Lonavala",
       "numberOfItems": 3,
       "itemListElement": [
@@ -116,7 +116,7 @@ include 'includes/header.php';
     },
     {
       "@type": "FAQPage",
-      "@id": "https://retrofusion.in/4bhk-villas-in-lonavala-for-couples#faq",
+      "@id": "https://retrofusion.in/villas-in-lonavala-for-couples#faq",
       "mainEntity": [
         {
           "@type": "Question",
@@ -186,8 +186,8 @@ include 'includes/header.php';
     },
     {
       "@type": "WebPage",
-      "@id": "https://retrofusion.in/4bhk-villas-in-lonavala-for-couples#webpage",
-      "url": "https://retrofusion.in/4bhk-villas-in-lonavala-for-couples",
+      "@id": "https://retrofusion.in/villas-in-lonavala-for-couples#webpage",
+      "url": "https://retrofusion.in/villas-in-lonavala-for-couples",
       "name": "Romantic 4BHK Villas for Couple Staycation in Lonavala",
       "isPartOf": { "@id": "https://retrofusion.in/#website" }
     }
