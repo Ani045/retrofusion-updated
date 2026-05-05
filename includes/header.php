@@ -216,6 +216,8 @@ endif; ?>
               <a href="retro-villas"
                 class="block px-3 py-2 text-stone-600 hover:text-amber-600 hover:bg-amber-50 rounded-lg transition-colors text-base">Retro
                 Villa</a>
+              <a href="villas-in-lonavala-for-bachelor-party"
+                class="block px-3 py-2 text-stone-600 hover:text-amber-600 hover:bg-amber-50 rounded-lg transition-colors text-base font-semibold text-amber-600">Bachelor Party Stays</a>
             </div>
           </div>
           <div class="border-t border-stone-200 pt-4">

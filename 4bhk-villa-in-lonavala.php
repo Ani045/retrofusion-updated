@@ -325,7 +325,7 @@ include 'includes/header.php';
       </p>
       <ul class="list-disc pl-6 space-y-3 text-stone-600 mb-8">
         <li><strong>For Families:</strong> Finding a sprawling <strong>4bhk villa in lonavala for Family</strong> means everyone from kids to grandparents gets their own space, yet common areas allow you all to bond over board games and meals.</li>
-        <li><strong>For Celebrations:</strong> If you're celebrating a milestone, birthday, or anniversary, reserving a <strong>4bhk villa in lonavala for party</strong> ensures a dedicated venue with enough room for a lively get-together, dancing, and catered dining.</li>
+        <li><strong>For Celebrations:</strong> If you're celebrating a milestone, birthday, or anniversary, reserving a <a href="villas-in-lonavala-for-bachelor-party" class="text-amber-600 font-medium hover:underline">4bhk villa in lonavala for party</a> ensures a dedicated venue with enough room for a lively get-together, dancing, and catered dining.</li>
         <li><strong>For Couples:</strong> Searching for a romantic getaway with ample space? A <strong>4bhk villa in lonavala for couple</strong> retreat guarantees peace, luxury, and expansive private territories to unwind together.</li>
         <li><strong>For Professionals:</strong> Combining work with leisure is effortless here. Our property serves perfectly as a <strong>4bhk villa in lonavala for corporate office</strong> offsites, offering high-speed internet and quiet corners for focused strategy sessions, followed by evening team-bonding activities.</li>
       </ul>

@@ -439,15 +439,15 @@ include 'includes/header.php';
     <div class="hidden lg:grid grid-cols-4 gap-6">
       <!-- Col 1 -->
       <div class="flex flex-col gap-6 h-[600px]">
-        <a href="retro-villas"
+        <a href="villas-in-lonavala-for-bachelor-party"
           class="relative w-full rounded-3xl overflow-hidden group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-[1.02] border border-stone-200 block flex-[1.4] hover:-translate-y-1">
           <img loading="lazy"
-            src="images/v1774810653_N35_h2djzp.jpg"
+            src="images/bachelor-party-villa-lonavala.png"
             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-            alt="Retro Villa" />
+            alt="Bachelor Party Villas Lonavala" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
           <div class="absolute bottom-6 left-6 text-white">
-            <h3 class="text-xl md:text-2xl font-bold font-display tracking-wide drop-shadow-lg">Retro Villa</h3>
+            <h3 class="text-xl md:text-2xl font-bold font-display tracking-wide drop-shadow-lg">Bachelor Party</h3>
           </div>
         </a>
         <a href="retro-villas"
@@ -544,13 +544,13 @@ include 'includes/header.php';
       <div class="flex gap-4 pb-4" style="scroll-snap-type: x mandatory;">
         <!-- Mobile Col 1 -->
         <div class="flex flex-col gap-4 min-w-[280px]" style="scroll-snap-align: start;">
-          <a href="retro-villas" class="relative w-full h-64 rounded-2xl overflow-hidden shadow-lg block">
+          <a href="villas-in-lonavala-for-bachelor-party" class="relative w-full h-64 rounded-2xl overflow-hidden shadow-lg block">
             <img loading="lazy"
-              src="images/v1774810653_N35_h2djzp.jpg"
+              src="images/bachelor-party-villa-lonavala.png"
               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-              alt="Retro Villa" />
+              alt="Bachelor Party Villas" />
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-            <h3 class="absolute bottom-4 left-4 text-white font-bold">Retro Villa</h3>
+            <h3 class="absolute bottom-4 left-4 text-white font-bold">Bachelor Party</h3>
           </a>
           <a href="retro-villas" class="relative w-full h-48 rounded-2xl overflow-hidden shadow-lg block">
             <img loading="lazy"
