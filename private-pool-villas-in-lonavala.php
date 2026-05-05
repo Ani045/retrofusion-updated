@@ -53,6 +53,95 @@ include 'includes/header.php';
         "reviewCount": "210"
       },
       "priceRange": "$$"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://retrofusion.in/#organization",
+      "name": "Retrofusion Boutique Homestays",
+      "url": "https://retrofusion.in/",
+      "logo": "https://retrofusion.in/images/logo.png"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://retrofusion.in/private-pool-villas-in-lonavala#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://retrofusion.in/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Private Pool Villas",
+          "item": "https://retrofusion.in/private-pool-villas-in-lonavala"
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://retrofusion.in/private-pool-villas-in-lonavala#itemlist",
+      "name": "Best Pool Villas in Lonavala",
+      "numberOfItems": 3,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "Accommodation",
+            "name": "Retro Visawa (Infinity Pool)",
+            "url": "https://retrofusion.in/retro-viswa-lonavala"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "Accommodation",
+            "name": "Neo Retro Villa (Modern Pool)",
+            "url": "https://retrofusion.in/neo-retro"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "Accommodation",
+            "name": "Retro Villa (Private Oasis)",
+            "url": "https://retrofusion.in/retro-villas"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://retrofusion.in/private-pool-villas-in-lonavala#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Are the swimming pools private in your Lonavala villas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, all our pool villas in Lonavala feature completely private swimming pools that are not shared with any other guests, ensuring your total privacy."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you offer temperature-controlled pools?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Selected properties like Retro Visawa offer temperature-controlled pool options for a comfortable swim regardless of the weather in Lonavala."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://retrofusion.in/private-pool-villas-in-lonavala#webpage",
+      "url": "https://retrofusion.in/private-pool-villas-in-lonavala",
+      "name": "Private Pool Villas in Lonavala | 4BHK Pool Stays",
+      "isPartOf": { "@id": "https://retrofusion.in/#website" }
     }
   ]
 }

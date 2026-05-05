@@ -19,7 +19,7 @@ include 'includes/header.php';
     {
       "@type": "LodgingBusiness",
       "@id": "https://retrofusion.in/luxury-4bhk-villas-in-lonavala#lodging",
-      "name": "Luxury Villas in Lonavala - Retrofusion",
+      "name": "Ultra Luxury Villas in Lonavala - Retrofusion",
       "description": "Exclusive collection of ultra-luxury 4BHK villas in Lonavala featuring infinity pools, gourmet kitchens, and premium concierge services.",
       "url": "https://retrofusion.in/luxury-4bhk-villas-in-lonavala",
       "image": [
@@ -53,6 +53,95 @@ include 'includes/header.php';
         "reviewCount": "185"
       },
       "priceRange": "$$$"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://retrofusion.in/#organization",
+      "name": "Retrofusion Boutique Homestays",
+      "url": "https://retrofusion.in/",
+      "logo": "https://retrofusion.in/images/logo.png"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://retrofusion.in/luxury-4bhk-villas-in-lonavala#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://retrofusion.in/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Luxury Villas",
+          "item": "https://retrofusion.in/luxury-4bhk-villas-in-lonavala"
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://retrofusion.in/luxury-4bhk-villas-in-lonavala#itemlist",
+      "name": "Premium Luxury Villas",
+      "numberOfItems": 3,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "Accommodation",
+            "name": "Neo Retro Villa (Ultra Luxury)",
+            "url": "https://retrofusion.in/neo-retro"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "Accommodation",
+            "name": "Retro Visawa (Scenic Hilltop)",
+            "url": "https://retrofusion.in/retro-viswa-lonavala"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "Accommodation",
+            "name": "Retro Villa (Classic Boutique)",
+            "url": "https://retrofusion.in/retro-villas"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://retrofusion.in/luxury-4bhk-villas-in-lonavala#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What defines a luxury villa stay in Lonavala?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our luxury villas are defined by designer interiors, private infinity pools, gourmet in-house chefs, and personalized concierge services located in the most scenic parts of Lonavala."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you offer concierge services at your luxury villas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, all our ultra-luxury 4BHK villas include a dedicated concierge and private butler to ensure every aspect of your stay is perfectly managed."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://retrofusion.in/luxury-4bhk-villas-in-lonavala#webpage",
+      "url": "https://retrofusion.in/luxury-4bhk-villas-in-lonavala",
+      "name": "Ultra Luxury 4BHK Villas in Lonavala | Premium Stays",
+      "isPartOf": { "@id": "https://retrofusion.in/#website" }
     }
   ]
 }

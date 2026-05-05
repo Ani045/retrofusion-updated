@@ -53,6 +53,108 @@ include 'includes/header.php';
         "reviewCount": "150"
       },
       "priceRange": "$$"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://retrofusion.in/#organization",
+      "name": "Retrofusion Boutique Homestays",
+      "url": "https://retrofusion.in/",
+      "logo": "https://retrofusion.in/images/logo.png",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+91 8999036644",
+        "contactType": "reservations"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://retrofusion.in/villas-in-lonavala-for-family#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://retrofusion.in/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Villas for Family",
+          "item": "https://retrofusion.in/villas-in-lonavala-for-family"
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://retrofusion.in/villas-in-lonavala-for-family#itemlist",
+      "name": "Best Family Villas in Lonavala",
+      "numberOfItems": 3,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "Accommodation",
+            "name": "Retro Visawa",
+            "url": "https://retrofusion.in/retro-viswa-lonavala"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "Accommodation",
+            "name": "Neo Retro Villa",
+            "url": "https://retrofusion.in/neo-retro"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "Accommodation",
+            "name": "Retro Villa",
+            "url": "https://retrofusion.in/retro-villas"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://retrofusion.in/villas-in-lonavala-for-family#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Which are the best villas in Lonavala for family stay?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Retro Visawa and Retro Villa are highly recommended as the best villas in Lonavala for family stays due to their large gardens, private pools, and kid-safe environments."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are your family villas in Lonavala child-friendly?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, our family villas feature child-friendly amenities including fenced pool areas (on request), large lawns for playing, and customized kid-friendly meals prepared by our in-house chefs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you offer villas in Lonavala for large families?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. We offer 4BHK villas that can comfortably accommodate 8-15 guests, making them perfect for multi-generational family reunions and group trips."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://retrofusion.in/villas-in-lonavala-for-family#webpage",
+      "url": "https://retrofusion.in/villas-in-lonavala-for-family",
+      "name": "Villas in Lonavala for Family | Family Friendly Stays",
+      "isPartOf": { "@id": "https://retrofusion.in/#website" }
     }
   ]
 }

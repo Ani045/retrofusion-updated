@@ -19,8 +19,8 @@ include 'includes/header.php';
     {
       "@type": "LodgingBusiness",
       "@id": "https://retrofusion.in/villas-in-lonavala-for-bachelor-party#lodging",
-      "name": "Party Villas in Lonavala with Private Pool - Retrofusion",
-      "description": "Premium 4BHK villas in Lonavala perfect for bachelor parties, friends groups, and weekend celebrations. Features private pools, BBQ, and luxury amenities.",
+      "name": "Party Villas in Lonavala for Friends - Retrofusion",
+      "description": "Premium 4BHK villas in Lonavala perfect for bachelor parties, friends groups, and weekend celebrations. Features private pools, BBQ, and party spaces.",
       "url": "https://retrofusion.in/villas-in-lonavala-for-bachelor-party",
       "image": [
         "https://retrofusion.in/images/bachelor-party-villa-lonavala.png",
@@ -53,6 +53,95 @@ include 'includes/header.php';
         "reviewCount": "215"
       },
       "priceRange": "$$"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://retrofusion.in/#organization",
+      "name": "Retrofusion Boutique Homestays",
+      "url": "https://retrofusion.in/",
+      "logo": "https://retrofusion.in/images/logo.png"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://retrofusion.in/villas-in-lonavala-for-bachelor-party#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://retrofusion.in/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Villas for Bachelor Party",
+          "item": "https://retrofusion.in/villas-in-lonavala-for-bachelor-party"
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://retrofusion.in/villas-in-lonavala-for-bachelor-party#itemlist",
+      "name": "Best Party Villas in Lonavala",
+      "numberOfItems": 3,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "Accommodation",
+            "name": "Retro Visawa (Hilltop Party)",
+            "url": "https://retrofusion.in/retro-viswa-lonavala"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "Accommodation",
+            "name": "Neo Retro Villa (Artistic Party)",
+            "url": "https://retrofusion.in/neo-retro"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "Accommodation",
+            "name": "Retro Villa (Classic Party)",
+            "url": "https://retrofusion.in/retro-villas"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://retrofusion.in/villas-in-lonavala-for-bachelor-party#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Are parties allowed in your villas in Lonavala?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, we offer specialized party-friendly villas like Retro Visawa and Neo Retro Villa which are perfect for bachelor parties and group celebrations with private pools and large decks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you provide BBQ for bachelor parties?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely! We provide BBQ equipment and can also arrange for a private chef to handle the grilling for your group party."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://retrofusion.in/villas-in-lonavala-for-bachelor-party#webpage",
+      "url": "https://retrofusion.in/villas-in-lonavala-for-bachelor-party",
+      "name": "Villas in Lonavala for Group Party | Bachelor Party Stays",
+      "isPartOf": { "@id": "https://retrofusion.in/#website" }
     }
   ]
 }
