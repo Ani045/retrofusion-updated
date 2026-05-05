@@ -1,13 +1,13 @@
 <?php
-$pageTitle = "Pet-Friendly Villas in Lonavala | Luxury Homestays with Private Pool";
-$pageDescription = "Discover top-rated pet friendly villas in Lonavala. Enjoy a private pool, lush lawns, and unmatched luxury stays tailored for you and your furry companions.";
+$pageTitle = "Pet-Friendly Villas in Lonavala | Luxury 4BHK Stays with Lawns";
+$pageDescription = "Discover top-rated pet-friendly villas in Lonavala. Enjoy private infinity pools, massive fenced lawns, and unmatched luxury stays for you and your furry family.";
 $pageKeywords = "pet friendly villas in lonavala, luxury pet friendly villas in lonavala, pet friendly stays lonavala, villas in lonavala for family and pets, pet friendly weekend getaways near mumbai, dog friendly resorts lonavala, private pool villas lonavala pet allowed";
 $pageRobots = "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1";
 $pageAuthor = "Retrofusion Boutique Homestays";
 $pagePublisher = "Retrofusion Boutique Homestays";
-$canonicalUrl = "https://retrofusion.in/pet-friendly-villas-in-lonavala.php";
-$ogTitle = "Premium Pet-Friendly Villas in Lonavala";
-$ogImage = "images/v1770226533_N34_stewru.jpg";
+$canonicalUrl = "https://retrofusion.in/pet-friendly-villas-in-lonavala";
+$ogTitle = "Luxury Pet-Friendly 4BHK Villas in Lonavala | Retrofusion";
+$ogImage = "images/pet_friendly_villa_lonavala_hero.png";
 include 'includes/header.php';
 ?>
 
@@ -17,23 +17,21 @@ include 'includes/header.php';
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "VacationRental",
-      "@id": "https://retrofusion.in/pet-friendly-villas-in-lonavala.php#property",
-      "additionalType": "https://en.wikipedia.org/wiki/Villa",
-      "identifier": "RF-PET-LON",
-      "name": "Pet-Friendly Villas in Lonavala",
-      "description": "Luxurious pet-friendly villas in Lonavala featuring huge lawns, private swimming pools, and dedicated amenities to make your furry friends feel at home.",
-      "url": "https://retrofusion.in/pet-friendly-villas-in-lonavala.php",
+      "@type": "LodgingBusiness",
+      "@id": "https://retrofusion.in/pet-friendly-villas-in-lonavala#lodging",
+      "name": "Pet-Friendly Villas in Lonavala - Retrofusion",
+      "description": "Luxurious pet-friendly 4BHK villas in Lonavala featuring massive fenced lawns, private swimming pools, and dedicated pet-friendly hospitality.",
+      "url": "https://retrofusion.in/pet-friendly-villas-in-lonavala",
       "image": [
-        "images/v1770226533_N34_stewru.jpg",
-        "images/v1769868140_B30_yc8rqu.webp",
-        "images/v1769868140_C26_j6pstx.webp",
-        "images/v1769868140_05_ivb2yz.webp",
-        "images/v1770226534_N36_om6t9d.jpg",
-        "images/v1769868155_M08_qewdva.webp",
-        "images/v1769868143_M01_jjmwdw.webp",
-        "images/v1769868142_G31_mdlfjh.webp"
+        "https://retrofusion.in/images/pet_friendly_villa_lonavala_hero.png",
+        "https://retrofusion.in/images/v1770226533_N34_stewru.jpg",
+        "https://retrofusion.in/images/v1769868140_B30_yc8rqu.webp",
+        "https://retrofusion.in/images/v1769868140_C26_j6pstx.webp",
+        "https://retrofusion.in/images/v1770226534_N36_om6t9d.jpg",
+        "https://retrofusion.in/images/v1769868155_M08_qewdva.webp",
+        "https://retrofusion.in/images/v1769868143_M01_jjmwdw.webp"
       ],
+      "identifier": "RF-PET-LON-01",
       "telephone": "+91 8999036644",
       "address": {
         "@type": "PostalAddress",
@@ -45,57 +43,26 @@ include 'includes/header.php';
       },
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": "18.754",
-        "longitude": "73.407"
+        "latitude": "18.7544",
+        "longitude": "73.4062"
       },
-      "petsAllowed": "True",
-      "amenityFeature": [
-        {
-          "@type": "LocationFeatureSpecification",
-          "name": "Pets Allowed",
-          "value": "True"
-        },
-        {
-          "@type": "LocationFeatureSpecification",
-          "name": "Private Swimming Pool",
-          "value": "True"
-        },
-        {
-          "@type": "LocationFeatureSpecification",
-          "name": "Fenced Lawn",
-          "value": "True"
-        }
-      ],
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.9",
-        "reviewCount": "182"
+        "reviewCount": "195"
       },
-      "review": [
-        {
-          "@type": "Review",
-          "datePublished": "2024-03-05T10:00:00+05:30",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5"
-          },
-          "author": {
-            "@type": "Person",
-            "name": "Priya S."
-          },
-          "reviewBody": "Amazing pet-friendly stay in Lonavala. The lawns were huge, and my golden retriever had the best time!"
-        }
-      ],
-      "containsPlace": [
-        {
-          "@type": "Accommodation",
-          "name": "Luxury Pet Friendly Lodging",
-          "numberOfRooms": "1"
-        }
-      ]
+      "priceRange": "$$"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://retrofusion.in/#organization",
+      "name": "Retrofusion Boutique Homestays",
+      "url": "https://retrofusion.in/",
+      "logo": "https://retrofusion.in/images/logo.png"
     },
     {
       "@type": "BreadcrumbList",
+      "@id": "https://retrofusion.in/pet-friendly-villas-in-lonavala#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -106,17 +73,53 @@ include 'includes/header.php';
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Pet Friendly Villas in Lonavala",
-          "item": "https://retrofusion.in/pet-friendly-villas-in-lonavala.php"
+          "name": "Pet Friendly Villas",
+          "item": "https://retrofusion.in/pet-friendly-villas-in-lonavala"
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://retrofusion.in/pet-friendly-villas-in-lonavala#itemlist",
+      "name": "Best Pet-Friendly Retreats in Lonavala",
+      "numberOfItems": 3,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "Accommodation",
+            "name": "Retro Visawa (Fenced Lawns)",
+            "url": "https://retrofusion.in/retro-viswa-lonavala"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "Accommodation",
+            "name": "Retro Villa (Spacious Deck)",
+            "url": "https://retrofusion.in/retro-villas"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "Accommodation",
+            "name": "Neo Retro Villa (Modern Comfort)",
+            "url": "https://retrofusion.in/neo-retro"
+          }
         }
       ]
     },
     {
       "@type": "FAQPage",
+      "@id": "https://retrofusion.in/pet-friendly-villas-in-lonavala#faq",
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Are your villas completely pet-friendly?",
+          "name": "Are your villas in Lonavala completely pet-friendly?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Yes, our pet-friendly villas in Lonavala welcome dogs, cats, and other domestic pets. We offer expansive lawns and safe environments for them to freely roam during your holiday."
@@ -124,58 +127,18 @@ include 'includes/header.php';
         },
         {
           "@type": "Question",
-          "name": "Are there extra charges for bringing pets?",
+          "name": "Are the lawns fenced for pet safety?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "We typically charge a nominal fee for deep cleaning after check-out when you bring pets to maintain hygiene standards for future guests. Please confirm with our booking team."
+            "text": "Absolutely. All our pet-friendly properties feature fully fenced boundaries and private gated access, ensuring your furry friends can play safely without wandering off."
           }
         },
         {
           "@type": "Question",
-          "name": "Do you provide pet food or bowls?",
+          "name": "Do you charge extra for pets?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "While we recommend bringing your pet's specific food, we can provide basic bowls upon prior request. Special meals can also be arranged with our in-house chef if notified in advance."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is the property fenced to ensure my dog's safety?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Absolutely. Our pet friendly stays in Lonavala feature fully fenced boundaries, ensuring your pets can safely enjoy the outdoors without wandering off."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Are pets allowed inside the private pool?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "For hygiene reasons and the safety of all guests, pets are generally not allowed inside the main swimming pool. However, they can relax by the poolside with you."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can we leave our pets alone in the villa?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "We request that pets are never left unattended in the villa or rooms to prevent any anxiety, property damage, or distress to the animal in an unfamiliar environment."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do you have specific rules for pets sleeping on beds?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "We ask that pets do not sleep on the main beds. Bringing their own cozy beds or placing a protective sheet over furniture ensures the space remains clean."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Are there nearby vets in case of an emergency?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, Lonavala has local veterinary clinics. Our caretakers have emergency contact details to assist you if your furry friend needs urgent medical attention."
+            "text": "We charge a nominal pet cleaning fee to ensure the villa is deep-cleaned and sanitized for subsequent guests, maintaining the highest hygiene standards."
           }
         },
         {
@@ -183,18 +146,49 @@ include 'includes/header.php';
           "name": "Is there a limit on the number of pets allowed?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "We typically allow 2-3 small to medium pets or 1-2 large dogs per booking. If you are traveling with more, please discuss this with us directly."
+            "text": "We typically allow 2-3 pets per villa, but this can be adjusted based on the size of the pets and the specific property. Please confirm with our team at the time of booking."
           }
         },
         {
           "@type": "Question",
-          "name": "Is the surrounding area calm for anxious pets?",
+          "name": "Can pets access the private swimming pool?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, being tucked away from the main highway, our villas are quiet and serene, making them perfect for pets who might be sensitive to loud noises."
+            "text": "For hygiene reasons, pets are not allowed inside the main swimming pool. However, they are free to lounge on the pool deck and in the surrounding garden areas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you provide pet food or bowls?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We recommend bringing your pet's regular food to avoid any digestive issues. We can provide basic bowls and can arrange for fresh pet-friendly meals upon prior request."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are there nearby veterinarians in Lonavala?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, Lonavala has several reliable veterinary clinics. Our on-site caretakers can provide emergency contact details and assist you if needed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the check-in time for pet stays?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check-in is at 1:00 PM and check-out is at 11:00 AM. This gives us enough time to perform a deep-clean to ensure a fresh environment for every guest."
           }
         }
       ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://retrofusion.in/pet-friendly-villas-in-lonavala#webpage",
+      "url": "https://retrofusion.in/pet-friendly-villas-in-lonavala",
+      "name": "Luxury Pet Friendly Villas with Private Pool in Lonavala",
+      "isPartOf": { "@id": "https://retrofusion.in/#website" }
     }
   ]
 }
@@ -202,20 +196,20 @@ include 'includes/header.php';
 
 <!-- ===== HERO SECTION ===== -->
 <section class="relative h-screen overflow-hidden">
-  <img src="images/v1770226533_N34_stewru.jpg"
-    class="absolute inset-0 w-full h-full object-cover" alt="Pet Friendly Villas in Lonavala" title="Pet Friendly Villas in Lonavala with Large Lawns" />
-  <div class="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-black/60"></div>
-  <div class="relative z-10 h-full flex flex-col justify-center items-center px-4 sm:px-6 lg:px-8">
-    <div class="max-w-4xl mx-auto text-center">
+  <img src="images/pet_friendly_villa_lonavala_hero.png"
+    class="absolute inset-0 w-full h-full object-cover" alt="Luxury Pet Friendly Villa in Lonavala" title="Pet Friendly Luxury Stays" />
+  <div class="absolute inset-0 bg-gradient-to-b from-black/50 via-black/20 to-black/60"></div>
+  <div class="relative z-10 h-full flex flex-col justify-center items-center px-4 sm:px-6 lg:px-8 text-center">
+    <div class="max-w-4xl mx-auto">
       <div class="space-y-4 sm:space-y-6 mb-8">
-        <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight drop-shadow-2xl font-display">
-          Pet-Friendly Villas in Lonavala</h1>
+        <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight drop-shadow-2xl font-display uppercase tracking-tighter">
+          Paws & <span class="text-amber-400">Privilege</span></h1>
         <p class="text-base sm:text-lg md:text-xl lg:text-2xl text-white/90 font-light max-w-2xl mx-auto">
-          Unforgettable luxury stays where your furry family members are always welcome.</p>
+          Luxury 4BHK villas where your furry family members are always the V.I.P guests.</p>
       </div>
       <a href="#booking"
-        class="group bg-amber-600 hover:bg-amber-500 text-white px-8 sm:px-10 py-3 sm:py-4 rounded-full text-base sm:text-lg font-medium transition-all duration-500 inline-flex items-center justify-center space-x-3 hover:scale-105 shadow-xl hover:shadow-amber-600/30">
-        <span>Book Your Pet Stay</span>
+        class="group bg-white text-stone-900 hover:bg-amber-600 hover:text-white px-8 sm:px-10 py-3 sm:py-4 rounded-full text-base sm:text-lg font-medium transition-all duration-500 inline-flex items-center justify-center space-x-3 hover:scale-105 shadow-xl">
+        <span>Book Your Pet Getaway</span>
         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
         </svg>
@@ -224,292 +218,302 @@ include 'includes/header.php';
   </div>
 </section>
 
-<!-- ===== ABOUT & FEATURES SECTION ===== -->
-<section class="py-12 md:py-16 bg-white">
+<!-- ===== INTRO SECTION ===== -->
+<section class="py-16 md:py-24 bg-white overflow-hidden">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 mb-10 md:mb-14 items-center">
-      <div>
-        <div class="flex items-center space-x-2 mb-4">
-          <svg class="w-5 h-5 text-amber-600" fill="currentColor" viewBox="0 0 24 24">
-            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
-          </svg>
-          <span class="text-amber-600 text-sm font-medium uppercase tracking-wider">Paws & Relax</span>
-        </div>
-        <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-[#0F2A24] leading-tight mb-6 font-display">
-          A Vacation for <span class="text-amber-600">Every</span> Family Member</h2>
-        
-        <p class="text-stone-600 text-base md:text-lg leading-relaxed mb-6">
-          Leaving your beloved pets behind can cause stress for both of you. At our <strong>pet friendly villas in Lonavala</strong>, we believe vacations should include the whole family. Whether you seek sprawling private estates or luxurious stays nestled in the misty green hills, our properties provide everything needed to guarantee an exceptional escape.
-        </p>
-
-        <ul class="space-y-4 mb-6">
-          <li class="flex items-start">
-            <span class="text-amber-600 mr-3 mt-1"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg></span>
-            <span class="text-stone-700"><strong>Huge Fenced Lawns:</strong> Letting your dog run free is a joy securely offered in our protected properties.</span>
-          </li>
-          <li class="flex items-start">
-            <span class="text-amber-600 mr-3 mt-1"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg></span>
-            <span class="text-stone-700"><strong>Pet-Friendly Staff:</strong> Our accommodating caretakers create a welcoming atmosphere for dogs and cats alike.</span>
-          </li>
-          <li class="flex items-start">
-            <span class="text-amber-600 mr-3 mt-1"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg></span>
-            <span class="text-stone-700"><strong>Luxury Stays:</strong> Enjoy the ambiance of high-end, luxury pet friendly villas in Lonavala complete with expansive interiors.</span>
-          </li>
-          <li class="flex items-start">
-            <span class="text-amber-600 mr-3 mt-1"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg></span>
-            <span class="text-stone-700"><strong>Private Pool Access:</strong> Relax nearby your private pool while your pets lounge in the sun safely beside you.</span>
-          </li>
-        </ul>
+    <div class="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
+      <div class="w-full lg:w-1/2 relative">
+        <div class="absolute -top-10 -left-10 w-40 h-40 bg-amber-50 rounded-full mix-blend-multiply filter blur-2xl opacity-70 animate-blob"></div>
+        <div class="absolute -bottom-10 -right-10 w-40 h-40 bg-stone-100 rounded-full mix-blend-multiply filter blur-2xl opacity-70 animate-blob animation-delay-2000"></div>
+        <img src="images/v1770226533_N34_stewru.jpg" alt="Lush Green Villa Lawns" class="relative rounded-3xl shadow-2xl z-10 w-full hover:scale-[1.02] transition-transform duration-700" />
       </div>
       
-      <div class="grid grid-rows-2 gap-6">
-        <div class="relative group overflow-hidden rounded-3xl">
-          <img loading="lazy" src="images/pet-friendly-villa-in-lonavla.jpg"
-            alt="Happy pet dog relaxing at the villa" title="Pet Friendly Villa Accommodations"
-            class="w-full h-56 md:h-72 object-cover transition-transform duration-700 group-hover:scale-105" />
+      <div class="w-full lg:w-1/2 space-y-8">
+        <div class="inline-flex items-center space-x-2 px-4 py-2 bg-amber-50 rounded-full text-amber-700 text-xs font-bold uppercase tracking-widest">
+          <span class="relative flex h-2 w-2">
+            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75"></span>
+            <span class="relative inline-flex rounded-full h-2 w-2 bg-amber-500"></span>
+          </span>
+          <span>Fenced & Secure Lawns</span>
         </div>
-        <div class="relative group overflow-hidden rounded-3xl">
-          <img loading="lazy" src="images/pet_villa_second_generated.png"
-            alt="Outdoor area in private pool villas lonavala pet allowed" title="Fenced Lawns in Private Pool Villas Lonavala"
-            class="w-full h-56 md:h-72 object-cover transition-transform duration-700 group-hover:scale-105" />
+        <h2 class="text-4xl sm:text-5xl font-bold text-[#0F2A24] leading-tight font-display text-center lg:text-left">
+          Because <span class="text-amber-600 italic">Family</span> Travels Together</h2>
+        <p class="text-stone-600 text-lg leading-relaxed text-center lg:text-left font-light">
+          Why leave your best friend behind? At Retrofusion, we redefine **pet-friendly villas in Lonavala**. Our properties are more than just "pet allowed"—they are designed for pet safety and human luxury. With massive, **fully fenced private lawns** and expansive decks, your dogs and cats can roam freely while you soak in the misty Sahyadri views. Experience the true joy of a **luxury pet-friendly stay** without any compromise.
+        </p>
+        <div class="grid grid-cols-2 gap-6 pt-4">
+          <div class="flex items-center space-x-4">
+            <div class="w-12 h-12 bg-[#0F2A24] rounded-2xl flex items-center justify-center text-amber-400 shadow-lg">🐾</div>
+            <span class="font-bold text-[#0F2A24] text-sm uppercase">Pet Safe</span>
+          </div>
+          <div class="flex items-center space-x-4">
+            <div class="w-12 h-12 bg-[#0F2A24] rounded-2xl flex items-center justify-center text-amber-400 shadow-lg">🌿</div>
+            <span class="font-bold text-[#0F2A24] text-sm uppercase">Huge Lawns</span>
+          </div>
         </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== VIBES & MOMENTS (14 IMAGE BENTO) ===== -->
+<section class="py-16 md:py-24 bg-stone-50">
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="text-center mb-16">
+      <h2 class="text-3xl sm:text-5xl font-bold text-[#0F2A24] mb-4 font-display italic leading-tight text-center">Freedom to <span class="text-amber-600">Roam</span></h2>
+      <p class="text-stone-500 text-lg">Moments of joy for you and your pets.</p>
+    </div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-4 h-auto md:h-[800px]">
+      <!-- Row 1 -->
+      <div class="md:col-span-2 relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(0)">
+        <img src="images/v1770226533_N34_stewru.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Pet Friendly Lawn">
+        <div class="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-colors duration-500"></div>
+      </div>
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(1)">
+        <img src="images/v1769868140_B30_yc8rqu.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Pet Friendly Living">
+      </div>
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(2)">
+        <img src="images/v1769868140_C26_j6pstx.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Luxury Suite">
+      </div>
+      
+      <!-- Row 2 -->
+      <div class="md:col-span-2 relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(3)">
+        <img src="images/v1770226534_N36_om6t9d.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Villa Exterior">
+      </div>
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(4)">
+        <img src="images/v1769868155_M08_qewdva.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Modern Bedroom">
+      </div>
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(5)">
+        <img src="images/v1769868143_M01_jjmwdw.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Gourmet Dining">
+      </div>
+      
+      <!-- Row 3 -->
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(6)">
+        <img src="images/v1774810269_12_lo4gpx.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Private Pool">
+      </div>
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(7)">
+        <img src="images/v1774811620_30_1_eexljz.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Sleek Interiors">
+      </div>
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(8)">
+        <img src="images/v1774807176_34_vpeqgv.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Evening Poolside">
+      </div>
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(9)">
+        <img src="images/v1773076342_23_wby8bv.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Artisan Food">
+      </div>
+      
+      <!-- Row 4 -->
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(10)">
+        <img src="images/v1769868140_B30_yc8rqu.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Living Hall">
+      </div>
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(11)">
+        <img src="images/v1769868142_H10_byp3oh.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Sunlight Spaces">
+      </div>
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(12)">
+        <img src="images/v1774810653_N35_h2djzp.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Designer Decor">
+      </div>
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(13)">
+        <img src="images/v1774809447_06_htf59g.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Premium Finish">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PET FRIENDLY VILLAS SECTION ===== -->
+<section id="villas" class="py-16 md:py-24 bg-white">
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="mb-16 text-center">
+      <h2 class="text-3xl sm:text-5xl font-bold text-[#0F2A24] mb-4 font-display leading-tight text-center">Pet <span class="text-amber-600">Paradises</span></h2>
+      <p class="text-stone-500 text-lg text-center">Handpicked villas with massive fenced lawns.</p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <!-- Retro Visawa -->
+      <div class="group bg-white rounded-3xl overflow-hidden shadow-xl border border-stone-100 transition-all duration-500 hover:-translate-y-2">
+        <div class="relative h-64 overflow-hidden">
+          <img src="images/v1770226533_N34_stewru.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Retro Visawa">
+          <div class="absolute top-4 left-4 bg-emerald-500 text-white text-[10px] uppercase font-bold px-4 py-1 rounded-full italic">Best for Large Dogs</div>
+        </div>
+        <div class="p-8">
+          <h3 class="text-2xl font-bold text-[#0F2A24] mb-4 font-display">Retro Visawa</h3>
+          <p class="text-stone-500 text-sm mb-6 leading-relaxed">Features a massive private lawn where your dogs can run without a leash.</p>
+          <a href="retro-viswa-lonavala" class="block text-center bg-[#0F2A24] text-white py-3 rounded-xl font-bold hover:bg-amber-600 transition-colors">Book Pet Stay</a>
+        </div>
+      </div>
+
+      <!-- Retro Villa -->
+      <div class="group bg-white rounded-3xl overflow-hidden shadow-xl border border-amber-200 transition-all duration-500 hover:-translate-y-2 scale-[1.05] z-10">
+        <div class="relative h-64 overflow-hidden">
+          <img src="images/v1770226534_N36_om6t9d.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Retro Villa">
+          <div class="absolute top-4 left-4 bg-amber-500 text-white text-[10px] uppercase font-bold px-4 py-1 rounded-full italic">Most Popular</div>
+        </div>
+        <div class="p-8 text-center">
+          <h3 class="text-2xl font-bold text-[#0F2A24] mb-4 font-display">Retro Villa</h3>
+          <p class="text-stone-500 text-sm mb-6 leading-relaxed">Spacious verandas and secure fencing make it a top choice for pet parents.</p>
+          <a href="retro-villas" class="block text-center bg-amber-600 text-white py-3 rounded-xl font-bold hover:bg-[#0F2A24] transition-colors shadow-lg">Book Pet Stay</a>
+        </div>
+      </div>
+
+      <!-- Neo Retro Villa -->
+      <div class="group bg-white rounded-3xl overflow-hidden shadow-xl border border-stone-100 transition-all duration-500 hover:-translate-y-2">
+        <div class="relative h-64 overflow-hidden">
+          <img src="images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Neo Retro">
+          <div class="absolute top-4 left-4 bg-stone-800 text-white text-[10px] uppercase font-bold px-4 py-1 rounded-full italic">Modern Safe</div>
+        </div>
+        <div class="p-8">
+          <h3 class="text-2xl font-bold text-[#0F2A24] mb-4 font-display">Neo Retro</h3>
+          <p class="text-stone-500 text-sm mb-6 leading-relaxed">Artistic interiors with pet-friendly flooring and easy garden access.</p>
+          <a href="neo-retro" class="block text-center bg-[#0F2A24] text-white py-3 rounded-xl font-bold hover:bg-amber-600 transition-colors">Book Pet Stay</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PET AMENITIES ===== -->
+<section class="py-16 md:py-24 bg-[#0F2A24] text-white">
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+      <div class="text-center group">
+        <div class="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-amber-600 transition-all duration-500">🏞️</div>
+        <h4 class="text-lg font-bold mb-2">Fenced Lawns</h4>
+        <p class="text-stone-400 text-xs">Safe off-leash freedom.</p>
+      </div>
+      <div class="text-center group">
+        <div class="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-amber-600 transition-all duration-500">🧼</div>
+        <h4 class="text-lg font-bold mb-2">Deep Sanitization</h4>
+        <p class="text-stone-400 text-xs">Hygiene is our priority.</p>
+      </div>
+      <div class="text-center group">
+        <div class="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-amber-600 transition-all duration-500">🐶</div>
+        <h4 class="text-lg font-bold mb-2">Pet Hospitality</h4>
+        <p class="text-stone-400 text-xs">Warm welcome for all pets.</p>
+      </div>
+      <div class="text-center group">
+        <div class="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-amber-600 transition-all duration-500">🚑</div>
+        <h4 class="text-lg font-bold mb-2">Vet Access</h4>
+        <p class="text-stone-400 text-xs">Emergency medical support.</p>
       </div>
     </div>
   </div>
 </section>
 
 <!-- ===== SEO CONTENT SECTION ===== -->
-<section class="py-12 md:py-16 bg-stone-50 border-y border-stone-200">
-  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+<section class="py-16 md:py-24 bg-white border-b border-stone-100">
+  <div class="max-w-4xl mx-auto px-4 text-center lg:text-left">
     <div class="prose prose-stone lg:prose-lg mx-auto">
-      <h2 class="text-3xl font-bold text-[#0F2A24] font-display mb-6">Why Choose Our Pet-Friendly Villas in Lonavala?</h2>
-      
-      <p class="leading-relaxed text-stone-600 mb-6">
-        Planning a holiday usually comes with a huge compromise: finding a place that welcomes your furry companion without sacrificing comfort and style. At our exclusive properties, we remove that compromise. Our <strong>pet friendly villas in Lonavala</strong> are thoughtfully designed to deliver massive amounts of luxury while catering perfectly to families traveling with animals. Our main goal is giving you an opportunity to experience peace, tranquility, and opulence alongside your beloved pets.
+      <h2 class="text-3xl font-bold text-[#0F2A24] font-display mb-6 leading-tight">The Best Pet-Friendly Weekend Getaway Near Mumbai</h2>
+      <p class="leading-relaxed text-stone-600 mb-8 font-light">
+        Leaving your furry friends at home or in a kennel is the hardest part of any vacation. At Retrofusion, we've solved this with our **luxury pet-friendly villas in Lonavala**. Located just a short, scenic drive from Mumbai and Pune, our villas offer the perfect **pet-friendly weekend getaway**. We don't just allow pets; we celebrate them. With massive outdoor spaces and a dedicated on-site team, your pets will have as much fun as you do.
       </p>
 
-      <p class="leading-relaxed text-stone-600 mb-6">
-        The reality is that typical hotel environments restrict pets to tiny rooms, but our wide-open properties provide the perfect solution. Nestled amidst Lonavala's signature beautiful rolling hills, our estates boast expansive outdoor space. These massive areas function as natural playgrounds for your friends to run, sniff, and enjoy the glorious hill-station weather.
+      <h3 class="text-2xl font-bold text-[#0F2A24] font-display mb-4 leading-tight">Secure Lawns and Private Pools</h3>
+      <p class="leading-relaxed text-stone-600 mb-8 font-light">
+        Finding **private pool villas in Lonavala where pets are allowed** can be tough. Most properties have strict restrictions. We offer the luxury of a private pool where you can relax while your pet lounge safely on the deck or explores the **fully fenced lawns**. Security and safety are our top priorities, ensuring a stress-free environment for both pet parents and their companions.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0F2A24] mt-8 mb-4">Discover Luxury Pet-Friendly Villas in Lonavala</h3>
-      <p class="leading-relaxed text-stone-600 mb-6">
-        We firmly believe that choosing pet-friendly accommodation shouldn't mean downgrading your staying experience. That’s why we offer leading <strong>luxury pet friendly villas in Lonavala</strong>. As soon as you step onto our properties, you'll be greeted by high-end architectural designs, immaculately maintained interiors, luxurious furnishings, and unparalleled hospitality. The combination of five-star amenities—like smart TVs, high-speed Wi-Fi, air-conditioned rooms, and deeply comfortable bedding—ensures you relax entirely.
+      <h3 class="text-2xl font-bold text-[#0F2A24] font-display mb-4 leading-tight">A True Home Away From Home</h3>
+      <p class="leading-relaxed text-stone-600 mb-8 font-light">
+        Our **villas in Lonavala for family and pets** are equipped with all modern luxuries—from gourmet private chefs to high-speed Wi-Fi. But more importantly, they offer the space and tranquility that pets need. No more cramped hotel rooms; give your pet the freedom of a private estate in the heart of the Lonavala valleys.
       </p>
-      
-      <p class="leading-relaxed text-stone-600 mb-6">
-        More importantly, our team understands that pets carry their own needs. We go the extra mile to provide a hygienic, spotless environment. From deep-cleaning protocols between stays to ensuring no hazardous materials are left over, the safety of your pets is guaranteed.
-      </p>
-
-      <h3 class="text-xl font-semibold text-[#0F2A24] mt-8 mb-4">The Joy of Private Pool Villas Lonavala Pet Allowed</h3>
-      <p class="leading-relaxed text-stone-600 mb-6">
-        Imagine spending your afternoon beside pristine waters, a tropical mocktail in hand, with your dog happily resting under the shade of a nearby tree. Finding <strong>private pool villas lonavala pet allowed</strong> can often feel impossible, as many properties fiercely regulate their pool areas. We happily break this mold. Our dedicated poolside spots are entirely exclusive to you, meaning you don't have to navigate crowded communal spaces to enjoy a peaceful swim.
-      </p>
-      <p class="leading-relaxed text-stone-600 mb-6">
-        Whether you are planning a spirited summer splash or lounging out during a misty monsoon shower, this unique feature dramatically enhances your weekend escape. Your dogs will love the cool breeze circulating the open verandas around the pool, creating LSI integration for people looking for outstanding <strong>dog friendly resorts lonavala</strong>.
-      </p>
-
-      <h3 class="text-xl font-semibold text-[#0F2A24] mt-8 mb-4">Perfect Pet Friendly Weekend Getaways Near Mumbai/Pune</h3>
-      <p class="leading-relaxed text-stone-600 mb-6">
-        Accessibility is key to a stress-free trip. A car ride lasting too many hours can make pets highly anxious and carsick. That's what makes our locations the ultimate <strong>pet friendly weekend getaways near Mumbai and Pune</strong>. A relatively short, incredibly scenic drive up the Ghats brings you straight to our doorstep. It's the perfect geographical sweet spot—far enough from city pollution and loud traffic to feel completely isolated, yet close enough that travel time remains brief. 
-      </p>
-      
-      <p class="leading-relaxed text-stone-600 mb-6">
-        We also pride ourselves on being among the top <strong>villas in lonavala for family and pets</strong>. Vacations are naturally meant for bonding. Here, the whole family can engage in outdoor picnic setups, frisbee tossing on the grand lawns, and late-night barbecue sessions right under the stars. By curating environments that emphasize communal bonding and relaxation, we guarantee memories that will endure a lifetime.
-      </p>
-
-      <h3 class="text-xl font-semibold text-[#0F2A24] mt-8 mb-4">Embrace Holistic Pet Friendly Stays Lonavala</h3>
-      <p class="leading-relaxed text-stone-600 mb-6">
-        Our entire hosting ethos revolves around treating our guests with warmth. Thus, our <strong>pet friendly stays lonavala</strong> are built on trust, respect, and mutual joy. While we invite your pets, we also communicate transparent guidelines to maintain a superb ecosystem for every guest entering the door. Securing a stay with us guarantees you'll never again scour the internet blindly hoping to find a place that accommodates your real family configuration.
-      </p>
-      <p class="leading-relaxed text-stone-600">
-        Skip the heartbreaking goodbyes at the boarding kennel. Stop worrying about whether your pet is eating properly while you're away. Take them along! Book one of our premier villas today and transform an ordinary getaway into an extraordinary holiday, wrapped in the serene magic of Lonavala’s valleys.
-      </p>
-
-    </div>
-  </div>
-</section>
-
-<!-- ===== GALLERY SECTION ===== -->
-<section id="gallery" class="py-12 md:py-16 bg-[#F4EFEA]">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="text-center mb-12">
-      <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-[#0F2A24] leading-tight mb-4 font-display">
-        Experience <span class="text-amber-600">Luxury</span> Spaces</h2>
-      <p class="text-stone-600 font-light text-lg">Wander through wide verandas and pet-safe sprawling lawns.</p>
-    </div>
-
-    <!-- Bento Gallery Container -->
-    <div class="relative">
-      <div id="bento-grid" class="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4 h-[400px] md:h-[450px] transition-opacity duration-500">
-        <!-- Image 1 -->
-        <div class="relative overflow-hidden group cursor-pointer col-span-2 md:col-span-2 row-span-1 md:row-span-2 rounded-2xl shadow-lg" onclick="openLightbox(0)">
-          <img loading="lazy" src="images/v1770226533_N34_stewru.jpg" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="Pet Friendly Estate Exterior" title="Pet Friendly Villas Lonavala Lawns">
-          <div class="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors duration-300 flex items-center justify-center">
-            <div class="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              <div class="w-10 h-10 md:w-12 md:h-12 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center">
-                <svg class="w-5 h-5 md:w-6 md:h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7" /></svg>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Image 2 -->
-        <div class="relative overflow-hidden group cursor-pointer col-span-2 md:col-span-2 row-span-1 md:row-span-1 rounded-2xl shadow-lg hidden md:block" onclick="openLightbox(1)">
-          <img loading="lazy" src="images/v1769868140_B30_yc8rqu.webp" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="Spacious Lonavala Living Room" title="Luxury Pet Friendly Living Space">
-          <div class="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors duration-300 flex items-center justify-center">
-            <div class="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              <div class="w-10 h-10 md:w-12 md:h-12 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center">
-                <svg class="w-5 h-5 md:w-6 md:h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7" /></svg>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Image 3 -->
-        <div class="relative overflow-hidden group cursor-pointer col-span-1 md:col-span-1 row-span-1 md:row-span-1 rounded-2xl shadow-lg" onclick="openLightbox(2)">
-          <img loading="lazy" src="images/v1769868140_C26_j6pstx.webp" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="Cozy Bedrooms" title="Villas in Lonavala for Family and Pets">
-          <div class="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors duration-300 flex items-center justify-center">
-            <div class="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              <div class="w-10 h-10 md:w-12 md:h-12 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center">
-                <svg class="w-5 h-5 md:w-6 md:h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7" /></svg>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Image 4 -->
-        <div class="relative overflow-hidden group cursor-pointer col-span-1 md:col-span-1 row-span-1 md:row-span-1 rounded-2xl shadow-lg" onclick="openLightbox(3)">
-          <img loading="lazy" src="images/v1769868140_05_ivb2yz.webp" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="Private Pool Area" title="Private Pool Villas Lonavala Pet Allowed">
-          <div class="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors duration-300 flex items-center justify-center">
-            <div class="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              <div class="w-10 h-10 md:w-12 md:h-12 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center">
-                <svg class="w-5 h-5 md:w-6 md:h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7" /></svg>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Indicators -->
-      <div class="flex justify-center mt-6 space-x-3" id="gallery-indicators">
-        <button onclick="setGallerySet(0)" class="h-2 rounded-full transition-all duration-500 bg-amber-600 w-8"></button>
-        <button onclick="setGallerySet(1)" class="h-2 rounded-full transition-all duration-500 bg-stone-300 hover:bg-stone-400 w-2"></button>
-        <button onclick="setGallerySet(2)" class="h-2 rounded-full transition-all duration-500 bg-stone-300 hover:bg-stone-400 w-2"></button>
-        <button onclick="setGallerySet(3)" class="h-2 rounded-full transition-all duration-500 bg-stone-300 hover:bg-stone-400 w-2"></button>
-      </div>
     </div>
   </div>
 </section>
 
 <!-- ===== FAQ SECTION ===== -->
-<section class="relative py-12 md:py-14 bg-stone-900 border-t border-stone-800">
-  <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-start">
-      <div class="scroll-reveal-left">
-        <h2 class="text-2xl sm:text-3xl font-bold text-white mb-6 font-display">Frequently Asked <span class="text-amber-400">Questions</span></h2>
-        <div class="space-y-3">
-          <!-- FAQ 1 -->
-          <div class="bg-white/10 backdrop-blur-sm rounded-xl border border-white/10 overflow-hidden">
-            <button onclick="toggleFAQ(this)" class="w-full px-5 py-4 flex items-center justify-between text-left hover:bg-white/5 transition-colors">
-              <h3 class="text-base font-medium text-white pr-4 font-display">Are your villas completely pet-friendly?</h3>
-              <svg class="w-4 h-4 text-white/60 flex-shrink-0 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
-            </button>
-            <div class="faq-content h-0 overflow-hidden transition-all duration-200 opacity-0">
-              <p class="px-5 pb-4 text-stone-300 text-sm leading-relaxed">Yes, our pet-friendly villas in Lonavala welcome dogs, cats, and other domestic pets. We offer expansive lawns and safe environments for them to freely roam during your holiday.</p>
-            </div>
-          </div>
-          <!-- FAQ 2 -->
-          <div class="bg-white/10 backdrop-blur-sm rounded-xl border border-white/10 overflow-hidden">
-            <button onclick="toggleFAQ(this)" class="w-full px-5 py-4 flex items-center justify-between text-left hover:bg-white/5 transition-colors">
-              <h3 class="text-base font-medium text-white pr-4 font-display">Are there extra charges for bringing pets?</h3>
-              <svg class="w-4 h-4 text-white/60 flex-shrink-0 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
-            </button>
-            <div class="faq-content h-0 overflow-hidden transition-all duration-200 opacity-0">
-              <p class="px-5 pb-4 text-stone-300 text-sm leading-relaxed">We typically charge a nominal fee for deep cleaning after check-out when you bring pets to maintain hygiene standards for future guests. Please confirm with our booking team.</p>
-            </div>
-          </div>
-          <!-- FAQ 3 -->
-          <div class="bg-white/10 backdrop-blur-sm rounded-xl border border-white/10 overflow-hidden">
-            <button onclick="toggleFAQ(this)" class="w-full px-5 py-4 flex items-center justify-between text-left hover:bg-white/5 transition-colors">
-              <h3 class="text-base font-medium text-white pr-4 font-display">Do you provide pet food or bowls?</h3>
-              <svg class="w-4 h-4 text-white/60 flex-shrink-0 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
-            </button>
-            <div class="faq-content h-0 overflow-hidden transition-all duration-200 opacity-0">
-              <p class="px-5 pb-4 text-stone-300 text-sm leading-relaxed">While we recommend bringing your pet's specific food, we can provide basic bowls upon prior request. Special meals can also be arranged with our in-house chef if notified in advance.</p>
-            </div>
-          </div>
-          <!-- FAQ 4 -->
-          <div class="bg-white/10 backdrop-blur-sm rounded-xl border border-white/10 overflow-hidden">
-            <button onclick="toggleFAQ(this)" class="w-full px-5 py-4 flex items-center justify-between text-left hover:bg-white/5 transition-colors">
-              <h3 class="text-base font-medium text-white pr-4 font-display">Is the property fenced to ensure my dog's safety?</h3>
-              <svg class="w-4 h-4 text-white/60 flex-shrink-0 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
-            </button>
-            <div class="faq-content h-0 overflow-hidden transition-all duration-200 opacity-0">
-              <p class="px-5 pb-4 text-stone-300 text-sm leading-relaxed">Absolutely. Our pet friendly stays in Lonavala feature fully fenced boundaries, ensuring your pets can safely enjoy the outdoors without wandering off.</p>
-            </div>
-          </div>
-          <!-- FAQ 5 -->
-          <div class="bg-white/10 backdrop-blur-sm rounded-xl border border-white/10 overflow-hidden">
-            <button onclick="toggleFAQ(this)" class="w-full px-5 py-4 flex items-center justify-between text-left hover:bg-white/5 transition-colors">
-              <h3 class="text-base font-medium text-white pr-4 font-display">Are pets allowed inside the private pool?</h3>
-              <svg class="w-4 h-4 text-white/60 flex-shrink-0 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
-            </button>
-            <div class="faq-content h-0 overflow-hidden transition-all duration-200 opacity-0">
-              <p class="px-5 pb-4 text-stone-300 text-sm leading-relaxed">For hygiene reasons and the safety of all guests, pets are generally not allowed inside the main swimming pool. However, they can relax by the poolside with you.</p>
-            </div>
-          </div>
+<section class="py-16 md:py-24 bg-stone-50">
+  <div class="max-w-3xl mx-auto px-4 text-center lg:text-left">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl sm:text-5xl font-bold text-[#0F2A24] mb-4 font-display leading-tight">Pet Stay <span class="text-amber-600">FAQs</span></h2>
+      <p class="text-stone-500">Everything you need to know about bringing your pets.</p>
+    </div>
+    
+    <div class="space-y-4">
+      <!-- FAQ 1 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(0)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">Are your villas in Lonavala completely pet-friendly?</span>
+          <svg id="faq-icon-0" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-0" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          Yes, our pet-friendly villas in Lonavala welcome dogs, cats, and other domestic pets. We offer expansive lawns and safe environments for them to freely roam during your holiday.
         </div>
       </div>
-      <div class="scroll-reveal-right">
-        <div class="space-y-3 mt-14">
-          <!-- FAQ 6 -->
-          <div class="bg-white/10 backdrop-blur-sm rounded-xl border border-white/10 overflow-hidden">
-            <button onclick="toggleFAQ(this)" class="w-full px-5 py-4 flex items-center justify-between text-left hover:bg-white/5 transition-colors">
-              <h3 class="text-base font-medium text-white pr-4 font-display">Can we leave our pets alone in the villa?</h3>
-              <svg class="w-4 h-4 text-white/60 flex-shrink-0 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
-            </button>
-            <div class="faq-content h-0 overflow-hidden transition-all duration-200 opacity-0">
-              <p class="px-5 pb-4 text-stone-300 text-sm leading-relaxed">We request that pets are never left unattended in the villa or rooms to prevent any anxiety, property damage, or distress to the animal in an unfamiliar environment.</p>
-            </div>
-          </div>
-          <!-- FAQ 7 -->
-          <div class="bg-white/10 backdrop-blur-sm rounded-xl border border-white/10 overflow-hidden">
-            <button onclick="toggleFAQ(this)" class="w-full px-5 py-4 flex items-center justify-between text-left hover:bg-white/5 transition-colors">
-              <h3 class="text-base font-medium text-white pr-4 font-display">Do you have specific rules for pets sleeping on beds?</h3>
-              <svg class="w-4 h-4 text-white/60 flex-shrink-0 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
-            </button>
-            <div class="faq-content h-0 overflow-hidden transition-all duration-200 opacity-0">
-              <p class="px-5 pb-4 text-stone-300 text-sm leading-relaxed">We ask that pets do not sleep on the main beds. Bringing their own cozy beds or placing a protective sheet over furniture ensures the space remains clean.</p>
-            </div>
-          </div>
-          <!-- FAQ 8 -->
-          <div class="bg-white/10 backdrop-blur-sm rounded-xl border border-white/10 overflow-hidden">
-            <button onclick="toggleFAQ(this)" class="w-full px-5 py-4 flex items-center justify-between text-left hover:bg-white/5 transition-colors">
-              <h3 class="text-base font-medium text-white pr-4 font-display">Are there nearby vets in case of an emergency?</h3>
-              <svg class="w-4 h-4 text-white/60 flex-shrink-0 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
-            </button>
-            <div class="faq-content h-0 overflow-hidden transition-all duration-200 opacity-0">
-              <p class="px-5 pb-4 text-stone-300 text-sm leading-relaxed">Yes, Lonavala has local veterinary clinics. Our caretakers have emergency contact details to assist you if your furry friend needs urgent medical attention.</p>
-            </div>
-          </div>
-          <!-- FAQ 9 -->
-          <div class="bg-white/10 backdrop-blur-sm rounded-xl border border-white/10 overflow-hidden">
-            <button onclick="toggleFAQ(this)" class="w-full px-5 py-4 flex items-center justify-between text-left hover:bg-white/5 transition-colors">
-              <h3 class="text-base font-medium text-white pr-4 font-display">Is there a limit on the number of pets allowed?</h3>
-              <svg class="w-4 h-4 text-white/60 flex-shrink-0 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
-            </button>
-            <div class="faq-content h-0 overflow-hidden transition-all duration-200 opacity-0">
-              <p class="px-5 pb-4 text-stone-300 text-sm leading-relaxed">We typically allow 2-3 small to medium pets or 1-2 large dogs per booking. If you are traveling with more, please discuss this with us directly.</p>
-            </div>
-          </div>
-          <!-- FAQ 10 -->
-          <div class="bg-white/10 backdrop-blur-sm rounded-xl border border-white/10 overflow-hidden">
-            <button onclick="toggleFAQ(this)" class="w-full px-5 py-4 flex items-center justify-between text-left hover:bg-white/5 transition-colors">
-              <h3 class="text-base font-medium text-white pr-4 font-display">Is the surrounding area calm for anxious pets?</h3>
-              <svg class="w-4 h-4 text-white/60 flex-shrink-0 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
-            </button>
-            <div class="faq-content h-0 overflow-hidden transition-all duration-200 opacity-0">
-              <p class="px-5 pb-4 text-stone-300 text-sm leading-relaxed">Yes, being tucked away from the main highway, our villas are quiet and serene, making them perfect for pets who might be sensitive to loud noises.</p>
-            </div>
-          </div>
+
+      <!-- FAQ 2 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(1)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">Are the lawns fenced for pet safety?</span>
+          <svg id="faq-icon-1" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-1" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          Absolutely. All our pet-friendly properties feature fully fenced boundaries and private gated access, ensuring your furry friends can play safely without wandering off.
+        </div>
+      </div>
+
+      <!-- FAQ 3 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(2)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">Do you charge extra for pets?</span>
+          <svg id="faq-icon-2" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-2" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          We charge a nominal pet cleaning fee to ensure the villa is deep-cleaned and sanitized for subsequent guests, maintaining the highest hygiene standards.
+        </div>
+      </div>
+
+      <!-- FAQ 4 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(3)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">Is there a limit on the number of pets allowed?</span>
+          <svg id="faq-icon-3" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-3" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          We typically allow 2-3 pets per villa, but this can be adjusted based on the size of the pets and the specific property. Please confirm with our team at the time of booking.
+        </div>
+      </div>
+
+      <!-- FAQ 5 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(4)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">Can pets access the private swimming pool?</span>
+          <svg id="faq-icon-4" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-4" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          For hygiene reasons, pets are not allowed inside the main swimming pool. However, they are free to lounge on the pool deck and in the surrounding garden areas.
+        </div>
+      </div>
+
+      <!-- FAQ 6 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(5)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">Do you provide pet food or bowls?</span>
+          <svg id="faq-icon-5" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-5" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          We recommend bringing your pet's regular food to avoid any digestive issues. We can provide basic bowls and can arrange for fresh pet-friendly meals upon prior request.
+        </div>
+      </div>
+
+      <!-- FAQ 7 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(6)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">Are there nearby veterinarians in Lonavala?</span>
+          <svg id="faq-icon-6" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-6" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          Yes, Lonavala has several reliable veterinary clinics. Our on-site caretakers can provide emergency contact details and assist you if needed.
+        </div>
+      </div>
+
+      <!-- FAQ 8 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(7)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">What is the check-in time for pet stays?</span>
+          <svg id="faq-icon-7" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-7" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          Check-in is at 1:00 PM and check-out is at 11:00 AM. This gives us enough time to perform a deep-clean to ensure a fresh environment for every guest.
         </div>
       </div>
     </div>
@@ -518,25 +522,27 @@ include 'includes/header.php';
 
 <!-- ===== CONTACT & BOOKING SECTION ===== -->
 <section id="booking" class="py-12 md:py-16 bg-gradient-to-br from-stone-100 via-white to-amber-50">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
     <div class="text-center mb-14">
       <div class="flex items-center justify-center space-x-2 mb-4">
         <div class="w-8 h-[2px] bg-amber-600"></div>
-        <span class="text-amber-600 text-sm font-medium uppercase tracking-wider">Book Now</span>
+        <span class="text-amber-600 text-sm font-medium uppercase tracking-wider italic font-bold">Paws and Relax</span>
         <div class="w-8 h-[2px] bg-amber-600"></div>
       </div>
       <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-[#0F2A24] leading-tight mb-4 font-display">
-        Reserve Your <span class="text-amber-600">Pet Stay</span></h2>
-      <p class="text-stone-600 font-light text-lg max-w-2xl mx-auto">Experience the finest pet-friendly villas Lonavala has to offer. Fill out the form below to secure your dates.</p>
+        Plan Your <span class="text-amber-600 italic">Pet Escape</span></h2>
+      <p class="text-stone-600 font-light text-lg max-w-2xl mx-auto">Secure your dates for a luxury stay where your pets are family.</p>
     </div>
     
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 text-left">
+      <!-- Form Card -->
       <div class="bg-white rounded-3xl shadow-2xl p-8 lg:p-10 border border-stone-200/50">
         <div class="mb-8">
           <h3 class="text-2xl font-bold text-[#0F2A24] mb-2 font-display">Enquiry Form</h3>
-          <p class="text-stone-500 text-sm">Our team will get back to you with availability and details.</p>
+          <p class="text-stone-500 text-sm">Tell us about your furry friends for a custom stay quote.</p>
         </div>
         <form action="mail1.php" method="POST" class="space-y-5">
+          <input type="hidden" name="villa" value="Pet Friendly Page Enquiry">
           <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
               <label class="block text-xs font-semibold text-stone-700 mb-2 uppercase tracking-wide">Full Name *</label>
@@ -553,29 +559,27 @@ include 'includes/header.php';
               <input type="tel" name="phone" class="w-full px-4 py-3 text-sm border border-stone-300 rounded-xl focus:ring-2 focus:ring-amber-500 transition-all outline-none bg-[#F4EFEA]/50 hover:bg-white" placeholder="+91 98765 43210" />
             </div>
             <div>
-              <label class="block text-xs font-semibold text-stone-700 mb-2 uppercase tracking-wide">Number of Guests & Pets</label>
-              <select name="guests" class="w-full px-4 py-3 text-sm border border-stone-300 rounded-xl focus:ring-2 focus:ring-amber-500 transition-all outline-none bg-[#F4EFEA]/50 hover:bg-white">
-                <option value="">Select guests</option>
-                <option value="2-4">2-4 Guests + Pets</option>
-                <option value="5-8">5-8 Guests + Pets</option>
-                <option value="9-12">9-12 Guests + Pets</option>
-                <option value="13+">13+ Guests + Pets</option>
+              <label class="block text-xs font-semibold text-stone-700 mb-2 uppercase tracking-wide">Guests & Pets</label>
+              <select name="guests" class="w-full px-4 py-3 text-sm border border-stone-300 rounded-xl focus:ring-2 focus:ring-amber-500 transition-all outline-none bg-[#F4EFEA]/50 hover:bg-white text-stone-400">
+                <option value="4+2">4 Guests + 1-2 Pets</option>
+                <option value="8+2">8 Guests + 1-2 Pets</option>
+                <option value="12+3">12+ Guests + 3 Pets</option>
               </select>
             </div>
           </div>
           <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
-              <label class="block text-xs font-semibold text-stone-700 mb-2 uppercase tracking-wide">Check-in Date</label>
+              <label class="block text-xs font-semibold text-stone-700 mb-2 uppercase tracking-wide">Check-in</label>
               <input type="date" name="checkIn" class="w-full px-4 py-3 text-sm border border-stone-300 rounded-xl focus:ring-2 focus:ring-amber-500 transition-all outline-none bg-[#F4EFEA]/50 hover:bg-white" />
             </div>
             <div>
-              <label class="block text-xs font-semibold text-stone-700 mb-2 uppercase tracking-wide">Check-out Date</label>
+              <label class="block text-xs font-semibold text-stone-700 mb-2 uppercase tracking-wide">Check-out</label>
               <input type="date" name="checkOut" class="w-full px-4 py-3 text-sm border border-stone-300 rounded-xl focus:ring-2 focus:ring-amber-500 transition-all outline-none bg-[#F4EFEA]/50 hover:bg-white" />
             </div>
           </div>
           <div>
-            <label class="block text-xs font-semibold text-stone-700 mb-2 uppercase tracking-wide">Message (Please specify pets)</label>
-            <textarea name="message" rows="3" class="w-full px-4 py-3 text-sm border border-stone-300 rounded-xl focus:ring-2 focus:ring-amber-500 transition-all outline-none resize-none bg-[#F4EFEA]/50 hover:bg-white" placeholder="E.g., We are bringing a golden retriever..."></textarea>
+            <label class="block text-xs font-semibold text-stone-700 mb-2 uppercase tracking-wide">Pet Details (Breed/Count)</label>
+            <textarea name="message" rows="3" class="w-full px-4 py-3 text-sm border border-stone-300 rounded-xl focus:ring-2 focus:ring-amber-500 transition-all outline-none resize-none bg-[#F4EFEA]/50 hover:bg-white" placeholder="Tell us about your pets..."></textarea>
           </div>
           
           <?php
@@ -584,7 +588,7 @@ include 'includes/header.php';
           $_SESSION['captcha_answer'] = $num1 + $num2;
           ?>
           <div class="space-y-2">
-            <label class="block text-xs font-semibold text-stone-700 mb-2 uppercase tracking-wide">Verify you are human *</label>
+            <label class="block text-xs font-semibold text-stone-700 mb-2 uppercase tracking-wide font-bold">Human Verification *</label>
             <div class="flex items-center gap-4">
               <span class="px-6 py-3 bg-[#F4EFEA] border border-stone-300 rounded-xl font-bold text-stone-900 text-lg">
                 <?php echo $num1; ?> + <?php echo $num2; ?> =
@@ -594,383 +598,138 @@ include 'includes/header.php';
           </div>
 
           <button type="submit" class="w-full py-4 bg-gradient-to-r from-amber-600 to-amber-700 hover:from-amber-700 hover:to-amber-800 text-white font-bold text-sm rounded-xl shadow-lg transition-all duration-300 uppercase tracking-wider">
-            Send Enquiry
+            Confirm Pet Friendly Stay
           </button>
         </form>
       </div>
 
+      <!-- Info Card -->
       <div class="space-y-6">
-        <div class="bg-gradient-to-br from-stone-900 via-stone-800 to-stone-900 rounded-3xl p-8 shadow-2xl">
-          <h3 class="text-2xl font-bold text-white mb-6 font-display">Contact <span class="text-amber-400">Information</span></h3>
-          <div class="space-y-5">
-            <a href="tel:+918999036644" class="flex items-center gap-4 group">
-              <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-amber-500 to-amber-600 rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
-                <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
-              </div>
+        <div class="bg-[#0F2A24] rounded-3xl p-8 lg:p-10 text-white shadow-2xl relative overflow-hidden group">
+          <div class="absolute -right-10 -bottom-10 w-40 h-40 bg-amber-600/10 rounded-full group-hover:scale-150 transition-transform duration-700"></div>
+          <h3 class="text-2xl font-bold mb-8 font-display italic tracking-wide">Bespoke Pet Care</h3>
+          <div class="space-y-6 relative z-10">
+            <div class="flex items-start space-x-4">
+              <div class="w-10 h-10 bg-amber-600/20 rounded-xl flex items-center justify-center flex-shrink-0">🐾</div>
               <div>
-                <p class="text-amber-400 text-xs uppercase tracking-wider mb-1">Phone</p>
-                <p class="text-white font-medium text-lg group-hover:text-amber-300 transition-colors">+91 89990 36644</p>
+                <p class="text-amber-400 text-xs font-bold uppercase tracking-widest mb-1">Direct Help</p>
+                <p class="text-xl font-medium">+91 8999036644</p>
               </div>
-            </a>
-            <a href="mailto:contact@retrofusion.in" class="flex items-center gap-4 group">
-              <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-amber-500 to-amber-600 rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
-                <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
-              </div>
+            </div>
+            <div class="flex items-start space-x-4">
+              <div class="w-10 h-10 bg-amber-600/20 rounded-xl flex items-center justify-center flex-shrink-0">🛡️</div>
               <div>
-                <p class="text-amber-400 text-xs uppercase tracking-wider mb-1">Email</p>
-                <p class="text-white font-medium text-lg group-hover:text-amber-300 transition-colors">contact@retrofusion.in</p>
+                <p class="text-amber-400 text-xs font-bold uppercase tracking-widest mb-1">Safe Environment</p>
+                <p class="text-sm font-light text-stone-300 leading-relaxed">Gated properties near Della Resorts with 24/7 security for your pets.</p>
               </div>
-            </a>
-            <div class="flex items-center gap-4">
-              <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-amber-500 to-amber-600 rounded-xl flex items-center justify-center shadow-lg">
-                <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
-              </div>
-              <div>
-                <p class="text-amber-400 text-xs uppercase tracking-wider mb-1">Address</p>
-                <p class="text-white font-medium text-lg">Lonavala, Maharashtra, India</p>
+            </div>
+            <div class="pt-6 border-t border-white/10">
+              <p class="text-stone-400 text-xs italic mb-4">"Finally a place where my dog was treated like a guest, not a burden. The fenced lawn is a game-changer!"</p>
+              <div class="flex items-center space-x-1 text-amber-400 text-xs">
+                <span>★★★★★</span>
+                <span class="text-white ml-2">— Amit & Bruno</span>
               </div>
             </div>
           </div>
-          <div class="mt-8 pt-6 border-t border-stone-700">
-            <p class="text-stone-400 text-sm italic">"Unforgettable luxury stays where your furry family members are always welcome."</p>
-          </div>
         </div>
-        <div class="rounded-3xl overflow-hidden shadow-2xl border-4 border-white h-[280px] lg:h-[300px]">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60463.39696820842!2d73.36854705!3d18.7564659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be801153de5c8d9%3A0x33b9c7df5e4a0f4e!2sLonavala%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1704067200000!5m2!1sen!2sin"
-            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade" title="Retro Villa Location"></iframe>
+
+        <div class="bg-amber-100/50 rounded-3xl p-8 border border-amber-200">
+          <div class="flex items-center space-x-4 mb-4">
+            <div class="w-12 h-12 bg-emerald-600 rounded-full flex items-center justify-center text-white text-xl">💬</div>
+            <h4 class="text-xl font-bold text-[#0F2A24]">Pet Stay Specials</h4>
+          </div>
+          <p class="text-stone-600 text-sm mb-6 leading-relaxed">Book directly via WhatsApp to skip the pet fee and get a complimentary pet-treat box on arrival!</p>
+          <a href="https://wa.me/918999036644" target="_blank" class="flex items-center justify-center space-x-3 bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-4 rounded-xl transition-all shadow-lg">
+            <span>Enquire on WhatsApp</span>
+          </a>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ===== FOLLOW US SECTION ===== -->
-<section class="py-20 bg-[#0F2A24] relative overflow-hidden flex flex-col items-center justify-center">
-  <!-- Decorative Background Elements -->
-  <div class="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
-    <div class="absolute -top-[20%] -left-[10%] w-[50%] h-[50%] rounded-full bg-amber-900/10 blur-3xl"></div>
-    <div class="absolute -bottom-[20%] -right-[10%] w-[50%] h-[50%] rounded-full bg-emerald-900/20 blur-3xl"></div>
-  </div>
-
-  <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center w-full">
-    <!-- Title -->
-    <h2 class="text-6xl md:text-8xl text-[#F4EFEA] mb-12 tracking-wide drop-shadow-md"
-      style="font-family: 'Dancing Script', cursive;">
-      Follow us!
-    </h2>
-
-    <!-- Main Content Area -->
-    <div class="flex flex-col md:flex-row items-center justify-center gap-12 lg:gap-20 w-full max-w-6xl mx-auto">
-      <!-- Phone Mockup Container (Left on Desktop, Center on Mobile) -->
-      <div class="relative w-[280px] sm:w-[320px] md:w-[360px] mx-auto md:mx-0 group mt-4 md:mt-0 flex-shrink-0">
-        <!-- vibrant gradient border mimicking the Instagram story/post border from user design -->
-        <div
-          class="absolute -inset-[3px] md:-inset-1.5 bg-gradient-to-tr from-amber-400 via-orange-500 to-purple-600 rounded-[2.8rem] md:rounded-[3rem] opacity-90 blur-[2px] group-hover:blur-[6px] transition-all duration-300">
-        </div>
-
-        <!-- Phone Body -->
-        <div
-          class="bg-black rounded-[2.5rem] md:rounded-[2.8rem] overflow-hidden relative shadow-2xl h-[560px] sm:h-[650px] flex flex-col border-[5px] md:border-[6px] border-black/90 z-10 w-full transform transition-transform duration-500 group-hover:scale-[1.01]">
-
-          <!-- Dynamic Island/Notch -->
-          <div class="absolute top-2 inset-x-0 z-20 flex justify-center w-full">
-            <div class="w-24 sm:w-28 h-6 sm:h-7 bg-black rounded-full flex items-center justify-between px-2">
-              <div class="w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full bg-white/20"></div>
-              <div class="w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full bg-white/10"></div>
-            </div>
-          </div>
-
-          <!-- Phone Screen -->
-          <div
-            class="w-full h-full bg-[#121212] relative rounded-[2rem] md:rounded-[2.2rem] overflow-x-hidden overflow-y-auto group/screen cursor-pointer hide-scrollbar-custom"
-            style="scrollbar-width: none; -ms-overflow-style: none;">
-            <style>
-              .hide-scrollbar-custom::-webkit-scrollbar {
-                display: none;
-              }
-            </style>
-            <!-- Screenshot uploaded by user -->
-            <div class="pt-9 sm:pt-11 w-full flex flex-col items-center">
-              <a href="https://www.instagram.com/retrofusion.in/" target="_blank" class="w-full">
-                <img loading="lazy"
-                  src="images/v1772471878_Screenshot_2026-03-02_at_10.47.42_PM_wo3toj.png"
-                  alt="Instagram Profile Screenshot"
-                  class="w-full h-auto block opacity-95 transition-opacity duration-300 group-hover/screen:opacity-100" />
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Desktop Instagram Grid (Right side) -->
-      <div class="hidden md:grid grid-cols-2 gap-6 w-full max-w-[540px]">
-
-        <!-- Post 1 -->
-        <a href="https://www.instagram.com/retrofusion.in/" target="_blank"
-          class="group block transform hover:-translate-y-2 transition-all duration-500">
-          <div
-            class="bg-[#F4EFEA] rounded-2xl overflow-hidden shadow-xl group-hover:shadow-2xl transition-shadow duration-300">
-            <!-- Header -->
-            <div class="flex items-center justify-between px-3 py-2.5">
-              <div class="flex items-center gap-2">
-                <div class="w-7 h-7 rounded-full bg-amber-600 flex items-center justify-center"><svg
-                    class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24">
-                    <path
-                      d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
-                  </svg></div>
-                <span class="text-[#0F2A24] text-xs font-semibold">retrofusion.in</span>
-              </div>
-              <span
-                class="text-[10px] font-bold text-amber-600 border border-amber-600 rounded px-1.5 py-0.5">FOLLOW</span>
-            </div>
-            <!-- Image with amber border -->
-            <div class="mx-2.5 mb-2 border-[3px] border-amber-600 rounded-lg overflow-hidden">
-              <img loading="lazy"
-                src="images/v1772473164_Screenshot_2026-03-02_at_11.08.01_PM_a5g0vs.png"
-                alt="Instagram Post"
-                class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" />
-            </div>
-            <!-- Actions -->
-            <div class="px-3 pb-2.5">
-              <div class="flex items-center justify-between mb-1.5">
-                <div class="flex items-center gap-3">
-                  <svg class="w-5 h-5 text-amber-600" fill="currentColor" viewBox="0 0 24 24">
-                    <path
-                      d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
-                  </svg>
-                  <svg class="w-5 h-5 text-[#0F2A24]" fill="none" stroke="currentColor" stroke-width="2"
-                    viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                      d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
-                  </svg>
-                  <svg class="w-5 h-5 text-[#0F2A24]" fill="none" stroke="currentColor" stroke-width="2"
-                    viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 19l9-7-9-7v14zM3 12l9-7v14l-9-7z" />
-                  </svg>
-                </div>
-                <svg class="w-5 h-5 text-[#0F2A24]" fill="none" stroke="currentColor" stroke-width="2"
-                  viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round"
-                    d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
-                </svg>
-              </div>
-              <p class="text-[#0F2A24] text-[10px] font-bold">❤ 143 likes</p>
-            </div>
-          </div>
-        </a>
-
-        <!-- Post 2 -->
-        <a href="https://www.instagram.com/retrofusion.in/" target="_blank"
-          class="group block transform hover:-translate-y-2 transition-all duration-500 mt-6">
-          <div
-            class="bg-[#F4EFEA] rounded-2xl overflow-hidden shadow-xl group-hover:shadow-2xl transition-shadow duration-300">
-            <div class="flex items-center justify-between px-3 py-2.5">
-              <div class="flex items-center gap-2">
-                <div class="w-7 h-7 rounded-full bg-amber-600 flex items-center justify-center"><svg
-                    class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24">
-                    <path
-                      d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
-                  </svg></div>
-                <span class="text-[#0F2A24] text-xs font-semibold">retrofusion.in</span>
-              </div>
-              <span
-                class="text-[10px] font-bold text-amber-600 border border-amber-600 rounded px-1.5 py-0.5">FOLLOW</span>
-            </div>
-            <div class="mx-2.5 mb-2 border-[3px] border-amber-600 rounded-lg overflow-hidden">
-              <img loading="lazy"
-                src="images/v1772473164_Screenshot_2026-03-02_at_11.07.23_PM_sbgs0f.png"
-                alt="Instagram Post"
-                class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" />
-            </div>
-            <div class="px-3 pb-2.5">
-              <div class="flex items-center justify-between mb-1.5">
-                <div class="flex items-center gap-3">
-                  <svg class="w-5 h-5 text-amber-600" fill="currentColor" viewBox="0 0 24 24">
-                    <path
-                      d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
-                  </svg>
-                  <svg class="w-5 h-5 text-[#0F2A24]" fill="none" stroke="currentColor" stroke-width="2"
-                    viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                      d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
-                  </svg>
-                  <svg class="w-5 h-5 text-[#0F2A24]" fill="none" stroke="currentColor" stroke-width="2"
-                    viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 19l9-7-9-7v14zM3 12l9-7v14l-9-7z" />
-                  </svg>
-                </div>
-                <svg class="w-5 h-5 text-[#0F2A24]" fill="none" stroke="currentColor" stroke-width="2"
-                  viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round"
-                    d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
-                </svg>
-              </div>
-              <p class="text-[#0F2A24] text-[10px] font-bold">❤ 98 likes</p>
-            </div>
-          </div>
-        </a>
-
-        <!-- Post 3 -->
-        <a href="https://www.instagram.com/retrofusion.in/" target="_blank"
-          class="group block transform hover:-translate-y-2 transition-all duration-500">
-          <div
-            class="bg-[#F4EFEA] rounded-2xl overflow-hidden shadow-xl group-hover:shadow-2xl transition-shadow duration-300">
-            <div class="flex items-center justify-between px-3 py-2.5">
-              <div class="flex items-center gap-2">
-                <div class="w-7 h-7 rounded-full bg-amber-600 flex items-center justify-center"><svg
-                    class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24">
-                    <path
-                      d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
-                  </svg></div>
-                <span class="text-[#0F2A24] text-xs font-semibold">retrofusion.in</span>
-              </div>
-              <span
-                class="text-[10px] font-bold text-amber-600 border border-amber-600 rounded px-1.5 py-0.5">FOLLOW</span>
-            </div>
-            <div class="mx-2.5 mb-2 border-[3px] border-amber-600 rounded-lg overflow-hidden">
-              <img loading="lazy"
-                src="images/v1772473163_Screenshot_2026-03-02_at_11.07.36_PM_ftkdee.png"
-                alt="Instagram Post"
-                class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" />
-            </div>
-            <div class="px-3 pb-2.5">
-              <div class="flex items-center justify-between mb-1.5">
-                <div class="flex items-center gap-3">
-                  <svg class="w-5 h-5 text-amber-600" fill="currentColor" viewBox="0 0 24 24">
-                    <path
-                      d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
-                  </svg>
-                  <svg class="w-5 h-5 text-[#0F2A24]" fill="none" stroke="currentColor" stroke-width="2"
-                    viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                      d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
-                  </svg>
-                  <svg class="w-5 h-5 text-[#0F2A24]" fill="none" stroke="currentColor" stroke-width="2"
-                    viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 19l9-7-9-7v14zM3 12l9-7v14l-9-7z" />
-                  </svg>
-                </div>
-                <svg class="w-5 h-5 text-[#0F2A24]" fill="none" stroke="currentColor" stroke-width="2"
-                  viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round"
-                    d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
-                </svg>
-              </div>
-              <p class="text-[#0F2A24] text-[10px] font-bold">❤ 217 likes</p>
-            </div>
-          </div>
-        </a>
-
-        <!-- Post 4 -->
-        <a href="https://www.instagram.com/retrofusion.in/" target="_blank"
-          class="group block transform hover:-translate-y-2 transition-all duration-500 mt-6">
-          <div
-            class="bg-[#F4EFEA] rounded-2xl overflow-hidden shadow-xl group-hover:shadow-2xl transition-shadow duration-300">
-            <div class="flex items-center justify-between px-3 py-2.5">
-              <div class="flex items-center gap-2">
-                <div class="w-7 h-7 rounded-full bg-amber-600 flex items-center justify-center"><svg
-                    class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24">
-                    <path
-                      d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
-                  </svg></div>
-                <span class="text-[#0F2A24] text-xs font-semibold">retrofusion.in</span>
-              </div>
-              <span
-                class="text-[10px] font-bold text-amber-600 border border-amber-600 rounded px-1.5 py-0.5">FOLLOW</span>
-            </div>
-            <div class="mx-2.5 mb-2 border-[3px] border-amber-600 rounded-lg overflow-hidden">
-              <img loading="lazy"
-                src="images/v1772473163_Screenshot_2026-03-02_at_11.07.51_PM_yzseuz.png"
-                alt="Instagram Post"
-                class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" />
-            </div>
-            <div class="px-3 pb-2.5">
-              <div class="flex items-center justify-between mb-1.5">
-                <div class="flex items-center gap-3">
-                  <svg class="w-5 h-5 text-amber-600" fill="currentColor" viewBox="0 0 24 24">
-                    <path
-                      d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
-                  </svg>
-                  <svg class="w-5 h-5 text-[#0F2A24]" fill="none" stroke="currentColor" stroke-width="2"
-                    viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                      d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
-                  </svg>
-                  <svg class="w-5 h-5 text-[#0F2A24]" fill="none" stroke="currentColor" stroke-width="2"
-                    viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 19l9-7-9-7v14zM3 12l9-7v14l-9-7z" />
-                  </svg>
-                </div>
-                <svg class="w-5 h-5 text-[#0F2A24]" fill="none" stroke="currentColor" stroke-width="2"
-                  viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round"
-                    d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
-                </svg>
-              </div>
-              <p class="text-[#0F2A24] text-[10px] font-bold">❤ 175 likes</p>
-            </div>
-          </div>
-        </a>
-
-      </div>
-    </div>
-
-    <!-- Removed Follow Button per user request -->
-
-  </div>
-</section>
-
-
-<?php include 'includes/footer.php'; ?>
-
-<!-- Lightbox Modal -->
-<div id="lightbox" class="fixed inset-0 z-50 bg-black/95 hidden items-center justify-center transition-opacity duration-300 opacity-0" onclick="closeLightbox()">
-  <button class="absolute top-4 right-4 z-10 w-12 h-12 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center transition-colors text-white" onclick="closeLightbox()">
-    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" /></svg>
-  </button>
-  <button class="absolute left-4 z-10 w-12 h-12 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center transition-colors text-white" onclick="event.stopPropagation(); prevLightboxImage()">
-    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" /></svg>
-  </button>
-  <button class="absolute right-4 z-10 w-12 h-12 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center transition-colors text-white" onclick="event.stopPropagation(); nextLightboxImage()">
-    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg>
-  </button>
-  <img loading="lazy" id="lightbox-img" src="" alt="Gallery Lightbox Image" title="Lightbox Fullscreen View" class="max-w-[90vw] max-h-[85vh] object-contain rounded-lg shadow-2xl transition-transform duration-300" onclick="event.stopPropagation()">
-  <div class="absolute bottom-4 left-1/2 -translate-x-1/2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
-    <span id="lightbox-counter" class="text-white text-sm font-medium tracking-wider"></span>
-  </div>
+<!-- ===== LIGHTBOX SYSTEM ===== -->
+<div id="lightbox" class="fixed inset-0 bg-black/95 z-[9999] hidden flex-col items-center justify-center p-4">
+  <button onclick="closeLightbox()" class="absolute top-8 right-8 text-white text-4xl hover:text-amber-500 transition-colors">&times;</button>
+  <button onclick="prevImage()" class="absolute left-4 top-1/2 -translate-y-1/2 text-white/50 hover:text-white text-6xl transition-colors">&lsaquo;</button>
+  <button onclick="nextImage()" class="absolute right-4 top-1/2 -translate-y-1/2 text-white/50 hover:text-white text-6xl transition-colors">&rsaquo;</button>
+  <img id="lightbox-img" src="" class="max-w-full max-h-[85vh] object-contain rounded-lg shadow-2xl transition-all duration-500" alt="Gallery Image">
+  <p id="lightbox-caption" class="text-white/80 mt-6 font-light italic text-lg"></p>
 </div>
 
 <script>
-  window.galleryImages = [
-    'images/v1770226533_N34_stewru.jpg',
-    'images/v1769868140_B30_yc8rqu.webp',
-    'images/v1769868140_C26_j6pstx.webp',
-    'images/v1769868140_05_ivb2yz.webp',
-    'images/v1770226534_N36_om6t9d.jpg',
-    'images/v1769868155_M08_qewdva.webp',
-    'images/v1769868143_M01_jjmwdw.webp',
-    'images/v1769868142_G31_mdlfjh.webp',
-    'images/v1769868143_J24_wrncmb.webp',
-    'images/v1769868144_M21_c2fjh0.webp',
-    'images/v1769868144_M09_hilzeh.webp',
-    'images/v1769868141_I08_mjtxcg.webp',
-    'images/v1769868143_F18A_qmvadk.webp',
-    'images/v1769868142_H10_byp3oh.webp',
-    'images/v1769868142_K17_qzihhb.webp',
-    'images/v1769868141_E06_tevptf.webp',
+  const galleryImages = [
+    { src: 'images/v1770226533_N34_stewru.jpg', cap: 'Expansive Pet-Safe Lawns' },
+    { src: 'images/v1769868140_B30_yc8rqu.webp', cap: 'Luxury Living Space' },
+    { src: 'images/v1769868140_C26_j6pstx.webp', cap: 'Cozy Designer Suites' },
+    { src: 'images/v1770226534_N36_om6t9d.jpg', cap: 'Villa Exterior' },
+    { src: 'images/v1769868155_M08_qewdva.webp', cap: 'Premium Bedroom' },
+    { src: 'images/v1769868143_M01_jjmwdw.webp', cap: 'Gourmet Dining' },
+    { src: 'images/v1774810269_12_lo4gpx.jpg', cap: 'Private Infinity Pool' },
+    { src: 'images/v1774811620_30_1_eexljz.jpg', cap: 'Sleek Modern Decor' },
+    { src: 'images/v1774807176_34_vpeqgv.jpg', cap: 'Evening Poolside Vibe' },
+    { src: 'images/v1773076342_23_wby8bv.jpg', cap: 'Artisan Culinary Delights' },
+    { src: 'images/v1769868140_B30_yc8rqu.webp', cap: 'Spacious Verandas' },
+    { src: 'images/v1769868142_H10_byp3oh.webp', cap: 'Sun-Drenched Spaces' },
+    { src: 'images/v1774810653_N35_h2djzp.jpg', cap: 'Artistic Accents' },
+    { src: 'images/v1774809447_06_htf59g.jpg', cap: 'Ultra-Premium Finish' }
   ];
 
-  window.gallerySets = [
-    window.galleryImages.slice(0, 4),
-    window.galleryImages.slice(4, 8),
-    window.galleryImages.slice(8, 12),
-    window.galleryImages.slice(12, 16),
-  ];
+  let currentImgIdx = 0;
+
+  function openLightbox(idx) {
+    currentImgIdx = idx;
+    updateLightbox();
+    document.getElementById('lightbox').classList.remove('hidden');
+    document.getElementById('lightbox').classList.add('flex');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeLightbox() {
+    document.getElementById('lightbox').classList.add('hidden');
+    document.getElementById('lightbox').classList.remove('flex');
+    document.body.style.overflow = 'auto';
+  }
+
+  function updateLightbox() {
+    const img = document.getElementById('lightbox-img');
+    const cap = document.getElementById('lightbox-caption');
+    img.style.opacity = '0';
+    setTimeout(() => {
+      img.src = galleryImages[currentImgIdx].src;
+      cap.innerText = galleryImages[currentImgIdx].cap;
+      img.style.opacity = '1';
+    }, 200);
+  }
+
+  function nextImage() {
+    currentImgIdx = (currentImgIdx + 1) % galleryImages.length;
+    updateLightbox();
+  }
+
+  function prevImage() {
+    currentImgIdx = (currentImgIdx - 1 + galleryImages.length) % galleryImages.length;
+    updateLightbox();
+  }
+
+  function toggleFaq(index) {
+    const ans = document.getElementById(`faq-ans-${index}`);
+    const icon = document.getElementById(`faq-icon-${index}`);
+    const isOpen = !ans.classList.contains('hidden');
+    if (isOpen) {
+      ans.classList.add('hidden');
+      icon.style.transform = 'rotate(0deg)';
+    } else {
+      ans.classList.remove('hidden');
+      icon.style.transform = 'rotate(180deg)';
+    }
+  }
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeLightbox();
+    if (e.key === 'ArrowRight') nextImage();
+    if (e.key === 'ArrowLeft') prevImage();
+  });
 </script>
 
-<!-- Lightbox & Additional Scripts if needed -->
-<script src="js/main.js"></script>
-</body>
-</html>
+<?php include 'includes/footer.php'; ?>
