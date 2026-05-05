@@ -162,6 +162,14 @@ function initMegaMenu() {
 
     villasDropdownBtn.addEventListener('mouseenter', showMegaMenu);
     villasDropdownBtn.addEventListener('mouseleave', hideMegaMenu);
+    villasDropdownBtn.addEventListener('click', (e) => {
+        if (window.innerWidth < 1024) return; // Let mobile handler take over
+        if (megaMenu.classList.contains('active')) {
+            hideMegaMenu();
+        } else {
+            showMegaMenu();
+        }
+    });
     megaMenu.addEventListener('mouseenter', showMegaMenu);
     megaMenu.addEventListener('mouseleave', hideMegaMenu);
 }

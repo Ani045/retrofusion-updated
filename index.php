@@ -450,12 +450,12 @@ include 'includes/header.php';
             <h3 class="text-xl md:text-2xl font-bold font-display tracking-wide drop-shadow-lg">Bachelor Party</h3>
           </div>
         </a>
-        <a href="retro-villas"
+        <a href="private-pool-villas-in-lonavala"
           class="relative w-full rounded-3xl overflow-hidden group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-[1.02] border border-stone-200 block flex-1 hover:-translate-y-1">
           <img loading="lazy"
-            src="images/v1774807176_34_vpeqgv.jpg"
+            src="images/private_pool_villa_lonavala_hero.png"
             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-            alt="Private Pool" />
+            alt="Private Pool Villas Lonavala" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
           <div class="absolute bottom-6 left-6 text-white">
             <h3 class="text-xl md:text-2xl font-bold font-display tracking-wide drop-shadow-lg">Private Pool</h3>
@@ -542,6 +542,18 @@ include 'includes/header.php';
     <!-- Mobile Grid -->
     <div class="lg:hidden overflow-x-auto scrollbar-hide -mx-4 px-4">
       <div class="flex gap-4 pb-4" style="scroll-snap-type: x mandatory;">
+        <!-- Private Pool -->
+        <a href="private-pool-villas-in-lonavala" class="flex-shrink-0 w-80 group">
+          <div class="relative h-96 rounded-3xl overflow-hidden mb-4">
+            <img src="images/private_pool_villa_lonavala_hero.png" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Private Pool Villas in Lonavala">
+            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+            <div class="absolute bottom-6 left-6">
+              <h3 class="text-2xl font-bold text-white mb-2">Pool Villas</h3>
+              <p class="text-amber-400 text-sm font-medium">Private Aquatic Retreats</p>
+            </div>
+          </div>
+        </a>
+
         <!-- Luxury Villa -->
         <a href="luxury-4bhk-villas-in-lonavala" class="flex-shrink-0 w-80 group">
           <div class="relative h-96 rounded-3xl overflow-hidden mb-4">
