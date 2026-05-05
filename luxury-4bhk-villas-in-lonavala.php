@@ -1,13 +1,13 @@
 <?php
-$pageTitle = "Villas in Lonavala for Group Party & Bachelor Party Stay with Pool";
-$pageDescription = "Planning a bachelor party? Discover the best villas in Lonavala for group party. Book 4BHK villas for friends group with private pool, party stays, and night party.";
-$pageKeywords = "Villas in Lonavala for Group Party, 4BHK Villas in Lonavala for Friends Group, Party Villas in Lonavala with Private Pool, 4BHK Villas in Lonavala for Weekend Party, Villas in Lonavala for Night Party Stay";
+$pageTitle = "Luxury Villas in Lonavala | Ultra Luxury 4BHK Villas with Pool";
+$pageDescription = "Experience the best luxury villas in Lonavala. Book ultra-luxury 4BHK villas with private pool, high-end amenities, and exclusive stays for a premium getaway.";
+$pageKeywords = "Luxury Villas in Lonavala, Ultra Luxury 4BHK Villas in Lonavala, Premium Villas in Lonavala with Private Pool, High-End 4BHK Villas in Lonavala, Exclusive Villas in Lonavala for Luxury Stay, Luxury Villas Near Lonavala with Pool";
 $pageRobots = "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1";
 $pageAuthor = "Retrofusion Boutique Homestays";
 $pagePublisher = "Retrofusion Boutique Homestays";
-$canonicalUrl = "https://retrofusion.in/villas-in-lonavala-for-bachelor-party";
-$ogTitle = "Ultimate Party Villas in Lonavala for Bachelor Parties & Groups";
-$ogImage = "images/bachelor-party-villa-lonavala.png";
+$canonicalUrl = "https://retrofusion.in/luxury-4bhk-villas-in-lonavala";
+$ogTitle = "Ultra Luxury 4BHK Villas in Lonavala | Exclusive Private Pool Stays";
+$ogImage = "images/luxury_villa_lonavala_hero.png";
 include 'includes/header.php';
 ?>
 
@@ -18,13 +18,13 @@ include 'includes/header.php';
   "@graph": [
     {
       "@type": "VacationRental",
-      "@id": "https://retrofusion.in/villas-in-lonavala-for-bachelor-party#property",
-      "name": "Party Villas in Lonavala with Private Pool",
-      "description": "Premium 4BHK villas in Lonavala perfect for bachelor parties, friends groups, and weekend celebrations. Features private pools, BBQ, and luxury amenities.",
-      "url": "https://retrofusion.in/villas-in-lonavala-for-bachelor-party",
+      "@id": "https://retrofusion.in/luxury-4bhk-villas-in-lonavala#property",
+      "name": "Luxury Villas in Lonavala with Private Pool",
+      "description": "Exclusive collection of ultra-luxury 4BHK villas in Lonavala featuring infinity pools, gourmet kitchens, and premium concierge services.",
+      "url": "https://retrofusion.in/luxury-4bhk-villas-in-lonavala",
       "image": [
-        "images/bachelor-party-villa-lonavala.png",
-        "images/v1772474727_Screenshot_2026-03-02_at_11.33.32_PM_wqk7eu.png",
+        "images/luxury_villa_lonavala_hero.png",
+        "images/v1774807173_04_y636xz.jpg",
         "images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg"
       ],
       "telephone": "+91 8999036644",
@@ -44,29 +44,8 @@ include 'includes/header.php';
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.9",
-        "reviewCount": "215"
+        "reviewCount": "185"
       }
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Which are the best villas in Lonavala for group party?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Retro Visawa and Neo Retro Villa are highly recommended as the best villas in Lonavala for group party due to their spacious 4BHK layouts, private pools, and modern amenities."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do you offer 4BHK villas in Lonavala for friends group?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, we specialize in 4BHK villas in Lonavala for friends group, providing ample space, multiple bedrooms, and common areas for bonding and celebration."
-          }
-        }
-      ]
     }
   ]
 }
@@ -74,20 +53,20 @@ include 'includes/header.php';
 
 <!-- ===== HERO SECTION ===== -->
 <section class="relative h-screen overflow-hidden">
-  <img src="images/bachelor-party-villa-lonavala.png"
-    class="absolute inset-0 w-full h-full object-cover" alt="Luxury Party Villa in Lonavala for Bachelor Party" title="Villas in Lonavala for Group Party" />
-  <div class="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-black/60"></div>
+  <img src="images/luxury_villa_lonavala_hero.png"
+    class="absolute inset-0 w-full h-full object-cover" alt="Ultra Luxury 4BHK Villa in Lonavala with Pool" title="Luxury Villas in Lonavala" />
+  <div class="absolute inset-0 bg-gradient-to-b from-black/50 via-black/20 to-black/60"></div>
   <div class="relative z-10 h-full flex flex-col justify-center items-center px-4 sm:px-6 lg:px-8">
     <div class="max-w-4xl mx-auto text-center">
       <div class="space-y-4 sm:space-y-6 mb-8">
         <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight drop-shadow-2xl font-display">
-          Villas in Lonavala for Group Party</h1>
+          Luxury Villas in Lonavala</h1>
         <p class="text-base sm:text-lg md:text-xl lg:text-2xl text-white/90 font-light max-w-2xl mx-auto">
-          Host the ultimate bachelor party or group celebration in our premium 4BHK villas with private pools.</p>
+          Experience the pinnacle of refinement in our exclusive 4BHK private pool estates.</p>
       </div>
       <a href="#booking"
         class="group bg-amber-600 hover:bg-amber-500 text-white px-8 sm:px-10 py-3 sm:py-4 rounded-full text-base sm:text-lg font-medium transition-all duration-500 inline-flex items-center justify-center space-x-3 hover:scale-105 shadow-xl hover:shadow-amber-600/30">
-        <span>Plan Your Party</span>
+        <span>Book Your Luxury Stay</span>
         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
         </svg>
@@ -100,88 +79,95 @@ include 'includes/header.php';
 <section class="py-12 md:py-16 bg-white">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
     <div class="max-w-3xl mx-auto">
-      <h2 class="text-3xl sm:text-5xl font-bold text-[#0F2A24] mb-8 font-display leading-tight text-center">Host an Unforgettable <br><span class="text-amber-600">Weekend Party</span></h2>
+      <h2 class="text-3xl sm:text-5xl font-bold text-[#0F2A24] mb-8 font-display leading-tight text-center">Escape to <span class="text-amber-600">Unrivaled Elegance</span></h2>
       <p class="text-stone-600 text-lg leading-relaxed mb-8">
-        Looking for the perfect venue for your next big celebration? Our <strong>villas in Lonavala for group party</strong> offer the ideal blend of luxury, privacy, and entertainment. Whether it's a bachelor party, a birthday bash, or a long-awaited reunion, we provide the ultimate <strong>4BHK villas in Lonavala for friends group</strong>.
+        Discover a sanctuary where architectural brilliance meets natural beauty. Our <strong>luxury villas in Lonavala</strong> are meticulously crafted to offer an escape that transcends the ordinary. Far from the bustling city, we provide <strong>ultra luxury 4BHK villas in Lonavala</strong> that serve as the perfect backdrop for your most cherished moments, blending modern sophistication with the serene charm of the Sahyadri hills.
       </p>
     </div>
     
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
-      <div class="p-8 bg-[#F4EFEA] rounded-3xl border border-stone-200 hover:shadow-xl transition-all duration-300">
-        <div class="w-14 h-14 bg-amber-600 rounded-2xl flex items-center justify-center mb-6 mx-auto">
-          <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-1.343 3-3s-1.343-3-3-3m0 12c-1.657 0-3-1.343-3-3s1.343-3 3-3" /></svg>
+      <div class="p-8 bg-[#FDFBF9] rounded-3xl border border-stone-100 shadow-sm hover:shadow-xl transition-all duration-500">
+        <div class="w-16 h-16 bg-stone-900 rounded-full flex items-center justify-center mb-6 mx-auto">
+          <svg class="w-8 h-8 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9s2.015-9 4.5-9m0 0a9.015 9.015 0 018.716 2.253M12 3a9.015 9.015 0 00-8.716 2.253" /></svg>
         </div>
-        <h3 class="text-xl font-bold text-[#0F2A24] mb-3">Complete Privacy</h3>
-        <p class="text-stone-600 text-sm">No neighbors, no interruptions. Our standalone villas ensure your party stays private and exclusive.</p>
+        <h3 class="text-xl font-bold text-[#0F2A24] mb-3">Curated Design</h3>
+        <p class="text-stone-500 text-sm leading-relaxed">Every corner of our <strong>high-end 4BHK villas in Lonavala</strong> tells a story of refined taste and boutique craftsmanship.</p>
       </div>
-      <div class="p-8 bg-[#F4EFEA] rounded-3xl border border-stone-200 hover:shadow-xl transition-all duration-300">
-        <div class="w-14 h-14 bg-amber-600 rounded-2xl flex items-center justify-center mb-6 mx-auto">
-          <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+      <div class="p-8 bg-[#FDFBF9] rounded-3xl border border-stone-100 shadow-sm hover:shadow-xl transition-all duration-500">
+        <div class="w-16 h-16 bg-stone-900 rounded-full flex items-center justify-center mb-6 mx-auto">
+          <svg class="w-8 h-8 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-1.343 3-3s-1.343-3-3-3m0 12c-1.657 0-3-1.343-3-3s1.343-3 3-3" /></svg>
         </div>
-        <h3 class="text-xl font-bold text-[#0F2A24] mb-3">Party Ready</h3>
-        <p class="text-stone-600 text-sm">Equipped with sound systems, pool floats, and BBQ setups to make your <strong>4BHK villa in Lonavala for weekend party</strong> epic.</p>
+        <h3 class="text-xl font-bold text-[#0F2A24] mb-3">Absolute Seclusion</h3>
+        <p class="text-stone-500 text-sm leading-relaxed">Experience <strong>exclusive villas in Lonavala for luxury stay</strong> where privacy is the ultimate amenity, allowing you to unwind in total peace.</p>
       </div>
-      <div class="p-8 bg-[#F4EFEA] rounded-3xl border border-stone-200 hover:shadow-xl transition-all duration-300">
-        <div class="w-14 h-14 bg-amber-600 rounded-2xl flex items-center justify-center mb-6 mx-auto">
-          <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" /></svg>
+      <div class="p-8 bg-[#FDFBF9] rounded-3xl border border-stone-100 shadow-sm hover:shadow-xl transition-all duration-500">
+        <div class="w-16 h-16 bg-stone-900 rounded-full flex items-center justify-center mb-6 mx-auto">
+          <svg class="w-8 h-8 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" /></svg>
         </div>
-        <h3 class="text-xl font-bold text-[#0F2A24] mb-3">Spacious Stays</h3>
-        <p class="text-stone-600 text-sm">Large living halls and multiple bedrooms designed for comfortable <strong>villas in Lonavala for night party stay</strong>.</p>
+        <h3 class="text-xl font-bold text-[#0F2A24] mb-3">Bespoke Living</h3>
+        <p class="text-stone-500 text-sm leading-relaxed">From private pools to personalized butler service, our <strong>premium villas in Lonavala</strong> redefine the staycation experience.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ===== VIBES & MOMENTS (12 IMAGE GALLERY) ===== -->
+<!-- ===== VIBES & MOMENTS (14 IMAGE GALLERY) ===== -->
 <section class="py-16 md:py-24 bg-stone-50">
   <div class="max-w-7xl mx-auto px-4">
     <div class="text-center mb-16">
-      <h2 class="text-3xl sm:text-5xl font-bold text-[#0F2A24] mb-4 font-display">Vibes & <span class="text-amber-600">Moments</span></h2>
-      <p class="text-stone-500 text-lg">A glimpse into the Retrofusion party experience</p>
+      <h2 class="text-3xl sm:text-5xl font-bold text-[#0F2A24] mb-4 font-display">Luxury in <span class="text-amber-600">Details</span></h2>
+      <p class="text-stone-500 text-lg">A visual journey through our most exclusive estates</p>
     </div>
     
     <div class="grid grid-cols-1 md:grid-cols-4 gap-4 h-auto md:h-[800px]">
+      <!-- Row 1 -->
       <div class="md:col-span-2 relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(0)">
-        <img src="images/v1774807173_04_y636xz.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Party Moment 1">
+        <img src="images/v1774807173_04_y636xz.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Luxury Villa Exterior">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(1)">
-        <img src="images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Party Moment 2">
+        <img src="images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Premium Interior">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(2)">
-        <img src="images/v1770226533_N34_stewru.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Party Moment 3">
+        <img src="images/v1770226533_N34_stewru.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Scenic View">
       </div>
+      
+      <!-- Row 2 -->
       <div class="md:col-span-2 relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(3)">
-        <img src="images/v1774810269_12_lo4gpx.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Party Moment 4">
+        <img src="images/v1774810269_12_lo4gpx.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Private Infinity Pool">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(4)">
-        <img src="images/v1773076226_27_ipqwdd.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Party Moment 5">
+        <img src="images/v1773076226_27_ipqwdd.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Dining Excellence">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(5)">
-        <img src="images/v1769868155_M08_qewdva.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Party Moment 6">
+        <img src="images/v1769868155_M08_qewdva.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Master Bedroom">
       </div>
+      
+      <!-- Row 3 -->
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(6)">
-        <img src="images/v1774807176_34_vpeqgv.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Party Moment 7">
+        <img src="images/v1774807176_34_vpeqgv.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Poolside Lounge">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(7)">
-        <img src="images/v1772868264_1_wqosmq.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Party Moment 8">
+        <img src="images/v1772868264_1_wqosmq.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Evening Vibe">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(8)">
-        <img src="images/v1774809448_30_2_xtqtpb.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Party Moment 9">
+        <img src="images/v1774809448_30_2_xtqtpb.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Luxury Bathroom">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(9)">
-        <img src="images/v1774811620_30_1_eexljz.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Party Moment 10">
+        <img src="images/v1774811620_30_1_eexljz.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Modern Living">
       </div>
+      
+      <!-- Row 4 -->
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(10)">
-        <img src="images/v1769868140_B30_yc8rqu.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Party Moment 11">
+        <img src="images/v1769868140_B30_yc8rqu.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Veranda">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(11)">
-        <img src="images/v1769868142_H10_byp3oh.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Party Moment 12">
+        <img src="images/v1769868142_H10_byp3oh.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Sun Deck">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(12)">
-        <img src="images/v1774810653_N35_h2djzp.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Party Moment 13">
+        <img src="images/v1774810653_N35_h2djzp.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Luxury Detail">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(13)">
-        <img src="images/v1774809447_06_htf59g.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Party Moment 14">
+        <img src="images/v1774809447_06_htf59g.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="High-End Finish">
       </div>
     </div>
   </div>
@@ -191,8 +177,8 @@ include 'includes/header.php';
 <section id="villas" class="py-16 md:py-24 bg-white">
   <div class="max-w-7xl mx-auto px-4">
     <div class="mb-16 text-center">
-      <h2 class="text-3xl sm:text-5xl font-bold text-[#0F2A24] mb-4 font-display">Pick Your <span class="text-amber-600">Party Pad</span></h2>
-      <p class="text-stone-500 text-lg">Three unique flagship properties for every group style.</p>
+      <h2 class="text-3xl sm:text-5xl font-bold text-[#0F2A24] mb-4 font-display">Our <span class="text-amber-600">Exclusive Estates</span></h2>
+      <p class="text-stone-500 text-lg">Three flagship properties redefined for ultra-luxury living.</p>
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -200,16 +186,12 @@ include 'includes/header.php';
       <div class="group bg-white rounded-3xl overflow-hidden shadow-xl border border-stone-100 transition-all duration-500 hover:-translate-y-2">
         <div class="relative h-64 overflow-hidden">
           <img src="images/v1774807173_04_y636xz.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Retro Visawa">
-          <div class="absolute top-4 left-4 bg-emerald-500 text-white text-[10px] uppercase font-bold px-4 py-1 rounded-full">Group Favourite</div>
+          <div class="absolute top-4 left-4 bg-emerald-500 text-white text-[10px] uppercase font-bold px-4 py-1 rounded-full">Hilltop Luxury</div>
         </div>
         <div class="p-8">
           <h3 class="text-2xl font-bold text-[#0F2A24] mb-4 font-display">Retro Visawa</h3>
-          <ul class="space-y-3 mb-8">
-            <li class="flex items-center gap-2 text-stone-600 text-sm"><span class="text-amber-600">✔</span> Large Private Pool</li>
-            <li class="flex items-center gap-2 text-stone-600 text-sm"><span class="text-amber-600">✔</span> Huge Living Area</li>
-            <li class="flex items-center gap-2 text-stone-600 text-sm"><span class="text-amber-600">✔</span> Hilltop Location</li>
-          </ul>
-          <a href="retro-viswa-lonavala" class="block text-center bg-[#0F2A24] text-white py-3 rounded-xl font-bold hover:bg-amber-600 transition-colors">Explore Villa</a>
+          <p class="text-stone-500 text-sm mb-6 leading-relaxed">Spacious hilltop estate offering unmatched privacy and panoramic valley views.</p>
+          <a href="retro-viswa-lonavala" class="block text-center bg-[#0F2A24] text-white py-3 rounded-xl font-bold hover:bg-amber-600 transition-colors">Experience Luxury</a>
         </div>
       </div>
 
@@ -217,16 +199,12 @@ include 'includes/header.php';
       <div class="group bg-white rounded-3xl overflow-hidden shadow-xl border border-amber-200 transition-all duration-500 hover:-translate-y-2 scale-[1.05]">
         <div class="relative h-64 overflow-hidden">
           <img src="images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Neo Retro Villa">
-          <div class="absolute top-4 left-4 bg-amber-500 text-white text-[10px] uppercase font-bold px-4 py-1 rounded-full">Most Popular</div>
+          <div class="absolute top-4 left-4 bg-amber-500 text-white text-[10px] uppercase font-bold px-4 py-1 rounded-full">Artistic Premium</div>
         </div>
         <div class="p-8">
           <h3 class="text-2xl font-bold text-[#0F2A24] mb-4 font-display">Neo Retro Villa</h3>
-          <ul class="space-y-3 mb-8">
-            <li class="flex items-center gap-2 text-stone-600 text-sm"><span class="text-amber-600">✔</span> Aesthetic Interiors</li>
-            <li class="flex items-center gap-2 text-stone-600 text-sm"><span class="text-amber-600">✔</span> Private Jacuzzi</li>
-            <li class="flex items-center gap-2 text-stone-600 text-sm"><span class="text-amber-600">✔</span> Art & Library</li>
-          </ul>
-          <a href="neo-retro" class="block text-center bg-amber-600 text-white py-3 rounded-xl font-bold hover:bg-[#0F2A24] transition-colors shadow-lg">Explore Villa</a>
+          <p class="text-stone-500 text-sm mb-6 leading-relaxed">A contemporary masterpiece blending high-end art with boutique living spaces.</p>
+          <a href="neo-retro" class="block text-center bg-amber-600 text-white py-3 rounded-xl font-bold hover:bg-[#0F2A24] transition-colors shadow-lg">Experience Luxury</a>
         </div>
       </div>
 
@@ -234,45 +212,41 @@ include 'includes/header.php';
       <div class="group bg-white rounded-3xl overflow-hidden shadow-xl border border-stone-100 transition-all duration-500 hover:-translate-y-2">
         <div class="relative h-64 overflow-hidden">
           <img src="images/v1770226533_N34_stewru.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Retro Villa">
-          <div class="absolute top-4 left-4 bg-stone-800 text-white text-[10px] uppercase font-bold px-4 py-1 rounded-full">Budget Friendly</div>
+          <div class="absolute top-4 left-4 bg-stone-800 text-white text-[10px] uppercase font-bold px-4 py-1 rounded-full">Classic Elegance</div>
         </div>
         <div class="p-8">
           <h3 class="text-2xl font-bold text-[#0F2A24] mb-4 font-display">Retro Villa</h3>
-          <ul class="space-y-3 mb-8">
-            <li class="flex items-center gap-2 text-stone-600 text-sm"><span class="text-amber-600">✔</span> Homely Vibes</li>
-            <li class="flex items-center gap-2 text-stone-600 text-sm"><span class="text-amber-600">✔</span> Private Plunge Pool</li>
-            <li class="flex items-center gap-2 text-stone-600 text-sm"><span class="text-amber-600">✔</span> BBQ Setup</li>
-          </ul>
-          <a href="retro-villas" class="block text-center bg-[#0F2A24] text-white py-3 rounded-xl font-bold hover:bg-amber-600 transition-colors">Explore Villa</a>
+          <p class="text-stone-500 text-sm mb-6 leading-relaxed">Timeless architecture meets modern comfort in this serene private pool retreat.</p>
+          <a href="retro-villas" class="block text-center bg-[#0F2A24] text-white py-3 rounded-xl font-bold hover:bg-amber-600 transition-colors">Experience Luxury</a>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ===== PARTY AMENITIES SECTION ===== -->
+<!-- ===== LUXURY AMENITIES SECTION ===== -->
 <section class="py-16 md:py-24 bg-[#0F2A24] text-white">
   <div class="max-w-7xl mx-auto px-4">
     <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
       <div class="text-center">
-        <div class="text-4xl mb-4">🏊‍♂️</div>
-        <h4 class="text-xl font-bold mb-2">Private Pools</h4>
-        <p class="text-stone-400 text-sm">Exclusive access for your group only. No sharing.</p>
+        <div class="text-4xl mb-4">💎</div>
+        <h4 class="text-xl font-bold mb-2">Designer Interiors</h4>
+        <p class="text-stone-400 text-sm">Curated decor and high-end furnishings for a premium feel.</p>
       </div>
       <div class="text-center">
-        <div class="text-4xl mb-4">🔥</div>
-        <h4 class="text-xl font-bold mb-2">BBQ & Dining</h4>
-        <p class="text-stone-400 text-sm">Outdoor setups for grilling and bonding.</p>
+        <div class="text-4xl mb-4">🥂</div>
+        <h4 class="text-xl font-bold mb-2">Private Butler</h4>
+        <p class="text-stone-400 text-sm">Dedicated staff to cater to your every requirement.</p>
       </div>
       <div class="text-center">
-        <div class="text-4xl mb-4">🔊</div>
-        <h4 class="text-xl font-bold mb-2">Music Systems</h4>
-        <p class="text-stone-400 text-sm">High-quality speakers to set the party mood.</p>
+        <div class="text-4xl mb-4">🌊</div>
+        <h4 class="text-xl font-bold mb-2">Temperature Pool</h4>
+        <p class="text-stone-400 text-sm">Infinity pools with climate control for year-round luxury.</p>
       </div>
       <div class="text-center">
-        <div class="text-4xl mb-4">🏠</div>
-        <h4 class="text-xl font-bold mb-2">4BHK Spaces</h4>
-        <p class="text-stone-400 text-sm">Ample room for everyone to stay together.</p>
+        <div class="text-4xl mb-4">🍽️</div>
+        <h4 class="text-xl font-bold mb-2">Private Chef</h4>
+        <p class="text-stone-400 text-sm">Gourmet dining experiences tailored to your palate.</p>
       </div>
     </div>
   </div>
@@ -282,24 +256,19 @@ include 'includes/header.php';
 <section class="py-16 md:py-24 bg-white border-b border-stone-100">
   <div class="max-w-4xl mx-auto px-4">
     <div class="prose prose-stone lg:prose-lg mx-auto">
-      <h2 class="text-3xl font-bold text-[#0F2A24] font-display mb-6">Plan Your Best Lonavala Party Stay</h2>
+      <h2 class="text-3xl font-bold text-[#0F2A24] font-display mb-6">A New Paradigm of Lonavala Hospitality</h2>
       <p class="leading-relaxed text-stone-600 mb-8">
-        Whether you are searching for a <strong>4BHK villa in Lonavala for weekend party</strong> or a specialized venue for a bachelor bash, we have you covered. Our properties are highly rated for their privacy and hospitality. Choosing our <strong>party villas in Lonavala with private pool</strong> means you don't have to compromise on style or comfort. Located just a short drive from Mumbai and Pune, our villas offer the perfect quick escape for groups who want to celebrate without the stress of long travel.
+        The definition of luxury is personal, but its expression is universal. At Retrofusion, we believe that <strong>luxury villas in Lonavala</strong> should be more than just a place to sleep; they should be curated sanctuaries that inspire and rejuvenate. Our collection of <strong>ultra luxury 4BHK villas in Lonavala</strong> is designed for the discerning traveler who appreciates the finer things in life—from bespoke furniture to panoramic views of the Sahyadri mountains.
       </p>
 
-      <h3 class="text-2xl font-bold text-[#0F2A24] font-display mb-4">Unmatched Privacy and Luxury</h3>
+      <h3 class="text-2xl font-bold text-[#0F2A24] font-display mb-4">Exclusivity in Every Detail</h3>
       <p class="leading-relaxed text-stone-600 mb-8">
-        What sets Retrofusion apart is our commitment to providing a truly private experience. Unlike hotels or crowded resorts, our standalone <strong>villas in Lonavala for group party</strong> give you the freedom to host your event your way. From poolside sunbathing during the day to cozy BBQ evenings under the stars, every moment is curated for bonding. Our spacious living halls are designed to be the heart of your celebration, featuring aesthetic decor that makes for the perfect Instagram backdrop.
+        What makes a stay truly <strong>premium in Lonavala</strong>? It’s the seamless integration of modern technology with natural elements. Each <strong>villa in Lonavala with private pool</strong> in our portfolio features smart home systems, gourmet kitchens, and expansive outdoor decks that blur the line between indoor and outdoor living. We provide an environment where your family and friends can gather in total seclusion, away from the prying eyes of the world.
       </p>
 
-      <h3 class="text-2xl font-bold text-[#0F2A24] font-display mb-4">Villas in Lonavala for Night Party Stay</h3>
+      <h3 class="text-2xl font-bold text-[#0F2A24] font-display mb-4">High-End Services for a High-End Stay</h3>
       <p class="leading-relaxed text-stone-600 mb-8">
-        Our villas offer the security and atmosphere needed for <strong>villas in Lonavala for night party stay</strong>. With dedicated caretakers on-site and premium facilities like high-speed WiFi, modern kitchens, and comfortable bedding, your celebration will be seamless from check-in to check-out. We understand that a great party is all about the vibe, which is why we offer pre-setup options for decor and catering to take the load off your shoulders.
-      </p>
-
-      <h3 class="text-2xl font-bold text-[#0F2A24] font-display mb-4">Perfect for Friends and Large Groups</h3>
-      <p class="leading-relaxed text-stone-600 mb-8">
-        Finding a <strong>4BHK villa in Lonavala for friends group</strong> can be challenging, but our properties are specifically designed for high-occupancy stays. With multiple bathrooms, ample parking, and large terrace areas, we ensure that every member of your group has a comfortable and memorable stay. Whether it's a reunion of old college friends or a formal bachelor send-off, our villas provide the perfect canvas for your memories.
+        Our <strong>exclusive villas in Lonavala for luxury stay</strong> are supported by a team of dedicated hospitality professionals. From a private chef who can prepare local delicacies to a concierge who can arrange private treks or spa sessions at the villa, we ensure that your <strong>high-end 4BHK villa experience</strong> is completely customized to your needs. This is luxury living, redefined for the modern age.
       </p>
     </div>
   </div>
@@ -311,22 +280,22 @@ include 'includes/header.php';
     <div class="text-center mb-14">
       <div class="flex items-center justify-center space-x-2 mb-4">
         <div class="w-8 h-[2px] bg-amber-600"></div>
-        <span class="text-amber-600 text-sm font-medium uppercase tracking-wider">Book Your Party</span>
+        <span class="text-amber-600 text-sm font-medium uppercase tracking-wider">Book Now</span>
         <div class="w-8 h-[2px] bg-amber-600"></div>
       </div>
       <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-[#0F2A24] leading-tight mb-4 font-display">
-        Reserve Your <span class="text-amber-600">Event</span></h2>
-      <p class="text-stone-600 font-light text-lg max-w-2xl mx-auto">Host the ultimate bachelor party in Lonavala. Fill out the form below to secure your villa for the weekend.</p>
+        Reserve Your <span class="text-amber-600">Stay</span></h2>
+      <p class="text-stone-600 font-light text-lg max-w-2xl mx-auto">Experience the finest 4BHK villa Lonavala has to offer. Fill out the form below to secure your dates.</p>
     </div>
     
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
       <div class="bg-white rounded-3xl shadow-2xl p-8 lg:p-10 border border-stone-200/50">
         <div class="mb-8">
-          <h3 class="text-2xl font-bold text-[#0F2A24] mb-2 font-display">Event Enquiry</h3>
-          <p class="text-stone-500 text-sm">Our team will get back to you with availability and special party packages.</p>
+          <h3 class="text-2xl font-bold text-[#0F2A24] mb-2 font-display">Enquiry Form</h3>
+          <p class="text-stone-500 text-sm">Our team will get back to you with availability and details.</p>
         </div>
         <form action="mail1.php" method="POST" class="space-y-5">
-          <input type="hidden" name="villa" value="Bachelor Party Page Enquiry">
+          <input type="hidden" name="villa" value="Luxury Page Enquiry">
           <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
               <label class="block text-xs font-semibold text-stone-700 mb-2 uppercase tracking-wide">Full Name *</label>
@@ -346,10 +315,10 @@ include 'includes/header.php';
               <label class="block text-xs font-semibold text-stone-700 mb-2 uppercase tracking-wide">Number of Guests</label>
               <select name="guests" class="w-full px-4 py-3 text-sm border border-stone-300 rounded-xl focus:ring-2 focus:ring-amber-500 transition-all outline-none bg-[#F4EFEA]/50 hover:bg-white">
                 <option value="">Select guests</option>
+                <option value="2-4">2-4 Guests</option>
                 <option value="5-8">5-8 Guests</option>
                 <option value="9-12">9-12 Guests</option>
-                <option value="13-16">13-16 Guests</option>
-                <option value="17+">17+ Guests</option>
+                <option value="13+">13+ Guests</option>
               </select>
             </div>
           </div>
@@ -476,12 +445,8 @@ include 'includes/header.php';
     const lb = document.getElementById('lightbox');
     lb.style.opacity = '0';
     setTimeout(() => {
-      lb.classList.add('hidden');
       lb.classList.remove('flex');
+      lb.classList.add('hidden');
     }, 300);
   }
 </script>
-
-<script src="js/main.js"></script>
-</body>
-</html>

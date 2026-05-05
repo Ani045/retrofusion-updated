@@ -542,6 +542,17 @@ include 'includes/header.php';
     <!-- Mobile Grid -->
     <div class="lg:hidden overflow-x-auto scrollbar-hide -mx-4 px-4">
       <div class="flex gap-4 pb-4" style="scroll-snap-type: x mandatory;">
+        <!-- Luxury Villa -->
+        <a href="luxury-4bhk-villas-in-lonavala" class="flex-shrink-0 w-80 group">
+          <div class="relative h-96 rounded-3xl overflow-hidden mb-4">
+            <img src="images/luxury_villa_lonavala_hero.png" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Luxury Villas in Lonavala">
+            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+            <div class="absolute bottom-6 left-6">
+              <h3 class="text-2xl font-bold text-white mb-2">Luxury Villas</h3>
+              <p class="text-amber-400 text-sm font-medium">Ultra Premium Estates</p>
+            </div>
+          </div>
+        </a>
         <!-- Mobile Col 1 -->
         <div class="flex flex-col gap-4 min-w-[280px]" style="scroll-snap-align: start;">
           <a href="villas-in-lonavala-for-bachelor-party" class="relative w-full h-64 rounded-2xl overflow-hidden shadow-lg block">
