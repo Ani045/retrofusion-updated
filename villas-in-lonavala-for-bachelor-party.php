@@ -17,16 +17,22 @@ include 'includes/header.php';
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "VacationRental",
-      "@id": "https://retrofusion.in/villas-in-lonavala-for-bachelor-party#property",
-      "name": "Party Villas in Lonavala with Private Pool",
+      "@type": "LodgingBusiness",
+      "@id": "https://retrofusion.in/villas-in-lonavala-for-bachelor-party#lodging",
+      "name": "Party Villas in Lonavala with Private Pool - Retrofusion",
       "description": "Premium 4BHK villas in Lonavala perfect for bachelor parties, friends groups, and weekend celebrations. Features private pools, BBQ, and luxury amenities.",
       "url": "https://retrofusion.in/villas-in-lonavala-for-bachelor-party",
       "image": [
-        "images/bachelor-party-villa-lonavala.png",
-        "images/v1772474727_Screenshot_2026-03-02_at_11.33.32_PM_wqk7eu.png",
-        "images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg"
+        "https://retrofusion.in/images/bachelor-party-villa-lonavala.png",
+        "https://retrofusion.in/images/v1772474727_Screenshot_2026-03-02_at_11.33.32_PM_wqk7eu.png",
+        "https://retrofusion.in/images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg",
+        "https://retrofusion.in/images/v1774810269_12_lo4gpx.jpg",
+        "https://retrofusion.in/images/v1773076342_23_wby8bv.jpg",
+        "https://retrofusion.in/images/v1774807173_04_y636xz.jpg",
+        "https://retrofusion.in/images/v1770226533_N34_stewru.jpg",
+        "https://retrofusion.in/images/v1774811620_30_1_eexljz.jpg"
       ],
+      "identifier": "RETRO-BACH-01",
       "telephone": "+91 8999036644",
       "address": {
         "@type": "PostalAddress",
@@ -38,35 +44,15 @@ include 'includes/header.php';
       },
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": "18.754",
-        "longitude": "73.407"
+        "latitude": "18.7544",
+        "longitude": "73.4062"
       },
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.9",
         "reviewCount": "215"
-      }
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Which are the best villas in Lonavala for group party?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Retro Visawa and Neo Retro Villa are highly recommended as the best villas in Lonavala for group party due to their spacious 4BHK layouts, private pools, and modern amenities."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do you offer 4BHK villas in Lonavala for friends group?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, we specialize in 4BHK villas in Lonavala for friends group, providing ample space, multiple bedrooms, and common areas for bonding and celebration."
-          }
-        }
-      ]
+      },
+      "priceRange": "$$"
     }
   ]
 }

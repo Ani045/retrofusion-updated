@@ -17,16 +17,22 @@ include 'includes/header.php';
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "VacationRental",
-      "@id": "https://retrofusion.in/luxury-4bhk-villas-in-lonavala#property",
-      "name": "Luxury Villas in Lonavala with Private Pool",
+      "@type": "LodgingBusiness",
+      "@id": "https://retrofusion.in/luxury-4bhk-villas-in-lonavala#lodging",
+      "name": "Luxury Villas in Lonavala - Retrofusion",
       "description": "Exclusive collection of ultra-luxury 4BHK villas in Lonavala featuring infinity pools, gourmet kitchens, and premium concierge services.",
       "url": "https://retrofusion.in/luxury-4bhk-villas-in-lonavala",
       "image": [
-        "images/luxury_villa_lonavala_hero.png",
-        "images/v1774807173_04_y636xz.jpg",
-        "images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg"
+        "https://retrofusion.in/images/luxury_villa_lonavala_hero.png",
+        "https://retrofusion.in/images/v1774807173_04_y636xz.jpg",
+        "https://retrofusion.in/images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg",
+        "https://retrofusion.in/images/v1774810269_12_lo4gpx.jpg",
+        "https://retrofusion.in/images/v1773076226_27_ipqwdd.jpg",
+        "https://retrofusion.in/images/v1769868155_M08_qewdva.webp",
+        "https://retrofusion.in/images/v1774807176_34_vpeqgv.jpg",
+        "https://retrofusion.in/images/v1772868264_1_wqosmq.jpg"
       ],
+      "identifier": "RETRO-LUX-01",
       "telephone": "+91 8999036644",
       "address": {
         "@type": "PostalAddress",
@@ -38,14 +44,15 @@ include 'includes/header.php';
       },
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": "18.754",
-        "longitude": "73.407"
+        "latitude": "18.7544",
+        "longitude": "73.4062"
       },
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.9",
         "reviewCount": "185"
-      }
+      },
+      "priceRange": "$$$"
     }
   ]
 }

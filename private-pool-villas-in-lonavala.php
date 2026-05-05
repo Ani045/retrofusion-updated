@@ -17,16 +17,22 @@ include 'includes/header.php';
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "VacationRental",
-      "@id": "https://retrofusion.in/private-pool-villas-in-lonavala#property",
+      "@type": "LodgingBusiness",
+      "@id": "https://retrofusion.in/private-pool-villas-in-lonavala#lodging",
       "name": "Private Pool Villas in Lonavala - Retrofusion",
       "description": "Premium 4BHK villas in Lonavala featuring large private swimming pools, valley views, and modern comforts for families and groups.",
       "url": "https://retrofusion.in/private-pool-villas-in-lonavala",
       "image": [
-        "images/private_pool_villa_lonavala_hero.png",
-        "images/v1774807176_34_vpeqgv.jpg",
-        "images/v1774810269_12_lo4gpx.jpg"
+        "https://retrofusion.in/images/private_pool_villa_lonavala_hero.png",
+        "https://retrofusion.in/images/v1774807176_34_vpeqgv.jpg",
+        "https://retrofusion.in/images/v1774810269_12_lo4gpx.jpg",
+        "https://retrofusion.in/images/v1769868155_M08_qewdva.webp",
+        "https://retrofusion.in/images/v1773076342_23_wby8bv.jpg",
+        "https://retrofusion.in/images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg",
+        "https://retrofusion.in/images/v1770226533_N34_stewru.jpg",
+        "https://retrofusion.in/images/v1773076226_27_ipqwdd.jpg"
       ],
+      "identifier": "RETRO-POOL-01",
       "telephone": "+91 8999036644",
       "address": {
         "@type": "PostalAddress",
@@ -36,11 +42,17 @@ include 'includes/header.php';
         "postalCode": "410401",
         "addressCountry": "IN"
       },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "18.7544",
+        "longitude": "73.4062"
+      },
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.8",
         "reviewCount": "210"
-      }
+      },
+      "priceRange": "$$"
     }
   ]
 }

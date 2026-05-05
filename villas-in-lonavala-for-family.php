@@ -17,16 +17,22 @@ include 'includes/header.php';
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "VacationRental",
-      "@id": "https://retrofusion.in/villas-in-lonavala-for-family#property",
+      "@type": "LodgingBusiness",
+      "@id": "https://retrofusion.in/villas-in-lonavala-for-family#lodging",
       "name": "Family Friendly Villas in Lonavala - Retrofusion",
       "description": "Safe and serene 4BHK villas in Lonavala designed for families. Featuring private pools, fenced gardens, and home-style dining.",
       "url": "https://retrofusion.in/villas-in-lonavala-for-family",
       "image": [
-        "images/family_villa_lonavala_hero.png",
-        "images/v1773076342_23_wby8bv.jpg",
-        "images/v1774811620_30_1_eexljz.jpg"
+        "https://retrofusion.in/images/family_villa_lonavala_hero.png",
+        "https://retrofusion.in/images/v1773076342_23_wby8bv.jpg",
+        "https://retrofusion.in/images/v1774811620_30_1_eexljz.jpg",
+        "https://retrofusion.in/images/v1774807173_04_y636xz.jpg",
+        "https://retrofusion.in/images/v1770226533_N34_stewru.jpg",
+        "https://retrofusion.in/images/v1774810269_12_lo4gpx.jpg",
+        "https://retrofusion.in/images/v1773076226_27_ipqwdd.jpg",
+        "https://retrofusion.in/images/v1772868264_1_wqosmq.jpg"
       ],
+      "identifier": "RETRO-FAM-01",
       "telephone": "+91 8999036644",
       "address": {
         "@type": "PostalAddress",
@@ -35,7 +41,18 @@ include 'includes/header.php';
         "addressRegion": "Maharashtra",
         "postalCode": "410401",
         "addressCountry": "IN"
-      }
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "18.7544",
+        "longitude": "73.4062"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "150"
+      },
+      "priceRange": "$$"
     }
   ]
 }
