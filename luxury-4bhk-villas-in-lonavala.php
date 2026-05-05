@@ -133,6 +133,54 @@ include 'includes/header.php';
             "@type": "Answer",
             "text": "Yes, all our ultra-luxury 4BHK villas include a dedicated concierge and private butler to ensure every aspect of your stay is perfectly managed."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "Is a private chef available for gourmet dining?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. We provide a professional in-house chef who specializes in multi-cuisine gourmet dining, ensuring a five-star culinary experience within the privacy of your villa."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do the luxury villas have temperature-controlled pools?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, flagship properties like Retro Visawa feature climate-controlled swimming pools, allowing you to enjoy a comfortable swim even during the cooler months in Lonavala."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are the villas equipped with smart home features?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our high-end 4BHK villas are equipped with modern amenities including smart lighting, high-speed Wi-Fi, and premium sound systems for a seamless living experience."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you offer airport or city transfers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, we can arrange premium SUV transfers from Mumbai or Pune airports and cities directly to your villa for a hassle-free journey."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the property suitable for high-profile guests or celebrities?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Definitely. Our villas offer complete seclusion and private gated access, ensuring 100% privacy and security for our high-profile and celebrity guests."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the cancellation policies for luxury bookings?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We offer flexible cancellation policies for our premium bookings. Please refer to our terms and conditions or contact our concierge for specific details regarding your dates."
+          }
         }
       ]
     },
@@ -369,6 +417,125 @@ include 'includes/header.php';
     </div>
   </div>
 </section>
+
+<!-- ===== FAQ SECTION ===== -->
+<section class="py-16 md:py-24 bg-stone-50">
+  <div class="max-w-3xl mx-auto px-4">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl sm:text-5xl font-bold text-[#0F2A24] mb-4 font-display">Common <span class="text-amber-600">Questions</span></h2>
+      <p class="text-stone-500">Everything you need to know about our luxury stays</p>
+    </div>
+    
+    <div class="space-y-4">
+      <!-- FAQ 1 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(0)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">What defines a luxury villa stay in Lonavala?</span>
+          <svg id="faq-icon-0" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-0" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          Our luxury villas are defined by designer interiors, private infinity pools, gourmet in-house chefs, and personalized concierge services located in the most scenic parts of Lonavala.
+        </div>
+      </div>
+
+      <!-- FAQ 2 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(1)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">Do you offer concierge services at your luxury villas?</span>
+          <svg id="faq-icon-1" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-1" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          Yes, all our ultra-luxury 4BHK villas include a dedicated concierge and private butler to ensure every aspect of your stay is perfectly managed.
+        </div>
+      </div>
+
+      <!-- FAQ 3 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(2)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">Is a private chef available for gourmet dining?</span>
+          <svg id="faq-icon-2" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-2" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          Absolutely. We provide a professional in-house chef who specializes in multi-cuisine gourmet dining, ensuring a five-star culinary experience within the privacy of your villa.
+        </div>
+      </div>
+
+      <!-- FAQ 4 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(3)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">Do the luxury villas have temperature-controlled pools?</span>
+          <svg id="faq-icon-3" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-3" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          Yes, flagship properties like Retro Visawa feature climate-controlled swimming pools, allowing you to enjoy a comfortable swim even during the cooler months in Lonavala.
+        </div>
+      </div>
+
+      <!-- FAQ 5 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(4)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">Are the villas equipped with smart home features?</span>
+          <svg id="faq-icon-4" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-4" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          Our high-end 4BHK villas are equipped with modern amenities including smart lighting, high-speed Wi-Fi, and premium sound systems for a seamless living experience.
+        </div>
+      </div>
+
+      <!-- FAQ 6 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(5)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">Do you offer airport or city transfers?</span>
+          <svg id="faq-icon-5" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-5" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          Yes, we can arrange premium SUV transfers from Mumbai or Pune airports and cities directly to your villa for a hassle-free journey.
+        </div>
+      </div>
+
+      <!-- FAQ 7 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(6)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">Is the property suitable for high-profile guests or celebrities?</span>
+          <svg id="faq-icon-6" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-6" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          Definitely. Our villas offer complete seclusion and private gated access, ensuring 100% privacy and security for our high-profile and celebrity guests.
+        </div>
+      </div>
+
+      <!-- FAQ 8 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(7)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">What are the cancellation policies for luxury bookings?</span>
+          <svg id="faq-icon-7" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-7" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          We offer flexible cancellation policies for our premium bookings. Please refer to our terms and conditions or contact our concierge for specific details regarding your dates.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  function toggleFaq(index) {
+    const ans = document.getElementById(`faq-ans-${index}`);
+    const icon = document.getElementById(`faq-icon-${index}`);
+    const isOpen = !ans.classList.contains('hidden');
+    
+    // Close all first (optional)
+    // document.querySelectorAll('[id^="faq-ans-"]').forEach(el => el.classList.add('hidden'));
+    
+    if (isOpen) {
+      ans.classList.add('hidden');
+      icon.style.transform = 'rotate(0deg)';
+    } else {
+      ans.classList.remove('hidden');
+      icon.style.transform = 'rotate(180deg)';
+    }
+  }
+</script>
 
 <!-- ===== CONTACT & BOOKING SECTION ===== -->
 <section id="booking" class="py-12 md:py-16 bg-gradient-to-br from-stone-100 via-white to-amber-50">

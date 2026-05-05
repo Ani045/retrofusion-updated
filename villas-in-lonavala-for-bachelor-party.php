@@ -133,6 +133,54 @@ include 'includes/header.php';
             "@type": "Answer",
             "text": "Absolutely! We provide BBQ equipment and can also arrange for a private chef to handle the grilling for your group party."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "Is music allowed late at night in the villas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Moderate music is allowed within the villa premises. However, as per local regulations, loud outdoor music must be turned down after 10 PM to ensure a peaceful environment for the neighborhood."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the maximum guest capacity for group stays?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our 4BHK villas can comfortably accommodate up to 15-20 guests for overnight stays, making them ideal for large groups and bachelor parties."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is there enough parking space for multiple cars?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, our properties feature dedicated private parking that can easily accommodate 3-4 cars securely."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you provide ice and mixers for parties?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, our in-house staff can assist you with ice, mixers, and glassware for your celebration. You are free to bring your own beverages."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do the villas have a sound system?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, all our party-focused villas are equipped with high-quality Bluetooth speakers and sound systems for your entertainment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the security deposit for bachelor parties?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A standard refundable security deposit is collected at check-in to cover any incidental damages. This is fully refunded at check-out after a room inspection."
+          }
         }
       ]
     },
@@ -379,6 +427,121 @@ include 'includes/header.php';
     </div>
   </div>
 </section>
+
+<!-- ===== FAQ SECTION ===== -->
+<section class="py-16 md:py-24 bg-stone-50">
+  <div class="max-w-3xl mx-auto px-4">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl sm:text-5xl font-bold text-[#0F2A24] mb-4 font-display">Party <span class="text-amber-600">FAQs</span></h2>
+      <p class="text-stone-500">Essential info for your group celebration</p>
+    </div>
+    
+    <div class="space-y-4">
+      <!-- FAQ 1 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(0)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">Are parties allowed in your villas in Lonavala?</span>
+          <svg id="faq-icon-0" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-0" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          Yes, we offer specialized party-friendly villas like Retro Visawa and Neo Retro Villa which are perfect for bachelor parties and group celebrations with private pools and large decks.
+        </div>
+      </div>
+
+      <!-- FAQ 2 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(1)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">Do you provide BBQ for bachelor parties?</span>
+          <svg id="faq-icon-1" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-1" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          Absolutely! We provide BBQ equipment and can also arrange for a private chef to handle the grilling for your group party.
+        </div>
+      </div>
+
+      <!-- FAQ 3 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(2)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">Is music allowed late at night in the villas?</span>
+          <svg id="faq-icon-2" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-2" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          Moderate music is allowed within the villa premises. However, as per local regulations, loud outdoor music must be turned down after 10 PM to ensure a peaceful environment for the neighborhood.
+        </div>
+      </div>
+
+      <!-- FAQ 4 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(3)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">What is the maximum guest capacity for group stays?</span>
+          <svg id="faq-icon-3" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-3" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          Our 4BHK villas can comfortably accommodate up to 15-20 guests for overnight stays, making them ideal for large groups and bachelor parties.
+        </div>
+      </div>
+
+      <!-- FAQ 5 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(4)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">Is there enough parking space for multiple cars?</span>
+          <svg id="faq-icon-4" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-4" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          Yes, our properties feature dedicated private parking that can easily accommodate 3-4 cars securely.
+        </div>
+      </div>
+
+      <!-- FAQ 6 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(5)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">Do you provide ice and mixers for parties?</span>
+          <svg id="faq-icon-5" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-5" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          Yes, our in-house staff can assist you with ice, mixers, and glassware for your celebration. You are free to bring your own beverages.
+        </div>
+      </div>
+
+      <!-- FAQ 7 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(6)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">Do the villas have a sound system?</span>
+          <svg id="faq-icon-6" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-6" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          Yes, all our party-focused villas are equipped with high-quality Bluetooth speakers and sound systems for your entertainment.
+        </div>
+      </div>
+
+      <!-- FAQ 8 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(7)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">What is the security deposit for bachelor parties?</span>
+          <svg id="faq-icon-7" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-7" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          A standard refundable security deposit is collected at check-in to cover any incidental damages. This is fully refunded at check-out after a room inspection.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  function toggleFaq(index) {
+    const ans = document.getElementById(`faq-ans-${index}`);
+    const icon = document.getElementById(`faq-icon-${index}`);
+    const isOpen = !ans.classList.contains('hidden');
+    if (isOpen) {
+      ans.classList.add('hidden');
+      icon.style.transform = 'rotate(0deg)';
+    } else {
+      ans.classList.remove('hidden');
+      icon.style.transform = 'rotate(180deg)';
+    }
+  }
+</script>
 
 <!-- ===== CONTACT & BOOKING SECTION ===== -->
 <section id="booking" class="py-12 md:py-16 bg-gradient-to-br from-stone-100 via-white to-amber-50">

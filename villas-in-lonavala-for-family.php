@@ -146,6 +146,46 @@ include 'includes/header.php';
             "@type": "Answer",
             "text": "Absolutely. We offer 4BHK villas that can comfortably accommodate 8-15 guests, making them perfect for multi-generational family reunions and group trips."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "Is an in-house chef available for home-style meals?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, all our villas come with a dedicated in-house chef who can prepare fresh, home-style meals tailored to your family's preferences and dietary requirements."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are your villas in Lonavala safe for senior citizens?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, we have ground-floor bedrooms and accessible bathrooms in our villas, making them very comfortable and safe for senior citizens."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do all family villas have private swimming pools?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, every villa in our collection features a completely private swimming pool, ensuring your family enjoys total privacy without any external interference."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is there enough space for kids to play outdoors?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our villas feature expansive private lawns and gardens, providing a safe and large outdoor space for children to play freely."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the standard check-in and check-out times?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our standard check-in time is 1:00 PM and check-out is 11:00 AM. Early check-in or late check-out may be possible subject to availability."
+          }
         }
       ]
     },
@@ -382,6 +422,121 @@ include 'includes/header.php';
     </div>
   </div>
 </section>
+
+<!-- ===== FAQ SECTION ===== -->
+<section class="py-16 md:py-24 bg-stone-50">
+  <div class="max-w-3xl mx-auto px-4">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl sm:text-5xl font-bold text-[#0F2A24] mb-4 font-display">Family <span class="text-amber-600">FAQs</span></h2>
+      <p class="text-stone-500">Common questions about family stays in Lonavala</p>
+    </div>
+    
+    <div class="space-y-4">
+      <!-- FAQ 1 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(0)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">Which are the best villas in Lonavala for family stay?</span>
+          <svg id="faq-icon-0" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-0" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          Retro Visawa and Retro Villa are highly recommended as the best villas in Lonavala for family stays due to their large gardens, private pools, and kid-safe environments.
+        </div>
+      </div>
+
+      <!-- FAQ 2 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(1)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">Are your family villas in Lonavala child-friendly?</span>
+          <svg id="faq-icon-1" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-1" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          Yes, our family villas feature child-friendly amenities including fenced pool areas (on request), large lawns for playing, and customized kid-friendly meals prepared by our in-house chefs.
+        </div>
+      </div>
+
+      <!-- FAQ 3 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(2)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">Do you offer villas in Lonavala for large families?</span>
+          <svg id="faq-icon-2" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-2" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          Absolutely. We offer 4BHK villas that can comfortably accommodate 8-15 guests, making them perfect for multi-generational family reunions and group trips.
+        </div>
+      </div>
+
+      <!-- FAQ 4 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(3)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">Is an in-house chef available for home-style meals?</span>
+          <svg id="faq-icon-3" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-3" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          Yes, all our villas come with a dedicated in-house chef who can prepare fresh, home-style meals tailored to your family's preferences and dietary requirements.
+        </div>
+      </div>
+
+      <!-- FAQ 5 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(4)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">Are your villas in Lonavala safe for senior citizens?</span>
+          <svg id="faq-icon-4" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-4" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          Yes, we have ground-floor bedrooms and accessible bathrooms in our villas, making them very comfortable and safe for senior citizens.
+        </div>
+      </div>
+
+      <!-- FAQ 6 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(5)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">Do all family villas have private swimming pools?</span>
+          <svg id="faq-icon-5" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-5" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          Yes, every villa in our collection features a completely private swimming pool, ensuring your family enjoys total privacy without any external interference.
+        </div>
+      </div>
+
+      <!-- FAQ 7 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(6)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">Is there enough space for kids to play outdoors?</span>
+          <svg id="faq-icon-6" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-6" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          Our villas feature expansive private lawns and gardens, providing a safe and large outdoor space for children to play freely.
+        </div>
+      </div>
+
+      <!-- FAQ 8 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(7)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">What are the standard check-in and check-out times?</span>
+          <svg id="faq-icon-7" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-7" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          Our standard check-in time is 1:00 PM and check-out is 11:00 AM. Early check-in or late check-out may be possible subject to availability.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  function toggleFaq(index) {
+    const ans = document.getElementById(`faq-ans-${index}`);
+    const icon = document.getElementById(`faq-icon-${index}`);
+    const isOpen = !ans.classList.contains('hidden');
+    if (isOpen) {
+      ans.classList.add('hidden');
+      icon.style.transform = 'rotate(0deg)';
+    } else {
+      ans.classList.remove('hidden');
+      icon.style.transform = 'rotate(180deg)';
+    }
+  }
+</script>
 
 <!-- ===== CONTACT & BOOKING SECTION ===== -->
 <section id="booking" class="py-12 md:py-16 bg-gradient-to-br from-stone-100 via-white to-amber-50">

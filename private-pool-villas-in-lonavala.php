@@ -133,6 +133,54 @@ include 'includes/header.php';
             "@type": "Answer",
             "text": "Selected properties like Retro Visawa offer temperature-controlled pool options for a comfortable swim regardless of the weather in Lonavala."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "How often are the private pools cleaned?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our pools undergo professional cleaning and filtration every day before guest check-in to maintain the highest standards of hygiene and clarity."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are the pools safe for children and non-swimmers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, our pools have a standard depth and we can provide life jackets or floating tubes on request. We also recommend adult supervision for children at all times."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the swimming pool available 24/7?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, since the pool is entirely private to your villa, you can enjoy a swim at any time. We also provide beautiful pool-side lighting for evening dips."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can we arrange a pool-side BBQ party?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely! We can set up a professional BBQ station by the pool for your group or family to enjoy a delicious grilled meal outdoors."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you provide fresh towels and pool accessories?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, we provide fresh, sanitized pool towels and common pool accessories to ensure you have everything you need for a relaxing swim."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the average depth of the pools?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The pools typically have a uniform depth of 4 to 4.5 feet, which is ideal for both relaxation and safe family fun."
+          }
         }
       ]
     },
@@ -332,6 +380,121 @@ include 'includes/header.php';
     </div>
   </div>
 </section>
+
+<!-- ===== FAQ SECTION ===== -->
+<section class="py-16 md:py-24 bg-stone-50">
+  <div class="max-w-3xl mx-auto px-4">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl sm:text-5xl font-bold text-[#0F2A24] mb-4 font-display">Pool <span class="text-amber-600">FAQs</span></h2>
+      <p class="text-stone-500">Everything you need to know about our aquatic retreats</p>
+    </div>
+    
+    <div class="space-y-4">
+      <!-- FAQ 1 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(0)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">Are the swimming pools private in your Lonavala villas?</span>
+          <svg id="faq-icon-0" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-0" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          Yes, all our pool villas in Lonavala feature completely private swimming pools that are not shared with any other guests, ensuring your total privacy.
+        </div>
+      </div>
+
+      <!-- FAQ 2 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(1)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">Do you offer temperature-controlled pools?</span>
+          <svg id="faq-icon-1" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-1" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          Selected properties like Retro Visawa offer temperature-controlled pool options for a comfortable swim regardless of the weather in Lonavala.
+        </div>
+      </div>
+
+      <!-- FAQ 3 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(2)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">How often are the private pools cleaned?</span>
+          <svg id="faq-icon-2" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-2" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          Our pools undergo professional cleaning and filtration every day before guest check-in to maintain the highest standards of hygiene and clarity.
+        </div>
+      </div>
+
+      <!-- FAQ 4 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(3)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">Are the pools safe for children and non-swimmers?</span>
+          <svg id="faq-icon-3" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-3" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          Yes, our pools have a standard depth and we can provide life jackets or floating tubes on request. We also recommend adult supervision for children at all times.
+        </div>
+      </div>
+
+      <!-- FAQ 5 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(4)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">Is the swimming pool available 24/7?</span>
+          <svg id="faq-icon-4" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-4" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          Yes, since the pool is entirely private to your villa, you can enjoy a swim at any time. We also provide beautiful pool-side lighting for evening dips.
+        </div>
+      </div>
+
+      <!-- FAQ 6 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(5)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">Can we arrange a pool-side BBQ party?</span>
+          <svg id="faq-icon-5" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-5" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          Absolutely! We can set up a professional BBQ station by the pool for your group or family to enjoy a delicious grilled meal outdoors.
+        </div>
+      </div>
+
+      <!-- FAQ 7 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(6)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">Do you provide fresh towels and pool accessories?</span>
+          <svg id="faq-icon-6" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-6" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          Yes, we provide fresh, sanitized pool towels and common pool accessories to ensure you have everything you need for a relaxing swim.
+        </div>
+      </div>
+
+      <!-- FAQ 8 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(7)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">What is the average depth of the pools?</span>
+          <svg id="faq-icon-7" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-7" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          The pools typically have a uniform depth of 4 to 4.5 feet, which is ideal for both relaxation and safe family fun.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  function toggleFaq(index) {
+    const ans = document.getElementById(`faq-ans-${index}`);
+    const icon = document.getElementById(`faq-icon-${index}`);
+    const isOpen = !ans.classList.contains('hidden');
+    if (isOpen) {
+      ans.classList.add('hidden');
+      icon.style.transform = 'rotate(0deg)';
+    } else {
+      ans.classList.remove('hidden');
+      icon.style.transform = 'rotate(180deg)';
+    }
+  }
+</script>
 
 <!-- ===== CONTACT & BOOKING SECTION ===== -->
 <section id="booking" class="py-12 md:py-16 bg-gradient-to-br from-stone-100 via-white to-amber-50">
