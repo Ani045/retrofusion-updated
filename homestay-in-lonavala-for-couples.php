@@ -499,7 +499,7 @@ include 'includes/header.php';
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
       <!-- Form Card -->
       <div class="bg-white rounded-3xl shadow-2xl p-8 lg:p-10 border border-stone-200/50">
-        <form action="mail1.php" method="POST" class="space-y-5">
+        <form class="space-y-5" accept-charset='UTF-8' action='https://app.formester.com/forms/8b968eed-e587-4ac1-9b4a-0c508b75c1cc/submissions' method='POST'>
           <input type="hidden" name="villa" value="Homestay for Couples Enquiry">
           <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>

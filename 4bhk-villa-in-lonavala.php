@@ -523,7 +523,7 @@ include 'includes/header.php';
           <h3 class="text-2xl font-bold text-[#0F2A24] mb-2 font-display">Enquiry Form</h3>
           <p class="text-stone-500 text-sm">Our team will get back to you with availability and details.</p>
         </div>
-        <form action="mail1.php" method="POST" class="space-y-5">
+        <form class="space-y-5" accept-charset='UTF-8' action='https://app.formester.com/forms/8b968eed-e587-4ac1-9b4a-0c508b75c1cc/submissions' method='POST'>
           <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
               <label class="block text-xs font-semibold text-stone-700 mb-2 uppercase tracking-wide">Full Name *</label>

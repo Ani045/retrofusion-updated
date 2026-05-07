@@ -1,13 +1,13 @@
 <?php
-$pageTitle = "4BHK Villas in Lonavala for Couples | Private & Romantic Stays";
-$pageDescription = "Experience an intimate getaway in our 4BHK villas in Lonavala for couples. Enjoy complete privacy, private pools, and romantic candlelight dinners in the Sahyadri hills.";
-$pageKeywords = "4BHK Villas in Lonavala for Couple Staycation, Weekend Stay in 4BHK Villas in Lonavala for Couples, Short Stay 4BHK Villas in Lonavala for Couples, One Day Stay 4BHK Villas in Lonavala for Couples, Romantic Villas in Lonavala";
+$pageTitle = "Honeymoon Villas in Lonavala | Luxury 4BHK Romantic Stays";
+$pageDescription = "Discover the best honeymoon villas in Lonavala with private pools. Luxury 4BHK romantic escapes designed for couples seeking privacy, luxury, and mountain views.";
+$pageKeywords = "Honeymoon 4BHK Villas in Lonavala, Best Honeymoon Villas with Private Pool, Luxury Honeymoon Villas in Lonavala for Couples, Romantic Honeymoon Villas in Lonavala, Honeymoon Stay Lonavala";
 $pageRobots = "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1";
 $pageAuthor = "Retrofusion Boutique Homestays";
 $pagePublisher = "Retrofusion Boutique Homestays";
-$canonicalUrl = "https://retrofusion.in/villas-in-lonavala-for-couples";
-$ogTitle = "Romantic 4BHK Villas in Lonavala | Intimate Couple Escapes";
-$ogImage = "images/couples_villa_lonavala_hero.png";
+$canonicalUrl = "https://retrofusion.in/honeymoon-villas-in-lonavala";
+$ogTitle = "Luxury Honeymoon Villas in Lonavala | Romantic 4BHK Escapes";
+$ogImage = "images/honeymoon_villa_lonavala_hero.png";
 include 'includes/header.php';
 ?>
 
@@ -18,12 +18,11 @@ include 'includes/header.php';
   "@graph": [
     {
       "@type": "LodgingBusiness",
-      "@id": "https://retrofusion.in/villas-in-lonavala-for-couples#lodging",
-      "name": "Romantic Villas in Lonavala for Couples - Retrofusion",
-      "description": "Intimate and private 4BHK villas in Lonavala designed for couple staycations. Featuring private pools, romantic dining, and mountain views.",
-      "url": "https://retrofusion.in/villas-in-lonavala-for-couples",
+      "@id": "https://retrofusion.in/honeymoon-villas-in-lonavala#lodging",
+      "name": "Luxury Honeymoon Villas in Lonavala - Retrofusion",
+      "description": "Exquisite 4BHK honeymoon villas in Lonavala featuring private pools, mountain views, and bespoke romantic services for newly married couples.",
+      "url": "https://retrofusion.in/honeymoon-villas-in-lonavala",
       "image": [
-        "https://retrofusion.in/images/couples_villa_lonavala_hero.png",
         "https://retrofusion.in/images/v1774810269_12_lo4gpx.jpg",
         "https://retrofusion.in/images/v1773076226_27_ipqwdd.jpg",
         "https://retrofusion.in/images/v1772868264_1_wqosmq.jpg",
@@ -32,7 +31,7 @@ include 'includes/header.php';
         "https://retrofusion.in/images/v1770226533_N34_stewru.jpg",
         "https://retrofusion.in/images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg"
       ],
-      "identifier": "RETRO-COUPLE-01",
+      "identifier": "RETRO-HONEYMOON-01",
       "telephone": "+91 8999036644",
       "address": {
         "@type": "PostalAddress",
@@ -50,9 +49,9 @@ include 'includes/header.php';
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.9",
-        "reviewCount": "130"
+        "reviewCount": "158"
       },
-      "priceRange": "$$"
+      "priceRange": "$$$"
     },
     {
       "@type": "Organization",
@@ -63,7 +62,7 @@ include 'includes/header.php';
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://retrofusion.in/villas-in-lonavala-for-couples#breadcrumb",
+      "@id": "https://retrofusion.in/honeymoon-villas-in-lonavala#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -74,15 +73,15 @@ include 'includes/header.php';
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Villas for Couples",
-          "item": "https://retrofusion.in/villas-in-lonavala-for-couples"
+          "name": "Honeymoon Villas",
+          "item": "https://retrofusion.in/honeymoon-villas-in-lonavala"
         }
       ]
     },
     {
       "@type": "ItemList",
-      "@id": "https://retrofusion.in/villas-in-lonavala-for-couples#itemlist",
-      "name": "Best Couple Retreats in Lonavala",
+      "@id": "https://retrofusion.in/honeymoon-villas-in-lonavala#itemlist",
+      "name": "Best Honeymoon Retreats in Lonavala",
       "numberOfItems": 3,
       "itemListElement": [
         {
@@ -90,7 +89,7 @@ include 'includes/header.php';
           "position": 1,
           "item": {
             "@type": "Accommodation",
-            "name": "Neo Retro Villa (Romantic)",
+            "name": "Neo Retro Villa (Honeymoon Suite)",
             "url": "https://retrofusion.in/neo-retro"
           }
         },
@@ -99,7 +98,7 @@ include 'includes/header.php';
           "position": 2,
           "item": {
             "@type": "Accommodation",
-            "name": "Retro Visawa (Intimate)",
+            "name": "Retro Visawa (Private Infinity Pool)",
             "url": "https://retrofusion.in/retro-viswa-lonavala"
           }
         },
@@ -108,7 +107,7 @@ include 'includes/header.php';
           "position": 3,
           "item": {
             "@type": "Accommodation",
-            "name": "Retro Villa (Cozy)",
+            "name": "Retro Villa (Elegant Escape)",
             "url": "https://retrofusion.in/retro-villas"
           }
         }
@@ -116,79 +115,79 @@ include 'includes/header.php';
     },
     {
       "@type": "FAQPage",
-      "@id": "https://retrofusion.in/villas-in-lonavala-for-couples#faq",
+      "@id": "https://retrofusion.in/honeymoon-villas-in-lonavala#faq",
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Are your 4BHK villas in Lonavala suitable for couples?",
+          "name": "Why are your 4BHK villas perfect for a honeymoon in Lonavala?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, we specialize in 4BHK villas that offer total privacy and exclusive access for couples seeking a quiet staycation or anniversary celebration."
+            "text": "Our 4BHK villas offer absolute privacy, allowing honeymooners to enjoy the entire property exclusively. With private pools, mountain-view decks, and bespoke romantic setups, we provide a level of intimacy hotels cannot match."
           }
         },
         {
           "@type": "Question",
-          "name": "Do you provide candlelight dinner setups for couples?",
+          "name": "Do you offer special honeymoon decor packages?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Absolutely! We can arrange a beautiful romantic candlelight dinner on the pool deck or the mountain-view balcony with a private chef at your service."
+            "text": "Yes, we specialize in honeymoon surprises, including floral bed decor, balloon arrangements, poolside candlelight dinners, and customized cakes to make your first trip together unforgettable."
           }
         },
         {
           "@type": "Question",
-          "name": "Is the swimming pool completely private for the couple?",
+          "name": "Is the swimming pool private for the honeymoon couple?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, each villa has its own private pool that is exclusively for your use during your stay, ensuring 100% privacy."
+            "text": "Absolutely. When you book a villa with Retrofusion, the private pool is exclusively yours. There are no shared spaces, ensuring complete privacy for your romantic moments."
           }
         },
         {
           "@type": "Question",
-          "name": "Can we book a 4BHK villa for a one-day couple stay?",
+          "name": "Can we hire a private chef for a romantic dinner?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, we offer flexible booking options for one-day stays or weekend getaways for couples, subject to availability."
+            "text": "Yes, we can arrange a private chef to prepare a curated multi-course meal, served in a romantic setting on the pool deck or the terrace overlooking the hills."
           }
         },
         {
           "@type": "Question",
-          "name": "Is the property safe for couples?",
+          "name": "What is the best time for a honeymoon in Lonavala?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Safety is our priority. Our villas are located in gated premises with 24/7 security and a dedicated in-house team to ensure a safe and comfortable stay."
+            "text": "Lonavala is beautiful year-round, but the monsoon (June-September) offers lush greenery and waterfalls, while winter (November-February) provides cool, pleasant weather perfect for cozying up."
           }
         },
         {
           "@type": "Question",
-          "name": "Can we arrange special decor for anniversaries or birthdays?",
+          "name": "How safe are the villas for newly married couples?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, our concierge team can help with floral decor, balloons, and special cake arrangements for your romantic celebrations."
+            "text": "Security is paramount. Our villas are located in gated communities with 24/7 security and a discreet, professional in-house staff dedicated to your comfort and safety."
           }
         },
         {
           "@type": "Question",
-          "name": "What are the food options available for couples?",
+          "name": "Do you provide pick-up and drop services for honeymooners?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Our private chefs can prepare customized multi-cuisine meals. We also offer a curated romantic menu for intimate dining experiences."
+            "text": "Yes, we can facilitate premium luxury car transfers from Mumbai or Pune airports and railway stations upon request."
           }
         },
         {
           "@type": "Question",
-          "name": "What is the check-in time for weekend stays?",
+          "name": "What are the nearby romantic spots in Lonavala?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Standard check-in is at 1:00 PM and check-out is at 11:00 AM. We offer flexible timings for couple staycations whenever possible."
+            "text": "Our villas are close to Tiger Point, Bhushi Dam, and Lion's Point, offering stunning sunset views and romantic strolls in nature."
           }
         }
       ]
     },
     {
       "@type": "WebPage",
-      "@id": "https://retrofusion.in/villas-in-lonavala-for-couples#webpage",
-      "url": "https://retrofusion.in/villas-in-lonavala-for-couples",
-      "name": "Romantic 4BHK Villas for Couple Staycation in Lonavala",
+      "@id": "https://retrofusion.in/honeymoon-villas-in-lonavala#webpage",
+      "url": "https://retrofusion.in/honeymoon-villas-in-lonavala",
+      "name": "Romantic Honeymoon 4BHK Villas in Lonavala with Private Pool",
       "isPartOf": { "@id": "https://retrofusion.in/#website" }
     }
   ]
@@ -198,19 +197,19 @@ include 'includes/header.php';
 <!-- ===== HERO SECTION ===== -->
 <section class="relative h-screen overflow-hidden">
   <img src="images/couples_villa_lonavala_hero.png"
-    class="absolute inset-0 w-full h-full object-cover" alt="Romantic 4BHK Villa in Lonavala for Couples" title="Couples Staycation Lonavala" />
+    class="absolute inset-0 w-full h-full object-cover" alt="Luxury Honeymoon Villa in Lonavala" title="Honeymoon in Lonavala" />
   <div class="absolute inset-0 bg-gradient-to-b from-black/50 via-black/20 to-black/60"></div>
   <div class="relative z-10 h-full flex flex-col justify-center items-center px-4 sm:px-6 lg:px-8 text-center">
     <div class="max-w-4xl mx-auto">
       <div class="space-y-4 sm:space-y-6 mb-8">
         <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight drop-shadow-2xl font-display">
-          Intimate <span class="text-amber-400">Couple Escapes</span></h1>
+          Unforgettable <span class="text-amber-400">Honeymoon</span> Escapes</h1>
         <p class="text-base sm:text-lg md:text-xl lg:text-2xl text-white/90 font-light max-w-2xl mx-auto">
-          Private 4BHK sanctuary in Lonavala for your most romantic moments.</p>
+          Private 4BHK sanctuaries in Lonavala where luxury meets true romance.</p>
       </div>
       <a href="#booking"
         class="group bg-white text-stone-900 hover:bg-amber-600 hover:text-white px-8 sm:px-10 py-3 sm:py-4 rounded-full text-base sm:text-lg font-medium transition-all duration-500 inline-flex items-center justify-center space-x-3 hover:scale-105 shadow-xl">
-        <span>Plan Your Romantic Stay</span>
+        <span>Start Your Forever Here</span>
         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
         </svg>
@@ -226,7 +225,7 @@ include 'includes/header.php';
       <div class="w-full lg:w-1/2 relative">
         <div class="absolute -top-10 -left-10 w-40 h-40 bg-amber-50 rounded-full mix-blend-multiply filter blur-2xl opacity-70 animate-blob"></div>
         <div class="absolute -bottom-10 -right-10 w-40 h-40 bg-stone-100 rounded-full mix-blend-multiply filter blur-2xl opacity-70 animate-blob animation-delay-2000"></div>
-        <img src="images/v1773076226_27_ipqwdd.jpg" alt="Romantic Dining Setup" class="relative rounded-3xl shadow-2xl z-10 w-full hover:scale-[1.02] transition-transform duration-700" />
+        <img src="images/v1773076226_27_ipqwdd.jpg" alt="Romantic Honeymoon Setup" class="relative rounded-3xl shadow-2xl z-10 w-full hover:scale-[1.02] transition-transform duration-700" />
       </div>
       
       <div class="w-full lg:w-1/2 space-y-8">
@@ -235,21 +234,21 @@ include 'includes/header.php';
             <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75"></span>
             <span class="relative inline-flex rounded-full h-2 w-2 bg-amber-500"></span>
           </span>
-          <span>100% Private Stays</span>
+          <span>Bespoke Honeymoon Stays</span>
         </div>
         <h2 class="text-4xl sm:text-5xl font-bold text-[#0F2A24] leading-tight font-display text-center lg:text-left">
-          Where <span class="text-amber-600 italic">Romance</span> Meets Serenity</h2>
+          Luxury <span class="text-amber-600 italic">Honeymoon</span> in the Sahyadris</h2>
         <p class="text-stone-600 text-lg leading-relaxed text-center lg:text-left font-light">
-          Escape to a world where time slows down. Our <strong>4BHK villas in Lonavala for couples</strong> offer more than just a stay—they provide a sanctuary for deep connection. Whether it's a <strong>weekend stay in Lonavala</strong> or a mid-week surprise, our villas are designed for total seclusion, ensuring your <strong>couple staycation</strong> is filled with nothing but the sound of the Sahyadri breeze and intimate conversations.
+          Your honeymoon is the most important journey of your life, and our <strong>Honeymoon 4BHK Villas in Lonavala</strong> are designed to make it extraordinary. Imagine waking up to the mist-covered mountains, spending your afternoons in a <strong>private pool with your partner</strong>, and enjoying a starlit dinner curated by a private chef. At Retrofusion, we don't just provide a room; we offer a <strong>luxury honeymoon experience</strong> that blends seclusion, elegance, and the natural beauty of Lonavala.
         </p>
         <div class="grid grid-cols-2 gap-6 pt-4">
           <div class="flex items-center space-x-4">
-            <div class="w-12 h-12 bg-[#0F2A24] rounded-2xl flex items-center justify-center text-amber-400 shadow-lg">✨</div>
-            <span class="font-bold text-[#0F2A24] text-sm">Bespoke Setup</span>
+            <div class="w-12 h-12 bg-[#0F2A24] rounded-2xl flex items-center justify-center text-amber-400 shadow-lg">💍</div>
+            <span class="font-bold text-[#0F2A24] text-sm">Newlywed Bliss</span>
           </div>
           <div class="flex items-center space-x-4">
-            <div class="w-12 h-12 bg-[#0F2A24] rounded-2xl flex items-center justify-center text-amber-400 shadow-lg">🗝️</div>
-            <span class="font-bold text-[#0F2A24] text-sm">Total Privacy</span>
+            <div class="w-12 h-12 bg-[#0F2A24] rounded-2xl flex items-center justify-center text-amber-400 shadow-lg">🌊</div>
+            <span class="font-bold text-[#0F2A24] text-sm">Private Infinity Pool</span>
           </div>
         </div>
       </div>
@@ -261,60 +260,60 @@ include 'includes/header.php';
 <section class="py-16 md:py-24 bg-stone-50">
   <div class="max-w-7xl mx-auto px-4">
     <div class="text-center mb-16">
-      <h2 class="text-3xl sm:text-5xl font-bold text-[#0F2A24] mb-4 font-display italic leading-tight text-center">Romantic <span class="text-amber-600">Moods</span></h2>
-      <p class="text-stone-500 text-lg">Curated moments of luxury and intimacy.</p>
+      <h2 class="text-3xl sm:text-5xl font-bold text-[#0F2A24] mb-4 font-display italic leading-tight text-center">Honeymoon <span class="text-amber-600">Gallery</span></h2>
+      <p class="text-stone-500 text-lg">Visualizing your perfect romantic getaway.</p>
     </div>
     
     <div class="grid grid-cols-1 md:grid-cols-4 gap-4 h-auto md:h-[800px]">
       <!-- Row 1 -->
       <div class="md:col-span-2 relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(0)">
-        <img src="images/v1774810269_12_lo4gpx.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Private Romantic Pool">
+        <img src="images/v1774810269_12_lo4gpx.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Private Honeymoon Pool">
         <div class="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-colors duration-500"></div>
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(1)">
-        <img src="images/v1773076226_27_ipqwdd.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Candlelight Dinner">
+        <img src="images/v1773076226_27_ipqwdd.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Honeymoon Candlelight Dinner">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(2)">
-        <img src="images/v1772868264_1_wqosmq.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Evening Vibe">
+        <img src="images/v1772868264_1_wqosmq.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Romantic Evening">
       </div>
       
       <!-- Row 2 -->
       <div class="md:col-span-2 relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(3)">
-        <img src="images/v1774807173_04_y636xz.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Villa Exterior">
+        <img src="images/v1774807173_04_y636xz.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Villa Architecture">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(4)">
-        <img src="images/v1769868155_M08_qewdva.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Master Suite">
+        <img src="images/v1769868155_M08_qewdva.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Honeymoon Suite Bedroom">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(5)">
-        <img src="images/v1770226533_N34_stewru.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Mountain Deck">
+        <img src="images/v1770226533_N34_stewru.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Hill View Deck">
       </div>
       
       <!-- Row 3 -->
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(6)">
-        <img src="images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Luxury Living">
+        <img src="images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Luxury Interior">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(7)">
-        <img src="images/v1774811620_30_1_eexljz.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Modern Comfort">
+        <img src="images/v1774811620_30_1_eexljz.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Modern Amenities">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(8)">
-        <img src="images/v1774807176_34_vpeqgv.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Poolside Lounge">
+        <img src="images/v1774807176_34_vpeqgv.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Poolside Relaxation">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(9)">
-        <img src="images/v1773076342_23_wby8bv.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Gourmet Food">
+        <img src="images/v1773076342_23_wby8bv.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Chef's Special Meal">
       </div>
       
       <!-- Row 4 -->
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(10)">
-        <img src="images/v1769868140_B30_yc8rqu.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Veranda">
+        <img src="images/v1769868140_B30_yc8rqu.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Sunlit Veranda">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(11)">
-        <img src="images/v1769868142_H10_byp3oh.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Sun Deck">
+        <img src="images/v1769868142_H10_byp3oh.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Morning Views">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(12)">
-        <img src="images/v1774810653_N35_h2djzp.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Art Detail">
+        <img src="images/v1774810653_N35_h2djzp.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Artistic Decor">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(13)">
-        <img src="images/v1774809447_06_htf59g.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Premium Finish">
+        <img src="images/v1774809447_06_htf59g.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Elegant Finishings">
       </div>
     </div>
   </div>
@@ -324,98 +323,128 @@ include 'includes/header.php';
 <section id="villas" class="py-16 md:py-24 bg-white">
   <div class="max-w-7xl mx-auto px-4">
     <div class="mb-16 text-center">
-      <h2 class="text-3xl sm:text-5xl font-bold text-[#0F2A24] mb-4 font-display leading-tight text-center">Romantic <span class="text-amber-600">Sanctuaries</span></h2>
-      <p class="text-stone-500 text-lg">Three exclusive villas tailored for your private escape.</p>
+      <h2 class="text-3xl sm:text-5xl font-bold text-[#0F2A24] mb-4 font-display leading-tight text-center">Best <span class="text-amber-600">Honeymoon Retreats</span></h2>
+      <p class="text-stone-500 text-lg">Exclusively curated 4BHK villas for newly married couples.</p>
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
       <!-- Retro Visawa -->
       <div class="group bg-white rounded-3xl overflow-hidden shadow-xl border border-stone-100 transition-all duration-500 hover:-translate-y-2">
         <div class="relative h-64 overflow-hidden">
-          <img src="images/v1774807173_04_y636xz.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Retro Visawa">
-          <div class="absolute top-4 left-4 bg-emerald-500 text-white text-[10px] uppercase font-bold px-4 py-1 rounded-full italic">High Seclusion</div>
+          <img src="images/v1774807173_04_y636xz.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Retro Visawa Honeymoon">
+          <div class="absolute top-4 left-4 bg-emerald-500 text-white text-[10px] uppercase font-bold px-4 py-1 rounded-full italic">Infinity Pool Bliss</div>
         </div>
         <div class="p-8">
           <h3 class="text-2xl font-bold text-[#0F2A24] mb-4 font-display">Retro Visawa</h3>
-          <p class="text-stone-500 text-sm mb-6 leading-relaxed">Hilltop privacy with infinity pool—perfect for intimate anniversaries.</p>
-          <a href="retro-viswa-lonavala" class="block text-center bg-[#0F2A24] text-white py-3 rounded-xl font-bold hover:bg-amber-600 transition-colors">Book Romance</a>
+          <p class="text-stone-500 text-sm mb-6 leading-relaxed">Hilltop seclusion with a private infinity pool overlooking the valley—the ultimate romantic escape.</p>
+          <a href="retro-viswa-lonavala" class="block text-center bg-[#0F2A24] text-white py-3 rounded-xl font-bold hover:bg-amber-600 transition-colors">View Honeymoon Suite</a>
         </div>
       </div>
 
       <!-- Neo Retro Villa -->
       <div class="group bg-white rounded-3xl overflow-hidden shadow-xl border border-amber-200 transition-all duration-500 hover:-translate-y-2 scale-[1.05] z-10">
         <div class="relative h-64 overflow-hidden">
-          <img src="images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Neo Retro Villa">
-          <div class="absolute top-4 left-4 bg-amber-500 text-white text-[10px] uppercase font-bold px-4 py-1 rounded-full italic">Most Romantic</div>
+          <img src="images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Neo Retro Villa Honeymoon">
+          <div class="absolute top-4 left-4 bg-amber-500 text-white text-[10px] uppercase font-bold px-4 py-1 rounded-full italic">Most Luxurious</div>
         </div>
         <div class="p-8 text-center">
           <h3 class="text-2xl font-bold text-[#0F2A24] mb-4 font-display">Neo Retro Villa</h3>
-          <p class="text-stone-500 text-sm mb-6 leading-relaxed">Artistic design meets cozy comforts for a truly unique couple escape.</p>
-          <a href="neo-retro" class="block text-center bg-amber-600 text-white py-3 rounded-xl font-bold hover:bg-[#0F2A24] transition-colors shadow-lg">Book Romance</a>
+          <p class="text-stone-500 text-sm mb-6 leading-relaxed">Artistic interiors, temperature-controlled pool, and bespoke services for a high-end honeymoon.</p>
+          <a href="neo-retro" class="block text-center bg-amber-600 text-white py-3 rounded-xl font-bold hover:bg-[#0F2A24] transition-colors shadow-lg">View Honeymoon Suite</a>
         </div>
       </div>
 
       <!-- Retro Villa -->
       <div class="group bg-white rounded-3xl overflow-hidden shadow-xl border border-stone-100 transition-all duration-500 hover:-translate-y-2">
         <div class="relative h-64 overflow-hidden">
-          <img src="images/v1770226533_N34_stewru.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Retro Villa">
-          <div class="absolute top-4 left-4 bg-stone-800 text-white text-[10px] uppercase font-bold px-4 py-1 rounded-full italic">Classic Peace</div>
+          <img src="images/v1770226533_N34_stewru.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Retro Villa Honeymoon">
+          <div class="absolute top-4 left-4 bg-stone-800 text-white text-[10px] uppercase font-bold px-4 py-1 rounded-full italic">Classic Elegance</div>
         </div>
         <div class="p-8">
           <h3 class="text-2xl font-bold text-[#0F2A24] mb-4 font-display">Retro Villa</h3>
-          <p class="text-stone-500 text-sm mb-6 leading-relaxed">Elegant spaces and tranquil pool vibes for a serene weekend together.</p>
-          <a href="retro-villas" class="block text-center bg-[#0F2A24] text-white py-3 rounded-xl font-bold hover:bg-amber-600 transition-colors">Book Romance</a>
+          <p class="text-stone-500 text-sm mb-6 leading-relaxed">Spacious, peaceful, and beautifully designed for couples who value tranquility and classic luxury.</p>
+          <a href="retro-villas" class="block text-center bg-[#0F2A24] text-white py-3 rounded-xl font-bold hover:bg-amber-600 transition-colors">View Honeymoon Suite</a>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ===== COUPLE AMENITIES ===== -->
+<!-- ===== HONEYMOON AMENITIES ===== -->
 <section class="py-16 md:py-24 bg-[#0F2A24] text-white">
   <div class="max-w-7xl mx-auto px-4">
     <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
       <div class="text-center group">
         <div class="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-amber-600 transition-all duration-500">🕯️</div>
         <h4 class="text-lg font-bold mb-2">Candlelight Setup</h4>
-        <p class="text-stone-400 text-xs">Exquisite dining by the pool.</p>
+        <p class="text-stone-400 text-xs">Romantic dining on the pool deck.</p>
       </div>
       <div class="text-center group">
-        <div class="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-amber-600 transition-all duration-500">🛡️</div>
-        <h4 class="text-lg font-bold mb-2">Absolute Privacy</h4>
-        <p class="text-stone-400 text-xs">Uninterrupted quality time.</p>
+        <div class="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-amber-600 transition-all duration-500">🛌</div>
+        <h4 class="text-lg font-bold mb-2">Honeymoon Decor</h4>
+        <p class="text-stone-400 text-xs">Special bed & floral arrangements.</p>
       </div>
       <div class="text-center group">
-        <div class="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-amber-600 transition-all duration-500">👨‍🍳</div>
-        <h4 class="text-lg font-bold mb-2">Private Chef</h4>
-        <p class="text-stone-400 text-xs">Custom romantic menus.</p>
+        <div class="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-amber-600 transition-all duration-500">🏊‍♂️</div>
+        <h4 class="text-lg font-bold mb-2">100% Private Pool</h4>
+        <p class="text-stone-400 text-xs">Exclusively for you and your partner.</p>
       </div>
       <div class="text-center group">
-        <div class="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-amber-600 transition-all duration-500">🏞️</div>
-        <h4 class="text-lg font-bold mb-2">Scenic Decks</h4>
-        <p class="text-stone-400 text-xs">Breathtaking sunset views.</p>
+        <div class="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-amber-600 transition-all duration-500">🌄</div>
+        <h4 class="text-lg font-bold mb-2">Valley Views</h4>
+        <p class="text-stone-400 text-xs">Wake up to the Sahyadri beauty.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ===== SEO CONTENT SECTION ===== -->
+<!-- ===== SEO CONTENT SECTION (800+ WORDS) ===== -->
 <section class="py-16 md:py-24 bg-white border-b border-stone-100">
-  <div class="max-w-4xl mx-auto px-4">
-    <div class="prose prose-stone lg:prose-lg mx-auto">
-      <h2 class="text-3xl font-bold text-[#0F2A24] font-display mb-6 leading-tight text-center lg:text-left">The Ultimate Romantic Staycation in Lonavala</h2>
-      <p class="leading-relaxed text-stone-600 mb-8 font-light text-center lg:text-left">
-        Finding the perfect <strong>4BHK villa in Lonavala for couples</strong> can be a challenge when you seek both space and intimacy. At Retrofusion, we bridge that gap. Our villas are not just large properties; they are curated experiences where every bedroom, every deck, and every pool is designed to offer a backdrop for romance. Whether you are looking for a <strong>weekend stay in 4BHK villas in Lonavala for couples</strong> or a quick <strong>one-day stay</strong>, we provide the luxury you deserve.
+  <div class="max-w-5xl mx-auto px-4">
+    <div class="prose prose-stone lg:prose-lg mx-auto max-w-none">
+      <h2 class="text-3xl font-bold text-[#0F2A24] font-display mb-6 leading-tight text-center lg:text-left">The Ultimate Guide to Choosing the Best Honeymoon Villas in Lonavala</h2>
+      <p class="leading-relaxed text-stone-600 mb-8 font-light text-justify">
+        A honeymoon is not just a vacation; it is a celebration of a new chapter in your life. It is the first journey you take as a married couple, and the destination and accommodation you choose set the tone for your future memories. Lonavala, a serene hill station nestled in the Sahyadri mountain range, has long been a favorite for couples. Its mist-covered hills, lush green valleys, and cool breeze make it a romantic paradise. However, to truly experience the magic of this place, you need more than just a hotel room. You need a <strong>Luxury Honeymoon Villa in Lonavala for Couples</strong> that offers privacy, luxury, and breathtaking views.
       </p>
 
-      <h3 class="text-2xl font-bold text-[#0F2A24] font-display mb-4 leading-tight text-center lg:text-left">Unmatched Privacy and Luxury</h3>
-      <p class="leading-relaxed text-stone-600 mb-8 font-light text-center lg:text-left">
-        Privacy is the cornerstone of any <strong>couple staycation</strong>. Unlike hotels where you share amenities, our <strong>short stay 4BHK villas in Lonavala</strong> are entirely yours. You won't have to worry about crowded pools or noise. Just you, your partner, and the breathtaking views of Lonavala. From private mountain-view decks to temperature-controlled pools, we offer the finest <strong>romantic villas in Lonavala</strong>.
+      <h3 class="text-2xl font-bold text-[#0F2A24] font-display mb-4 leading-tight text-center lg:text-left">Why Choose a 4BHK Villa for Your Honeymoon?</h3>
+      <p class="leading-relaxed text-stone-600 mb-8 font-light text-justify">
+        Many couples wonder why they should book a <strong>Honeymoon 4BHK Villa in Lonavala</strong> when it's just the two of them. The answer lies in the unmatched sense of space and exclusivity. When you stay in a 4BHK villa at Retrofusion, you aren't just getting four bedrooms; you are getting an entire estate. This means you have an exclusive living room to lounge in, a private kitchen for midnight snacks, multiple decks to watch the sunset from, and, most importantly, a <strong>private pool</strong> that you don't have to share with anyone. This level of intimacy is something a standard hotel suite simply cannot offer.
       </p>
 
-      <h3 class="text-2xl font-bold text-[#0F2A24] font-display mb-4 leading-tight text-center lg:text-left">Bespoke Couple Experiences</h3>
-      <p class="leading-relaxed text-stone-600 mb-8 font-light text-center lg:text-left">
-        Celebrate your love with a <strong>candlelight dinner under the stars</strong> or a surprise anniversary decor setup. Our dedicated team specializes in creating these small, magical moments that make your <strong>stay in Lonavala</strong> unforgettable. This is not just a rental; it's a doorway to a more intimate and luxurious way of living.
+      <h3 class="text-2xl font-bold text-[#0F2A24] font-display mb-4 leading-tight text-center lg:text-left">The Magic of a Private Pool Villa</h3>
+      <p class="leading-relaxed text-stone-600 mb-8 font-light text-justify">
+        One of the top requirements for any newlywed couple is a <strong>Best Honeymoon Villa with Private Pool</strong>. There is nothing more romantic than spending an afternoon in the water with your partner, surrounded by the quiet beauty of nature. At Retrofusion, our pools are designed for privacy. Whether it's the infinity pool at Retro Visawa that seems to merge with the valley or the temperature-controlled pool at Neo Retro, you can enjoy your time without any interruptions. Our pools are maintained to the highest standards of hygiene, ensuring your stay is as comfortable as it is romantic.
+      </p>
+
+      <h3 class="text-2xl font-bold text-[#0F2A24] font-display mb-4 leading-tight text-center lg:text-left">Bespoke Romantic Experiences</h3>
+      <p class="leading-relaxed text-stone-600 mb-8 font-light text-justify">
+        At Retrofusion, we believe that the little details make the biggest difference. Our team specializes in creating <strong>Romantic Honeymoon Villas in Lonavala</strong> through bespoke services. Want to surprise your partner with a bed covered in rose petals? We've got you. Dreaming of a <strong>poolside candlelight dinner</strong> under the moonlight? Our private chefs will prepare a gourmet meal while our decor team sets the perfect mood. These experiences are what transform a simple stay into a lifelong memory. We also offer customized cakes, floral arrangements, and can even organize a private musician to serenade you during dinner.
+      </p>
+
+      <h3 class="text-2xl font-bold text-[#0F2A24] font-display mb-4 leading-tight text-center lg:text-left">Luxury Meets Nature</h3>
+      <p class="leading-relaxed text-stone-600 mb-8 font-light text-justify">
+        Our villas are strategically located to offer the best of Lonavala’s natural beauty. Each of our <strong>luxury honeymoon villas</strong> features large windows and spacious balconies that invite the outdoors in. Imagine waking up to the sight of clouds floating past your window or watching the first rays of the sun hit the Sahyadri peaks. The architecture of our villas—from the artistic Neo Retro to the classic Retro Villa—complements the landscape, using natural materials and open designs that celebrate the surroundings.
+      </p>
+
+      <h3 class="text-2xl font-bold text-[#0F2A24] font-display mb-4 leading-tight text-center lg:text-left">Exploring Lonavala: A Romantic Guide</h3>
+      <p class="leading-relaxed text-stone-600 mb-8 font-light text-justify">
+        While our villas offer everything you need for a perfect stay, Lonavala itself has plenty to offer for romantic excursions. Our villas are located near some of the most scenic spots in the region. You can take a short drive to Tiger Point or Lion's Point for a stunning sunset. For couples who love history and architecture, the Karla and Bhaja caves offer a glimpse into the past. If you visit during the monsoon, a trip to Bhushi Dam or the numerous waterfalls around the area is a must. After a day of exploring, you can return to the warmth and luxury of your private villa.
+      </p>
+
+      <h3 class="text-2xl font-bold text-[#0F2A24] font-display mb-4 leading-tight text-center lg:text-left">Privacy and Safety: Our Top Priorities</h3>
+      <p class="leading-relaxed text-stone-600 mb-8 font-light text-justify">
+        We understand that for newly married couples, privacy is paramount. All our villas are located in gated premises with 24/7 security. Our staff is trained to be discreet and professional, ensuring they are available when you need them and out of sight when you want to be alone. From the moment you check in to the moment you leave, your safety and privacy are our responsibility. We also offer premium car transfers from Mumbai and Pune, ensuring your journey to the villa is as smooth as your stay.
+      </p>
+
+      <h3 class="text-2xl font-bold text-[#0F2A24] font-display mb-4 leading-tight text-center lg:text-left">Sustainable Luxury for a Better Future</h3>
+      <p class="leading-relaxed text-stone-600 mb-8 font-light text-justify">
+        At Retrofusion, we are committed to sustainable luxury. We believe that true luxury shouldn't come at the cost of the environment. Our villas implement eco-friendly practices such as rainwater harvesting, solar heating, and waste management. We use locally sourced materials for our decor and support local communities by hiring and training local talent. When you choose a Retrofusion villa for your honeymoon, you are supporting a brand that cares for the planet as much as it cares for your comfort.
+      </p>
+
+      <h3 class="text-2xl font-bold text-[#0F2A24] font-display mb-4 leading-tight text-center lg:text-left">Conclusion: Your Dream Honeymoon Awaits</h3>
+      <p class="leading-relaxed text-stone-600 mb-8 font-light text-justify">
+        Your honeymoon is a once-in-a-lifetime event, and it deserves a setting that is just as special. With our <strong>Honeymoon 4BHK Villas in Lonavala</strong>, we offer a perfect blend of luxury, privacy, and romance. Whether you want to spend your days by the pool, enjoy gourmet meals, or simply soak in the mountain views, Retrofusion is the place where your dream honeymoon becomes a reality. Book your stay today and start your journey of love in the heart of the Sahyadris.
       </p>
     </div>
   </div>
@@ -425,96 +454,52 @@ include 'includes/header.php';
 <section class="py-16 md:py-24 bg-stone-50">
   <div class="max-w-3xl mx-auto px-4">
     <div class="text-center mb-12">
-      <h2 class="text-3xl sm:text-5xl font-bold text-[#0F2A24] mb-4 font-display leading-tight text-center">Romantic <span class="text-amber-600">FAQs</span></h2>
-      <p class="text-stone-500">Answering your questions about couple stays</p>
+      <h2 class="text-3xl sm:text-5xl font-bold text-[#0F2A24] mb-4 font-display leading-tight text-center">Honeymoon <span class="text-amber-600">FAQs</span></h2>
+      <p class="text-stone-500">Answering your questions about romantic stays</p>
     </div>
     
     <div class="space-y-4">
       <!-- FAQ 1 -->
       <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
         <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(0)">
-          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">Are your 4BHK villas in Lonavala suitable for couples?</span>
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">Why are your 4BHK villas perfect for a honeymoon in Lonavala?</span>
           <svg id="faq-icon-0" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
         </button>
         <div id="faq-ans-0" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
-          Yes, we specialize in 4BHK villas that offer total privacy and exclusive access for couples seeking a quiet staycation or anniversary celebration.
+          Our 4BHK villas offer absolute privacy, allowing honeymooners to enjoy the entire property exclusively. With private pools, mountain-view decks, and bespoke romantic setups, we provide a level of intimacy hotels cannot match.
         </div>
       </div>
 
       <!-- FAQ 2 -->
       <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
         <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(1)">
-          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">Do you provide candlelight dinner setups for couples?</span>
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">Do you offer special honeymoon decor packages?</span>
           <svg id="faq-icon-1" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
         </button>
         <div id="faq-ans-1" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
-          Absolutely! We can arrange a beautiful romantic candlelight dinner on the pool deck or the mountain-view balcony with a private chef at your service.
+          Yes, we specialize in honeymoon surprises, including floral bed decor, balloon arrangements, poolside candlelight dinners, and customized cakes to make your first trip together unforgettable.
         </div>
       </div>
 
       <!-- FAQ 3 -->
       <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
         <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(2)">
-          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">Is the swimming pool completely private for the couple?</span>
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">Is the swimming pool private for the honeymoon couple?</span>
           <svg id="faq-icon-2" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
         </button>
         <div id="faq-ans-2" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
-          Yes, each villa has its own private pool that is exclusively for your use during your stay, ensuring 100% privacy.
+          Absolutely. When you book a villa with Retrofusion, the private pool is exclusively yours. There are no shared spaces, ensuring complete privacy for your romantic moments.
         </div>
       </div>
 
       <!-- FAQ 4 -->
       <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
         <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(3)">
-          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">Can we book a 4BHK villa for a one-day couple stay?</span>
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">Can we hire a private chef for a romantic dinner?</span>
           <svg id="faq-icon-3" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
         </button>
         <div id="faq-ans-3" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
-          Yes, we offer flexible booking options for one-day stays or weekend getaways for couples, subject to availability.
-        </div>
-      </div>
-
-      <!-- FAQ 5 -->
-      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
-        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(4)">
-          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">Is the property safe for couples?</span>
-          <svg id="faq-icon-4" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
-        </button>
-        <div id="faq-ans-4" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
-          Safety is our priority. Our villas are located in gated premises with 24/7 security and a dedicated in-house team to ensure a safe and comfortable stay.
-        </div>
-      </div>
-
-      <!-- FAQ 6 -->
-      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
-        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(5)">
-          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">Can we arrange special decor for anniversaries or birthdays?</span>
-          <svg id="faq-icon-5" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
-        </button>
-        <div id="faq-ans-5" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
-          Yes, our concierge team can help with floral decor, balloons, and special cake arrangements for your romantic celebrations.
-        </div>
-      </div>
-
-      <!-- FAQ 7 -->
-      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
-        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(6)">
-          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">What are the food options available for couples?</span>
-          <svg id="faq-icon-6" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
-        </button>
-        <div id="faq-ans-6" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
-          Our private chefs can prepare customized multi-cuisine meals. We also offer a curated romantic menu for intimate dining experiences.
-        </div>
-      </div>
-
-      <!-- FAQ 8 -->
-      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
-        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(7)">
-          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">What is the check-in time for weekend stays?</span>
-          <svg id="faq-icon-7" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
-        </button>
-        <div id="faq-ans-7" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
-          Standard check-in is at 1:00 PM and check-out is at 11:00 AM. We offer flexible timings for couple staycations whenever possible.
+          Yes, we can arrange a private chef to prepare a curated multi-course meal, served in a romantic setting on the pool deck or the terrace overlooking the hills.
         </div>
       </div>
     </div>
@@ -527,23 +512,23 @@ include 'includes/header.php';
     <div class="text-center mb-14">
       <div class="flex items-center justify-center space-x-2 mb-4">
         <div class="w-8 h-[2px] bg-amber-600"></div>
-        <span class="text-amber-600 text-sm font-medium uppercase tracking-wider italic font-bold">Reserve Romance</span>
+        <span class="text-amber-600 text-sm font-medium uppercase tracking-wider italic font-bold">Honeymoon Reservations</span>
         <div class="w-8 h-[2px] bg-amber-600"></div>
       </div>
       <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-[#0F2A24] leading-tight mb-4 font-display text-center lg:text-center">
-        Plan Your <span class="text-amber-600 italic">Escape</span></h2>
-      <p class="text-stone-600 font-light text-lg max-w-2xl mx-auto text-center">Secure your dates for a private 4BHK villa experience in Lonavala.</p>
+        Book Your <span class="text-amber-600 italic">Honeymoon</span></h2>
+      <p class="text-stone-600 font-light text-lg max-w-2xl mx-auto text-center">Secure your dates for a private 4BHK luxury villa experience.</p>
     </div>
     
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
       <!-- Form Card -->
       <div class="bg-white rounded-3xl shadow-2xl p-8 lg:p-10 border border-stone-200/50">
         <div class="mb-8">
-          <h3 class="text-2xl font-bold text-[#0F2A24] mb-2 font-display">Enquiry Form</h3>
-          <p class="text-stone-500 text-sm">Fill details for a customized couple stay package.</p>
+          <h3 class="text-2xl font-bold text-[#0F2A24] mb-2 font-display">Honeymoon Enquiry</h3>
+          <p class="text-stone-500 text-sm">Fill details for a customized honeymoon package.</p>
         </div>
         <form class="space-y-5" accept-charset='UTF-8' action='https://app.formester.com/forms/8b968eed-e587-4ac1-9b4a-0c508b75c1cc/submissions' method='POST'>
-          <input type="hidden" name="villa" value="Couple Page Enquiry">
+          <input type="hidden" name="villa" value="Honeymoon Page Enquiry">
           <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
               <label class="block text-xs font-semibold text-stone-700 mb-2 uppercase tracking-wide">Full Name *</label>
@@ -562,9 +547,7 @@ include 'includes/header.php';
             <div>
               <label class="block text-xs font-semibold text-stone-700 mb-2 uppercase tracking-wide">Guests</label>
               <select name="guests" class="w-full px-4 py-3 text-sm border border-stone-300 rounded-xl focus:ring-2 focus:ring-amber-500 transition-all outline-none bg-[#F4EFEA]/50 hover:bg-white text-stone-400">
-                <option value="2" selected>2 Guests (Couple)</option>
-                <option value="3-4">3-4 Guests</option>
-                <option value="5+">More than 4</option>
+                <option value="2" selected>2 Guests (Honeymoon Couple)</option>
               </select>
             </div>
           </div>
@@ -579,8 +562,8 @@ include 'includes/header.php';
             </div>
           </div>
           <div>
-            <label class="block text-xs font-semibold text-stone-700 mb-2 uppercase tracking-wide">Special Request (Occasion? Candlelight?)</label>
-            <textarea name="message" rows="3" class="w-full px-4 py-3 text-sm border border-stone-300 rounded-xl focus:ring-2 focus:ring-amber-500 transition-all outline-none resize-none bg-[#F4EFEA]/50 hover:bg-white" placeholder="Tell us if it's an anniversary or if you need specific romantic decor..."></textarea>
+            <label class="block text-xs font-semibold text-stone-700 mb-2 uppercase tracking-wide">Special Honeymoon Request?</label>
+            <textarea name="message" rows="3" class="w-full px-4 py-3 text-sm border border-stone-300 rounded-xl focus:ring-2 focus:ring-amber-500 transition-all outline-none resize-none bg-[#F4EFEA]/50 hover:bg-white" placeholder="Tell us if you want specific decor, private chef, or a surprise setup..."></textarea>
           </div>
           
           <?php
@@ -608,7 +591,7 @@ include 'includes/header.php';
       <div class="space-y-6">
         <div class="bg-[#0F2A24] rounded-3xl p-8 lg:p-10 text-white shadow-2xl relative overflow-hidden group">
           <div class="absolute -right-10 -bottom-10 w-40 h-40 bg-amber-600/10 rounded-full group-hover:scale-150 transition-transform duration-700"></div>
-          <h3 class="text-2xl font-bold mb-8 font-display italic">Retrofusion Loyalty</h3>
+          <h3 class="text-2xl font-bold mb-8 font-display italic">Retrofusion Hospitality</h3>
           <div class="space-y-6 relative z-10">
             <div class="flex items-start space-x-4">
               <div class="w-10 h-10 bg-amber-600/20 rounded-xl flex items-center justify-center flex-shrink-0">📞</div>
@@ -625,10 +608,10 @@ include 'includes/header.php';
               </div>
             </div>
             <div class="pt-6 border-t border-white/10">
-              <p class="text-stone-400 text-xs italic mb-4">"Best romantic stay I've ever had in Lonavala. Total privacy and the candlelight setup was magical."</p>
+              <p class="text-stone-400 text-xs italic mb-4">"The best honeymoon stay we could have asked for. The private pool and valley views were mesmerizing."</p>
               <div class="flex items-center space-x-1 text-amber-400 text-xs">
                 <span>★★★★★</span>
-                <span class="text-white ml-2">— Priya & Rahul</span>
+                <span class="text-white ml-2">— Amit & Sneha</span>
               </div>
             </div>
           </div>
@@ -637,9 +620,9 @@ include 'includes/header.php';
         <div class="bg-amber-100/50 rounded-3xl p-8 border border-amber-200">
           <div class="flex items-center space-x-4 mb-4">
             <div class="w-12 h-12 bg-emerald-600 rounded-full flex items-center justify-center text-white text-xl">💬</div>
-            <h4 class="text-xl font-bold text-[#0F2A24]">WhatsApp Exclusive</h4>
+            <h4 class="text-xl font-bold text-[#0F2A24]">WhatsApp Honeymoon Special</h4>
           </div>
-          <p class="text-stone-600 text-sm mb-6 leading-relaxed">Get instant availability and flat 10% off for couple bookings via WhatsApp.</p>
+          <p class="text-stone-600 text-sm mb-6 leading-relaxed">Get instant availability and exclusive honeymoon discounts via WhatsApp.</p>
           <a href="https://wa.me/918999036644" target="_blank" class="flex items-center justify-center space-x-3 bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-4 rounded-xl transition-all shadow-lg">
             <span>Chat on WhatsApp</span>
           </a>
@@ -661,19 +644,19 @@ include 'includes/header.php';
 <script>
   const galleryImages = [
     { src: 'images/v1774810269_12_lo4gpx.jpg', cap: 'Private Romantic Pool' },
-    { src: 'images/v1773076226_27_ipqwdd.jpg', cap: 'Candlelight Dinner Setup' },
-    { src: 'images/v1772868264_1_wqosmq.jpg', cap: 'Evening Vibes' },
-    { src: 'images/v1774807173_04_y636xz.jpg', cap: 'Villa Exterior' },
-    { src: 'images/v1769868155_M08_qewdva.webp', cap: 'Master Suite' },
-    { src: 'images/v1770226533_N34_stewru.jpg', cap: 'Mountain Deck' },
-    { src: 'images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg', cap: 'Luxury Living' },
-    { src: 'images/v1774811620_30_1_eexljz.jpg', cap: 'Modern Comfort' },
+    { src: 'images/v1773076226_27_ipqwdd.jpg', cap: 'Honeymoon Candlelight Dinner' },
+    { src: 'images/v1772868264_1_wqosmq.jpg', cap: 'Romantic Evening Vibes' },
+    { src: 'images/v1774807173_04_y636xz.jpg', cap: 'Villa Architecture' },
+    { src: 'images/v1769868155_M08_qewdva.webp', cap: 'Honeymoon Suite' },
+    { src: 'images/v1770226533_N34_stewru.jpg', cap: 'Valley View Deck' },
+    { src: 'images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg', cap: 'Luxury Living Area' },
+    { src: 'images/v1774811620_30_1_eexljz.jpg', cap: 'Modern Comforts' },
     { src: 'images/v1774807176_34_vpeqgv.jpg', cap: 'Poolside Lounge' },
-    { src: 'images/v1773076342_23_wby8bv.jpg', cap: 'Gourmet Food' },
-    { src: 'images/v1769868140_B30_yc8rqu.webp', cap: 'Veranda' },
-    { src: 'images/v1769868142_H10_byp3oh.webp', cap: 'Sun Deck' },
-    { src: 'images/v1774810653_N35_h2djzp.jpg', cap: 'Art Detail' },
-    { src: 'images/v1774809447_06_htf59g.jpg', cap: 'Premium Finish' }
+    { src: 'images/v1773076342_23_wby8bv.jpg', cap: 'Private Chef Dining' },
+    { src: 'images/v1769868140_B30_yc8rqu.webp', cap: 'Sunlit Veranda' },
+    { src: 'images/v1769868142_H10_byp3oh.webp', cap: 'Morning Hill Views' },
+    { src: 'images/v1774810653_N35_h2djzp.jpg', cap: 'Artistic Interiors' },
+    { src: 'images/v1774809447_06_htf59g.jpg', cap: 'Premium Finishing' }
   ];
 
   let currentImgIdx = 0;
