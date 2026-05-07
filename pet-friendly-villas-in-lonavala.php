@@ -1,7 +1,7 @@
 <?php
-$pageTitle = "3 Best Pet-Friendly Villas in Lonavala | Luxury 4BHK Stays with Lawns";
-$pageDescription = "Discover top-rated pet-friendly villas in Lonavala. Enjoy private infinity pools, massive fenced lawns, and unmatched luxury stays for you and your furry family.";
-$pageKeywords = "best pet friendly villas in lonavala, luxury pet friendly villas in lonavala, pet friendly stays lonavala, villas in lonavala for family and pets, pet friendly weekend getaways near mumbai, dog friendly resorts lonavala, private pool villas lonavala pet allowed";
+$pageTitle = "Pet-Friendly Villas in Lonavala | Best Dog-Friendly Luxury Stays";
+$pageDescription = "Book the best pet-friendly villas in Lonavala with private pools and fully fenced lawns. Luxury 4BHK stays where your dogs and cats are always welcome guests.";
+$pageKeywords = "Pet-Friendly Villas in Lonavala, Best Pet-Friendly Villas, Dog-Friendly Villas Lonavala, Villas in Lonavala with Pets, Luxury Pet-Friendly Stays, Private Pool Villa Lonavala Pet Allowed";
 $pageRobots = "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1";
 $pageAuthor = "Retrofusion Boutique Homestays";
 $pagePublisher = "Retrofusion Boutique Homestays";
@@ -203,9 +203,9 @@ include 'includes/header.php';
     <div class="max-w-4xl mx-auto">
       <div class="space-y-4 sm:space-y-6 mb-8">
         <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight drop-shadow-2xl font-display uppercase tracking-tighter">
-          Paws & <span class="text-amber-400">Privilege</span></h1>
+          Pet-Friendly Villas in <span class="text-amber-400">Lonavala</span></h1>
         <p class="text-base sm:text-lg md:text-xl lg:text-2xl text-white/90 font-light max-w-2xl mx-auto">
-          Luxury 4BHK villas where your furry family members are always the V.I.P guests.</p>
+          Luxury 4BHK sanctuaries where your furry companions enjoy the same V.I.P treatment as you.</p>
       </div>
       <a href="#booking"
         class="group bg-white text-stone-900 hover:bg-amber-600 hover:text-white px-8 sm:px-10 py-3 sm:py-4 rounded-full text-base sm:text-lg font-medium transition-all duration-500 inline-flex items-center justify-center space-x-3 hover:scale-105 shadow-xl">
@@ -237,9 +237,9 @@ include 'includes/header.php';
           <span>Fenced & Secure Lawns</span>
         </div>
         <h2 class="text-4xl sm:text-5xl font-bold text-[#0F2A24] leading-tight font-display text-center lg:text-left">
-          Because <span class="text-amber-600 italic">Family</span> Travels Together</h2>
+          Discover the Best <span class="text-amber-600 italic">Pet-Friendly Villas</span> in Lonavala</h2>
         <p class="text-stone-600 text-lg leading-relaxed text-center lg:text-left font-light">
-          Why leave your best friend behind? At Retrofusion, we redefine **pet-friendly villas in Lonavala**. Our properties are more than just "pet allowed"—they are designed for pet safety and human luxury. With massive, **fully fenced private lawns** and expansive decks, your dogs and cats can roam freely while you soak in the misty Sahyadri views. Experience the true joy of a **luxury pet-friendly stay** without any compromise.
+          Why leave your best friend behind? At Retrofusion, we've designed the ultimate **Pet-Friendly Villas in Lonavala** to ensure no family member is left out of the fun. Our properties aren't just "pet allowed"—they are purposefully built for pet safety and human luxury. Featuring **massive, fully fenced private lawns**, expansive decks, and secure boundaries, your dogs and cats can roam freely while you soak in the misty Sahyadri views. Experience a **Luxury Pet-Friendly Stay in Lonavala** that sets a new standard for hospitality.
         </p>
         <div class="grid grid-cols-2 gap-6 pt-4">
           <div class="flex items-center space-x-4">
@@ -400,12 +400,45 @@ include 'includes/header.php';
 
 <!-- ===== SEO CONTENT SECTION ===== -->
 <section class="py-16 md:py-24 bg-white border-b border-stone-100">
-  <div class="max-w-4xl mx-auto px-4 text-center lg:text-left">
-    <div class="prose prose-stone lg:prose-lg mx-auto">
-      <h2 class="text-3xl font-bold text-[#0F2A24] font-display mb-6 leading-tight">The Best Pet-Friendly Weekend Getaway Near Mumbai</h2>
-      <p class="leading-relaxed text-stone-600 mb-8 font-light">
-        Leaving your furry friends at home or in a kennel is the hardest part of any vacation. At Retrofusion, we've solved this with our **luxury pet-friendly villas in Lonavala**. Located just a short, scenic drive from Mumbai and Pune, our villas offer the perfect **pet-friendly weekend getaway**. We don't just allow pets; we celebrate them. With massive outdoor spaces and a dedicated on-site team, your pets will have as much fun as you do.
+  <div class="max-w-4xl mx-auto px-4">
+    <div class="prose prose-stone lg:prose-lg max-w-none">
+      <h2 class="text-3xl font-bold text-[#0F2A24] font-display mb-6">The Ultimate Guide to Choosing Pet-Friendly Villas in Lonavala</h2>
+      <p>
+        Planning a getaway to the Sahyadris? Finding the right <strong>Pet-Friendly Villas in Lonavala</strong> shouldn't be a challenge. At Retrofusion, we understand that pets are more than just animals—they are integral family members. That's why we've curated a selection of <strong>luxury dog-friendly villas in Lonavala</strong> that offer the perfect blend of freedom for them and relaxation for you.
       </p>
+
+      <h3>Why Our Villas in Lonavala are Truly Pet-Friendly</h3>
+      <p>
+        Most "pet-allowed" hotels keep your companions confined to the room. We believe in freedom. Our <strong>Best Pet-Friendly Villas</strong> feature massive outdoor spaces where your pets can run, play, and explore. Whether it's a game of fetch on the <strong>fully fenced lawns</strong> or a quiet nap on the sun-drenched deck, your pets will experience a true holiday of their own.
+      </p>
+
+      <h3>Private Pool Villas in Lonavala Where Pets Are Allowed</h3>
+      <p>
+        Luxury doesn't have to exclude your pets. Our <strong>private pool villas in Lonavala pet allowed</strong> collection offers high-end amenities including infinity pools, private chefs, and breathtaking hill views. While pets are kept off the pool water for hygiene reasons, the spacious pool decks are perfect for them to lounge nearby while you take a dip. It’s the <strong>Luxury Pet-Friendly Stay</strong> you’ve been searching for.
+      </p>
+
+      <h3>A Stress-Free Experience for Pet Parents</h3>
+      <p>
+        We take the "work" out of a pet-friendly holiday. Our villas are located in quiet, gated communities, providing a peaceful environment for even the most anxious pets. With 24/7 on-site staff who are pet-lovers themselves, you can rest assured that your needs and your pet's needs will be met with a smile. From providing local vet contacts to arranging fresh, home-cooked pet meals, we go the extra mile.
+      </p>
+
+      <h3>Perfect for Weekend Getaways from Mumbai and Pune</h3>
+      <p>
+        Lonavala is the ideal <strong>pet-friendly weekend getaway near Mumbai</strong>. The short drive ensures your pet doesn't get restless in the car, and the cool mountain air is a welcome change from the city heat. Whether it's a quick two-day trip or an extended stay, our <strong>4BHK Pet-Friendly Villas</strong> provide the space and luxury required for a memorable family vacation.
+      </p>
+
+      <h3>Preparing for Your Pet-Friendly Stay</h3>
+      <p>
+        To make the most of your trip, we recommend bringing your pet's favorite toys and their regular food. While we offer <strong>pet-friendly stays in Lonavala</strong>, familiar scents help them settle in faster. Each villa is deep-cleaned and sanitized before every arrival, ensuring a fresh and safe environment for both the human and furry guests.
+      </p>
+
+      <h3>Conclusion</h3>
+      <p>
+        Your pet deserves the best, and so do you. Choose Retrofusion for the most <strong>Romantic & Luxury Pet-Friendly Villas in Lonavala</strong>. Book your stay today and experience why hundreds of pet parents trust us for their family vacations year after year.
+      </p>
+    </div>
+  </div>
+</section>
 
       <h3 class="text-2xl font-bold text-[#0F2A24] font-display mb-4 leading-tight">Secure Lawns and Private Pools</h3>
       <p class="leading-relaxed text-stone-600 mb-8 font-light">
@@ -514,6 +547,50 @@ include 'includes/header.php';
         </button>
         <div id="faq-ans-7" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
           Check-in is at 1:00 PM and check-out is at 11:00 AM. This gives us enough time to perform a deep-clean to ensure a fresh environment for every guest.
+        </div>
+      </div>
+
+      <!-- FAQ 9 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(8)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">What types of pets are allowed at the villa?</span>
+          <svg id="faq-icon-8" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-8" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          We primarily welcome dogs and cats. If you have other pets like birds or rabbits, please mention them during booking so we can ensure the property is suitable for them.
+        </div>
+      </div>
+
+      <!-- FAQ 10 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(9)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">Are there pet-friendly cafes in Lonavala?</span>
+          <svg id="faq-icon-9" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-9" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          Yes, Lonavala has several cafes and restaurants with outdoor seating that welcome pets. Our on-site manager can provide a curated list of pet-friendly spots nearby.
+        </div>
+      </div>
+
+      <!-- FAQ 11 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(10)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">Do you provide pet bedding?</span>
+          <svg id="faq-icon-10" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-10" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          For hygiene and comfort, we recommend guests bring their pet's own bedding. However, we can provide basic mats or rugs upon prior request if needed.
+        </div>
+      </div>
+
+      <!-- FAQ 12 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(11)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">Is the area quiet for anxious pets?</span>
+          <svg id="faq-icon-11" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-11" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          Yes, our villas are located in peaceful, secluded areas away from the main city traffic, making them ideal for pets who might be sensitive to loud noises.
         </div>
       </div>
     </div>
