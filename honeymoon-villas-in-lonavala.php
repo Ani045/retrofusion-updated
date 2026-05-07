@@ -20,18 +20,13 @@ include 'includes/header.php';
       "@type": "LodgingBusiness",
       "@id": "https://retrofusion.in/honeymoon-villas-in-lonavala#lodging",
       "name": "Luxury Honeymoon Villas in Lonavala - Retrofusion",
-      "description": "Exquisite 4BHK honeymoon villas in Lonavala featuring private pools, mountain views, and bespoke romantic services for newly married couples.",
+      "description": "Exquisite 4BHK honeymoon villas in Lonavala featuring private pools, mountain views, and bespoke romantic services for newly married couples. Experience the best honeymoon stay in Lonavala.",
       "url": "https://retrofusion.in/honeymoon-villas-in-lonavala",
       "image": [
         "https://retrofusion.in/images/v1774810269_12_lo4gpx.jpg",
         "https://retrofusion.in/images/v1773076226_27_ipqwdd.jpg",
-        "https://retrofusion.in/images/v1772868264_1_wqosmq.jpg",
-        "https://retrofusion.in/images/v1774807173_04_y636xz.jpg",
-        "https://retrofusion.in/images/v1769868155_M08_qewdva.webp",
-        "https://retrofusion.in/images/v1770226533_N34_stewru.jpg",
-        "https://retrofusion.in/images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg"
+        "https://retrofusion.in/images/v1772868264_1_wqosmq.jpg"
       ],
-      "identifier": "RETRO-HONEYMOON-01",
       "telephone": "+91 8999036644",
       "address": {
         "@type": "PostalAddress",
@@ -51,14 +46,42 @@ include 'includes/header.php';
         "ratingValue": "4.9",
         "reviewCount": "158"
       },
-      "priceRange": "$$$"
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Ananya Sharma" },
+          "datePublished": "2024-03-15",
+          "reviewBody": "The most romantic honeymoon villas in Lonavala. The private pool and candlelight dinner were exceptional.",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5" }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Rahul Mehta" },
+          "datePublished": "2024-02-10",
+          "reviewBody": "Luxury at its best. Perfect for newly married couples seeking privacy in Lonavala.",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5" }
+        }
+      ],
+      "priceRange": "₹₹₹",
+      "amenityFeature": [
+        { "@type": "LocationFeatureSpecification", "name": "Private Swimming Pool", "value": "Yes" },
+        { "@type": "LocationFeatureSpecification", "name": "Mountain View", "value": "Yes" },
+        { "@type": "LocationFeatureSpecification", "name": "Bespoke Honeymoon Decor", "value": "Yes" }
+      ]
     },
     {
       "@type": "Organization",
       "@id": "https://retrofusion.in/#organization",
       "name": "Retrofusion Boutique Homestays",
       "url": "https://retrofusion.in/",
-      "logo": "https://retrofusion.in/images/logo.png"
+      "logo": "https://retrofusion.in/images/logo.png",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+91 8999036644",
+        "contactType": "Reservations",
+        "areaServed": "IN",
+        "availableLanguage": ["en", "hi", "mr"]
+      }
     },
     {
       "@type": "BreadcrumbList",
@@ -73,43 +96,8 @@ include 'includes/header.php';
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Honeymoon Villas",
+          "name": "Honeymoon Villas in Lonavala",
           "item": "https://retrofusion.in/honeymoon-villas-in-lonavala"
-        }
-      ]
-    },
-    {
-      "@type": "ItemList",
-      "@id": "https://retrofusion.in/honeymoon-villas-in-lonavala#itemlist",
-      "name": "Best Honeymoon Retreats in Lonavala",
-      "numberOfItems": 3,
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "item": {
-            "@type": "Accommodation",
-            "name": "Neo Retro Villa (Honeymoon Suite)",
-            "url": "https://retrofusion.in/neo-retro"
-          }
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "item": {
-            "@type": "Accommodation",
-            "name": "Retro Visawa (Private Infinity Pool)",
-            "url": "https://retrofusion.in/retro-viswa-lonavala"
-          }
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "item": {
-            "@type": "Accommodation",
-            "name": "Retro Villa (Elegant Escape)",
-            "url": "https://retrofusion.in/retro-villas"
-          }
         }
       ]
     },
@@ -132,63 +120,8 @@ include 'includes/header.php';
             "@type": "Answer",
             "text": "Yes, we specialize in honeymoon surprises, including floral bed decor, balloon arrangements, poolside candlelight dinners, and customized cakes to make your first trip together unforgettable."
           }
-        },
-        {
-          "@type": "Question",
-          "name": "Is the swimming pool private for the honeymoon couple?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Absolutely. When you book a villa with Retrofusion, the private pool is exclusively yours. There are no shared spaces, ensuring complete privacy for your romantic moments."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can we hire a private chef for a romantic dinner?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, we can arrange a private chef to prepare a curated multi-course meal, served in a romantic setting on the pool deck or the terrace overlooking the hills."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the best time for a honeymoon in Lonavala?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Lonavala is beautiful year-round, but the monsoon (June-September) offers lush greenery and waterfalls, while winter (November-February) provides cool, pleasant weather perfect for cozying up."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How safe are the villas for newly married couples?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Security is paramount. Our villas are located in gated communities with 24/7 security and a discreet, professional in-house staff dedicated to your comfort and safety."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do you provide pick-up and drop services for honeymooners?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, we can facilitate premium luxury car transfers from Mumbai or Pune airports and railway stations upon request."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are the nearby romantic spots in Lonavala?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Our villas are close to Tiger Point, Bhushi Dam, and Lion's Point, offering stunning sunset views and romantic strolls in nature."
-          }
         }
       ]
-    },
-    {
-      "@type": "WebPage",
-      "@id": "https://retrofusion.in/honeymoon-villas-in-lonavala#webpage",
-      "url": "https://retrofusion.in/honeymoon-villas-in-lonavala",
-      "name": "Romantic Honeymoon 4BHK Villas in Lonavala with Private Pool",
-      "isPartOf": { "@id": "https://retrofusion.in/#website" }
     }
   ]
 }
@@ -197,15 +130,15 @@ include 'includes/header.php';
 <!-- ===== HERO SECTION ===== -->
 <section class="relative h-screen overflow-hidden">
   <img src="images/couples_villa_lonavala_hero.png"
-    class="absolute inset-0 w-full h-full object-cover" alt="Luxury Honeymoon Villa in Lonavala" title="Honeymoon in Lonavala" />
+    class="absolute inset-0 w-full h-full object-cover" alt="Honeymoon Villas in Lonavala - Luxury Private Pool Stay" title="Best Honeymoon Villas in Lonavala" />
   <div class="absolute inset-0 bg-gradient-to-b from-black/50 via-black/20 to-black/60"></div>
   <div class="relative z-10 h-full flex flex-col justify-center items-center px-4 sm:px-6 lg:px-8 text-center">
     <div class="max-w-4xl mx-auto">
       <div class="space-y-4 sm:space-y-6 mb-8">
         <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight drop-shadow-2xl font-display">
-          Unforgettable <span class="text-amber-400">Honeymoon</span> Escapes</h1>
+          Honeymoon Villas in <span class="text-amber-400">Lonavala</span></h1>
         <p class="text-base sm:text-lg md:text-xl lg:text-2xl text-white/90 font-light max-w-2xl mx-auto">
-          Private 4BHK sanctuaries in Lonavala where luxury meets true romance.</p>
+          Experience the most romantic Honeymoon 4BHK Villas in Lonavala with private pools and hill views.</p>
       </div>
       <a href="#booking"
         class="group bg-white text-stone-900 hover:bg-amber-600 hover:text-white px-8 sm:px-10 py-3 sm:py-4 rounded-full text-base sm:text-lg font-medium transition-all duration-500 inline-flex items-center justify-center space-x-3 hover:scale-105 shadow-xl">
@@ -237,9 +170,9 @@ include 'includes/header.php';
           <span>Bespoke Honeymoon Stays</span>
         </div>
         <h2 class="text-4xl sm:text-5xl font-bold text-[#0F2A24] leading-tight font-display text-center lg:text-left">
-          Luxury <span class="text-amber-600 italic">Honeymoon</span> in the Sahyadris</h2>
+          Best <span class="text-amber-600 italic">Honeymoon Villas in Lonavala</span> for Couples</h2>
         <p class="text-stone-600 text-lg leading-relaxed text-center lg:text-left font-light">
-          Your honeymoon is the most important journey of your life, and our <strong>Honeymoon 4BHK Villas in Lonavala</strong> are designed to make it extraordinary. Imagine waking up to the mist-covered mountains, spending your afternoons in a <strong>private pool with your partner</strong>, and enjoying a starlit dinner curated by a private chef. At Retrofusion, we don't just provide a room; we offer a <strong>luxury honeymoon experience</strong> that blends seclusion, elegance, and the natural beauty of Lonavala.
+          Your honeymoon is the most important journey of your life, and our <strong>Honeymoon Villas in Lonavala</strong> are designed to make it extraordinary. Imagine waking up to the mist-covered mountains, spending your afternoons in a <strong>Best Honeymoon Villa with Private Pool</strong>, and enjoying a starlit dinner curated by a private chef. At Retrofusion, we offer the most <strong>Romantic Honeymoon Villas in Lonavala</strong>, blending seclusion, elegance, and the natural beauty of the Sahyadris.
         </p>
         <div class="grid grid-cols-2 gap-6 pt-4">
           <div class="flex items-center space-x-4">
