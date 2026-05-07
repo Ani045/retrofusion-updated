@@ -1,7 +1,7 @@
 <?php
-$pageTitle = "Pet-Friendly Villas in Lonavala | Luxury 4BHK Stays with Lawns";
+$pageTitle = "3 Best Pet-Friendly Villas in Lonavala | Luxury 4BHK Stays with Lawns";
 $pageDescription = "Discover top-rated pet-friendly villas in Lonavala. Enjoy private infinity pools, massive fenced lawns, and unmatched luxury stays for you and your furry family.";
-$pageKeywords = "pet friendly villas in lonavala, luxury pet friendly villas in lonavala, pet friendly stays lonavala, villas in lonavala for family and pets, pet friendly weekend getaways near mumbai, dog friendly resorts lonavala, private pool villas lonavala pet allowed";
+$pageKeywords = "best pet friendly villas in lonavala, luxury pet friendly villas in lonavala, pet friendly stays lonavala, villas in lonavala for family and pets, pet friendly weekend getaways near mumbai, dog friendly resorts lonavala, private pool villas lonavala pet allowed";
 $pageRobots = "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1";
 $pageAuthor = "Retrofusion Boutique Homestays";
 $pagePublisher = "Retrofusion Boutique Homestays";
