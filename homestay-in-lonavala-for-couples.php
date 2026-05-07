@@ -246,6 +246,69 @@ include 'includes/header.php';
   </div>
 </section>
 
+<!-- ===== VIBES & MOMENTS (14 IMAGE BENTO) ===== -->
+<section class="py-16 md:py-24 bg-stone-50">
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="text-center mb-16">
+      <h2 class="text-3xl sm:text-5xl font-bold text-[#0F2A24] mb-4 font-display italic leading-tight text-center">Luxury in <span class="text-amber-600">Details</span></h2>
+      <p class="text-stone-500 text-lg">A visual journey through our most exclusive estates.</p>
+    </div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-4 h-auto md:h-[800px]">
+      <!-- Row 1 -->
+      <div class="md:col-span-2 relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(0)">
+        <img src="images/v1774810269_12_lo4gpx.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Homestay Pool">
+        <div class="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-colors duration-500"></div>
+      </div>
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(1)">
+        <img src="images/v1773076226_27_ipqwdd.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Homestay Dining">
+      </div>
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(2)">
+        <img src="images/v1772868264_1_wqosmq.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Evening Vibe">
+      </div>
+      
+      <!-- Row 2 -->
+      <div class="md:col-span-2 relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(3)">
+        <img src="images/v1774807173_04_y636xz.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Exterior View">
+      </div>
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(4)">
+        <img src="images/v1769868155_M08_qewdva.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Luxury Master Suite">
+      </div>
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(5)">
+        <img src="images/v1770226533_N34_stewru.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Mountain View Deck">
+      </div>
+      
+      <!-- Row 3 -->
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(6)">
+        <img src="images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Artistic Living Area">
+      </div>
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(7)">
+        <img src="images/v1774811620_30_1_eexljz.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Modern Interiors">
+      </div>
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(8)">
+        <img src="images/v1774807176_34_vpeqgv.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Poolside Evening">
+      </div>
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(9)">
+        <img src="images/v1773076342_23_wby8bv.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Gourmet Homestay Food">
+      </div>
+      
+      <!-- Row 4 -->
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(10)">
+        <img src="images/v1769868140_B30_yc8rqu.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Homestay Hall">
+      </div>
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(11)">
+        <img src="images/v1769868142_H10_byp3oh.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Sun-lit Space">
+      </div>
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(12)">
+        <img src="images/v1774810653_N35_h2djzp.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Boutique Decor">
+      </div>
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(13)">
+        <img src="images/v1774809447_06_htf59g.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Premium Accents">
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- ===== TOP 3 SELECTION ===== -->
 <section id="villas" class="py-16 md:py-24 bg-stone-50">
   <div class="max-w-7xl mx-auto px-4">
@@ -542,7 +605,76 @@ include 'includes/header.php';
   </div>
 </section>
 
+<!-- ===== LIGHTBOX SYSTEM ===== -->
+<div id="lightbox" class="fixed inset-0 bg-black/95 z-[9999] hidden flex-col items-center justify-center p-4">
+  <button onclick="closeLightbox()" class="absolute top-8 right-8 text-white text-4xl hover:text-amber-500 transition-colors">&times;</button>
+  <button onclick="prevImage()" class="absolute left-4 top-1/2 -translate-y-1/2 text-white/50 hover:text-white text-6xl transition-colors">&lsaquo;</button>
+  <button onclick="nextImage()" class="absolute right-4 top-1/2 -translate-y-1/2 text-white/50 hover:text-white text-6xl transition-colors">&rsaquo;</button>
+  <img id="lightbox-img" src="" class="max-w-full max-h-[85vh] object-contain rounded-lg shadow-2xl transition-all duration-500" alt="Gallery Image">
+  <p id="lightbox-caption" class="text-white/80 mt-6 font-light italic text-lg"></p>
+</div>
+
+<!-- Floating WhatsApp Button -->
+<a href="https://wa.me/918999036644" target="_blank" class="fixed bottom-8 right-8 z-[999] bg-emerald-500 text-white p-4 rounded-full shadow-2xl hover:bg-emerald-600 transition-all duration-300 hover:scale-110 flex items-center justify-center group">
+  <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.335-1.662c1.72.937 3.659 1.432 5.631 1.433h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  <span class="absolute right-full mr-4 bg-white text-stone-900 px-4 py-2 rounded-xl text-sm font-bold shadow-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap pointer-events-none">Chat with Host</span>
+</a>
+
 <script>
+  const galleryImages = [
+    { src: 'images/v1774810269_12_lo4gpx.jpg', cap: 'Private Romantic Pool' },
+    { src: 'images/v1773076226_27_ipqwdd.jpg', cap: 'Candlelight Dinner Setup' },
+    { src: 'images/v1772868264_1_wqosmq.jpg', cap: 'Evening Vibes' },
+    { src: 'images/v1774807173_04_y636xz.jpg', cap: 'Villa Exterior' },
+    { src: 'images/v1769868155_M08_qewdva.webp', cap: 'Master Suite' },
+    { src: 'images/v1770226533_N34_stewru.jpg', cap: 'Mountain Deck' },
+    { src: 'images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg', cap: 'Luxury Living' },
+    { src: 'images/v1774811620_30_1_eexljz.jpg', cap: 'Modern Comfort' },
+    { src: 'images/v1774807176_34_vpeqgv.jpg', cap: 'Poolside Lounge' },
+    { src: 'images/v1773076342_23_wby8bv.jpg', cap: 'Gourmet Food' },
+    { src: 'images/v1769868140_B30_yc8rqu.webp', cap: 'Veranda' },
+    { src: 'images/v1769868142_H10_byp3oh.webp', cap: 'Sun Deck' },
+    { src: 'images/v1774810653_N35_h2djzp.jpg', cap: 'Art Detail' },
+    { src: 'images/v1774809447_06_htf59g.jpg', cap: 'Premium Finish' }
+  ];
+
+  let currentImgIdx = 0;
+
+  function openLightbox(idx) {
+    currentImgIdx = idx;
+    updateLightbox();
+    document.getElementById('lightbox').classList.remove('hidden');
+    document.getElementById('lightbox').classList.add('flex');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeLightbox() {
+    document.getElementById('lightbox').classList.add('hidden');
+    document.getElementById('lightbox').classList.remove('flex');
+    document.body.style.overflow = 'auto';
+  }
+
+  function updateLightbox() {
+    const img = document.getElementById('lightbox-img');
+    const cap = document.getElementById('lightbox-caption');
+    img.style.opacity = '0';
+    setTimeout(() => {
+      img.src = galleryImages[currentImgIdx].src;
+      cap.innerText = galleryImages[currentImgIdx].cap;
+      img.style.opacity = '1';
+    }, 200);
+  }
+
+  function nextImage() {
+    currentImgIdx = (currentImgIdx + 1) % galleryImages.length;
+    updateLightbox();
+  }
+
+  function prevImage() {
+    currentImgIdx = (currentImgIdx - 1 + galleryImages.length) % galleryImages.length;
+    updateLightbox();
+  }
+
   function toggleFaq(index) {
     const ans = document.getElementById(`faq-ans-${index}`);
     const icon = document.getElementById(`faq-icon-${index}`);
@@ -555,6 +687,12 @@ include 'includes/header.php';
       icon.style.transform = 'rotate(180deg)';
     }
   }
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeLightbox();
+    if (e.key === 'ArrowRight') nextImage();
+    if (e.key === 'ArrowLeft') prevImage();
+  });
 </script>
 
 <?php include 'includes/footer.php'; ?>
