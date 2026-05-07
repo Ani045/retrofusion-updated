@@ -101,6 +101,46 @@ include 'includes/header.php';
             "@type": "Answer",
             "text": "Yes, every 4BHK homestay we offer comes with its own private swimming pool that is exclusively for the use of the guests staying in that villa."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you allow outside food or catering?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "While we provide a professional in-house chef for gourmet meals, we can accommodate limited outside food requests or specific catering needs with prior coordination."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is there high-speed Wi-Fi available?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, all our luxury homestays are equipped with high-speed Wi-Fi, making them ideal for streaming movies or working remotely during your stay."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are your 4BHK homestays pet-friendly?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We have specific properties that are pet-friendly. Please let us know in your enquiry if you plan to bring your pets so we can suggest the best villa for you."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is there dedicated parking at the villa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, each villa has its own secure, gated parking space that can accommodate multiple vehicles."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can we request an early check-in?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Early check-in is subject to availability and may incur a nominal fee. We recommend checking with our concierge team 24 hours prior to your arrival."
+          }
         }
       ]
     }
@@ -144,20 +184,20 @@ include 'includes/header.php';
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-      <div class="bg-stone-50 p-8 rounded-3xl border border-stone-100 hover:shadow-xl transition-all duration-500">
-        <div class="text-3xl mb-4">🏠</div>
-        <h3 class="text-xl font-bold text-[#0F2A24] mb-3 font-display">Entire Property</h3>
-        <p class="text-stone-500 text-sm leading-relaxed">Enjoy the whole 4BHK villa to yourselves. No sharing, no disturbances—just pure privacy.</p>
+      <div class="bg-[#0F2A24] p-8 rounded-3xl border border-amber-900/20 hover:shadow-2xl hover:shadow-amber-600/10 transition-all duration-500 group">
+        <div class="w-14 h-14 bg-amber-600 rounded-2xl flex items-center justify-center text-white text-2xl mb-6 group-hover:scale-110 transition-transform">🏠</div>
+        <h3 class="text-xl font-bold text-white mb-3 font-display">Entire Property</h3>
+        <p class="text-stone-400 text-sm leading-relaxed">Enjoy the whole 4BHK villa to yourselves. No sharing, no disturbances—just pure privacy in the heart of Lonavala.</p>
       </div>
-      <div class="bg-stone-50 p-8 rounded-3xl border border-stone-100 hover:shadow-xl transition-all duration-500">
-        <div class="text-3xl mb-4">🏊‍♂️</div>
-        <h3 class="text-xl font-bold text-[#0F2A24] mb-3 font-display">Private Pool</h3>
-        <p class="text-stone-500 text-sm leading-relaxed">Our <strong>4BHK Homestay with Private Pool</strong> ensures you can take a dip anytime without a care in the world.</p>
+      <div class="bg-[#0F2A24] p-8 rounded-3xl border border-amber-900/20 hover:shadow-2xl hover:shadow-amber-600/10 transition-all duration-500 group">
+        <div class="w-14 h-14 bg-amber-600 rounded-2xl flex items-center justify-center text-white text-2xl mb-6 group-hover:scale-110 transition-transform">🏊‍♂️</div>
+        <h3 class="text-xl font-bold text-white mb-3 font-display">Private Pool</h3>
+        <p class="text-stone-400 text-sm leading-relaxed">Our <strong>4BHK Homestay with Private Pool</strong> ensures you can take a dip anytime without a care in the world.</p>
       </div>
-      <div class="bg-stone-50 p-8 rounded-3xl border border-stone-100 hover:shadow-xl transition-all duration-500">
-        <div class="text-3xl mb-4">👨‍🍳</div>
-        <h3 class="text-xl font-bold text-[#0F2A24] mb-3 font-display">Private Chef</h3>
-        <p class="text-stone-500 text-sm leading-relaxed">Gourmet meals prepared just for you, from local Maharashtrian flavors to global cuisines.</p>
+      <div class="bg-[#0F2A24] p-8 rounded-3xl border border-amber-900/20 hover:shadow-2xl hover:shadow-amber-600/10 transition-all duration-500 group">
+        <div class="w-14 h-14 bg-amber-600 rounded-2xl flex items-center justify-center text-white text-2xl mb-6 group-hover:scale-110 transition-transform">👨‍🍳</div>
+        <h3 class="text-xl font-bold text-white mb-3 font-display">Private Chef</h3>
+        <p class="text-stone-400 text-sm leading-relaxed">Gourmet meals prepared just for you by our professional in-house chefs, tailored to your romantic palate.</p>
       </div>
     </div>
   </div>
@@ -293,25 +333,75 @@ include 'includes/header.php';
           Yes, the pool is 100% private and located within the gated premises of your villa. It is not shared with any other guests.
         </div>
       </div>
+      <!-- FAQ 3 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(2)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">Do you allow outside food or catering?</span>
+          <svg id="faq-icon-2" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-2" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          While we provide a professional in-house chef for gourmet meals, we can accommodate limited outside food requests or specific catering needs with prior coordination.
+        </div>
+      </div>
+      <!-- FAQ 4 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(3)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">Is there high-speed Wi-Fi available?</span>
+          <svg id="faq-icon-3" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-3" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          Yes, all our luxury homestays are equipped with high-speed Wi-Fi, making them ideal for streaming movies or working remotely during your stay.
+        </div>
+      </div>
+      <!-- FAQ 5 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(4)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">Are your 4BHK homestays pet-friendly?</span>
+          <svg id="faq-icon-4" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-4" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          We have specific properties that are pet-friendly. Please let us know in your enquiry if you plan to bring your pets so we can suggest the best villa for you.
+        </div>
+      </div>
+      <!-- FAQ 6 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(5)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">Is there dedicated parking at the villa?</span>
+          <svg id="faq-icon-5" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-5" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          Yes, each villa has its own secure, gated parking space that can accommodate multiple vehicles.
+        </div>
+      </div>
+      <!-- FAQ 7 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(6)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">Can we request an early check-in?</span>
+          <svg id="faq-icon-6" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-6" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          Early check-in is subject to availability and may incur a nominal fee. We recommend checking with our concierge team 24 hours prior to your arrival.
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
 <!-- ===== BOOKING SECTION ===== -->
-<section id="booking" class="py-16 bg-white">
+<section id="booking" class="py-16 bg-[#0F2A24]">
   <div class="max-w-7xl mx-auto px-4">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-      <div>
-        <h2 class="text-4xl font-bold text-[#0F2A24] font-display mb-6">Reserve Your <span class="text-amber-600">Romantic Stay</span></h2>
-        <p class="text-stone-600 text-lg mb-8">Fill in the details and our concierge team will get back to you with the best available 4BHK homestay options for your dates.</p>
-        <div class="space-y-4">
-          <div class="flex items-center space-x-4">
-            <div class="w-10 h-10 bg-amber-100 rounded-full flex items-center justify-center">📞</div>
-            <span class="text-[#0F2A24] font-medium">+91 89990 36644</span>
+      <div class="text-white">
+        <h2 class="text-4xl font-bold text-white font-display mb-6">Reserve Your <span class="text-amber-400 italic">Romantic Stay</span></h2>
+        <p class="text-stone-300 text-lg mb-8 font-light">Fill in the details and our concierge team will get back to you with the best available 4BHK homestay options for your dates.</p>
+        <div class="space-y-6">
+          <div class="flex items-center space-x-4 group">
+            <div class="w-12 h-12 bg-amber-600 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform shadow-lg">📞</div>
+            <span class="text-white font-medium text-xl">+91 89990 36644</span>
           </div>
-          <div class="flex items-center space-x-4">
-            <div class="w-10 h-10 bg-emerald-100 rounded-full flex items-center justify-center">💬</div>
-            <a href="https://wa.me/918999036644" target="_blank" class="text-[#0F2A24] font-medium hover:text-emerald-600 underline">Chat on WhatsApp</a>
+          <div class="flex items-center space-x-4 group">
+            <div class="w-12 h-12 bg-emerald-600 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform shadow-lg">💬</div>
+            <a href="https://wa.me/918999036644" target="_blank" class="text-white font-medium text-xl hover:text-emerald-400 transition-colors">Chat on WhatsApp</a>
           </div>
         </div>
       </div>
