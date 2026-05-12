@@ -122,6 +122,7 @@ endif; ?>
           'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-TMRS6NS8');</script>
   <!-- End Google Tag Manager -->
+  <meta name="google-site-verification" content="edqVTHzbdEuUdm9gPRlO6EwAHB_zpWo5FEvTx8qVtUc" />
 </head>
 
 <body>
