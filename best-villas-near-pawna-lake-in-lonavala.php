@@ -296,6 +296,9 @@ include 'includes/header.php';
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(13)">
         <img src="images/v1774809447_06_htf59g.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Beautiful landscape surrounds">
       </div>
+      <div class="md:col-span-2 relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(14)">
+        <img src="images/villa_bonfire_hero_1778568740856.png" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Private bonfire and outdoor camping vibe">
+      </div>
     </div>
   </div>
 </section>
@@ -646,7 +649,8 @@ include 'includes/header.php';
     'images/v1770226533_N34_stewru.jpg',
     'images/v1769868142_H10_byp3oh.webp',
     'images/v1774810653_N35_h2djzp.jpg',
-    'images/v1774809447_06_htf59g.jpg'
+    'images/v1774809447_06_htf59g.jpg',
+    'images/villa_bonfire_hero_1778568740856.png'
   ];
 
   function openLightbox(index) {

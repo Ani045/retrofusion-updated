@@ -1,6 +1,17 @@
 <?php
-$pageTitle = "Retrofusion - Luxury Boutique Homestay in Lonavala | Best Homestay";
-$pageDescription = "Experience the best boutique homestay in Lonavala at Retrofusion. Luxury private pool villas offering the ultimate homestay with food in Lonavala.";
+$pageTitle = "Boutique Homestay in Lonavala with Private Pool | Retrofusion";
+$pageDescription = "Book Retrofusion, a boutique homestay in Lonavala with private pool villas, 4BHK stays, in-house food, mountain views, caretaker service, and pet-friendly options.";
+$pageKeywords = "Boutique Homestay in Lonavala with private pool, boutique homestay in Lonavala, private pool villa in Lonavala, luxury homestay in Lonavala, 4BHK homestay in Lonavala, villas in Lonavala with swimming pool, homestay in Lonavala with food, pet friendly homestay Lonavala, family homestay in Lonavala, group stay in Lonavala, Lonavala villa with caretaker, mountain view villa Lonavala";
+$pageRobots = "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1";
+$pageAuthor = "Retrofusion Boutique Homestays";
+$pagePublisher = "Retrofusion Boutique Homestays";
+$canonicalUrl = "https://retrofusion.in/";
+$ogTitle = "Boutique Homestay in Lonavala with Private Pool | Retrofusion";
+$ogDescription = "Explore Retrofusion's boutique private pool homestays in Lonavala for families, couples, groups, celebrations, workations, and pet-friendly getaways.";
+$ogImage = "https://retrofusion.in/images/v1769868140_B30_yc8rqu.webp";
+$twitterTitle = $ogTitle;
+$twitterDescription = $ogDescription;
+$twitterImage = $ogImage;
 include 'includes/header.php';
 ?>
 
@@ -10,7 +21,7 @@ include 'includes/header.php';
     <div id="hero-current-layer" class="hero-image-layer" style="z-index:1;"><img fetchpriority="high"
         id="hero-current-img"
         src="images/v1769868140_B30_yc8rqu.webp"
-        alt="Retrofusion Homestay" /></div>
+        alt="Boutique homestay in Lonavala with private pool at Retrofusion" /></div>
     <div id="hero-prev-layer" class="hero-image-layer" style="z-index:2;display:none;"><img loading="lazy"
         id="hero-prev-img" src="" alt="Retrofusion Homestay" /></div>
     <div class="absolute inset-0 bg-gradient-to-b from-black/30 via-black/20 to-black/40 z-10"></div>
@@ -19,15 +30,14 @@ include 'includes/header.php';
   </div>
   <div class="relative z-20 text-center text-white px-4 pointer-events-none">
     <p class="text-white text-sm md:text-base uppercase tracking-[0.3em] mb-4 font-light animate-fade-in-up"
-      style="opacity:0;animation-delay:0.3s;">Welcome to the Best Boutique Homestay in Lonavala</p>
-    <h1 class="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 leading-none font-display animate-fade-in-up"
+      style="opacity:0;animation-delay:0.3s;">Retrofusion Boutique Homestays</p>
+    <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight font-display animate-fade-in-up"
       style="opacity:0;animation-delay:0.5s;">
       <span
-        class="bg-gradient-to-r from-white via-stone-100 to-white bg-clip-text text-transparent drop-shadow-2xl">Retrofusion</span>
+        class="bg-gradient-to-r from-white via-stone-100 to-white bg-clip-text text-transparent drop-shadow-2xl">Boutique Homestay in Lonavala with Private Pool</span>
     </h1>
-    <p class="text-base md:text-xl text-stone-300/90 font-light tracking-wide max-w-2xl mx-auto animate-fade-in-up md:whitespace-nowrap"
-      style="opacity:0;animation-delay:0.9s;">Three distinct stays, united by one standard of luxury and warmth at our
-      homestay in Lonavala.</p>
+    <p class="text-base md:text-xl text-stone-300/90 font-light tracking-wide max-w-2xl mx-auto animate-fade-in-up"
+      style="opacity:0;animation-delay:0.9s;">Three private pool villas, united by luxury, warmth, food, views, and caretaker-led comfort.</p>
     <div
       class="w-20 h-[1px] bg-gradient-to-r from-transparent via-amber-400 to-transparent mx-auto mt-8 mb-8 animate-scale-x">
     </div>
@@ -1479,6 +1489,46 @@ include 'includes/header.php';
   </div>
 </section>
 
+<!-- ===== SEO CONTENT SECTION ===== -->
+<section class="py-14 md:py-20 bg-white scroll-reveal">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid grid-cols-1 lg:grid-cols-[1.05fr_0.95fr] gap-10 lg:gap-14 items-center">
+      <div>
+        <p class="text-amber-600 text-xs uppercase tracking-[0.25em] font-semibold mb-3">Private Pool Retreats</p>
+        <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#0F2A24] mb-5 font-display">
+          Boutique Homestay in Lonavala with Private Pool
+        </h2>
+        <div class="space-y-4 text-stone-600 text-base leading-relaxed">
+          <p>
+            Retrofusion is a curated collection of boutique homestays in Lonavala created for guests who want the comfort of a private home with the polish of a premium villa stay. Each property gives you exclusive access to your own pool, spacious bedrooms, relaxed living areas, green open corners, and a location that keeps Lonavala's markets, viewpoints, and highway access within easy reach.
+          </p>
+          <p>
+            Choose us for a luxury homestay in Lonavala with food, caretaker support, mountain-view moments, pet-friendly options, and flexible spaces for families, couples, groups, celebrations, and corporate offsites. From 4BHK private pool villas to quiet staycation homes near Mumbai and Pune, the experience is designed to feel personal, warm, and completely yours.
+          </p>
+        </div>
+      </div>
+      <div class="grid grid-cols-2 gap-4">
+        <div class="rounded-2xl bg-[#F4EFEA] border border-stone-200 p-5">
+          <p class="text-3xl font-bold text-[#0F2A24] font-display mb-1">3</p>
+          <p class="text-sm text-stone-600">Boutique private villas in Lonavala</p>
+        </div>
+        <div class="rounded-2xl bg-[#F4EFEA] border border-stone-200 p-5">
+          <p class="text-3xl font-bold text-[#0F2A24] font-display mb-1">4BHK</p>
+          <p class="text-sm text-stone-600">Spacious stays for families and groups</p>
+        </div>
+        <div class="rounded-2xl bg-[#F4EFEA] border border-stone-200 p-5">
+          <p class="text-3xl font-bold text-[#0F2A24] font-display mb-1">Pool</p>
+          <p class="text-sm text-stone-600">Exclusive swimming pool or jacuzzi access</p>
+        </div>
+        <div class="rounded-2xl bg-[#F4EFEA] border border-stone-200 p-5">
+          <p class="text-3xl font-bold text-[#0F2A24] font-display mb-1">Food</p>
+          <p class="text-sm text-stone-600">Fresh in-house meals and BBQ options</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- ===== CUSTOMER REVIEWS SECTION ===== -->
 <section class="py-16 md:py-20 bg-gradient-to-br from-stone-50 via-amber-50/30 to-stone-100 scroll-reveal">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -1652,14 +1702,14 @@ include 'includes/header.php';
           <div class="bg-white/10 backdrop-blur-sm rounded-xl border border-white/10 overflow-hidden">
             <button onclick="toggleFAQ(this)"
               class="w-full px-5 py-4 flex items-center justify-between text-left hover:bg-white/5 transition-colors">
-              <h3 class="text-base font-medium text-white pr-4 font-display">Are the swimming pools private or shared?</h3>
+              <h3 class="text-base font-medium text-white pr-4 font-display">Is Retrofusion a boutique homestay in Lonavala with private pool?</h3>
               <svg class="w-4 h-4 text-white/60 flex-shrink-0 transition-transform duration-200" fill="none"
                 stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
               </svg>
             </button>
             <div class="faq-content h-0 overflow-hidden transition-all duration-200 opacity-0">
-              <p class="px-5 pb-4 text-stone-300 text-sm leading-relaxed">Every single villa (Retro, Neo, and Visawa) features its own completely private swimming pool with a dedicated filtration system. You do not share your space with anyone else.</p>
+              <p class="px-5 pb-4 text-stone-300 text-sm leading-relaxed">Yes. Retrofusion offers boutique homestays in Lonavala with private pool access across Retro Villa, Neo Retro Villa, and Retro Visawa. Your pool and villa spaces are reserved for your group only.</p>
             </div>
           </div>
           <!-- FAQ Item 4 -->
@@ -2206,8 +2256,8 @@ include 'includes/header.php';
       "@type": "LodgingBusiness",
       "@id": "https://retrofusion.in/#lodgingbusiness",
       "name": "Retrofusion Boutique Homestays",
-      "description": "Luxury private pool villas offering the ultimate homestay with food in Lonavala.",
-      "image": "images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png",
+      "description": "Boutique homestay in Lonavala with private pool villas, 4BHK stays, in-house food, caretaker service, mountain views, and pet-friendly options.",
+      "image": "https://retrofusion.in/images/v1769868140_B30_yc8rqu.webp",
       "url": "https://retrofusion.in/",
       "telephone": "+91 8999036644",
       "address": {
@@ -2223,10 +2273,32 @@ include 'includes/header.php';
       }
     },
     {
+      "@type": "WebSite",
+      "@id": "https://retrofusion.in/#website",
+      "url": "https://retrofusion.in/",
+      "name": "Retrofusion Boutique Homestays",
+      "publisher": {
+        "@id": "https://retrofusion.in/#lodgingbusiness"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://retrofusion.in/#webpage",
+      "url": "https://retrofusion.in/",
+      "name": "Boutique Homestay in Lonavala with Private Pool | Retrofusion",
+      "description": "Book Retrofusion, a boutique homestay in Lonavala with private pool villas, 4BHK stays, in-house food, mountain views, caretaker service, and pet-friendly options.",
+      "isPartOf": {
+        "@id": "https://retrofusion.in/#website"
+      },
+      "about": {
+        "@id": "https://retrofusion.in/#lodgingbusiness"
+      }
+    },
+    {
       "@type": "LocalBusiness",
       "@id": "https://retrofusion.in/#localbusiness",
       "name": "Retrofusion Boutique Homestays",
-      "image": "images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png",
+      "image": "https://retrofusion.in/images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png",
       "url": "https://retrofusion.in/"
     },
     {
@@ -2286,6 +2358,36 @@ include 'includes/header.php';
               "ratingValue": "4.9",
               "reviewCount": "900"
             }
+          }
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://retrofusion.in/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is Retrofusion a boutique homestay in Lonavala with private pool?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Retrofusion offers boutique homestays in Lonavala with private pool access across Retro Villa, Neo Retro Villa, and Retro Visawa. Your pool and villa spaces are reserved for your group only."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is food available at the homestay?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Retrofusion offers fresh in-house food with vegetarian and non-vegetarian options. BBQ arrangements can also be planned for selected stays."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are the villas suitable for families, couples, and groups?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The 4BHK private pool villas are suitable for family vacations, couple getaways, group stays, celebrations, staycations, and corporate offsites in Lonavala."
           }
         }
       ]
