@@ -600,70 +600,70 @@ include 'includes/header.php';
             <a href="https://wa.me/918999036644" target="_blank" class="flex items-center gap-4 group">
               <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
                 <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.27 9.27 0 01-4.737-1.283l-.34-.202-3.523.923.94-3.435-.222-.353a9.268 9.268 0 01-1.423-4.87c0-5.118 4.162-9.28 9.282-9.28 2.481 0 4.814.966 6.566 2.719a9.23 9.23 0 012.714 6.56c0 5.118-4.163 9.28-9.283 9.28m8.209-17.487A10.74 10.74 0 0012.048 1.5c-5.94 0-10.775 4.835-10.778 10.776 0 1.9.488 3.754 1.414 5.418L1.133 22.4l4.825-1.265a10.73 10.73 0 005.087 1.298h.005c5.941 0 10.777-4.835 10.781-10.776a10.71 10.71 0 00-3.155-7.618z"/></svg>
-699:               </div>
-700:               <div>
-701:                 <p class="text-green-400 text-xs uppercase tracking-wider mb-1">WhatsApp</p>
-702:                 <p class="text-white font-medium text-lg group-hover:text-green-300 transition-colors">Chat with Us</p>
-703:               </div>
-704:             </a>
-705:           </div>
-706:         </div>
-707:         
-708:         <div class="bg-amber-600 rounded-3xl p-8 shadow-2xl relative overflow-hidden group">
-709:           <div class="relative z-10">
-710:             <h3 class="text-2xl font-bold text-white mb-4 font-display">Need Directions?</h3>
-711:             <p class="text-amber-100 text-sm mb-6">Wondering exactly how close we are to the viewpoints? Message our team for a location pin!</p>
-712:             <a href="https://wa.me/918999036644" class="inline-block bg-white text-amber-600 px-6 py-3 rounded-xl font-bold text-sm hover:bg-stone-900 hover:text-white transition-all duration-300">Message Now</a>
-713:           </div>
-714:           <div class="absolute -right-8 -bottom-8 opacity-10 group-hover:scale-110 transition-transform duration-700">
-715:             <svg class="w-40 h-40 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
-716:           </div>
-717:         </div>
-718:       </div>
-719:     </div>
-720:   </div>
-721: </section>
-722: 
-723: <?php include 'includes/footer.php'; ?>
-724: 
-725: <!-- Lightbox Script -->
-726: <div id="lightbox" class="fixed inset-0 z-50 bg-black/95 hidden items-center justify-center transition-opacity duration-300 opacity-0" onclick="closeLightbox()">
-727:   <img id="lightbox-img" src="" class="max-w-[90vw] max-h-[85vh] object-contain rounded-lg">
-728: </div>
-729: 
-730: <script>
-731:   window.galleryImages = [
-732:     'images/v1769868140_B30_yc8rqu.webp',
-733:     'images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg',
-734:     'images/v1774810269_12_lo4gpx.jpg',
-735:     'images/v1769868155_M08_qewdva.webp',
-736:     'images/v1770226533_N34_stewru.jpg',
-737:     'images/v1774807176_34_vpeqgv.jpg',
-738:     'images/v1772868264_1_wqosmq.jpg',
-739:     'images/v1774811620_30_1_eexljz.jpg',
-740:     'images/v1774809448_30_2_xtqtpb.jpg',
-741:     'images/v1773076342_23_wby8bv.jpg',
-742:     'images/v1773076226_27_ipqwdd.jpg',
-743:     'images/v1769868142_H10_byp3oh.webp',
-744:     'images/v1774810653_N35_h2djzp.jpg',
-745:     'images/v1774809447_06_htf59g.jpg'
-746:   ];
-747: 
-748:   function openLightbox(index) {
-749:     const lb = document.getElementById('lightbox');
-750:     const img = document.getElementById('lightbox-img');
-751:     img.src = window.galleryImages[index];
-752:     lb.classList.remove('hidden');
-753:     lb.classList.add('flex');
-754:     setTimeout(() => lb.style.opacity = '1', 10);
-755:   }
-756: 
-757:   function closeLightbox() {
-758:     const lb = document.getElementById('lightbox');
-759:     lb.style.opacity = '0';
-760:     setTimeout(() => {
-761:       lb.classList.remove('flex');
-762:       lb.classList.add('hidden');
-763:     }, 300);
-764:   }
-765: </script>
+              </div>
+              <div>
+                <p class="text-green-400 text-xs uppercase tracking-wider mb-1">WhatsApp</p>
+                <p class="text-white font-medium text-lg group-hover:text-green-300 transition-colors">Chat with Us</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        
+        <div class="bg-amber-600 rounded-3xl p-8 shadow-2xl relative overflow-hidden group">
+          <div class="relative z-10">
+            <h3 class="text-2xl font-bold text-white mb-4 font-display">Need Directions?</h3>
+            <p class="text-amber-100 text-sm mb-6">Wondering exactly how close we are to the viewpoints? Message our team for a location pin!</p>
+            <a href="https://wa.me/918999036644" class="inline-block bg-white text-amber-600 px-6 py-3 rounded-xl font-bold text-sm hover:bg-stone-900 hover:text-white transition-all duration-300">Message Now</a>
+          </div>
+          <div class="absolute -right-8 -bottom-8 opacity-10 group-hover:scale-110 transition-transform duration-700">
+            <svg class="w-40 h-40 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<?php include 'includes/footer.php'; ?>
+
+<!-- Lightbox Script -->
+<div id="lightbox" class="fixed inset-0 z-50 bg-black/95 hidden items-center justify-center transition-opacity duration-300 opacity-0" onclick="closeLightbox()">
+  <img id="lightbox-img" src="" class="max-w-[90vw] max-h-[85vh] object-contain rounded-lg">
+</div>
+
+<script>
+  window.galleryImages = [
+    'images/v1769868140_B30_yc8rqu.webp',
+    'images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg',
+    'images/v1774810269_12_lo4gpx.jpg',
+    'images/v1769868155_M08_qewdva.webp',
+    'images/v1770226533_N34_stewru.jpg',
+    'images/v1774807176_34_vpeqgv.jpg',
+    'images/v1772868264_1_wqosmq.jpg',
+    'images/v1774811620_30_1_eexljz.jpg',
+    'images/v1774809448_30_2_xtqtpb.jpg',
+    'images/v1773076342_23_wby8bv.jpg',
+    'images/v1773076226_27_ipqwdd.jpg',
+    'images/v1769868142_H10_byp3oh.webp',
+    'images/v1774810653_N35_h2djzp.jpg',
+    'images/v1774809447_06_htf59g.jpg'
+  ];
+
+  function openLightbox(index) {
+    const lb = document.getElementById('lightbox');
+    const img = document.getElementById('lightbox-img');
+    img.src = window.galleryImages[index];
+    lb.classList.remove('hidden');
+    lb.classList.add('flex');
+    setTimeout(() => lb.style.opacity = '1', 10);
+  }
+
+  function closeLightbox() {
+    const lb = document.getElementById('lightbox');
+    lb.style.opacity = '0';
+    setTimeout(() => {
+      lb.classList.remove('flex');
+      lb.classList.add('hidden');
+    }, 300);
+  }
+</script>
