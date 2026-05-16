@@ -7,7 +7,7 @@
           class="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-4 mb-4 pb-4 border-b border-white/10">
           <div class="flex-1">
             <img loading="lazy"
-              src="../images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png"
+              src="/images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png"
               alt="Retrofusion Logo" title="Retrofusion Bookmark Logo" class="w-40 sm:w-48 md:w-56 h-auto object-contain mb-4" />
             <p class="text-stone-400 max-w-md leading-relaxed text-sm">
               We are a homestay brand in the holiday capital of Maharashtra, Lonavala. We believe in creating a cozy
@@ -141,7 +141,7 @@
           <div>
             <h4 class="text-white font-bold mb-5 text-sm uppercase tracking-wider">Quick Links</h4>
             <ul class="space-y-3">
-              <li><a href="index.php"
+              <li><a href="/index.php"
                   class="text-stone-400 hover:text-amber-400 transition-colors text-sm flex items-center gap-2 group"><svg
                     class="w-3 h-3 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300"
                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -149,7 +149,7 @@
                     <line x1="5" y1="12" x2="19" y2="12"></line>
                     <polyline points="12 5 19 12 12 19"></polyline>
                   </svg><span class="group-hover:translate-x-1 transition-transform duration-300">Home</span></a></li>
-              <li><a href="about.php"
+              <li><a href="/about.php"
                   class="text-stone-400 hover:text-amber-400 transition-colors text-sm flex items-center gap-2 group"><svg
                     class="w-3 h-3 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300"
                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -158,7 +158,7 @@
                     <polyline points="12 5 19 12 12 19"></polyline>
                   </svg><span class="group-hover:translate-x-1 transition-transform duration-300">Our Story</span></a>
               </li>
-              <li><a href="neo-retro"
+              <li><a href="/neo-retro.php"
                   class="text-stone-400 hover:text-amber-400 transition-colors text-sm flex items-center gap-2 group"><svg
                     class="w-3 h-3 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300"
                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -167,7 +167,7 @@
                     <polyline points="12 5 19 12 12 19"></polyline>
                   </svg><span class="group-hover:translate-x-1 transition-transform duration-300">Neo Retro
                     Villa</span></a></li>
-              <li><a href="contact.php"
+              <li><a href="/contact.php"
                   class="text-stone-400 hover:text-amber-400 transition-colors text-sm flex items-center gap-2 group"><svg
                     class="w-3 h-3 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300"
                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -183,7 +183,7 @@
           <div>
             <h4 class="text-white font-bold mb-5 text-sm uppercase tracking-wider">Our Villas</h4>
             <ul class="space-y-3">
-              <li><a href="retro-villas"
+              <li><a href="/retro-villas.php"
                   class="text-stone-400 hover:text-amber-400 transition-colors text-sm flex items-center gap-2 group"><svg
                     class="w-3 h-3 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300"
                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -192,7 +192,7 @@
                     <polyline points="12 5 19 12 12 19"></polyline>
                   </svg><span class="group-hover:translate-x-1 transition-transform duration-300">Retro Villa</span></a>
               </li>
-              <li><a href="neo-retro"
+              <li><a href="/neo-retro.php"
                   class="text-stone-400 hover:text-amber-400 transition-colors text-sm flex items-center gap-2 group"><svg
                     class="w-3 h-3 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300"
                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -201,7 +201,7 @@
                     <polyline points="12 5 19 12 12 19"></polyline>
                   </svg><span class="group-hover:translate-x-1 transition-transform duration-300">Neo Retro
                     Villa</span></a></li>
-              <li><a href="retro-viswa-lonavala"
+              <li><a href="/retro-viswa-lonavala.php"
                   class="text-stone-400 hover:text-amber-400 transition-colors text-sm flex items-center gap-2 group"><svg
                     class="w-3 h-3 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300"
                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -227,7 +227,7 @@
           <div>
             <h4 class="text-white font-bold mb-5 text-sm uppercase tracking-wider">Legal</h4>
             <ul class="space-y-3">
-              <li><a href="cancellation-policy.php"
+              <li><a href="/cancellation-policy.php"
                   class="text-stone-400 hover:text-amber-400 transition-colors text-sm flex items-center gap-2 group"><svg
                     class="w-3 h-3 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300"
                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -236,7 +236,7 @@
                     <polyline points="12 5 19 12 12 19"></polyline>
                   </svg><span class="group-hover:translate-x-1 transition-transform duration-300">Cancellation
                     Policy</span></a></li>
-              <li><a href="privacy-policy.php"
+              <li><a href="/privacy-policy.php"
                   class="text-stone-400 hover:text-amber-400 transition-colors text-sm flex items-center gap-2 group"><svg
                     class="w-3 h-3 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300"
                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -245,7 +245,7 @@
                     <polyline points="12 5 19 12 12 19"></polyline>
                   </svg><span class="group-hover:translate-x-1 transition-transform duration-300">Privacy
                     Policy</span></a></li>
-              <li><a href="terms-conditions.php"
+              <li><a href="/terms-conditions.php"
                   class="text-stone-400 hover:text-amber-400 transition-colors text-sm flex items-center gap-2 group"><svg
                     class="w-3 h-3 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300"
                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
