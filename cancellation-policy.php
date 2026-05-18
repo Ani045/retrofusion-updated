@@ -4,6 +4,7 @@ $pageDescription = "Retrofusion Reservation, Cancellation & Stay Policy - Inform
 include 'includes/header.php';
 ?>
 
+
     <!-- ===== CANCELLATION POLICY CONTENT ===== -->
 
     <!-- Hero Section -->
