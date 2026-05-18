@@ -217,10 +217,6 @@ endif; ?>
               <a href="/retro-villas.php"
                 class="block px-3 py-2 text-stone-600 hover:text-amber-600 hover:bg-amber-50 rounded-lg transition-colors text-base">Retro
                 Villa</a>
-                <a href="/villas-in-lonavala-for-family.php" class="block px-3 py-2 text-stone-600 hover:text-amber-600 hover:bg-amber-50 rounded-lg transition-colors text-base">Family Stays</a>
-                <a href="/private-pool-villas-in-lonavala.php" class="block px-3 py-2 text-stone-600 hover:text-amber-600 hover:bg-amber-50 rounded-lg transition-colors text-base">Private Pool Villas</a>
-                <a href="/luxury-4bhk-villas-in-lonavala.php" class="block px-3 py-2 text-stone-600 hover:text-amber-600 hover:bg-amber-50 rounded-lg transition-colors text-base">Luxury Villas</a>
-                <a href="/villas-in-lonavala-for-bachelor-party.php" class="block px-3 py-2 text-stone-600 hover:text-amber-600 hover:bg-amber-50 rounded-lg transition-colors text-base font-semibold text-amber-600">Bachelor Party Stays</a>
             </div>
           </div>
           <div class="border-t border-stone-200 pt-4">
@@ -324,45 +320,6 @@ endif; ?>
             </a>
           </div>
 
-          <!-- Mega Menu Collections -->
-          <div class="mt-8 pt-8 border-t border-stone-100 grid grid-cols-1 md:grid-cols-3 gap-4">
-            <a href="villas-in-lonavala-for-family" class="flex items-center gap-4 p-4 rounded-2xl hover:bg-stone-50 transition-colors group">
-              <div class="w-12 h-12 bg-amber-50 rounded-xl flex items-center justify-center text-amber-600 group-hover:bg-amber-600 group-hover:text-white transition-colors">
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" /></svg>
-              </div>
-              <div>
-                <h5 class="font-bold text-[#0F2A24] text-sm uppercase tracking-wider">Family Stays</h5>
-                <p class="text-stone-500 text-xs mt-0.5">Memories for every generation</p>
-              </div>
-            </a>
-            <a href="private-pool-villas-in-lonavala" class="flex items-center gap-4 p-4 rounded-2xl hover:bg-stone-50 transition-colors group">
-              <div class="w-12 h-12 bg-amber-50 rounded-xl flex items-center justify-center text-amber-600 group-hover:bg-amber-600 group-hover:text-white transition-colors">
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-1.343 3-3s-1.343-3-3-3m0 12c-1.657 0-3-1.343-3-3s1.343-3 3-3" /></svg>
-              </div>
-              <div>
-                <h5 class="font-bold text-[#0F2A24] text-sm uppercase tracking-wider">Private Pool Villas</h5>
-                <p class="text-stone-500 text-xs mt-0.5">Exclusive aquatic retreats</p>
-              </div>
-            </a>
-            <a href="luxury-4bhk-villas-in-lonavala" class="flex items-center gap-4 p-4 rounded-2xl hover:bg-stone-50 transition-colors group">
-              <div class="w-12 h-12 bg-amber-50 rounded-xl flex items-center justify-center text-amber-600 group-hover:bg-amber-600 group-hover:text-white transition-colors">
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" /></svg>
-              </div>
-              <div>
-                <h5 class="font-bold text-[#0F2A24] text-sm uppercase tracking-wider">Luxury Collection</h5>
-                <p class="text-stone-500 text-xs mt-0.5">Premium high-end estates</p>
-              </div>
-            </a>
-            <a href="villas-in-lonavala-for-bachelor-party" class="flex items-center gap-4 p-4 rounded-2xl hover:bg-stone-50 transition-colors group">
-              <div class="w-12 h-12 bg-amber-50 rounded-xl flex items-center justify-center text-amber-600 group-hover:bg-amber-600 group-hover:text-white transition-colors">
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-              </div>
-              <div>
-                <h5 class="font-bold text-[#0F2A24] text-sm uppercase tracking-wider">Bachelor Party Stays</h5>
-                <p class="text-stone-500 text-xs mt-0.5">The ultimate group celebrations</p>
-              </div>
-            </a>
-          </div>
         </div>
       </div>
     </div>
