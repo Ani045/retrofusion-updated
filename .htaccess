@@ -12,14 +12,14 @@ Redirect 301 /retro-villa /retro-villas
 Redirect 301 /neo-villa /neo-retro
 Redirect 301 /viswa-villa /retro-viswa-lonavala
 
-# Blogs-copy: remove .php extension
-RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/blogs-copy/([^.]+)\.php [NC]
-RewriteRule ^blogs-copy/([^.]+)$ /blogs-copy/$1 [R=301,L]
+# Blogs: remove .php extension
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/blogs/([^.]+)\.php [NC]
+RewriteRule ^blogs/([^.]+)$ /blogs/$1 [R=301,L]
 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_URI} ^/blogs-copy/([a-z0-9\-]+)$
-RewriteRule ^blogs-copy/([a-z0-9\-]+)$ /blogs-copy/$1.php [L]
+RewriteCond %{REQUEST_URI} ^/blogs/([a-z0-9\-]+)$
+RewriteRule ^blogs/([a-z0-9\-]+)$ /blogs/$1.php [L]
 
 # Remove .php extension from all URLs EXCEPT for mailer scripts to preserve POST data
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s([^.]+)\.php [NC]

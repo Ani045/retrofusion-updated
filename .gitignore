@@ -1,7 +1,6 @@
 .DS_Store
-/blogs
 whatsapp_leads.log
 /node_modules
 /claude-seo
 gsc-credentials.json
-/blogs-copy
+/blogs
