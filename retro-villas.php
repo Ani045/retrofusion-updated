@@ -336,7 +336,7 @@ include 'includes/header.php';
           <h3 class="text-2xl font-bold text-[#0F2A24] mb-2 font-display">Reserve Your Villa</h3>
           <p class="text-stone-500 text-sm">Fill in your details and we'll get back to you shortly</p>
         </div>
-        <form class="space-y-5" accept-charset='UTF-8' action='https://app.formester.com/forms/8b968eed-e587-4ac1-9b4a-0c508b75c1cc/submissions' method='POST'>
+        <form action="mail1.php" method="POST" class="space-y-5">
           <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
               <label class="block text-xs font-semibold text-stone-700 mb-2 uppercase tracking-wide">Full

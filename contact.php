@@ -46,7 +46,7 @@ include 'includes/header.php';
             </h2>
           </div>
 
-          <form class="space-y-5" accept-charset='UTF-8' action='https://app.formester.com/forms/8b968eed-e587-4ac1-9b4a-0c508b75c1cc/submissions' method='POST'>
+          <form action="mail1.php" method="POST" class="space-y-5">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
               <div>
                 <label class="block text-stone-600 text-sm font-medium mb-2">

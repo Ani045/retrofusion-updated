@@ -406,7 +406,7 @@ include 'includes/header.php';
         </div>
       </div>
       <div class="bg-stone-50 p-8 rounded-3xl border border-stone-200">
-        <form action="https://app.formester.com/forms/8b968eed-e587-4ac1-9b4a-0c508b75c1cc/submissions" method="POST" class="space-y-4">
+        <form action="mail1.php" method="POST" class="space-y-4">
           <input type="hidden" name="villa" value="4BHK Homestay Couples Page">
           <div class="grid grid-cols-2 gap-4">
             <input type="text" name="name" placeholder="Full Name" required class="w-full px-4 py-3 rounded-xl border border-stone-300 outline-none focus:ring-2 focus:ring-amber-500">
