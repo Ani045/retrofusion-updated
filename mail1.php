@@ -68,11 +68,9 @@ try {
     // Email Settings
     $mail->setFrom('contact@retrofusion.in', $_POST['name']);
     $mail->addAddress('satyamrai374@gmail.com', 'New Lead');
-    $mail->addAddress('raisatyam9651@gmail.com', 'New Lead');
     $mail->addAddress('contact@retrofusion.in', 'New Lead');
     $mail->addAddress('retrofusion2023@gmail.com', 'New Lead');
     $mail->addAddress('jitendrarora@gmail.com', 'New Lead');
-    $mail->addAddress('satyamraiseox@gmail.com', 'New Lead');
 
     $mail->Subject = 'New Lead Retrofustion Website';
     $mail->MsgHTML($body);
