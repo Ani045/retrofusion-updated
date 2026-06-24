@@ -28,14 +28,11 @@ RewriteRule ^(.*)\.php$ $1 [R=301,L]
 #    /foo -> /foo.php (internal rewrite)
 #    EXCEPT for all-blogs folder
 # ============================================================
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_URI} !^/all-blogs/ [NC]
-RewriteCond %{REQUEST_URI} !/ [NC]
-RewriteCond %{REQUEST_URI} !^/mail1$ [NC]
-RewriteCond %{REQUEST_URI} !^/whatsapp_handler$ [NC]
-RewriteCond %{DOCUMENT_ROOT}/$1.php -f
-RewriteRule ^([^./]+)$ $1.php [L]
+RewriteCond %{REQUEST_URI} !^/mail1 [NC]
+RewriteCond %{REQUEST_URI} !^/whatsapp_handler [NC]
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^([^/]+)$ $1.php [L]
 
 # ============================================================
 # 5. Redirect /index and /index.php to root
