@@ -1,19 +1,36 @@
 RewriteEngine On
 
-# Disable Apache's automatic DirectorySlash to prevent redirect loops
+# Disable MultiViews to prevent Apache from guessing extensions
+Options -MultiViews
+
+# Disable auto DirectorySlash on /all-blogs/ to avoid redirect conflicts
+# (Apache won't try to add/remove slashes on its own)
 DirectorySlash Off
+
 # ============================================================
-# 1. Internal rewrite: /all-blogs/{slug}/ (with trailing slash)
-#    should internally serve /all-blogs/{slug}.php
+# 1. /all-blogs/{slug}/  (with trailing slash)
+#    Internal rewrite to serve /all-blogs/{slug}.php
 # ============================================================
+RewriteCond %{REQUEST_URI} !^/all-blogs/$ [NC]
 RewriteCond %{REQUEST_URI} ^/all-blogs/([^/]+)/$ [NC]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{DOCUMENT_ROOT}/all-blogs/%1.php -f
-RewriteRule ^all-blogs/([^/]+)/$ all-blogs/$1.php [L]
+RewriteRule ^all-blogs/([^/]+)/?$ all-blogs/$1.php [L]
 
 # ============================================================
-# 2. Strip .php extension: /foo.php -> /foo (301 redirect)
-#    EXCEPT for mailer scripts (preserve POST data)
+# 2. /all-blogs/{slug}  (no slash, no extension)
+#    Redirect 301 to /all-blogs/{slug}/
+# ============================================================
+RewriteCond %{REQUEST_METHOD} !POST
+RewriteCond %{REQUEST_URI} ^/all-blogs/[^./]+$ [NC]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(all-blogs/[^./]+)$ $1/ [R=301,L]
+
+# ============================================================
+# 3. Strip .php extension
+#    /foo.php -> /foo (301)
+#    EXCEPT for mailer scripts
 # ============================================================
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s([^.]+)\.php[\s?] [NC]
 RewriteCond %{REQUEST_URI} !^/mail1\.php [NC]
@@ -21,18 +38,8 @@ RewriteCond %{REQUEST_URI} !^/whatsapp_handler\.php [NC]
 RewriteRule ^(.*)\.php$ $1 [R=301,L]
 
 # ============================================================
-# 3. Force trailing slash on /all-blogs/{slug} (no extension)
-#    /all-blogs/foo -> /all-blogs/foo/
-# ============================================================
-RewriteCond %{REQUEST_METHOD} !POST
-RewriteCond %{REQUEST_URI} ^/all-blogs/[^.]+$
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(all-blogs/[^.]+)$ $1/ [R=301,L]
-
-# ============================================================
-# 4. Internal rewrite: serve .php file for extensionless URLs
-#    /foo -> /foo.php (single-segment only, if .php exists)
+# 4. Extensionless URLs (single segment)
+#    /foo -> /foo.php (internal rewrite)
 # ============================================================
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
@@ -43,7 +50,7 @@ RewriteCond %{DOCUMENT_ROOT}/$1.php -f
 RewriteRule ^([^./]+)$ $1.php [L]
 
 # ============================================================
-# 5. Redirect /index and /index.php to root domain
+# 5. Redirect /index and /index.php to root
 # ============================================================
 Redirect 301 /index https://retrofusion.in/
 Redirect 301 /index.php https://retrofusion.in/
