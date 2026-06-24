@@ -7,6 +7,11 @@ Options -MultiViews
 # (Apache won't try to add/remove slashes on its own)
 DirectorySlash Off
 
+# Prevent browser/proxy from caching 301 redirects so URL changes take effect immediately
+<IfModule mod_headers.c>
+  Header set Cache-Control "no-store, no-cache, must-revalidate, max-age=0" env=REDIRECT_STATUS
+</IfModule>
+
 # ============================================================
 # 1. /all-blogs/{slug}/  (with trailing slash)
 #    Internal rewrite to serve /all-blogs/{slug}.php
