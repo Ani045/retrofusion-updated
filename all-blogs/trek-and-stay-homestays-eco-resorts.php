@@ -106,8 +106,6 @@ include '../includes/header.php';
 </li>
 </ul>
 
-</head>
-<body>
 
 <div>
     <div>
@@ -127,8 +125,6 @@ include '../includes/header.php';
     </div>
 </div>
 
-</body>
-</html>
 
 <hr/>
 

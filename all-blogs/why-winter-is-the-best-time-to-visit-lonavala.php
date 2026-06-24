@@ -120,8 +120,6 @@ include '../includes/header.php';
 
 <h3 class="text-xl sm:text-2xl font-semibold text-stone-800 mt-8 mb-3 leading-snug font-display"><em>Warm rooms. Cozy corners. Perfect winter nights — stay at RetroFusion.</em></h3>
 
-</head>
-<body>
 
 <div>
     <div>
@@ -141,8 +139,6 @@ include '../includes/header.php';
     </div>
 </div>
 
-</body>
-</html>
 
 <hr/>
 
@@ -280,8 +276,6 @@ include '../includes/header.php';
     </div>
 </div>
 
-</body>
-</html>
           </div>
         </div>
       </div>

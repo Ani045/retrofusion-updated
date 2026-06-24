@@ -88,8 +88,6 @@ include '../includes/header.php';
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">The artistic and thoughtfully designed interiors of both the Retro Villa and Neo Retro are a photographer's delight in themselves, offering endless opportunities for lifestyle and interior shots. More importantly, the serene environment, perhaps by your private pool, is the perfect setting to unwind, edit your day's work, and plan your next photographic adventure. It’s a base camp that understands and fuels the creative spirit, making it the ideal choice for any artist visiting Lonavala.</p>
 
-</head>
-<body>
 
 <div>
     <div>
@@ -109,8 +107,6 @@ include '../includes/header.php';
     </div>
 </div>
 
-</body>
-</html>
 
 <h3 class="text-xl sm:text-2xl font-semibold text-stone-800 mt-8 mb-3 leading-snug font-display"><strong>Frequently Asked Questions (FAQs)</strong></h3>
 

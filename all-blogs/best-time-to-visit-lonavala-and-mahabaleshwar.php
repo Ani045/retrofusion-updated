@@ -148,8 +148,6 @@ include '../includes/header.php';
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Neo Retro caters to corporate retreats, pet-friendly getaways, and creative escapes, ideal for professionals from Bengaluru or pet lovers from Chennai. With private plunge pools, extended sit-outs, BBQ facilities, and tailored workshops, Retrofusion, founded by an artist and nature lover, provides a serene, artistic ambiance. In-house meal options (menu on request) cater to diverse Indian palates, from North Indian curries to South Indian dosas. Book early via their website for a personalized stay.</p>
 
-</head>
-<body>
 
 <div>
     <div>
@@ -169,8 +167,6 @@ include '../includes/header.php';
     </div>
 </div>
 
-</body>
-</html>
 
 <h3 class="text-xl sm:text-2xl font-semibold text-stone-800 mt-8 mb-3 leading-snug font-display"><strong>Sample 3-Day Itinerary for Lonavala and Mahabaleshwar</strong></h3>
 
@@ -249,8 +245,6 @@ include '../includes/header.php';
     </div>
 </div>
 
-</body>
-</html>
           </div>
         </div>
       </div>

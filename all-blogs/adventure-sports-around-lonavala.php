@@ -88,8 +88,6 @@ include '../includes/header.php';
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Think about it: after the high-energy buzz of your day's adventure, you can retreat to the absolute privacy and comfort of your own villa. You can swap stories of your flight or climb while lounging in a private pool, letting the cool water soothe your muscles. The chic, relaxing atmosphere is the perfect counterbalance to a day of high-octane activity. Retrofusion provides the perfect sanctuary to rest your body and mind, getting you perfectly prepped for whatever thrill tomorrow holds.</p>
 
-</head>
-<body>
 
 <div>
     <div>
@@ -109,8 +107,6 @@ include '../includes/header.php';
     </div>
 </div>
 
-</body>
-</html>
 
 <hr/>
 

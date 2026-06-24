@@ -74,8 +74,6 @@ include '../includes/header.php';
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">The stay itself is a cultural experience, a nostalgic nod to India’s vibrant retro pop culture. The carefully curated decor, the artistic flourishes in the Neo Retro villa, and the quirky charm of the Retro Villa all tell a story. It’s a space that values aesthetics and individuality, much like the ancient artisans who carved the caves. After a day spent exploring history and heritage, returning to a place that has its own distinct character and artistic soul makes the entire experience feel more complete and enriching.</p>
 
-</head>
-<body>
 
 <div>
     <div>
@@ -95,8 +93,6 @@ include '../includes/header.php';
     </div>
 </div>
 
-</body>
-</html>
 
 <hr/>
 

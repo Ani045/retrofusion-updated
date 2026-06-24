@@ -86,8 +86,6 @@ include '../includes/header.php';
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Imagine returning from the wilderness to your own private sanctuary. You can soothe your aching muscles in the cool, refreshing water of a private pool, a luxury that feels like heaven after a tough trek. The unique, comfortable interiors of the Retro and Neo Retro villas provide a serene and relaxing atmosphere to unwind, share photos of your epic adventure, and simply recharge. It’s the perfect, comfortable base camp for any Lonavala adventurer.</p>
 
-</head>
-<body>
 
 <div>
     <div>
@@ -107,8 +105,6 @@ include '../includes/header.php';
     </div>
 </div>
 
-</body>
-</html>
 
 <hr/>
 

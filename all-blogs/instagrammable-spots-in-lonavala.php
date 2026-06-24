@@ -208,8 +208,6 @@ include '../includes/header.php';
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">👉 <strong>Check RetroFusion Rooms & Aesthetic Corners</strong></p>
 
-</head>
-<body>
 
 <div>
     <div>
@@ -229,8 +227,6 @@ include '../includes/header.php';
     </div>
 </div>
 
-</body>
-</html>
 
 <hr/>
 

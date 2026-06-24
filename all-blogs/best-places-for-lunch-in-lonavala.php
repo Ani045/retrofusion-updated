@@ -100,8 +100,6 @@ include '../includes/header.php';
 <li class="leading-relaxed"><strong>Tip:</strong> Ask for extra &#8216;tarri' (spicy gravy) if you can handle the heat!</li>
 </ul>
 
-</head>
-<body>
 
 <div>
     <div>
@@ -121,8 +119,6 @@ include '../includes/header.php';
     </div>
 </div>
 
-</body>
-</html>
 
 <h2 class="text-2xl sm:text-3xl font-bold text-stone-800 mt-12 mb-4 leading-snug font-display border-b-2 border-amber-500 pb-2 inline-block"><strong>Enhance Your Lonavala Culinary Journey with RetroFusion Boutique Homestay</strong></h2>
 
@@ -214,8 +210,6 @@ include '../includes/header.php';
     </div>
 </div>
 
-</body>
-</html>
 
 <h2 class="text-2xl sm:text-3xl font-bold text-stone-800 mt-12 mb-4 leading-snug font-display border-b-2 border-amber-500 pb-2 inline-block"><strong>Conclusion</strong></h2>
 

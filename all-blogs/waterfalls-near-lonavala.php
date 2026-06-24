@@ -106,8 +106,6 @@ include '../includes/header.php';
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Imagine returning from a challenging trek to the unique charm of the Retro Villa or the artistic comfort of the Neo Retro. You can unwind by your private pool, share stories of your day's adventures by a crackling bonfire, or simply relax in the serene ambiance that combines nostalgic aesthetics with modern comforts. Retrofusion provides the perfect blend of relaxation and unique style, making it an ideal retreat after a day spent conquering Lonavala’s magnificent natural wonders.</p>
 
-</head>
-<body>
 
 <div>
     <div>
@@ -127,8 +125,6 @@ include '../includes/header.php';
     </div>
 </div>
 
-</body>
-</html>
 
 <h3 class="text-xl sm:text-2xl font-semibold text-stone-800 mt-8 mb-3 leading-snug font-display"><strong>Frequently Asked Questions (FAQs)</strong></h3>
 

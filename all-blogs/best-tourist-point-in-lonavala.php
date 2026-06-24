@@ -82,8 +82,6 @@ include '../includes/header.php';
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Founded by an artist and nature enthusiast, RetroFusion provides a serene, artistic ambiance with private plunge pools, extended sit-outs, BBQ facilities, and tailored workshops. In-house meal options (menu available on request) cater to diverse Indian palates, from North Indian curries to South Indian dosas. Book early via their website for a personalized stay that enhances your visit to the <strong>best tourist point in Lonavala</strong>.</p>
 
-</head>
-<body>
 
 <div>
     <div>
@@ -103,8 +101,6 @@ include '../includes/header.php';
     </div>
 </div>
 
-</body>
-</html>
 
 <h3 class="text-xl sm:text-2xl font-semibold text-stone-800 mt-8 mb-3 leading-snug font-display"><strong>How to Reach Lonavala from Across India</strong></h3>
 
@@ -205,8 +201,6 @@ include '../includes/header.php';
     </div>
 </div>
 
-</body>
-</html>
           </div>
         </div>
       </div>

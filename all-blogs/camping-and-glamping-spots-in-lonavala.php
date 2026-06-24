@@ -96,8 +96,6 @@ include '../includes/header.php';
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">👉 <strong><a href="https://retrofusion.in/gallery">See RetroFusion Gallery</a></strong> to explore how beautiful the space looks.<br>👉 <strong><a href="https://retrofusion.in/blogs/">Read all our travel guides</a></strong> to plan your weekend better.</p>
 
-</head>
-<body>
 
 <div>
     <div>
@@ -117,8 +115,6 @@ include '../includes/header.php';
     </div>
 </div>
 
-</body>
-</html>
 
 <hr/>
 
@@ -214,8 +210,6 @@ include '../includes/header.php';
     </div>
 </div>
 
-</body>
-</html>
           </div>
         </div>
       </div>

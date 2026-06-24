@@ -176,8 +176,6 @@ include '../includes/header.php';
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">The homestay's cozy environment and local hospitality provide insights into the authentic culture of Lonavala, making your stay more meaningful and memorable. Choose Retrofusion for your next Lonavala adventure and experience the perfect combination of comfort, convenience, and local charm.</p>
 
-</head>
-<body>
 
 <div>
     <div>
@@ -197,8 +195,6 @@ include '../includes/header.php';
     </div>
 </div>
 
-</body>
-</html>
 
 <h2 class="text-2xl sm:text-3xl font-bold text-stone-800 mt-12 mb-4 leading-snug font-display border-b-2 border-amber-500 pb-2 inline-block"><strong>Food and Dining Options</strong></h2>
 

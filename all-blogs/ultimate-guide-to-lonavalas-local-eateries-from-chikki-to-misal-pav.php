@@ -72,8 +72,6 @@ include '../includes/header.php';
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">This charming stay offers the perfect blend of quirky-cool aesthetics and the warmth of a home. Imagine lounging by your private pool after a satisfying meal, recalling the day's culinary discoveries. Retrofusion isn't just accommodation; it's a tranquil retreat that allows you to truly soak in the Lonavala vibe, making it the perfect base for your gastronomic journey.</p>
 
-</head>
-<body>
 
 <div>
     <div>
@@ -93,8 +91,6 @@ include '../includes/header.php';
     </div>
 </div>
 
-</body>
-</html>
 
 <h3 class="text-xl sm:text-2xl font-semibold text-stone-800 mt-8 mb-3 leading-snug font-display"><strong>Frequently Asked Questions (FAQs)</strong></h3>
 

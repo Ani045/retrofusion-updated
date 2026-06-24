@@ -149,8 +149,6 @@ include '../includes/header.php';
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Conflict-Free CTA Banner</title>
 
-</head>
-<body>
 
 <div>
     <div>
@@ -170,8 +168,6 @@ include '../includes/header.php';
     </div>
 </div>
 
-</body>
-</html>
 
 <h4 class="text-lg sm:text-xl font-semibold text-stone-700 mt-6 mb-2 leading-snug font-display"><strong>Safety and Preparation</strong></h4>
 

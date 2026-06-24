@@ -156,8 +156,6 @@ include '../includes/header.php';
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Each of RetroFusion's villas promises an exclusive escape: indulge in the luxury of private plunge pools, gather around inviting BBQ areas for memorable evenings under the stars, and unwind in cozy sit-outs. Our in-house meals, thoughtfully tailored to Indian palates, ensure a delightful culinary journey that complements your exploration of Lonavala's natural beauty. Founded by an artist and nature lover, RetroFusion is more than just accommodation; it's an immersive experience where modern comforts seamlessly blend with artistic flair and natural tranquility. Don't miss out on this unique <strong><a href="https://retrofusion.in/">Lonavala homestay</a></strong> – secure your personalized getaway by booking early on their official website today!</p>
 
-</head>
-<body>
 
 <div>
     <div>
@@ -177,8 +175,6 @@ include '../includes/header.php';
     </div>
 </div>
 
-</body>
-</html>
 
 <h2 class="text-2xl sm:text-3xl font-bold text-stone-800 mt-12 mb-4 leading-snug font-display border-b-2 border-amber-500 pb-2 inline-block"><strong>Frequently Asked Questions About Lonavala Waterfall Places</strong></h2>
 
@@ -268,8 +264,6 @@ include '../includes/header.php';
     </div>
 </div>
 
-</body>
-</html>
           </div>
         </div>
       </div>

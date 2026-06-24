@@ -116,8 +116,6 @@ include '../includes/header.php';
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">In-house meal options (menu on request) cater to diverse Indian palates, from North Indian curries to South Indian dosas. Book early via their website for a personalized stay that complements your visit to <strong>Bhushi Dam Lonavala</strong>.</p>
 
-</head>
-<body>
 
 <div>
     <div>
@@ -137,8 +135,6 @@ include '../includes/header.php';
     </div>
 </div>
 
-</body>
-</html>
 
 <h2 class="text-2xl sm:text-3xl font-bold text-stone-800 mt-12 mb-4 leading-snug font-display border-b-2 border-amber-500 pb-2 inline-block"><strong>Sample 3-Day Itinerary for Lonavala with Bhushi Dam</strong></h2>
 
@@ -215,8 +211,6 @@ include '../includes/header.php';
     </div>
 </div>
 
-</body>
-</html>
           </div>
         </div>
       </div>

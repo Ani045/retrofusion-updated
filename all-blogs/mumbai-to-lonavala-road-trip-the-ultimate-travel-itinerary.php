@@ -74,8 +74,6 @@ include '../includes/header.php';
 <li class="leading-relaxed"><strong>Make your weekend unforgettable — reserve your RetroFusion room now.</strong></li>
 </ul>
 
-</head>
-<body>
 
 <div>
     <div>
@@ -95,8 +93,6 @@ include '../includes/header.php';
     </div>
 </div>
 
-</body>
-</html>
 
 <hr/>
 
@@ -178,8 +174,6 @@ include '../includes/header.php';
     </div>
 </div>
 
-</body>
-</html>
           </div>
         </div>
       </div>

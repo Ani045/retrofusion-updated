@@ -80,8 +80,6 @@ include '../includes/header.php';
 <li class="leading-relaxed"><strong>Tip:</strong> Always prioritize safety and adhere to warnings, especially during the monsoon.</li>
 </ul>
 
-</head>
-<body>
 
 <div>
     <div>
@@ -101,8 +99,6 @@ include '../includes/header.php';
     </div>
 </div>
 
-</body>
-</html>
 
 <h2 class="text-2xl sm:text-3xl font-bold text-stone-800 mt-12 mb-4 leading-snug font-display border-b-2 border-amber-500 pb-2 inline-block"><strong>Enhance Your Lonavala Experience with RetroFusion Boutique Homestay</strong></h2>
 
@@ -139,8 +135,6 @@ include '../includes/header.php';
     </div>
 </div>
 
-</body>
-</html>
 
 <h2 class="text-2xl sm:text-3xl font-bold text-stone-800 mt-12 mb-4 leading-snug font-display border-b-2 border-amber-500 pb-2 inline-block"><strong>Frequently Asked Questions About Haunted Places in Lonavala</strong></h2>
 

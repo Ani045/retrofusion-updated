@@ -84,8 +84,6 @@ include '../includes/header.php';
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">This isn’t just a place to stay; it’s a private world designed for connection. Imagine having your own villa—be it the charmingly quirky Retro Villa or the artistically elegant Neo Retro—complete with a <strong>private pool</strong>. You can spend your evenings stargazing from the garden, enjoy a lazy morning coffee on your personal sit-out without any disturbances, and truly feel like you are the only two people in the world. The unique, aesthetic interiors provide a beautiful backdrop for your time together. Retrofusion offers the intimacy and exclusivity that transforms a simple weekend away into an unforgettable romantic escape.</p>
 
-</head>
-<body>
 
 <div>
     <div>
@@ -105,8 +103,6 @@ include '../includes/header.php';
     </div>
 </div>
 
-</body>
-</html>
 
 <hr/>
 
@@ -190,8 +186,6 @@ include '../includes/header.php';
     </div>
 </div>
 
-</body>
-</html>
           </div>
         </div>
       </div>

@@ -64,8 +64,6 @@ include '../includes/header.php';
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">These features position RetroFusion as one of the <strong>best places to stay in Lonavala</strong> for a unique and immersive experience.</p>
 
-</head>
-<body>
 
 <div>
     <div>
@@ -85,8 +83,6 @@ include '../includes/header.php';
     </div>
 </div>
 
-</body>
-</html>
 
 <h3 class="text-xl sm:text-2xl font-semibold text-stone-800 mt-8 mb-3 leading-snug font-display"><strong>Best Time to Book Your Stay at RetroFusion</strong></h3>
 
@@ -217,8 +213,6 @@ include '../includes/header.php';
     </div>
 </div>
 
-</body>
-</html>
           </div>
         </div>
       </div>

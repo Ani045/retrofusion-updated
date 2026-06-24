@@ -585,3 +585,29 @@ article div.overflow-hidden > div.relative.mb-8.overflow-hidden img.object-conta
     max-height: 240px !important;
   }
 }
+
+/* ===== Inline Blog Figure Images =====
+   Constrains unstyled <figure><img> embeds inside blog posts so
+   large source images (often 1024px+ wide) don't overflow the
+   article column. Targets both file-based and absolute URLs. */
+article .prose figure {
+  margin: 1.5rem 0;
+  text-align: center;
+}
+
+article .prose figure img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  max-height: 480px;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+@media (min-width: 768px) {
+  article .prose figure img {
+    max-height: 560px;
+  }
+}
