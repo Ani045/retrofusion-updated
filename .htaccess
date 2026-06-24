@@ -13,31 +13,12 @@ DirectorySlash Off
 </IfModule>
 
 # ============================================================
-# 1. /all-blogs/{slug}/  (with trailing slash)
-#    Internal rewrite to serve /all-blogs/{slug}.php
-# ============================================================
-RewriteCond %{REQUEST_URI} !^/all-blogs/$ [NC]
-RewriteCond %{REQUEST_URI} ^/all-blogs/([^/]+)/$ [NC]
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{DOCUMENT_ROOT}/all-blogs/%1.php -f
-RewriteRule ^all-blogs/([^/]+)/?$ all-blogs/$1.php [L]
-
-# ============================================================
-# 2. /all-blogs/{slug}  (no slash, no extension)
-#    Redirect 301 to /all-blogs/{slug}/
-# ============================================================
-RewriteCond %{REQUEST_METHOD} !POST
-RewriteCond %{REQUEST_URI} ^/all-blogs/[^./]+$ [NC]
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(all-blogs/[^./]+)$ $1/ [R=301,L]
-
-# ============================================================
 # 3. Strip .php extension
 #    /foo.php -> /foo (301)
-#    EXCEPT for mailer scripts
+#    EXCEPT for mailer scripts and all-blogs folder
 # ============================================================
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s([^.]+)\.php[\s?] [NC]
+RewriteCond %{REQUEST_URI} !^/all-blogs/ [NC]
 RewriteCond %{REQUEST_URI} !^/mail1\.php [NC]
 RewriteCond %{REQUEST_URI} !^/whatsapp_handler\.php [NC]
 RewriteRule ^(.*)\.php$ $1 [R=301,L]
@@ -45,9 +26,11 @@ RewriteRule ^(.*)\.php$ $1 [R=301,L]
 # ============================================================
 # 4. Extensionless URLs (single segment)
 #    /foo -> /foo.php (internal rewrite)
+#    EXCEPT for all-blogs folder
 # ============================================================
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !^/all-blogs/ [NC]
 RewriteCond %{REQUEST_URI} !/ [NC]
 RewriteCond %{REQUEST_URI} !^/mail1$ [NC]
 RewriteCond %{REQUEST_URI} !^/whatsapp_handler$ [NC]

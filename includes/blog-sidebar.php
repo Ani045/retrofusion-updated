@@ -9,7 +9,7 @@
     <p class="text-xs uppercase tracking-wider text-amber-600 font-bold mb-3">Recent Posts</p>
     <h3 class="text-lg font-bold text-stone-800 font-display mb-4 leading-snug">Latest Updates</h3>
     <div class="space-y-4">
-      <a href="/all-blogs/winter-camping-in-lonavala.php" class="group flex items-center gap-3">
+      <a href="/all-blogs/winter-camping-in-lonavala/" class="group flex items-center gap-3">
         <div class="w-16 h-12 rounded-lg overflow-hidden bg-stone-100 flex-shrink-0">
           <img src="/all-blogs/images/Untitleddesign.jpg" alt="Winter Camping in Lonavala" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
         </div>
@@ -17,7 +17,7 @@
           <h4 class="text-xs font-semibold text-stone-800 group-hover:text-amber-600 transition-colors line-clamp-2 leading-snug">Winter Camping in Lonavala: Experience the Chill by Pawna Lake</h4>
         </div>
       </a>
-      <a href="/all-blogs/why-winter-is-the-best-time-to-visit-lonavala.php" class="group flex items-center gap-3">
+      <a href="/all-blogs/why-winter-is-the-best-time-to-visit-lonavala/" class="group flex items-center gap-3">
         <div class="w-16 h-12 rounded-lg overflow-hidden bg-stone-100 flex-shrink-0">
           <img src="/all-blogs/images/Gemini_Generated_Image_44t38444t38444t.jpeg" alt="Why Winter Is the Best Time to Visit Lonavala" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
         </div>
@@ -25,7 +25,7 @@
           <h4 class="text-xs font-semibold text-stone-800 group-hover:text-amber-600 transition-colors line-clamp-2 leading-snug">Why Winter Is the Best Time to Visit Lonavala: A Seasonal Guide</h4>
         </div>
       </a>
-      <a href="/all-blogs/why-couples-love-visiting-lonavala.php" class="group flex items-center gap-3">
+      <a href="/all-blogs/why-couples-love-visiting-lonavala/" class="group flex items-center gap-3">
         <div class="w-16 h-12 rounded-lg overflow-hidden bg-stone-100 flex-shrink-0">
           <img src="/all-blogs/images/Why-Couples-Love-Visiting-Lonavala.webp" alt="Why Couples Love Visiting Lonavala" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
         </div>
