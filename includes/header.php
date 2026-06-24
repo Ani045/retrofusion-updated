@@ -123,6 +123,7 @@ endif; ?>
     })(window, document, 'script', 'dataLayer', 'GTM-TMRS6NS8');</script>
   <!-- End Google Tag Manager -->
   <meta name="google-site-verification" content="edqVTHzbdEuUdm9gPRlO6EwAHB_zpWo5FEvTx8qVtUc" />
+  <?php echo $additionalHead ?? ''; ?>
 </head>
 
 <body>

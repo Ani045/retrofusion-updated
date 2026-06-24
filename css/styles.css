@@ -558,3 +558,30 @@ button[type="submit"]:hover {
     transform: none !important;
   }
 }
+
+/* ===== Blog Detail Featured Image Optimization ===== */
+article div.overflow-hidden > div.relative.mb-8.overflow-hidden div.relative.flex.items-center.justify-center {
+  min-height: 160px !important;
+}
+
+article div.overflow-hidden > div.relative.mb-8.overflow-hidden img.object-contain {
+  max-height: 160px !important;
+}
+
+@media (min-width: 640px) {
+  article div.overflow-hidden > div.relative.mb-8.overflow-hidden div.relative.flex.items-center.justify-center {
+    min-height: 200px !important;
+  }
+  article div.overflow-hidden > div.relative.mb-8.overflow-hidden img.object-contain {
+    max-height: 200px !important;
+  }
+}
+
+@media (min-width: 768px) {
+  article div.overflow-hidden > div.relative.mb-8.overflow-hidden div.relative.flex.items-center.justify-center {
+    min-height: 240px !important;
+  }
+  article div.overflow-hidden > div.relative.mb-8.overflow-hidden img.object-contain {
+    max-height: 240px !important;
+  }
+}
