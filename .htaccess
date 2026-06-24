@@ -17,6 +17,21 @@ DirectorySlash Off
 #    /foo.php -> /foo (301)
 #    EXCEPT for mailer scripts and all-blogs folder
 # ============================================================
+
+# 3a. Strip /.php/ patterns (e.g. /all-blogs/foo/.php/ -> /all-blogs/foo/)
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s(.+)/\.php/?[\s?] [NC]
+RewriteCond %{REQUEST_URI} !^/mail1 [NC]
+RewriteCond %{REQUEST_URI} !^/whatsapp_handler [NC]
+RewriteRule ^(.+)/\.php/?$ $1/ [R=301,L]
+
+# 3b. Strip embedded .php/ in a segment (e.g. /all-blogs/foo.php/ -> /all-blogs/foo/)
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/([^.]+)\.php/?[\s?] [NC]
+RewriteCond %{REQUEST_URI} !^/mail1 [NC]
+RewriteCond %{REQUEST_URI} !^/whatsapp_handler [NC]
+RewriteRule ^([^.]+)\.php/?$ /$1/ [R=301,L]
+
+# 3c. Standard .php extension strip
+#    /foo.php -> /foo (301)
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s([^.]+)\.php[\s?] [NC]
 RewriteCond %{REQUEST_URI} !^/all-blogs/ [NC]
 RewriteCond %{REQUEST_URI} !^/mail1\.php [NC]
