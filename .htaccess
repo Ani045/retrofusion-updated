@@ -22,6 +22,13 @@ RewriteRule ^ %1 [R=301,L]
 Redirect 301 /index https://retrofusion.in/
 Redirect 301 /index.php https://retrofusion.in/
 
+# Add trailing slash to /all-blogs/ URLs (folder only)
+RewriteCond %{REQUEST_METHOD} !POST
+RewriteCond %{REQUEST_URI} ^/all-blogs/[^.]+$
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ $1/ [R=301,L]
+
 
 Redirect 301 /retro-villa.php /retro-villas
 Redirect 301 /neo-villa.php /neo-retro
