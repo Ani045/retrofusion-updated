@@ -14,6 +14,10 @@ DirectorySlash Off
 # ============================================================
 # 1. Legacy redirects (exact match via RewriteRule)
 # ============================================================
+# Redirect all old /blogs/ URLs to /blog/ (keeping the slug)
+RewriteRule ^blogs$ /blog/ [R=301,L]
+RewriteRule ^blogs/(.*)$ /blog/$1 [R=301,L]
+
 # Villa redirects
 RewriteRule ^retro-villa\.php$ /retro-villas [R=301,L]
 RewriteRule ^neo-villa\.php$ /neo-retro [R=301,L]
@@ -95,11 +99,3 @@ RewriteRule ^([^/]+)$ $1.php [L]
 # ============================================================
 Redirect 301 /index https://retrofusion.in/
 Redirect 301 /index.php https://retrofusion.in/
-
-<IfModule mod_rewrite.c>
-RewriteEngine On
-
-# Redirect all /blogs/* URLs to /blog/*
-RewriteRule ^blogs/(.+)/?$ /blog/$1/ [R=301,L]
-</IfModule>
-
