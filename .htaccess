@@ -3,7 +3,7 @@ RewriteEngine On
 # Disable MultiViews to prevent Apache from guessing extensions
 Options -MultiViews
 
-# Disable auto DirectorySlash on /all-blogs/ to avoid redirect conflicts
+# Disable auto DirectorySlash on /blog/ to avoid redirect conflicts
 # (Apache won't try to add/remove slashes on its own)
 DirectorySlash Off
 
@@ -15,16 +15,16 @@ DirectorySlash Off
 # ============================================================
 # 3. Strip .php extension
 #    /foo.php -> /foo (301)
-#    EXCEPT for mailer scripts and all-blogs folder
+#    EXCEPT for mailer scripts and blog folder
 # ============================================================
 
-# 3a. Strip /.php/ patterns (e.g. /all-blogs/foo/.php/ -> /all-blogs/foo/)
+# 3a. Strip /.php/ patterns (e.g. /blog/foo/.php/ -> /blog/foo/)
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s(.+)/\.php/?[\s?] [NC]
 RewriteCond %{REQUEST_URI} !^/mail1 [NC]
 RewriteCond %{REQUEST_URI} !^/whatsapp_handler [NC]
 RewriteRule ^(.+)/\.php/?$ $1/ [R=301,L]
 
-# 3b. Strip embedded .php/ in a segment (e.g. /all-blogs/foo.php/ -> /all-blogs/foo/)
+# 3b. Strip embedded .php/ in a segment (e.g. /blog/foo.php/ -> /blog/foo/)
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/([^.]+)\.php/?[\s?] [NC]
 RewriteCond %{REQUEST_URI} !^/mail1 [NC]
 RewriteCond %{REQUEST_URI} !^/whatsapp_handler [NC]
@@ -33,7 +33,7 @@ RewriteRule ^([^.]+)\.php/?$ /$1/ [R=301,L]
 # 3c. Standard .php extension strip
 #    /foo.php -> /foo (301)
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s([^.]+)\.php[\s?] [NC]
-RewriteCond %{REQUEST_URI} !^/all-blogs/ [NC]
+RewriteCond %{REQUEST_URI} !^/blog/ [NC]
 RewriteCond %{REQUEST_URI} !^/mail1\.php [NC]
 RewriteCond %{REQUEST_URI} !^/whatsapp_handler\.php [NC]
 RewriteRule ^(.*)\.php$ $1 [R=301,L]
@@ -41,9 +41,9 @@ RewriteRule ^(.*)\.php$ $1 [R=301,L]
 # ============================================================
 # 4. Extensionless URLs (single segment)
 #    /foo -> /foo.php (internal rewrite)
-#    EXCEPT for all-blogs folder
+#    EXCEPT for blog folder
 # ============================================================
-RewriteCond %{REQUEST_URI} !^/all-blogs/ [NC]
+RewriteCond %{REQUEST_URI} !^/blog/ [NC]
 RewriteCond %{REQUEST_URI} !^/mail1 [NC]
 RewriteCond %{REQUEST_URI} !^/whatsapp_handler [NC]
 RewriteCond %{REQUEST_FILENAME}.php -f
