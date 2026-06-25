@@ -4,7 +4,6 @@ RewriteEngine On
 Options -MultiViews
 
 # Disable auto DirectorySlash on /blog/ to avoid redirect conflicts
-# (Apache won't try to add/remove slashes on its own)
 DirectorySlash Off
 
 # Prevent browser/proxy from caching 301 redirects so URL changes take effect immediately
@@ -13,25 +12,55 @@ DirectorySlash Off
 </IfModule>
 
 # ============================================================
-# 3. Strip .php extension
-#    /foo.php -> /foo (301)
-#    EXCEPT for mailer scripts and blog folder
+# 1. Legacy redirects (exact match via RewriteRule)
 # ============================================================
+# Villa redirects
+RewriteRule ^retro-villa\.php$ /retro-villas [R=301,L]
+RewriteRule ^neo-villa\.php$ /neo-retro [R=301,L]
+RewriteRule ^viswa-villa\.php$ /retro-viswa-lonavala [R=301,L]
+RewriteRule ^retro-villa$ /retro-villas [R=301,L]
+RewriteRule ^neo-villa$ /neo-retro [R=301,L]
+RewriteRule ^viswa-villa$ /retro-viswa-lonavala [R=301,L]
 
-# 3a. Strip /.php/ patterns (e.g. /blog/foo/.php/ -> /blog/foo/)
+# Other legacy redirects
+RewriteRule ^about-founders$ /about [R=301,L]
+RewriteRule ^neo-retro-blog$ /neo-retro [R=301,L]
+RewriteRule ^vegetarian-restaurants-in-lonavala$ /neo-retro [R=301,L]
+RewriteRule ^how-to-plan-trip$ /blog [R=301,L]
+RewriteRule ^ashtvinayak$ /blog [R=301,L]
+RewriteRule ^post$ /blog [R=301,L]
+RewriteRule ^valvan-dam$ /blog [R=301,L]
+RewriteRule ^booking$ /contact [R=301,L]
+RewriteRule ^escape-to-love$ /blog [R=301,L]
+RewriteRule ^post-diwali-rejuvenation$ /blog [R=301,L]
+RewriteRule ^temples-in-lonavala$ /blog [R=301,L]
+RewriteRule ^what-to-look-for$ /blog [R=301,L]
+RewriteRule ^top-spots-in-lonavala$ /blog [R=301,L]
+RewriteRule ^water-reservoirs-in-lonavala$ /blog [R=301,L]
+RewriteRule ^terms-and-conditions$ /terms-conditions [R=301,L]
+RewriteRule ^which-is-better-hotels-or-homestays$ /blog [R=301,L]
+RewriteRule ^what-makes-homestays-feel-like-home$ /blog [R=301,L]
+RewriteRule ^how-to-pick-the-ideal-retrofusion-villa$ /blog [R=301,L]
+RewriteRule ^what-are-the-benefits-of-living-in-a-homestay$ /blog [R=301,L]
+
+# ============================================================
+# 2. Strip .php extension
+# ============================================================
+# 2a. Strip /.php/ patterns (e.g. /blog/foo/.php/ -> /blog/foo/)
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s(.+)/\.php/?[\s?] [NC]
 RewriteCond %{REQUEST_URI} !^/mail1 [NC]
 RewriteCond %{REQUEST_URI} !^/whatsapp_handler [NC]
 RewriteRule ^(.+)/\.php/?$ $1/ [R=301,L]
 
-# 3b. Strip embedded .php/ in a segment (e.g. /blog/foo.php/ -> /blog/foo/)
+# 2b. Strip embedded .php/ in a segment (e.g. /blog/foo.php/ -> /blog/foo/)
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/([^.]+)\.php/?[\s?] [NC]
 RewriteCond %{REQUEST_URI} !^/mail1 [NC]
 RewriteCond %{REQUEST_URI} !^/whatsapp_handler [NC]
 RewriteRule ^([^.]+)\.php/?$ /$1/ [R=301,L]
 
-# 3c. Standard .php extension strip
+# 2c. Standard .php extension strip
 #    /foo.php -> /foo (301)
+#    EXCEPT for mailer scripts and blog folder
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s([^.]+)\.php[\s?] [NC]
 RewriteCond %{REQUEST_URI} !^/blog/ [NC]
 RewriteCond %{REQUEST_URI} !^/mail1\.php [NC]
@@ -39,7 +68,7 @@ RewriteCond %{REQUEST_URI} !^/whatsapp_handler\.php [NC]
 RewriteRule ^(.*)\.php$ $1 [R=301,L]
 
 # ============================================================
-# 4. Extensionless URLs (single segment)
+# 3. Extensionless URLs (single segment)
 #    /foo -> /foo.php (internal rewrite)
 #    EXCEPT for blog folder
 # ============================================================
@@ -50,35 +79,7 @@ RewriteCond %{REQUEST_FILENAME}.php -f
 RewriteRule ^([^/]+)$ $1.php [L]
 
 # ============================================================
-# 5. Redirect /index and /index.php to root
+# 4. Redirect /index and /index.php to root
 # ============================================================
 Redirect 301 /index https://retrofusion.in/
 Redirect 301 /index.php https://retrofusion.in/
-
-
-Redirect 301 /retro-villa.php /retro-villas
-Redirect 301 /neo-villa.php /neo-retro
-Redirect 301 /viswa-villa.php /retro-viswa-lonavala
-Redirect 301 /retro-villa /retro-villas
-Redirect 301 /neo-villa /neo-retro
-Redirect 301 /viswa-villa /retro-viswa-lonavala
-
-Redirect 301 /about-founders /about
-Redirect 301 /neo-retro-blog /neo-retro
-Redirect 301 /vegetarian-restaurants-in-lonavala /neo-retro
-Redirect 301 /how-to-plan-trip /blogs
-Redirect 301 /ashtvinayak /blogs
-Redirect 301 /post /blogs
-Redirect 301 /valvan-dam /blogs
-Redirect 301 /booking /contact
-Redirect 301 /escape-to-love /blogs
-Redirect 301 /post-diwali-rejuvenation /blogs
-Redirect 301 /temples-in-lonavala /blogs
-Redirect 301 /what-to-look-for /blogs
-Redirect 301 /top-spots-in-lonavala /blogs
-Redirect 301 /water-reservoirs-in-lonavala /blogs
-Redirect 301 /terms-and-conditions /terms-conditions
-Redirect 301 /which-is-better-hotels-or-homestays /blogs
-Redirect 301 /what-makes-homestays-feel-like-home /blogs
-Redirect 301 /how-to-pick-the-ideal-retrofusion-villa /blogs
-Redirect 301 /what-are-the-benefits-of-living-in-a-homestay /blogs
