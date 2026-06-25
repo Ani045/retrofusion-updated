@@ -37,9 +37,3 @@ RewriteRule ^([^/.]+)/$ $1.php [L]
 #    /blog/js/foo.js     -> /js/foo.js
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^(images|css|js)/(.*)$ /$1/$2 [L]
-
-
-RewriteEngine On
-
-# Redirect /blogs/slug/ to /blog/slug/
-RewriteRule ^blogs/(.*)$ /blog/$1 [R=301,L]
