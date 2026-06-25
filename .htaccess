@@ -95,3 +95,11 @@ RewriteRule ^([^/]+)$ $1.php [L]
 # ============================================================
 Redirect 301 /index https://retrofusion.in/
 Redirect 301 /index.php https://retrofusion.in/
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+# Redirect all /blogs/* URLs to /blog/*
+RewriteRule ^blogs/(.+)/?$ /blog/$1/ [R=301,L]
+</IfModule>
+
