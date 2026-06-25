@@ -1,0 +1,45 @@
+RewriteEngine On
+RewriteBase /blog/
+
+# Disable MultiViews to prevent Apache from guessing extensions
+Options -MultiViews
+
+# Disable auto DirectorySlash to avoid redirect conflicts
+DirectorySlash Off
+
+# 1. Externally redirect URLs with embedded .php/ (e.g. /foo.php/ -> /foo/)
+#    This handles cases like /blog/foo/.php/ or /blog/foo.php/
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/blog/([^/.]+)(\.php)/?[\s?] [NC]
+RewriteRule ^([^/.]+)\.php/?$ /blog/%1/ [R=301,L]
+
+# 2. Externally redirect URLs with .php in the path (e.g. /foo.php)
+#    /blog/foo.php -> /blog/foo/
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/blog/([^/.]+)\.php[\s?] [NC]
+RewriteRule ^([^/.]+)\.php$ /blog/%1/ [R=301,L]
+
+# 3. Externally redirect URLs without trailing slash to pretty URLs (with trailing slash)
+#    /blog/foo -> /blog/foo/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} ^/blog/([^/.]+)$ [NC]
+RewriteRule ^([^/.]+)$ /blog/%1/ [R=301,L]
+
+# 4. Internally rewrite pretty URLs to the actual PHP files
+#    /blog/foo/ -> /blog/foo.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{DOCUMENT_ROOT}/blog/$1.php -f
+RewriteRule ^([^/.]+)/$ $1.php [L]
+
+# 5. Map relative asset paths (images/css/js) to the site root
+#    /blog/images/foo.jpg -> /images/foo.jpg
+#    /blog/css/foo.css   -> /css/foo.css
+#    /blog/js/foo.js     -> /js/foo.js
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(images|css|js)/(.*)$ /$1/$2 [L]
+
+
+RewriteEngine On
+
+# Redirect /blogs/slug/ to /blog/slug/
+RewriteRule ^blogs/(.*)$ /blog/$1 [R=301,L]
