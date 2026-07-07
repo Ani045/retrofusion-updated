@@ -130,7 +130,7 @@ $headers .= "Reply-To: {$from_email}" . "\r\n";
 $headers .= "X-Mailer: PHP/" . phpversion();
 
 // Send email to multiple recipients in one call for better performance
-$recipients = "satyamrai374@gmail.com, jitendrarora@gmail.com";
+$recipients = "jitendrarora@gmail.com";
 $email_sent = mail($recipients, $subject, $email_message, $headers);
 
 // Google Sheets Webhook Integration

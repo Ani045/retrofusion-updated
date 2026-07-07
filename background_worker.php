@@ -101,7 +101,6 @@ try {
 
     // Email Settings
     $mail->setFrom('contact@retrofusion.in', $name);
-    $mail->addAddress('satyamrai374@gmail.com', 'New Lead');
     $mail->addAddress('jitendrarora@gmail.com', 'New Lead');
 
     $mail->Subject = 'New Lead Retrofustion Website';
