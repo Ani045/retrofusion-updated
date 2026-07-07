@@ -19,16 +19,30 @@ if (!isset($_POST['captcha']) || (int)$_POST['captcha'] !== (int)$_SESSION['capt
     exit();
 }
 
+$page_url = $_SERVER['HTTP_REFERER'] ?? 'Unknown Source URL';
+
+// Generate clean WhatsApp link
+$raw_phone = $_POST['phone'] ?? '';
+$clean_phone = preg_replace('/[^0-9]/', '', $raw_phone);
+if (strlen($clean_phone) === 10) {
+    $whatsapp_phone = '91' . $clean_phone;
+} else {
+    $whatsapp_phone = $clean_phone;
+}
+$whatsapp_link = !empty($whatsapp_phone) ? 'https://wa.me/' . $whatsapp_phone : 'Not Provided';
+
 $body = "";
-$body .= '<h4>New Lead Retrofustion Website</h4>';
+$body .= '<h4>New Lead Retrofusion Website</h4>';
 $body .= '<h5>Client Details:</h5>';
 $body .= 'Name: ' . $_POST['name'] . "<br>";
 $body .= 'Phone Number: ' . $_POST['phone'] . "<br>";
+$body .= 'WhatsApp Link: <a href="' . $whatsapp_link . '">' . $whatsapp_link . "</a><br>";
 $body .= 'Email: ' . $_POST['email'] . "<br>";
 $body .= 'Guests: ' . $_POST['guests'] . "<br>";
 $body .= 'Check-in: ' . $_POST['checkIn'] . "<br>";
 $body .= 'Check-out: ' . $_POST['checkOut'] . "<br>";
 $body .= 'Villa: ' . $_POST['villa'] . "<br>";
+$body .= 'Source Page URL: <a href="' . $page_url . '">' . $page_url . "</a><br>";
 $body .= 'Message: ' . $_POST['message'] . "<br>";
 
 // Google Sheets Webhook Integration
@@ -40,8 +54,10 @@ if (!empty($webhook_url)) {
         'phone' => $_POST['phone'] ?? 'Not Provided',
         'email' => $_POST['email'] ?? 'Not Provided',
         'service' => "Villa: " . ($_POST['villa'] ?? 'Any') . " | Guests: " . ($_POST['guests'] ?? 'Any') . " | Dates: " . ($_POST['checkIn'] ?? 'N/A') . " to " . ($_POST['checkOut'] ?? 'N/A'),
-        'message' => $_POST['message'] ?? 'Not Provided',
-        'source' => 'Website Contact Form'
+        'message' => ($_POST['message'] ?? 'Not Provided') . "\n\nWhatsApp: " . $whatsapp_link . "\nPage URL: " . $page_url,
+        'source' => 'Website Form: ' . $page_url,
+        'whatsapp' => $whatsapp_link,
+        'page_url' => $page_url
     ];
     
     $ch = curl_init($webhook_url);
@@ -52,6 +68,7 @@ if (!empty($webhook_url)) {
     curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
     curl_setopt($ch, CURLOPT_TIMEOUT, 5);
     curl_exec($ch);
+    $response = curl_exec($ch);
     curl_close($ch);
 }
 
