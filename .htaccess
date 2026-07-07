@@ -14,9 +14,13 @@ DirectorySlash Off
 # ============================================================
 # 1. Legacy redirects (exact match via RewriteRule)
 # ============================================================
-# Redirect all old /blogs/ URLs to /blog/ (keeping the slug)
-RewriteRule ^blogs$ /blog/ [R=301,L]
-RewriteRule ^blogs/(.*)$ /blog/$1 [R=301,L]
+# Redirect all old /blogs/ URLs to /blog/ (keeping the slug) only on direct client request
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/blogs [NC]
+RewriteRule ^blogs/?(.*)$ /blog/$1 [R=301,L]
+
+# Internally rewrite pretty /blog/* URLs to physical /blogs/* folder
+RewriteRule ^blog/(.*)$ blogs/$1 [L]
+
 
 # Villa redirects
 RewriteRule ^retro-villa\.php$ /retro-villas [R=301,L]

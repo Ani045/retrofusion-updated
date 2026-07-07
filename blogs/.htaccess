@@ -28,7 +28,7 @@ RewriteRule ^([^/.]+)$ /blog/%1/ [R=301,L]
 #    /blog/foo/ -> /blog/foo.php
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{DOCUMENT_ROOT}/blog/$1.php -f
+RewriteCond %{DOCUMENT_ROOT}/blogs/$1.php -f
 RewriteRule ^([^/.]+)/$ $1.php [L]
 
 # 5. Map relative asset paths (images/css/js) to the site root
