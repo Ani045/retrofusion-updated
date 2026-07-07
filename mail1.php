@@ -6,6 +6,12 @@ require 'PHPMailer/PHPMailer.php';
 require 'PHPMailer/SMTP.php';
 require 'PHPMailer/Exception.php';
 
+// Redirect GET requests to homepage
+if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
+    header('Location: /');
+    exit();
+}
+
 session_start();
 
 $mail = new PHPMailer(true);

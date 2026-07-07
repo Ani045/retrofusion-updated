@@ -71,7 +71,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $headers .= "X-Mailer: PHP/" . phpversion() . "\r\n";
 
     // Send email to multiple recipients in one call for better performance
-    $recipients = "jitendrarora@gmail.com";
+    $recipients = "satyamrai374@gmail.com, jitendrarora@gmail.com";
     // Google Sheets Webhook Integration
     // Instructions: Paste your deployed Google Apps Script Web App URL below
     $webhook_url = "https://script.google.com/macros/s/AKfycbzAcxEVuQ8n4eVPbetWdb1OvU4YxnVW6-Pn-udCwPnpY0jGsvvXIlNvle-ylYl5-PXLig/exec";
