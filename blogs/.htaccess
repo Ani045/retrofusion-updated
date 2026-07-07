@@ -31,9 +31,11 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{DOCUMENT_ROOT}/blogs/$1.php -f
 RewriteRule ^([^/.]+)/$ $1.php [L]
 
-# 5. Map relative asset paths (images/css/js) to the site root
-#    /blogs/images/foo.jpg -> /images/foo.jpg
-#    /blogs/css/foo.css   -> /css/foo.css
-#    /blogs/js/foo.js     -> /js/foo.js
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^(images|css|js)/(.*)$ /$1/$2 [L]
+# 5. Map relative asset paths (images/css/js) to the correct location
+# If the file exists inside /blogs/ folder, use that first
+RewriteCond %{DOCUMENT_ROOT}/blogs/$1/$2 -f
+RewriteRule ^.*/?(images|css|js)/(.*)$ $1/$2 [L]
+
+# Fallback: if the file exists at the root level, use that
+RewriteCond %{DOCUMENT_ROOT}/$1/$2 -f
+RewriteRule ^.*/?(images|css|js)/(.*)$ /$1/$2 [L]
