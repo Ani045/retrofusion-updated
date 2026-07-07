@@ -14,12 +14,9 @@ DirectorySlash Off
 # ============================================================
 # 1. Legacy redirects (exact match via RewriteRule)
 # ============================================================
-# Redirect all old /blogs/ URLs to /blog/ (keeping the slug) only on direct client request
-RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/blogs [NC]
-RewriteRule ^blogs/?(.*)$ /blog/$1 [R=301,L]
-
-# Internally rewrite pretty /blog/* URLs to physical /blogs/* folder
-RewriteRule ^blog/(.*)$ blogs/$1 [L]
+# Redirect any singular /blog/ URLs to plural /blogs/ (keeping the slug) on direct client request
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/blog [NC]
+RewriteRule ^blog/?(.*)$ /blogs/$1 [R=301,L]
 
 
 # Villa redirects
@@ -56,14 +53,14 @@ RewriteRule ^what-are-the-benefits-of-living-in-a-homestay$ /blog [R=301,L]
 # ============================================================
 # 2a. Strip /.php/ patterns (e.g. /foo/.php/ -> /foo)
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s(.+)/\.php/?[\s?] [NC]
-RewriteCond %{REQUEST_URI} !^/blog/ [NC]
+RewriteCond %{REQUEST_URI} !^/blogs?/ [NC]
 RewriteCond %{REQUEST_URI} !^/mail1 [NC]
 RewriteCond %{REQUEST_URI} !^/whatsapp_handler [NC]
 RewriteRule ^(.+)/\.php/?$ $1 [R=301,L]
 
 # 2b. Strip embedded .php/ in a segment (e.g. /foo.php/ -> /foo)
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/([^.]+)\.php/?[\s?] [NC]
-RewriteCond %{REQUEST_URI} !^/blog/ [NC]
+RewriteCond %{REQUEST_URI} !^/blogs?/ [NC]
 RewriteCond %{REQUEST_URI} !^/mail1 [NC]
 RewriteCond %{REQUEST_URI} !^/whatsapp_handler [NC]
 RewriteRule ^([^.]+)\.php/?$ /$1 [R=301,L]
@@ -72,7 +69,7 @@ RewriteRule ^([^.]+)\.php/?$ /$1 [R=301,L]
 #    /foo.php -> /foo (301)
 #    EXCEPT for mailer scripts and blog folder
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s([^.]+)\.php[\s?] [NC]
-RewriteCond %{REQUEST_URI} !^/blog/ [NC]
+RewriteCond %{REQUEST_URI} !^/blogs?/ [NC]
 RewriteCond %{REQUEST_URI} !^/mail1\.php [NC]
 RewriteCond %{REQUEST_URI} !^/whatsapp_handler\.php [NC]
 RewriteRule ^(.*)\.php$ $1 [R=301,L]
@@ -80,7 +77,7 @@ RewriteRule ^(.*)\.php$ $1 [R=301,L]
 # ============================================================
 # 2d. Strip trailing slash (e.g. /foo/ -> /foo)
 # ============================================================
-RewriteCond %{REQUEST_URI} !^/blog/ [NC]
+RewriteCond %{REQUEST_URI} !^/blogs?/ [NC]
 RewriteCond %{REQUEST_URI} !^/mail1 [NC]
 RewriteCond %{REQUEST_URI} !^/whatsapp_handler [NC]
 RewriteCond %{REQUEST_FILENAME} !-f
@@ -92,7 +89,7 @@ RewriteRule ^(.+)/$ /$1 [R=301,L]
 #    /foo -> /foo.php (internal rewrite)
 #    EXCEPT for blog folder
 # ============================================================
-RewriteCond %{REQUEST_URI} !^/blog/ [NC]
+RewriteCond %{REQUEST_URI} !^/blogs?/ [NC]
 RewriteCond %{REQUEST_URI} !^/mail1 [NC]
 RewriteCond %{REQUEST_URI} !^/whatsapp_handler [NC]
 RewriteCond %{REQUEST_FILENAME}.php -f
