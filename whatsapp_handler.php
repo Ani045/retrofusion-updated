@@ -21,6 +21,7 @@ if (!isset($_POST['action']) || $_POST['action'] !== 'whatsapp_lead') {
 // Validate input data
 $name = isset($_POST['name']) ? trim($_POST['name']) : '';
 $phone = isset($_POST['phone']) ? trim($_POST['phone']) : '';
+$page_url = isset($_POST['page_url']) ? trim($_POST['page_url']) : (isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : 'Not Available');
 
 if (empty($name) || empty($phone)) {
     http_response_code(400);
@@ -31,6 +32,7 @@ if (empty($name) || empty($phone)) {
 // Sanitize input
 $name = filter_var($name, FILTER_SANITIZE_STRING);
 $phone = filter_var($phone, FILTER_SANITIZE_STRING);
+$page_url = filter_var($page_url, FILTER_SANITIZE_URL);
 
 // Validate phone number (basic validation)
 if (!preg_match('/^[0-9]{10}$/', $phone)) {
@@ -38,6 +40,13 @@ if (!preg_match('/^[0-9]{10}$/', $phone)) {
     echo json_encode(['success' => false, 'message' => 'Please enter a valid 10-digit phone number']);
     exit;
 }
+
+// Format WhatsApp link for webhook/email
+$clean_phone = preg_replace('/\D/', '', $phone);
+if (strlen($clean_phone) === 10) {
+    $clean_phone = '91' . $clean_phone;
+}
+$whatsapp_link = "https://wa.me/" . $clean_phone;
 
 $subject = 'New WhatsApp Lead from Website (retrofusion)';
 $from_email = 'noreply@' . $_SERVER['HTTP_HOST'];
@@ -86,6 +95,14 @@ $email_message = "
             </div>
             
             <div class='info-row'>
+                <span class='label'>WhatsApp Link:</span> <a href='{$whatsapp_link}' target='_blank'>{$whatsapp_link}</a>
+            </div>
+            
+            <div class='info-row'>
+                <span class='label'>Source Page URL:</span> <a href='{$page_url}' target='_blank'>{$page_url}</a>
+            </div>
+            
+            <div class='info-row'>
                 <span class='label'>Date & Time:</span> " . getAsianDateTime('Asia/Kolkata') . "
             </div>
             
@@ -126,8 +143,10 @@ if (!empty($webhook_url)) {
         'phone' => $phone,
         'email' => 'Not Provided',
         'service' => 'WhatsApp Form Request',
-        'message' => 'Not Provided',
-        'source' => 'WhatsApp Form'
+        'message' => "WhatsApp Chat: $whatsapp_link \nPage URL: $page_url",
+        'source' => "WhatsApp Form: $page_url",
+        'whatsapp' => $whatsapp_link,
+        'page_url' => $page_url
     ];
     
     // Use cURL to send data to the Google Sheets Webhook
@@ -143,7 +162,7 @@ if (!empty($webhook_url)) {
 }
 
 // Log the lead (optional - you can save to database or file)
-$log_entry = date('Y-m-d H:i:s') . " - Name: {$name}, Phone: {$phone}, IP: " . $_SERVER['REMOTE_ADDR'] . "\n";
+$log_entry = date('Y-m-d H:i:s') . " - Name: {$name}, Phone: {$phone}, Page URL: {$page_url}, IP: " . $_SERVER['REMOTE_ADDR'] . "\n";
 file_put_contents('whatsapp_leads.log', $log_entry, FILE_APPEND | LOCK_EX);
 
 // Prepare response

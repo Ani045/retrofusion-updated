@@ -770,6 +770,7 @@ endif; ?>
         formData.append('name', name);
         formData.append('phone', phone);
         formData.append('action', 'whatsapp_lead');
+        formData.append('page_url', window.location.href);
 
         // Send data to PHP handler in background
         fetch('whatsapp_handler.php', {
