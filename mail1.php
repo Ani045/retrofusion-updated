@@ -8,12 +8,11 @@ require 'PHPMailer/Exception.php';
 
 session_start();
 
+// Redirect GET requests immediately
 if ($_SERVER["REQUEST_METHOD"] !== "POST") {
     header("Location: index.php");
     exit();
 }
-
-$mail = new PHPMailer(true);
 
 // CAPTCHA Validation
 if (!isset($_POST['captcha']) || (int)$_POST['captcha'] !== (int)$_SESSION['captcha_answer']) {
@@ -24,11 +23,19 @@ if (!isset($_POST['captcha']) || (int)$_POST['captcha'] !== (int)$_SESSION['capt
     exit();
 }
 
+// Extract variables for background processing
+$name = $_POST['name'] ?? 'Not Provided';
+$email = $_POST['email'] ?? 'Not Provided';
+$phone = $_POST['phone'] ?? 'Not Provided';
+$guests = $_POST['guests'] ?? 'Not Provided';
+$checkIn = $_POST['checkIn'] ?? 'Not Provided';
+$checkOut = $_POST['checkOut'] ?? 'Not Provided';
+$villa = $_POST['villa'] ?? 'Not Provided';
+$message = $_POST['message'] ?? 'Not Provided';
 $page_url = $_SERVER['HTTP_REFERER'] ?? 'Unknown Source URL';
 
 // Generate clean WhatsApp link
-$raw_phone = $_POST['phone'] ?? '';
-$clean_phone = preg_replace('/[^0-9]/', '', $raw_phone);
+$clean_phone = preg_replace('/[^0-9]/', '', $phone);
 if (strlen($clean_phone) === 10) {
     $whatsapp_phone = '91' . $clean_phone;
 } else {
@@ -36,30 +43,52 @@ if (strlen($clean_phone) === 10) {
 }
 $whatsapp_link = !empty($whatsapp_phone) ? 'https://wa.me/' . $whatsapp_phone : 'Not Provided';
 
+// Prepare email message body
 $body = "";
 $body .= '<h4>New Lead Retrofusion Website</h4>';
 $body .= '<h5>Client Details:</h5>';
-$body .= 'Name: ' . $_POST['name'] . "<br>";
-$body .= 'Phone Number: ' . $_POST['phone'] . "<br>";
+$body .= 'Name: ' . $name . "<br>";
+$body .= 'Phone Number: ' . $phone . "<br>";
 $body .= 'WhatsApp Link: <a href="' . $whatsapp_link . '">' . $whatsapp_link . "</a><br>";
-$body .= 'Email: ' . $_POST['email'] . "<br>";
-$body .= 'Guests: ' . $_POST['guests'] . "<br>";
-$body .= 'Check-in: ' . $_POST['checkIn'] . "<br>";
-$body .= 'Check-out: ' . $_POST['checkOut'] . "<br>";
-$body .= 'Villa: ' . $_POST['villa'] . "<br>";
+$body .= 'Email: ' . $email . "<br>";
+$body .= 'Guests: ' . $guests . "<br>";
+$body .= 'Check-in: ' . $checkIn . "<br>";
+$body .= 'Check-out: ' . $checkOut . "<br>";
+$body .= 'Villa: ' . $villa . "<br>";
 $body .= 'Source Page URL: <a href="' . $page_url . '">' . $page_url . "</a><br>";
-$body .= 'Message: ' . $_POST['message'] . "<br>";
+$body .= 'Message: ' . $message . "<br>";
+
+// --- INSTANT USER REDIRECT (BACKGROUND WORKER MODE) ---
+// Flush output, redirect browser immediately, then perform heavy cURL & SMTP mailing in background.
+$instantRedirectSuccess = false;
+if (function_exists('fastcgi_finish_request')) {
+    ignore_user_abort(true);
+    set_time_limit(180);
+    
+    // Redirect user to thank-you.php immediately
+    header("Location: thank-you.php");
+    header("Content-Encoding: none");
+    header("Connection: close");
+    header("Content-Length: 0");
+    
+    if (ob_get_level() > 0) {
+        ob_end_clean();
+    }
+    
+    fastcgi_finish_request();
+    $instantRedirectSuccess = true;
+}
 
 // Google Sheets Webhook Integration
 $webhook_url = "https://script.google.com/macros/s/AKfycbzAcxEVuQ8n4eVPbetWdb1OvU4YxnVW6-Pn-udCwPnpY0jGsvvXIlNvle-ylYl5-PXLig/exec";
 
 if (!empty($webhook_url)) {
     $webhook_data = [
-        'name' => $_POST['name'] ?? 'Not Provided',
-        'phone' => $_POST['phone'] ?? 'Not Provided',
-        'email' => $_POST['email'] ?? 'Not Provided',
-        'service' => "Villa: " . ($_POST['villa'] ?? 'Any') . " | Guests: " . ($_POST['guests'] ?? 'Any') . " | Dates: " . ($_POST['checkIn'] ?? 'N/A') . " to " . ($_POST['checkOut'] ?? 'N/A'),
-        'message' => ($_POST['message'] ?? 'Not Provided') . "\n\nWhatsApp: " . $whatsapp_link . "\nPage URL: " . $page_url,
+        'name' => $name,
+        'phone' => $phone,
+        'email' => $email,
+        'service' => "Villa: " . $villa . " | Guests: " . $guests . " | Dates: " . $checkIn . " to " . $checkOut,
+        'message' => $message . "\n\nWhatsApp: " . $whatsapp_link . "\nPage URL: " . $page_url,
         'source' => 'Website Form: ' . $page_url,
         'whatsapp' => $whatsapp_link,
         'page_url' => $page_url
@@ -76,7 +105,10 @@ if (!empty($webhook_url)) {
     curl_close($ch);
 }
 
+// PHPMailer SMTP Dispatcher
 try {
+    $mail = new PHPMailer(true);
+    
     // SMTP Settings
     $mail->isSMTP();
     $mail->Host = 'smtp.hostinger.com';
@@ -85,9 +117,10 @@ try {
     $mail->Password = '#tORTx2j30';
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
     $mail->Port = 587;
+    $mail->Timeout = 10; // Connect timeout of 10s
 
     // Email Settings
-    $mail->setFrom('contact@retrofusion.in', $_POST['name']);
+    $mail->setFrom('contact@retrofusion.in', $name);
     $mail->addAddress('satyamrai374@gmail.com', 'New Lead');
     $mail->addAddress('jitendrarora@gmail.com', 'New Lead');
 
@@ -96,15 +129,22 @@ try {
     $mail->IsHTML(true);
 
     $mail->send();
-    echo "<script> window.location.href = 'thank-you.php'; </script>";
+    
+    // Fallback redirect if background execution wasn't supported
+    if (!$instantRedirectSuccess) {
+        echo "<script> window.location.href = 'thank-you.php'; </script>";
+    }
 }
 catch (Exception $e) {
-    echo "<script>
-        alert('Something went wrong, Please try again later');
-        window.location.href = 'https://retrofusion.in';
-    </script>";
+    // Log mailing error to error log
+    error_log("PHPMailer Error: " . $mail->ErrorInfo);
+    
+    // Fallback redirect if background execution wasn't supported
+    if (!$instantRedirectSuccess) {
+        echo "<script>
+            alert('Something went wrong, Please try again later');
+            window.location.href = 'https://retrofusion.in';
+        </script>";
+    }
 }
-
-
-
 ?>
