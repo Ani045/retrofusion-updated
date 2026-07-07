@@ -118,7 +118,7 @@ $email_sent = mail($recipients, $subject, $email_message, $headers);
 
 // Google Sheets Webhook Integration
 // Instructions: Paste your deployed Google Apps Script Web App URL below
-$webhook_url = "https://script.google.com/macros/s/AKfycbzAcxEVuQ8n4eVPbetWdb1OvU4YxnVW6-Pn-udCwPnpY0jGsvvXIlNvle-ylYl5-PXLig/exec"; 
+$webhook_url = "https://script.google.com/macros/s/AKfycby1yUruuiY-EbBrEm5Xk0kARPzSjOOnvE4FO5w4Jp-9cnVrMIahJln_roL0Gi-h0bqo6Q/exec"; 
 
 if (!empty($webhook_url)) {
     $webhook_data = [

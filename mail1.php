@@ -32,26 +32,32 @@ $body .= 'Villa: ' . $_POST['villa'] . "<br>";
 $body .= 'Message: ' . $_POST['message'] . "<br>";
 
 // Google Sheets Webhook Integration
-$webhook_url = "https://script.google.com/macros/s/AKfycbzAcxEVuQ8n4eVPbetWdb1OvU4YxnVW6-Pn-udCwPnpY0jGsvvXIlNvle-ylYl5-PXLig/exec";
+$webhook_url = "https://script.google.com/macros/s/AKfycbzoIDI6QnK-uVDGzUE62OXGc6abU1GESNVdzN87NoFbsVz0mUoXVD0epfmoFn40fzvvhQ/exec";
 
 if (!empty($webhook_url)) {
     $webhook_data = [
-        'name' => $_POST['name'] ?? 'Not Provided',
-        'phone' => $_POST['phone'] ?? 'Not Provided',
-        'email' => $_POST['email'] ?? 'Not Provided',
+        'name' => $_POST['name'] ?? '',
+        'phone' => $_POST['phone'] ?? '',
+        'email' => $_POST['email'] ?? '',
+        'guests' => $_POST['guests'] ?? '',
+        'checkIn' => $_POST['checkIn'] ?? '',
+        'checkOut' => $_POST['checkOut'] ?? '',
+        'villa' => $_POST['villa'] ?? '',
+        'message' => $_POST['message'] ?? '',
         'service' => "Villa: " . ($_POST['villa'] ?? 'Any') . " | Guests: " . ($_POST['guests'] ?? 'Any') . " | Dates: " . ($_POST['checkIn'] ?? 'N/A') . " to " . ($_POST['checkOut'] ?? 'N/A'),
-        'message' => $_POST['message'] ?? 'Not Provided',
-        'source' => 'Website Contact Form'
+        'source' => 'Retrofusion Website Contact Form',
+        'timestamp' => date('Y-m-d H:i:s')
     ];
-    
+
     $ch = curl_init($webhook_url);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($ch, CURLOPT_POST, true);
     curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($webhook_data));
     curl_setopt($ch, CURLOPT_HTTPHEADER, ['Content-Type: application/json']);
     curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
-    curl_setopt($ch, CURLOPT_TIMEOUT, 5);
-    curl_exec($ch);
+    curl_setopt($ch, CURLOPT_TIMEOUT, 10);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+    $response = curl_exec($ch);
     curl_close($ch);
 }
 
