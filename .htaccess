@@ -15,8 +15,9 @@ DirectorySlash Off
 # 1. Legacy redirects (exact match via RewriteRule)
 # ============================================================
 # Redirect any singular /blog/ URLs to plural /blogs/ (keeping the slug) on direct client request
-RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/blog [NC]
-RewriteRule ^blog/?(.*)$ /blogs/$1 [R=301,L]
+# Using a precise pattern to avoid matching /blogs and causing a redirect loop
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/blog(?:\s|\?|/) [NC]
+RewriteRule ^blog(?:/(.*))?$ /blogs/$1 [R=301,L]
 
 
 # Villa redirects
