@@ -7,7 +7,7 @@ $pageAuthor = "Retrofusion Boutique Homestays";
 $pagePublisher = "Retrofusion Boutique Homestays";
 $canonicalUrl = "https://retrofusion.in/homestay-near-pune-with-caretaker";
 $ogTitle = "Homestay Near Pune with Caretaker | Retrofusion";
-$ogImage = "images/v1772868264_1_wqosmq.jpg";
+$ogImage = "https://retrofusion.in/images/v1772868264_1_wqosmq.webp";
 include 'includes/header.php';
 ?>
 
@@ -23,32 +23,31 @@ include 'includes/header.php';
       "description": "Premium homestays near Pune featuring dedicated onsite caretakers to ensure a clean, comfortable, and completely hassle-free vacation experience.",
       "url": "https://retrofusion.in/homestay-near-pune-with-caretaker",
       "image": [
-        "https://retrofusion.in/images/v1772868264_1_wqosmq.jpg",
+        "https://retrofusion.in/images/v1772868264_1_wqosmq.webp",
         "https://retrofusion.in/images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg",
-        "https://retrofusion.in/images/v1774811620_30_1_eexljz.jpg"
+        "https://retrofusion.in/images/v1774811620_30_1_eexljz.webp"
       ],
       "telephone": "+91 8999036644",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Lonavala",
         "addressLocality": "Lonavala",
         "addressRegion": "Maharashtra",
         "postalCode": "410401",
         "addressCountry": "IN"
       },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "101"
-      },
-      "priceRange": "$$"
+      "priceRange": "$$",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "18.7544",
+        "longitude": "73.4062"
+      }
     },
     {
       "@type": "Organization",
       "@id": "https://retrofusion.in/#organization",
       "name": "Retrofusion Boutique Homestays",
       "url": "https://retrofusion.in/",
-      "logo": "https://retrofusion.in/images/logo.png"
+      "logo": "https://retrofusion.in/images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png"
     },
     {
       "@type": "BreadcrumbList",
@@ -109,34 +108,34 @@ include 'includes/header.php';
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Is the caretaker available 24/7?",
+          "name": "Does the caretaker stay inside the homestay?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The caretaker is available onsite throughout the day for assistance and is accessible via phone during the night for any emergencies, ensuring you have help whenever needed."
+            "text": "No, the caretaker has separate staff quarters outside the main living areas to ensure complete privacy for you and your guests, while remaining easily accessible."
           }
         },
         {
           "@type": "Question",
-          "name": "What exactly does the caretaker help with?",
+          "name": "Can the caretaker cook meals for us?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The caretaker handles property cleaning, pool maintenance, security, setting up the BBQ, running quick local errands, and assisting with food arrangements to make your stay hassle-free."
+            "text": "The caretaker primarily handles cleaning, maintenance, and setup. However, they can assist with basic heating of food or setting up the BBQ. For full meal preparation, we recommend booking our professional chef service."
           }
         },
         {
           "@type": "Question",
-          "name": "How far is the homestay from Pune?",
+          "name": "How far are the homestays from Pune?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Our homestays with dedicated staff are located in Lonavala, roughly 65 to 75 kilometers from central Pune, which is a smooth 1 to 1.5-hour drive via the Expressway."
+            "text": "The properties are roughly 65 to 75 kilometers from central Pune. The drive via the Mumbai-Pune Expressway usually takes between 1 to 1.5 hours."
           }
         },
         {
           "@type": "Question",
-          "name": "Will the caretaker cook meals for us?",
+          "name": "Is there an extra charge for the caretaker?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "While the caretaker helps with setting up dining and BBQ equipment, we can also arrange for a professional chef to prepare customized meals for your group upon request."
+            "text": "The standard caretaker services (cleaning, pool maintenance, general assistance) are included in the booking price. Tipping is completely optional but appreciated for excellent service."
           }
         }
       ]
@@ -146,7 +145,9 @@ include 'includes/header.php';
       "@id": "https://retrofusion.in/homestay-near-pune-with-caretaker#webpage",
       "url": "https://retrofusion.in/homestay-near-pune-with-caretaker",
       "name": "Homestay Near Pune with Caretaker | Hassle-Free Stay",
-      "isPartOf": { "@id": "https://retrofusion.in/#website" }
+      "isPartOf": {
+        "@id": "https://retrofusion.in/#website"
+      }
     }
   ]
 }
@@ -154,7 +155,7 @@ include 'includes/header.php';
 
 <!-- ===== HERO SECTION ===== -->
 <section class="relative h-screen overflow-hidden">
-  <img src="images/v1772868264_1_wqosmq.jpg"
+  <img src="images/v1772868264_1_wqosmq.webp"
     class="absolute inset-0 w-full h-full object-cover" alt="Homestay Near Pune with Caretaker" title="Homestay with Caretaker Near Pune" />
   <div class="absolute inset-0 bg-black/45"></div>
   <div class="relative z-10 h-full flex flex-col justify-center items-center px-4">
@@ -281,33 +282,33 @@ include 'includes/header.php';
     
     <div class="grid grid-cols-1 md:grid-cols-4 gap-4 h-auto md:h-[800px]">
       <div class="md:col-span-2 relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(0)">
-        <img src="images/v1772868264_1_wqosmq.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Beautifully maintained evening ambiance">
+        <img src="images/v1772868264_1_wqosmq.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Beautifully maintained evening ambiance">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(1)">
         <img src="images/v1769868155_M08_qewdva.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Clean outdoor relaxation decks">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(2)">
-        <img src="images/v1774810269_12_lo4gpx.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Pristine poolside seating">
+        <img src="images/v1774810269_12_lo4gpx.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Pristine poolside seating">
       </div>
       
       <div class="md:col-span-2 relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(3)">
-        <img src="images/v1770226533_N34_stewru.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Lush green lawns maintained by caretaker">
+        <img src="images/v1770226533_N34_stewru.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Lush green lawns maintained by caretaker">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(4)">
-        <img src="images/v1774807176_34_vpeqgv.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Crystal clear private swimming pool">
+        <img src="images/v1774807176_34_vpeqgv.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Crystal clear private swimming pool">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(5)">
-        <img src="images/v1773076342_23_wby8bv.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Spotless indoor living room">
+        <img src="images/v1773076342_23_wby8bv.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Spotless indoor living room">
       </div>
       
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(6)">
-        <img src="images/v1773076226_27_ipqwdd.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Elegant dining area setup">
+        <img src="images/v1773076226_27_ipqwdd.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Elegant dining area setup">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(7)">
-        <img src="images/v1774811620_30_1_eexljz.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Comfortable and clean indoor spaces">
+        <img src="images/v1774811620_30_1_eexljz.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Comfortable and clean indoor spaces">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(8)">
-        <img src="images/v1774809448_30_2_xtqtpb.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Spacious lounge seating">
+        <img src="images/v1774809448_30_2_xtqtpb.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Spacious lounge seating">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(9)">
         <img src="images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Modern homestay architecture">
@@ -341,7 +342,7 @@ include 'includes/header.php';
       <!-- Retro Visawa -->
       <div class="group bg-white rounded-3xl overflow-hidden shadow-xl border border-stone-100 transition-all duration-500 hover:-translate-y-2">
         <div class="relative h-64 overflow-hidden">
-          <img src="images/v1774807173_04_y636xz.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Retro Visawa Massive Party Stay">
+          <img src="images/v1774807173_04_y636xz.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Retro Visawa Massive Party Stay">
           <div class="absolute top-4 left-4 bg-blue-500 text-white text-[10px] uppercase font-bold px-4 py-1 rounded-full">BBQ & Large Groups</div>
         </div>
         <div class="p-8">
@@ -354,7 +355,7 @@ include 'includes/header.php';
       <!-- Retro Villa -->
       <div class="group bg-white rounded-3xl overflow-hidden shadow-xl border border-stone-100 transition-all duration-500 hover:-translate-y-2">
         <div class="relative h-64 overflow-hidden">
-          <img src="images/v1770226533_N34_stewru.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Retro Villa Private Stay">
+          <img src="images/v1770226533_N34_stewru.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Retro Villa Private Stay">
           <div class="absolute top-4 left-4 bg-indigo-500 text-white text-[10px] uppercase font-bold px-4 py-1 rounded-full">Intimate Gated Stay</div>
         </div>
         <div class="p-8">
@@ -596,15 +597,15 @@ include 'includes/header.php';
 
 <script>
   window.galleryImages = [
-    'images/v1772868264_1_wqosmq.jpg',
+    'images/v1772868264_1_wqosmq.webp',
     'images/v1769868155_M08_qewdva.webp',
-    'images/v1774810269_12_lo4gpx.jpg',
-    'images/v1770226533_N34_stewru.jpg',
-    'images/v1774807176_34_vpeqgv.jpg',
-    'images/v1773076342_23_wby8bv.jpg',
-    'images/v1773076226_27_ipqwdd.jpg',
-    'images/v1774811620_30_1_eexljz.jpg',
-    'images/v1774809448_30_2_xtqtpb.jpg',
+    'images/v1774810269_12_lo4gpx.webp',
+    'images/v1770226533_N34_stewru.webp',
+    'images/v1774807176_34_vpeqgv.webp',
+    'images/v1773076342_23_wby8bv.webp',
+    'images/v1773076226_27_ipqwdd.webp',
+    'images/v1774811620_30_1_eexljz.webp',
+    'images/v1774809448_30_2_xtqtpb.webp',
     'images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg'
   ];
 

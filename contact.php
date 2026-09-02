@@ -389,7 +389,7 @@ include 'includes/header.php';
             <div class="pt-9 sm:pt-11 w-full flex flex-col items-center">
               <a href="https://www.instagram.com/retrofusion.in/" target="_blank" class="w-full">
                 <img loading="lazy"
-                  src="images/v1772471878_Screenshot_2026-03-02_at_10.47.42_PM_wo3toj.png"
+                  src="images/v1772471878_Screenshot_2026-03-02_at_10.47.42_PM_wo3toj.webp"
                   alt="Instagram Profile Screenshot"
                   class="w-full h-auto block opacity-95 transition-opacity duration-300 group-hover/screen:opacity-100" />
               </a>
@@ -422,7 +422,7 @@ include 'includes/header.php';
             <!-- Image with amber border -->
             <div class="mx-2.5 mb-2 border-[3px] border-amber-600 rounded-lg overflow-hidden">
               <img loading="lazy"
-                src="images/v1772473164_Screenshot_2026-03-02_at_11.08.01_PM_a5g0vs.png"
+                src="images/v1772473164_Screenshot_2026-03-02_at_11.08.01_PM_a5g0vs.webp"
                 alt="Instagram Post"
                 class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
@@ -474,7 +474,7 @@ include 'includes/header.php';
             </div>
             <div class="mx-2.5 mb-2 border-[3px] border-amber-600 rounded-lg overflow-hidden">
               <img loading="lazy"
-                src="images/v1772473164_Screenshot_2026-03-02_at_11.07.23_PM_sbgs0f.png"
+                src="images/v1772473164_Screenshot_2026-03-02_at_11.07.23_PM_sbgs0f.webp"
                 alt="Instagram Post"
                 class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
@@ -525,7 +525,7 @@ include 'includes/header.php';
             </div>
             <div class="mx-2.5 mb-2 border-[3px] border-amber-600 rounded-lg overflow-hidden">
               <img loading="lazy"
-                src="images/v1772473163_Screenshot_2026-03-02_at_11.07.36_PM_ftkdee.png"
+                src="images/v1772473163_Screenshot_2026-03-02_at_11.07.36_PM_ftkdee.webp"
                 alt="Instagram Post"
                 class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
@@ -576,7 +576,7 @@ include 'includes/header.php';
             </div>
             <div class="mx-2.5 mb-2 border-[3px] border-amber-600 rounded-lg overflow-hidden">
               <img loading="lazy"
-                src="images/v1772473163_Screenshot_2026-03-02_at_11.07.51_PM_yzseuz.png"
+                src="images/v1772473163_Screenshot_2026-03-02_at_11.07.51_PM_yzseuz.webp"
                 alt="Instagram Post"
                 class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>

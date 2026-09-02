@@ -4,12 +4,28 @@ $pageDescription = "Booking a homestay? Here is the ultimate checklist of things
 $canonicalUrl = "https://retrofusion.in/blogs/things-to-check-before-booking-homestay/";
 $ogTitle = "Things to Check Before Booking a Homestay Near Mumbai";
 $ogDescription = "Booking a homestay? Here is the ultimate checklist of things you must verify before paying, from host reviews and exact location to food policies.";
-$ogImage = "images/Untitled-design-24.jpg";
+$ogImage = "https://retrofusion.in/blogs/images/Untitled-design-24.webp";
 $additionalHead = '
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
+    {
+      "@type": "BlogPosting",
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://retrofusion.in/blogs/things-to-check-before-booking-homestay/" },
+      "headline": "Things to Check Before Booking a Homestay Near Mumbai",
+      "description": "Booking a homestay? Here is the ultimate checklist of things you must verify before paying, from host reviews and exact location to food policies.",
+      "image": "https://retrofusion.in/blogs/images/Untitled-design-24.webp",
+      "datePublished": "2026-07-10T20:59:13+05:30",
+      "dateModified": "2026-07-10T20:59:13+05:30",
+      "inLanguage": "en-IN",
+      "author": { "@type": "Organization", "name": "Retrofusion Boutique Homestays", "url": "https://retrofusion.in/" },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Retrofusion Boutique Homestays",
+        "logo": { "@type": "ImageObject", "url": "https://retrofusion.in/images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png" }
+      }
+    },
     {
       "@type": "FAQPage",
       "mainEntity": [
@@ -30,9 +46,9 @@ include '../includes/header.php';
       <!-- Main blog content -->
       <div class="min-w-0 bg-white rounded-2xl shadow-md overflow-hidden">
       <div class="relative mb-8 overflow-hidden bg-stone-100 rounded-t-2xl">
-        <img src="images/Untitled-design-24.jpg" alt="Things to Check Before Booking a Homestay" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover blur-2xl scale-110 opacity-60" />
+        <img src="images/Untitled-design-24.webp" alt="Things to Check Before Booking a Homestay" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover blur-2xl scale-110 opacity-60" />
         <div class="relative flex items-center justify-center min-h-[200px] sm:min-h-[240px] md:min-h-[280px] py-6 px-4">
-          <img src="images/Untitled-design-24.jpg" alt="Things to Check Before Booking a Homestay" class="max-h-[280px] md:max-h-[320px] w-auto h-auto max-w-full object-contain rounded-lg shadow-lg" />
+          <img src="images/Untitled-design-24.webp" alt="Things to Check Before Booking a Homestay" class="max-h-[280px] md:max-h-[320px] w-auto h-auto max-w-full object-contain rounded-lg shadow-lg" />
         </div>
       </div>
         <div class="p-6 sm:p-8 lg:p-10">
@@ -51,7 +67,7 @@ include '../includes/header.php';
 
 <h2 class="text-2xl sm:text-3xl font-bold text-stone-800 mt-12 mb-4 leading-snug font-display border-b-2 border-amber-500 pb-2 inline-block">2. Clarify the Exact Location and Accessibility</h2>
 
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Homestays in hilly regions like Lonavala or rural areas like Karjat are often located off the main roads. A property might claim to have a "secluded mountain view," which could actually mean a 5-kilometer drive on a broken, unpaved dirt road.</p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Homestays in hilly regions like Lonavala or rural areas like Karjat are often located off the main roads. A property might claim to have a "secluded <a href="/mountain-view-villa-lonavala">mountain view</a>," which could actually mean a 5-kilometer drive on a broken, unpaved dirt road.</p>
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Ask the host if the road is accessible for your specific vehicle (e.g., a low-clearance sedan). Verify how far the property is from the main town, the highway, and the nearest hospital or pharmacy in case of emergencies.</p>
 
@@ -69,7 +85,7 @@ include '../includes/header.php';
 
 <h2 class="text-2xl sm:text-3xl font-bold text-stone-800 mt-12 mb-4 leading-snug font-display border-b-2 border-amber-500 pb-2 inline-block">5. Verify Hidden Costs and Power Backups</h2>
 
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Always check if there are additional fees for using the barbecue grill, the bonfire setup, kitchen gas, or daily cleaning services. Knowing the full cost upfront prevents unpleasant surprises.</p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Always check if there are additional fees for using the barbecue grill, the <a href="/villas-in-lonavala-with-bonfire">bonfire</a> setup, kitchen gas, or daily cleaning services. Knowing the full cost upfront prevents unpleasant surprises.</p>
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Additionally, rural areas around Mumbai frequently face power cuts. Verify if the property has a reliable inverter or generator backup that supports ACs and not just lights and fans.</p>
 

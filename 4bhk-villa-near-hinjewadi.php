@@ -7,7 +7,7 @@ $pageAuthor = "Retrofusion Boutique Homestays";
 $pagePublisher = "Retrofusion Boutique Homestays";
 $canonicalUrl = "https://retrofusion.in/4bhk-villa-near-hinjewadi";
 $ogTitle = "Enormous 4BHK Villa Near Hinjewadi | Retrofusion";
-$ogImage = "images/v1770226533_N34_stewru.jpg";
+$ogImage = "https://retrofusion.in/images/v1770226533_N34_stewru.webp";
 include 'includes/header.php';
 ?>
 
@@ -23,32 +23,31 @@ include 'includes/header.php';
       "description": "Colossal 4BHK private estates delivering premium luxury, vast open lawns, and highly secure isolation for IT professionals out of Hinjewadi.",
       "url": "https://retrofusion.in/4bhk-villa-near-hinjewadi",
       "image": [
-        "https://retrofusion.in/images/v1770226533_N34_stewru.jpg",
+        "https://retrofusion.in/images/v1770226533_N34_stewru.webp",
         "https://retrofusion.in/images/v1769868155_M08_qewdva.webp",
-        "https://retrofusion.in/images/v1774811620_30_1_eexljz.jpg"
+        "https://retrofusion.in/images/v1774811620_30_1_eexljz.webp"
       ],
       "telephone": "+91 8999036644",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Lonavala",
         "addressLocality": "Lonavala",
         "addressRegion": "Maharashtra",
         "postalCode": "410401",
         "addressCountry": "IN"
       },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "312"
-      },
-      "priceRange": "$$$"
+      "priceRange": "$$$",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "18.7544",
+        "longitude": "73.4062"
+      }
     },
     {
       "@type": "Organization",
       "@id": "https://retrofusion.in/#organization",
       "name": "Retrofusion Boutique Homestays",
       "url": "https://retrofusion.in/",
-      "logo": "https://retrofusion.in/images/logo.png"
+      "logo": "https://retrofusion.in/images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png"
     },
     {
       "@type": "BreadcrumbList",
@@ -112,7 +111,7 @@ include 'includes/header.php';
           "name": "How far is the 4BHK villa from Hinjewadi?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The properties are located approximately 55 kilometers away from the Hinjewadi IT Park."
+            "text": "The compounds are situated roughly 55 kilometers away from the central Hinjewadi IT Park, granting incredibly fast access down the Expressway."
           }
         },
         {
@@ -120,15 +119,23 @@ include 'includes/header.php';
           "name": "How long does it take to drive from Hinjewadi?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Because Hinjewadi sits directly adjacent to the Expressway entrance, the drive up to the mountains takes only about 1 hour and 15 minutes."
+            "text": "Because Hinjewadi is practically touching the Expressway entrance, the full drive up to the estates takes only about 1 hour and 15 minutes."
           }
         },
         {
           "@type": "Question",
-          "name": "Are these properties built for massive IT corporate offsites?",
+          "name": "Are these properties constructed for massive corporate offsites?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Absolutely. Our enormous 4BHK estates are heavily booked by tech teams seeking sprawling private lawns and massive indoor spaces for team building."
+            "text": "Absolutely. Our immense 4BHK layouts feature gigantic indoor lounges and expansive outdoor lawns perfectly scaled to absorb massive IT teams and corporate crowds."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does every 4BHK villa feature a private pool?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, without any exceptions. Every monumental luxury estate we manage provides its own colossal swimming pool purely for your team's exclusive use."
           }
         }
       ]
@@ -138,7 +145,9 @@ include 'includes/header.php';
       "@id": "https://retrofusion.in/4bhk-villa-near-hinjewadi#webpage",
       "url": "https://retrofusion.in/4bhk-villa-near-hinjewadi",
       "name": "4BHK Villa Near Hinjewadi | Premium Corporate & Private Escapes",
-      "isPartOf": { "@id": "https://retrofusion.in/#website" }
+      "isPartOf": {
+        "@id": "https://retrofusion.in/#website"
+      }
     }
   ]
 }
@@ -146,7 +155,7 @@ include 'includes/header.php';
 
 <!-- ===== HERO SECTION ===== -->
 <section class="relative h-screen overflow-hidden">
-  <img src="images/v1770226533_N34_stewru.jpg"
+  <img src="images/v1770226533_N34_stewru.webp"
     class="absolute inset-0 w-full h-full object-cover" alt="4BHK Villa Near Hinjewadi" title="Massive Getaway Villas Near Hinjewadi" />
   <div class="absolute inset-0 bg-black/60"></div>
   <div class="relative z-10 h-full flex flex-col justify-center items-center px-4">
@@ -276,30 +285,30 @@ include 'includes/header.php';
         <img src="images/v1769868155_M08_qewdva.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Massive outdoor relaxation decks">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(2)">
-        <img src="images/v1774810269_12_lo4gpx.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Poolside seating">
+        <img src="images/v1774810269_12_lo4gpx.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Poolside seating">
       </div>
       
       <div class="md:col-span-2 relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(3)">
-        <img src="images/v1770226533_N34_stewru.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Lush green lawns at the villa">
+        <img src="images/v1770226533_N34_stewru.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Lush green lawns at the villa">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(4)">
-        <img src="images/v1774807176_34_vpeqgv.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Private swimming pool">
+        <img src="images/v1774807176_34_vpeqgv.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Private swimming pool">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(5)">
-        <img src="images/v1772868264_1_wqosmq.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Evening luxury ambiance">
+        <img src="images/v1772868264_1_wqosmq.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Evening luxury ambiance">
       </div>
       
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(6)">
-        <img src="images/v1773076226_27_ipqwdd.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Elegant dining area">
+        <img src="images/v1773076226_27_ipqwdd.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Elegant dining area">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(7)">
-        <img src="images/v1774811620_30_1_eexljz.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Comfortable indoor spaces">
+        <img src="images/v1774811620_30_1_eexljz.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Comfortable indoor spaces">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(8)">
-        <img src="images/v1774809448_30_2_xtqtpb.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Spacious lounge seating">
+        <img src="images/v1774809448_30_2_xtqtpb.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Spacious lounge seating">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(9)">
-        <img src="images/v1773076342_23_wby8bv.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Massive living room">
+        <img src="images/v1773076342_23_wby8bv.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Massive living room">
       </div>
     </div>
   </div>
@@ -330,7 +339,7 @@ include 'includes/header.php';
       <!-- Retro Visawa -->
       <div class="group bg-white rounded-3xl overflow-hidden shadow-xl border border-stone-100 transition-all duration-500 hover:-translate-y-2">
         <div class="relative h-64 overflow-hidden">
-          <img src="images/v1774807173_04_y636xz.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Retro Visawa Massive Party Stay">
+          <img src="images/v1774807173_04_y636xz.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Retro Visawa Massive Party Stay">
           <div class="absolute top-4 left-4 bg-blue-500 text-white text-[10px] uppercase font-bold px-4 py-1 rounded-full">Immense Proportions</div>
         </div>
         <div class="p-8">
@@ -343,7 +352,7 @@ include 'includes/header.php';
       <!-- Retro Villa -->
       <div class="group bg-white rounded-3xl overflow-hidden shadow-xl border border-stone-100 transition-all duration-500 hover:-translate-y-2">
         <div class="relative h-64 overflow-hidden">
-          <img src="images/v1770226533_N34_stewru.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Retro Villa Private Stay">
+          <img src="images/v1770226533_N34_stewru.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Retro Villa Private Stay">
           <div class="absolute top-4 left-4 bg-indigo-500 text-white text-[10px] uppercase font-bold px-4 py-1 rounded-full">Total Seclusion</div>
         </div>
         <div class="p-8">
@@ -594,14 +603,14 @@ include 'includes/header.php';
   window.galleryImages = [
     'images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg',
     'images/v1769868155_M08_qewdva.webp',
-    'images/v1774810269_12_lo4gpx.jpg',
-    'images/v1770226533_N34_stewru.jpg',
-    'images/v1774807176_34_vpeqgv.jpg',
-    'images/v1772868264_1_wqosmq.jpg',
-    'images/v1773076226_27_ipqwdd.jpg',
-    'images/v1774811620_30_1_eexljz.jpg',
-    'images/v1774809448_30_2_xtqtpb.jpg',
-    'images/v1773076342_23_wby8bv.jpg'
+    'images/v1774810269_12_lo4gpx.webp',
+    'images/v1770226533_N34_stewru.webp',
+    'images/v1774807176_34_vpeqgv.webp',
+    'images/v1772868264_1_wqosmq.webp',
+    'images/v1773076226_27_ipqwdd.webp',
+    'images/v1774811620_30_1_eexljz.webp',
+    'images/v1774809448_30_2_xtqtpb.webp',
+    'images/v1773076342_23_wby8bv.webp'
   ];
 
   function openLightbox(index) {

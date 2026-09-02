@@ -1,10 +1,35 @@
 <?php
 $pageTitle = "Pet-Friendly 4BHK Villas in Lonavala – Complete List & Tips | Retrofusion Blog";
 $pageDescription = "Planning a Lonavala getaway with your pet? Discover pet-friendly 4BHK villas, essential packing tips, pet safety guidelines, and local activities for a perfect pet-inclusive villa stay.";
-$canonicalUrl = "https://retrofusion.in/blog/pet-friendly-4bhk-villas-lonavala-complete-list-tips/";
+$canonicalUrl = "https://retrofusion.in/blogs/pet-friendly-villas/";
 $ogTitle = "Pet-Friendly 4BHK Villas in Lonavala – Complete List & Tips";
 $ogDescription = "Planning a Lonavala getaway with your pet? Discover pet-friendly 4BHK villas, essential packing tips, pet safety guidelines, and local activities for a perfect pet-inclusive villa stay.";
-$ogImage = "images/Untitled-design-19-1.jpg";
+$ogImage = "https://retrofusion.in/blogs/images/Untitled-design-19-1.webp";
+$additionalHead = '
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://retrofusion.in/blogs/pet-friendly-villas/" },
+      "headline": "Pet-Friendly 4BHK Villas in Lonavala – Complete List & Tips",
+      "description": "Planning a Lonavala getaway with your pet? Discover pet-friendly 4BHK villas, essential packing tips, pet safety guidelines, and local activities for a perfect pet-inclusive villa stay.",
+      "image": "https://retrofusion.in/blogs/images/Untitled-design-19-1.webp",
+      "datePublished": "2026-05-18T12:43:04+05:30",
+      "dateModified": "2026-06-25T13:25:47+05:30",
+      "inLanguage": "en-IN",
+      "author": { "@type": "Organization", "name": "Retrofusion Boutique Homestays", "url": "https://retrofusion.in/" },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Retrofusion Boutique Homestays",
+        "logo": { "@type": "ImageObject", "url": "https://retrofusion.in/images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png" }
+      }
+    }
+  ]
+}
+</script>
+';
 include '../includes/header.php';
 ?>
 
@@ -14,9 +39,9 @@ include '../includes/header.php';
       <!-- Main blog content -->
       <div class="min-w-0 bg-white rounded-2xl shadow-md overflow-hidden">
       <div class="relative mb-8 overflow-hidden bg-stone-100 rounded-t-2xl">
-        <img src="images/Untitled-design-19-1.jpg" alt="Pet-Friendly 4BHK Villas in Lonavala – Complete List &amp; Tips" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover blur-2xl scale-110 opacity-60" />
+        <img src="images/Untitled-design-19-1.webp" alt="Pet-Friendly 4BHK Villas in Lonavala – Complete List &amp; Tips" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover blur-2xl scale-110 opacity-60" />
         <div class="relative flex items-center justify-center min-h-[200px] sm:min-h-[240px] md:min-h-[280px] py-6 px-4">
-          <img src="images/Untitled-design-19-1.jpg" alt="Pet-Friendly 4BHK Villas in Lonavala – Complete List &amp; Tips" class="max-h-[280px] md:max-h-[320px] w-auto h-auto max-w-full object-contain rounded-lg shadow-lg" />
+          <img src="images/Untitled-design-19-1.webp" alt="Pet-Friendly 4BHK Villas in Lonavala – Complete List &amp; Tips" class="max-h-[280px] md:max-h-[320px] w-auto h-auto max-w-full object-contain rounded-lg shadow-lg" />
         </div>
       </div>
         <div class="p-6 sm:p-8 lg:p-10">

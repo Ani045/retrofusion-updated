@@ -7,7 +7,7 @@ $pageAuthor = "Retrofusion Boutique Homestays";
 $pagePublisher = "Retrofusion Boutique Homestays";
 $canonicalUrl = "https://retrofusion.in/mountain-view-villa-lonavala.php";
 $ogTitle = "Premium Mountain View Villa Lonavala";
-$ogImage = "images/v1770226534_N36_om6t9d.jpg";
+$ogImage = "https://retrofusion.in/images/v1770226534_N36_om6t9d.webp";
 include 'includes/header.php';
 ?>
 
@@ -25,14 +25,13 @@ include 'includes/header.php';
       "description": "A magnificent mountain view villa lonavala offering breathtaking panoramas of the western ghats, private pool, and unparalleled luxury.",
       "url": "https://retrofusion.in/mountain-view-villa-lonavala.php",
       "image": [
-        "images/v1770226534_N36_om6t9d.jpg",
+        "images/v1770226534_N36_om6t9d.webp",
         "images/v1769868155_M08_qewdva.webp",
-        "images/v1770226533_N34_stewru.jpg"
+        "images/v1770226533_N34_stewru.webp"
       ],
       "telephone": "+91 8999036644",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Lonavala",
         "addressLocality": "Lonavala",
         "addressRegion": "Maharashtra",
         "postalCode": "410401",
@@ -43,28 +42,17 @@ include 'includes/header.php';
         "latitude": "18.754",
         "longitude": "73.407"
       },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "142"
-      }
+      "priceRange": "$$"
     },
     {
       "@type": "Product",
       "@id": "https://retrofusion.in/mountain-view-villa-lonavala.php#product",
       "name": "Mountain View Villa Lonavala",
-      "image": "images/v1770226534_N36_om6t9d.jpg",
+      "image": "https://retrofusion.in/images/v1770226534_N36_om6t9d.webp",
       "description": "Premium mountain view villa in Lonavala featuring a private pool, panoramic Sahyadri views, and unmatched luxury hospitality.",
       "brand": {
         "@type": "Brand",
         "name": "Retrofusion Boutique Homestays"
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "bestRating": "5",
-        "worstRating": "1",
-        "ratingCount": "142"
       }
     },
     {
@@ -89,7 +77,7 @@ include 'includes/header.php';
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "What makes this mountain view villa lonavala unique comparing to others?",
+          "name": "What makes this mountain view villa lonavala unique?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Our villa offers an unobstructed, panoramic view of the Sahyadri mountains directly from the master bedrooms and private pool area, making it a premium nature retreat in Lonavala."
@@ -113,7 +101,7 @@ include 'includes/header.php';
         },
         {
           "@type": "Question",
-          "name": "Is this a good nature retreat lonavala destination for families?",
+          "name": "Is this a good nature retreat for families?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Absolutely! Families love our spacious layouts and safe, enclosed outdoor garden areas, which provide the perfect environment for a relaxing hillside bonding experience."
@@ -121,7 +109,7 @@ include 'includes/header.php';
         },
         {
           "@type": "Question",
-          "name": "Can we host a quick weekend escape here with a large group?",
+          "name": "Can we host a weekend escape with a large group?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Yes, it is considered one of the best villas in lonavala for weekend escape groups. We easily accommodate 10-15 guests with spacious living areas and multiple amenities."
@@ -129,7 +117,7 @@ include 'includes/header.php';
         },
         {
           "@type": "Question",
-          "name": "Are there any famous lonavala sightseeing spots near the villa?",
+          "name": "Are there famous sightseeing spots near the villa?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Yes, many iconic lonavala sightseeing stays are near us, including Tiger Point, Lion's Point, and Bhushi Dam, making it easy to explore during the day."
@@ -137,7 +125,7 @@ include 'includes/header.php';
         },
         {
           "@type": "Question",
-          "name": "Is the mountain view visible during the monsoon season?",
+          "name": "Is the mountain view visible during monsoon season?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "The monsoon season is the absolute best time to visit! The views are dramatic with low-hanging clouds, waterfalls, and lush greenery everywhere you look."
@@ -145,23 +133,7 @@ include 'includes/header.php';
         },
         {
           "@type": "Question",
-          "name": "Do you provide an in-house cook or meals?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "We offer access to a fully equipped kitchen, and we can also arrange authentic local meals or a private chef on demand to enhance your luxury stay."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is parking available at the lonavala hill station villas?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, we provide secure, on-site private parking space that can comfortably accommodate 3-4 cars for our guests."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do you allow pets at this luxury villa in Lonavala?",
+          "name": "Do you allow pets at this luxury villa?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "We understand that pets are family. Please inquire directly about bringing your furry friends, or visit our dedicated pet friendly villas page for guaranteed accommodations."
@@ -175,7 +147,7 @@ include 'includes/header.php';
 
 <!-- ===== HERO SECTION ===== -->
 <section class="relative h-screen overflow-hidden">
-  <img src="images/v1770226534_N36_om6t9d.jpg"
+  <img src="images/v1770226534_N36_om6t9d.webp"
     class="absolute inset-0 w-full h-full object-cover" alt="Mountain View Villa in Lonavala with Panoramic Views" title="Mountain View Villa Lonavala" />
   <div class="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-black/60"></div>
   <div class="relative z-10 h-full flex flex-col justify-center items-center px-4 sm:px-6 lg:px-8">
@@ -244,7 +216,7 @@ include 'includes/header.php';
             class="w-full h-56 md:h-72 object-cover transition-transform duration-700 group-hover:scale-105" />
         </div>
         <div class="relative group overflow-hidden rounded-3xl">
-          <img loading="lazy" src="images/v1770226533_N34_stewru.jpg"
+          <img loading="lazy" src="images/v1770226533_N34_stewru.webp"
             alt="Luxury mountain villa exterior" title="Private Pool Villa Lonavala Hills"
             class="w-full h-56 md:h-72 object-cover transition-transform duration-700 group-hover:scale-105" />
         </div>
@@ -299,7 +271,7 @@ include 'includes/header.php';
       <div id="bento-grid" class="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4 h-[400px] md:h-[450px] transition-opacity duration-500">
         <!-- Image 1 -->
         <div class="relative overflow-hidden group cursor-pointer col-span-2 md:col-span-2 row-span-1 md:row-span-2 rounded-2xl shadow-lg" onclick="openLightbox(0)">
-          <img loading="lazy" src="images/v1770226534_N36_om6t9d.jpg" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="Mountain View Villa Front" title="Mountain View Villa Lonavala Exterior">
+          <img loading="lazy" src="images/v1770226534_N36_om6t9d.webp" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="Mountain View Villa Front" title="Mountain View Villa Lonavala Exterior">
           <div class="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors duration-300 flex items-center justify-center">
             <div class="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
               <div class="w-10 h-10 md:w-12 md:h-12 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center">
@@ -321,7 +293,7 @@ include 'includes/header.php';
         </div>
         <!-- Image 3 -->
         <div class="relative overflow-hidden group cursor-pointer col-span-1 md:col-span-1 row-span-1 md:row-span-1 rounded-2xl shadow-lg" onclick="openLightbox(2)">
-          <img loading="lazy" src="images/v1770226533_N34_stewru.jpg" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="Mountain Villa Outdoor View" title="Scenic Mountain View from Villa">
+          <img loading="lazy" src="images/v1770226533_N34_stewru.webp" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="Mountain Villa Outdoor View" title="Scenic Mountain View from Villa">
           <div class="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors duration-300 flex items-center justify-center">
             <div class="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
               <div class="w-10 h-10 md:w-12 md:h-12 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center">
@@ -627,7 +599,7 @@ include 'includes/header.php';
             <div class="pt-9 sm:pt-11 w-full flex flex-col items-center">
               <a href="https://www.instagram.com/retrofusion.in/" target="_blank" class="w-full">
                 <img loading="lazy"
-                  src="images/v1772471878_Screenshot_2026-03-02_at_10.47.42_PM_wo3toj.png"
+                  src="images/v1772471878_Screenshot_2026-03-02_at_10.47.42_PM_wo3toj.webp"
                   alt="Instagram Profile Screenshot"
                   class="w-full h-auto block opacity-95 transition-opacity duration-300 group-hover/screen:opacity-100" />
               </a>
@@ -660,7 +632,7 @@ include 'includes/header.php';
             <!-- Image with amber border -->
             <div class="mx-2.5 mb-2 border-[3px] border-amber-600 rounded-lg overflow-hidden">
               <img loading="lazy"
-                src="images/v1772473164_Screenshot_2026-03-02_at_11.08.01_PM_a5g0vs.png"
+                src="images/v1772473164_Screenshot_2026-03-02_at_11.08.01_PM_a5g0vs.webp"
                 alt="Instagram Post"
                 class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
@@ -712,7 +684,7 @@ include 'includes/header.php';
             </div>
             <div class="mx-2.5 mb-2 border-[3px] border-amber-600 rounded-lg overflow-hidden">
               <img loading="lazy"
-                src="images/v1772473164_Screenshot_2026-03-02_at_11.07.23_PM_sbgs0f.png"
+                src="images/v1772473164_Screenshot_2026-03-02_at_11.07.23_PM_sbgs0f.webp"
                 alt="Instagram Post"
                 class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
@@ -763,7 +735,7 @@ include 'includes/header.php';
             </div>
             <div class="mx-2.5 mb-2 border-[3px] border-amber-600 rounded-lg overflow-hidden">
               <img loading="lazy"
-                src="images/v1772473163_Screenshot_2026-03-02_at_11.07.36_PM_ftkdee.png"
+                src="images/v1772473163_Screenshot_2026-03-02_at_11.07.36_PM_ftkdee.webp"
                 alt="Instagram Post"
                 class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
@@ -814,7 +786,7 @@ include 'includes/header.php';
             </div>
             <div class="mx-2.5 mb-2 border-[3px] border-amber-600 rounded-lg overflow-hidden">
               <img loading="lazy"
-                src="images/v1772473163_Screenshot_2026-03-02_at_11.07.51_PM_yzseuz.png"
+                src="images/v1772473163_Screenshot_2026-03-02_at_11.07.51_PM_yzseuz.webp"
                 alt="Instagram Post"
                 class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
@@ -874,9 +846,9 @@ include 'includes/header.php';
 
 <script>
   window.galleryImages = [
-    'images/v1770226534_N36_om6t9d.jpg',
+    'images/v1770226534_N36_om6t9d.webp',
     'images/v1769868155_M08_qewdva.webp',
-    'images/v1770226533_N34_stewru.jpg',
+    'images/v1770226533_N34_stewru.webp',
     'images/v1769868140_05_ivb2yz.webp',
     'images/v1769868140_B30_yc8rqu.webp',
     'images/v1769868143_M01_jjmwdw.webp',

@@ -1,10 +1,35 @@
 <?php
 $pageTitle = "Lonavala One Day Trip – Perfect Itinerary for a Quick Getaway | Retrofusion Blog";
 $pageDescription = "A Lonavala one day trip is an excellent choice if you’re looking for a refreshing break from city life. Located between Mumbai and Pune.";
-$canonicalUrl = "https://retrofusion.in/blog/lonavala-one-day-trip-perfect-itinerary-for-a-quick-getaway/";
+$canonicalUrl = "https://retrofusion.in/blogs/lonavala-one-day-trip-perfect-itinerary-for-a-quick-getaway/";
 $ogTitle = "Lonavala One Day Trip – Perfect Itinerary for a Quick Getaway";
 $ogDescription = "A Lonavala one day trip is an excellent choice if you’re looking for a refreshing break from city life. Located between Mumbai and Pune.";
-$ogImage = "images/Lonavala-One-Day-Trip.png";
+$ogImage = "https://retrofusion.in/blogs/images/Lonavala-One-Day-Trip.webp";
+$additionalHead = '
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://retrofusion.in/blogs/lonavala-one-day-trip-perfect-itinerary-for-a-quick-getaway/" },
+      "headline": "Lonavala One Day Trip – Perfect Itinerary for a Quick Getaway",
+      "description": "A Lonavala one day trip is an excellent choice if you’re looking for a refreshing break from city life. Located between Mumbai and Pune.",
+      "image": "https://retrofusion.in/blogs/images/Lonavala-One-Day-Trip.webp",
+      "datePublished": "2026-06-25T13:02:32+05:30",
+      "dateModified": "2026-06-25T13:25:47+05:30",
+      "inLanguage": "en-IN",
+      "author": { "@type": "Organization", "name": "Retrofusion Boutique Homestays", "url": "https://retrofusion.in/" },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Retrofusion Boutique Homestays",
+        "logo": { "@type": "ImageObject", "url": "https://retrofusion.in/images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png" }
+      }
+    }
+  ]
+}
+</script>
+';
 include '../includes/header.php';
 ?>
 
@@ -14,9 +39,9 @@ include '../includes/header.php';
       <!-- Main blog content -->
       <div class="min-w-0 bg-white rounded-2xl shadow-md overflow-hidden">
       <div class="relative mb-8 overflow-hidden bg-stone-100 rounded-t-2xl">
-        <img src="images/Lonavala-One-Day-Trip.png" alt="Lonavala One Day Trip – Perfect Itinerary for a Quick Getaway" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover blur-2xl scale-110 opacity-60" />
+        <img src="images/Lonavala-One-Day-Trip.webp" alt="Lonavala One Day Trip – Perfect Itinerary for a Quick Getaway" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover blur-2xl scale-110 opacity-60" />
         <div class="relative flex items-center justify-center min-h-[200px] sm:min-h-[240px] md:min-h-[280px] py-6 px-4">
-          <img src="images/Lonavala-One-Day-Trip.png" alt="Lonavala One Day Trip – Perfect Itinerary for a Quick Getaway" class="max-h-[280px] md:max-h-[320px] w-auto h-auto max-w-full object-contain rounded-lg shadow-lg" />
+          <img src="images/Lonavala-One-Day-Trip.webp" alt="Lonavala One Day Trip – Perfect Itinerary for a Quick Getaway" class="max-h-[280px] md:max-h-[320px] w-auto h-auto max-w-full object-contain rounded-lg shadow-lg" />
         </div>
       </div>
         <div class="p-6 sm:p-8 lg:p-10">
@@ -24,15 +49,15 @@ include '../includes/header.php';
           <div class="prose prose-stone max-w-none">
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">A <strong>Lonavala one day trip</strong> is an excellent choice if you’re looking for a refreshing break from city life. Located between Mumbai and Pune, Lonavala is known for its scenic viewpoints, waterfalls, pleasant weather, and relaxed hill-station vibes. Even with just one day in hand, you can explore the best of Lonavala and return with beautiful memories.</p>
 
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">This one-day itinerary is ideal for couples, families, and friends planning a short and well-planned trip.</p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">This one-day itinerary is ideal for <a href="/homestay-in-lonavala-for-couples">couples</a>, families, and friends planning a short and well-planned trip.</p>
 
 <h3 class="text-xl sm:text-2xl font-semibold text-stone-800 mt-8 mb-3 leading-snug font-display">Morning: Start with Sunrise Views</h3>
 
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Begin your day early by heading to popular viewpoints like Lion’s Point or Tiger’s Leap. Early mornings offer cool weather, misty hills, and peaceful surroundings—perfect for photography and a calm start to the trip. Watching the sun rise over the Sahyadri hills instantly sets the mood for a relaxing day.</p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Begin your day early by heading to popular viewpoints like <a href="/villas-near-lion-point">Lion’s Point</a> or Tiger’s Leap. Early mornings offer cool weather, misty hills, and peaceful surroundings—perfect for photography and a calm start to the trip. Watching the sun rise over the Sahyadri hills instantly sets the mood for a relaxing day.</p>
 
 <h3 class="text-xl sm:text-2xl font-semibold text-stone-800 mt-8 mb-3 leading-snug font-display">Mid-Morning: Visit Bhushi Dam</h3>
 
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">After enjoying the views, head towards <strong>Bhushi Dam</strong>, one of the most famous attractions in Lonavala. During the monsoon, the overflowing water creates a waterfall-like experience, while in other seasons it remains a scenic spot for a short stop. Spend some time enjoying the surroundings and clicking photos before moving on.</p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">After enjoying the views, head towards <strong><a href="/villas-near-bhushi-dam-lonavala">Bhushi Dam</a></strong>, one of the most famous attractions in Lonavala. During the monsoon, the overflowing water creates a waterfall-like experience, while in other seasons it remains a scenic spot for a short stop. Spend some time enjoying the surroundings and clicking photos before moving on.</p>
 
 <h3 class="text-xl sm:text-2xl font-semibold text-stone-800 mt-8 mb-3 leading-snug font-display">Afternoon: Explore Karla or Bhaja Caves</h3>
 

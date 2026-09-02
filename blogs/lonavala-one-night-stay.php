@@ -1,10 +1,35 @@
 <?php
 $pageTitle = "Lonavala One Night Stay: The Perfect Quick Escape | Retrofusion Blog";
 $pageDescription = "Planning a lonavala one night stay? Discover the best tips, stays, and things to do for a perfect overnight trip to this scenic hill station near Mumbai & Pune.";
-$canonicalUrl = "https://retrofusion.in/blog/lonavala-one-night-stay/";
+$canonicalUrl = "https://retrofusion.in/blogs/lonavala-one-night-stay/";
 $ogTitle = "Lonavala One Night Stay: The Perfect Quick Escape";
 $ogDescription = "Planning a lonavala one night stay? Discover the best tips, stays, and things to do for a perfect overnight trip to this scenic hill station near Mumbai & Pune.";
-$ogImage = "images/lonavala-one-night-stay-featured.jpg";
+$ogImage = "https://retrofusion.in/blogs/images/lonavala-one-night-stay-featured.webp";
+$additionalHead = '
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://retrofusion.in/blogs/lonavala-one-night-stay/" },
+      "headline": "Lonavala One Night Stay: The Perfect Quick Escape",
+      "description": "Planning a lonavala one night stay? Discover the best tips, stays, and things to do for a perfect overnight trip to this scenic hill station near Mumbai & Pune.",
+      "image": "https://retrofusion.in/blogs/images/lonavala-one-night-stay-featured.webp",
+      "datePublished": "2026-06-25T13:02:32+05:30",
+      "dateModified": "2026-06-25T13:25:47+05:30",
+      "inLanguage": "en-IN",
+      "author": { "@type": "Organization", "name": "Retrofusion Boutique Homestays", "url": "https://retrofusion.in/" },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Retrofusion Boutique Homestays",
+        "logo": { "@type": "ImageObject", "url": "https://retrofusion.in/images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png" }
+      }
+    }
+  ]
+}
+</script>
+';
 include '../includes/header.php';
 ?>
 
@@ -14,9 +39,9 @@ include '../includes/header.php';
       <!-- Main blog content -->
       <div class="min-w-0 bg-white rounded-2xl shadow-md overflow-hidden">
       <div class="relative mb-8 overflow-hidden bg-stone-100 rounded-t-2xl">
-        <img src="images/lonavala-one-night-stay-featured.jpg" alt="Lonavala One Night Stay: The Perfect Quick Escape" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover blur-2xl scale-110 opacity-60" />
+        <img src="images/lonavala-one-night-stay-featured.webp" alt="Lonavala One Night Stay: The Perfect Quick Escape" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover blur-2xl scale-110 opacity-60" />
         <div class="relative flex items-center justify-center min-h-[200px] sm:min-h-[240px] md:min-h-[280px] py-6 px-4">
-          <img src="images/lonavala-one-night-stay-featured.jpg" alt="Lonavala One Night Stay: The Perfect Quick Escape" class="max-h-[280px] md:max-h-[320px] w-auto h-auto max-w-full object-contain rounded-lg shadow-lg" />
+          <img src="images/lonavala-one-night-stay-featured.webp" alt="Lonavala One Night Stay: The Perfect Quick Escape" class="max-h-[280px] md:max-h-[320px] w-auto h-auto max-w-full object-contain rounded-lg shadow-lg" />
         </div>
       </div>
         <div class="p-6 sm:p-8 lg:p-10">
@@ -24,7 +49,7 @@ include '../includes/header.php';
           <div class="prose prose-stone max-w-none">
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Sometimes, all you need is just one night away from the chaos of city life. A <strong>Lonavala one night stay</strong> is exactly that — a quick, refreshing escape nestled in the Sahyadri mountains, just 2–3 hours from Mumbai and Pune. Whether you're heading out on a spontaneous weekend trip or planning a romantic overnight getaway, Lonavala delivers misty valleys, cool breezes, and a pace of life that immediately slows you down. This guide tells you everything you need to know to make your one night in Lonavala truly unforgettable.</p>
 
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5"><em><strong>Featured Snippet:</strong> A Lonavala one night stay typically includes checking into a resort or villa by late afternoon, exploring viewpoints like Tiger Point or Bhushi Dam at sunset, enjoying a candlelit dinner, and heading out for a morning nature walk before checkout — all within 18–20 hours.</em></p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5"><em><strong>Featured Snippet:</strong> A Lonavala one night stay typically includes checking into a resort or villa by late afternoon, exploring viewpoints like <a href="/villas-near-tiger-point-lonavala">Tiger Point</a> or <a href="/villas-near-bhushi-dam-lonavala">Bhushi Dam</a> at sunset, enjoying a candlelit dinner, and heading out for a morning nature walk before checkout — all within 18–20 hours.</em></p>
 
 <h2 class="text-2xl sm:text-3xl font-bold text-stone-800 mt-12 mb-4 leading-snug font-display border-b-2 border-amber-500 pb-2 inline-block">Why Lonavala Is Perfect for a One Night Getaway</h2>
 
@@ -40,7 +65,7 @@ include '../includes/header.php';
 
 <h3 class="text-xl sm:text-2xl font-semibold text-stone-800 mt-8 mb-3 leading-snug font-display">Late Afternoon: Hit the Viewpoints</h3>
 
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Tiger Point and Lion's Point are must-visits during golden hour. The valley views at sunset are spectacular. If you're visiting during or after the monsoon, you'll catch waterfalls cascading down the hillsides in every direction. Don't miss Bhushi Dam — especially lively during the rainy season. You can also explore the <a href="/blogs/best-waterfalls-in-lonavala">best waterfalls in Lonavala</a> to add a refreshing twist to your evening.</p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Tiger Point and <a href="/villas-near-lion-point">Lion's Point</a> are must-visits during golden hour. The valley views at sunset are spectacular. If you're visiting during or after the monsoon, you'll catch waterfalls cascading down the hillsides in every direction. Don't miss Bhushi Dam — especially lively during the rainy season. You can also explore the <a href="/blogs/best-waterfalls-in-lonavala">best waterfalls in Lonavala</a> to add a refreshing twist to your evening.</p>
 
 <h3 class="text-xl sm:text-2xl font-semibold text-stone-800 mt-8 mb-3 leading-snug font-display">Evening: Dinner and Local Flavours</h3>
 

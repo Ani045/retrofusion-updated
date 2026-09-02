@@ -1,10 +1,135 @@
 <?php
 $pageTitle = "Retrofusion Blog | Lonavala Travel Guides, Villa Tips & More";
 $pageDescription = "Browse all Retrofusion blog posts — expert guides on Lonavala villas, weekend getaways, bachelor parties, family stays, waterfalls, food, and travel tips.";
-$canonicalUrl = "https://retrofusion.in/blog/";
+$canonicalUrl = "https://retrofusion.in/blogs/";
 $ogTitle = "Retrofusion Blog | Lonavala Travel Guides, Villa Tips & More";
 $ogDescription = "Browse all Retrofusion blog posts — expert guides on Lonavala villas, weekend getaways, bachelor parties, family stays, waterfalls, food, and travel tips.";
 $ogImage = "https://retrofusion.in/images/v1769868140_B30_yc8rqu.webp";
+$additionalHead = '
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Blog",
+      "@id": "https://retrofusion.in/blogs/",
+      "name": "Retrofusion Blog",
+      "description": "Travel guides, villa tips and curated content for Lonavala.",
+      "inLanguage": "en-IN",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Retrofusion Boutique Homestays",
+        "url": "https://retrofusion.in/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://retrofusion.in/images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png"
+        }
+      }
+    },
+    {
+      "@type": "ItemList",
+      "name": "Retrofusion blog posts",
+      "numberOfItems": 86,
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "url": "https://retrofusion.in/blogs/a-weekend-of-love-in-the-clouds/" },
+        { "@type": "ListItem", "position": 2, "url": "https://retrofusion.in/blogs/adventure-sports-around-lonavala/" },
+        { "@type": "ListItem", "position": 3, "url": "https://retrofusion.in/blogs/affordable-weekend-getaways/" },
+        { "@type": "ListItem", "position": 4, "url": "https://retrofusion.in/blogs/bachelor-party-group-stay/" },
+        { "@type": "ListItem", "position": 5, "url": "https://retrofusion.in/blogs/best-family-homestay-in-lonavala-spacious-comfortable-stay/" },
+        { "@type": "ListItem", "position": 6, "url": "https://retrofusion.in/blogs/best-place-to-celebrate-birthday-in-lonavala/" },
+        { "@type": "ListItem", "position": 7, "url": "https://retrofusion.in/blogs/best-place-to-stay-in-lonavala-complete-guide-for-every-traveler/" },
+        { "@type": "ListItem", "position": 8, "url": "https://retrofusion.in/blogs/best-places-for-lunch-in-lonavala/" },
+        { "@type": "ListItem", "position": 9, "url": "https://retrofusion.in/blogs/best-places-to-eat-in-lonavala/" },
+        { "@type": "ListItem", "position": 10, "url": "https://retrofusion.in/blogs/best-places-to-stay-in-lonavala-for-couples/" },
+        { "@type": "ListItem", "position": 11, "url": "https://retrofusion.in/blogs/best-places-to-stay-in-lonavala-for-family/" },
+        { "@type": "ListItem", "position": 12, "url": "https://retrofusion.in/blogs/best-places-to-stay-in-lonavala/" },
+        { "@type": "ListItem", "position": 13, "url": "https://retrofusion.in/blogs/best-time-to-visit-lonavala-a-complete-seasonal-guide/" },
+        { "@type": "ListItem", "position": 14, "url": "https://retrofusion.in/blogs/best-time-to-visit-lonavala-and-khandala-a-seasonal-travel-guide/" },
+        { "@type": "ListItem", "position": 15, "url": "https://retrofusion.in/blogs/best-time-to-visit-lonavala-and-mahabaleshwar/" },
+        { "@type": "ListItem", "position": 16, "url": "https://retrofusion.in/blogs/best-time-to-visit-lonavala/" },
+        { "@type": "ListItem", "position": 17, "url": "https://retrofusion.in/blogs/best-tourist-point-in-lonavala/" },
+        { "@type": "ListItem", "position": 18, "url": "https://retrofusion.in/blogs/best-waterfalls-in-lonavala/" },
+        { "@type": "ListItem", "position": 19, "url": "https://retrofusion.in/blogs/bhushi-dam-lonavala/" },
+        { "@type": "ListItem", "position": 20, "url": "https://retrofusion.in/blogs/camping-and-glamping-spots-in-lonavala/" },
+        { "@type": "ListItem", "position": 21, "url": "https://retrofusion.in/blogs/can-we-cover-lonavala-in-one-day/" },
+        { "@type": "ListItem", "position": 22, "url": "https://retrofusion.in/blogs/corporate-friendly-homestays-in-lonavala/" },
+        { "@type": "ListItem", "position": 23, "url": "https://retrofusion.in/blogs/cost-price-breakdown/" },
+        { "@type": "ListItem", "position": 24, "url": "https://retrofusion.in/blogs/family-homestay-in-lonavala/" },
+        { "@type": "ListItem", "position": 25, "url": "https://retrofusion.in/blogs/family-stay-guide/" },
+        { "@type": "ListItem", "position": 26, "url": "https://retrofusion.in/blogs/famous-places-in-lonavala/" },
+        { "@type": "ListItem", "position": 27, "url": "https://retrofusion.in/blogs/famous-temples-in-lonavala/" },
+        { "@type": "ListItem", "position": 28, "url": "https://retrofusion.in/blogs/forts-near-lonavala/" },
+        { "@type": "ListItem", "position": 29, "url": "https://retrofusion.in/blogs/friends-homestay-in-lonavala/" },
+        { "@type": "ListItem", "position": 30, "url": "https://retrofusion.in/blogs/good-places-to-stay-in-lonavala-complete-accommodation-guide/" },
+        { "@type": "ListItem", "position": 31, "url": "https://retrofusion.in/blogs/haunted-places-in-lonavala/" },
+        { "@type": "ListItem", "position": 32, "url": "https://retrofusion.in/blogs/hidden-places-in-lonavala/" },
+        { "@type": "ListItem", "position": 33, "url": "https://retrofusion.in/blogs/hill-view-homestay-in-lonavala-luxury-villas-with-scenic-views/" },
+        { "@type": "ListItem", "position": 34, "url": "https://retrofusion.in/blogs/how-to-plan-a-lonavala-trip/" },
+        { "@type": "ListItem", "position": 35, "url": "https://retrofusion.in/blogs/instagrammable-spots-in-lonavala/" },
+        { "@type": "ListItem", "position": 36, "url": "https://retrofusion.in/blogs/kataldhar-waterfall-trek/" },
+        { "@type": "ListItem", "position": 37, "url": "https://retrofusion.in/blogs/lake-view-homestay-in-lonavala-a-peaceful-stay-amidst-nature/" },
+        { "@type": "ListItem", "position": 38, "url": "https://retrofusion.in/blogs/lonavala-for-culture-seekers/" },
+        { "@type": "ListItem", "position": 39, "url": "https://retrofusion.in/blogs/lonavala-one-day-trip-perfect-itinerary-for-a-quick-getaway/" },
+        { "@type": "ListItem", "position": 40, "url": "https://retrofusion.in/blogs/lonavala-one-night-stay/" },
+        { "@type": "ListItem", "position": 41, "url": "https://retrofusion.in/blogs/lonavala-places-to-visit-in-one-day-free-for-couples/" },
+        { "@type": "ListItem", "position": 42, "url": "https://retrofusion.in/blogs/lonavala-places-to-visit-in-one-day-free/" },
+        { "@type": "ListItem", "position": 43, "url": "https://retrofusion.in/blogs/lonavala-things-to-do-complete-travel-guide/" },
+        { "@type": "ListItem", "position": 44, "url": "https://retrofusion.in/blogs/lonavala-tourist-places/" },
+        { "@type": "ListItem", "position": 45, "url": "https://retrofusion.in/blogs/lonavala-waterfall-places/" },
+        { "@type": "ListItem", "position": 46, "url": "https://retrofusion.in/blogs/luxury-private-pool/" },
+        { "@type": "ListItem", "position": 47, "url": "https://retrofusion.in/blogs/mumbai-to-lonavala-road-trip-the-ultimate-travel-itinerary/" },
+        { "@type": "ListItem", "position": 48, "url": "https://retrofusion.in/blogs/must-visit-places-in-lonavala/" },
+        { "@type": "ListItem", "position": 49, "url": "https://retrofusion.in/blogs/offbeat-attractions-in-lonavala-for-photographers-and-sunset-lovers/" },
+        { "@type": "ListItem", "position": 50, "url": "https://retrofusion.in/blogs/one-day-trip-near-lonavala/" },
+        { "@type": "ListItem", "position": 51, "url": "https://retrofusion.in/blogs/pawna-lake-camping-lonavala-complete-guide-with-stay-option/" },
+        { "@type": "ListItem", "position": 52, "url": "https://retrofusion.in/blogs/pawna-lake-hill-view/" },
+        { "@type": "ListItem", "position": 53, "url": "https://retrofusion.in/blogs/pet-friendly-villas/" },
+        { "@type": "ListItem", "position": 54, "url": "https://retrofusion.in/blogs/places-in-lonavala-for-couples/" },
+        { "@type": "ListItem", "position": 55, "url": "https://retrofusion.in/blogs/places-to-eat-in-lonavala/" },
+        { "@type": "ListItem", "position": 56, "url": "https://retrofusion.in/blogs/places-to-visit-in-lonavala-at-night/" },
+        { "@type": "ListItem", "position": 57, "url": "https://retrofusion.in/blogs/places-to-visit-in-lonavala-for-couples/" },
+        { "@type": "ListItem", "position": 58, "url": "https://retrofusion.in/blogs/places-to-visit-in-lonavala-in-monsoon/" },
+        { "@type": "ListItem", "position": 59, "url": "https://retrofusion.in/blogs/places-to-visit-in-lonavala-in-summer/" },
+        { "@type": "ListItem", "position": 60, "url": "https://retrofusion.in/blogs/places-to-visit-in-lonavala-with-family/" },
+        { "@type": "ListItem", "position": 61, "url": "https://retrofusion.in/blogs/places-to-visit-in-lonavala/" },
+        { "@type": "ListItem", "position": 62, "url": "https://retrofusion.in/blogs/places-to-visit-near-lonavala-railway-station/" },
+        { "@type": "ListItem", "position": 63, "url": "https://retrofusion.in/blogs/places-to-visit-near-lonavala-station/" },
+        { "@type": "ListItem", "position": 64, "url": "https://retrofusion.in/blogs/rajmachi-fort-lonavala/" },
+        { "@type": "ListItem", "position": 65, "url": "https://retrofusion.in/blogs/romantic-couple-friendly-homestays-in-lonavala/" },
+        { "@type": "ListItem", "position": 66, "url": "https://retrofusion.in/blogs/sunrise-point-in-lonavala-a-peaceful-start-to-the-day/" },
+        { "@type": "ListItem", "position": 67, "url": "https://retrofusion.in/blogs/things-to-check/" },
+        { "@type": "ListItem", "position": 68, "url": "https://retrofusion.in/blogs/things-to-do-in-lonavala-a-complete-travel-guide/" },
+        { "@type": "ListItem", "position": 69, "url": "https://retrofusion.in/blogs/things-to-see-in-lonavala/" },
+        { "@type": "ListItem", "position": 70, "url": "https://retrofusion.in/blogs/top-locations-area-guide/" },
+        { "@type": "ListItem", "position": 71, "url": "https://retrofusion.in/blogs/tourist-places-near-lonavala-complete-travel-guide-with-stay-option/" },
+        { "@type": "ListItem", "position": 72, "url": "https://retrofusion.in/blogs/trek-and-stay-homestays-eco-resorts/" },
+        { "@type": "ListItem", "position": 73, "url": "https://retrofusion.in/blogs/tungarli-lake-lonavala/" },
+        { "@type": "ListItem", "position": 74, "url": "https://retrofusion.in/blogs/ultimate-guide-to-lonavalas-local-eateries-from-chikki-to-misal-pav/" },
+        { "@type": "ListItem", "position": 75, "url": "https://retrofusion.in/blogs/unique-places-to-visit-in-lonavala-for-couples/" },
+        { "@type": "ListItem", "position": 76, "url": "https://retrofusion.in/blogs/villa-vs-hotels/" },
+        { "@type": "ListItem", "position": 77, "url": "https://retrofusion.in/blogs/water-park-near-lonavala-best-spots-for-fun-splash/" },
+        { "@type": "ListItem", "position": 78, "url": "https://retrofusion.in/blogs/waterfall-lonavala-bhushi-dam-a-perfect-monsoon-escape/" },
+        { "@type": "ListItem", "position": 79, "url": "https://retrofusion.in/blogs/waterfalls-in-lonavala-khandala-a-monsoon-paradise/" },
+        { "@type": "ListItem", "position": 80, "url": "https://retrofusion.in/blogs/waterfalls-near-lonavala-2/" },
+        { "@type": "ListItem", "position": 81, "url": "https://retrofusion.in/blogs/waterfalls-near-lonavala/" },
+        { "@type": "ListItem", "position": 82, "url": "https://retrofusion.in/blogs/weekend-couple-homestay-in-lonavala/" },
+        { "@type": "ListItem", "position": 83, "url": "https://retrofusion.in/blogs/weekend-homestay-in-lonavala-for-friends/" },
+        { "@type": "ListItem", "position": 84, "url": "https://retrofusion.in/blogs/why-couples-love-visiting-lonavala/" },
+        { "@type": "ListItem", "position": 85, "url": "https://retrofusion.in/blogs/why-winter-is-the-best-time-to-visit-lonavala/" },
+        { "@type": "ListItem", "position": 86, "url": "https://retrofusion.in/blogs/winter-camping-in-lonavala/" }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://retrofusion.in/" },
+        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://retrofusion.in/blogs/" }
+      ]
+    }
+  ]
+}
+</script>
+';
 include '../includes/header.php';
 ?>
 
@@ -16,7 +141,7 @@ include '../includes/header.php';
     </div>
 
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-      <a href="a-weekend-of-love-in-the-clouds.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/a-weekend-of-love-in-the-clouds/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
           <img src="images/A-Weekend-of-Love-in-the-Clouds.jpeg" alt="A Weekend of Love in the Clouds" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
@@ -26,7 +151,7 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="adventure-sports-around-lonavala.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/adventure-sports-around-lonavala/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
           <img src="images/Adventure-Sports-Around-Lonavala-Paragliding-Rock-Climbing-and-More.jpeg" alt="Adventure Sports Around Lonavala: Paragliding, Rock Climbing, and More" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
@@ -36,9 +161,9 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="affordable-weekend-getaways.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/affordable-weekend-getaways/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
-          <img src="images/Untitled-design-22.jpg" alt="Affordable 4BHK Villas in Lonavala for Weekend Getaways" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <img src="images/Untitled-design-22.webp" alt="Affordable 4BHK Villas in Lonavala for Weekend Getaways" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
         <div class="p-6">
           <h3 class="text-lg font-semibold text-stone-800 group-hover:text-amber-600 transition-colors leading-snug mb-2 line-clamp-2">Affordable 4BHK Villas in Lonavala for Weekend Getaways</h3>
@@ -46,9 +171,9 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="bachelor-party-group-stay.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/bachelor-party-group-stay/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
-          <img src="images/Untitled-design-27.jpg" alt="4BHK Villas in Lonavala for Bachelor Party & Group Stay" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <img src="images/Untitled-design-27.webp" alt="4BHK Villas in Lonavala for Bachelor Party & Group Stay" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
         <div class="p-6">
           <h3 class="text-lg font-semibold text-stone-800 group-hover:text-amber-600 transition-colors leading-snug mb-2 line-clamp-2">4BHK Villas in Lonavala for Bachelor Party & Group Stay</h3>
@@ -56,7 +181,7 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="best-family-homestay-in-lonavala-spacious-comfortable-stay.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/best-family-homestay-in-lonavala-spacious-comfortable-stay/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
           <img src="https://retrofusion.in/images/v1769868140_B30_yc8rqu.webp" alt="Best Family Homestay in Lonavala | Spacious & Comfortable Stay" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
@@ -66,9 +191,9 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="best-place-to-celebrate-birthday-in-lonavala.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/best-place-to-celebrate-birthday-in-lonavala/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
-          <img src="images/Best-Place-to-Celebrate-Birthday-in-Lonavala-1024x559.png" alt="Best Place to Celebrate Birthday in Lonavala: Unforgettable Party" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <img src="images/Best-Place-to-Celebrate-Birthday-in-Lonavala-1024x559.webp" alt="Best Place to Celebrate Birthday in Lonavala: Unforgettable Party" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
         <div class="p-6">
           <h3 class="text-lg font-semibold text-stone-800 group-hover:text-amber-600 transition-colors leading-snug mb-2 line-clamp-2">Best Place to Celebrate Birthday in Lonavala: Unforgettable Party</h3>
@@ -76,9 +201,9 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="best-place-to-stay-in-lonavala-complete-guide-for-every-traveler.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/best-place-to-stay-in-lonavala-complete-guide-for-every-traveler/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
-          <img src="images/best-place-to-stay-in-lonavala.jpg" alt="Best Place to Stay in Lonavala – Complete Guide for Every Traveler" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <img src="images/best-place-to-stay-in-lonavala.webp" alt="Best Place to Stay in Lonavala – Complete Guide for Every Traveler" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
         <div class="p-6">
           <h3 class="text-lg font-semibold text-stone-800 group-hover:text-amber-600 transition-colors leading-snug mb-2 line-clamp-2">Best Place to Stay in Lonavala – Complete Guide for Every Traveler</h3>
@@ -86,9 +211,9 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="best-places-for-lunch-in-lonavala.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/best-places-for-lunch-in-lonavala/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
-          <img src="images/best-places-for-lunch-in-lonavala.jpeg" alt="Best Places for Lunch in Lonavala: Top Dining Spots to Satisfy Your Appetite" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <img src="images/best-places-for-lunch-in-lonavala.webp" alt="Best Places for Lunch in Lonavala: Top Dining Spots to Satisfy Your Appetite" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
         <div class="p-6">
           <h3 class="text-lg font-semibold text-stone-800 group-hover:text-amber-600 transition-colors leading-snug mb-2 line-clamp-2">Best Places for Lunch in Lonavala: Top Dining Spots to Satisfy Your Appetite</h3>
@@ -96,7 +221,7 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="best-places-to-eat-in-lonavala.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/best-places-to-eat-in-lonavala/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
           <img src="https://retrofusion.in/blogs/wp-content/uploads/2026/03/Best-Places-to-Eat-in-Lonavala-–-Complete-Food-Staycation-Guide.jpg" alt="Best Places to Eat in Lonavala – Complete Food & Staycation Guide" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
@@ -106,7 +231,7 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="best-places-to-stay-in-lonavala-for-couples.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/best-places-to-stay-in-lonavala-for-couples/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
           <img src="https://retrofusion.in/images/v1769868140_B30_yc8rqu.webp" alt="Best Places to Stay in Lonavala for Couples" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
@@ -116,7 +241,7 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="best-places-to-stay-in-lonavala-for-family.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/best-places-to-stay-in-lonavala-for-family/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
           <img src="https://retrofusion.in/images/v1769868140_B30_yc8rqu.webp" alt="Best Places to Stay in Lonavala for Family" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
@@ -126,7 +251,7 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="best-places-to-stay-in-lonavala.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/best-places-to-stay-in-lonavala/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
           <img src="images/Best-Places-to-Stay-in-Lonavala-RetroFusion-Homestay-1024x559.webp" alt="Best Places to Stay in Lonavala: RetroFusion Homestay" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
@@ -136,9 +261,9 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="best-time-to-visit-lonavala-a-complete-seasonal-guide.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/best-time-to-visit-lonavala-a-complete-seasonal-guide/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
-          <img src="images/Best-Time-to-Visit-Lonavala.png" alt="Best Time to Visit Lonavala – A Complete Seasonal Guide" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <img src="images/Best-Time-to-Visit-Lonavala.webp" alt="Best Time to Visit Lonavala – A Complete Seasonal Guide" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
         <div class="p-6">
           <h3 class="text-lg font-semibold text-stone-800 group-hover:text-amber-600 transition-colors leading-snug mb-2 line-clamp-2">Best Time to Visit Lonavala – A Complete Seasonal Guide</h3>
@@ -146,9 +271,9 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="best-time-to-visit-lonavala-and-khandala-a-seasonal-travel-guide.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/best-time-to-visit-lonavala-and-khandala-a-seasonal-travel-guide/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
-          <img src="images/best-time-to-visit-lonavala-and-khandala.png" alt="Best Time to Visit Lonavala and Khandala – A Seasonal Travel Guide" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <img src="images/best-time-to-visit-lonavala-and-khandala.webp" alt="Best Time to Visit Lonavala and Khandala – A Seasonal Travel Guide" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
         <div class="p-6">
           <h3 class="text-lg font-semibold text-stone-800 group-hover:text-amber-600 transition-colors leading-snug mb-2 line-clamp-2">Best Time to Visit Lonavala and Khandala – A Seasonal Travel Guide</h3>
@@ -156,7 +281,7 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="best-time-to-visit-lonavala-and-mahabaleshwar.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/best-time-to-visit-lonavala-and-mahabaleshwar/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
           <img src="images/Best-Time-to-Visit-Lonavala-and-Mahabaleshwar-1024x559.webp" alt="Best Time to Visit Lonavala and Mahabaleshwar" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
@@ -166,9 +291,9 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="best-time-to-visit-lonavala.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/best-time-to-visit-lonavala/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
-          <img src="images/Untitled-design.jpg" alt="Best Time to Visit Lonavala – Weather, Seasons & Travel Tips" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <img src="images/Untitled-design.webp" alt="Best Time to Visit Lonavala – Weather, Seasons & Travel Tips" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
         <div class="p-6">
           <h3 class="text-lg font-semibold text-stone-800 group-hover:text-amber-600 transition-colors leading-snug mb-2 line-clamp-2">Best Time to Visit Lonavala – Weather, Seasons & Travel Tips</h3>
@@ -176,7 +301,7 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="best-tourist-point-in-lonavala.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/best-tourist-point-in-lonavala/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
           <img src="images/Best-Tourist-Point-in-Lonavala-Top-Attractions-1024x559.webp" alt="Best Tourist Point in Lonavala: Top Attractions 2025" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
@@ -186,7 +311,7 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="best-waterfalls-in-lonavala.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/best-waterfalls-in-lonavala/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
           <img src="https://retrofusion.in/images/v1769868140_B30_yc8rqu.webp" alt="Best Waterfalls in Lonavala: A Nature Lover's Guide" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
@@ -196,7 +321,7 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="bhushi-dam-lonavala.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/bhushi-dam-lonavala/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
           <img src="images/Bhushi-Dam-Lonavala-Timings-Entry-Fee-Best-Time-to-Visit-1024x559.webp" alt="Bhushi Dam Lonavala: Timings, Entry Fee & Best Time to Visit" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
@@ -206,9 +331,9 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="camping-and-glamping-spots-in-lonavala.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/camping-and-glamping-spots-in-lonavala/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
-          <img src="images/Best-Camping-and-Glamping-Spots-in-Lonavala-for-a-Weekend-Getaway.jpg" alt="Best Camping and Glamping Spots in Lonavala for a Weekend Getaway" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <img src="images/Best-Camping-and-Glamping-Spots-in-Lonavala-for-a-Weekend-Getaway.webp" alt="Best Camping and Glamping Spots in Lonavala for a Weekend Getaway" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
         <div class="p-6">
           <h3 class="text-lg font-semibold text-stone-800 group-hover:text-amber-600 transition-colors leading-snug mb-2 line-clamp-2">Best Camping and Glamping Spots in Lonavala for a Weekend Getaway</h3>
@@ -216,7 +341,7 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="can-we-cover-lonavala-in-one-day.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/can-we-cover-lonavala-in-one-day/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
           <img src="images/Gemini_Generated_Image_nrmbqxnrmbqxnrmb-1024x559.webp" alt="Can We Cover Lonavala in One Day? Complete Travel Guide" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
@@ -226,9 +351,9 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="corporate-friendly-homestays-in-lonavala.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/corporate-friendly-homestays-in-lonavala/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
-          <img src="images/Corporate-Friendly-Homestays-in-Lonavala.jpg" alt="Corporate Friendly Homestays in Lonavala | Spacious & Comfortable Stays" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <img src="images/Corporate-Friendly-Homestays-in-Lonavala.webp" alt="Corporate Friendly Homestays in Lonavala | Spacious & Comfortable Stays" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
         <div class="p-6">
           <h3 class="text-lg font-semibold text-stone-800 group-hover:text-amber-600 transition-colors leading-snug mb-2 line-clamp-2">Corporate Friendly Homestays in Lonavala | Spacious & Comfortable Stays</h3>
@@ -236,9 +361,9 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="cost-price-breakdown.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/cost-price-breakdown/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
-          <img src="images/Untitled-design-26.jpg" alt="How Much Does a 4BHK Villa in Lonavala Cost? (Price Breakdown)" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <img src="images/Untitled-design-26.webp" alt="How Much Does a 4BHK Villa in Lonavala Cost? (Price Breakdown)" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
         <div class="p-6">
           <h3 class="text-lg font-semibold text-stone-800 group-hover:text-amber-600 transition-colors leading-snug mb-2 line-clamp-2">How Much Does a 4BHK Villa in Lonavala Cost? (Price Breakdown)</h3>
@@ -246,9 +371,9 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="family-homestay-in-lonavala.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/family-homestay-in-lonavala/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
-          <img src="images/Top-Rated-Family-Homestay-in-Lonavala.jpg" alt="Top-Rated Family Homestay in Lonavala | Villas, Comfort" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <img src="images/Top-Rated-Family-Homestay-in-Lonavala.webp" alt="Top-Rated Family Homestay in Lonavala | Villas, Comfort" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
         <div class="p-6">
           <h3 class="text-lg font-semibold text-stone-800 group-hover:text-amber-600 transition-colors leading-snug mb-2 line-clamp-2">Top-Rated Family Homestay in Lonavala | Villas, Comfort</h3>
@@ -256,9 +381,9 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="family-stay-guide.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/family-stay-guide/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
-          <img src="images/Untitled-design-20.jpg" alt="Best 4BHK Villas in Lonavala for Family Stay (2026 Guide)" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <img src="images/Untitled-design-20.webp" alt="Best 4BHK Villas in Lonavala for Family Stay (2026 Guide)" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
         <div class="p-6">
           <h3 class="text-lg font-semibold text-stone-800 group-hover:text-amber-600 transition-colors leading-snug mb-2 line-clamp-2">Best 4BHK Villas in Lonavala for Family Stay (2026 Guide)</h3>
@@ -266,9 +391,9 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="famous-places-in-lonavala.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/famous-places-in-lonavala/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
-          <img src="images/Untitled-design-3.jpg" alt="Famous Places in Lonavala You Must Visit" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <img src="images/Untitled-design-3.webp" alt="Famous Places in Lonavala You Must Visit" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
         <div class="p-6">
           <h3 class="text-lg font-semibold text-stone-800 group-hover:text-amber-600 transition-colors leading-snug mb-2 line-clamp-2">Famous Places in Lonavala You Must Visit</h3>
@@ -276,7 +401,7 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="famous-temples-in-lonavala.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/famous-temples-in-lonavala/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
           <img src="https://retrofusion.in/images/v1769868140_B30_yc8rqu.webp" alt="Famous Temples in Lonavala: A Spiritual Guide" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
@@ -286,9 +411,9 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="forts-near-lonavala.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/forts-near-lonavala/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
-          <img src="images/Untitled-design-4.jpg" alt="Forts Near Lonavala – Historic Places to Explore" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <img src="images/Untitled-design-4.webp" alt="Forts Near Lonavala – Historic Places to Explore" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
         <div class="p-6">
           <h3 class="text-lg font-semibold text-stone-800 group-hover:text-amber-600 transition-colors leading-snug mb-2 line-clamp-2">Forts Near Lonavala – Historic Places to Explore</h3>
@@ -296,9 +421,9 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="friends-homestay-in-lonavala.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/friends-homestay-in-lonavala/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
-          <img src="images/homestey-for-friends.jpeg" alt="Group & Friends Homestay in Lonavala | Villas & Private Stays" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <img src="images/homestey-for-friends.webp" alt="Group & Friends Homestay in Lonavala | Villas & Private Stays" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
         <div class="p-6">
           <h3 class="text-lg font-semibold text-stone-800 group-hover:text-amber-600 transition-colors leading-snug mb-2 line-clamp-2">Group & Friends Homestay in Lonavala | Villas & Private Stays</h3>
@@ -306,7 +431,7 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="good-places-to-stay-in-lonavala-complete-accommodation-guide.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/good-places-to-stay-in-lonavala-complete-accommodation-guide/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
           <img src="https://retrofusion.in/blogs/wp-content/uploads/2026/03/Good-Places-to-Stay-in-Lonavala-–-Complete-Accommodation-Guide.jpg" alt="Good Places to Stay in Lonavala – Complete Accommodation Guide" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
@@ -316,9 +441,9 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="haunted-places-in-lonavala.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/haunted-places-in-lonavala/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
-          <img src="images/haunted-places-in-lonavala.jpeg" alt="Haunted Places in Lonavala: Explore the Spookiest Spots in the Hills" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <img src="images/haunted-places-in-lonavala.webp" alt="Haunted Places in Lonavala: Explore the Spookiest Spots in the Hills" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
         <div class="p-6">
           <h3 class="text-lg font-semibold text-stone-800 group-hover:text-amber-600 transition-colors leading-snug mb-2 line-clamp-2">Haunted Places in Lonavala: Explore the Spookiest Spots in the Hills</h3>
@@ -326,9 +451,9 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="hidden-places-in-lonavala.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/hidden-places-in-lonavala/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
-          <img src="images/hidden-places-in-lonavala.jpeg" alt="Hidden Places in Lonavala: Secret Spots Only Locals Know About" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <img src="images/hidden-places-in-lonavala.webp" alt="Hidden Places in Lonavala: Secret Spots Only Locals Know About" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
         <div class="p-6">
           <h3 class="text-lg font-semibold text-stone-800 group-hover:text-amber-600 transition-colors leading-snug mb-2 line-clamp-2">Hidden Places in Lonavala: Secret Spots Only Locals Know About</h3>
@@ -336,9 +461,9 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="hill-view-homestay-in-lonavala-luxury-villas-with-scenic-views.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/hill-view-homestay-in-lonavala-luxury-villas-with-scenic-views/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
-          <img src="images/347994114.jpg" alt="Hill View Homestay in Lonavala – Luxury Villas with Scenic Views" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <img src="images/347994114.webp" alt="Hill View Homestay in Lonavala – Luxury Villas with Scenic Views" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
         <div class="p-6">
           <h3 class="text-lg font-semibold text-stone-800 group-hover:text-amber-600 transition-colors leading-snug mb-2 line-clamp-2">Hill View Homestay in Lonavala – Luxury Villas with Scenic Views</h3>
@@ -346,7 +471,7 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="how-to-plan-a-lonavala-trip.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/how-to-plan-a-lonavala-trip/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
           <img src="images/Gemini_Generated_Image_9zqrn39zqrn39zqr-1024x559.webp" alt="How to Plan a Lonavala Trip : Ultimate Guide" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
@@ -356,9 +481,9 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="instagrammable-spots-in-lonavala.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/instagrammable-spots-in-lonavala/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
-          <img src="images/Gemini_Generated_Image_euvpxieuvpxieuv.jpeg" alt="Instagrammable Spots in Lonavala: Best Places for Stunning Photos" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <img src="images/Gemini_Generated_Image_euvpxieuvpxieuv.webp" alt="Instagrammable Spots in Lonavala: Best Places for Stunning Photos" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
         <div class="p-6">
           <h3 class="text-lg font-semibold text-stone-800 group-hover:text-amber-600 transition-colors leading-snug mb-2 line-clamp-2">Instagrammable Spots in Lonavala: Best Places for Stunning Photos</h3>
@@ -366,7 +491,7 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="kataldhar-waterfall-trek.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/kataldhar-waterfall-trek/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
           <img src="images/Kataldhar-Waterfall-Trek.jpeg" alt="Kataldhar Waterfall Trek: The Hidden 350-ft Gem Near Lonavala" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
@@ -376,9 +501,9 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="lake-view-homestay-in-lonavala-a-peaceful-stay-amidst-nature.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/lake-view-homestay-in-lonavala-a-peaceful-stay-amidst-nature/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
-          <img src="images/Lake-View-Homestay-in-Lonavala.png" alt="Lake View Homestay in Lonavala – A Peaceful Stay Amidst Nature" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <img src="images/Lake-View-Homestay-in-Lonavala.webp" alt="Lake View Homestay in Lonavala – A Peaceful Stay Amidst Nature" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
         <div class="p-6">
           <h3 class="text-lg font-semibold text-stone-800 group-hover:text-amber-600 transition-colors leading-snug mb-2 line-clamp-2">Lake View Homestay in Lonavala – A Peaceful Stay Amidst Nature</h3>
@@ -386,7 +511,7 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="lonavala-for-culture-seekers.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/lonavala-for-culture-seekers/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
           <img src="images/Lonavala-for-Culture-Seekers-Explore-Caves-Temples-Local-Markets.jpeg" alt="Lonavala for Culture Seekers: Explore Caves, Temples & Local Markets" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
@@ -396,9 +521,9 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="lonavala-one-day-trip-perfect-itinerary-for-a-quick-getaway.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/lonavala-one-day-trip-perfect-itinerary-for-a-quick-getaway/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
-          <img src="images/Lonavala-One-Day-Trip.png" alt="Lonavala One Day Trip – Perfect Itinerary for a Quick Getaway" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <img src="images/Lonavala-One-Day-Trip.webp" alt="Lonavala One Day Trip – Perfect Itinerary for a Quick Getaway" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
         <div class="p-6">
           <h3 class="text-lg font-semibold text-stone-800 group-hover:text-amber-600 transition-colors leading-snug mb-2 line-clamp-2">Lonavala One Day Trip – Perfect Itinerary for a Quick Getaway</h3>
@@ -406,9 +531,9 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="lonavala-one-night-stay.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/lonavala-one-night-stay/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
-          <img src="images/lonavala-one-night-stay-featured.jpg" alt="Lonavala One Night Stay: The Perfect Quick Escape" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <img src="images/lonavala-one-night-stay-featured.webp" alt="Lonavala One Night Stay: The Perfect Quick Escape" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
         <div class="p-6">
           <h3 class="text-lg font-semibold text-stone-800 group-hover:text-amber-600 transition-colors leading-snug mb-2 line-clamp-2">Lonavala One Night Stay: The Perfect Quick Escape</h3>
@@ -416,9 +541,9 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="lonavala-places-to-visit-in-one-day-free-for-couples.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/lonavala-places-to-visit-in-one-day-free-for-couples/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
-          <img src="images/Untitled-design-10.jpg" alt="Lonavala Places To Visit In One Day Free For Couples: 20 Romantic Escapes" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <img src="images/Untitled-design-10.webp" alt="Lonavala Places To Visit In One Day Free For Couples: 20 Romantic Escapes" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
         <div class="p-6">
           <h3 class="text-lg font-semibold text-stone-800 group-hover:text-amber-600 transition-colors leading-snug mb-2 line-clamp-2">Lonavala Places To Visit In One Day Free For Couples: 20 Romantic Escapes</h3>
@@ -426,9 +551,9 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="lonavala-places-to-visit-in-one-day-free.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/lonavala-places-to-visit-in-one-day-free/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
-          <img src="images/Untitled-design-9.jpg" alt="Lonavala Places To Visit In One Day Free – Complete Travel Guide" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <img src="images/Untitled-design-9.webp" alt="Lonavala Places To Visit In One Day Free – Complete Travel Guide" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
         <div class="p-6">
           <h3 class="text-lg font-semibold text-stone-800 group-hover:text-amber-600 transition-colors leading-snug mb-2 line-clamp-2">Lonavala Places To Visit In One Day Free – Complete Travel Guide</h3>
@@ -436,7 +561,7 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="lonavala-things-to-do-complete-travel-guide.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/lonavala-things-to-do-complete-travel-guide/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
           <img src="https://retrofusion.in/blogs/wp-content/uploads/2026/03/Good-Places-to-Stay-in-Lonavala-–-Complete-Accommodation-Guide-1.jpg" alt="Lonavala Things To Do – Complete Travel Guide" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
@@ -446,7 +571,7 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="lonavala-tourist-places.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/lonavala-tourist-places/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
           <img src="images/Top-10-Lonavala-Tourist-Places-You-Must-Visit-1024x559.webp" alt="Top 10 Lonavala Tourist Places You Must Visit in 2025" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
@@ -456,9 +581,9 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="lonavala-waterfall-places.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/lonavala-waterfall-places/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
-          <img src="images/Lonavala-Waterfall-Places-1024x559.png" alt="Lonavala Waterfall Places: Must-Visit Scenic Spots for Nature Lovers" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <img src="images/Lonavala-Waterfall-Places-1024x559.webp" alt="Lonavala Waterfall Places: Must-Visit Scenic Spots for Nature Lovers" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
         <div class="p-6">
           <h3 class="text-lg font-semibold text-stone-800 group-hover:text-amber-600 transition-colors leading-snug mb-2 line-clamp-2">Lonavala Waterfall Places: Must-Visit Scenic Spots for Nature Lovers</h3>
@@ -466,9 +591,9 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="luxury-private-pool.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/luxury-private-pool/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
-          <img src="images/Untitled-design-21.jpg" alt="Luxury 4BHK Villas in Lonavala with Private Pool – Complete Guide" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <img src="images/Untitled-design-21.webp" alt="Luxury 4BHK Villas in Lonavala with Private Pool – Complete Guide" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
         <div class="p-6">
           <h3 class="text-lg font-semibold text-stone-800 group-hover:text-amber-600 transition-colors leading-snug mb-2 line-clamp-2">Luxury 4BHK Villas in Lonavala with Private Pool – Complete Guide</h3>
@@ -476,9 +601,9 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="mumbai-to-lonavala-road-trip-the-ultimate-travel-itinerary.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/mumbai-to-lonavala-road-trip-the-ultimate-travel-itinerary/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
-          <img src="images/Gemini_Generated_Image_ryfmflryfmflryf.jpeg" alt="Mumbai to Lonavala Road Trip: The Ultimate Travel Itinerary" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <img src="images/Gemini_Generated_Image_ryfmflryfmflryf.webp" alt="Mumbai to Lonavala Road Trip: The Ultimate Travel Itinerary" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
         <div class="p-6">
           <h3 class="text-lg font-semibold text-stone-800 group-hover:text-amber-600 transition-colors leading-snug mb-2 line-clamp-2">Mumbai to Lonavala Road Trip: The Ultimate Travel Itinerary</h3>
@@ -486,9 +611,9 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="must-visit-places-in-lonavala.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/must-visit-places-in-lonavala/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
-          <img src="images/ChatGPT-Image-Jul-4-2025-09_34_15-PM.png" alt="Must Visit Places in Lonavala | Quick 8-Stop Checklist" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <img src="images/ChatGPT-Image-Jul-4-2025-09_34_15-PM.webp" alt="Must Visit Places in Lonavala | Quick 8-Stop Checklist" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
         <div class="p-6">
           <h3 class="text-lg font-semibold text-stone-800 group-hover:text-amber-600 transition-colors leading-snug mb-2 line-clamp-2">Must Visit Places in Lonavala | Quick 8-Stop Checklist</h3>
@@ -496,7 +621,7 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="offbeat-attractions-in-lonavala-for-photographers-and-sunset-lovers.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/offbeat-attractions-in-lonavala-for-photographers-and-sunset-lovers/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
           <img src="images/OffbeatAttractionsinLonavalaforPhotographersandSunsetLover.jpeg" alt="Offbeat Attractions in Lonavala for Photographers and Sunset Lovers" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
@@ -506,9 +631,9 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="one-day-trip-near-lonavala.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/one-day-trip-near-lonavala/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
-          <img src="images/trip.jpg" alt="One Day Trip Near Lonavala – Best Places For A Short Getaway" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <img src="images/trip.webp" alt="One Day Trip Near Lonavala – Best Places For A Short Getaway" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
         <div class="p-6">
           <h3 class="text-lg font-semibold text-stone-800 group-hover:text-amber-600 transition-colors leading-snug mb-2 line-clamp-2">One Day Trip Near Lonavala – Best Places For A Short Getaway</h3>
@@ -516,9 +641,9 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="pawna-lake-camping-lonavala-complete-guide-with-stay-option.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/pawna-lake-camping-lonavala-complete-guide-with-stay-option/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
-          <img src="images/Pawna-Lake-Camping-Lonavala.jpg" alt="Pawna Lake Camping Lonavala – Complete Guide with Stay Option" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <img src="images/Pawna-Lake-Camping-Lonavala.webp" alt="Pawna Lake Camping Lonavala – Complete Guide with Stay Option" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
         <div class="p-6">
           <h3 class="text-lg font-semibold text-stone-800 group-hover:text-amber-600 transition-colors leading-snug mb-2 line-clamp-2">Pawna Lake Camping Lonavala – Complete Guide with Stay Option</h3>
@@ -526,9 +651,9 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="pawna-lake-hill-view.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/pawna-lake-hill-view/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
-          <img src="images/Untitled-design-18.jpg" alt="4BHK Villas in Lonavala Near Pawna Lake & Hill View Options" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <img src="images/Untitled-design-18.webp" alt="4BHK Villas in Lonavala Near Pawna Lake & Hill View Options" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
         <div class="p-6">
           <h3 class="text-lg font-semibold text-stone-800 group-hover:text-amber-600 transition-colors leading-snug mb-2 line-clamp-2">4BHK Villas in Lonavala Near Pawna Lake & Hill View Options</h3>
@@ -536,9 +661,9 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="pet-friendly-villas.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/pet-friendly-villas/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
-          <img src="images/Untitled-design-19-1.jpg" alt="Pet-Friendly 4BHK Villas in Lonavala – Complete List & Tips" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <img src="images/Untitled-design-19-1.webp" alt="Pet-Friendly 4BHK Villas in Lonavala – Complete List & Tips" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
         <div class="p-6">
           <h3 class="text-lg font-semibold text-stone-800 group-hover:text-amber-600 transition-colors leading-snug mb-2 line-clamp-2">Pet-Friendly 4BHK Villas in Lonavala – Complete List & Tips</h3>
@@ -546,9 +671,9 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="places-in-lonavala-for-couples.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/places-in-lonavala-for-couples/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
-          <img src="images/ChatGPT-Image-Jul-4-2025-09_05_50-PM.png" alt="Places to Visit in Lonavala for Couples | 15 Romantic Spots" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <img src="images/ChatGPT-Image-Jul-4-2025-09_05_50-PM.webp" alt="Places to Visit in Lonavala for Couples | 15 Romantic Spots" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
         <div class="p-6">
           <h3 class="text-lg font-semibold text-stone-800 group-hover:text-amber-600 transition-colors leading-snug mb-2 line-clamp-2">Places to Visit in Lonavala for Couples | 15 Romantic Spots</h3>
@@ -556,9 +681,9 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="places-to-eat-in-lonavala.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/places-to-eat-in-lonavala/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
-          <img src="images/places-to-eat-in-lonavala.jpeg" alt="Best Places to Eat in Lonavala: Top Restaurants & Local Food Spots for 2025" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <img src="images/places-to-eat-in-lonavala.webp" alt="Best Places to Eat in Lonavala: Top Restaurants & Local Food Spots for 2025" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
         <div class="p-6">
           <h3 class="text-lg font-semibold text-stone-800 group-hover:text-amber-600 transition-colors leading-snug mb-2 line-clamp-2">Best Places to Eat in Lonavala: Top Restaurants & Local Food Spots for 2025</h3>
@@ -566,9 +691,9 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="places-to-visit-in-lonavala-at-night.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/places-to-visit-in-lonavala-at-night/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
-          <img src="images/ChatGPT-Image-Jul-4-2025-09_56_35-PM.png" alt="Places to Visit in Lonavala at Night | 10 Spots" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <img src="images/ChatGPT-Image-Jul-4-2025-09_56_35-PM.webp" alt="Places to Visit in Lonavala at Night | 10 Spots" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
         <div class="p-6">
           <h3 class="text-lg font-semibold text-stone-800 group-hover:text-amber-600 transition-colors leading-snug mb-2 line-clamp-2">Places to Visit in Lonavala at Night | 10 Spots</h3>
@@ -576,9 +701,9 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="places-to-visit-in-lonavala-for-couples.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/places-to-visit-in-lonavala-for-couples/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
-          <img src="images/0f5932b3-8d61-43f4-bf18-5063c7d96dd6.png" alt="Romantic Getaway: Things to Do & Places to Visit in Lonavala for Couples" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <img src="images/0f5932b3-8d61-43f4-bf18-5063c7d96dd6.webp" alt="Romantic Getaway: Things to Do & Places to Visit in Lonavala for Couples" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
         <div class="p-6">
           <h3 class="text-lg font-semibold text-stone-800 group-hover:text-amber-600 transition-colors leading-snug mb-2 line-clamp-2">Romantic Getaway: Things to Do & Places to Visit in Lonavala for Couples</h3>
@@ -586,9 +711,9 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="places-to-visit-in-lonavala-in-monsoon.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/places-to-visit-in-lonavala-in-monsoon/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
-          <img src="images/ChatGPT-Image-Jul-4-2025-09_22_55-PM.png" alt="Places to Visit in Lonavala in Monsoon | 15 Rain-Kissed Spots" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <img src="images/ChatGPT-Image-Jul-4-2025-09_22_55-PM.webp" alt="Places to Visit in Lonavala in Monsoon | 15 Rain-Kissed Spots" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
         <div class="p-6">
           <h3 class="text-lg font-semibold text-stone-800 group-hover:text-amber-600 transition-colors leading-snug mb-2 line-clamp-2">Places to Visit in Lonavala in Monsoon | 15 Rain-Kissed Spots</h3>
@@ -596,7 +721,7 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="places-to-visit-in-lonavala-in-summer.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/places-to-visit-in-lonavala-in-summer/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
           <img src="images/Places-to-Visit-in-Lonavala-in-Summer-10-Cool-Spots-1024x559.webp" alt="Places to Visit in Lonavala in Summer | 10 Cool Spots" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
@@ -606,9 +731,9 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="places-to-visit-in-lonavala-with-family.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/places-to-visit-in-lonavala-with-family/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
-          <img src="images/ChatGPT-Image-Jul-4-2025-08_48_49-PM.png" alt="15 Places to Visit in Lonavala with Family" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <img src="images/ChatGPT-Image-Jul-4-2025-08_48_49-PM.webp" alt="15 Places to Visit in Lonavala with Family" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
         <div class="p-6">
           <h3 class="text-lg font-semibold text-stone-800 group-hover:text-amber-600 transition-colors leading-snug mb-2 line-clamp-2">15 Places to Visit in Lonavala with Family</h3>
@@ -616,9 +741,9 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="places-to-visit-in-lonavala.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/places-to-visit-in-lonavala/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
-          <img src="images/ChatGPT-Image-Jul-4-2025-07_55_03-PM.png" alt="15 Best Places to Visit in Lonavala Locals Swear By" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <img src="images/ChatGPT-Image-Jul-4-2025-07_55_03-PM.webp" alt="15 Best Places to Visit in Lonavala Locals Swear By" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
         <div class="p-6">
           <h3 class="text-lg font-semibold text-stone-800 group-hover:text-amber-600 transition-colors leading-snug mb-2 line-clamp-2">15 Best Places to Visit in Lonavala Locals Swear By</h3>
@@ -626,7 +751,7 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="places-to-visit-near-lonavala-railway-station.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/places-to-visit-near-lonavala-railway-station/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
           <img src="https://retrofusion.in/images/v1769868140_B30_yc8rqu.webp" alt="Top Places to Visit Near Lonavala Railway Station: Your Handy Tourist Guide" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
@@ -636,9 +761,9 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="places-to-visit-near-lonavala-station.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/places-to-visit-near-lonavala-station/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
-          <img src="images/places-to-visit-near-lonavala-station-top-spots.jpg" alt="Places to Visit Near Lonavala Station: Top Spots" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <img src="images/places-to-visit-near-lonavala-station-top-spots.webp" alt="Places to Visit Near Lonavala Station: Top Spots" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
         <div class="p-6">
           <h3 class="text-lg font-semibold text-stone-800 group-hover:text-amber-600 transition-colors leading-snug mb-2 line-clamp-2">Places to Visit Near Lonavala Station: Top Spots</h3>
@@ -646,9 +771,9 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="rajmachi-fort-lonavala.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/rajmachi-fort-lonavala/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
-          <img src="images/Rajmachi-Fort-Lonavala-Trek-Timings-Entry-Fee-Tips-1024x559.png" alt="Rajmachi Fort Lonavala: Trek, Timings, Entry Fee & Tips" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <img src="images/Rajmachi-Fort-Lonavala-Trek-Timings-Entry-Fee-Tips-1024x559.webp" alt="Rajmachi Fort Lonavala: Trek, Timings, Entry Fee & Tips" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
         <div class="p-6">
           <h3 class="text-lg font-semibold text-stone-800 group-hover:text-amber-600 transition-colors leading-snug mb-2 line-clamp-2">Rajmachi Fort Lonavala: Trek, Timings, Entry Fee & Tips</h3>
@@ -656,9 +781,9 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="romantic-couple-friendly-homestays-in-lonavala.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/romantic-couple-friendly-homestays-in-lonavala/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
-          <img src="images/ChatGPT-Image-Jul-3-2025-10_01_44-PM-1.png" alt="Romantic Couple Friendly Homestays in Lonavala | Private & Cozy Stays" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <img src="images/ChatGPT-Image-Jul-3-2025-10_01_44-PM-1.webp" alt="Romantic Couple Friendly Homestays in Lonavala | Private & Cozy Stays" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
         <div class="p-6">
           <h3 class="text-lg font-semibold text-stone-800 group-hover:text-amber-600 transition-colors leading-snug mb-2 line-clamp-2">Romantic Couple Friendly Homestays in Lonavala | Private & Cozy Stays</h3>
@@ -666,9 +791,9 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="sunrise-point-in-lonavala-a-peaceful-start-to-the-day.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/sunrise-point-in-lonavala-a-peaceful-start-to-the-day/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
-          <img src="images/sunrise-point-in-lonavala.png" alt="Sunrise Point in Lonavala – A Peaceful Start to the Day" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <img src="images/sunrise-point-in-lonavala.webp" alt="Sunrise Point in Lonavala – A Peaceful Start to the Day" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
         <div class="p-6">
           <h3 class="text-lg font-semibold text-stone-800 group-hover:text-amber-600 transition-colors leading-snug mb-2 line-clamp-2">Sunrise Point in Lonavala – A Peaceful Start to the Day</h3>
@@ -676,9 +801,9 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="things-to-check.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/things-to-check/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
-          <img src="images/Untitled-design-25.jpg" alt="Things to Check Before Booking a 4BHK Villa in Lonavala" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <img src="images/Untitled-design-25.webp" alt="Things to Check Before Booking a 4BHK Villa in Lonavala" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
         <div class="p-6">
           <h3 class="text-lg font-semibold text-stone-800 group-hover:text-amber-600 transition-colors leading-snug mb-2 line-clamp-2">Things to Check Before Booking a 4BHK Villa in Lonavala</h3>
@@ -686,9 +811,9 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="things-to-do-in-lonavala-a-complete-travel-guide.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/things-to-do-in-lonavala-a-complete-travel-guide/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
-          <img src="images/Things-to-Do-in-Lonavala.png" alt="Things to Do in Lonavala – A Complete Travel Guide" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <img src="images/Things-to-Do-in-Lonavala.webp" alt="Things to Do in Lonavala – A Complete Travel Guide" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
         <div class="p-6">
           <h3 class="text-lg font-semibold text-stone-800 group-hover:text-amber-600 transition-colors leading-snug mb-2 line-clamp-2">Things to Do in Lonavala – A Complete Travel Guide</h3>
@@ -696,7 +821,7 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="things-to-see-in-lonavala.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/things-to-see-in-lonavala/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
           <img src="https://retrofusion.in/images/v1769868140_B30_yc8rqu.webp" alt="Things to See in Lonavala: Complete Visitor's Guide" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
@@ -706,9 +831,9 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="top-locations-area-guide.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/top-locations-area-guide/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
-          <img src="images/Untitled-design-23.jpg" alt="Top Locations to Book a 4BHK Villa in Lonavala (Area-wise Guide)" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <img src="images/Untitled-design-23.webp" alt="Top Locations to Book a 4BHK Villa in Lonavala (Area-wise Guide)" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
         <div class="p-6">
           <h3 class="text-lg font-semibold text-stone-800 group-hover:text-amber-600 transition-colors leading-snug mb-2 line-clamp-2">Top Locations to Book a 4BHK Villa in Lonavala (Area-wise Guide)</h3>
@@ -716,7 +841,7 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="tourist-places-near-lonavala-complete-travel-guide-with-stay-option.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/tourist-places-near-lonavala-complete-travel-guide-with-stay-option/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
           <img src="https://retrofusion.in/blogs/wp-content/uploads/2026/02/Good-Places-to-Stay-in-Lonavala-–-Complete-Accommodation-Guide-2.jpg" alt="Tourist Places Near Lonavala – Complete Travel Guide with Stay Option" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
@@ -726,7 +851,7 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="trek-and-stay-homestays-eco-resorts.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/trek-and-stay-homestays-eco-resorts/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
           <img src="images/Trek-Stay.jpeg" alt="Trek & Stay: Homestays, Eco-Resorts, and Camping Near Lonavala" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
@@ -736,7 +861,7 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="tungarli-lake-lonavala.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/tungarli-lake-lonavala/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
           <img src="images/Tungarli-Lake-The-Serene-Picnic-Spot-Overlooking-Hills.jpeg" alt="Tungarli Lake: The Serene Picnic Spot Overlooking Hills" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
@@ -746,7 +871,7 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="ultimate-guide-to-lonavalas-local-eateries-from-chikki-to-misal-pav.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/ultimate-guide-to-lonavalas-local-eateries-from-chikki-to-misal-pav/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
           <img src="images/Ultimate-Guide-to-Lonavalas-Local-Eateries-From-Chikki-to-Misal-Pav.jpeg" alt="Ultimate Guide to Lonavala’s Local Eateries: From Chikki to Misal Pav" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
@@ -756,7 +881,7 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="unique-places-to-visit-in-lonavala-for-couples.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/unique-places-to-visit-in-lonavala-for-couples/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
           <img src="images/Must-Visit-Unique-Places-in-Lonavala-for-Couples-1024x559.webp" alt="Must Unique Places to Visit in Lonavala for Couples (2025)" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
@@ -766,9 +891,9 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="villa-vs-hotels.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/villa-vs-hotels/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
-          <img src="images/Untitled-design-24.jpg" alt="Why Choose a 4BHK Villa in Lonavala Over Hotels?" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <img src="images/Untitled-design-24.webp" alt="Why Choose a 4BHK Villa in Lonavala Over Hotels?" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
         <div class="p-6">
           <h3 class="text-lg font-semibold text-stone-800 group-hover:text-amber-600 transition-colors leading-snug mb-2 line-clamp-2">Why Choose a 4BHK Villa in Lonavala Over Hotels?</h3>
@@ -776,9 +901,9 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="water-park-near-lonavala-best-spots-for-fun-splash.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/water-park-near-lonavala-best-spots-for-fun-splash/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
-          <img src="images/Water-Park-Near-Lonavala.jpg" alt="Water Park Near Lonavala – Best Spots for Fun & Splash" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <img src="images/Water-Park-Near-Lonavala.webp" alt="Water Park Near Lonavala – Best Spots for Fun & Splash" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
         <div class="p-6">
           <h3 class="text-lg font-semibold text-stone-800 group-hover:text-amber-600 transition-colors leading-snug mb-2 line-clamp-2">Water Park Near Lonavala – Best Spots for Fun & Splash</h3>
@@ -786,9 +911,9 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="waterfall-lonavala-bhushi-dam-a-perfect-monsoon-escape.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/waterfall-lonavala-bhushi-dam-a-perfect-monsoon-escape/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
-          <img src="images/waterfall-lonavala-bhushi-dam.png" alt="Waterfall Lonavala Bhushi Dam – A Perfect Monsoon Escape" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <img src="images/waterfall-lonavala-bhushi-dam.webp" alt="Waterfall Lonavala Bhushi Dam – A Perfect Monsoon Escape" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
         <div class="p-6">
           <h3 class="text-lg font-semibold text-stone-800 group-hover:text-amber-600 transition-colors leading-snug mb-2 line-clamp-2">Waterfall Lonavala Bhushi Dam – A Perfect Monsoon Escape</h3>
@@ -796,7 +921,7 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="waterfalls-in-lonavala-khandala-a-monsoon-paradise.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/waterfalls-in-lonavala-khandala-a-monsoon-paradise/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
           <img src="images/Waterfalls-in-Lonavala-Khandala.webp" alt="Waterfalls in Lonavala Khandala – A Monsoon Paradise" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
@@ -806,9 +931,9 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="waterfalls-near-lonavala-2.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/waterfalls-near-lonavala-2/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
-          <img src="images/Untitled-design-5.jpg" alt="Waterfalls Near Lonavala – Best Nature Spots To Visit" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <img src="images/Untitled-design-5.webp" alt="Waterfalls Near Lonavala – Best Nature Spots To Visit" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
         <div class="p-6">
           <h3 class="text-lg font-semibold text-stone-800 group-hover:text-amber-600 transition-colors leading-snug mb-2 line-clamp-2">Waterfalls Near Lonavala – Best Nature Spots To Visit</h3>
@@ -816,7 +941,7 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="waterfalls-near-lonavala.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/waterfalls-near-lonavala/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
           <img src="images/Top-Treks-Waterfalls-Near-Lonavala-Rajmachi-Kune-Falls.jpeg" alt="Top Treks & Waterfalls Near Lonavala: Rajmachi, Kune Falls" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
@@ -826,9 +951,9 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="weekend-couple-homestay-in-lonavala.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/weekend-couple-homestay-in-lonavala/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
-          <img src="images/Untitled-design-1.jpg" alt="Weekend Couple Homestay in Lonavala | Romantic Villas & Stays" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <img src="images/Untitled-design-1.webp" alt="Weekend Couple Homestay in Lonavala | Romantic Villas & Stays" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
         <div class="p-6">
           <h3 class="text-lg font-semibold text-stone-800 group-hover:text-amber-600 transition-colors leading-snug mb-2 line-clamp-2">Weekend Couple Homestay in Lonavala | Romantic Villas & Stays</h3>
@@ -836,9 +961,9 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="weekend-homestay-in-lonavala-for-friends.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/weekend-homestay-in-lonavala-for-friends/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
-          <img src="images/Romantic-Couple-Friendly-Homestays-in-Lonavala-Private-Cozy-Stays.jpg" alt="Weekend Homestay in Lonavala for Friends | Relax & Chill Together" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <img src="images/Romantic-Couple-Friendly-Homestays-in-Lonavala-Private-Cozy-Stays.webp" alt="Weekend Homestay in Lonavala for Friends | Relax & Chill Together" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
         <div class="p-6">
           <h3 class="text-lg font-semibold text-stone-800 group-hover:text-amber-600 transition-colors leading-snug mb-2 line-clamp-2">Weekend Homestay in Lonavala for Friends | Relax & Chill Together</h3>
@@ -846,7 +971,7 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="why-couples-love-visiting-lonavala.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/why-couples-love-visiting-lonavala/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
           <img src="images/Why-Couples-Love-Visiting-Lonavala.webp" alt="Why Couples Love Visiting Lonavala: Top Reasons & Spots" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
@@ -856,9 +981,9 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="why-winter-is-the-best-time-to-visit-lonavala.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/why-winter-is-the-best-time-to-visit-lonavala/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
-          <img src="images/Gemini_Generated_Image_44t38444t38444t.jpeg" alt="Why Winter Is the Best Time to Visit Lonavala: A Complete Seasonal Guide" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <img src="images/Gemini_Generated_Image_44t38444t38444t.webp" alt="Why Winter Is the Best Time to Visit Lonavala: A Complete Seasonal Guide" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
         <div class="p-6">
           <h3 class="text-lg font-semibold text-stone-800 group-hover:text-amber-600 transition-colors leading-snug mb-2 line-clamp-2">Why Winter Is the Best Time to Visit Lonavala: A Complete Seasonal Guide</h3>
@@ -866,9 +991,9 @@ include '../includes/header.php';
           <span class="inline-block mt-4 text-amber-600 text-sm font-medium group-hover:translate-x-1 transition-transform">Read more &rarr;</span>
         </div>
       </a>
-      <a href="winter-camping-in-lonavala.php" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <a href="/blogs/winter-camping-in-lonavala/" class="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         <div class="aspect-video bg-stone-100 overflow-hidden">
-          <img src="images/Untitleddesign.jpg" alt="Winter Camping in Lonavala: Experience the Chill by Pawna Lake" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <img src="images/Untitleddesign.webp" alt="Winter Camping in Lonavala: Experience the Chill by Pawna Lake" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
         <div class="p-6">
           <h3 class="text-lg font-semibold text-stone-800 group-hover:text-amber-600 transition-colors leading-snug mb-2 line-clamp-2">Winter Camping in Lonavala: Experience the Chill by Pawna Lake</h3>

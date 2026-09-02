@@ -7,7 +7,7 @@ $pageAuthor = "Retrofusion Boutique Homestays";
 $pagePublisher = "Retrofusion Boutique Homestays";
 $canonicalUrl = "https://retrofusion.in/villa-for-10-people-near-wakad";
 $ogTitle = "Villa for 10 People Near Wakad | Retrofusion Private Estates";
-$ogImage = "images/v1774811620_30_1_eexljz.jpg";
+$ogImage = "https://retrofusion.in/images/v1774811620_30_1_eexljz.webp";
 include 'includes/header.php';
 ?>
 
@@ -21,40 +21,137 @@ include 'includes/header.php';
       "name": "Villa for 10 People Near Wakad - Retrofusion",
       "description": "Premium 4BHK private pool villas in Lonavala, perfectly suited for groups of 10 traveling from Wakad. Private pools, spacious en-suite rooms, and expansive lawns — ~1 Hour 5 Mins from the city.",
       "url": "https://retrofusion.in/villa-for-10-people-near-wakad",
-      "image": ["https://retrofusion.in/images/v1774811620_30_1_eexljz.jpg","https://retrofusion.in/images/v1773076342_23_wby8bv.jpg","https://retrofusion.in/images/v1774807176_34_vpeqgv.jpg"],
+      "image": [
+        "https://retrofusion.in/images/v1774811620_30_1_eexljz.webp",
+        "https://retrofusion.in/images/v1773076342_23_wby8bv.webp",
+        "https://retrofusion.in/images/v1774807176_34_vpeqgv.webp"
+      ],
       "telephone": "+91 8999036644",
-      "address": {"@type": "PostalAddress","streetAddress": "Lonavala","addressLocality": "Lonavala","addressRegion": "Maharashtra","postalCode": "410401","addressCountry": "IN"},
-      "aggregateRating": {"@type": "AggregateRating","ratingValue": "4.9","reviewCount": "187"},
-      "priceRange": "$$"
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Lonavala",
+        "addressRegion": "Maharashtra",
+        "postalCode": "410401",
+        "addressCountry": "IN"
+      },
+      "priceRange": "$$",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "18.7544",
+        "longitude": "73.4062"
+      }
     },
-    {"@type": "Organization","@id": "https://retrofusion.in/#organization","name": "Retrofusion Boutique Homestays","url": "https://retrofusion.in/","logo": "https://retrofusion.in/images/logo.png"},
+    {
+      "@type": "Organization",
+      "@id": "https://retrofusion.in/#organization",
+      "name": "Retrofusion Boutique Homestays",
+      "url": "https://retrofusion.in/",
+      "logo": "https://retrofusion.in/images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png"
+    },
     {
       "@type": "BreadcrumbList",
       "@id": "https://retrofusion.in/villa-for-10-people-near-wakad#breadcrumb",
-      "itemListElement": [{"@type": "ListItem","position": 1,"name": "Home","item": "https://retrofusion.in/"},{"@type": "ListItem","position": 2,"name": "Villa for 10 Near Wakad","item": "https://retrofusion.in/villa-for-10-people-near-wakad"}]
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://retrofusion.in/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Villa for 10 Near Wakad",
+          "item": "https://retrofusion.in/villa-for-10-people-near-wakad"
+        }
+      ]
     },
     {
       "@type": "FAQPage",
       "@id": "https://retrofusion.in/villa-for-10-people-near-wakad#faq",
       "mainEntity": [
-        {"@type": "Question","name": "How far is the villa from Wakad?","acceptedAnswer": {"@type": "Answer","text": "Our Lonavala villas are approximately ~50 km from Wakad — a comfortable, scenic drive for your group of 10."}},
-        {"@type": "Question","name": "How long does it take to drive from Wakad with 10 people?","acceptedAnswer": {"@type": "Answer","text": "A convoy of 2–3 cars from Wakad typically reaches Lonavala in about ~1 Hour 5 Mins via the Mumbai-Pune Expressway."}},
-        {"@type": "Question","name": "Can a 4BHK villa comfortably accommodate 10 people?","acceptedAnswer": {"@type": "Answer","text": "Yes. Our 4BHK villas have 4 spacious en-suite bedrooms plus premium extra bedding, comfortably sleeping 10 people while providing massive communal areas."}},
-        {"@type": "Question","name": "Is the private pool large enough for 10 guests?","acceptedAnswer": {"@type": "Answer","text": "Absolutely. Our villas have some of the largest private pools in Lonavala — all 10 guests can swim together comfortably."}},
-        {"@type": "Question","name": "Is there enough parking for a group of 10 from Wakad?","acceptedAnswer": {"@type": "Answer","text": "Yes. Our gated private driveways accommodate 2 to 3 cars safely, which is typically how a group of 10 from Wakad travels."}},
-        {"@type": "Question","name": "What food arrangements are available for 10 people?","acceptedAnswer": {"@type": "Answer","text": "Our caretaker service provides freshly prepared meals throughout your stay. Fully equipped kitchens are also available if your group prefers to cook."}},
-        {"@type": "Question","name": "Can we do a poolside BBQ for 10 guests?","acceptedAnswer": {"@type": "Answer","text": "Definitely. We provide a professional BBQ setup right by the pool, assisted by our caretakers."}},
-        {"@type": "Question","name": "Are the dining areas large enough for all 10 people?","acceptedAnswer": {"@type": "Answer","text": "Yes. Our dining spaces and outdoor decks comfortably seat and serve all 10 guests together."}}
+        {
+          "@type": "Question",
+          "name": "How far is the villa from Wakad?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our Lonavala villas are approximately ~50 km from Wakad — a convenient drive for your group of 10."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take to drive from Wakad with 10 people?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A convoy of 2–3 cars from Wakad reaches Lonavala in approximately ~1 Hour 5 Mins via the Expressway, depending on departure traffic."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a 4BHK villa comfortably accommodate 10 people?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Our 4BHK villas have 4 spacious en-suite bedrooms plus premium extra bedding. A group of 10 sleeps very comfortably while enjoying the massive common areas together."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the private pool large enough for 10 guests?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. Our villas have some of the largest private pools in Lonavala. All 10 guests can swim together with plenty of space on the surrounding deck."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is there enough parking for a group of 10?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Our gated private driveways safely accommodate 2 to 3 cars — the typical convoy size for a group of 10 from Wakad."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What food arrangements are available for 10 people?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our caretaker service provides freshly prepared meals for all 10 guests. Fully equipped kitchens are also available if your group prefers to cook."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can we do a poolside BBQ for 10 guests?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Definitely. We set up a professional BBQ grill by the pool, assisted by our caretakers, for a perfect evening feast under the stars."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are the dining areas large enough for all 10 people?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Our indoor dining areas and outdoor decks comfortably seat and serve all 10 guests together — no eating in shifts."
+          }
+        }
       ]
     },
-    {"@type": "WebPage","@id": "https://retrofusion.in/villa-for-10-people-near-wakad#webpage","url": "https://retrofusion.in/villa-for-10-people-near-wakad","name": "Villa for 10 People Near Wakad | Private Pool Estates in Lonavala","isPartOf": {"@id": "https://retrofusion.in/#website"}}
+    {
+      "@type": "WebPage",
+      "@id": "https://retrofusion.in/villa-for-10-people-near-wakad#webpage",
+      "url": "https://retrofusion.in/villa-for-10-people-near-wakad",
+      "name": "Villa for 10 People Near Wakad | Private Pool Estates in Lonavala",
+      "isPartOf": {
+        "@id": "https://retrofusion.in/#website"
+      }
+    }
   ]
 }
 </script>
 
 <!-- HERO -->
 <section class="relative h-screen overflow-hidden">
-  <img src="images/v1774811620_30_1_eexljz.jpg" class="absolute inset-0 w-full h-full object-cover" alt="Villa for 10 People Near Wakad" title="Private Group Villa Near Wakad" />
+  <img src="images/v1774811620_30_1_eexljz.webp" class="absolute inset-0 w-full h-full object-cover" alt="Villa for 10 People Near Wakad" title="Private Group Villa Near Wakad" />
   <div class="absolute inset-0 bg-black/55"></div>
   <div class="relative z-10 h-full flex flex-col justify-center items-center px-4">
     <div class="max-w-4xl mx-auto text-center">
@@ -148,20 +245,20 @@ include 'includes/header.php';
       <p class="text-stone-500 text-lg">Explore the beautiful areas perfectly sized for your group of 10 from Wakad.</p>
     </div>
     <div class="grid grid-cols-1 md:grid-cols-4 gap-4 h-auto md:h-[800px]">
-      <div class="md:col-span-2 relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(0)"><img src="images/v1773076342_23_wby8bv.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Beautiful living room for 10 people near Wakad"></div>
-      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(1)"><img src="images/v1774811620_30_1_eexljz.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Elegant indoor seating area"></div>
-      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(2)"><img src="images/v1774807176_34_vpeqgv.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Private pool for group villa near Wakad"></div>
+      <div class="md:col-span-2 relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(0)"><img src="images/v1773076342_23_wby8bv.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Beautiful living room for 10 people near Wakad"></div>
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(1)"><img src="images/v1774811620_30_1_eexljz.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Elegant indoor seating area"></div>
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(2)"><img src="images/v1774807176_34_vpeqgv.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Private pool for group villa near Wakad"></div>
       <div class="md:col-span-2 relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(3)"><img src="images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Premium villa architecture"></div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(4)"><img src="images/v1769868155_M08_qewdva.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Outdoor deck area"></div>
-      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(5)"><img src="images/v1770226533_N34_stewru.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Private green lawns"></div>
-      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(6)"><img src="images/v1773076226_27_ipqwdd.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Cozy dining setup"></div>
-      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(7)"><img src="images/v1772868264_1_wqosmq.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Evening group ambiance"></div>
-      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(8)"><img src="images/v1774809448_30_2_xtqtpb.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Luxury lounge area"></div>
-      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(9)"><img src="images/v1774810269_12_lo4gpx.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Poolside relaxation area"></div>
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(5)"><img src="images/v1770226533_N34_stewru.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Private green lawns"></div>
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(6)"><img src="images/v1773076226_27_ipqwdd.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Cozy dining setup"></div>
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(7)"><img src="images/v1772868264_1_wqosmq.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Evening group ambiance"></div>
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(8)"><img src="images/v1774809448_30_2_xtqtpb.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Luxury lounge area"></div>
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(9)"><img src="images/v1774810269_12_lo4gpx.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Poolside relaxation area"></div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(10)"><img src="images/v1769868140_B30_yc8rqu.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Scenic mountain backdrop"></div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(11)"><img src="images/v1769868142_H10_byp3oh.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Luxury poolside sunbeds"></div>
-      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(12)"><img src="images/v1774810653_N35_h2djzp.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Premium bedroom accommodations"></div>
-      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(13)"><img src="images/v1774809447_06_htf59g.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Beautiful landscape surrounds"></div>
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(12)"><img src="images/v1774810653_N35_h2djzp.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Premium bedroom accommodations"></div>
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(13)"><img src="images/v1774809447_06_htf59g.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Beautiful landscape surrounds"></div>
     </div>
   </div>
 </section>
@@ -175,7 +272,7 @@ include 'includes/header.php';
     </div>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
       <div class="group bg-white rounded-3xl overflow-hidden shadow-xl border border-stone-100 transition-all duration-500 hover:-translate-y-2">
-        <div class="relative h-64 overflow-hidden"><img src="images/v1774807173_04_y636xz.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Retro Visawa Villa for 10 People Near Wakad"><div class="absolute top-4 left-4 bg-blue-500 text-white text-[10px] uppercase font-bold px-4 py-1 rounded-full">Top Choice for Groups</div></div>
+        <div class="relative h-64 overflow-hidden"><img src="images/v1774807173_04_y636xz.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Retro Visawa Villa for 10 People Near Wakad"><div class="absolute top-4 left-4 bg-blue-500 text-white text-[10px] uppercase font-bold px-4 py-1 rounded-full">Top Choice for Groups</div></div>
         <div class="p-8"><h3 class="text-2xl font-bold text-[#0F2A24] mb-4 font-display">Retro Visawa</h3><p class="text-stone-500 text-sm mb-6 leading-relaxed">A grand estate featuring a massive infinity pool, sweeping communal zones, and en-suite rooms sized for 10. Secure parking for your entire Wakad convoy included.</p><a href="retro-viswa-lonavala.php" class="block text-center bg-[#0F2A24] text-white py-3 rounded-xl font-bold hover:bg-amber-600 transition-colors">View Villa Details</a></div>
       </div>
       <div class="group bg-white rounded-3xl overflow-hidden shadow-xl border border-stone-100 transition-all duration-500 hover:-translate-y-2">
@@ -183,7 +280,7 @@ include 'includes/header.php';
         <div class="p-8"><h3 class="text-2xl font-bold text-[#0F2A24] mb-4 font-display">Neo Retro Villa</h3><p class="text-stone-500 text-sm mb-6 leading-relaxed">Modern open-plan layout with direct Expressway access — all 10 guests enjoy massive shared living and dining spaces together.</p><a href="neo-retro.php" class="block text-center bg-[#0F2A24] text-white py-3 rounded-xl font-bold hover:bg-amber-600 transition-colors">View Villa Details</a></div>
       </div>
       <div class="group bg-white rounded-3xl overflow-hidden shadow-xl border border-stone-100 transition-all duration-500 hover:-translate-y-2">
-        <div class="relative h-64 overflow-hidden"><img src="images/v1770226533_N34_stewru.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Retro Villa for 10 People Near Wakad"><div class="absolute top-4 left-4 bg-indigo-500 text-white text-[10px] uppercase font-bold px-4 py-1 rounded-full">Ultimate Privacy</div></div>
+        <div class="relative h-64 overflow-hidden"><img src="images/v1770226533_N34_stewru.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Retro Villa for 10 People Near Wakad"><div class="absolute top-4 left-4 bg-indigo-500 text-white text-[10px] uppercase font-bold px-4 py-1 rounded-full">Ultimate Privacy</div></div>
         <div class="p-8"><h3 class="text-2xl font-bold text-[#0F2A24] mb-4 font-display">Retro Villa</h3><p class="text-stone-500 text-sm mb-6 leading-relaxed">A secluded nature retreat behind lush greenery and imposing gates — perfect for a close-knit Wakad group wanting total peace and privacy.</p><a href="retro-villas.php" class="block text-center bg-[#0F2A24] text-white py-3 rounded-xl font-bold hover:bg-amber-600 transition-colors">View Villa Details</a></div>
       </div>
     </div>
@@ -295,7 +392,7 @@ include 'includes/header.php';
 
 <div id="lightbox" class="fixed inset-0 z-50 bg-black/95 hidden items-center justify-center transition-opacity duration-300 opacity-0" onclick="closeLightbox()"><img id="lightbox-img" src="" class="max-w-[90vw] max-h-[85vh] object-contain rounded-lg"></div>
 <script>
-  window.galleryImages = ['images/v1773076342_23_wby8bv.jpg','images/v1774811620_30_1_eexljz.jpg','images/v1774807176_34_vpeqgv.jpg','images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg','images/v1769868155_M08_qewdva.webp','images/v1770226533_N34_stewru.jpg','images/v1773076226_27_ipqwdd.jpg','images/v1772868264_1_wqosmq.jpg','images/v1774809448_30_2_xtqtpb.jpg','images/v1774810269_12_lo4gpx.jpg','images/v1769868140_B30_yc8rqu.webp','images/v1769868142_H10_byp3oh.webp','images/v1774810653_N35_h2djzp.jpg','images/v1774809447_06_htf59g.jpg'];
+  window.galleryImages = ['images/v1773076342_23_wby8bv.webp','images/v1774811620_30_1_eexljz.webp','images/v1774807176_34_vpeqgv.webp','images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg','images/v1769868155_M08_qewdva.webp','images/v1770226533_N34_stewru.webp','images/v1773076226_27_ipqwdd.webp','images/v1772868264_1_wqosmq.webp','images/v1774809448_30_2_xtqtpb.webp','images/v1774810269_12_lo4gpx.webp','images/v1769868140_B30_yc8rqu.webp','images/v1769868142_H10_byp3oh.webp','images/v1774810653_N35_h2djzp.webp','images/v1774809447_06_htf59g.webp'];
   function openLightbox(index) { const lb = document.getElementById('lightbox'); const img = document.getElementById('lightbox-img'); img.src = window.galleryImages[index]; lb.classList.remove('hidden'); lb.classList.add('flex'); setTimeout(() => lb.style.opacity = '1', 10); }
   function closeLightbox() { const lb = document.getElementById('lightbox'); lb.style.opacity = '0'; setTimeout(() => { lb.classList.remove('flex'); lb.classList.add('hidden'); }, 300); }
 </script>

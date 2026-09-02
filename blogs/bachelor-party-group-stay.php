@@ -1,10 +1,35 @@
 <?php
 $pageTitle = "4BHK Villas in Lonavala for Bachelor Party & Group Stay | Retrofusion Blog";
 $pageDescription = "Planning a bachelor party in Lonavala? Discover the best 4BHK villas for group stays, party-friendly features, ideal villa picks, activities, and planning tips for an unforgettable celebration.";
-$canonicalUrl = "https://retrofusion.in/blog/4bhk-villas-lonavala-bachelor-party-group-stay/";
+$canonicalUrl = "https://retrofusion.in/blogs/bachelor-party-group-stay/";
 $ogTitle = "4BHK Villas in Lonavala for Bachelor Party & Group Stay";
 $ogDescription = "Planning a bachelor party in Lonavala? Discover the best 4BHK villas for group stays, party-friendly features, ideal villa picks, activities, and planning tips for an unforgettable celebration.";
-$ogImage = "images/Untitled-design-27.jpg";
+$ogImage = "https://retrofusion.in/blogs/images/Untitled-design-27.webp";
+$additionalHead = '
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://retrofusion.in/blogs/bachelor-party-group-stay/" },
+      "headline": "4BHK Villas in Lonavala for Bachelor Party & Group Stay",
+      "description": "Planning a bachelor party in Lonavala? Discover the best 4BHK villas for group stays, party-friendly features, ideal villa picks, activities, and planning tips for an unforgettable celebration.",
+      "image": "https://retrofusion.in/blogs/images/Untitled-design-27.webp",
+      "datePublished": "2026-05-18T12:43:04+05:30",
+      "dateModified": "2026-06-25T13:25:47+05:30",
+      "inLanguage": "en-IN",
+      "author": { "@type": "Organization", "name": "Retrofusion Boutique Homestays", "url": "https://retrofusion.in/" },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Retrofusion Boutique Homestays",
+        "logo": { "@type": "ImageObject", "url": "https://retrofusion.in/images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png" }
+      }
+    }
+  ]
+}
+</script>
+';
 include '../includes/header.php';
 ?>
 
@@ -14,9 +39,9 @@ include '../includes/header.php';
       <!-- Main blog content -->
       <div class="min-w-0 bg-white rounded-2xl shadow-md overflow-hidden">
       <div class="relative mb-8 overflow-hidden bg-stone-100 rounded-t-2xl">
-        <img src="images/Untitled-design-27.jpg" alt="4BHK Villas in Lonavala for Bachelor Party &amp; Group Stay" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover blur-2xl scale-110 opacity-60" />
+        <img src="images/Untitled-design-27.webp" alt="4BHK Villas in Lonavala for Bachelor Party &amp; Group Stay" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover blur-2xl scale-110 opacity-60" />
         <div class="relative flex items-center justify-center min-h-[200px] sm:min-h-[240px] md:min-h-[280px] py-6 px-4">
-          <img src="images/Untitled-design-27.jpg" alt="4BHK Villas in Lonavala for Bachelor Party &amp; Group Stay" class="max-h-[280px] md:max-h-[320px] w-auto h-auto max-w-full object-contain rounded-lg shadow-lg" />
+          <img src="images/Untitled-design-27.webp" alt="4BHK Villas in Lonavala for Bachelor Party &amp; Group Stay" class="max-h-[280px] md:max-h-[320px] w-auto h-auto max-w-full object-contain rounded-lg shadow-lg" />
         </div>
       </div>
         <div class="p-6 sm:p-8 lg:p-10">
@@ -40,7 +65,7 @@ include '../includes/header.php';
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Retrofusion's properties are among the most popular choices for bachelor party groups in Lonavala. Each offers a distinct vibe that caters to different group personalities.</p>
 
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">The <a href="https://retrofusion.in/neo-retro">Neo Retro Villa</a> is perfect for groups that want an artsy, sophisticated bachelor celebration. The villa's unique aesthetic, jacuzzi, and mountain views create a premium "bachelorhood's last stand" atmosphere. It's particularly popular with groups who want an Instagram-worthy setting for the celebration.</p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">The <a href="https://retrofusion.in/neo-retro">Neo Retro Villa</a> is perfect for groups that want an artsy, sophisticated bachelor celebration. The villa's unique aesthetic, jacuzzi, and <a href="/mountain-view-villa-lonavala">mountain views</a> create a premium "bachelorhood's last stand" atmosphere. It's particularly popular with groups who want an Instagram-worthy setting for the celebration.</p>
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">The <a href="https://retrofusion.in/retro-villas">Retro Villa</a> with its vintage Bollywood character and plunge pool is ideal for groups who love nostalgia, character, and a sense of fun embedded in the property's identity. Evening pool sessions under the stars, BBQ on the terrace, and the villa's unique personality make for genuinely memorable bachelor party memories.</p>
 
@@ -52,7 +77,7 @@ include '../includes/header.php';
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">The Aamby Valley Skydiving experience is available nearby for truly adventurous groups. Lonavala town offers multiple restaurants, bars, and hangout spots for evenings out. Chikki shopping and local food exploration is a fun group activity that's also surprisingly competitive when you challenge different people to find the best local treats.</p>
 
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">The villa itself becomes the party hub for most groups — morning pool sessions, afternoon relaxation, evening BBQ and bonfire, late-night music and dancing. The private pool becomes the centerpiece of the celebration, and most bachelor party groups find they spend the majority of their time within the villa property itself. The <a href="https://retrofusion.in/staycation-in-lonavala">Lonavala staycation experience</a> is designed to maximize in-villa enjoyment while keeping the broader Lonavala experience accessible.</p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">The villa itself becomes the party hub for most groups — morning pool sessions, afternoon relaxation, evening BBQ and <a href="/villas-in-lonavala-with-bonfire">bonfire</a>, late-night music and dancing. The private pool becomes the centerpiece of the celebration, and most bachelor party groups find they spend the majority of their time within the villa property itself. The <a href="https://retrofusion.in/staycation-in-lonavala">Lonavala staycation experience</a> is designed to maximize in-villa enjoyment while keeping the broader Lonavala experience accessible.</p>
 
 <h2 class="text-2xl sm:text-3xl font-bold text-stone-800 mt-12 mb-4 leading-snug font-display border-b-2 border-amber-500 pb-2 inline-block">Planning Tips for a 4BHK Villa Bachelor Party in Lonavala</h2>
 

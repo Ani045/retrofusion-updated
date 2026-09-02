@@ -7,7 +7,7 @@ $pageAuthor = "Retrofusion Boutique Homestays";
 $pagePublisher = "Retrofusion Boutique Homestays";
 $canonicalUrl = "https://retrofusion.in/4bhk-villa-in-lonavala.php";
 $ogTitle = "Premium 4BHK Villa in Lonavala";
-$ogImage = "images/v1770226533_N34_stewru.jpg";
+$ogImage = "https://retrofusion.in/images/v1770226533_N34_stewru.webp";
 include 'includes/header.php';
 ?>
 
@@ -25,11 +25,11 @@ include 'includes/header.php';
       "description": "Luxurious 4BHK villa in Lonavala featuring a private swimming pool. Ideal for family, couples, parties, and corporate office retreats.",
       "url": "https://retrofusion.in/4bhk-villa-in-lonavala.php",
       "image": [
-        "images/v1770226533_N34_stewru.jpg",
+        "images/v1770226533_N34_stewru.webp",
         "images/v1769868140_B30_yc8rqu.webp",
         "images/v1769868140_C26_j6pstx.webp",
         "images/v1769868140_05_ivb2yz.webp",
-        "images/v1770226534_N36_om6t9d.jpg",
+        "images/v1770226534_N36_om6t9d.webp",
         "images/v1769868155_M08_qewdva.webp",
         "images/v1769868143_M01_jjmwdw.webp",
         "images/v1769868142_G31_mdlfjh.webp"
@@ -37,7 +37,6 @@ include 'includes/header.php';
       "telephone": "+91 8999036644",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Lonavala",
         "addressLocality": "Lonavala",
         "addressRegion": "Maharashtra",
         "postalCode": "410401",
@@ -58,26 +57,6 @@ include 'includes/header.php';
         "maxValue": 15,
         "unitText": "Person"
       },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "128"
-      },
-      "review": [
-        {
-          "@type": "Review",
-          "datePublished": "2024-03-01T10:00:00+05:30",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5"
-          },
-          "author": {
-            "@type": "Person",
-            "name": "Arjun K."
-          },
-          "reviewBody": "Amazing 4BHK villa in Lonavala. The private pool was fantastic and perfect for our family."
-        }
-      ],
       "containsPlace": [
         {
           "@type": "Accommodation",
@@ -116,24 +95,18 @@ include 'includes/header.php';
           "name": "Air Conditioning",
           "value": "True"
         }
-      ]
+      ],
+      "priceRange": "$$"
     },
     {
       "@type": "Product",
       "@id": "https://retrofusion.in/4bhk-villa-in-lonavala.php#product",
       "name": "4BHK Villa in Lonavala",
-      "image": "images/v1770226533_N34_stewru.jpg",
+      "image": "https://retrofusion.in/images/v1770226533_N34_stewru.webp",
       "description": "Premium 4BHK villa in Lonavala featuring a private swimming pool. Ideal for family, couples, parties, and corporate office retreats.",
       "brand": {
         "@type": "Brand",
         "name": "Retrofusion Boutique Homestays"
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "bestRating": "5",
-        "worstRating": "1",
-        "ratingCount": "156"
       }
     },
     {
@@ -161,7 +134,7 @@ include 'includes/header.php';
           "name": "What is the maximum capacity of the 4BHK villa in Lonavala?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Our 4BHK villa can comfortably accommodate groups of varying sizes, typically sleeping up to 12-15 guests depending on bed configurations and extra mattresses provided."
+            "text": "Our 4BHK villa can comfortably accommodate groups of varying sizes, typically sleepng up to 12-15 guests depending on bed configurations and extra mattresses provided."
           }
         },
         {
@@ -228,7 +201,7 @@ include 'includes/header.php';
 
 <!-- ===== HERO SECTION ===== -->
 <section class="relative h-screen overflow-hidden">
-  <img src="images/v1770226533_N34_stewru.jpg"
+  <img src="images/v1770226533_N34_stewru.webp"
     class="absolute inset-0 w-full h-full object-cover" alt="4BHK Villa in Lonavala with Private Pool" title="4BHK Villa in Lonavala with Private Pool" />
   <div class="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-black/60"></div>
   <div class="relative z-10 h-full flex flex-col justify-center items-center px-4 sm:px-6 lg:px-8">
@@ -351,7 +324,7 @@ include 'includes/header.php';
       <div id="bento-grid" class="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4 h-[400px] md:h-[450px] transition-opacity duration-500">
         <!-- Image 1 -->
         <div class="relative overflow-hidden group cursor-pointer col-span-2 md:col-span-2 row-span-1 md:row-span-2 rounded-2xl shadow-lg" onclick="openLightbox(0)">
-          <img loading="lazy" src="images/v1770226533_N34_stewru.jpg" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="4BHK Villa Exterior" title="4BHK Villa in Lonavala Exterior View">
+          <img loading="lazy" src="images/v1770226533_N34_stewru.webp" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="4BHK Villa Exterior" title="4BHK Villa in Lonavala Exterior View">
           <div class="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors duration-300 flex items-center justify-center">
             <div class="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
               <div class="w-10 h-10 md:w-12 md:h-12 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center">
@@ -673,7 +646,7 @@ include 'includes/header.php';
             <div class="pt-9 sm:pt-11 w-full flex flex-col items-center">
               <a href="https://www.instagram.com/retrofusion.in/" target="_blank" class="w-full">
                 <img loading="lazy"
-                  src="images/v1772471878_Screenshot_2026-03-02_at_10.47.42_PM_wo3toj.png"
+                  src="images/v1772471878_Screenshot_2026-03-02_at_10.47.42_PM_wo3toj.webp"
                   alt="Instagram Profile Screenshot"
                   class="w-full h-auto block opacity-95 transition-opacity duration-300 group-hover/screen:opacity-100" />
               </a>
@@ -706,7 +679,7 @@ include 'includes/header.php';
             <!-- Image with amber border -->
             <div class="mx-2.5 mb-2 border-[3px] border-amber-600 rounded-lg overflow-hidden">
               <img loading="lazy"
-                src="images/v1772473164_Screenshot_2026-03-02_at_11.08.01_PM_a5g0vs.png"
+                src="images/v1772473164_Screenshot_2026-03-02_at_11.08.01_PM_a5g0vs.webp"
                 alt="Instagram Post"
                 class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
@@ -758,7 +731,7 @@ include 'includes/header.php';
             </div>
             <div class="mx-2.5 mb-2 border-[3px] border-amber-600 rounded-lg overflow-hidden">
               <img loading="lazy"
-                src="images/v1772473164_Screenshot_2026-03-02_at_11.07.23_PM_sbgs0f.png"
+                src="images/v1772473164_Screenshot_2026-03-02_at_11.07.23_PM_sbgs0f.webp"
                 alt="Instagram Post"
                 class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
@@ -809,7 +782,7 @@ include 'includes/header.php';
             </div>
             <div class="mx-2.5 mb-2 border-[3px] border-amber-600 rounded-lg overflow-hidden">
               <img loading="lazy"
-                src="images/v1772473163_Screenshot_2026-03-02_at_11.07.36_PM_ftkdee.png"
+                src="images/v1772473163_Screenshot_2026-03-02_at_11.07.36_PM_ftkdee.webp"
                 alt="Instagram Post"
                 class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
@@ -860,7 +833,7 @@ include 'includes/header.php';
             </div>
             <div class="mx-2.5 mb-2 border-[3px] border-amber-600 rounded-lg overflow-hidden">
               <img loading="lazy"
-                src="images/v1772473163_Screenshot_2026-03-02_at_11.07.51_PM_yzseuz.png"
+                src="images/v1772473163_Screenshot_2026-03-02_at_11.07.51_PM_yzseuz.webp"
                 alt="Instagram Post"
                 class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
@@ -922,11 +895,11 @@ include 'includes/header.php';
 
 <script>
   window.galleryImages = [
-    'images/v1770226533_N34_stewru.jpg',
+    'images/v1770226533_N34_stewru.webp',
     'images/v1769868140_B30_yc8rqu.webp',
     'images/v1769868140_C26_j6pstx.webp',
     'images/v1769868140_05_ivb2yz.webp',
-    'images/v1770226534_N36_om6t9d.jpg',
+    'images/v1770226534_N36_om6t9d.webp',
     'images/v1769868155_M08_qewdva.webp',
     'images/v1769868143_M01_jjmwdw.webp',
     'images/v1769868142_G31_mdlfjh.webp',

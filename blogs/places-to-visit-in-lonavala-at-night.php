@@ -1,10 +1,35 @@
 <?php
 $pageTitle = "Places to Visit in Lonavala at Night | 10 Spots | Retrofusion Blog";
 $pageDescription = "Explore 10 places to visit in Lonavala at night, from starry viewpoints to lively markets and late-night eats.";
-$canonicalUrl = "https://retrofusion.in/blog/places-to-visit-in-lonavala-at-night/";
+$canonicalUrl = "https://retrofusion.in/blogs/places-to-visit-in-lonavala-at-night/";
 $ogTitle = "Places to Visit in Lonavala at Night | 10 Spots";
 $ogDescription = "Explore 10 places to visit in Lonavala at night, from starry viewpoints to lively markets and late-night eats.";
-$ogImage = "images/ChatGPT-Image-Jul-4-2025-09_56_35-PM.png";
+$ogImage = "https://retrofusion.in/blogs/images/ChatGPT-Image-Jul-4-2025-09_56_35-PM.webp";
+$additionalHead = '
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://retrofusion.in/blogs/places-to-visit-in-lonavala-at-night/" },
+      "headline": "Places to Visit in Lonavala at Night | 10 Spots",
+      "description": "Explore 10 places to visit in Lonavala at night, from starry viewpoints to lively markets and late-night eats.",
+      "image": "https://retrofusion.in/blogs/images/ChatGPT-Image-Jul-4-2025-09_56_35-PM.webp",
+      "datePublished": "2026-06-25T13:02:32+05:30",
+      "dateModified": "2026-06-25T13:25:47+05:30",
+      "inLanguage": "en-IN",
+      "author": { "@type": "Organization", "name": "Retrofusion Boutique Homestays", "url": "https://retrofusion.in/" },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Retrofusion Boutique Homestays",
+        "logo": { "@type": "ImageObject", "url": "https://retrofusion.in/images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png" }
+      }
+    }
+  ]
+}
+</script>
+';
 include '../includes/header.php';
 ?>
 
@@ -14,9 +39,9 @@ include '../includes/header.php';
       <!-- Main blog content -->
       <div class="min-w-0 bg-white rounded-2xl shadow-md overflow-hidden">
       <div class="relative mb-8 overflow-hidden bg-stone-100 rounded-t-2xl">
-        <img src="images/ChatGPT-Image-Jul-4-2025-09_56_35-PM.png" alt="Places to Visit in Lonavala at Night | 10 Spots" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover blur-2xl scale-110 opacity-60" />
+        <img src="images/ChatGPT-Image-Jul-4-2025-09_56_35-PM.webp" alt="Places to Visit in Lonavala at Night | 10 Spots" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover blur-2xl scale-110 opacity-60" />
         <div class="relative flex items-center justify-center min-h-[200px] sm:min-h-[240px] md:min-h-[280px] py-6 px-4">
-          <img src="images/ChatGPT-Image-Jul-4-2025-09_56_35-PM.png" alt="Places to Visit in Lonavala at Night | 10 Spots" class="max-h-[280px] md:max-h-[320px] w-auto h-auto max-w-full object-contain rounded-lg shadow-lg" />
+          <img src="images/ChatGPT-Image-Jul-4-2025-09_56_35-PM.webp" alt="Places to Visit in Lonavala at Night | 10 Spots" class="max-h-[280px] md:max-h-[320px] w-auto h-auto max-w-full object-contain rounded-lg shadow-lg" />
         </div>
       </div>
         <div class="p-6 sm:p-8 lg:p-10">
@@ -29,7 +54,7 @@ include '../includes/header.php';
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">We curated ten places to visit in Lonavala at night based on local tips and guides like Thrillophilia. Each spot stays lively or serene past dusk, offering views, bites, or vibes without overwhelming your evening plans.</p>
 
 <div>
-<figure><img src="images/ChatGPT-Image-Jul-4-2025-10_00_05-PM.png" /></figure>
+<figure><img src="images/ChatGPT-Image-Jul-4-2025-10_00_05-PM.webp" /></figure>
 </div>
 
 <h2 class="text-2xl sm:text-3xl font-bold text-stone-800 mt-12 mb-4 leading-snug font-display border-b-2 border-amber-500 pb-2 inline-block">Pawna Lake Night Camp</h2>
@@ -58,7 +83,7 @@ include '../includes/header.php';
 
 <h3 class="text-xl sm:text-2xl font-semibold text-stone-800 mt-8 mb-3 leading-snug font-display">Night-Time Charm</h3>
 
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Tiger’s Point sparkles with valley lights. A crisp breeze cuts through the warm night air.</p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5"><a href="/villas-near-tiger-point-lonavala">Tiger’s Point</a> sparkles with valley lights. A crisp breeze cuts through the warm night air.</p>
 
 <h3 class="text-xl sm:text-2xl font-semibold text-stone-800 mt-8 mb-3 leading-snug font-display">Quick Info</h3>
 
@@ -80,7 +105,7 @@ include '../includes/header.php';
 
 <h3 class="text-xl sm:text-2xl font-semibold text-stone-800 mt-8 mb-3 leading-snug font-display">Night-Time Charm</h3>
 
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Stars frame Lion’s Point’s sweeping view. Tungarli Lake twinkles below, calm and inviting.</p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Stars frame <a href="/villas-near-lion-point">Lion’s Point</a>’s sweeping view. Tungarli Lake twinkles below, calm and inviting.</p>
 
 <h3 class="text-xl sm:text-2xl font-semibold text-stone-800 mt-8 mb-3 leading-snug font-display">Quick Info</h3>
 
@@ -290,7 +315,7 @@ include '../includes/header.php';
   <div class="px-5 pb-5 text-stone-600 text-sm sm:text-base leading-relaxed prose prose-stone max-w-none">
     <div>
 
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Pawna Lake campsites are safe with staff on-site. Book trusted organizers like Thrillophilia for peace of mind.</p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5"><a href="/best-villas-near-pawna-lake-in-lonavala">Pawna Lake</a> campsites are safe with staff on-site. Book trusted organizers like Thrillophilia for peace of mind.</p>
 
 </div>
 </div>

@@ -7,7 +7,7 @@ $pageAuthor = "Retrofusion Boutique Homestays";
 $pagePublisher = "Retrofusion Boutique Homestays";
 $canonicalUrl = "https://retrofusion.in/honeymoon-villas-in-lonavala";
 $ogTitle = "Luxury Honeymoon Villas in Lonavala | Romantic 4BHK Escapes";
-$ogImage = "images/honeymoon_villa_lonavala_hero.png";
+$ogImage = "https://retrofusion.in/images/couples_villa_lonavala_hero.webp";
 include 'includes/header.php';
 ?>
 
@@ -23,14 +23,13 @@ include 'includes/header.php';
       "description": "Exquisite 4BHK honeymoon villas in Lonavala featuring private pools, mountain views, and bespoke romantic services for newly married couples. Experience the best honeymoon stay in Lonavala.",
       "url": "https://retrofusion.in/honeymoon-villas-in-lonavala",
       "image": [
-        "https://retrofusion.in/images/v1774810269_12_lo4gpx.jpg",
-        "https://retrofusion.in/images/v1773076226_27_ipqwdd.jpg",
-        "https://retrofusion.in/images/v1772868264_1_wqosmq.jpg"
+        "https://retrofusion.in/images/v1774810269_12_lo4gpx.webp",
+        "https://retrofusion.in/images/v1773076226_27_ipqwdd.webp",
+        "https://retrofusion.in/images/v1772868264_1_wqosmq.webp"
       ],
       "telephone": "+91 8999036644",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Lonavala",
         "addressLocality": "Lonavala",
         "addressRegion": "Maharashtra",
         "postalCode": "410401",
@@ -41,32 +40,23 @@ include 'includes/header.php';
         "latitude": "18.7544",
         "longitude": "73.4062"
       },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "158"
-      },
-      "review": [
-        {
-          "@type": "Review",
-          "author": { "@type": "Person", "name": "Ananya Sharma" },
-          "datePublished": "2024-03-15",
-          "reviewBody": "The most romantic honeymoon villas in Lonavala. The private pool and candlelight dinner were exceptional.",
-          "reviewRating": { "@type": "Rating", "ratingValue": "5" }
-        },
-        {
-          "@type": "Review",
-          "author": { "@type": "Person", "name": "Rahul Mehta" },
-          "datePublished": "2024-02-10",
-          "reviewBody": "Luxury at its best. Perfect for newly married couples seeking privacy in Lonavala.",
-          "reviewRating": { "@type": "Rating", "ratingValue": "5" }
-        }
-      ],
       "priceRange": "₹₹₹",
       "amenityFeature": [
-        { "@type": "LocationFeatureSpecification", "name": "Private Swimming Pool", "value": "Yes" },
-        { "@type": "LocationFeatureSpecification", "name": "Mountain View", "value": "Yes" },
-        { "@type": "LocationFeatureSpecification", "name": "Bespoke Honeymoon Decor", "value": "Yes" }
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Private Swimming Pool",
+          "value": "Yes"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Mountain View",
+          "value": "Yes"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Bespoke Honeymoon Decor",
+          "value": "Yes"
+        }
       ]
     },
     {
@@ -74,13 +64,17 @@ include 'includes/header.php';
       "@id": "https://retrofusion.in/#organization",
       "name": "Retrofusion Boutique Homestays",
       "url": "https://retrofusion.in/",
-      "logo": "https://retrofusion.in/images/logo.png",
+      "logo": "https://retrofusion.in/images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png",
       "contactPoint": {
         "@type": "ContactPoint",
         "telephone": "+91 8999036644",
         "contactType": "Reservations",
         "areaServed": "IN",
-        "availableLanguage": ["en", "hi", "mr"]
+        "availableLanguage": [
+          "en",
+          "hi",
+          "mr"
+        ]
       }
     },
     {
@@ -120,6 +114,22 @@ include 'includes/header.php';
             "@type": "Answer",
             "text": "Yes, we specialize in honeymoon surprises, including floral bed decor, balloon arrangements, poolside candlelight dinners, and customized cakes to make your first trip together unforgettable."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the swimming pool private for the honeymoon couple?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. When you book a villa with Retrofusion, the private pool is exclusively yours. There are no shared spaces, ensuring complete privacy for your romantic moments."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can we hire a private chef for a romantic dinner?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, we can arrange a private chef to prepare a curated multi-course meal, served in a romantic setting on the pool deck or the terrace overlooking the hills."
+          }
         }
       ]
     }
@@ -129,7 +139,7 @@ include 'includes/header.php';
 
 <!-- ===== HERO SECTION ===== -->
 <section class="relative h-screen overflow-hidden">
-  <img src="images/couples_villa_lonavala_hero.png"
+  <img src="images/couples_villa_lonavala_hero.webp"
     class="absolute inset-0 w-full h-full object-cover" alt="Honeymoon Villas in Lonavala - Luxury Private Pool Stay" title="Best Honeymoon Villas in Lonavala" />
   <div class="absolute inset-0 bg-gradient-to-b from-black/50 via-black/20 to-black/60"></div>
   <div class="relative z-10 h-full flex flex-col justify-center items-center px-4 sm:px-6 lg:px-8 text-center">
@@ -158,7 +168,7 @@ include 'includes/header.php';
       <div class="w-full lg:w-1/2 relative">
         <div class="absolute -top-10 -left-10 w-40 h-40 bg-amber-50 rounded-full mix-blend-multiply filter blur-2xl opacity-70 animate-blob"></div>
         <div class="absolute -bottom-10 -right-10 w-40 h-40 bg-stone-100 rounded-full mix-blend-multiply filter blur-2xl opacity-70 animate-blob animation-delay-2000"></div>
-        <img src="images/v1773076226_27_ipqwdd.jpg" alt="Romantic Honeymoon Setup" class="relative rounded-3xl shadow-2xl z-10 w-full hover:scale-[1.02] transition-transform duration-700" />
+        <img src="images/v1773076226_27_ipqwdd.webp" alt="Romantic Honeymoon Setup" class="relative rounded-3xl shadow-2xl z-10 w-full hover:scale-[1.02] transition-transform duration-700" />
       </div>
       
       <div class="w-full lg:w-1/2 space-y-8">
@@ -200,25 +210,25 @@ include 'includes/header.php';
     <div class="grid grid-cols-1 md:grid-cols-4 gap-4 h-auto md:h-[800px]">
       <!-- Row 1 -->
       <div class="md:col-span-2 relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(0)">
-        <img src="images/v1774810269_12_lo4gpx.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Private Honeymoon Pool">
+        <img src="images/v1774810269_12_lo4gpx.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Private Honeymoon Pool">
         <div class="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-colors duration-500"></div>
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(1)">
-        <img src="images/v1773076226_27_ipqwdd.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Honeymoon Candlelight Dinner">
+        <img src="images/v1773076226_27_ipqwdd.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Honeymoon Candlelight Dinner">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(2)">
-        <img src="images/v1772868264_1_wqosmq.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Romantic Evening">
+        <img src="images/v1772868264_1_wqosmq.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Romantic Evening">
       </div>
       
       <!-- Row 2 -->
       <div class="md:col-span-2 relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(3)">
-        <img src="images/v1774807173_04_y636xz.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Villa Architecture">
+        <img src="images/v1774807173_04_y636xz.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Villa Architecture">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(4)">
         <img src="images/v1769868155_M08_qewdva.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Honeymoon Suite Bedroom">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(5)">
-        <img src="images/v1770226533_N34_stewru.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Hill View Deck">
+        <img src="images/v1770226533_N34_stewru.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Hill View Deck">
       </div>
       
       <!-- Row 3 -->
@@ -226,13 +236,13 @@ include 'includes/header.php';
         <img src="images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Luxury Interior">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(7)">
-        <img src="images/v1774811620_30_1_eexljz.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Modern Amenities">
+        <img src="images/v1774811620_30_1_eexljz.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Modern Amenities">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(8)">
-        <img src="images/v1774807176_34_vpeqgv.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Poolside Relaxation">
+        <img src="images/v1774807176_34_vpeqgv.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Poolside Relaxation">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(9)">
-        <img src="images/v1773076342_23_wby8bv.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Chef's Special Meal">
+        <img src="images/v1773076342_23_wby8bv.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Chef's Special Meal">
       </div>
       
       <!-- Row 4 -->
@@ -243,10 +253,10 @@ include 'includes/header.php';
         <img src="images/v1769868142_H10_byp3oh.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Morning Views">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(12)">
-        <img src="images/v1774810653_N35_h2djzp.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Artistic Decor">
+        <img src="images/v1774810653_N35_h2djzp.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Artistic Decor">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(13)">
-        <img src="images/v1774809447_06_htf59g.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Elegant Finishings">
+        <img src="images/v1774809447_06_htf59g.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Elegant Finishings">
       </div>
     </div>
   </div>
@@ -264,7 +274,7 @@ include 'includes/header.php';
       <!-- Retro Visawa -->
       <div class="group bg-white rounded-3xl overflow-hidden shadow-xl border border-stone-100 transition-all duration-500 hover:-translate-y-2">
         <div class="relative h-64 overflow-hidden">
-          <img src="images/v1774807173_04_y636xz.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Retro Visawa Honeymoon">
+          <img src="images/v1774807173_04_y636xz.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Retro Visawa Honeymoon">
           <div class="absolute top-4 left-4 bg-emerald-500 text-white text-[10px] uppercase font-bold px-4 py-1 rounded-full italic">Infinity Pool Bliss</div>
         </div>
         <div class="p-8">
@@ -290,7 +300,7 @@ include 'includes/header.php';
       <!-- Retro Villa -->
       <div class="group bg-white rounded-3xl overflow-hidden shadow-xl border border-stone-100 transition-all duration-500 hover:-translate-y-2">
         <div class="relative h-64 overflow-hidden">
-          <img src="images/v1770226533_N34_stewru.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Retro Villa Honeymoon">
+          <img src="images/v1770226533_N34_stewru.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Retro Villa Honeymoon">
           <div class="absolute top-4 left-4 bg-stone-800 text-white text-[10px] uppercase font-bold px-4 py-1 rounded-full italic">Classic Elegance</div>
         </div>
         <div class="p-8">
@@ -576,20 +586,20 @@ include 'includes/header.php';
 
 <script>
   const galleryImages = [
-    { src: 'images/v1774810269_12_lo4gpx.jpg', cap: 'Private Romantic Pool' },
-    { src: 'images/v1773076226_27_ipqwdd.jpg', cap: 'Honeymoon Candlelight Dinner' },
-    { src: 'images/v1772868264_1_wqosmq.jpg', cap: 'Romantic Evening Vibes' },
-    { src: 'images/v1774807173_04_y636xz.jpg', cap: 'Villa Architecture' },
+    { src: 'images/v1774810269_12_lo4gpx.webp', cap: 'Private Romantic Pool' },
+    { src: 'images/v1773076226_27_ipqwdd.webp', cap: 'Honeymoon Candlelight Dinner' },
+    { src: 'images/v1772868264_1_wqosmq.webp', cap: 'Romantic Evening Vibes' },
+    { src: 'images/v1774807173_04_y636xz.webp', cap: 'Villa Architecture' },
     { src: 'images/v1769868155_M08_qewdva.webp', cap: 'Honeymoon Suite' },
-    { src: 'images/v1770226533_N34_stewru.jpg', cap: 'Valley View Deck' },
+    { src: 'images/v1770226533_N34_stewru.webp', cap: 'Valley View Deck' },
     { src: 'images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg', cap: 'Luxury Living Area' },
-    { src: 'images/v1774811620_30_1_eexljz.jpg', cap: 'Modern Comforts' },
-    { src: 'images/v1774807176_34_vpeqgv.jpg', cap: 'Poolside Lounge' },
-    { src: 'images/v1773076342_23_wby8bv.jpg', cap: 'Private Chef Dining' },
+    { src: 'images/v1774811620_30_1_eexljz.webp', cap: 'Modern Comforts' },
+    { src: 'images/v1774807176_34_vpeqgv.webp', cap: 'Poolside Lounge' },
+    { src: 'images/v1773076342_23_wby8bv.webp', cap: 'Private Chef Dining' },
     { src: 'images/v1769868140_B30_yc8rqu.webp', cap: 'Sunlit Veranda' },
     { src: 'images/v1769868142_H10_byp3oh.webp', cap: 'Morning Hill Views' },
-    { src: 'images/v1774810653_N35_h2djzp.jpg', cap: 'Artistic Interiors' },
-    { src: 'images/v1774809447_06_htf59g.jpg', cap: 'Premium Finishing' }
+    { src: 'images/v1774810653_N35_h2djzp.webp', cap: 'Artistic Interiors' },
+    { src: 'images/v1774809447_06_htf59g.webp', cap: 'Premium Finishing' }
   ];
 
   let currentImgIdx = 0;

@@ -1,10 +1,35 @@
 <?php
 $pageTitle = "Rajmachi Fort Lonavala: Trek, Timings, Entry Fee & Tips | Retrofusion Blog";
 $pageDescription = "Planning a trek to Rajmachi Fort Lonavala for an unforgettable adventure in 2025? Nestled in the rugged Sahyadri Mountains between the twin hill stations of";
-$canonicalUrl = "https://retrofusion.in/blog/rajmachi-fort-lonavala/";
+$canonicalUrl = "https://retrofusion.in/blogs/rajmachi-fort-lonavala/";
 $ogTitle = "Rajmachi Fort Lonavala: Trek, Timings, Entry Fee & Tips";
 $ogDescription = "Planning a trek to Rajmachi Fort Lonavala for an unforgettable adventure in 2025? Nestled in the rugged Sahyadri Mountains between the twin hill stations of";
-$ogImage = "images/Rajmachi-Fort-Lonavala-Trek-Timings-Entry-Fee-Tips-1024x559.png";
+$ogImage = "https://retrofusion.in/blogs/images/Rajmachi-Fort-Lonavala-Trek-Timings-Entry-Fee-Tips-1024x559.webp";
+$additionalHead = '
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://retrofusion.in/blogs/rajmachi-fort-lonavala/" },
+      "headline": "Rajmachi Fort Lonavala: Trek, Timings, Entry Fee & Tips",
+      "description": "Planning a trek to Rajmachi Fort Lonavala for an unforgettable adventure in 2025? Nestled in the rugged Sahyadri Mountains between the twin hill stations of",
+      "image": "https://retrofusion.in/blogs/images/Rajmachi-Fort-Lonavala-Trek-Timings-Entry-Fee-Tips-1024x559.webp",
+      "datePublished": "2026-06-25T13:02:32+05:30",
+      "dateModified": "2026-06-25T13:25:47+05:30",
+      "inLanguage": "en-IN",
+      "author": { "@type": "Organization", "name": "Retrofusion Boutique Homestays", "url": "https://retrofusion.in/" },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Retrofusion Boutique Homestays",
+        "logo": { "@type": "ImageObject", "url": "https://retrofusion.in/images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png" }
+      }
+    }
+  ]
+}
+</script>
+';
 include '../includes/header.php';
 ?>
 
@@ -14,9 +39,9 @@ include '../includes/header.php';
       <!-- Main blog content -->
       <div class="min-w-0 bg-white rounded-2xl shadow-md overflow-hidden">
       <div class="relative mb-8 overflow-hidden bg-stone-100 rounded-t-2xl">
-        <img src="images/Rajmachi-Fort-Lonavala-Trek-Timings-Entry-Fee-Tips-1024x559.png" alt="Rajmachi Fort Lonavala: Trek, Timings, Entry Fee &amp; Tips" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover blur-2xl scale-110 opacity-60" />
+        <img src="images/Rajmachi-Fort-Lonavala-Trek-Timings-Entry-Fee-Tips-1024x559.webp" alt="Rajmachi Fort Lonavala: Trek, Timings, Entry Fee &amp; Tips" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover blur-2xl scale-110 opacity-60" />
         <div class="relative flex items-center justify-center min-h-[200px] sm:min-h-[240px] md:min-h-[280px] py-6 px-4">
-          <img src="images/Rajmachi-Fort-Lonavala-Trek-Timings-Entry-Fee-Tips-1024x559.png" alt="Rajmachi Fort Lonavala: Trek, Timings, Entry Fee &amp; Tips" class="max-h-[280px] md:max-h-[320px] w-auto h-auto max-w-full object-contain rounded-lg shadow-lg" />
+          <img src="images/Rajmachi-Fort-Lonavala-Trek-Timings-Entry-Fee-Tips-1024x559.webp" alt="Rajmachi Fort Lonavala: Trek, Timings, Entry Fee &amp; Tips" class="max-h-[280px] md:max-h-[320px] w-auto h-auto max-w-full object-contain rounded-lg shadow-lg" />
         </div>
       </div>
         <div class="p-6 sm:p-8 lg:p-10">
@@ -63,7 +88,7 @@ include '../includes/header.php';
 <ul class="list-disc pl-6 space-y-2 text-base sm:text-lg text-stone-700 mb-5">
 <li class="leading-relaxed"><strong>Lonavala Route</strong> (Easy to Moderate):
 <ul class="list-disc pl-6 space-y-2 text-base sm:text-lg text-stone-700 mb-5">
-<li class="leading-relaxed"><strong>Distance</strong>: Approximately 16 km one way from Lonavala Railway Station to Udhewadi village, the base of the fort.<br></li>
+<li class="leading-relaxed"><strong>Distance</strong>: Approximately 16 km one way from <a href="/villas-near-lonavala-railway-station">Lonavala Railway Station</a> to Udhewadi village, the base of the fort.<br></li>
 
 <li class="leading-relaxed"><strong>Duration</strong>: 4–5 hours one way, suitable for beginners and families from Pune or Mumbai.<br></li>
 
@@ -131,16 +156,16 @@ include '../includes/header.php';
 
 <li class="leading-relaxed"><strong>Kondhane Caves</strong>: Ancient Buddhist caves (1st century BCE) 3 km from Kondivade village, with intricate carvings, ideal for history buffs from Kolkata or Pune.<br></li>
 
-<li class="leading-relaxed"><strong>Bhushi Dam</strong>: A monsoon favorite 6 km from Lonavala, with cascading water for splashing, loved by families from Gujarat to West Bengal.<br></li>
+<li class="leading-relaxed"><strong><a href="/villas-near-bhushi-dam-lonavala">Bhushi Dam</a></strong>: A monsoon favorite 6 km from Lonavala, with cascading water for splashing, loved by families from Gujarat to West Bengal.<br></li>
 
 <li class="leading-relaxed"><strong>Tiger’s Leap</strong>: A cliff-top viewpoint 11 km away, offering stunning Sahyadri views, perfect for photography enthusiasts from Delhi or Chennai.<br></li>
 
-<li class="leading-relaxed"><strong>Pawna Lake</strong>: A serene spot 15 km away for camping and boating, ideal for nature lovers from Bengaluru or Kochi.</li>
+<li class="leading-relaxed"><strong><a href="/best-villas-near-pawna-lake-in-lonavala">Pawna Lake</a></strong>: A serene spot 15 km away for camping and boating, ideal for nature lovers from Bengaluru or Kochi.</li>
 </ol>
 
 <h2 class="text-2xl sm:text-3xl font-bold text-stone-800 mt-12 mb-4 leading-snug font-display border-b-2 border-amber-500 pb-2 inline-block"><strong>Choose RetroFusion Boutique Homestay for Your Stay</strong></h2>
 
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">To enhance your trek to <strong>Rajmachi Fort Lonavala</strong>, stay at <strong>RetroFusion Boutique Homestay</strong> (<a href="https://retrofusion.in/">https://retrofusion.in/</a>), located in the heart of Lonavala, just a short drive from the trekking base. This homestay offers two stunning villas—Retro Villa and Neo Retro—blending vintage charm with modern comforts.</p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">To enhance your trek to <strong>Rajmachi Fort Lonavala</strong>, stay at <strong>RetroFusion Boutique Homestay</strong> (<a href="https://retrofusion.in/">https://retrofusion.in/</a>), located in the heart of Lonavala, just a short drive from the trekking base. This homestay offers two stunning villas—<a href="/retro-villas">Retro Villa</a> and <a href="/neo-retro">Neo Retro</a>—blending vintage charm with modern comforts.</p>
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Retro Villa is perfect for large groups or families (up to 10 members), offering a vibrant atmosphere for travelers from Mumbai or Delhi. Neo Retro caters to corporate retreats, pet-friendly getaways, and creative escapes, ideal for professionals from Bengaluru or pet lovers from Chennai. Founded by an artist and nature enthusiast, RetroFusion provides a serene, artistic ambiance with private plunge pools, extended sit-outs, BBQ facilities, and tailored workshops.</p>
 

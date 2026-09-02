@@ -1,10 +1,35 @@
 <?php
 $pageTitle = "Must Visit Places in Lonavala | Quick 8-Stop Checklist | Retrofusion Blog";
 $pageDescription = "Skim this quick checklist of 8 must visit places in Lonavala for a perfect day trip with tips and maps.";
-$canonicalUrl = "https://retrofusion.in/blog/must-visit-places-in-lonavala/";
+$canonicalUrl = "https://retrofusion.in/blogs/must-visit-places-in-lonavala/";
 $ogTitle = "Must Visit Places in Lonavala | Quick 8-Stop Checklist";
 $ogDescription = "Skim this quick checklist of 8 must visit places in Lonavala for a perfect day trip with tips and maps.";
-$ogImage = "images/ChatGPT-Image-Jul-4-2025-09_34_15-PM.png";
+$ogImage = "https://retrofusion.in/blogs/images/ChatGPT-Image-Jul-4-2025-09_34_15-PM.webp";
+$additionalHead = '
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://retrofusion.in/blogs/must-visit-places-in-lonavala/" },
+      "headline": "Must Visit Places in Lonavala | Quick 8-Stop Checklist",
+      "description": "Skim this quick checklist of 8 must visit places in Lonavala for a perfect day trip with tips and maps.",
+      "image": "https://retrofusion.in/blogs/images/ChatGPT-Image-Jul-4-2025-09_34_15-PM.webp",
+      "datePublished": "2026-06-25T13:02:32+05:30",
+      "dateModified": "2026-06-25T13:25:47+05:30",
+      "inLanguage": "en-IN",
+      "author": { "@type": "Organization", "name": "Retrofusion Boutique Homestays", "url": "https://retrofusion.in/" },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Retrofusion Boutique Homestays",
+        "logo": { "@type": "ImageObject", "url": "https://retrofusion.in/images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png" }
+      }
+    }
+  ]
+}
+</script>
+';
 include '../includes/header.php';
 ?>
 
@@ -14,9 +39,9 @@ include '../includes/header.php';
       <!-- Main blog content -->
       <div class="min-w-0 bg-white rounded-2xl shadow-md overflow-hidden">
       <div class="relative mb-8 overflow-hidden bg-stone-100 rounded-t-2xl">
-        <img src="images/ChatGPT-Image-Jul-4-2025-09_34_15-PM.png" alt="Must Visit Places in Lonavala | Quick 8-Stop Checklist" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover blur-2xl scale-110 opacity-60" />
+        <img src="images/ChatGPT-Image-Jul-4-2025-09_34_15-PM.webp" alt="Must Visit Places in Lonavala | Quick 8-Stop Checklist" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover blur-2xl scale-110 opacity-60" />
         <div class="relative flex items-center justify-center min-h-[200px] sm:min-h-[240px] md:min-h-[280px] py-6 px-4">
-          <img src="images/ChatGPT-Image-Jul-4-2025-09_34_15-PM.png" alt="Must Visit Places in Lonavala | Quick 8-Stop Checklist" class="max-h-[280px] md:max-h-[320px] w-auto h-auto max-w-full object-contain rounded-lg shadow-lg" />
+          <img src="images/ChatGPT-Image-Jul-4-2025-09_34_15-PM.webp" alt="Must Visit Places in Lonavala | Quick 8-Stop Checklist" class="max-h-[280px] md:max-h-[320px] w-auto h-auto max-w-full object-contain rounded-lg shadow-lg" />
         </div>
       </div>
         <div class="p-6 sm:p-8 lg:p-10">
@@ -28,7 +53,7 @@ include '../includes/header.php';
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">We boiled down tips from locals and travel guides like Holidify to eight must visit places in Lonavala. Each spot delivers vivid views or history, perfect for a quick escape.</p>
 
-<figure><img src="images/ChatGPT-Image-Jul-4-2025-09_36_49-PM-1024x683.png" /></figure>
+<figure><img src="images/ChatGPT-Image-Jul-4-2025-09_36_49-PM-1024x683.webp" /></figure>
 
 <h2 class="text-2xl sm:text-3xl font-bold text-stone-800 mt-12 mb-4 leading-snug font-display border-b-2 border-amber-500 pb-2 inline-block">Tiger’s Leap</h2>
 
@@ -106,7 +131,7 @@ include '../includes/header.php';
 <li class="leading-relaxed"><strong>Ideal Visit Length</strong>: 1 hour</li>
 </ul>
 
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">A splashy favorite, Bhushi Dam is a must visit place in Lonavala.</p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">A splashy favorite, <a href="/villas-near-bhushi-dam-lonavala">Bhushi Dam</a> is a must visit place in Lonavala.</p>
 
 <h2 class="text-2xl sm:text-3xl font-bold text-stone-800 mt-12 mb-4 leading-snug font-display border-b-2 border-amber-500 pb-2 inline-block">Karla Caves</h2>
 
@@ -145,7 +170,7 @@ include '../includes/header.php';
 <ul class="list-disc pl-6 space-y-2 text-base sm:text-lg text-stone-700 mb-5">
 <li class="leading-relaxed"><strong>Best Time of Day</strong>: Mid-morning</li>
 
-<li class="leading-relaxed"><strong>Parking Tip</strong>: Park near Malavli station; easy access.</li>
+<li class="leading-relaxed"><strong>Parking Tip</strong>: Park near <a href="/villas-near-malavli-lonavala">Malavli</a> station; easy access.</li>
 
 <li class="leading-relaxed"><strong>Safety Cue</strong>: Watch footing on steep, wet steps.</li>
 </ul>
@@ -164,7 +189,7 @@ include '../includes/header.php';
 
 <h3 class="text-xl sm:text-2xl font-semibold text-stone-800 mt-8 mb-3 leading-snug font-display">What You’ll Love</h3>
 
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Maratha-era gates loom through fog, with Pawna Lake sparkling below.</p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Maratha-era gates loom through fog, with <a href="/best-villas-near-pawna-lake-in-lonavala">Pawna Lake</a> sparkling below.</p>
 
 <h3 class="text-xl sm:text-2xl font-semibold text-stone-800 mt-8 mb-3 leading-snug font-display">Quick Note</h3>
 

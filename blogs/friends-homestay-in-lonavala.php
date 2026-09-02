@@ -1,10 +1,35 @@
 <?php
 $pageTitle = "Group & Friends Homestay in Lonavala | Villas & Private Stays | Retrofusion Blog";
 $pageDescription = "Group & Friends Homestay in Lonavala. We are exploring the exclusive world of high-end Private Stays Lonavala, where luxury villas are the destination, not just the lodging. This choice is about more than just avoiding crowds; it’s about choosing a tailored,";
-$canonicalUrl = "https://retrofusion.in/blog/friends-homestay-in-lonavala/";
+$canonicalUrl = "https://retrofusion.in/blogs/friends-homestay-in-lonavala/";
 $ogTitle = "Group & Friends Homestay in Lonavala | Villas & Private Stays";
 $ogDescription = "Group & Friends Homestay in Lonavala. We are exploring the exclusive world of high-end Private Stays Lonavala, where luxury villas are the destination, not just the lodging. This choice is about more than just avoiding crowds; it’s about choosing a tailored,";
-$ogImage = "images/homestey-for-friends.jpeg";
+$ogImage = "https://retrofusion.in/blogs/images/homestey-for-friends.webp";
+$additionalHead = '
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://retrofusion.in/blogs/friends-homestay-in-lonavala/" },
+      "headline": "Group & Friends Homestay in Lonavala | Villas & Private Stays",
+      "description": "Group & Friends Homestay in Lonavala. We are exploring the exclusive world of high-end Private Stays Lonavala, where luxury villas are the destination, not just the lodging. This choice is about more than just avoiding crowds; it’s about choosing a tailored,",
+      "image": "https://retrofusion.in/blogs/images/homestey-for-friends.webp",
+      "datePublished": "2026-06-25T13:02:32+05:30",
+      "dateModified": "2026-07-07T22:29:45+05:30",
+      "inLanguage": "en-IN",
+      "author": { "@type": "Organization", "name": "Retrofusion Boutique Homestays", "url": "https://retrofusion.in/" },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Retrofusion Boutique Homestays",
+        "logo": { "@type": "ImageObject", "url": "https://retrofusion.in/images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png" }
+      }
+    }
+  ]
+}
+</script>
+';
 include '../includes/header.php';
 ?>
 
@@ -14,26 +39,26 @@ include '../includes/header.php';
       <!-- Main blog content -->
       <div class="min-w-0 bg-white rounded-2xl shadow-md overflow-hidden">
       <div class="relative mb-8 overflow-hidden bg-stone-100 rounded-t-2xl">
-        <img src="images/homestey-for-friends.jpeg" alt="Group &amp; Friends Homestay in Lonavala | Villas &amp; Private Stays" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover blur-2xl scale-110 opacity-60" />
+        <img src="images/homestey-for-friends.webp" alt="Group &amp; Friends Homestay in Lonavala | Villas &amp; Private Stays" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover blur-2xl scale-110 opacity-60" />
         <div class="relative flex items-center justify-center min-h-[200px] sm:min-h-[240px] md:min-h-[280px] py-6 px-4">
-          <img src="images/homestey-for-friends.jpeg" alt="Group &amp; Friends Homestay in Lonavala | Villas &amp; Private Stays" class="max-h-[280px] md:max-h-[320px] w-auto h-auto max-w-full object-contain rounded-lg shadow-lg" />
+          <img src="images/homestey-for-friends.webp" alt="Group &amp; Friends Homestay in Lonavala | Villas &amp; Private Stays" class="max-h-[280px] md:max-h-[320px] w-auto h-auto max-w-full object-contain rounded-lg shadow-lg" />
         </div>
       </div>
         <div class="p-6 sm:p-8 lg:p-10">
           <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold text-stone-800 font-display mb-6 leading-tight">Group &amp; Friends Homestay in Lonavala | Villas &amp; Private Stays</h1>
           <div class="prose prose-stone max-w-none">
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Lonavala, the crown jewel of the Sahyadri mountains, serves as the ultimate backdrop for a memorable escape for friends and large groups. For the contemporary traveler, the standard hotel stay simply doesn't measure up to the demands of a group reunion, a milestone celebration, or a corporate offsite. The modern group seeks exclusivity, space, unparalleled amenities, and a private sanctuary where they can dictate the pace of their holiday.</p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Lonavala, the crown jewel of the Sahyadri mountains, serves as the ultimate backdrop for a memorable escape for friends and <a href="/villas-in-lonavala-for-20-people">large groups</a>. For the contemporary traveler, the standard hotel stay simply doesn't measure up to the demands of a group <a href="/villas-for-reunion-party-in-lonavala">reunion</a>, a milestone celebration, or a corporate offsite. The modern group seeks exclusivity, space, unparalleled amenities, and a private sanctuary where they can dictate the pace of their holiday.</p>
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">This detailed guide moves past basic accommodations to focus on securing the finest <strong>Group & Friends <a href="https://retrofusion.in/">Homestay in Lonavala</a></strong>. We are exploring the exclusive world of high-end <strong>Private Stays Lonavala</strong>, where luxury villas are the destination, not just the lodging. This choice is about more than just avoiding crowds; it’s about choosing a tailored, high-value experience that fosters deep connection, provides robust entertainment, and guarantees complete privacy.</p>
 
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">We will explore the definitive features that separate an average rental from an exceptional luxury villa, detailing the essential amenities that ensure a seamless and unforgettable group vacation. By the end of this article, you will be equipped with the expertise to select a <strong>Villas for Friends in Lonavala</strong> that promises both comfort and high-class indulgence, making your next group trip an effortlessly premium retreat.</p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">We will explore the definitive features that separate an average rental from an exceptional luxury villa, detailing the essential amenities that ensure a seamless and unforgettable group vacation. By the end of this article, you will be equipped with the expertise to select a <strong>Villas for Friends in Lonavala</strong> that promises both comfort and high-class indulgence, making your next <a href="/villas-in-lonavala-for-10-people">group trip</a> an effortlessly premium retreat.</p>
 
 <hr/>
 
 <h2 class="text-2xl sm:text-3xl font-bold text-stone-800 mt-12 mb-4 leading-snug font-display border-b-2 border-amber-500 pb-2 inline-block">The Unmatched Value Proposition of Premium Group Villas</h2>
 
 <div>
-<figure><img src="images/The-Unmatched-Value-Proposition-of-Premium-Group-Villas-1024x576.jpg" /></figure>
+<figure><img src="images/The-Unmatched-Value-Proposition-of-Premium-Group-Villas-1024x576.webp" /></figure>
 </div>
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">When traveling with a large group, the idea of "value" shifts from merely being inexpensive to maximizing the quality, privacy, and utility of the space per person. Premium villas in Lonavala offer a consolidated, luxurious experience that individual hotel rooms cannot replicate.</p>
@@ -158,7 +183,7 @@ include '../includes/header.php';
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5"><strong>Your exclusive group getaway is just a click away. Don't settle for less than a premium private villa experience for your next friends' trip or celebration. Fill out the form below to receive detailed information on availability, rates, and exclusive packages for Retrofusion's top-rated Group & Friends Homestays in Lonavala.</strong></p>
 
-<div class="my-8 p-6 sm:p-8 bg-gradient-to-br from-[#0F2A24] via-[#1a4a3f] to-[#0F2A24] rounded-2xl shadow-xl relative overflow-hidden"><div class="absolute -top-10 -right-10 w-40 h-40 bg-amber-500/20 rounded-full blur-3xl"></div><div class="absolute -bottom-8 -left-8 w-32 h-32 bg-emerald-400/15 rounded-full blur-2xl"></div><div class="relative text-center"><h3 class="text-xl sm:text-2xl font-bold text-white font-display mb-2">Ready to Experience Lonavala?</h3><p class="text-white/75 text-sm sm:text-base leading-relaxed mb-5 max-w-md mx-auto">Book your private villa with pool, chef &amp; mountain views. Perfect for families, couples &amp; groups.</p><div class="flex flex-col sm:flex-row items-center justify-center gap-3"><a href="/contact" class="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-white font-bold text-sm px-6 py-3 rounded-xl shadow-lg shadow-amber-600/30 transition-all duration-300">Book Your Villa Now <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg></a><a href="https://wa.me/918999036644?text=Hi%2C%20I%27d%20like%20to%20book%20a%20villa%20in%20Lonavala" target="_blank" rel="noopener" class="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur-sm border border-white/20 text-white font-semibold text-sm px-6 py-3 rounded-xl transition-all duration-300"><svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg> WhatsApp Us</a></div></div></div>
+<div class="my-8 p-6 sm:p-8 bg-gradient-to-br from-[#0F2A24] via-[#1a4a3f] to-[#0F2A24] rounded-2xl shadow-xl relative overflow-hidden"><div class="absolute -top-10 -right-10 w-40 h-40 bg-amber-500/20 rounded-full blur-3xl"></div><div class="absolute -bottom-8 -left-8 w-32 h-32 bg-emerald-400/15 rounded-full blur-2xl"></div><div class="relative text-center"><h3 class="text-xl sm:text-2xl font-bold text-white font-display mb-2">Ready to Experience Lonavala?</h3><p class="text-white/75 text-sm sm:text-base leading-relaxed mb-5 max-w-md mx-auto">Book your private villa with pool, chef &amp; <a href="/mountain-view-villa-lonavala">mountain views</a>. Perfect for families, couples &amp; groups.</p><div class="flex flex-col sm:flex-row items-center justify-center gap-3"><a href="/contact" class="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-white font-bold text-sm px-6 py-3 rounded-xl shadow-lg shadow-amber-600/30 transition-all duration-300">Book Your Villa Now <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg></a><a href="https://wa.me/918999036644?text=Hi%2C%20I%27d%20like%20to%20book%20a%20villa%20in%20Lonavala" target="_blank" rel="noopener" class="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur-sm border border-white/20 text-white font-semibold text-sm px-6 py-3 rounded-xl transition-all duration-300"><svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg> WhatsApp Us</a></div></div></div>
 
 <hr/>
 

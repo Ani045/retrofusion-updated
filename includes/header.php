@@ -139,7 +139,7 @@ endif; ?>
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between items-center h-16 sm:h-20 w-full">
           <div class="flex-shrink-0 flex items-center lg:w-1/3 justify-start">
-            <a href="/index.php" class="flex items-center">
+            <a href="/" class="flex items-center">
               <img id="nav-logo"
                 src="/images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png"
                 alt="Retrofusion Logo" title="Retrofusion Boutique Homestays Logo" fetchpriority="high"
@@ -147,13 +147,13 @@ endif; ?>
             </a>
           </div>
           <div class="hidden lg:flex items-center justify-center space-x-6 xl:space-x-8 lg:w-1/3">
-            <a href="/about.php"
+            <a href="/about"
               class="nav-link text-white hover:text-amber-400 transition-colors font-medium text-lg relative group">
               <span class="text-sm sm:text-base lg:text-lg">About</span>
               <span
                 class="absolute -bottom-1 left-0 w-0 h-0.5 bg-amber-600 transition-all duration-300 group-hover:w-full"></span>
             </a>
-            <a href="/contact.php"
+            <a href="/contact"
               class="nav-link text-white hover:text-amber-400 transition-colors font-medium text-lg relative group">
               <span class="text-sm sm:text-base lg:text-lg">Contact</span>
               <span
@@ -194,9 +194,9 @@ endif; ?>
         class="lg:hidden bg-white/95 backdrop-blur-md border-t border-stone-200 hidden overflow-hidden transition-all duration-300"
         style="max-height:0;opacity:0;">
         <div class="px-4 py-6 space-y-4">
-          <a href="/about.php"
+          <a href="/about"
             class="block px-3 py-3 text-stone-700 hover:text-amber-600 hover:bg-amber-50 font-medium text-base sm:text-lg rounded-lg transition-colors">About</a>
-          <a href="/contact.php"
+          <a href="/contact"
             class="block px-3 py-3 text-stone-700 hover:text-amber-600 hover:bg-amber-50 font-medium text-base sm:text-lg rounded-lg transition-colors">Contact</a>
           <div class="border-t border-stone-200 pt-4">
             <button id="mobile-villas-btn"
@@ -209,13 +209,13 @@ endif; ?>
             </button>
             <div id="mobile-villas-panel" class="ml-4 mt-2 space-y-2 overflow-hidden transition-all duration-300"
               style="max-height:0;opacity:0;">
-              <a href="/retro-viswa-lonavala.php"
+              <a href="/retro-viswa-lonavala"
                 class="block px-3 py-2 text-stone-600 hover:text-amber-600 hover:bg-amber-50 rounded-lg transition-colors text-base">Retro
                 Visawa</a>
-              <a href="/neo-retro.php"
+              <a href="/neo-retro"
                 class="block px-3 py-2 text-stone-600 hover:text-amber-600 hover:bg-amber-50 rounded-lg transition-colors text-base">Neo
                 Retro Villa</a>
-              <a href="/retro-villas.php"
+              <a href="/retro-villas"
                 class="block px-3 py-2 text-stone-600 hover:text-amber-600 hover:bg-amber-50 rounded-lg transition-colors text-base">Retro
                 Villa</a>
             </div>
@@ -243,7 +243,7 @@ endif; ?>
 
           </div>
           <div class="grid grid-cols-1 md:grid-cols-3 gap-5 lg:gap-6">
-            <a href="/retro-viswa-lonavala.php" class="group block">
+            <a href="/retro-viswa-lonavala" class="group block">
               <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-all duration-500">
                 <div class="relative h-40 sm:h-44 md:h-48 overflow-hidden"><img
                     src="/images/v1769858399_8wr207mfxnrmy0cvd61bd2gn1g_result__viprl7.jpg"
@@ -268,7 +268,7 @@ endif; ?>
                 </div>
               </div>
             </a>
-            <a href="/neo-retro.php" class="group block">
+            <a href="/neo-retro" class="group block">
               <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-all duration-500">
                 <div class="relative h-40 sm:h-44 md:h-48 overflow-hidden"><img
                     src="/images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg"
@@ -294,7 +294,7 @@ endif; ?>
                 </div>
               </div>
             </a>
-            <a href="/retro-villas.php" class="group block">
+            <a href="/retro-villas" class="group block">
               <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-all duration-500">
                 <div class="relative h-40 sm:h-44 md:h-48 overflow-hidden"><img
                     src="/images/v1769867671_final_nkd4ry.jpg"

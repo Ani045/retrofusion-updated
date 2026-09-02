@@ -1,10 +1,35 @@
 <?php
 $pageTitle = "Best Camping and Glamping Spots in Lonavala for a Weekend Getaway | Retrofusion Blog";
 $pageDescription = "Lonavala is one of the most scenic weekend getaways for travellers from Mumbai and Pune. With its lush green hills, hidden lakes, misty mornings and cool";
-$canonicalUrl = "https://retrofusion.in/blog/camping-and-glamping-spots-in-lonavala/";
+$canonicalUrl = "https://retrofusion.in/blogs/camping-and-glamping-spots-in-lonavala/";
 $ogTitle = "Best Camping and Glamping Spots in Lonavala for a Weekend Getaway";
 $ogDescription = "Lonavala is one of the most scenic weekend getaways for travellers from Mumbai and Pune. With its lush green hills, hidden lakes, misty mornings and cool";
-$ogImage = "images/Best-Camping-and-Glamping-Spots-in-Lonavala-for-a-Weekend-Getaway.jpg";
+$ogImage = "https://retrofusion.in/blogs/images/Best-Camping-and-Glamping-Spots-in-Lonavala-for-a-Weekend-Getaway.webp";
+$additionalHead = '
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://retrofusion.in/blogs/camping-and-glamping-spots-in-lonavala/" },
+      "headline": "Best Camping and Glamping Spots in Lonavala for a Weekend Getaway",
+      "description": "Lonavala is one of the most scenic weekend getaways for travellers from Mumbai and Pune. With its lush green hills, hidden lakes, misty mornings and cool",
+      "image": "https://retrofusion.in/blogs/images/Best-Camping-and-Glamping-Spots-in-Lonavala-for-a-Weekend-Getaway.webp",
+      "datePublished": "2026-06-25T13:02:32+05:30",
+      "dateModified": "2026-06-25T13:25:47+05:30",
+      "inLanguage": "en-IN",
+      "author": { "@type": "Organization", "name": "Retrofusion Boutique Homestays", "url": "https://retrofusion.in/" },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Retrofusion Boutique Homestays",
+        "logo": { "@type": "ImageObject", "url": "https://retrofusion.in/images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png" }
+      }
+    }
+  ]
+}
+</script>
+';
 include '../includes/header.php';
 ?>
 
@@ -14,9 +39,9 @@ include '../includes/header.php';
       <!-- Main blog content -->
       <div class="min-w-0 bg-white rounded-2xl shadow-md overflow-hidden">
       <div class="relative mb-8 overflow-hidden bg-stone-100 rounded-t-2xl">
-        <img src="images/Best-Camping-and-Glamping-Spots-in-Lonavala-for-a-Weekend-Getaway.jpg" alt="Best Camping and Glamping Spots in Lonavala for a Weekend Getaway" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover blur-2xl scale-110 opacity-60" />
+        <img src="images/Best-Camping-and-Glamping-Spots-in-Lonavala-for-a-Weekend-Getaway.webp" alt="Best Camping and Glamping Spots in Lonavala for a Weekend Getaway" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover blur-2xl scale-110 opacity-60" />
         <div class="relative flex items-center justify-center min-h-[200px] sm:min-h-[240px] md:min-h-[280px] py-6 px-4">
-          <img src="images/Best-Camping-and-Glamping-Spots-in-Lonavala-for-a-Weekend-Getaway.jpg" alt="Best Camping and Glamping Spots in Lonavala for a Weekend Getaway" class="max-h-[280px] md:max-h-[320px] w-auto h-auto max-w-full object-contain rounded-lg shadow-lg" />
+          <img src="images/Best-Camping-and-Glamping-Spots-in-Lonavala-for-a-Weekend-Getaway.webp" alt="Best Camping and Glamping Spots in Lonavala for a Weekend Getaway" class="max-h-[280px] md:max-h-[320px] w-auto h-auto max-w-full object-contain rounded-lg shadow-lg" />
         </div>
       </div>
         <div class="p-6 sm:p-8 lg:p-10">
@@ -30,7 +55,7 @@ include '../includes/header.php';
 
 <h3 class="text-xl sm:text-2xl font-semibold text-stone-800 mt-8 mb-3 leading-snug font-display"><strong>1. Pawna Lake Camping – The Lakeside Favourite</strong></h3>
 
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Pawna Lake continues to be the most popular camping spot in Lonavala. With calm waters, dramatic sunsets and starry nights, it’s ideal for couples, groups and families.</p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5"><a href="/best-villas-near-pawna-lake-in-lonavala">Pawna Lake</a> continues to be the most popular camping spot in Lonavala. With calm waters, dramatic sunsets and starry nights, it’s ideal for <a href="/homestay-in-lonavala-for-couples">couples</a>, groups and families.</p>
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">If you love exploring beyond the usual places, check out our guide to <strong><a href="https://retrofusion.in/blogs/hidden-places-in-lonavala/?utm_source=chatgpt.com">Hidden Places in Lonavala</a></strong> — you’ll find some beautiful lakeside viewpoints around Pawna too.</p>
 
@@ -66,7 +91,7 @@ include '../includes/header.php';
 
 <h3 class="text-xl sm:text-2xl font-semibold text-stone-800 mt-8 mb-3 leading-snug font-display"><strong>6. Tiger Point Luxury Glamping – Premium Hilltop Stay</strong></h3>
 
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Tiger Point is famous for its sunsets and valley views. Several private glamping sites near Tiger Point offer glass cabins, luxury tents and private viewpoints.</p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5"><a href="/villas-near-tiger-point-lonavala">Tiger Point</a> is famous for its sunsets and valley views. Several private glamping sites near Tiger Point offer glass cabins, luxury tents and private viewpoints.</p>
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">If you love sightseeing, don’t forget to check our travel blog on <strong><a href="https://retrofusion.in/blogs/must-visit-places-in-lonavala/?utm_source=chatgpt.com">Must Visit Places in Lonavala</a></strong> for nearby points.</p>
 

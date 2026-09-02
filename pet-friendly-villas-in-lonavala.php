@@ -7,7 +7,7 @@ $pageAuthor = "Retrofusion Boutique Homestays";
 $pagePublisher = "Retrofusion Boutique Homestays";
 $canonicalUrl = "https://retrofusion.in/pet-friendly-villas-in-lonavala";
 $ogTitle = "Luxury Pet-Friendly 4BHK Villas in Lonavala | Retrofusion";
-$ogImage = "images/pet_friendly_villa_lonavala_hero.png";
+$ogImage = "https://retrofusion.in/images/pet_friendly_villa_lonavala_hero.webp";
 include 'includes/header.php';
 ?>
 
@@ -23,11 +23,11 @@ include 'includes/header.php';
       "description": "Luxurious pet-friendly 4BHK villas in Lonavala featuring massive fenced lawns, private swimming pools, and dedicated pet-friendly hospitality.",
       "url": "https://retrofusion.in/pet-friendly-villas-in-lonavala",
       "image": [
-        "https://retrofusion.in/images/pet_friendly_villa_lonavala_hero.png",
-        "https://retrofusion.in/images/v1770226533_N34_stewru.jpg",
+        "https://retrofusion.in/images/pet_friendly_villa_lonavala_hero.webp",
+        "https://retrofusion.in/images/v1770226533_N34_stewru.webp",
         "https://retrofusion.in/images/v1769868140_B30_yc8rqu.webp",
         "https://retrofusion.in/images/v1769868140_C26_j6pstx.webp",
-        "https://retrofusion.in/images/v1770226534_N36_om6t9d.jpg",
+        "https://retrofusion.in/images/v1770226534_N36_om6t9d.webp",
         "https://retrofusion.in/images/v1769868155_M08_qewdva.webp",
         "https://retrofusion.in/images/v1769868143_M01_jjmwdw.webp"
       ],
@@ -35,7 +35,6 @@ include 'includes/header.php';
       "telephone": "+91 8999036644",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Lonavala",
         "addressLocality": "Lonavala",
         "addressRegion": "Maharashtra",
         "postalCode": "410401",
@@ -46,11 +45,6 @@ include 'includes/header.php';
         "latitude": "18.7544",
         "longitude": "73.4062"
       },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "195"
-      },
       "priceRange": "$$"
     },
     {
@@ -58,7 +52,7 @@ include 'includes/header.php';
       "@id": "https://retrofusion.in/#organization",
       "name": "Retrofusion Boutique Homestays",
       "url": "https://retrofusion.in/",
-      "logo": "https://retrofusion.in/images/logo.png"
+      "logo": "https://retrofusion.in/images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png"
     },
     {
       "@type": "BreadcrumbList",
@@ -180,6 +174,38 @@ include 'includes/header.php';
             "@type": "Answer",
             "text": "Check-in is at 1:00 PM and check-out is at 11:00 AM. This gives us enough time to perform a deep-clean to ensure a fresh environment for every guest."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "What types of pets are allowed at the villa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We primarily welcome dogs and cats. If you have other pets like birds or rabbits, please mention them during booking so we can ensure the property is suitable for them."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are there pet-friendly cafes in Lonavala?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, Lonavala has several cafes and restaurants with outdoor seating that welcome pets. Our on-site manager can provide a curated list of pet-friendly spots nearby."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you provide pet bedding?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For hygiene and comfort, we recommend guests bring their pet's own bedding. However, we can provide basic mats or rugs upon prior request if needed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the area quiet for anxious pets?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, our villas are located in peaceful, secluded areas away from the main city traffic, making them ideal for pets who might be sensitive to loud noises."
+          }
         }
       ]
     },
@@ -188,7 +214,9 @@ include 'includes/header.php';
       "@id": "https://retrofusion.in/pet-friendly-villas-in-lonavala#webpage",
       "url": "https://retrofusion.in/pet-friendly-villas-in-lonavala",
       "name": "Luxury Pet Friendly Villas with Private Pool in Lonavala",
-      "isPartOf": { "@id": "https://retrofusion.in/#website" }
+      "isPartOf": {
+        "@id": "https://retrofusion.in/#website"
+      }
     }
   ]
 }
@@ -196,7 +224,7 @@ include 'includes/header.php';
 
 <!-- ===== HERO SECTION ===== -->
 <section class="relative h-screen overflow-hidden">
-  <img src="images/pet_friendly_villa_lonavala_hero.png"
+  <img src="images/pet_friendly_villa_lonavala_hero.webp"
     class="absolute inset-0 w-full h-full object-cover" alt="Luxury Pet Friendly Villa in Lonavala" title="Pet Friendly Luxury Stays" />
   <div class="absolute inset-0 bg-gradient-to-b from-black/50 via-black/20 to-black/60"></div>
   <div class="relative z-10 h-full flex flex-col justify-center items-center px-4 sm:px-6 lg:px-8 text-center">
@@ -225,7 +253,7 @@ include 'includes/header.php';
       <div class="w-full lg:w-1/2 relative">
         <div class="absolute -top-10 -left-10 w-40 h-40 bg-amber-50 rounded-full mix-blend-multiply filter blur-2xl opacity-70 animate-blob"></div>
         <div class="absolute -bottom-10 -right-10 w-40 h-40 bg-stone-100 rounded-full mix-blend-multiply filter blur-2xl opacity-70 animate-blob animation-delay-2000"></div>
-        <img src="images/v1770226533_N34_stewru.jpg" alt="Lush Green Villa Lawns" class="relative rounded-3xl shadow-2xl z-10 w-full hover:scale-[1.02] transition-transform duration-700" />
+        <img src="images/v1770226533_N34_stewru.webp" alt="Lush Green Villa Lawns" class="relative rounded-3xl shadow-2xl z-10 w-full hover:scale-[1.02] transition-transform duration-700" />
       </div>
       
       <div class="w-full lg:w-1/2 space-y-8">
@@ -267,7 +295,7 @@ include 'includes/header.php';
     <div class="grid grid-cols-1 md:grid-cols-4 gap-4 h-auto md:h-[800px]">
       <!-- Row 1 -->
       <div class="md:col-span-2 relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(0)">
-        <img src="images/v1770226533_N34_stewru.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Pet Friendly Lawn">
+        <img src="images/v1770226533_N34_stewru.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Pet Friendly Lawn">
         <div class="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-colors duration-500"></div>
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(1)">
@@ -279,7 +307,7 @@ include 'includes/header.php';
       
       <!-- Row 2 -->
       <div class="md:col-span-2 relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(3)">
-        <img src="images/v1770226534_N36_om6t9d.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Villa Exterior">
+        <img src="images/v1770226534_N36_om6t9d.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Villa Exterior">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(4)">
         <img src="images/v1769868155_M08_qewdva.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Modern Bedroom">
@@ -290,16 +318,16 @@ include 'includes/header.php';
       
       <!-- Row 3 -->
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(6)">
-        <img src="images/v1774810269_12_lo4gpx.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Private Pool">
+        <img src="images/v1774810269_12_lo4gpx.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Private Pool">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(7)">
-        <img src="images/v1774811620_30_1_eexljz.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Sleek Interiors">
+        <img src="images/v1774811620_30_1_eexljz.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Sleek Interiors">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(8)">
-        <img src="images/v1774807176_34_vpeqgv.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Evening Poolside">
+        <img src="images/v1774807176_34_vpeqgv.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Evening Poolside">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(9)">
-        <img src="images/v1773076342_23_wby8bv.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Artisan Food">
+        <img src="images/v1773076342_23_wby8bv.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Artisan Food">
       </div>
       
       <!-- Row 4 -->
@@ -310,10 +338,10 @@ include 'includes/header.php';
         <img src="images/v1769868142_H10_byp3oh.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Sunlight Spaces">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(12)">
-        <img src="images/v1774810653_N35_h2djzp.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Designer Decor">
+        <img src="images/v1774810653_N35_h2djzp.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Designer Decor">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(13)">
-        <img src="images/v1774809447_06_htf59g.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Premium Finish">
+        <img src="images/v1774809447_06_htf59g.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Premium Finish">
       </div>
     </div>
   </div>
@@ -331,7 +359,7 @@ include 'includes/header.php';
       <!-- Retro Visawa -->
       <div class="group bg-white rounded-3xl overflow-hidden shadow-xl border border-stone-100 transition-all duration-500 hover:-translate-y-2">
         <div class="relative h-64 overflow-hidden">
-          <img src="images/v1770226533_N34_stewru.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Retro Visawa">
+          <img src="images/v1770226533_N34_stewru.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Retro Visawa">
           <div class="absolute top-4 left-4 bg-emerald-500 text-white text-[10px] uppercase font-bold px-4 py-1 rounded-full italic">Best for Large Dogs</div>
         </div>
         <div class="p-8">
@@ -344,7 +372,7 @@ include 'includes/header.php';
       <!-- Retro Villa -->
       <div class="group bg-white rounded-3xl overflow-hidden shadow-xl border border-amber-200 transition-all duration-500 hover:-translate-y-2 scale-[1.05] z-10">
         <div class="relative h-64 overflow-hidden">
-          <img src="images/v1770226534_N36_om6t9d.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Retro Villa">
+          <img src="images/v1770226534_N36_om6t9d.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Retro Villa">
           <div class="absolute top-4 left-4 bg-amber-500 text-white text-[10px] uppercase font-bold px-4 py-1 rounded-full italic">Most Popular</div>
         </div>
         <div class="p-8 text-center">
@@ -736,20 +764,20 @@ include 'includes/header.php';
 
 <script>
   const galleryImages = [
-    { src: 'images/v1770226533_N34_stewru.jpg', cap: 'Expansive Pet-Safe Lawns' },
+    { src: 'images/v1770226533_N34_stewru.webp', cap: 'Expansive Pet-Safe Lawns' },
     { src: 'images/v1769868140_B30_yc8rqu.webp', cap: 'Luxury Living Space' },
     { src: 'images/v1769868140_C26_j6pstx.webp', cap: 'Cozy Designer Suites' },
-    { src: 'images/v1770226534_N36_om6t9d.jpg', cap: 'Villa Exterior' },
+    { src: 'images/v1770226534_N36_om6t9d.webp', cap: 'Villa Exterior' },
     { src: 'images/v1769868155_M08_qewdva.webp', cap: 'Premium Bedroom' },
     { src: 'images/v1769868143_M01_jjmwdw.webp', cap: 'Gourmet Dining' },
-    { src: 'images/v1774810269_12_lo4gpx.jpg', cap: 'Private Infinity Pool' },
-    { src: 'images/v1774811620_30_1_eexljz.jpg', cap: 'Sleek Modern Decor' },
-    { src: 'images/v1774807176_34_vpeqgv.jpg', cap: 'Evening Poolside Vibe' },
-    { src: 'images/v1773076342_23_wby8bv.jpg', cap: 'Artisan Culinary Delights' },
+    { src: 'images/v1774810269_12_lo4gpx.webp', cap: 'Private Infinity Pool' },
+    { src: 'images/v1774811620_30_1_eexljz.webp', cap: 'Sleek Modern Decor' },
+    { src: 'images/v1774807176_34_vpeqgv.webp', cap: 'Evening Poolside Vibe' },
+    { src: 'images/v1773076342_23_wby8bv.webp', cap: 'Artisan Culinary Delights' },
     { src: 'images/v1769868140_B30_yc8rqu.webp', cap: 'Spacious Verandas' },
     { src: 'images/v1769868142_H10_byp3oh.webp', cap: 'Sun-Drenched Spaces' },
-    { src: 'images/v1774810653_N35_h2djzp.jpg', cap: 'Artistic Accents' },
-    { src: 'images/v1774809447_06_htf59g.jpg', cap: 'Ultra-Premium Finish' }
+    { src: 'images/v1774810653_N35_h2djzp.webp', cap: 'Artistic Accents' },
+    { src: 'images/v1774809447_06_htf59g.webp', cap: 'Ultra-Premium Finish' }
   ];
 
   let currentImgIdx = 0;

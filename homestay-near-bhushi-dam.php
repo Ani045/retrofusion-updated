@@ -7,7 +7,7 @@ $pageAuthor = "Retrofusion Boutique Homestays";
 $pagePublisher = "Retrofusion Boutique Homestays";
 $canonicalUrl = "https://retrofusion.in/homestay-near-bhushi-dam";
 $ogTitle = "Best Homestay Near Bhushi Dam Lonavala | Private Villas";
-$ogImage = "images/v1769868140_B30_yc8rqu.webp";
+$ogImage = "https://retrofusion.in/images/v1769868140_B30_yc8rqu.webp";
 include 'includes/header.php';
 ?>
 
@@ -25,33 +25,32 @@ include 'includes/header.php';
       "image": [
         "https://retrofusion.in/images/v1769868140_B30_yc8rqu.webp",
         "https://retrofusion.in/images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg",
-        "https://retrofusion.in/images/v1774809447_06_htf59g.jpg",
-        "https://retrofusion.in/images/v1770226533_N34_stewru.jpg",
-        "https://retrofusion.in/images/v1774807176_34_vpeqgv.jpg"
+        "https://retrofusion.in/images/v1774809447_06_htf59g.webp",
+        "https://retrofusion.in/images/v1770226533_N34_stewru.webp",
+        "https://retrofusion.in/images/v1774807176_34_vpeqgv.webp"
       ],
       "identifier": "RETRO-BHUSHI-01",
       "telephone": "+91 8999036644",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Lonavala",
         "addressLocality": "Lonavala",
         "addressRegion": "Maharashtra",
         "postalCode": "410401",
         "addressCountry": "IN"
       },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.8",
-        "reviewCount": "241"
-      },
-      "priceRange": "$$"
+      "priceRange": "$$",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "18.7544",
+        "longitude": "73.4062"
+      }
     },
     {
       "@type": "Organization",
       "@id": "https://retrofusion.in/#organization",
       "name": "Retrofusion Boutique Homestays",
       "url": "https://retrofusion.in/",
-      "logo": "https://retrofusion.in/images/logo.png"
+      "logo": "https://retrofusion.in/images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png"
     },
     {
       "@type": "BreadcrumbList",
@@ -181,7 +180,9 @@ include 'includes/header.php';
       "@id": "https://retrofusion.in/homestay-near-bhushi-dam#webpage",
       "url": "https://retrofusion.in/homestay-near-bhushi-dam",
       "name": "Luxury Homestay Near Bhushi Dam Lonavala | Retrofusion Villas",
-      "isPartOf": { "@id": "https://retrofusion.in/#website" }
+      "isPartOf": {
+        "@id": "https://retrofusion.in/#website"
+      }
     }
   ]
 }
@@ -258,43 +259,43 @@ include 'includes/header.php';
         <img src="images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Modern villa architecture with large windows for views">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(2)">
-        <img src="images/v1774809447_06_htf59g.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Lush green landscapes surrounding the property">
+        <img src="images/v1774809447_06_htf59g.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Lush green landscapes surrounding the property">
       </div>
       
       <div class="md:col-span-2 relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(3)">
-        <img src="images/v1770226533_N34_stewru.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Expansive green lawns at the homestay">
+        <img src="images/v1770226533_N34_stewru.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Expansive green lawns at the homestay">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(4)">
-        <img src="images/v1774807176_34_vpeqgv.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Your own private swimming pool">
+        <img src="images/v1774807176_34_vpeqgv.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Your own private swimming pool">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(5)">
         <img src="images/v1769868155_M08_qewdva.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Massive outdoor decks to enjoy the weather">
       </div>
       
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(6)">
-        <img src="images/v1773076226_27_ipqwdd.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Elegant dining setups for returning guests">
+        <img src="images/v1773076226_27_ipqwdd.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Elegant dining setups for returning guests">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(7)">
-        <img src="images/v1774810269_12_lo4gpx.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Poolside relaxation">
+        <img src="images/v1774810269_12_lo4gpx.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Poolside relaxation">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(8)">
-        <img src="images/v1774811620_30_1_eexljz.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Warm indoor spaces when it rains">
+        <img src="images/v1774811620_30_1_eexljz.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Warm indoor spaces when it rains">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(9)">
-        <img src="images/v1774809448_30_2_xtqtpb.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Spacious luxury lounges">
+        <img src="images/v1774809448_30_2_xtqtpb.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Spacious luxury lounges">
       </div>
       
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(10)">
-        <img src="images/v1772868264_1_wqosmq.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Evening atmosphere at the homestay">
+        <img src="images/v1772868264_1_wqosmq.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Evening atmosphere at the homestay">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(11)">
         <img src="images/v1769868142_H10_byp3oh.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Luxury sunbed relaxation">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(12)">
-        <img src="images/v1773076342_23_wby8bv.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Massive indoor living area">
+        <img src="images/v1773076342_23_wby8bv.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Massive indoor living area">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(13)">
-        <img src="images/v1774810653_N35_h2djzp.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Premium bedrooms with attached bathrooms">
+        <img src="images/v1774810653_N35_h2djzp.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Premium bedrooms with attached bathrooms">
       </div>
     </div>
   </div>
@@ -312,7 +313,7 @@ include 'includes/header.php';
       <!-- Retro Villa -->
       <div class="group bg-white rounded-3xl overflow-hidden shadow-xl border border-stone-100 transition-all duration-500 hover:-translate-y-2">
         <div class="relative h-64 overflow-hidden">
-          <img src="images/v1770226533_N34_stewru.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Retro Villa Scenic Stay">
+          <img src="images/v1770226533_N34_stewru.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Retro Villa Scenic Stay">
           <div class="absolute top-4 left-4 bg-indigo-500 text-white text-[10px] uppercase font-bold px-4 py-1 rounded-full">Nature Surrounded</div>
         </div>
         <div class="p-8">
@@ -338,7 +339,7 @@ include 'includes/header.php';
       <!-- Retro Visawa -->
       <div class="group bg-white rounded-3xl overflow-hidden shadow-xl border border-stone-100 transition-all duration-500 hover:-translate-y-2">
         <div class="relative h-64 overflow-hidden">
-          <img src="images/v1774807173_04_y636xz.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Retro Visawa Party Stay">
+          <img src="images/v1774807173_04_y636xz.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Retro Visawa Party Stay">
           <div class="absolute top-4 left-4 bg-blue-500 text-white text-[10px] uppercase font-bold px-4 py-1 rounded-full">Massive Pool Party</div>
         </div>
         <div class="p-8">
@@ -635,18 +636,18 @@ include 'includes/header.php';
   window.galleryImages = [
     'images/v1769868140_B30_yc8rqu.webp',
     'images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg',
-    'images/v1774809447_06_htf59g.jpg',
-    'images/v1770226533_N34_stewru.jpg',
-    'images/v1774807176_34_vpeqgv.jpg',
+    'images/v1774809447_06_htf59g.webp',
+    'images/v1770226533_N34_stewru.webp',
+    'images/v1774807176_34_vpeqgv.webp',
     'images/v1769868155_M08_qewdva.webp',
-    'images/v1773076226_27_ipqwdd.jpg',
-    'images/v1774810269_12_lo4gpx.jpg',
-    'images/v1774811620_30_1_eexljz.jpg',
-    'images/v1774809448_30_2_xtqtpb.jpg',
-    'images/v1772868264_1_wqosmq.jpg',
+    'images/v1773076226_27_ipqwdd.webp',
+    'images/v1774810269_12_lo4gpx.webp',
+    'images/v1774811620_30_1_eexljz.webp',
+    'images/v1774809448_30_2_xtqtpb.webp',
+    'images/v1772868264_1_wqosmq.webp',
     'images/v1769868142_H10_byp3oh.webp',
-    'images/v1773076342_23_wby8bv.jpg',
-    'images/v1774810653_N35_h2djzp.jpg'
+    'images/v1773076342_23_wby8bv.webp',
+    'images/v1774810653_N35_h2djzp.webp'
   ];
 
   function openLightbox(index) {

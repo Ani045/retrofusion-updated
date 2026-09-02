@@ -1,10 +1,35 @@
 <?php
 $pageTitle = "Lonavala for Culture Seekers: Explore Caves, Temples & Local Markets | Retrofusion Blog";
 $pageDescription = "Hello, thoughtful travelers and history buffs!";
-$canonicalUrl = "https://retrofusion.in/blog/lonavala-for-culture-seekers/";
+$canonicalUrl = "https://retrofusion.in/blogs/lonavala-for-culture-seekers/";
 $ogTitle = "Lonavala for Culture Seekers: Explore Caves, Temples & Local Markets";
 $ogDescription = "Hello, thoughtful travelers and history buffs!";
-$ogImage = "images/Lonavala-for-Culture-Seekers-Explore-Caves-Temples-Local-Markets.jpeg";
+$ogImage = "https://retrofusion.in/blogs/images/Lonavala-for-Culture-Seekers-Explore-Caves-Temples-Local-Markets.jpeg";
+$additionalHead = '
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://retrofusion.in/blogs/lonavala-for-culture-seekers/" },
+      "headline": "Lonavala for Culture Seekers: Explore Caves, Temples & Local Markets",
+      "description": "Hello, thoughtful travelers and history buffs!",
+      "image": "https://retrofusion.in/blogs/images/Lonavala-for-Culture-Seekers-Explore-Caves-Temples-Local-Markets.jpeg",
+      "datePublished": "2026-06-25T13:02:32+05:30",
+      "dateModified": "2026-06-25T13:25:47+05:30",
+      "inLanguage": "en-IN",
+      "author": { "@type": "Organization", "name": "Retrofusion Boutique Homestays", "url": "https://retrofusion.in/" },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Retrofusion Boutique Homestays",
+        "logo": { "@type": "ImageObject", "url": "https://retrofusion.in/images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png" }
+      }
+    }
+  ]
+}
+</script>
+';
 include '../includes/header.php';
 ?>
 
@@ -32,7 +57,7 @@ include '../includes/header.php';
 
 <h3 class="text-xl sm:text-2xl font-semibold text-stone-800 mt-8 mb-3 leading-snug font-display"><strong>Whispers from the Past: The Ancient Rock-Cut Caves</strong></h3>
 
-<figure><img src="images/Whispers-from-the-Past-The-Ancient-Rock-Cut-Caves-1024x557.jpeg" /></figure>
+<figure><img src="images/Whispers-from-the-Past-The-Ancient-Rock-Cut-Caves-1024x557.webp" /></figure>
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Long before Lonavala was a hill station, it was a crucial stop on the ancient trade routes connecting the Deccan Plateau to the coastal ports. It was here that Buddhist monks, seeking quiet places for meditation and monsoon shelter, carved magnificent prayer halls and monasteries directly into the mountainside.</p>
 
@@ -72,7 +97,7 @@ include '../includes/header.php';
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">A culture seeker appreciates detail, design, and a story. A generic hotel room just won't do. That’s why <strong>Retrofusion <a href="https://retrofusion.in/">Boutique Home Stay</a></strong> is such a fitting choice for a culturally immersive trip to Lonavala.</p>
 
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">The stay itself is a cultural experience, a nostalgic nod to India’s vibrant retro pop culture. The carefully curated decor, the artistic flourishes in the Neo Retro villa, and the quirky charm of the Retro Villa all tell a story. It’s a space that values aesthetics and individuality, much like the ancient artisans who carved the caves. After a day spent exploring history and heritage, returning to a place that has its own distinct character and artistic soul makes the entire experience feel more complete and enriching.</p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">The stay itself is a cultural experience, a nostalgic nod to India’s vibrant retro pop culture. The carefully curated decor, the artistic flourishes in the <a href="/neo-retro">Neo Retro villa</a>, and the quirky charm of the <a href="/retro-villas">Retro Villa</a> all tell a story. It’s a space that values aesthetics and individuality, much like the ancient artisans who carved the caves. After a day spent exploring history and heritage, returning to a place that has its own distinct character and artistic soul makes the entire experience feel more complete and enriching.</p>
 
 
 <div>

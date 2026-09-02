@@ -1,10 +1,35 @@
 <?php
 $pageTitle = "Adventure Sports Around Lonavala: Paragliding, Rock Climbing, and More | Retrofusion Blog";
 $pageDescription = "Hello, thrill-seekers and adrenaline chasers!";
-$canonicalUrl = "https://retrofusion.in/blog/adventure-sports-around-lonavala/";
+$canonicalUrl = "https://retrofusion.in/blogs/adventure-sports-around-lonavala/";
 $ogTitle = "Adventure Sports Around Lonavala: Paragliding, Rock Climbing, and More";
 $ogDescription = "Hello, thrill-seekers and adrenaline chasers!";
-$ogImage = "images/Adventure-Sports-Around-Lonavala-Paragliding-Rock-Climbing-and-More.jpeg";
+$ogImage = "https://retrofusion.in/blogs/images/Adventure-Sports-Around-Lonavala-Paragliding-Rock-Climbing-and-More.jpeg";
+$additionalHead = '
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://retrofusion.in/blogs/adventure-sports-around-lonavala/" },
+      "headline": "Adventure Sports Around Lonavala: Paragliding, Rock Climbing, and More",
+      "description": "Hello, thrill-seekers and adrenaline chasers!",
+      "image": "https://retrofusion.in/blogs/images/Adventure-Sports-Around-Lonavala-Paragliding-Rock-Climbing-and-More.jpeg",
+      "datePublished": "2026-06-25T13:02:32+05:30",
+      "dateModified": "2026-06-25T13:25:47+05:30",
+      "inLanguage": "en-IN",
+      "author": { "@type": "Organization", "name": "Retrofusion Boutique Homestays", "url": "https://retrofusion.in/" },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Retrofusion Boutique Homestays",
+        "logo": { "@type": "ImageObject", "url": "https://retrofusion.in/images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png" }
+      }
+    }
+  ]
+}
+</script>
+';
 include '../includes/header.php';
 ?>
 
@@ -32,11 +57,11 @@ include '../includes/header.php';
 
 <h3 class="text-xl sm:text-2xl font-semibold text-stone-800 mt-8 mb-3 leading-snug font-display"><strong>Take to the Skies: Paragliding in Kamshet</strong></h3>
 
-<figure><img src="images/Take-to-the-Skies-Paragliding-in-Kamshet-1024x558.jpeg" /></figure>
+<figure><img src="images/Take-to-the-Skies-Paragliding-in-Kamshet-1024x558.webp" /></figure>
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Just a short, scenic drive from Lonavala lies Kamshet, the undisputed paragliding capital of Western India. If you’ve ever dreamt of flying, this is where that dream takes flight.</p>
 
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5"><strong>The Experience:</strong> Imagine launching off a gentle slope and feeling the wind lift you up, up, and away. The world below transforms into a breathtaking tapestry of the shimmering Pawna Lake, patchwork fields, and the distant silhouettes of ancient hill forts. You’re not just seeing the landscape; you’re soaring over it like an eagle. For 10-20 minutes, it's just you, your expert pilot, and the vast, open sky.</p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5"><strong>The Experience:</strong> Imagine launching off a gentle slope and feeling the wind lift you up, up, and away. The world below transforms into a breathtaking tapestry of the shimmering <a href="/best-villas-near-pawna-lake-in-lonavala">Pawna Lake</a>, patchwork fields, and the distant silhouettes of ancient hill forts. You’re not just seeing the landscape; you’re soaring over it like an eagle. For 10-20 minutes, it's just you, your expert pilot, and the vast, open sky.</p>
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5"><strong>How it Works:</strong> For beginners, the most popular option is a <strong>tandem joyride</strong>. You'll be securely strapped to an experienced, certified pilot who handles all the controls, leaving you free to soak in the views and enjoy the exhilarating feeling of free flight. For those bitten by the flying bug, renowned schools like <strong>Nirvana Adventures</strong> and <strong>Temple Pilots</strong> offer multi-day certification courses.</p>
 

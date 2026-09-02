@@ -1,10 +1,35 @@
 <?php
 $pageTitle = "Sunrise Point in Lonavala – A Peaceful Start to the Day | Retrofusion Blog";
 $pageDescription = "Sunrise Point in Lonavala is one of the most serene and scenic spots to witness the first rays of the sun over the Sahyadri hills. Known for its calm";
-$canonicalUrl = "https://retrofusion.in/blog/sunrise-point-in-lonavala-a-peaceful-start-to-the-day/";
+$canonicalUrl = "https://retrofusion.in/blogs/sunrise-point-in-lonavala-a-peaceful-start-to-the-day/";
 $ogTitle = "Sunrise Point in Lonavala – A Peaceful Start to the Day";
 $ogDescription = "Sunrise Point in Lonavala is one of the most serene and scenic spots to witness the first rays of the sun over the Sahyadri hills. Known for its calm";
-$ogImage = "images/sunrise-point-in-lonavala.png";
+$ogImage = "https://retrofusion.in/blogs/images/sunrise-point-in-lonavala.webp";
+$additionalHead = '
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://retrofusion.in/blogs/sunrise-point-in-lonavala-a-peaceful-start-to-the-day/" },
+      "headline": "Sunrise Point in Lonavala – A Peaceful Start to the Day",
+      "description": "Sunrise Point in Lonavala is one of the most serene and scenic spots to witness the first rays of the sun over the Sahyadri hills. Known for its calm",
+      "image": "https://retrofusion.in/blogs/images/sunrise-point-in-lonavala.webp",
+      "datePublished": "2026-06-25T13:02:32+05:30",
+      "dateModified": "2026-06-25T13:25:47+05:30",
+      "inLanguage": "en-IN",
+      "author": { "@type": "Organization", "name": "Retrofusion Boutique Homestays", "url": "https://retrofusion.in/" },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Retrofusion Boutique Homestays",
+        "logo": { "@type": "ImageObject", "url": "https://retrofusion.in/images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png" }
+      }
+    }
+  ]
+}
+</script>
+';
 include '../includes/header.php';
 ?>
 
@@ -14,9 +39,9 @@ include '../includes/header.php';
       <!-- Main blog content -->
       <div class="min-w-0 bg-white rounded-2xl shadow-md overflow-hidden">
       <div class="relative mb-8 overflow-hidden bg-stone-100 rounded-t-2xl">
-        <img src="images/sunrise-point-in-lonavala.png" alt="Sunrise Point in Lonavala – A Peaceful Start to the Day" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover blur-2xl scale-110 opacity-60" />
+        <img src="images/sunrise-point-in-lonavala.webp" alt="Sunrise Point in Lonavala – A Peaceful Start to the Day" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover blur-2xl scale-110 opacity-60" />
         <div class="relative flex items-center justify-center min-h-[200px] sm:min-h-[240px] md:min-h-[280px] py-6 px-4">
-          <img src="images/sunrise-point-in-lonavala.png" alt="Sunrise Point in Lonavala – A Peaceful Start to the Day" class="max-h-[280px] md:max-h-[320px] w-auto h-auto max-w-full object-contain rounded-lg shadow-lg" />
+          <img src="images/sunrise-point-in-lonavala.webp" alt="Sunrise Point in Lonavala – A Peaceful Start to the Day" class="max-h-[280px] md:max-h-[320px] w-auto h-auto max-w-full object-contain rounded-lg shadow-lg" />
         </div>
       </div>
         <div class="p-6 sm:p-8 lg:p-10">
@@ -28,7 +53,7 @@ include '../includes/header.php';
 
 <h3 class="text-xl sm:text-2xl font-semibold text-stone-800 mt-8 mb-3 leading-snug font-display">Where Is Sunrise Point in Lonavala?</h3>
 
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Sunrise views in Lonavala can be enjoyed from multiple viewpoints, with <strong>Lion’s Point</strong>, <strong>Tiger’s Leap</strong>, and nearby hill viewpoints being the most popular. These locations face the eastern side, making them ideal for watching the sunrise. Early morning fog, cool breeze, and soft sunlight create a magical environment that feels completely different from daytime sightseeing.</p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Sunrise views in Lonavala can be enjoyed from multiple viewpoints, with <strong><a href="/villas-near-lion-point">Lion’s Point</a></strong>, <strong>Tiger’s Leap</strong>, and nearby hill viewpoints being the most popular. These locations face the eastern side, making them ideal for watching the sunrise. Early morning fog, cool breeze, and soft sunlight create a magical environment that feels completely different from daytime sightseeing.</p>
 
 <h3 class="text-xl sm:text-2xl font-semibold text-stone-800 mt-8 mb-3 leading-snug font-display">Why Visit Sunrise Point in Lonavala?</h3>
 
@@ -48,7 +73,7 @@ include '../includes/header.php';
 
 <h3 class="text-xl sm:text-2xl font-semibold text-stone-800 mt-8 mb-3 leading-snug font-display">A Must-Visit Experience in Lonavala</h3>
 
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Sunrise Point in Lonavala offers a perfect blend of natural beauty, calm surroundings, and refreshing vibes. Whether you are on a solo trip, a romantic getaway, or a peaceful family vacation, starting your day with a sunrise view in Lonavala creates memories that stay with you long after the trip ends. If you enjoy slow travel and meaningful experiences, Sunrise Point is a must-visit during your stay in Lonavala.</p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Sunrise Point in Lonavala offers a perfect blend of natural beauty, calm surroundings, and refreshing vibes. Whether you are on a solo trip, a romantic getaway, or a peaceful <a href="/best-4bhk-homestay-in-lonavala-for-family">family vacation</a>, starting your day with a sunrise view in Lonavala creates memories that stay with you long after the trip ends. If you enjoy slow travel and meaningful experiences, Sunrise Point is a must-visit during your stay in Lonavala.</p>
 
 <h2 class="text-2xl sm:text-3xl font-bold text-stone-800 mt-12 mb-4 leading-snug font-display border-b-2 border-amber-500 pb-2 inline-block">Conclusion</h2>
 

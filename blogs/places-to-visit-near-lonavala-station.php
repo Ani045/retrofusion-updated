@@ -1,10 +1,35 @@
 <?php
 $pageTitle = "Places to Visit Near Lonavala Station: Top Spots | Retrofusion Blog";
 $pageDescription = "Discover the best places to visit near Lonavala station on foot or by auto. From Bhushi Dam to Lonavala Lake, explore these top attractions effortlessly.";
-$canonicalUrl = "https://retrofusion.in/blog/places-to-visit-near-lonavala-station/";
+$canonicalUrl = "https://retrofusion.in/blogs/places-to-visit-near-lonavala-station/";
 $ogTitle = "Places to Visit Near Lonavala Station: Top Spots";
 $ogDescription = "Discover the best places to visit near Lonavala station on foot or by auto. From Bhushi Dam to Lonavala Lake, explore these top attractions effortlessly.";
-$ogImage = "images/places-to-visit-near-lonavala-station-top-spots.jpg";
+$ogImage = "https://retrofusion.in/blogs/images/places-to-visit-near-lonavala-station-top-spots.webp";
+$additionalHead = '
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://retrofusion.in/blogs/places-to-visit-near-lonavala-station/" },
+      "headline": "Places to Visit Near Lonavala Station: Top Spots",
+      "description": "Discover the best places to visit near Lonavala station on foot or by auto. From Bhushi Dam to Lonavala Lake, explore these top attractions effortlessly.",
+      "image": "https://retrofusion.in/blogs/images/places-to-visit-near-lonavala-station-top-spots.webp",
+      "datePublished": "2026-06-25T13:02:32+05:30",
+      "dateModified": "2026-06-25T13:25:47+05:30",
+      "inLanguage": "en-IN",
+      "author": { "@type": "Organization", "name": "Retrofusion Boutique Homestays", "url": "https://retrofusion.in/" },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Retrofusion Boutique Homestays",
+        "logo": { "@type": "ImageObject", "url": "https://retrofusion.in/images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png" }
+      }
+    }
+  ]
+}
+</script>
+';
 include '../includes/header.php';
 ?>
 
@@ -14,17 +39,17 @@ include '../includes/header.php';
       <!-- Main blog content -->
       <div class="min-w-0 bg-white rounded-2xl shadow-md overflow-hidden">
       <div class="relative mb-8 overflow-hidden bg-stone-100 rounded-t-2xl">
-        <img src="images/places-to-visit-near-lonavala-station-top-spots.jpg" alt="Places to Visit Near Lonavala Station: Top Spots" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover blur-2xl scale-110 opacity-60" />
+        <img src="images/places-to-visit-near-lonavala-station-top-spots.webp" alt="Places to Visit Near Lonavala Station: Top Spots" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover blur-2xl scale-110 opacity-60" />
         <div class="relative flex items-center justify-center min-h-[200px] sm:min-h-[240px] md:min-h-[280px] py-6 px-4">
-          <img src="images/places-to-visit-near-lonavala-station-top-spots.jpg" alt="Places to Visit Near Lonavala Station: Top Spots" class="max-h-[280px] md:max-h-[320px] w-auto h-auto max-w-full object-contain rounded-lg shadow-lg" />
+          <img src="images/places-to-visit-near-lonavala-station-top-spots.webp" alt="Places to Visit Near Lonavala Station: Top Spots" class="max-h-[280px] md:max-h-[320px] w-auto h-auto max-w-full object-contain rounded-lg shadow-lg" />
         </div>
       </div>
         <div class="p-6 sm:p-8 lg:p-10">
           <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold text-stone-800 font-display mb-6 leading-tight">Places to Visit Near Lonavala Station: Top Spots</h1>
           <div class="prose prose-stone max-w-none">
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Arriving at Lonavala by train and wondering what to explore first? You're in the right place. The <strong>places to visit near Lonavala station</strong> include some of the hill station's most iconic spots — and the best part is that many of them are just a short auto-rickshaw ride or even a pleasant walk away. Whether you're a solo traveller, a couple, or a family day-tripper, this guide covers everything you can see and do within easy reach of the station.</p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Arriving at Lonavala by train and wondering what to explore first? You're in the right place. The <strong>places to visit near Lonavala station</strong> include some of the hill station's most iconic spots — and the best part is that many of them are just a short auto-rickshaw ride or even a pleasant walk away. Whether you're a solo traveller, a <a href="/homestay-in-lonavala-for-couples">couple</a>, or a family day-tripper, this guide covers everything you can see and do within easy reach of the station.</p>
 
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5"><em><strong>Featured Snippet:</strong> The top places to visit near Lonavala station include Lonavala Lake (1 km), Bhushi Dam (3 km), Lonavala market (0.5 km), Rajmachi Point (6 km), and Karla Caves (12 km). Most spots are reachable by local auto-rickshaw or shared taxi within minutes.</em></p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5"><em><strong>Featured Snippet:</strong> The top places to visit near Lonavala station include Lonavala Lake (1 km), <a href="/villas-near-bhushi-dam-lonavala">Bhushi Dam</a> (3 km), Lonavala market (0.5 km), Rajmachi Point (6 km), and Karla Caves (12 km). Most spots are reachable by local auto-rickshaw or shared taxi within minutes.</em></p>
 
 <h2 class="text-2xl sm:text-3xl font-bold text-stone-800 mt-12 mb-4 leading-snug font-display border-b-2 border-amber-500 pb-2 inline-block">Why Arriving by Train Is a Smart Choice</h2>
 
@@ -46,7 +71,7 @@ include '../includes/header.php';
 
 <h3 class="text-xl sm:text-2xl font-semibold text-stone-800 mt-8 mb-3 leading-snug font-display">4. Tiger Point (Duke's Nose Viewpoint) — 5 km from Station</h3>
 
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Tiger Point offers panoramic views of the Sahyadri valleys and is a favourite spot for sunrise and sunset watchers. The viewpoint is particularly stunning in the monsoon when clouds sit low over the valleys and the entire landscape turns a deep green. It's accessible by auto or shared taxi from the station and the entry is free. This is among the top <a href="/blogs/things-to-see-in-lonavala">things to see in Lonavala</a> for first-time visitors.</p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5"><a href="/villas-near-tiger-point-lonavala">Tiger Point</a> offers panoramic views of the Sahyadri valleys and is a favourite spot for sunrise and sunset watchers. The viewpoint is particularly stunning in the monsoon when clouds sit low over the valleys and the entire landscape turns a deep green. It's accessible by auto or shared taxi from the station and the entry is free. This is among the top <a href="/blogs/things-to-see-in-lonavala">things to see in Lonavala</a> for first-time visitors.</p>
 
 <h3 class="text-xl sm:text-2xl font-semibold text-stone-800 mt-8 mb-3 leading-snug font-display">5. Rajmachi Point — 6 km from Station</h3>
 

@@ -7,15 +7,133 @@ $pageAuthor = "Retrofusion Boutique Homestays";
 $pagePublisher = "Retrofusion Boutique Homestays";
 $canonicalUrl = "https://retrofusion.in/villa-for-5-people-near-navi-mumbai";
 $ogTitle = "Villa for 5 People Near Navi Mumbai | Retrofusion Private Estates";
-$ogImage = "images/v1774807176_34_vpeqgv.jpg";
+$ogImage = "https://retrofusion.in/images/v1774807176_34_vpeqgv.webp";
 include 'includes/header.php';
 ?>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@graph":[{"@type":"LodgingBusiness","@id":"https://retrofusion.in/villa-for-5-people-near-navi-mumbai#lodging","name":"Villa for 5 People Near Navi Mumbai - Retrofusion","description":"Premium 4BHK private pool villas in Lonavala for groups of 5 from Navi Mumbai. Exclusive private pools, spacious rooms, and total privacy just 1.5 hours away.","url":"https://retrofusion.in/villa-for-5-people-near-navi-mumbai","image":["https://retrofusion.in/images/v1774807176_34_vpeqgv.jpg","https://retrofusion.in/images/v1770226533_N34_stewru.jpg","https://retrofusion.in/images/v1774811620_30_1_eexljz.jpg"],"telephone":"+91 8999036644","address":{"@type":"PostalAddress","streetAddress":"Lonavala","addressLocality":"Lonavala","addressRegion":"Maharashtra","postalCode":"410401","addressCountry":"IN"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.9","reviewCount":"142"},"priceRange":"$$"},{"@type":"Organization","@id":"https://retrofusion.in/#organization","name":"Retrofusion Boutique Homestays","url":"https://retrofusion.in/","logo":"https://retrofusion.in/images/logo.png"},{"@type":"BreadcrumbList","@id":"https://retrofusion.in/villa-for-5-people-near-navi-mumbai#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://retrofusion.in/"},{"@type":"ListItem","position":2,"name":"Villa for 5 Near Navi Mumbai","item":"https://retrofusion.in/villa-for-5-people-near-navi-mumbai"}]},{"@type":"FAQPage","@id":"https://retrofusion.in/villa-for-5-people-near-navi-mumbai#faq","mainEntity":[{"@type":"Question","name":"How far is the villa from Navi Mumbai?","acceptedAnswer":{"@type":"Answer","text":"Our Lonavala villas are approximately 80 kilometers from Navi Mumbai — a smooth drive via the Expressway."}},{"@type":"Question","name":"How long does it take to drive from Navi Mumbai?","acceptedAnswer":{"@type":"Answer","text":"From Navi Mumbai, the drive to our Lonavala villas takes approximately 1.5 to 2 hours via Palm Beach Road connecting to the Mumbai-Pune Expressway."}},{"@type":"Question","name":"Is a 4BHK villa too large for just 5 people?","acceptedAnswer":{"@type":"Answer","text":"Not at all — it's a luxury advantage. A group of 5 in a 4BHK means almost everyone gets their own bedroom, massive common areas, and a private pool that feels exclusively personal."}},{"@type":"Question","name":"Is the private pool comfortable for 5 people?","acceptedAnswer":{"@type":"Answer","text":"Absolutely. Our large private pools are perfectly suited for a group of 5 — you'll have the entire pool and deck to yourselves with plenty of room to relax."}},{"@type":"Question","name":"What food options are available for 5 people?","acceptedAnswer":{"@type":"Answer","text":"Our caretaker prepares fresh meals for your group throughout the stay. The fully equipped kitchen is also available if you prefer to cook together."}},{"@type":"Question","name":"Can we do a BBQ for 5 people?","acceptedAnswer":{"@type":"Answer","text":"Absolutely. We set up a professional BBQ by the pool — ideal for an intimate evening with your group of 5 under the stars."}}]},{"@type":"WebPage","@id":"https://retrofusion.in/villa-for-5-people-near-navi-mumbai#webpage","url":"https://retrofusion.in/villa-for-5-people-near-navi-mumbai","name":"Villa for 5 People Near Navi Mumbai | Private Pool Estates in Lonavala","isPartOf":{"@id":"https://retrofusion.in/#website"}}]}
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LodgingBusiness",
+      "@id": "https://retrofusion.in/villa-for-5-people-near-navi-mumbai#lodging",
+      "name": "Villa for 5 People Near Navi Mumbai - Retrofusion",
+      "description": "Premium 4BHK private pool villas in Lonavala for groups of 5 from Navi Mumbai. Exclusive private pools, spacious rooms, and total privacy just 1.5 hours away.",
+      "url": "https://retrofusion.in/villa-for-5-people-near-navi-mumbai",
+      "image": [
+        "https://retrofusion.in/images/v1774807176_34_vpeqgv.webp",
+        "https://retrofusion.in/images/v1770226533_N34_stewru.webp",
+        "https://retrofusion.in/images/v1774811620_30_1_eexljz.webp"
+      ],
+      "telephone": "+91 8999036644",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Lonavala",
+        "addressRegion": "Maharashtra",
+        "postalCode": "410401",
+        "addressCountry": "IN"
+      },
+      "priceRange": "$$",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "18.7544",
+        "longitude": "73.4062"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://retrofusion.in/#organization",
+      "name": "Retrofusion Boutique Homestays",
+      "url": "https://retrofusion.in/",
+      "logo": "https://retrofusion.in/images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://retrofusion.in/villa-for-5-people-near-navi-mumbai#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://retrofusion.in/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Villa for 5 Near Navi Mumbai",
+          "item": "https://retrofusion.in/villa-for-5-people-near-navi-mumbai"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://retrofusion.in/villa-for-5-people-near-navi-mumbai#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How far is the villa from Navi Mumbai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our Lonavala estates are approximately 80 kilometers from Navi Mumbai, making them the ideal short-drive escape."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take to drive from Navi Mumbai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Via Palm Beach Road connecting to the Mumbai-Pune Expressway, your group of 5 reaches Lonavala in approximately 1.5 to 2 hours."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is a 4BHK villa too large for just 5 people?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not at all — it's a luxury upgrade. With 4 bedrooms for 5 guests, almost everyone gets their own room, the common areas feel palatial, and the private pool feels entirely personal."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the private pool comfortable for 5 people?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. Our large private pools feel wonderfully exclusive for 5 guests — you'll have the entire pool and surrounding deck completely to yourselves."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What food options are available for 5 people?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our caretaker prepares fresh meals for all 5 guests. Our fully equipped kitchen is also available if your group wants to cook together."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can we do a poolside BBQ for 5 people?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Definitely. A BBQ for 5 by a private pool under the Lonavala sky is one of the most memorable experiences our guests rave about. Our caretakers set it all up."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://retrofusion.in/villa-for-5-people-near-navi-mumbai#webpage",
+      "url": "https://retrofusion.in/villa-for-5-people-near-navi-mumbai",
+      "name": "Villa for 5 People Near Navi Mumbai | Private Pool Estates in Lonavala",
+      "isPartOf": {
+        "@id": "https://retrofusion.in/#website"
+      }
+    }
+  ]
+}
 </script>
 
 <section class="relative h-screen overflow-hidden">
-  <img src="images/v1774807176_34_vpeqgv.jpg" class="absolute inset-0 w-full h-full object-cover" alt="Villa for 5 People Near Navi Mumbai" title="Private Villa for 5 Near Navi Mumbai" />
+  <img src="images/v1774807176_34_vpeqgv.webp" class="absolute inset-0 w-full h-full object-cover" alt="Villa for 5 People Near Navi Mumbai" title="Private Villa for 5 Near Navi Mumbai" />
   <div class="absolute inset-0 bg-black/55"></div>
   <div class="relative z-10 h-full flex flex-col justify-center items-center px-4">
     <div class="max-w-4xl mx-auto text-center">
@@ -68,16 +186,16 @@ include 'includes/header.php';
   <div class="max-w-7xl mx-auto px-4">
     <div class="text-center mb-16"><h2 class="text-3xl sm:text-5xl font-bold text-[#0F2A24] mb-4 font-display">Your <span class="text-amber-600">Private Sanctuary</span></h2><p class="text-stone-500 text-lg">Spaces that feel even more luxurious with just 5 guests.</p></div>
     <div class="grid grid-cols-1 md:grid-cols-4 gap-4 h-auto md:h-[800px]">
-      <div class="md:col-span-2 relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(0)"><img src="images/v1774807176_34_vpeqgv.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Private pool villa for 5 near Navi Mumbai"></div>
-      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(1)"><img src="images/v1773076342_23_wby8bv.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Elegant living room"></div>
-      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(2)"><img src="images/v1770226533_N34_stewru.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Lush private lawns"></div>
+      <div class="md:col-span-2 relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(0)"><img src="images/v1774807176_34_vpeqgv.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Private pool villa for 5 near Navi Mumbai"></div>
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(1)"><img src="images/v1773076342_23_wby8bv.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Elegant living room"></div>
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(2)"><img src="images/v1770226533_N34_stewru.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Lush private lawns"></div>
       <div class="md:col-span-2 relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(3)"><img src="images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Premium villa architecture"></div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(4)"><img src="images/v1769868155_M08_qewdva.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Outdoor deck area"></div>
-      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(5)"><img src="images/v1774811620_30_1_eexljz.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Comfortable indoor spaces"></div>
-      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(6)"><img src="images/v1773076226_27_ipqwdd.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Elegant dining area"></div>
-      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(7)"><img src="images/v1772868264_1_wqosmq.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Evening ambiance"></div>
-      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(8)"><img src="images/v1774809448_30_2_xtqtpb.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Luxury lounge"></div>
-      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(9)"><img src="images/v1774810269_12_lo4gpx.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Poolside relaxation"></div>
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(5)"><img src="images/v1774811620_30_1_eexljz.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Comfortable indoor spaces"></div>
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(6)"><img src="images/v1773076226_27_ipqwdd.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Elegant dining area"></div>
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(7)"><img src="images/v1772868264_1_wqosmq.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Evening ambiance"></div>
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(8)"><img src="images/v1774809448_30_2_xtqtpb.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Luxury lounge"></div>
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(9)"><img src="images/v1774810269_12_lo4gpx.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Poolside relaxation"></div>
     </div>
   </div>
 </section>
@@ -86,9 +204,9 @@ include 'includes/header.php';
   <div class="max-w-7xl mx-auto px-4">
     <div class="mb-16 text-center"><h2 class="text-3xl sm:text-5xl font-bold text-[#0F2A24] mb-4 font-display">Select Your <span class="text-amber-600">Private Estate</span></h2><p class="text-stone-500 text-lg">Our handpicked 4BHK villas — each a luxurious sanctuary for 5 guests from Navi Mumbai.</p></div>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-      <div class="group bg-white rounded-3xl overflow-hidden shadow-xl border border-stone-100 transition-all duration-500 hover:-translate-y-2"><div class="relative h-64 overflow-hidden"><img src="images/v1774807173_04_y636xz.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Retro Visawa Villa for 5 Near Navi Mumbai"><div class="absolute top-4 left-4 bg-blue-500 text-white text-[10px] uppercase font-bold px-4 py-1 rounded-full">Most Spacious</div></div><div class="p-8"><h3 class="text-2xl font-bold text-[#0F2A24] mb-4 font-display">Retro Visawa</h3><p class="text-stone-500 text-sm mb-6 leading-relaxed">Grand proportions feel incredibly indulgent for just 5 guests. A massive infinity pool, sweeping lawns, and en-suite rooms give everyone the royal treatment.</p><a href="retro-viswa-lonavala.php" class="block text-center bg-[#0F2A24] text-white py-3 rounded-xl font-bold hover:bg-amber-600 transition-colors">View Villa Details</a></div></div>
+      <div class="group bg-white rounded-3xl overflow-hidden shadow-xl border border-stone-100 transition-all duration-500 hover:-translate-y-2"><div class="relative h-64 overflow-hidden"><img src="images/v1774807173_04_y636xz.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Retro Visawa Villa for 5 Near Navi Mumbai"><div class="absolute top-4 left-4 bg-blue-500 text-white text-[10px] uppercase font-bold px-4 py-1 rounded-full">Most Spacious</div></div><div class="p-8"><h3 class="text-2xl font-bold text-[#0F2A24] mb-4 font-display">Retro Visawa</h3><p class="text-stone-500 text-sm mb-6 leading-relaxed">Grand proportions feel incredibly indulgent for just 5 guests. A massive infinity pool, sweeping lawns, and en-suite rooms give everyone the royal treatment.</p><a href="retro-viswa-lonavala.php" class="block text-center bg-[#0F2A24] text-white py-3 rounded-xl font-bold hover:bg-amber-600 transition-colors">View Villa Details</a></div></div>
       <div class="group bg-white rounded-3xl overflow-hidden shadow-xl border border-stone-100 transition-all duration-500 hover:-translate-y-2"><div class="relative h-64 overflow-hidden"><img src="images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Neo Retro Villa for 5 Guests"><div class="absolute top-4 left-4 bg-cyan-500 text-white text-[10px] uppercase font-bold px-4 py-1 rounded-full">Contemporary Design</div></div><div class="p-8"><h3 class="text-2xl font-bold text-[#0F2A24] mb-4 font-display">Neo Retro Villa</h3><p class="text-stone-500 text-sm mb-6 leading-relaxed">Modern architectural lines and open-plan spaces that your group of 5 will have entirely to themselves. Direct Expressway access for a fast arrival from Navi Mumbai.</p><a href="neo-retro.php" class="block text-center bg-[#0F2A24] text-white py-3 rounded-xl font-bold hover:bg-amber-600 transition-colors">View Villa Details</a></div></div>
-      <div class="group bg-white rounded-3xl overflow-hidden shadow-xl border border-stone-100 transition-all duration-500 hover:-translate-y-2"><div class="relative h-64 overflow-hidden"><img src="images/v1770226533_N34_stewru.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Retro Villa for 5 People"><div class="absolute top-4 left-4 bg-indigo-500 text-white text-[10px] uppercase font-bold px-4 py-1 rounded-full">Ultimate Privacy</div></div><div class="p-8"><h3 class="text-2xl font-bold text-[#0F2A24] mb-4 font-display">Retro Villa</h3><p class="text-stone-500 text-sm mb-6 leading-relaxed">Tucked behind lush greenery and secure gates, this nature retreat is perfect for a close-knit group of 5 seeking complete peace and disconnection.</p><a href="retro-villas.php" class="block text-center bg-[#0F2A24] text-white py-3 rounded-xl font-bold hover:bg-amber-600 transition-colors">View Villa Details</a></div></div>
+      <div class="group bg-white rounded-3xl overflow-hidden shadow-xl border border-stone-100 transition-all duration-500 hover:-translate-y-2"><div class="relative h-64 overflow-hidden"><img src="images/v1770226533_N34_stewru.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Retro Villa for 5 People"><div class="absolute top-4 left-4 bg-indigo-500 text-white text-[10px] uppercase font-bold px-4 py-1 rounded-full">Ultimate Privacy</div></div><div class="p-8"><h3 class="text-2xl font-bold text-[#0F2A24] mb-4 font-display">Retro Villa</h3><p class="text-stone-500 text-sm mb-6 leading-relaxed">Tucked behind lush greenery and secure gates, this nature retreat is perfect for a close-knit group of 5 seeking complete peace and disconnection.</p><a href="retro-villas.php" class="block text-center bg-[#0F2A24] text-white py-3 rounded-xl font-bold hover:bg-amber-600 transition-colors">View Villa Details</a></div></div>
     </div>
   </div>
 </section>
@@ -149,7 +267,7 @@ include 'includes/header.php';
 <?php include 'includes/footer.php'; ?>
 <div id="lightbox" class="fixed inset-0 z-50 bg-black/95 hidden items-center justify-center transition-opacity duration-300 opacity-0" onclick="closeLightbox()"><img id="lightbox-img" src="" class="max-w-[90vw] max-h-[85vh] object-contain rounded-lg"></div>
 <script>
-  window.galleryImages=['images/v1774807176_34_vpeqgv.jpg','images/v1773076342_23_wby8bv.jpg','images/v1770226533_N34_stewru.jpg','images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg','images/v1769868155_M08_qewdva.webp','images/v1774811620_30_1_eexljz.jpg','images/v1773076226_27_ipqwdd.jpg','images/v1772868264_1_wqosmq.jpg','images/v1774809448_30_2_xtqtpb.jpg','images/v1774810269_12_lo4gpx.jpg'];
+  window.galleryImages=['images/v1774807176_34_vpeqgv.webp','images/v1773076342_23_wby8bv.webp','images/v1770226533_N34_stewru.webp','images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg','images/v1769868155_M08_qewdva.webp','images/v1774811620_30_1_eexljz.webp','images/v1773076226_27_ipqwdd.webp','images/v1772868264_1_wqosmq.webp','images/v1774809448_30_2_xtqtpb.webp','images/v1774810269_12_lo4gpx.webp'];
   function openLightbox(index){const lb=document.getElementById('lightbox');const img=document.getElementById('lightbox-img');img.src=window.galleryImages[index];lb.classList.remove('hidden');lb.classList.add('flex');setTimeout(()=>lb.style.opacity='1',10);}
   function closeLightbox(){const lb=document.getElementById('lightbox');lb.style.opacity='0';setTimeout(()=>{lb.classList.remove('flex');lb.classList.add('hidden');},300);}
 </script>

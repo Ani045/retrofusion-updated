@@ -7,7 +7,7 @@ $pageAuthor = "Retrofusion Boutique Homestays";
 $pagePublisher = "Retrofusion Boutique Homestays";
 $canonicalUrl = "https://retrofusion.in/villas-in-lonavala-with-barbeque";
 $ogTitle = "Best Villas in Lonavala with Barbeque | Ultimate Grilling Experience";
-$ogImage = "images/villa_bbq_hero_1778569032766.png";
+$ogImage = "https://retrofusion.in/images/villa_bbq_hero_1778569032766.webp";
 include 'includes/header.php';
 ?>
 
@@ -23,35 +23,34 @@ include 'includes/header.php';
       "description": "Premium 4BHK luxury villas in Lonavala offering professional poolside barbeque setups. Enjoy live grilling, dedicated caretaker assistance, and amazing outdoor dining experiences.",
       "url": "https://retrofusion.in/villas-in-lonavala-with-barbeque",
       "image": [
-        "https://retrofusion.in/images/villa_bbq_hero_1778569032766.png",
+        "https://retrofusion.in/images/villa_bbq_hero_1778569032766.webp",
         "https://retrofusion.in/images/v1769868155_M08_qewdva.webp",
-        "https://retrofusion.in/images/v1774810269_12_lo4gpx.jpg",
-        "https://retrofusion.in/images/v1774807176_34_vpeqgv.jpg",
-        "https://retrofusion.in/images/v1772868264_1_wqosmq.jpg"
+        "https://retrofusion.in/images/v1774810269_12_lo4gpx.webp",
+        "https://retrofusion.in/images/v1774807176_34_vpeqgv.webp",
+        "https://retrofusion.in/images/v1772868264_1_wqosmq.webp"
       ],
       "identifier": "RETRO-BBQ-01",
       "telephone": "+91 8999036644",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Lonavala",
         "addressLocality": "Lonavala",
         "addressRegion": "Maharashtra",
         "postalCode": "410401",
         "addressCountry": "IN"
       },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "182"
-      },
-      "priceRange": "$$"
+      "priceRange": "$$",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "18.7544",
+        "longitude": "73.4062"
+      }
     },
     {
       "@type": "Organization",
       "@id": "https://retrofusion.in/#organization",
       "name": "Retrofusion Boutique Homestays",
       "url": "https://retrofusion.in/",
-      "logo": "https://retrofusion.in/images/logo.png"
+      "logo": "https://retrofusion.in/images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png"
     },
     {
       "@type": "BreadcrumbList",
@@ -181,7 +180,9 @@ include 'includes/header.php';
       "@id": "https://retrofusion.in/villas-in-lonavala-with-barbeque#webpage",
       "url": "https://retrofusion.in/villas-in-lonavala-with-barbeque",
       "name": "Villas in Lonavala with Barbeque | Live Poolside Grilling",
-      "isPartOf": { "@id": "https://retrofusion.in/#website" }
+      "isPartOf": {
+        "@id": "https://retrofusion.in/#website"
+      }
     }
   ]
 }
@@ -189,7 +190,7 @@ include 'includes/header.php';
 
 <!-- ===== HERO SECTION ===== -->
 <section class="relative h-screen overflow-hidden">
-  <img src="images/villa_bbq_hero_1778569032766.png"
+  <img src="images/villa_bbq_hero_1778569032766.webp"
     class="absolute inset-0 w-full h-full object-cover" alt="Villas in Lonavala with Barbeque" title="Live BBQ Villas" />
   <div class="absolute inset-0 bg-black/50"></div>
   <div class="relative z-10 h-full flex flex-col justify-center items-center px-4">
@@ -252,36 +253,36 @@ include 'includes/header.php';
     
     <div class="grid grid-cols-1 md:grid-cols-4 gap-4 h-auto md:h-[800px]">
       <div class="md:col-span-2 relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(0)">
-        <img src="images/villa_bbq_hero_1778569032766.png" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Beautiful dining setup">
+        <img src="images/villa_bbq_hero_1778569032766.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Beautiful dining setup">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(1)">
         <img src="images/v1769868155_M08_qewdva.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Sprawling outdoor deck perfect for BBQ">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(2)">
-        <img src="images/v1774810269_12_lo4gpx.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Relaxing outdoor seating by the pool">
+        <img src="images/v1774810269_12_lo4gpx.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Relaxing outdoor seating by the pool">
       </div>
       
       <div class="md:col-span-2 relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(3)">
         <img src="images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Modern villa architecture">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(4)">
-        <img src="images/v1770226533_N34_stewru.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Lush green lawns for outdoor parties">
+        <img src="images/v1770226533_N34_stewru.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Lush green lawns for outdoor parties">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(5)">
-        <img src="images/v1774807176_34_vpeqgv.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Massive private pool">
+        <img src="images/v1774807176_34_vpeqgv.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Massive private pool">
       </div>
       
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(6)">
-        <img src="images/v1772868264_1_wqosmq.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Evening ambiance">
+        <img src="images/v1772868264_1_wqosmq.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Evening ambiance">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(7)">
-        <img src="images/v1774811620_30_1_eexljz.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Cozy indoor spaces for dining">
+        <img src="images/v1774811620_30_1_eexljz.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Cozy indoor spaces for dining">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(8)">
-        <img src="images/v1774809448_30_2_xtqtpb.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Grand lounge capacity">
+        <img src="images/v1774809448_30_2_xtqtpb.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Grand lounge capacity">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(9)">
-        <img src="images/v1773076342_23_wby8bv.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Massive living room">
+        <img src="images/v1773076342_23_wby8bv.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Massive living room">
       </div>
       
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(10)">
@@ -291,10 +292,10 @@ include 'includes/header.php';
         <img src="images/v1769868142_H10_byp3oh.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Luxury sunbed relaxation">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(12)">
-        <img src="images/v1774810653_N35_h2djzp.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Premium overnight accommodations">
+        <img src="images/v1774810653_N35_h2djzp.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Premium overnight accommodations">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(13)">
-        <img src="images/v1774809447_06_htf59g.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Beautiful landscape surrounds">
+        <img src="images/v1774809447_06_htf59g.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Beautiful landscape surrounds">
       </div>
     </div>
   </div>
@@ -312,7 +313,7 @@ include 'includes/header.php';
       <!-- Retro Visawa -->
       <div class="group bg-white rounded-3xl overflow-hidden shadow-xl border border-stone-100 transition-all duration-500 hover:-translate-y-2">
         <div class="relative h-64 overflow-hidden">
-          <img src="images/v1774807173_04_y636xz.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Retro Visawa Barbeque Villa">
+          <img src="images/v1774807173_04_y636xz.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Retro Visawa Barbeque Villa">
           <div class="absolute top-4 left-4 bg-blue-500 text-white text-[10px] uppercase font-bold px-4 py-1 rounded-full">Massive Poolside Deck</div>
         </div>
         <div class="p-8">
@@ -338,7 +339,7 @@ include 'includes/header.php';
       <!-- Retro Villa -->
       <div class="group bg-white rounded-3xl overflow-hidden shadow-xl border border-stone-100 transition-all duration-500 hover:-translate-y-2">
         <div class="relative h-64 overflow-hidden">
-          <img src="images/v1770226533_N34_stewru.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Retro Villa Private BBQ">
+          <img src="images/v1770226533_N34_stewru.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Retro Villa Private BBQ">
           <div class="absolute top-4 left-4 bg-indigo-500 text-white text-[10px] uppercase font-bold px-4 py-1 rounded-full">Intimate Dining</div>
         </div>
         <div class="p-8">
@@ -635,20 +636,20 @@ include 'includes/header.php';
 
 <script>
   window.galleryImages = [
-    'images/villa_bbq_hero_1778569032766.png',
+    'images/villa_bbq_hero_1778569032766.webp',
     'images/v1769868155_M08_qewdva.webp',
-    'images/v1774810269_12_lo4gpx.jpg',
+    'images/v1774810269_12_lo4gpx.webp',
     'images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg',
-    'images/v1770226533_N34_stewru.jpg',
-    'images/v1774807176_34_vpeqgv.jpg',
-    'images/v1772868264_1_wqosmq.jpg',
-    'images/v1774811620_30_1_eexljz.jpg',
-    'images/v1774809448_30_2_xtqtpb.jpg',
-    'images/v1773076342_23_wby8bv.jpg',
+    'images/v1770226533_N34_stewru.webp',
+    'images/v1774807176_34_vpeqgv.webp',
+    'images/v1772868264_1_wqosmq.webp',
+    'images/v1774811620_30_1_eexljz.webp',
+    'images/v1774809448_30_2_xtqtpb.webp',
+    'images/v1773076342_23_wby8bv.webp',
     'images/v1769868140_B30_yc8rqu.webp',
     'images/v1769868142_H10_byp3oh.webp',
-    'images/v1774810653_N35_h2djzp.jpg',
-    'images/v1774809447_06_htf59g.jpg'
+    'images/v1774810653_N35_h2djzp.webp',
+    'images/v1774809447_06_htf59g.webp'
   ];
 
   function openLightbox(index) {

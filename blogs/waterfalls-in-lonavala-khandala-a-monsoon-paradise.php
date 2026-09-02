@@ -1,10 +1,35 @@
 <?php
 $pageTitle = "Waterfalls in Lonavala Khandala – A Monsoon Paradise | Retrofusion Blog";
 $pageDescription = "The twin hill stations of Lonavala and Khandala are famous for their lush greenery, misty hills, and breathtaking waterfalls that come alive during the monsoon season.";
-$canonicalUrl = "https://retrofusion.in/blog/waterfalls-in-lonavala-khandala-a-monsoon-paradise/";
+$canonicalUrl = "https://retrofusion.in/blogs/waterfalls-in-lonavala-khandala-a-monsoon-paradise/";
 $ogTitle = "Waterfalls in Lonavala Khandala – A Monsoon Paradise";
 $ogDescription = "The twin hill stations of Lonavala and Khandala are famous for their lush greenery, misty hills, and breathtaking waterfalls that come alive during the monsoon season.";
-$ogImage = "images/Waterfalls-in-Lonavala-Khandala.webp";
+$ogImage = "https://retrofusion.in/blogs/images/Waterfalls-in-Lonavala-Khandala.webp";
+$additionalHead = '
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://retrofusion.in/blogs/waterfalls-in-lonavala-khandala-a-monsoon-paradise/" },
+      "headline": "Waterfalls in Lonavala Khandala – A Monsoon Paradise",
+      "description": "The twin hill stations of Lonavala and Khandala are famous for their lush greenery, misty hills, and breathtaking waterfalls that come alive during the monsoon season.",
+      "image": "https://retrofusion.in/blogs/images/Waterfalls-in-Lonavala-Khandala.webp",
+      "datePublished": "2026-06-25T13:02:32+05:30",
+      "dateModified": "2026-06-25T13:25:47+05:30",
+      "inLanguage": "en-IN",
+      "author": { "@type": "Organization", "name": "Retrofusion Boutique Homestays", "url": "https://retrofusion.in/" },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Retrofusion Boutique Homestays",
+        "logo": { "@type": "ImageObject", "url": "https://retrofusion.in/images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png" }
+      }
+    }
+  ]
+}
+</script>
+';
 include '../includes/header.php';
 ?>
 
@@ -28,7 +53,7 @@ include '../includes/header.php';
 
 <h3 class="text-xl sm:text-2xl font-semibold text-stone-800 mt-8 mb-3 leading-snug font-display">Bhushi Dam Waterfall, Lonavala</h3>
 
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">One of the most popular waterfall spots in Lonavala is Bhushi Dam. During heavy rainfall, water overflows the dam and flows down the wide stone steps, creating a waterfall-like effect. This spot is extremely popular among tourists who enjoy sitting in the flowing water and soaking in the monsoon vibes. Surrounded by green hills and mist, Bhushi Dam becomes a lively and refreshing attraction during the rainy season.</p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">One of the most popular waterfall spots in Lonavala is <a href="/villas-near-bhushi-dam-lonavala">Bhushi Dam</a>. During heavy rainfall, water overflows the dam and flows down the wide stone steps, creating a waterfall-like effect. This spot is extremely popular among tourists who enjoy sitting in the flowing water and soaking in the monsoon vibes. Surrounded by green hills and mist, Bhushi Dam becomes a lively and refreshing attraction during the rainy season.</p>
 
 <h3 class="text-xl sm:text-2xl font-semibold text-stone-800 mt-8 mb-3 leading-snug font-display">Kune Falls, Khandala</h3>
 
@@ -36,7 +61,7 @@ include '../includes/header.php';
 
 <h3 class="text-xl sm:text-2xl font-semibold text-stone-800 mt-8 mb-3 leading-snug font-display">Lion’s Point and Nearby Seasonal Waterfalls</h3>
 
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Lion’s Point, located between Lonavala and Khandala, offers breathtaking valley views and seasonal waterfalls flowing down the hills during monsoon. While these waterfalls may not have official names, the sight of water streams falling from the cliffs into deep valleys creates an unforgettable view, especially during cloudy and foggy mornings.</p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5"><a href="/villas-near-lion-point">Lion’s Point</a>, located between Lonavala and Khandala, offers breathtaking valley views and seasonal waterfalls flowing down the hills during monsoon. While these waterfalls may not have official names, the sight of water streams falling from the cliffs into deep valleys creates an unforgettable view, especially during cloudy and foggy mornings.</p>
 
 <h3 class="text-xl sm:text-2xl font-semibold text-stone-800 mt-8 mb-3 leading-snug font-display">Tiger’s Leap Waterfall Views</h3>
 

@@ -1,10 +1,35 @@
 <?php
 $pageTitle = "How Much Does a 4BHK Villa in Lonavala Cost? (Price Breakdown) | Retrofusion Blog";
 $pageDescription = "Get a complete price breakdown for 4BHK villas in Lonavala in 2026. Understand weekday vs. weekend rates, seasonal pricing, per-person cost calculations, and money-saving tips.";
-$canonicalUrl = "https://retrofusion.in/blog/how-much-does-4bhk-villa-lonavala-cost-price-breakdown/";
+$canonicalUrl = "https://retrofusion.in/blogs/cost-price-breakdown/";
 $ogTitle = "How Much Does a 4BHK Villa in Lonavala Cost? (Price Breakdown)";
 $ogDescription = "Get a complete price breakdown for 4BHK villas in Lonavala in 2026. Understand weekday vs. weekend rates, seasonal pricing, per-person cost calculations, and money-saving tips.";
-$ogImage = "images/Untitled-design-26.jpg";
+$ogImage = "https://retrofusion.in/blogs/images/Untitled-design-26.webp";
+$additionalHead = '
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://retrofusion.in/blogs/cost-price-breakdown/" },
+      "headline": "How Much Does a 4BHK Villa in Lonavala Cost? (Price Breakdown)",
+      "description": "Get a complete price breakdown for 4BHK villas in Lonavala in 2026. Understand weekday vs. weekend rates, seasonal pricing, per-person cost calculations, and money-saving tips.",
+      "image": "https://retrofusion.in/blogs/images/Untitled-design-26.webp",
+      "datePublished": "2026-05-18T12:43:04+05:30",
+      "dateModified": "2026-06-25T13:25:47+05:30",
+      "inLanguage": "en-IN",
+      "author": { "@type": "Organization", "name": "Retrofusion Boutique Homestays", "url": "https://retrofusion.in/" },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Retrofusion Boutique Homestays",
+        "logo": { "@type": "ImageObject", "url": "https://retrofusion.in/images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png" }
+      }
+    }
+  ]
+}
+</script>
+';
 include '../includes/header.php';
 ?>
 
@@ -14,9 +39,9 @@ include '../includes/header.php';
       <!-- Main blog content -->
       <div class="min-w-0 bg-white rounded-2xl shadow-md overflow-hidden">
       <div class="relative mb-8 overflow-hidden bg-stone-100 rounded-t-2xl">
-        <img src="images/Untitled-design-26.jpg" alt="How Much Does a 4BHK Villa in Lonavala Cost? (Price Breakdown)" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover blur-2xl scale-110 opacity-60" />
+        <img src="images/Untitled-design-26.webp" alt="How Much Does a 4BHK Villa in Lonavala Cost? (Price Breakdown)" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover blur-2xl scale-110 opacity-60" />
         <div class="relative flex items-center justify-center min-h-[200px] sm:min-h-[240px] md:min-h-[280px] py-6 px-4">
-          <img src="images/Untitled-design-26.jpg" alt="How Much Does a 4BHK Villa in Lonavala Cost? (Price Breakdown)" class="max-h-[280px] md:max-h-[320px] w-auto h-auto max-w-full object-contain rounded-lg shadow-lg" />
+          <img src="images/Untitled-design-26.webp" alt="How Much Does a 4BHK Villa in Lonavala Cost? (Price Breakdown)" class="max-h-[280px] md:max-h-[320px] w-auto h-auto max-w-full object-contain rounded-lg shadow-lg" />
         </div>
       </div>
         <div class="p-6 sm:p-8 lg:p-10">
@@ -50,7 +75,7 @@ include '../includes/header.php';
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Understanding what's included in the quoted villa price — and what costs extra — is essential for accurate budgeting. Standard inclusions in most 4BHK villa prices in Lonavala include access to all bedrooms, common areas, and outdoor spaces, private pool access, basic kitchen facilities (gas, refrigerator, utensils), daily housekeeping, caretaker support, WiFi, and parking.</p>
 
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Common additional charges include cook or meal services (₹800-2,000 per meal for the group), extra mattresses or beds (₹300-500 per mattress), bonfire arrangements (₹800-1,500), DJ or music setups (₹2,000-5,000), and late checkout or early check-in (50-100% of one night's rate depending on timing).</p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Common additional charges include cook or meal services (₹800-2,000 per meal for the group), extra mattresses or beds (₹300-500 per mattress), <a href="/villas-in-lonavala-with-bonfire">bonfire</a> arrangements (₹800-1,500), DJ or music setups (₹2,000-5,000), and late checkout or early check-in (50-100% of one night's rate depending on timing).</p>
 
 <h2 class="text-2xl sm:text-3xl font-bold text-stone-800 mt-12 mb-4 leading-snug font-display border-b-2 border-amber-500 pb-2 inline-block">Per-Person Cost Breakdown</h2>
 

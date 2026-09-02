@@ -79,7 +79,7 @@
       <!-- Post 2 -->
       <a href="/blogs/places-to-visit-in-lonavala-with-family/" class="group flex gap-3 px-5 py-3.5 hover:bg-amber-50/50 transition-colors duration-200">
         <div class="w-20 h-14 rounded-xl overflow-hidden bg-stone-100 flex-shrink-0 ring-1 ring-stone-200/60">
-          <img src="/blogs/images/ChatGPT-Image-Jul-4-2025-09_09_07-PM-1024x683.png" alt="Places to Visit in Lonavala with Family" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" loading="lazy" />
+          <img src="/blogs/images/ChatGPT-Image-Jul-4-2025-09_09_07-PM-1024x683.webp" alt="Places to Visit in Lonavala with Family" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" loading="lazy" />
         </div>
         <div class="min-w-0 flex flex-col justify-center">
           <h4 class="text-xs font-semibold text-stone-800 group-hover:text-amber-700 transition-colors line-clamp-2 leading-snug mb-0.5">Places to Visit in Lonavala with Family</h4>
@@ -90,7 +90,7 @@
       <!-- Post 3 -->
       <a href="/blogs/best-places-to-stay-in-lonavala-for-couples/" class="group flex gap-3 px-5 py-3.5 hover:bg-amber-50/50 transition-colors duration-200">
         <div class="w-20 h-14 rounded-xl overflow-hidden bg-stone-100 flex-shrink-0 ring-1 ring-stone-200/60">
-          <img src="/blogs/images/Best-Romantic-Spots-in-Lonavala-for-Couples-1024x559.png" alt="Best Places to Stay in Lonavala for Couples" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" loading="lazy" />
+          <img src="/blogs/images/Best-Romantic-Spots-in-Lonavala-for-Couples-1024x559.webp" alt="Best Places to Stay in Lonavala for Couples" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" loading="lazy" />
         </div>
         <div class="min-w-0 flex flex-col justify-center">
           <h4 class="text-xs font-semibold text-stone-800 group-hover:text-amber-700 transition-colors line-clamp-2 leading-snug mb-0.5">Best Places to Stay in Lonavala for Couples</h4>

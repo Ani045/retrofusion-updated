@@ -7,7 +7,7 @@ $pageAuthor = "Retrofusion Boutique Homestays";
 $pagePublisher = "Retrofusion Boutique Homestays";
 $canonicalUrl = "https://retrofusion.in/villa-for-10-people-near-mumbai";
 $ogTitle = "Villa for 10 People Near Mumbai | Retrofusion Private Estates";
-$ogImage = "images/v1774811620_30_1_eexljz.jpg";
+$ogImage = "https://retrofusion.in/images/v1774811620_30_1_eexljz.webp";
 include 'includes/header.php';
 ?>
 
@@ -23,34 +23,33 @@ include 'includes/header.php';
       "description": "Premium 4BHK private pool villas in Lonavala, perfectly suited for groups of 10 traveling from Mumbai. Private pools, spacious en-suite rooms, and expansive lawns — 2 hours from the city.",
       "url": "https://retrofusion.in/villa-for-10-people-near-mumbai",
       "image": [
-        "https://retrofusion.in/images/v1774811620_30_1_eexljz.jpg",
-        "https://retrofusion.in/images/v1773076342_23_wby8bv.jpg",
-        "https://retrofusion.in/images/v1774807176_34_vpeqgv.jpg",
-        "https://retrofusion.in/images/v1770226533_N34_stewru.jpg",
+        "https://retrofusion.in/images/v1774811620_30_1_eexljz.webp",
+        "https://retrofusion.in/images/v1773076342_23_wby8bv.webp",
+        "https://retrofusion.in/images/v1774807176_34_vpeqgv.webp",
+        "https://retrofusion.in/images/v1770226533_N34_stewru.webp",
         "https://retrofusion.in/images/v1769868155_M08_qewdva.webp"
       ],
       "telephone": "+91 8999036644",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Lonavala",
         "addressLocality": "Lonavala",
         "addressRegion": "Maharashtra",
         "postalCode": "410401",
         "addressCountry": "IN"
       },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "213"
-      },
-      "priceRange": "$$"
+      "priceRange": "$$",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "18.7544",
+        "longitude": "73.4062"
+      }
     },
     {
       "@type": "Organization",
       "@id": "https://retrofusion.in/#organization",
       "name": "Retrofusion Boutique Homestays",
       "url": "https://retrofusion.in/",
-      "logo": "https://retrofusion.in/images/logo.png"
+      "logo": "https://retrofusion.in/images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png"
     },
     {
       "@type": "BreadcrumbList",
@@ -114,15 +113,15 @@ include 'includes/header.php';
           "name": "How far is the villa from Mumbai?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Our Lonavala villas are approximately 85 kilometers from central Mumbai, making them the ideal quick escape for a group of 10."
+            "text": "Our Lonavala villas are approximately 85 kilometers from central Mumbai — a clean, comfortable drive for your entire group of 10."
           }
         },
         {
           "@type": "Question",
-          "name": "How long does it take to drive from Mumbai to Lonavala with 10 people?",
+          "name": "How long does it take to drive from Mumbai with 10 people?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Using the Mumbai-Pune Expressway, a group convoy of 2 to 3 cars from Mumbai reaches Lonavala in approximately 2 hours, depending on traffic."
+            "text": "A group convoy of 2–3 cars from Mumbai reaches Lonavala in approximately 2 hours via the Expressway, depending on city traffic at the time of departure."
           }
         },
         {
@@ -130,7 +129,7 @@ include 'includes/header.php';
           "name": "Can a 4BHK villa comfortably accommodate 10 people?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Our 4BHK villas feature 4 spacious en-suite bedrooms and high-quality extra bedding, comfortably sleeping a group of 10 while giving everyone access to massive communal living areas."
+            "text": "Yes. Our 4BHK villas have 4 spacious en-suite bedrooms plus premium extra floor mattresses. A group of 10 sleeps very comfortably while enjoying the massive common areas together."
           }
         },
         {
@@ -138,31 +137,31 @@ include 'includes/header.php';
           "name": "Is the private pool large enough for 10 guests?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Absolutely. Our villas feature some of the largest private pools in Lonavala. A group of 10 has ample space to swim and enjoy the surrounding poolside deck at the same time."
+            "text": "Absolutely. Our villas have some of the largest private pools in Lonavala. All 10 guests can swim together with plenty of space, while the surrounding deck accommodates everyone simultaneously."
           }
         },
         {
           "@type": "Question",
-          "name": "Is there enough parking for the cars of a 10-person group?",
+          "name": "Is there enough parking for 10 people traveling in multiple cars?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. A group of 10 typically arrives in 2 to 3 cars. Our gated private driveways can safely accommodate multiple vehicles with ease."
+            "text": "Yes. A group of 10 typically arrives in 2 to 3 cars from Mumbai. Our gated private driveways have ample space to safely accommodate your entire convoy."
           }
         },
         {
           "@type": "Question",
-          "name": "What food arrangements are available for 10 people?",
+          "name": "What food arrangements are available for a group of 10?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "You can opt for our private caretaker service, which includes freshly prepared meals for your group. Our fully equipped kitchens are also available if you prefer to cook."
+            "text": "Our caretaker service provides freshly prepared meals for all 10 guests throughout your stay. Our fully equipped kitchens are also available if your group prefers to cook."
           }
         },
         {
           "@type": "Question",
-          "name": "Can we do a poolside BBQ for 10 guests?",
+          "name": "Can we host a poolside BBQ for 10 people?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Definitely. We provide a professional BBQ setup right by the pool. Our caretakers will help set everything up for a perfect evening with your group of 10."
+            "text": "Definitely. We set up a professional BBQ grill by the pool. Our caretakers assist with the setup so your group of 10 can enjoy a perfect evening feast under the stars."
           }
         },
         {
@@ -170,7 +169,7 @@ include 'includes/header.php';
           "name": "Are the dining areas large enough for all 10 people?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Our dining spaces and outdoor decks are well-sized to seat and serve all 10 guests together comfortably in a beautiful private setting."
+            "text": "Yes. Our indoor dining areas and outdoor deck spaces comfortably seat and serve all 10 guests together — no eating in shifts, no compromise on the experience."
           }
         }
       ]
@@ -180,7 +179,9 @@ include 'includes/header.php';
       "@id": "https://retrofusion.in/villa-for-10-people-near-mumbai#webpage",
       "url": "https://retrofusion.in/villa-for-10-people-near-mumbai",
       "name": "Villa for 10 People Near Mumbai | Private Pool Estates in Lonavala",
-      "isPartOf": { "@id": "https://retrofusion.in/#website" }
+      "isPartOf": {
+        "@id": "https://retrofusion.in/#website"
+      }
     }
   ]
 }
@@ -188,7 +189,7 @@ include 'includes/header.php';
 
 <!-- ===== HERO SECTION ===== -->
 <section class="relative h-screen overflow-hidden">
-  <img src="images/v1774811620_30_1_eexljz.jpg"
+  <img src="images/v1774811620_30_1_eexljz.webp"
     class="absolute inset-0 w-full h-full object-cover" alt="Villa for 10 People Near Mumbai" title="Private Group Villa Near Mumbai" />
   <div class="absolute inset-0 bg-black/55"></div>
   <div class="relative z-10 h-full flex flex-col justify-center items-center px-4">
@@ -312,13 +313,13 @@ include 'includes/header.php';
     
     <div class="grid grid-cols-1 md:grid-cols-4 gap-4 h-auto md:h-[800px]">
       <div class="md:col-span-2 relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(0)">
-        <img src="images/v1773076342_23_wby8bv.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Beautiful living room for 10 people near Mumbai">
+        <img src="images/v1773076342_23_wby8bv.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Beautiful living room for 10 people near Mumbai">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(1)">
-        <img src="images/v1774811620_30_1_eexljz.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Elegant indoor seating area">
+        <img src="images/v1774811620_30_1_eexljz.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Elegant indoor seating area">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(2)">
-        <img src="images/v1774807176_34_vpeqgv.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Private pool for group villa near Mumbai">
+        <img src="images/v1774807176_34_vpeqgv.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Private pool for group villa near Mumbai">
       </div>
       
       <div class="md:col-span-2 relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(3)">
@@ -328,20 +329,20 @@ include 'includes/header.php';
         <img src="images/v1769868155_M08_qewdva.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Outdoor deck area">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(5)">
-        <img src="images/v1770226533_N34_stewru.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Private green lawns">
+        <img src="images/v1770226533_N34_stewru.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Private green lawns">
       </div>
       
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(6)">
-        <img src="images/v1773076226_27_ipqwdd.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Cozy dining setup">
+        <img src="images/v1773076226_27_ipqwdd.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Cozy dining setup">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(7)">
-        <img src="images/v1772868264_1_wqosmq.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Evening group ambiance">
+        <img src="images/v1772868264_1_wqosmq.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Evening group ambiance">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(8)">
-        <img src="images/v1774809448_30_2_xtqtpb.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Luxury lounge area">
+        <img src="images/v1774809448_30_2_xtqtpb.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Luxury lounge area">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(9)">
-        <img src="images/v1774810269_12_lo4gpx.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Poolside relaxation area">
+        <img src="images/v1774810269_12_lo4gpx.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Poolside relaxation area">
       </div>
       
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(10)">
@@ -351,10 +352,10 @@ include 'includes/header.php';
         <img src="images/v1769868142_H10_byp3oh.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Luxury poolside sunbeds">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(12)">
-        <img src="images/v1774810653_N35_h2djzp.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Premium bedroom accommodations">
+        <img src="images/v1774810653_N35_h2djzp.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Premium bedroom accommodations">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(13)">
-        <img src="images/v1774809447_06_htf59g.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Beautiful landscape surrounds">
+        <img src="images/v1774809447_06_htf59g.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Beautiful landscape surrounds">
       </div>
     </div>
   </div>
@@ -372,7 +373,7 @@ include 'includes/header.php';
       <!-- Retro Visawa -->
       <div class="group bg-white rounded-3xl overflow-hidden shadow-xl border border-stone-100 transition-all duration-500 hover:-translate-y-2">
         <div class="relative h-64 overflow-hidden">
-          <img src="images/v1774807173_04_y636xz.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Retro Visawa Villa for 10 People Near Mumbai">
+          <img src="images/v1774807173_04_y636xz.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Retro Visawa Villa for 10 People Near Mumbai">
           <div class="absolute top-4 left-4 bg-blue-500 text-white text-[10px] uppercase font-bold px-4 py-1 rounded-full">Top Choice for Groups</div>
         </div>
         <div class="p-8">
@@ -398,7 +399,7 @@ include 'includes/header.php';
       <!-- Retro Villa -->
       <div class="group bg-white rounded-3xl overflow-hidden shadow-xl border border-stone-100 transition-all duration-500 hover:-translate-y-2">
         <div class="relative h-64 overflow-hidden">
-          <img src="images/v1770226533_N34_stewru.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Retro Villa for 10 People">
+          <img src="images/v1770226533_N34_stewru.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Retro Villa for 10 People">
           <div class="absolute top-4 left-4 bg-indigo-500 text-white text-[10px] uppercase font-bold px-4 py-1 rounded-full">Ultimate Privacy</div>
         </div>
         <div class="p-8">
@@ -689,20 +690,20 @@ include 'includes/header.php';
 
 <script>
   window.galleryImages = [
-    'images/v1773076342_23_wby8bv.jpg',
-    'images/v1774811620_30_1_eexljz.jpg',
-    'images/v1774807176_34_vpeqgv.jpg',
+    'images/v1773076342_23_wby8bv.webp',
+    'images/v1774811620_30_1_eexljz.webp',
+    'images/v1774807176_34_vpeqgv.webp',
     'images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg',
     'images/v1769868155_M08_qewdva.webp',
-    'images/v1770226533_N34_stewru.jpg',
-    'images/v1773076226_27_ipqwdd.jpg',
-    'images/v1772868264_1_wqosmq.jpg',
-    'images/v1774809448_30_2_xtqtpb.jpg',
-    'images/v1774810269_12_lo4gpx.jpg',
+    'images/v1770226533_N34_stewru.webp',
+    'images/v1773076226_27_ipqwdd.webp',
+    'images/v1772868264_1_wqosmq.webp',
+    'images/v1774809448_30_2_xtqtpb.webp',
+    'images/v1774810269_12_lo4gpx.webp',
     'images/v1769868140_B30_yc8rqu.webp',
     'images/v1769868142_H10_byp3oh.webp',
-    'images/v1774810653_N35_h2djzp.jpg',
-    'images/v1774809447_06_htf59g.jpg'
+    'images/v1774810653_N35_h2djzp.webp',
+    'images/v1774809447_06_htf59g.webp'
   ];
 
   function openLightbox(index) {

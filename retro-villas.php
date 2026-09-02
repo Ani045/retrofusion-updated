@@ -3,7 +3,7 @@ $pageTitle = "Retro Villa | Villas with Swimming Pool in Lonavala";
 $pageDescription = "Discover Retro Villa, a unique villa in Lonavala with pool. Enjoy vintage luxury and cinema-inspired themes at one of the finest private pool villas in Lonavala.";
 $canonicalUrl = "https://retrofusion.in/retro-villas";
 $ogTitle = "Retro Villa | Private Pool Villa in Lonavala";
-$ogImage = "images/v1770226533_N34_stewru.jpg";
+$ogImage = "https://retrofusion.in/images/v1770226533_N34_stewru.webp";
 include 'includes/header.php';
 ?>
 
@@ -11,7 +11,7 @@ include 'includes/header.php';
 <section class="relative h-screen overflow-hidden">
   <video autoplay loop muted playsinline preload="auto" onloadeddata="this.play();"
     class="absolute inset-0 w-full h-full object-cover"
-    poster="images/v1770226533_N34_stewru.jpg">
+    poster="images/v1770226533_N34_stewru.webp">
     <source src="images/v1770699275_Untitled_design_1_cner56.mp4"
       type="video/mp4" />
   </video>
@@ -71,7 +71,7 @@ include 'includes/header.php';
     </div>
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8">
       <div class="relative group overflow-hidden rounded-3xl">
-        <img loading="lazy" src="images/v1770226533_N34_stewru.jpg"
+        <img loading="lazy" src="images/v1770226533_N34_stewru.webp"
           alt="Retro Villa Exterior"
           class="w-full h-[400px] md:h-[500px] object-cover transition-transform duration-700 group-hover:scale-105" />
       </div>
@@ -92,10 +92,10 @@ include 'includes/header.php';
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-10 md:mt-14 scroll-reveal">
     <div class="relative overflow-hidden rounded-3xl shadow-xl">
       <!-- Mobile Banner -->
-      <img loading="lazy" src="images/v1773566197_for_retro_mobile_flnc0l.png"
+      <img loading="lazy" src="images/v1773566197_for_retro_mobile_flnc0l.webp"
         alt="Retro Villa Features Mobile" class="block sm:hidden w-full h-auto object-cover" />
       <!-- Desktop Banner -->
-      <img loading="lazy" src="images/v1773566197_for_retro_laptop_oggrcy.png"
+      <img loading="lazy" src="images/v1773566197_for_retro_laptop_oggrcy.webp"
         alt="Retro Villa Features Desktop" class="hidden sm:block w-full h-auto object-cover" />
     </div>
   </div>
@@ -223,7 +223,7 @@ include 'includes/header.php';
         <div
           class="relative overflow-hidden group cursor-pointer col-span-2 md:col-span-2 row-span-1 md:row-span-2 rounded-2xl shadow-lg"
           onclick="openLightbox(0)">
-          <img loading="lazy" src="images/v1770226533_N34_stewru.jpg"
+          <img loading="lazy" src="images/v1770226533_N34_stewru.webp"
             class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
             alt="Villa View 1">
           <div
@@ -656,7 +656,7 @@ include 'includes/header.php';
             <div class="pt-9 sm:pt-11 w-full flex flex-col items-center">
               <a href="https://www.instagram.com/retrofusion.in/" target="_blank" class="w-full">
                 <img loading="lazy"
-                  src="images/v1772471878_Screenshot_2026-03-02_at_10.47.42_PM_wo3toj.png"
+                  src="images/v1772471878_Screenshot_2026-03-02_at_10.47.42_PM_wo3toj.webp"
                   alt="Instagram Profile Screenshot"
                   class="w-full h-auto block opacity-95 transition-opacity duration-300 group-hover/screen:opacity-100" />
               </a>
@@ -689,7 +689,7 @@ include 'includes/header.php';
             <!-- Image with amber border -->
             <div class="mx-2.5 mb-2 border-[3px] border-amber-600 rounded-lg overflow-hidden">
               <img loading="lazy"
-                src="images/v1772473164_Screenshot_2026-03-02_at_11.08.01_PM_a5g0vs.png"
+                src="images/v1772473164_Screenshot_2026-03-02_at_11.08.01_PM_a5g0vs.webp"
                 alt="Instagram Post"
                 class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
@@ -741,7 +741,7 @@ include 'includes/header.php';
             </div>
             <div class="mx-2.5 mb-2 border-[3px] border-amber-600 rounded-lg overflow-hidden">
               <img loading="lazy"
-                src="images/v1772473164_Screenshot_2026-03-02_at_11.07.23_PM_sbgs0f.png"
+                src="images/v1772473164_Screenshot_2026-03-02_at_11.07.23_PM_sbgs0f.webp"
                 alt="Instagram Post"
                 class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
@@ -792,7 +792,7 @@ include 'includes/header.php';
             </div>
             <div class="mx-2.5 mb-2 border-[3px] border-amber-600 rounded-lg overflow-hidden">
               <img loading="lazy"
-                src="images/v1772473163_Screenshot_2026-03-02_at_11.07.36_PM_ftkdee.png"
+                src="images/v1772473163_Screenshot_2026-03-02_at_11.07.36_PM_ftkdee.webp"
                 alt="Instagram Post"
                 class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
@@ -843,7 +843,7 @@ include 'includes/header.php';
             </div>
             <div class="mx-2.5 mb-2 border-[3px] border-amber-600 rounded-lg overflow-hidden">
               <img loading="lazy"
-                src="images/v1772473163_Screenshot_2026-03-02_at_11.07.51_PM_yzseuz.png"
+                src="images/v1772473163_Screenshot_2026-03-02_at_11.07.51_PM_yzseuz.webp"
                 alt="Instagram Post"
                 class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
@@ -895,39 +895,136 @@ include 'includes/header.php';
       "@type": "LodgingBusiness",
       "@id": "https://retrofusion.in/retro-villas#lodgingbusiness",
       "name": "Retro Villa",
-      "image": "images/v1770226533_N34_stewru.jpg",
+      "image": "https://retrofusion.in/images/v1770226533_N34_stewru.webp",
       "url": "https://retrofusion.in/retro-villas",
       "telephone": "+91 8999036644",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Lonavala",
         "addressRegion": "Maharashtra",
-        "addressCountry": "IN"
+        "addressCountry": "IN",
+        "postalCode": "410401"
       },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "900"
-      }
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "18.7544",
+        "longitude": "73.4062"
+      },
+      "priceRange": "$$",
+      "amenityFeature": [
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Private pool",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Terrace",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "BBQ",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Free high-speed WiFi (60 Mbps)",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "HDTV with OTT apps",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Indoor games",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Pet friendly",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Vintage themed bedrooms",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Library",
+          "value": true
+        }
+      ]
     },
     {
       "@type": "LocalBusiness",
       "@id": "https://retrofusion.in/retro-villas#localbusiness",
       "name": "Retro Villa",
-      "image": "images/v1770226533_N34_stewru.jpg",
-      "url": "https://retrofusion.in/retro-villas"
+      "image": "https://retrofusion.in/images/v1770226533_N34_stewru.webp",
+      "url": "https://retrofusion.in/retro-villas",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "18.7544",
+        "longitude": "73.4062"
+      },
+      "priceRange": "$$",
+      "amenityFeature": [
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Private pool",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Terrace",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "BBQ",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Free high-speed WiFi (60 Mbps)",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "HDTV with OTT apps",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Indoor games",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Pet friendly",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Vintage themed bedrooms",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Library",
+          "value": true
+        }
+      ]
     },
     {
       "@type": "Product",
       "@id": "https://retrofusion.in/retro-villas#product",
       "name": "Retro Villa",
       "description": "Discover Retro Villa, a unique villa in Lonavala with pool. Enjoy vintage luxury and cinema-inspired themes.",
-      "image": "images/v1770226533_N34_stewru.jpg",
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "900"
-      }
+      "image": "https://retrofusion.in/images/v1770226533_N34_stewru.webp"
     },
     {
       "@type": "BreadcrumbList",
@@ -950,7 +1047,7 @@ include 'includes/header.php';
       "@type": "VideoObject",
       "name": "Retro Villa Lonavala",
       "description": "Explore the beautiful Retro Villa in Lonavala.",
-      "thumbnailUrl": "images/v1770226533_N34_stewru.jpg",
+      "thumbnailUrl": "images/v1770226533_N34_stewru.webp",
       "uploadDate": "2024-01-01T08:00:00+08:00",
       "contentUrl": "images/v1770699275_Untitled_design_1_cner56.mp4"
     }
@@ -997,11 +1094,11 @@ include 'includes/header.php';
 </div><!-- end min-h-screen -->
 <script>
   window.galleryImages = [
-    'images/v1770226533_N34_stewru.jpg',
+    'images/v1770226533_N34_stewru.webp',
     'images/v1769868140_B30_yc8rqu.webp',
     'images/v1769868140_C26_j6pstx.webp',
     'images/v1769868140_05_ivb2yz.webp',
-    'images/v1770226534_N36_om6t9d.jpg',
+    'images/v1770226534_N36_om6t9d.webp',
     'images/v1769868155_M08_qewdva.webp',
     'images/v1769868143_M01_jjmwdw.webp',
     'images/v1769868142_G31_mdlfjh.webp',

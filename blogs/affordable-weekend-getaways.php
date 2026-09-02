@@ -1,10 +1,35 @@
 <?php
 $pageTitle = "Affordable 4BHK Villas in Lonavala for Weekend Getaways | Retrofusion Blog";
 $pageDescription = "Find the best affordable 4BHK villas in Lonavala for your next weekend getaway. Smart booking tips, cost-saving strategies, and top villa picks for budget-conscious travelers.";
-$canonicalUrl = "https://retrofusion.in/blog/affordable-4bhk-villas-lonavala-weekend-getaways/";
+$canonicalUrl = "https://retrofusion.in/blogs/affordable-weekend-getaways/";
 $ogTitle = "Affordable 4BHK Villas in Lonavala for Weekend Getaways";
 $ogDescription = "Find the best affordable 4BHK villas in Lonavala for your next weekend getaway. Smart booking tips, cost-saving strategies, and top villa picks for budget-conscious travelers.";
-$ogImage = "images/Untitled-design-22.jpg";
+$ogImage = "https://retrofusion.in/blogs/images/Untitled-design-22.webp";
+$additionalHead = '
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://retrofusion.in/blogs/affordable-weekend-getaways/" },
+      "headline": "Affordable 4BHK Villas in Lonavala for Weekend Getaways",
+      "description": "Find the best affordable 4BHK villas in Lonavala for your next weekend getaway. Smart booking tips, cost-saving strategies, and top villa picks for budget-conscious travelers.",
+      "image": "https://retrofusion.in/blogs/images/Untitled-design-22.webp",
+      "datePublished": "2026-05-18T12:43:04+05:30",
+      "dateModified": "2026-06-25T13:25:47+05:30",
+      "inLanguage": "en-IN",
+      "author": { "@type": "Organization", "name": "Retrofusion Boutique Homestays", "url": "https://retrofusion.in/" },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Retrofusion Boutique Homestays",
+        "logo": { "@type": "ImageObject", "url": "https://retrofusion.in/images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png" }
+      }
+    }
+  ]
+}
+</script>
+';
 include '../includes/header.php';
 ?>
 
@@ -14,9 +39,9 @@ include '../includes/header.php';
       <!-- Main blog content -->
       <div class="min-w-0 bg-white rounded-2xl shadow-md overflow-hidden">
       <div class="relative mb-8 overflow-hidden bg-stone-100 rounded-t-2xl">
-        <img src="images/Untitled-design-22.jpg" alt="Affordable 4BHK Villas in Lonavala for Weekend Getaways" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover blur-2xl scale-110 opacity-60" />
+        <img src="images/Untitled-design-22.webp" alt="Affordable 4BHK Villas in Lonavala for Weekend Getaways" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover blur-2xl scale-110 opacity-60" />
         <div class="relative flex items-center justify-center min-h-[200px] sm:min-h-[240px] md:min-h-[280px] py-6 px-4">
-          <img src="images/Untitled-design-22.jpg" alt="Affordable 4BHK Villas in Lonavala for Weekend Getaways" class="max-h-[280px] md:max-h-[320px] w-auto h-auto max-w-full object-contain rounded-lg shadow-lg" />
+          <img src="images/Untitled-design-22.webp" alt="Affordable 4BHK Villas in Lonavala for Weekend Getaways" class="max-h-[280px] md:max-h-[320px] w-auto h-auto max-w-full object-contain rounded-lg shadow-lg" />
         </div>
       </div>
         <div class="p-6 sm:p-8 lg:p-10">
@@ -40,7 +65,7 @@ include '../includes/header.php';
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Retrofusion Boutique Homestays offers options across different price points, ensuring every group can find a villa that fits their budget. Their entry-level offering, the Retro Villa, is a vintage-themed 4BHK property that delivers authentic character and comfort at accessible pricing. With a plunge pool, BBQ area, and spacious terrace, it offers outstanding value for groups looking for an affordable but memorable getaway.</p>
 
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">For groups willing to spend a bit more for a premium experience, the <a href="https://retrofusion.in/neo-retro">Neo Retro Villa</a> provides an artistic, immersive luxury experience that still delivers excellent value when split among a group. The jacuzzi, mountain views, and world library make it feel like a much more expensive destination than it actually is.</p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">For groups willing to spend a bit more for a premium experience, the <a href="https://retrofusion.in/neo-retro">Neo Retro Villa</a> provides an artistic, immersive luxury experience that still delivers excellent value when split among a group. The jacuzzi, <a href="/mountain-view-villa-lonavala">mountain views</a>, and world library make it feel like a much more expensive destination than it actually is.</p>
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">The key to an affordable villa weekend is splitting costs intelligently. A villa at ₹20,000 per night split among 10 guests costs just ₹2,000 per person — a fraction of what you'd pay for even a decent hotel room in Mumbai. Explore all options on the <a href="https://retrofusion.in/staycation-in-lonavala">Lonavala staycation guide</a> to compare villas and find the best fit for your group's budget.</p>
 
@@ -48,7 +73,7 @@ include '../includes/header.php';
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Making the most of your villa stay while keeping costs in check is all about planning and smart choices. Cook some of your own meals — the fully equipped kitchen in most 4BHK villas means you can have a few home-cooked meals alongside dining out, which significantly reduces food costs for a group. Buy groceries and snacks in bulk from supermarkets in Lonavala town before checking in.</p>
 
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Plan your activities around free or low-cost options. Lonavala has plenty of natural attractions that cost nothing — Bhushi Dam, Tiger's Point, Bushi Lake, Karla Caves, and scenic viewpoints are all either free or very low cost. The misty mountain drives and forest walks are among the most memorable experiences in Lonavala, and they're completely free.</p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Plan your activities around free or low-cost options. Lonavala has plenty of natural attractions that cost nothing — <a href="/villas-near-bhushi-dam-lonavala">Bhushi Dam</a>, <a href="/villas-near-tiger-point-lonavala">Tiger's Point</a>, Bushi Lake, Karla Caves, and scenic viewpoints are all either free or very low cost. The misty mountain drives and forest walks are among the most memorable experiences in Lonavala, and they're completely free.</p>
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Travel during shoulder season — the periods just before or just after peak season — for the best combination of good weather and affordable pricing. March-May and September-October tend to offer good weather without the peak-season price surge. Always check if the villa offers any promotional rates or off-season discounts when you <a href="https://retrofusion.in/contact">contact the Retrofusion team</a> directly.</p>
 

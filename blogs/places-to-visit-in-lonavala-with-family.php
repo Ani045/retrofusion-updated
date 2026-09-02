@@ -1,10 +1,35 @@
 <?php
 $pageTitle = "15 Places to Visit in Lonavala with Family | Retrofusion Blog";
 $pageDescription = "Explore 15 kid-friendly places to visit in Lonavala with family, with timings, fees, and safety tips for a fun weekend.";
-$canonicalUrl = "https://retrofusion.in/blog/places-to-visit-in-lonavala-with-family/";
+$canonicalUrl = "https://retrofusion.in/blogs/places-to-visit-in-lonavala-with-family/";
 $ogTitle = "15 Places to Visit in Lonavala with Family";
 $ogDescription = "Explore 15 kid-friendly places to visit in Lonavala with family, with timings, fees, and safety tips for a fun weekend.";
-$ogImage = "images/ChatGPT-Image-Jul-4-2025-08_48_49-PM.png";
+$ogImage = "https://retrofusion.in/blogs/images/ChatGPT-Image-Jul-4-2025-08_48_49-PM.webp";
+$additionalHead = '
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://retrofusion.in/blogs/places-to-visit-in-lonavala-with-family/" },
+      "headline": "15 Places to Visit in Lonavala with Family",
+      "description": "Explore 15 kid-friendly places to visit in Lonavala with family, with timings, fees, and safety tips for a fun weekend.",
+      "image": "https://retrofusion.in/blogs/images/ChatGPT-Image-Jul-4-2025-08_48_49-PM.webp",
+      "datePublished": "2026-06-25T13:02:32+05:30",
+      "dateModified": "2026-06-25T13:25:47+05:30",
+      "inLanguage": "en-IN",
+      "author": { "@type": "Organization", "name": "Retrofusion Boutique Homestays", "url": "https://retrofusion.in/" },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Retrofusion Boutique Homestays",
+        "logo": { "@type": "ImageObject", "url": "https://retrofusion.in/images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png" }
+      }
+    }
+  ]
+}
+</script>
+';
 include '../includes/header.php';
 ?>
 
@@ -14,19 +39,19 @@ include '../includes/header.php';
       <!-- Main blog content -->
       <div class="min-w-0 bg-white rounded-2xl shadow-md overflow-hidden">
       <div class="relative mb-8 overflow-hidden bg-stone-100 rounded-t-2xl">
-        <img src="images/ChatGPT-Image-Jul-4-2025-08_48_49-PM.png" alt="15 Places to Visit in Lonavala with Family" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover blur-2xl scale-110 opacity-60" />
+        <img src="images/ChatGPT-Image-Jul-4-2025-08_48_49-PM.webp" alt="15 Places to Visit in Lonavala with Family" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover blur-2xl scale-110 opacity-60" />
         <div class="relative flex items-center justify-center min-h-[200px] sm:min-h-[240px] md:min-h-[280px] py-6 px-4">
-          <img src="images/ChatGPT-Image-Jul-4-2025-08_48_49-PM.png" alt="15 Places to Visit in Lonavala with Family" class="max-h-[280px] md:max-h-[320px] w-auto h-auto max-w-full object-contain rounded-lg shadow-lg" />
+          <img src="images/ChatGPT-Image-Jul-4-2025-08_48_49-PM.webp" alt="15 Places to Visit in Lonavala with Family" class="max-h-[280px] md:max-h-[320px] w-auto h-auto max-w-full object-contain rounded-lg shadow-lg" />
         </div>
       </div>
         <div class="p-6 sm:p-8 lg:p-10">
           <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold text-stone-800 font-display mb-6 leading-tight">15 Places to Visit in Lonavala with Family</h1>
           <div class="prose prose-stone max-w-none">
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Lonavala turns parents into heroes with its misty hills and kid-friendly adventures. From splashing at Bhushi Dam to riding rollercoasters at Imagicaa, this hill station near Mumbai and Pune delights families. Our guide to places to visit in Lonavala with family includes timings, fees, and safety tips. Plan a weekend where kids giggle and parents relax. For a cozy family stay, book RetroFusion (<a href="https://retrofusion.in/">https://retrofusion.in/</a>).</p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Lonavala turns parents into heroes with its misty hills and kid-friendly adventures. From splashing at <a href="/villas-near-bhushi-dam-lonavala">Bhushi Dam</a> to riding rollercoasters at Imagicaa, this hill station near Mumbai and Pune delights families. Our guide to places to visit in Lonavala with family includes timings, fees, and safety tips. Plan a weekend where kids giggle and parents relax. For a cozy <a href="/best-4bhk-homestay-in-lonavala-for-family">family stay</a>, book RetroFusion (<a href="https://retrofusion.in/">https://retrofusion.in/</a>).</p>
 
 <h2 class="text-2xl sm:text-3xl font-bold text-stone-800 mt-12 mb-4 leading-snug font-display border-b-2 border-amber-500 pb-2 inline-block">How We Short-Listed These Spots</h2>
 
-<figure><img src="images/ChatGPT-Image-Jul-4-2025-08_52_51-PM.png" /></figure>
+<figure><img src="images/ChatGPT-Image-Jul-4-2025-08_52_51-PM.webp" /></figure>
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">We gathered tips from Pune and Mumbai parents’ groups and over 10,000 traveler reviews on TripAdvisor and Holidify. Each spot is safe, accessible, and loved by kids. Lonavala, cradled in the Western Ghats, offers lush greenery and cool breezes.</p>
 
@@ -122,7 +147,7 @@ include '../includes/header.php';
 
 <h3 class="text-xl sm:text-2xl font-semibold text-stone-800 mt-8 mb-3 leading-snug font-display">Why Kids Love It</h3>
 
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Kids love tossing pebbles at Pawna Lake’s calm shores. The open space is perfect for kite-flying and picnics.</p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Kids love tossing pebbles at <a href="/best-villas-near-pawna-lake-in-lonavala">Pawna Lake</a>’s calm shores. The open space is perfect for kite-flying and picnics.</p>
 
 <h3 class="text-xl sm:text-2xl font-semibold text-stone-800 mt-8 mb-3 leading-snug font-display">Quick Info</h3>
 
@@ -144,7 +169,7 @@ include '../includes/header.php';
 
 <h3 class="text-xl sm:text-2xl font-semibold text-stone-800 mt-8 mb-3 leading-snug font-display">Why Kids Love It</h3>
 
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Kids giggle at Lion’s Point, munching corn while gazing at misty valleys. The open space invites tag games.</p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Kids giggle at <a href="/villas-near-lion-point">Lion’s Point</a>, munching corn while gazing at misty valleys. The open space invites tag games.</p>
 
 <h3 class="text-xl sm:text-2xl font-semibold text-stone-800 mt-8 mb-3 leading-snug font-display">Quick Info</h3>
 

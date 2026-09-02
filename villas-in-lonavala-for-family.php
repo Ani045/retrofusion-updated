@@ -7,7 +7,7 @@ $pageAuthor = "Retrofusion Boutique Homestays";
 $pagePublisher = "Retrofusion Boutique Homestays";
 $canonicalUrl = "https://retrofusion.in/villas-in-lonavala-for-family";
 $ogTitle = "Best Villas in Lonavala for Family | Peaceful Group Stays";
-$ogImage = "images/family_villa_lonavala_hero.png";
+$ogImage = "https://retrofusion.in/images/family_villa_lonavala_hero.webp";
 include 'includes/header.php';
 ?>
 
@@ -23,20 +23,19 @@ include 'includes/header.php';
       "description": "Safe and serene 4BHK villas in Lonavala designed for families. Featuring private pools, fenced gardens, and home-style dining.",
       "url": "https://retrofusion.in/villas-in-lonavala-for-family",
       "image": [
-        "https://retrofusion.in/images/family_villa_lonavala_hero.png",
-        "https://retrofusion.in/images/v1773076342_23_wby8bv.jpg",
-        "https://retrofusion.in/images/v1774811620_30_1_eexljz.jpg",
-        "https://retrofusion.in/images/v1774807173_04_y636xz.jpg",
-        "https://retrofusion.in/images/v1770226533_N34_stewru.jpg",
-        "https://retrofusion.in/images/v1774810269_12_lo4gpx.jpg",
-        "https://retrofusion.in/images/v1773076226_27_ipqwdd.jpg",
-        "https://retrofusion.in/images/v1772868264_1_wqosmq.jpg"
+        "https://retrofusion.in/images/family_villa_lonavala_hero.webp",
+        "https://retrofusion.in/images/v1773076342_23_wby8bv.webp",
+        "https://retrofusion.in/images/v1774811620_30_1_eexljz.webp",
+        "https://retrofusion.in/images/v1774807173_04_y636xz.webp",
+        "https://retrofusion.in/images/v1770226533_N34_stewru.webp",
+        "https://retrofusion.in/images/v1774810269_12_lo4gpx.webp",
+        "https://retrofusion.in/images/v1773076226_27_ipqwdd.webp",
+        "https://retrofusion.in/images/v1772868264_1_wqosmq.webp"
       ],
       "identifier": "RETRO-FAM-01",
       "telephone": "+91 8999036644",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Lonavala",
         "addressLocality": "Lonavala",
         "addressRegion": "Maharashtra",
         "postalCode": "410401",
@@ -47,11 +46,6 @@ include 'includes/header.php';
         "latitude": "18.7544",
         "longitude": "73.4062"
       },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "150"
-      },
       "priceRange": "$$"
     },
     {
@@ -59,7 +53,7 @@ include 'includes/header.php';
       "@id": "https://retrofusion.in/#organization",
       "name": "Retrofusion Boutique Homestays",
       "url": "https://retrofusion.in/",
-      "logo": "https://retrofusion.in/images/logo.png",
+      "logo": "https://retrofusion.in/images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png",
       "contactPoint": {
         "@type": "ContactPoint",
         "telephone": "+91 8999036644",
@@ -194,7 +188,9 @@ include 'includes/header.php';
       "@id": "https://retrofusion.in/villas-in-lonavala-for-family#webpage",
       "url": "https://retrofusion.in/villas-in-lonavala-for-family",
       "name": "Villas in Lonavala for Family | Family Friendly Stays",
-      "isPartOf": { "@id": "https://retrofusion.in/#website" }
+      "isPartOf": {
+        "@id": "https://retrofusion.in/#website"
+      }
     }
   ]
 }
@@ -202,7 +198,7 @@ include 'includes/header.php';
 
 <!-- ===== HERO SECTION ===== -->
 <section class="relative h-screen overflow-hidden">
-  <img src="images/family_villa_lonavala_hero.png"
+  <img src="images/family_villa_lonavala_hero.webp"
     class="absolute inset-0 w-full h-full object-cover" alt="Villas in Lonavala for Family Getaway" title="Best Villas in Lonavala for Family" />
   <div class="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-black/60"></div>
   <div class="relative z-10 h-full flex flex-col justify-center items-center px-4 sm:px-6 lg:px-8">
@@ -271,35 +267,35 @@ include 'includes/header.php';
     <div class="grid grid-cols-1 md:grid-cols-4 gap-4 h-auto md:h-[800px]">
       <!-- Row 1 -->
       <div class="md:col-span-2 relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(0)">
-        <img src="images/family_villa_lonavala_hero.png" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Family Vacation Lonavala">
+        <img src="images/family_villa_lonavala_hero.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Family Vacation Lonavala">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(1)">
-        <img src="images/v1773076342_23_wby8bv.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Family Lounge">
+        <img src="images/v1773076342_23_wby8bv.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Family Lounge">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(2)">
-        <img src="images/v1774811620_30_1_eexljz.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Dining Area">
+        <img src="images/v1774811620_30_1_eexljz.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Dining Area">
       </div>
       
       <!-- Row 2 -->
       <div class="md:col-span-2 relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(3)">
-        <img src="images/v1774807173_04_y636xz.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Villa Exterior">
+        <img src="images/v1774807173_04_y636xz.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Villa Exterior">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(4)">
-        <img src="images/v1770226533_N34_stewru.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Peaceful Garden">
+        <img src="images/v1770226533_N34_stewru.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Peaceful Garden">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(5)">
-        <img src="images/v1774810269_12_lo4gpx.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Kids Pool Area">
+        <img src="images/v1774810269_12_lo4gpx.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Kids Pool Area">
       </div>
       
       <!-- Row 3 -->
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(6)">
-        <img src="images/v1773076226_27_ipqwdd.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Scenic Balcony">
+        <img src="images/v1773076226_27_ipqwdd.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Scenic Balcony">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(7)">
-        <img src="images/v1772868264_1_wqosmq.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Evening Lawn">
+        <img src="images/v1772868264_1_wqosmq.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Evening Lawn">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(8)">
-        <img src="images/v1774809448_30_2_xtqtpb.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Luxury Bathroom">
+        <img src="images/v1774809448_30_2_xtqtpb.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Luxury Bathroom">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(9)">
         <img src="images/v1769868155_M08_qewdva.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Master Bedroom">
@@ -313,10 +309,10 @@ include 'includes/header.php';
         <img src="images/v1769868142_H10_byp3oh.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Sun Deck">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(12)">
-        <img src="images/v1774810653_N35_h2djzp.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Family Detail">
+        <img src="images/v1774810653_N35_h2djzp.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Family Detail">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(13)">
-        <img src="images/v1774809447_06_htf59g.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Quality Finish">
+        <img src="images/v1774809447_06_htf59g.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Quality Finish">
       </div>
     </div>
   </div>
@@ -334,7 +330,7 @@ include 'includes/header.php';
       <!-- Retro Visawa -->
       <div class="group bg-white rounded-3xl overflow-hidden shadow-xl border border-stone-100 transition-all duration-500 hover:-translate-y-2 scale-[1.05]">
         <div class="relative h-64 overflow-hidden">
-          <img src="images/v1774807173_04_y636xz.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Retro Visawa Family Stay">
+          <img src="images/v1774807173_04_y636xz.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Retro Visawa Family Stay">
           <div class="absolute top-4 left-4 bg-amber-500 text-white text-[10px] uppercase font-bold px-4 py-1 rounded-full">Most Popular</div>
         </div>
         <div class="p-8">
@@ -360,7 +356,7 @@ include 'includes/header.php';
       <!-- Retro Villa -->
       <div class="group bg-white rounded-3xl overflow-hidden shadow-xl border border-stone-100 transition-all duration-500 hover:-translate-y-2">
         <div class="relative h-64 overflow-hidden">
-          <img src="images/v1770226533_N34_stewru.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Retro Villa Family Stay">
+          <img src="images/v1770226533_N34_stewru.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Retro Villa Family Stay">
           <div class="absolute top-4 left-4 bg-emerald-500 text-white text-[10px] uppercase font-bold px-4 py-1 rounded-full">Peaceful Seclusion</div>
         </div>
         <div class="p-8">
@@ -684,20 +680,20 @@ include 'includes/header.php';
 
 <script>
   window.galleryImages = [
-    'images/family_villa_lonavala_hero.png',
-    'images/v1773076342_23_wby8bv.jpg',
-    'images/v1774811620_30_1_eexljz.jpg',
-    'images/v1774807173_04_y636xz.jpg',
-    'images/v1770226533_N34_stewru.jpg',
-    'images/v1774810269_12_lo4gpx.jpg',
-    'images/v1773076226_27_ipqwdd.jpg',
-    'images/v1772868264_1_wqosmq.jpg',
-    'images/v1774809448_30_2_xtqtpb.jpg',
+    'images/family_villa_lonavala_hero.webp',
+    'images/v1773076342_23_wby8bv.webp',
+    'images/v1774811620_30_1_eexljz.webp',
+    'images/v1774807173_04_y636xz.webp',
+    'images/v1770226533_N34_stewru.webp',
+    'images/v1774810269_12_lo4gpx.webp',
+    'images/v1773076226_27_ipqwdd.webp',
+    'images/v1772868264_1_wqosmq.webp',
+    'images/v1774809448_30_2_xtqtpb.webp',
     'images/v1769868155_M08_qewdva.webp',
     'images/v1769868140_B30_yc8rqu.webp',
     'images/v1769868142_H10_byp3oh.webp',
-    'images/v1774810653_N35_h2djzp.jpg',
-    'images/v1774809447_06_htf59g.jpg'
+    'images/v1774810653_N35_h2djzp.webp',
+    'images/v1774809447_06_htf59g.webp'
   ];
 
   function openLightbox(index) {

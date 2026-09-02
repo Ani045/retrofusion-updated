@@ -7,7 +7,7 @@ $pageAuthor = "Retrofusion Boutique Homestays";
 $pagePublisher = "Retrofusion Boutique Homestays";
 $canonicalUrl = "https://retrofusion.in/villa-for-10-people-near-mumbai-with-indoor-games";
 $ogTitle = "Villa for 10 People Near Mumbai with Indoor Games | Retrofusion";
-$ogImage = "images/v1773076342_23_wby8bv.jpg";
+$ogImage = "https://retrofusion.in/images/v1773076342_23_wby8bv.webp";
 include 'includes/header.php';
 ?>
 
@@ -23,32 +23,31 @@ include 'includes/header.php';
       "description": "Premium 10-person capacity villas near Mumbai featuring dedicated game rooms with pool tables, table tennis, carrom, and board games for endless group entertainment.",
       "url": "https://retrofusion.in/villa-for-10-people-near-mumbai-with-indoor-games",
       "image": [
-        "https://retrofusion.in/images/v1773076342_23_wby8bv.jpg",
+        "https://retrofusion.in/images/v1773076342_23_wby8bv.webp",
         "https://retrofusion.in/images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg",
-        "https://retrofusion.in/images/v1774811620_30_1_eexljz.jpg"
+        "https://retrofusion.in/images/v1774811620_30_1_eexljz.webp"
       ],
       "telephone": "+91 8999036644",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Lonavala",
         "addressLocality": "Lonavala",
         "addressRegion": "Maharashtra",
         "postalCode": "410401",
         "addressCountry": "IN"
       },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "95"
-      },
-      "priceRange": "$$"
+      "priceRange": "$$",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "18.7544",
+        "longitude": "73.4062"
+      }
     },
     {
       "@type": "Organization",
       "@id": "https://retrofusion.in/#organization",
       "name": "Retrofusion Boutique Homestays",
       "url": "https://retrofusion.in/",
-      "logo": "https://retrofusion.in/images/logo.png"
+      "logo": "https://retrofusion.in/images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png"
     },
     {
       "@type": "BreadcrumbList",
@@ -109,34 +108,34 @@ include 'includes/header.php';
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Can 10 people comfortably play games together?",
+          "name": "Are the indoor games free to use?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes! Our large villas have expansive living areas and dedicated game rooms, meaning while some guests play pool, others can comfortably play carrom or table tennis nearby."
+            "text": "Yes, all indoor games including the pool table, carrom, table tennis, and board games are completely free and unlimited for our guests during their stay."
           }
         },
         {
           "@type": "Question",
-          "name": "What indoor games are available in the 10-person villa?",
+          "name": "Do you provide all the equipment (cues, strikers, balls)?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "These properties are equipped with a variety of indoor games including a full-sized pool table (billiards), table tennis, multiple carrom boards, chess, playing cards, and board games."
+            "text": "Yes, we maintain and provide all necessary equipment, including pool cues, balls, chalk, table tennis paddles, and carrom strikers."
           }
         },
         {
           "@type": "Question",
-          "name": "How far is the villa from Mumbai?",
+          "name": "How far are the 10-person villas from Mumbai?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Our 10-capacity properties are situated in Lonavala, roughly 80 to 95 kilometers from central Mumbai, accessible in about 1.5 to 2.5 hours via the Expressway."
+            "text": "The villas are roughly 80 to 95 kilometers from central Mumbai. The drive via the Mumbai-Pune Expressway usually takes between 1.5 and 2.5 hours."
           }
         },
         {
           "@type": "Question",
-          "name": "Are the games free to use during the stay?",
+          "name": "Are there games for younger children?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes! All indoor game facilities and equipment are completely free to use for our guests throughout the duration of their stay."
+            "text": "Absolutely. We keep a stock of family-friendly board games, Ludo, Uno, and playing cards that are perfect for kids and the whole family."
           }
         }
       ]
@@ -146,7 +145,9 @@ include 'includes/header.php';
       "@id": "https://retrofusion.in/villa-for-10-people-near-mumbai-with-indoor-games#webpage",
       "url": "https://retrofusion.in/villa-for-10-people-near-mumbai-with-indoor-games",
       "name": "Villa for 10 People Near Mumbai with Indoor Games | Group Fun",
-      "isPartOf": { "@id": "https://retrofusion.in/#website" }
+      "isPartOf": {
+        "@id": "https://retrofusion.in/#website"
+      }
     }
   ]
 }
@@ -154,7 +155,7 @@ include 'includes/header.php';
 
 <!-- ===== HERO SECTION ===== -->
 <section class="relative h-screen overflow-hidden">
-  <img src="images/v1773076342_23_wby8bv.jpg"
+  <img src="images/v1773076342_23_wby8bv.webp"
     class="absolute inset-0 w-full h-full object-cover" alt="Villa for 10 People Near Mumbai with Indoor Games" title="10 Person Villa Near Mumbai with Pool Table and Indoor Games" />
   <div class="absolute inset-0 bg-black/45"></div>
   <div class="relative z-10 h-full flex flex-col justify-center items-center px-4">
@@ -281,33 +282,33 @@ include 'includes/header.php';
     
     <div class="grid grid-cols-1 md:grid-cols-4 gap-4 h-auto md:h-[800px]">
       <div class="md:col-span-2 relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(0)">
-        <img src="images/v1773076342_23_wby8bv.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Living room with indoor games and pool table">
+        <img src="images/v1773076342_23_wby8bv.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Living room with indoor games and pool table">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(1)">
         <img src="images/v1769868155_M08_qewdva.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Massive outdoor relaxation decks">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(2)">
-        <img src="images/v1774810269_12_lo4gpx.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Poolside seating">
+        <img src="images/v1774810269_12_lo4gpx.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Poolside seating">
       </div>
       
       <div class="md:col-span-2 relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(3)">
-        <img src="images/v1770226533_N34_stewru.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Lush green lawns at the villa">
+        <img src="images/v1770226533_N34_stewru.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Lush green lawns at the villa">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(4)">
-        <img src="images/v1774807176_34_vpeqgv.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Private swimming pool">
+        <img src="images/v1774807176_34_vpeqgv.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Private swimming pool">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(5)">
-        <img src="images/v1772868264_1_wqosmq.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Evening luxury ambiance">
+        <img src="images/v1772868264_1_wqosmq.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Evening luxury ambiance">
       </div>
       
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(6)">
-        <img src="images/v1773076226_27_ipqwdd.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Elegant dining area">
+        <img src="images/v1773076226_27_ipqwdd.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Elegant dining area">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(7)">
-        <img src="images/v1774811620_30_1_eexljz.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Comfortable indoor spaces">
+        <img src="images/v1774811620_30_1_eexljz.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Comfortable indoor spaces">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(8)">
-        <img src="images/v1774809448_30_2_xtqtpb.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Spacious lounge seating">
+        <img src="images/v1774809448_30_2_xtqtpb.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Spacious lounge seating">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(9)">
         <img src="images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Modern villa architecture">
@@ -341,7 +342,7 @@ include 'includes/header.php';
       <!-- Retro Visawa -->
       <div class="group bg-white rounded-3xl overflow-hidden shadow-xl border border-stone-100 transition-all duration-500 hover:-translate-y-2">
         <div class="relative h-64 overflow-hidden">
-          <img src="images/v1774807173_04_y636xz.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Retro Visawa Massive Party Stay">
+          <img src="images/v1774807173_04_y636xz.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Retro Visawa Massive Party Stay">
           <div class="absolute top-4 left-4 bg-blue-500 text-white text-[10px] uppercase font-bold px-4 py-1 rounded-full">Pool Table & BBQ</div>
         </div>
         <div class="p-8">
@@ -354,7 +355,7 @@ include 'includes/header.php';
       <!-- Retro Villa -->
       <div class="group bg-white rounded-3xl overflow-hidden shadow-xl border border-stone-100 transition-all duration-500 hover:-translate-y-2">
         <div class="relative h-64 overflow-hidden">
-          <img src="images/v1770226533_N34_stewru.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Retro Villa Private Stay">
+          <img src="images/v1770226533_N34_stewru.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Retro Villa Private Stay">
           <div class="absolute top-4 left-4 bg-indigo-500 text-white text-[10px] uppercase font-bold px-4 py-1 rounded-full">Intimate Gated Fun</div>
         </div>
         <div class="p-8">
@@ -600,15 +601,15 @@ include 'includes/header.php';
 
 <script>
   window.galleryImages = [
-    'images/v1773076342_23_wby8bv.jpg',
+    'images/v1773076342_23_wby8bv.webp',
     'images/v1769868155_M08_qewdva.webp',
-    'images/v1774810269_12_lo4gpx.jpg',
-    'images/v1770226533_N34_stewru.jpg',
-    'images/v1774807176_34_vpeqgv.jpg',
-    'images/v1772868264_1_wqosmq.jpg',
-    'images/v1773076226_27_ipqwdd.jpg',
-    'images/v1774811620_30_1_eexljz.jpg',
-    'images/v1774809448_30_2_xtqtpb.jpg',
+    'images/v1774810269_12_lo4gpx.webp',
+    'images/v1770226533_N34_stewru.webp',
+    'images/v1774807176_34_vpeqgv.webp',
+    'images/v1772868264_1_wqosmq.webp',
+    'images/v1773076226_27_ipqwdd.webp',
+    'images/v1774811620_30_1_eexljz.webp',
+    'images/v1774809448_30_2_xtqtpb.webp',
     'images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg'
   ];
 

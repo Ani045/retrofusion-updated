@@ -1,10 +1,35 @@
 <?php
 $pageTitle = "Hidden Places in Lonavala: Secret Spots Only Locals Know About | Retrofusion Blog";
 $pageDescription = "Uncover hidden places in Lonavala that are off the beaten path. Perfect for peaceful escapes and nature lovers looking for something unique.";
-$canonicalUrl = "https://retrofusion.in/blog/hidden-places-in-lonavala/";
+$canonicalUrl = "https://retrofusion.in/blogs/hidden-places-in-lonavala/";
 $ogTitle = "Hidden Places in Lonavala: Secret Spots Only Locals Know About";
 $ogDescription = "Uncover hidden places in Lonavala that are off the beaten path. Perfect for peaceful escapes and nature lovers looking for something unique.";
-$ogImage = "images/hidden-places-in-lonavala.jpeg";
+$ogImage = "https://retrofusion.in/blogs/images/hidden-places-in-lonavala.webp";
+$additionalHead = '
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://retrofusion.in/blogs/hidden-places-in-lonavala/" },
+      "headline": "Hidden Places in Lonavala: Secret Spots Only Locals Know About",
+      "description": "Uncover hidden places in Lonavala that are off the beaten path. Perfect for peaceful escapes and nature lovers looking for something unique.",
+      "image": "https://retrofusion.in/blogs/images/hidden-places-in-lonavala.webp",
+      "datePublished": "2026-06-25T13:02:32+05:30",
+      "dateModified": "2026-06-25T13:25:47+05:30",
+      "inLanguage": "en-IN",
+      "author": { "@type": "Organization", "name": "Retrofusion Boutique Homestays", "url": "https://retrofusion.in/" },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Retrofusion Boutique Homestays",
+        "logo": { "@type": "ImageObject", "url": "https://retrofusion.in/images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png" }
+      }
+    }
+  ]
+}
+</script>
+';
 include '../includes/header.php';
 ?>
 
@@ -14,9 +39,9 @@ include '../includes/header.php';
       <!-- Main blog content -->
       <div class="min-w-0 bg-white rounded-2xl shadow-md overflow-hidden">
       <div class="relative mb-8 overflow-hidden bg-stone-100 rounded-t-2xl">
-        <img src="images/hidden-places-in-lonavala.jpeg" alt="Hidden Places in Lonavala: Secret Spots Only Locals Know About" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover blur-2xl scale-110 opacity-60" />
+        <img src="images/hidden-places-in-lonavala.webp" alt="Hidden Places in Lonavala: Secret Spots Only Locals Know About" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover blur-2xl scale-110 opacity-60" />
         <div class="relative flex items-center justify-center min-h-[200px] sm:min-h-[240px] md:min-h-[280px] py-6 px-4">
-          <img src="images/hidden-places-in-lonavala.jpeg" alt="Hidden Places in Lonavala: Secret Spots Only Locals Know About" class="max-h-[280px] md:max-h-[320px] w-auto h-auto max-w-full object-contain rounded-lg shadow-lg" />
+          <img src="images/hidden-places-in-lonavala.webp" alt="Hidden Places in Lonavala: Secret Spots Only Locals Know About" class="max-h-[280px] md:max-h-[320px] w-auto h-auto max-w-full object-contain rounded-lg shadow-lg" />
         </div>
       </div>
         <div class="p-6 sm:p-8 lg:p-10">
@@ -26,7 +51,7 @@ include '../includes/header.php';
 
 <h2 class="text-2xl sm:text-3xl font-bold text-stone-800 mt-12 mb-4 leading-snug font-display border-b-2 border-amber-500 pb-2 inline-block"><strong>Secret Spots to Explore in Lonavala</strong></h2>
 
-<figure><img src="images/hidden-place-in-lonavala-1024x558.jpeg" /></figure>
+<figure><img src="images/hidden-place-in-lonavala-1024x558.webp" /></figure>
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Embark on an adventure to these lesser-known gems that offer unique experiences and a deeper connection with Lonavala's untouched charm.</p>
 
@@ -87,9 +112,9 @@ include '../includes/header.php';
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">RetroFusion boasts two distinct villas, each designed with a specific traveler in mind:</p>
 
 <ul class="list-disc pl-6 space-y-2 text-base sm:text-lg text-stone-700 mb-5">
-<li class="leading-relaxed"><strong>Retro Villa:</strong> Ideal for families, this villa provides ample space and thoughtful amenities, ensuring a comfortable and memorable group stay after a day of discovering Lonavala's secret spots.</li>
+<li class="leading-relaxed"><strong><a href="/retro-villas">Retro Villa</a>:</strong> Ideal for families, this villa provides ample space and thoughtful amenities, ensuring a comfortable and memorable group stay after a day of discovering Lonavala's secret spots.</li>
 
-<li class="leading-relaxed"><strong>Neo Retro:</strong> Perfect for creatives, corporates, and pet lovers, this villa offers a more contemporary and inspiring environment, fostering relaxation and productivity amidst the hills.</li>
+<li class="leading-relaxed"><strong><a href="/neo-retro">Neo Retro</a>:</strong> Perfect for creatives, corporates, and pet lovers, this villa offers a more contemporary and inspiring environment, fostering relaxation and productivity amidst the hills.</li>
 </ul>
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Each of RetroFusion's villas promises an exclusive escape: indulge in the luxury of private plunge pools, gather around inviting BBQ areas for memorable evenings under the stars, and unwind in cozy sit-outs. Our in-house meals, thoughtfully tailored to Indian palates, ensure a delightful culinary journey that complements your unique Lonavala experience. Founded by an artist and nature lover, RetroFusion is more than just accommodation; it's an immersive experience where modern comforts seamlessly blend with artistic flair and natural tranquility. Don't miss out on this unique <strong><a href="https://retrofusion.in/">Lonavala homestay</a></strong> – secure your personalized getaway by booking early on their official website today!</p>

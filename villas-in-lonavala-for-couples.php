@@ -7,7 +7,7 @@ $pageAuthor = "Retrofusion Boutique Homestays";
 $pagePublisher = "Retrofusion Boutique Homestays";
 $canonicalUrl = "https://retrofusion.in/villas-in-lonavala-for-couples";
 $ogTitle = "Romantic 4BHK Villas in Lonavala | Intimate Couple Escapes";
-$ogImage = "images/couples_villa_lonavala_hero.png";
+$ogImage = "https://retrofusion.in/images/couples_villa_lonavala_hero.webp";
 include 'includes/header.php';
 ?>
 
@@ -23,20 +23,19 @@ include 'includes/header.php';
       "description": "Intimate and private 4BHK villas in Lonavala designed for couple staycations. Featuring private pools, romantic dining, and mountain views.",
       "url": "https://retrofusion.in/villas-in-lonavala-for-couples",
       "image": [
-        "https://retrofusion.in/images/couples_villa_lonavala_hero.png",
-        "https://retrofusion.in/images/v1774810269_12_lo4gpx.jpg",
-        "https://retrofusion.in/images/v1773076226_27_ipqwdd.jpg",
-        "https://retrofusion.in/images/v1772868264_1_wqosmq.jpg",
-        "https://retrofusion.in/images/v1774807173_04_y636xz.jpg",
+        "https://retrofusion.in/images/couples_villa_lonavala_hero.webp",
+        "https://retrofusion.in/images/v1774810269_12_lo4gpx.webp",
+        "https://retrofusion.in/images/v1773076226_27_ipqwdd.webp",
+        "https://retrofusion.in/images/v1772868264_1_wqosmq.webp",
+        "https://retrofusion.in/images/v1774807173_04_y636xz.webp",
         "https://retrofusion.in/images/v1769868155_M08_qewdva.webp",
-        "https://retrofusion.in/images/v1770226533_N34_stewru.jpg",
+        "https://retrofusion.in/images/v1770226533_N34_stewru.webp",
         "https://retrofusion.in/images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg"
       ],
       "identifier": "RETRO-COUPLE-01",
       "telephone": "+91 8999036644",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Lonavala",
         "addressLocality": "Lonavala",
         "addressRegion": "Maharashtra",
         "postalCode": "410401",
@@ -47,11 +46,6 @@ include 'includes/header.php';
         "latitude": "18.7544",
         "longitude": "73.4062"
       },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "130"
-      },
       "priceRange": "$$"
     },
     {
@@ -59,7 +53,7 @@ include 'includes/header.php';
       "@id": "https://retrofusion.in/#organization",
       "name": "Retrofusion Boutique Homestays",
       "url": "https://retrofusion.in/",
-      "logo": "https://retrofusion.in/images/logo.png"
+      "logo": "https://retrofusion.in/images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png"
     },
     {
       "@type": "BreadcrumbList",
@@ -189,7 +183,9 @@ include 'includes/header.php';
       "@id": "https://retrofusion.in/villas-in-lonavala-for-couples#webpage",
       "url": "https://retrofusion.in/villas-in-lonavala-for-couples",
       "name": "Romantic 4BHK Villas for Couple Staycation in Lonavala",
-      "isPartOf": { "@id": "https://retrofusion.in/#website" }
+      "isPartOf": {
+        "@id": "https://retrofusion.in/#website"
+      }
     }
   ]
 }
@@ -197,7 +193,7 @@ include 'includes/header.php';
 
 <!-- ===== HERO SECTION ===== -->
 <section class="relative h-screen overflow-hidden">
-  <img src="images/couples_villa_lonavala_hero.png"
+  <img src="images/couples_villa_lonavala_hero.webp"
     class="absolute inset-0 w-full h-full object-cover" alt="Romantic 4BHK Villa in Lonavala for Couples" title="Couples Staycation Lonavala" />
   <div class="absolute inset-0 bg-gradient-to-b from-black/50 via-black/20 to-black/60"></div>
   <div class="relative z-10 h-full flex flex-col justify-center items-center px-4 sm:px-6 lg:px-8 text-center">
@@ -226,7 +222,7 @@ include 'includes/header.php';
       <div class="w-full lg:w-1/2 relative">
         <div class="absolute -top-10 -left-10 w-40 h-40 bg-amber-50 rounded-full mix-blend-multiply filter blur-2xl opacity-70 animate-blob"></div>
         <div class="absolute -bottom-10 -right-10 w-40 h-40 bg-stone-100 rounded-full mix-blend-multiply filter blur-2xl opacity-70 animate-blob animation-delay-2000"></div>
-        <img src="images/v1773076226_27_ipqwdd.jpg" alt="Romantic Dining Setup" class="relative rounded-3xl shadow-2xl z-10 w-full hover:scale-[1.02] transition-transform duration-700" />
+        <img src="images/v1773076226_27_ipqwdd.webp" alt="Romantic Dining Setup" class="relative rounded-3xl shadow-2xl z-10 w-full hover:scale-[1.02] transition-transform duration-700" />
       </div>
       
       <div class="w-full lg:w-1/2 space-y-8">
@@ -268,25 +264,25 @@ include 'includes/header.php';
     <div class="grid grid-cols-1 md:grid-cols-4 gap-4 h-auto md:h-[800px]">
       <!-- Row 1 -->
       <div class="md:col-span-2 relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(0)">
-        <img src="images/v1774810269_12_lo4gpx.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Private Romantic Pool">
+        <img src="images/v1774810269_12_lo4gpx.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Private Romantic Pool">
         <div class="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-colors duration-500"></div>
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(1)">
-        <img src="images/v1773076226_27_ipqwdd.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Candlelight Dinner">
+        <img src="images/v1773076226_27_ipqwdd.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Candlelight Dinner">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(2)">
-        <img src="images/v1772868264_1_wqosmq.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Evening Vibe">
+        <img src="images/v1772868264_1_wqosmq.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Evening Vibe">
       </div>
       
       <!-- Row 2 -->
       <div class="md:col-span-2 relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(3)">
-        <img src="images/v1774807173_04_y636xz.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Villa Exterior">
+        <img src="images/v1774807173_04_y636xz.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Villa Exterior">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(4)">
         <img src="images/v1769868155_M08_qewdva.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Master Suite">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(5)">
-        <img src="images/v1770226533_N34_stewru.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Mountain Deck">
+        <img src="images/v1770226533_N34_stewru.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Mountain Deck">
       </div>
       
       <!-- Row 3 -->
@@ -294,13 +290,13 @@ include 'includes/header.php';
         <img src="images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Luxury Living">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(7)">
-        <img src="images/v1774811620_30_1_eexljz.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Modern Comfort">
+        <img src="images/v1774811620_30_1_eexljz.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Modern Comfort">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(8)">
-        <img src="images/v1774807176_34_vpeqgv.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Poolside Lounge">
+        <img src="images/v1774807176_34_vpeqgv.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Poolside Lounge">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(9)">
-        <img src="images/v1773076342_23_wby8bv.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Gourmet Food">
+        <img src="images/v1773076342_23_wby8bv.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Gourmet Food">
       </div>
       
       <!-- Row 4 -->
@@ -311,10 +307,10 @@ include 'includes/header.php';
         <img src="images/v1769868142_H10_byp3oh.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Sun Deck">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(12)">
-        <img src="images/v1774810653_N35_h2djzp.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Art Detail">
+        <img src="images/v1774810653_N35_h2djzp.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Art Detail">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(13)">
-        <img src="images/v1774809447_06_htf59g.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Premium Finish">
+        <img src="images/v1774809447_06_htf59g.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Premium Finish">
       </div>
     </div>
   </div>
@@ -332,7 +328,7 @@ include 'includes/header.php';
       <!-- Retro Visawa -->
       <div class="group bg-white rounded-3xl overflow-hidden shadow-xl border border-stone-100 transition-all duration-500 hover:-translate-y-2">
         <div class="relative h-64 overflow-hidden">
-          <img src="images/v1774807173_04_y636xz.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Retro Visawa">
+          <img src="images/v1774807173_04_y636xz.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Retro Visawa">
           <div class="absolute top-4 left-4 bg-emerald-500 text-white text-[10px] uppercase font-bold px-4 py-1 rounded-full italic">High Seclusion</div>
         </div>
         <div class="p-8">
@@ -358,7 +354,7 @@ include 'includes/header.php';
       <!-- Retro Villa -->
       <div class="group bg-white rounded-3xl overflow-hidden shadow-xl border border-stone-100 transition-all duration-500 hover:-translate-y-2">
         <div class="relative h-64 overflow-hidden">
-          <img src="images/v1770226533_N34_stewru.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Retro Villa">
+          <img src="images/v1770226533_N34_stewru.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Retro Villa">
           <div class="absolute top-4 left-4 bg-stone-800 text-white text-[10px] uppercase font-bold px-4 py-1 rounded-full italic">Classic Peace</div>
         </div>
         <div class="p-8">
@@ -660,20 +656,20 @@ include 'includes/header.php';
 
 <script>
   const galleryImages = [
-    { src: 'images/v1774810269_12_lo4gpx.jpg', cap: 'Private Romantic Pool' },
-    { src: 'images/v1773076226_27_ipqwdd.jpg', cap: 'Candlelight Dinner Setup' },
-    { src: 'images/v1772868264_1_wqosmq.jpg', cap: 'Evening Vibes' },
-    { src: 'images/v1774807173_04_y636xz.jpg', cap: 'Villa Exterior' },
+    { src: 'images/v1774810269_12_lo4gpx.webp', cap: 'Private Romantic Pool' },
+    { src: 'images/v1773076226_27_ipqwdd.webp', cap: 'Candlelight Dinner Setup' },
+    { src: 'images/v1772868264_1_wqosmq.webp', cap: 'Evening Vibes' },
+    { src: 'images/v1774807173_04_y636xz.webp', cap: 'Villa Exterior' },
     { src: 'images/v1769868155_M08_qewdva.webp', cap: 'Master Suite' },
-    { src: 'images/v1770226533_N34_stewru.jpg', cap: 'Mountain Deck' },
+    { src: 'images/v1770226533_N34_stewru.webp', cap: 'Mountain Deck' },
     { src: 'images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg', cap: 'Luxury Living' },
-    { src: 'images/v1774811620_30_1_eexljz.jpg', cap: 'Modern Comfort' },
-    { src: 'images/v1774807176_34_vpeqgv.jpg', cap: 'Poolside Lounge' },
-    { src: 'images/v1773076342_23_wby8bv.jpg', cap: 'Gourmet Food' },
+    { src: 'images/v1774811620_30_1_eexljz.webp', cap: 'Modern Comfort' },
+    { src: 'images/v1774807176_34_vpeqgv.webp', cap: 'Poolside Lounge' },
+    { src: 'images/v1773076342_23_wby8bv.webp', cap: 'Gourmet Food' },
     { src: 'images/v1769868140_B30_yc8rqu.webp', cap: 'Veranda' },
     { src: 'images/v1769868142_H10_byp3oh.webp', cap: 'Sun Deck' },
-    { src: 'images/v1774810653_N35_h2djzp.jpg', cap: 'Art Detail' },
-    { src: 'images/v1774809447_06_htf59g.jpg', cap: 'Premium Finish' }
+    { src: 'images/v1774810653_N35_h2djzp.webp', cap: 'Art Detail' },
+    { src: 'images/v1774809447_06_htf59g.webp', cap: 'Premium Finish' }
   ];
 
   let currentImgIdx = 0;

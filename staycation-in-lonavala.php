@@ -73,7 +73,7 @@ include 'includes/header.php';
             <div
                 class="group relative bg-[#F4EFEA] border border-stone-200 rounded-[2rem] overflow-hidden transition-all duration-500 hover:shadow-2xl hover:-translate-y-2">
                 <div class="relative h-64 overflow-hidden">
-                    <img loading="lazy" src="images/v1770226533_N34_stewru.jpg"
+                    <img loading="lazy" src="images/v1770226533_N34_stewru.webp"
                         alt="Retro Villa - Budget Friendly Staycation in Lonavala"
                         class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
@@ -114,7 +114,7 @@ include 'includes/header.php';
             <div
                 class="group relative bg-[#F4EFEA] border border-stone-200 rounded-[2rem] overflow-hidden transition-all duration-500 hover:shadow-2xl hover:-translate-y-2">
                 <div class="relative h-64 overflow-hidden">
-                    <img loading="lazy" src="images/v1769863039_01_qwhl8a.jpg"
+                    <img loading="lazy" src="images/v1769863039_01_qwhl8a.webp"
                         alt="Neo Retro Villa - Luxury Art Staycation in Lonavala"
                         class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
@@ -158,7 +158,7 @@ include 'includes/header.php';
             <div
                 class="group relative bg-[#F4EFEA] border border-stone-200 rounded-[2rem] overflow-hidden transition-all duration-500 hover:shadow-2xl hover:-translate-y-2 md:col-span-2 lg:col-span-1">
                 <div class="relative h-64 overflow-hidden">
-                    <img loading="lazy" src="images/v1772474727_Screenshot_2026-03-02_at_11.33.32_PM_wqk7eu.png"
+                    <img loading="lazy" src="images/v1772474727_Screenshot_2026-03-02_at_11.33.32_PM_wqk7eu.webp"
                         alt="Retro Visawa - Private Pool Villa Staycation Lonavala"
                         class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
@@ -332,16 +332,16 @@ include 'includes/header.php';
             <div class="lg:w-1/2 w-full">
                 <!-- Gallery Grid -->
                 <div class="grid grid-cols-2 gap-4">
-                    <img loading="lazy" src="images/v1773076226_27_ipqwdd.jpg"
+                    <img loading="lazy" src="images/v1773076226_27_ipqwdd.webp"
                         alt="Mountain Views Lonavala"
                         class="rounded-2xl w-full h-[250px] object-cover shadow-lg hover:scale-[1.03] transition-transform duration-500">
-                    <img loading="lazy" src="images/v1772868264_1_wqosmq.jpg"
+                    <img loading="lazy" src="images/v1772868264_1_wqosmq.webp"
                         alt="Staycation Relaxation"
                         class="rounded-2xl w-full h-[250px] object-cover mt-8 shadow-lg hover:scale-[1.03] transition-transform duration-500">
-                    <img loading="lazy" src="images/v1773076342_23_wby8bv.jpg"
+                    <img loading="lazy" src="images/v1773076342_23_wby8bv.webp"
                         alt="Luxury Villa Interior"
                         class="rounded-2xl w-full h-[250px] object-cover -mt-8 shadow-lg hover:scale-[1.03] transition-transform duration-500">
-                    <img loading="lazy" src="images/v1772868502_16_fxghyv.jpg"
+                    <img loading="lazy" src="images/v1772868502_16_fxghyv.webp"
                         alt="Beautiful Staycation Villa"
                         class="rounded-2xl w-full h-[250px] object-cover shadow-lg hover:scale-[1.03] transition-transform duration-500">
                 </div>
@@ -471,27 +471,35 @@ include 'includes/header.php';
       "@type": "LodgingBusiness",
       "@id": "https://retrofusion.in/staycation-in-lonavala#lodgingbusiness",
       "name": "Staycation in Lonavala - Retrofusion",
-      "image": "images/v1769868140_B30_yc8rqu.webp",
+      "image": "https://retrofusion.in/images/v1769868140_B30_yc8rqu.webp",
       "url": "https://retrofusion.in/staycation-in-lonavala",
       "telephone": "+91 8999036644",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Lonavala",
         "addressRegion": "Maharashtra",
-        "addressCountry": "IN"
+        "addressCountry": "IN",
+        "postalCode": "410401"
       },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "900"
-      }
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "18.7544",
+        "longitude": "73.4062"
+      },
+      "priceRange": "$$"
     },
     {
       "@type": "LocalBusiness",
       "@id": "https://retrofusion.in/staycation-in-lonavala#localbusiness",
       "name": "Staycation in Lonavala - Retrofusion",
-      "image": "images/v1769868140_B30_yc8rqu.webp",
-      "url": "https://retrofusion.in/staycation-in-lonavala"
+      "image": "https://retrofusion.in/images/v1769868140_B30_yc8rqu.webp",
+      "url": "https://retrofusion.in/staycation-in-lonavala",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "18.7544",
+        "longitude": "73.4062"
+      },
+      "priceRange": "$$"
     },
     {
       "@type": "BreadcrumbList",
@@ -520,12 +528,7 @@ include 'includes/header.php';
             "@type": "Product",
             "name": "Retro Villa",
             "url": "https://retrofusion.in/retro-villas",
-            "image": "images/v1770226533_N34_stewru.jpg",
-            "aggregateRating": {
-              "@type": "AggregateRating",
-              "ratingValue": "4.9",
-              "reviewCount": "900"
-            }
+            "image": "https://retrofusion.in/images/v1770226533_N34_stewru.webp"
           }
         },
         {
@@ -535,12 +538,7 @@ include 'includes/header.php';
             "@type": "Product",
             "name": "Neo Retro Villa",
             "url": "https://retrofusion.in/neo-retro",
-            "image": "images/v1769863039_01_qwhl8a.jpg",
-            "aggregateRating": {
-              "@type": "AggregateRating",
-              "ratingValue": "4.9",
-              "reviewCount": "900"
-            }
+            "image": "https://retrofusion.in/images/v1769863039_01_qwhl8a.webp"
           }
         },
         {
@@ -550,12 +548,7 @@ include 'includes/header.php';
             "@type": "Product",
             "name": "Retro Visawa",
             "url": "https://retrofusion.in/retro-viswa-lonavala",
-            "image": "images/v1772474727_Screenshot_2026-03-02_at_11.33.32_PM_wqk7eu.png",
-            "aggregateRating": {
-              "@type": "AggregateRating",
-              "ratingValue": "4.9",
-              "reviewCount": "900"
-            }
+            "image": "https://retrofusion.in/images/v1772474727_Screenshot_2026-03-02_at_11.33.32_PM_wqk7eu.webp"
           }
         }
       ]

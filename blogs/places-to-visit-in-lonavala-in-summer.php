@@ -1,10 +1,35 @@
 <?php
 $pageTitle = "Places to Visit in Lonavala in Summer | 10 Cool Spots | Retrofusion Blog";
 $pageDescription = "Discover 10 places to visit in Lonavala in summer with cool caves, breezy viewpoints, and ice-cream stops for a perfect trip.";
-$canonicalUrl = "https://retrofusion.in/blog/places-to-visit-in-lonavala-in-summer/";
+$canonicalUrl = "https://retrofusion.in/blogs/places-to-visit-in-lonavala-in-summer/";
 $ogTitle = "Places to Visit in Lonavala in Summer | 10 Cool Spots";
 $ogDescription = "Discover 10 places to visit in Lonavala in summer with cool caves, breezy viewpoints, and ice-cream stops for a perfect trip.";
-$ogImage = "images/Places-to-Visit-in-Lonavala-in-Summer-10-Cool-Spots-1024x559.webp";
+$ogImage = "https://retrofusion.in/blogs/images/Places-to-Visit-in-Lonavala-in-Summer-10-Cool-Spots-1024x559.webp";
+$additionalHead = '
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://retrofusion.in/blogs/places-to-visit-in-lonavala-in-summer/" },
+      "headline": "Places to Visit in Lonavala in Summer | 10 Cool Spots",
+      "description": "Discover 10 places to visit in Lonavala in summer with cool caves, breezy viewpoints, and ice-cream stops for a perfect trip.",
+      "image": "https://retrofusion.in/blogs/images/Places-to-Visit-in-Lonavala-in-Summer-10-Cool-Spots-1024x559.webp",
+      "datePublished": "2026-06-25T13:02:32+05:30",
+      "dateModified": "2026-06-25T13:25:47+05:30",
+      "inLanguage": "en-IN",
+      "author": { "@type": "Organization", "name": "Retrofusion Boutique Homestays", "url": "https://retrofusion.in/" },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Retrofusion Boutique Homestays",
+        "logo": { "@type": "ImageObject", "url": "https://retrofusion.in/images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png" }
+      }
+    }
+  ]
+}
+</script>
+';
 include '../includes/header.php';
 ?>
 
@@ -28,7 +53,7 @@ include '../includes/header.php';
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">We sifted tips from locals and guides like Holidify to pick ten places to visit in Lonavala in summer. Each offers shade, breeze, or cold treats to beat May and June heat without overwhelming your plan.</p>
 
-<figure><img src="images/ChatGPT-Image-Jul-4-2025-09_47_19-PM-1024x683.png" /></figure>
+<figure><img src="images/ChatGPT-Image-Jul-4-2025-09_47_19-PM-1024x683.webp" /></figure>
 
 <h2 class="text-2xl sm:text-3xl font-bold text-stone-800 mt-12 mb-4 leading-snug font-display border-b-2 border-amber-500 pb-2 inline-block">Karla Caves</h2>
 
@@ -72,13 +97,13 @@ include '../includes/header.php';
 
 <h3 class="text-xl sm:text-2xl font-semibold text-stone-800 mt-8 mb-3 leading-snug font-display">Chill Tip</h3>
 
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Sip nimbu pani at stalls near Malavli station. Visit by 10 AM for quiet exploration. A must for places to visit in Lonavala in summer.</p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Sip nimbu pani at stalls near <a href="/villas-near-malavli-lonavala">Malavli</a> station. Visit by 10 AM for quiet exploration. A must for places to visit in Lonavala in summer.</p>
 
 <h2 class="text-2xl sm:text-3xl font-bold text-stone-800 mt-12 mb-4 leading-snug font-display border-b-2 border-amber-500 pb-2 inline-block">Tikona Fort Breezeway</h2>
 
 <h3 class="text-xl sm:text-2xl font-semibold text-stone-800 mt-8 mb-3 leading-snug font-display">Summer Perks</h3>
 
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Tikona’s breezeway channels gusts over Pawna Lake. The fort’s peak feels like a natural fan.</p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Tikona’s breezeway channels gusts over <a href="/best-villas-near-pawna-lake-in-lonavala">Pawna Lake</a>. The fort’s peak feels like a natural fan.</p>
 
 <h3 class="text-xl sm:text-2xl font-semibold text-stone-800 mt-8 mb-3 leading-snug font-display">Quick Info</h3>
 
@@ -144,7 +169,7 @@ include '../includes/header.php';
 
 <h3 class="text-xl sm:text-2xl font-semibold text-stone-800 mt-8 mb-3 leading-snug font-display">Summer Perks</h3>
 
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Lion’s Point offers gusty relief. Tungarli Lake glints below, framed by warm cliffs.</p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5"><a href="/villas-near-lion-point">Lion’s Point</a> offers gusty relief. Tungarli Lake glints below, framed by warm cliffs.</p>
 
 <h3 class="text-xl sm:text-2xl font-semibold text-stone-800 mt-8 mb-3 leading-snug font-display">Quick Info</h3>
 

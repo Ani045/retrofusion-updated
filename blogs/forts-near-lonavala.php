@@ -1,10 +1,35 @@
 <?php
 $pageTitle = "Forts Near Lonavala – Historic Places to Explore | Retrofusion Blog";
 $pageDescription = "The first sight of the Sahyadri Mountains near Lonavala feels a little like opening an old treasure chest. Ridges rise and fall like waves, clouds hover low,";
-$canonicalUrl = "https://retrofusion.in/blog/forts-near-lonavala/";
+$canonicalUrl = "https://retrofusion.in/blogs/forts-near-lonavala/";
 $ogTitle = "Forts Near Lonavala – Historic Places to Explore";
 $ogDescription = "The first sight of the Sahyadri Mountains near Lonavala feels a little like opening an old treasure chest. Ridges rise and fall like waves, clouds hover low,";
-$ogImage = "images/Untitled-design-4.jpg";
+$ogImage = "https://retrofusion.in/blogs/images/Untitled-design-4.webp";
+$additionalHead = '
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://retrofusion.in/blogs/forts-near-lonavala/" },
+      "headline": "Forts Near Lonavala – Historic Places to Explore",
+      "description": "The first sight of the Sahyadri Mountains near Lonavala feels a little like opening an old treasure chest. Ridges rise and fall like waves, clouds hover low,",
+      "image": "https://retrofusion.in/blogs/images/Untitled-design-4.webp",
+      "datePublished": "2026-06-25T13:02:32+05:30",
+      "dateModified": "2026-06-25T13:25:47+05:30",
+      "inLanguage": "en-IN",
+      "author": { "@type": "Organization", "name": "Retrofusion Boutique Homestays", "url": "https://retrofusion.in/" },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Retrofusion Boutique Homestays",
+        "logo": { "@type": "ImageObject", "url": "https://retrofusion.in/images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png" }
+      }
+    }
+  ]
+}
+</script>
+';
 include '../includes/header.php';
 ?>
 
@@ -14,9 +39,9 @@ include '../includes/header.php';
       <!-- Main blog content -->
       <div class="min-w-0 bg-white rounded-2xl shadow-md overflow-hidden">
       <div class="relative mb-8 overflow-hidden bg-stone-100 rounded-t-2xl">
-        <img src="images/Untitled-design-4.jpg" alt="Forts Near Lonavala – Historic Places to Explore" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover blur-2xl scale-110 opacity-60" />
+        <img src="images/Untitled-design-4.webp" alt="Forts Near Lonavala – Historic Places to Explore" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover blur-2xl scale-110 opacity-60" />
         <div class="relative flex items-center justify-center min-h-[200px] sm:min-h-[240px] md:min-h-[280px] py-6 px-4">
-          <img src="images/Untitled-design-4.jpg" alt="Forts Near Lonavala – Historic Places to Explore" class="max-h-[280px] md:max-h-[320px] w-auto h-auto max-w-full object-contain rounded-lg shadow-lg" />
+          <img src="images/Untitled-design-4.webp" alt="Forts Near Lonavala – Historic Places to Explore" class="max-h-[280px] md:max-h-[320px] w-auto h-auto max-w-full object-contain rounded-lg shadow-lg" />
         </div>
       </div>
         <div class="p-6 sm:p-8 lg:p-10">
@@ -56,7 +81,7 @@ include '../includes/header.php';
 
 <h2 class="text-2xl sm:text-3xl font-bold text-stone-800 mt-12 mb-4 leading-snug font-display border-b-2 border-amber-500 pb-2 inline-block">Lohagad Fort: The Legendary Iron Fortress</h2>
 
-<figure><img src="images/Zrmv7n5kw42bBlK-BTs2_.jpg" alt="Moss-covered stone steps ascending through lush greenery to historic fort" /></figure>
+<figure><img src="images/Zrmv7n5kw42bBlK-BTs2_.webp" alt="Moss-covered stone steps ascending through lush greenery to historic fort" /></figure>
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5"><strong>Lohagad Fort</strong> is often the first name that comes up when people talk about <strong>famous forts Lonavala</strong>. Its name means <em>Iron Fort</em>, a nod to the strength of its defences and the stubborn way it has clung to its hilltop at 1,033 metres. From its walls, the Pawna valley opens out like a painted scroll, with blue water, green slopes and distant peaks lining the horizon.</p>
 
@@ -66,7 +91,7 @@ include '../includes/header.php';
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">The approach from Lohagadwadi village is well marked and steady rather than harsh, which is why this is often suggested as a first choice among <strong>forts near Lonavala</strong> for new trekkers. In about two hours, most groups can reach the top at a relaxed pace, stopping for photos and tea. During the monsoon, small streams cross the steps, moss climbs the stones, and drifting mist wraps the bastions in an almost dreamlike curtain.</p>
 
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">From the summit, the eye roams over <strong>Pawna Lake</strong>, the higher plateau of Visapur on one side and, in the distance, the ridges that hide Karla and Bhaja caves. For families and city groups planning <strong>lonavala fort exploration</strong>, Lohagad delivers strong views, a real sense of history and just the right level of challenge.</p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">From the summit, the eye roams over <strong><a href="/best-villas-near-pawna-lake-in-lonavala">Pawna Lake</a></strong>, the higher plateau of Visapur on one side and, in the distance, the ridges that hide Karla and Bhaja caves. For families and city groups planning <strong>lonavala fort exploration</strong>, Lohagad delivers strong views, a real sense of history and just the right level of challenge.</p>
 
 <h3 class="text-xl sm:text-2xl font-semibold text-stone-800 mt-8 mb-3 leading-snug font-display">What Makes Lohagad Perfect For First-Time Fort Explorers</h3>
 
@@ -108,7 +133,7 @@ include '../includes/header.php';
 
 <h2 class="text-2xl sm:text-3xl font-bold text-stone-800 mt-12 mb-4 leading-snug font-display border-b-2 border-amber-500 pb-2 inline-block">Tikona Fort: The Striking Triangular Wonder</h2>
 
-<figure><img src="images/mUsO3cO4YEmIFRxw6P9Z5.jpg" alt="Dramatic triangular peak of Tikona Fort rising above Pawna reservoir" /></figure>
+<figure><img src="images/mUsO3cO4YEmIFRxw6P9Z5.webp" alt="Dramatic triangular peak of Tikona Fort rising above Pawna reservoir" /></figure>
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Seen from a distance, <strong>Tikona Fort</strong> looks like a bold triangle scratched into the sky. This sharp, pyramidal hill, also known as Vitandgad, rises to about 3,633 feet and offers one of the most rewarding shorter climbs among <strong>forts for trekking Lonavala</strong>. It once formed part of the Nizam Shahi defence network before being taken into Shivaji Maharaj’s fold, and its slopes still hint at that past.</p>
 
@@ -136,7 +161,7 @@ include '../includes/header.php';
 
 <h2 class="text-2xl sm:text-3xl font-bold text-stone-800 mt-12 mb-4 leading-snug font-display border-b-2 border-amber-500 pb-2 inline-block">Korigad Fort: The Expansive Plateau Experience</h2>
 
-<figure><img src="images/KkfUkPfaXHNSWLSA62uzW.jpg" alt="Ancient stone water cistern with clear reflective water inside fort walls" /></figure>
+<figure><img src="images/KkfUkPfaXHNSWLSA62uzW.webp" alt="Ancient stone water cistern with clear reflective water inside fort walls" /></figure>
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5"><strong>Korigad</strong>, close to Aamby Valley, feels kinder and more spacious than many other <strong>forts near Lonavala</strong>. Rising to about 929 metres, it is believed to be several centuries old and later joined Shivaji Maharaj’s network of hill forts. Today, it is cherished for its broad, flat top and nearly intact outer wall that invites long, easy walks.</p>
 
@@ -166,7 +191,7 @@ include '../includes/header.php';
 
 <h2 class="text-2xl sm:text-3xl font-bold text-stone-800 mt-12 mb-4 leading-snug font-display border-b-2 border-amber-500 pb-2 inline-block">Planning Your Fort Exploration: Seasonal Considerations</h2>
 
-<figure><img src="images/StGMKJkyAPwCopV8yGuPv.jpg" alt="Layered mountain ridges with waterfall through misty monsoon clouds" /></figure>
+<figure><img src="images/StGMKJkyAPwCopV8yGuPv.webp" alt="Layered mountain ridges with waterfall through misty monsoon clouds" /></figure>
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Weather shapes the entire experience of visiting <strong>forts near Lonavala</strong>, from trail safety to the colours in every photograph. Choosing the right season makes all the difference between a tiring trudge and a comfortable, uplifting day out.</p>
 

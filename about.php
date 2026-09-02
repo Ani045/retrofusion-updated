@@ -56,11 +56,11 @@ include 'includes/header.php';
             <!-- Aligned Images -->
             <div class="flex items-center gap-6 md:gap-10">
               <div class="w-1/2 aspect-[3/4] rounded-[2rem] overflow-hidden shadow-2xl shadow-stone-200">
-                <img loading="lazy" src="images/v1773295624_WhatsApp_Image_2026-03-12_at_11.36.04_utnnut.jpg" alt="Ruchi Arora"
+                <img loading="lazy" src="images/v1773295624_WhatsApp_Image_2026-03-12_at_11.36.04_utnnut.webp" alt="Ruchi Arora"
                   class="w-full h-full object-cover transition-transform duration-700 hover:scale-110" />
               </div>
               <div class="w-1/2 aspect-[3/4] rounded-[2rem] overflow-hidden shadow-2xl shadow-stone-200">
-                <img loading="lazy" src="images/v1773295624_WhatsApp_Image_2026-03-12_at_11.36.04_1_yzlrpj.jpg" alt="Jitendra Arora"
+                <img loading="lazy" src="images/v1773295624_WhatsApp_Image_2026-03-12_at_11.36.04_1_yzlrpj.webp" alt="Jitendra Arora"
                   class="w-full h-full object-cover transition-transform duration-700 hover:scale-110" />
               </div>
             </div>
@@ -260,7 +260,7 @@ include 'includes/header.php';
               class="w-full aspect-video rounded-[2.5rem] overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.15)] group cursor-pointer relative"
               onclick="this.innerHTML='<iframe src=\'https://player.vimeo.com/video/967485400?h=68886445b8&autoplay=1\' class=\'absolute inset-0 w-full h-full\' frameborder=\'0\' allow=\'autoplay; fullscreen; picture-in-picture\' allowfullscreen></iframe>'">
               <!-- Video Thumbnail -->
-              <img loading="lazy" src="images/v1769863039_01_qwhl8a.jpg"
+              <img loading="lazy" src="images/v1769863039_01_qwhl8a.webp"
                 alt="Transforming Stays Video"
                 class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105" />
 
@@ -495,7 +495,7 @@ include 'includes/header.php';
                 <div class="pt-9 sm:pt-11 w-full flex flex-col items-center">
                   <a href="https://www.instagram.com/retrofusion.in/" target="_blank" class="w-full">
                     <img loading="lazy"
-                      src="images/v1772471878_Screenshot_2026-03-02_at_10.47.42_PM_wo3toj.png"
+                      src="images/v1772471878_Screenshot_2026-03-02_at_10.47.42_PM_wo3toj.webp"
                       alt="Instagram Profile Screenshot"
                       class="w-full h-auto block opacity-95 transition-opacity duration-300 group-hover/screen:opacity-100" />
                   </a>
@@ -528,7 +528,7 @@ include 'includes/header.php';
                 <!-- Image with amber border -->
                 <div class="mx-2.5 mb-2 border-[3px] border-amber-600 rounded-lg overflow-hidden">
                   <img loading="lazy"
-                    src="images/v1772473164_Screenshot_2026-03-02_at_11.08.01_PM_a5g0vs.png"
+                    src="images/v1772473164_Screenshot_2026-03-02_at_11.08.01_PM_a5g0vs.webp"
                     alt="Instagram Post"
                     class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" />
                 </div>
@@ -580,7 +580,7 @@ include 'includes/header.php';
                 </div>
                 <div class="mx-2.5 mb-2 border-[3px] border-amber-600 rounded-lg overflow-hidden">
                   <img loading="lazy"
-                    src="images/v1772473164_Screenshot_2026-03-02_at_11.07.23_PM_sbgs0f.png"
+                    src="images/v1772473164_Screenshot_2026-03-02_at_11.07.23_PM_sbgs0f.webp"
                     alt="Instagram Post"
                     class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" />
                 </div>
@@ -631,7 +631,7 @@ include 'includes/header.php';
                 </div>
                 <div class="mx-2.5 mb-2 border-[3px] border-amber-600 rounded-lg overflow-hidden">
                   <img loading="lazy"
-                    src="images/v1772473163_Screenshot_2026-03-02_at_11.07.36_PM_ftkdee.png"
+                    src="images/v1772473163_Screenshot_2026-03-02_at_11.07.36_PM_ftkdee.webp"
                     alt="Instagram Post"
                     class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" />
                 </div>
@@ -682,7 +682,7 @@ include 'includes/header.php';
                 </div>
                 <div class="mx-2.5 mb-2 border-[3px] border-amber-600 rounded-lg overflow-hidden">
                   <img loading="lazy"
-                    src="images/v1772473163_Screenshot_2026-03-02_at_11.07.51_PM_yzseuz.png"
+                    src="images/v1772473163_Screenshot_2026-03-02_at_11.07.51_PM_yzseuz.webp"
                     alt="Instagram Post"
                     class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" />
                 </div>

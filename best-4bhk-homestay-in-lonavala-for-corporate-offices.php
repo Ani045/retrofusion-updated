@@ -7,7 +7,7 @@ $pageAuthor = "Retrofusion Boutique Homestays";
 $pagePublisher = "Retrofusion Boutique Homestays";
 $canonicalUrl = "https://retrofusion.in/best-4bhk-homestay-in-lonavala-for-corporate-offices";
 $ogTitle = "Corporate 4BHK Homestay in Lonavala | Team Outings & Offsites";
-$ogImage = "images/v1773076226_27_ipqwdd.jpg";
+$ogImage = "https://retrofusion.in/images/v1773076226_27_ipqwdd.webp";
 include 'includes/header.php';
 ?>
 
@@ -23,14 +23,13 @@ include 'includes/header.php';
       "description": "Premium 4BHK corporate homestays in Lonavala designed for team offsites, featuring high-speed internet, conference-ready living areas, and professional catering.",
       "url": "https://retrofusion.in/best-4bhk-homestay-in-lonavala-for-corporate-offices",
       "image": [
-        "https://retrofusion.in/images/v1773076226_27_ipqwdd.jpg",
-        "https://retrofusion.in/images/v1774810269_12_lo4gpx.jpg",
-        "https://retrofusion.in/images/v1774807173_04_y636xz.jpg"
+        "https://retrofusion.in/images/v1773076226_27_ipqwdd.webp",
+        "https://retrofusion.in/images/v1774810269_12_lo4gpx.webp",
+        "https://retrofusion.in/images/v1774807173_04_y636xz.webp"
       ],
       "telephone": "+91 8999036644",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Lonavala",
         "addressLocality": "Lonavala",
         "addressRegion": "Maharashtra",
         "postalCode": "410401",
@@ -40,11 +39,6 @@ include 'includes/header.php';
         "@type": "GeoCoordinates",
         "latitude": "18.7544",
         "longitude": "73.4062"
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.8",
-        "reviewCount": "128"
       },
       "priceRange": "₹₹₹"
     },
@@ -72,34 +66,18 @@ include 'includes/header.php';
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Do you provide high-speed Wi-Fi for corporate teams?",
+          "name": "Is the Wi-Fi reliable for video conferencing?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, we understand the importance of connectivity for corporate offsites. Our villas are equipped with dedicated high-speed Wi-Fi (FTTH) to ensure seamless video calls and collaborative work."
+            "text": "Yes, we have high-speed FTTH connections with power backup to ensure your meetings and video calls are never interrupted."
           }
         },
         {
           "@type": "Question",
-          "name": "Can we host a small meeting or workshop at the villa?",
+          "name": "Can you provide GST invoices for corporate bookings?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Absolutely. Our 4BHK homestays feature large living halls that can be easily converted into a workshop space or an informal boardroom. We can also provide a projector and whiteboards upon request."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do you offer corporate-style catering services?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, our in-house chefs can curate a 'Working Lunch' menu, tea/coffee breaks with snacks, and multi-course dinners tailored to your corporate group's preferences."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is there a bonfire or team-building setup available?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, we can arrange for an evening bonfire, music, and assist in setting up outdoor team-building activities on our massive lawns."
+            "text": "Yes, we provide valid GST invoices for all corporate bookings to facilitate your company's accounting and tax requirements."
           }
         }
       ]
@@ -110,7 +88,7 @@ include 'includes/header.php';
 
 <!-- ===== HERO SECTION ===== -->
 <section class="relative h-screen overflow-hidden">
-  <img src="images/v1774811620_30_1_eexljz.jpg"
+  <img src="images/v1774811620_30_1_eexljz.webp"
     class="absolute inset-0 w-full h-full object-cover" alt="Best 4BHK Homestay in Lonavala for Corporate Offices" title="Corporate Homestay Lonavala" />
   <div class="absolute inset-0 bg-gradient-to-b from-black/70 via-black/40 to-black/80"></div>
   <div class="relative z-10 h-full flex flex-col justify-center items-center px-4 sm:px-6 lg:px-8 text-center">
@@ -173,34 +151,34 @@ include 'includes/header.php';
     
     <div class="grid grid-cols-1 md:grid-cols-4 gap-4 h-auto md:h-[800px]">
       <div class="md:col-span-2 relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(0)">
-        <img src="images/v1774811620_30_1_eexljz.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Modern Work Space">
+        <img src="images/v1774811620_30_1_eexljz.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Modern Work Space">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(1)">
         <img src="images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Executive Lounge">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(2)">
-        <img src="images/v1774807173_04_y636xz.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Villa Exterior">
+        <img src="images/v1774807173_04_y636xz.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Villa Exterior">
       </div>
       <div class="md:col-span-2 relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(3)">
-        <img src="images/v1773076226_27_ipqwdd.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Conference Living Area">
+        <img src="images/v1773076226_27_ipqwdd.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Conference Living Area">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(4)">
         <img src="images/v1769868155_M08_qewdva.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Luxury Suite">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(5)">
-        <img src="images/v1770226533_N34_stewru.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Lawns for Team Building">
+        <img src="images/v1770226533_N34_stewru.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Lawns for Team Building">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(6)">
-        <img src="images/v1774810269_12_lo4gpx.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Private Pool Networking">
+        <img src="images/v1774810269_12_lo4gpx.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Private Pool Networking">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(7)">
-        <img src="images/v1772868264_1_wqosmq.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Dining Vibe">
+        <img src="images/v1772868264_1_wqosmq.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Dining Vibe">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(8)">
-        <img src="images/v1774807176_34_vpeqgv.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Evening Ambiance">
+        <img src="images/v1774807176_34_vpeqgv.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Evening Ambiance">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(9)">
-        <img src="images/v1773076342_23_wby8bv.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Team Lunch">
+        <img src="images/v1773076342_23_wby8bv.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Team Lunch">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(10)">
         <img src="images/v1769868140_B30_yc8rqu.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Hall Meeting">
@@ -209,10 +187,10 @@ include 'includes/header.php';
         <img src="images/v1769868142_H10_byp3oh.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Workspace Detail">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(12)">
-        <img src="images/v1774810653_N35_h2djzp.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Decor Accent">
+        <img src="images/v1774810653_N35_h2djzp.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Decor Accent">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(13)">
-        <img src="images/v1774809447_06_htf59g.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Night Exterior">
+        <img src="images/v1774809447_06_htf59g.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Night Exterior">
       </div>
     </div>
   </div>
@@ -365,20 +343,20 @@ include 'includes/header.php';
 
 <script>
   const galleryImages = [
-    'images/v1774811620_30_1_eexljz.jpg',
+    'images/v1774811620_30_1_eexljz.webp',
     'images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg',
-    'images/v1774807173_04_y636xz.jpg',
-    'images/v1773076226_27_ipqwdd.jpg',
+    'images/v1774807173_04_y636xz.webp',
+    'images/v1773076226_27_ipqwdd.webp',
     'images/v1769868155_M08_qewdva.webp',
-    'images/v1770226533_N34_stewru.jpg',
-    'images/v1774810269_12_lo4gpx.jpg',
-    'images/v1772868264_1_wqosmq.jpg',
-    'images/v1774807176_34_vpeqgv.jpg',
-    'images/v1773076342_23_wby8bv.jpg',
+    'images/v1770226533_N34_stewru.webp',
+    'images/v1774810269_12_lo4gpx.webp',
+    'images/v1772868264_1_wqosmq.webp',
+    'images/v1774807176_34_vpeqgv.webp',
+    'images/v1773076342_23_wby8bv.webp',
     'images/v1769868140_B30_yc8rqu.webp',
     'images/v1769868142_H10_byp3oh.webp',
-    'images/v1774810653_N35_h2djzp.jpg',
-    'images/v1774809447_06_htf59g.jpg'
+    'images/v1774810653_N35_h2djzp.webp',
+    'images/v1774809447_06_htf59g.webp'
   ];
 
   function openLightbox(idx) {

@@ -1,10 +1,35 @@
 <?php
 $pageTitle = "Hill View Homestay in Lonavala – Luxury Villas with Scenic Views | Retrofusion Blog";
 $pageDescription = "Looking for a peaceful escape surrounded by mountains? A hill view homestay in Lonavala is the perfect choice for travelers who want comfort, privacy, and";
-$canonicalUrl = "https://retrofusion.in/blog/hill-view-homestay-in-lonavala-luxury-villas-with-scenic-views/";
+$canonicalUrl = "https://retrofusion.in/blogs/hill-view-homestay-in-lonavala-luxury-villas-with-scenic-views/";
 $ogTitle = "Hill View Homestay in Lonavala – Luxury Villas with Scenic Views";
 $ogDescription = "Looking for a peaceful escape surrounded by mountains? A hill view homestay in Lonavala is the perfect choice for travelers who want comfort, privacy, and";
-$ogImage = "images/347994114.jpg";
+$ogImage = "https://retrofusion.in/blogs/images/347994114.webp";
+$additionalHead = '
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://retrofusion.in/blogs/hill-view-homestay-in-lonavala-luxury-villas-with-scenic-views/" },
+      "headline": "Hill View Homestay in Lonavala – Luxury Villas with Scenic Views",
+      "description": "Looking for a peaceful escape surrounded by mountains? A hill view homestay in Lonavala is the perfect choice for travelers who want comfort, privacy, and",
+      "image": "https://retrofusion.in/blogs/images/347994114.webp",
+      "datePublished": "2026-06-25T13:02:32+05:30",
+      "dateModified": "2026-06-25T13:25:47+05:30",
+      "inLanguage": "en-IN",
+      "author": { "@type": "Organization", "name": "Retrofusion Boutique Homestays", "url": "https://retrofusion.in/" },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Retrofusion Boutique Homestays",
+        "logo": { "@type": "ImageObject", "url": "https://retrofusion.in/images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png" }
+      }
+    }
+  ]
+}
+</script>
+';
 include '../includes/header.php';
 ?>
 
@@ -14,9 +39,9 @@ include '../includes/header.php';
       <!-- Main blog content -->
       <div class="min-w-0 bg-white rounded-2xl shadow-md overflow-hidden">
       <div class="relative mb-8 overflow-hidden bg-stone-100 rounded-t-2xl">
-        <img src="images/347994114.jpg" alt="Hill View Homestay in Lonavala – Luxury Villas with Scenic Views" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover blur-2xl scale-110 opacity-60" />
+        <img src="images/347994114.webp" alt="Hill View Homestay in Lonavala – Luxury Villas with Scenic Views" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover blur-2xl scale-110 opacity-60" />
         <div class="relative flex items-center justify-center min-h-[200px] sm:min-h-[240px] md:min-h-[280px] py-6 px-4">
-          <img src="images/347994114.jpg" alt="Hill View Homestay in Lonavala – Luxury Villas with Scenic Views" class="max-h-[280px] md:max-h-[320px] w-auto h-auto max-w-full object-contain rounded-lg shadow-lg" />
+          <img src="images/347994114.webp" alt="Hill View Homestay in Lonavala – Luxury Villas with Scenic Views" class="max-h-[280px] md:max-h-[320px] w-auto h-auto max-w-full object-contain rounded-lg shadow-lg" />
         </div>
       </div>
         <div class="p-6 sm:p-8 lg:p-10">
@@ -30,7 +55,7 @@ include '../includes/header.php';
 
 <h3 class="text-xl sm:text-2xl font-semibold text-stone-800 mt-8 mb-3 leading-snug font-display">Why Choose a Hill View Homestay in Lonavala?</h3>
 
-<figure><img src="images/347994114.jpg" alt="https://cf.bstatic.com/xdata/images/hotel/max1024x768/347994114.jpg?k=f500ac4848c559bbb838d4a2ee146cc29fb896a0cf7c0c6ecd49803220041c55&o=" /></figure>
+<figure><img src="images/347994114.webp" alt="https://cf.bstatic.com/xdata/images/hotel/max1024x768/347994114.webp?k=f500ac4848c559bbb838d4a2ee146cc29fb896a0cf7c0c6ecd49803220041c55&o=" /></figure>
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Staying in a hill view homestay allows you to wake up to fresh air, scenic landscapes, and peaceful surroundings. Unlike crowded hotels, villas provide:</p>
 
@@ -58,7 +83,7 @@ include '../includes/header.php';
 
 <h3 class="text-xl sm:text-2xl font-semibold text-stone-800 mt-8 mb-3 leading-snug font-display">New Reto – Modern Hill View Comfort</h3>
 
-<figure><img src="images/5d93e66d-23b4-4578-bb58-35032b8b39b8-1.jpg" alt="https://a0.muscache.com/im/pictures/miso/Hosting-53210949/original/5d93e66d-23b4-4578-bb58-35032b8b39b8.jpeg" /></figure>
+<figure><img src="images/5d93e66d-23b4-4578-bb58-35032b8b39b8-1.webp" alt="https://a0.muscache.com/im/pictures/miso/Hosting-53210949/original/5d93e66d-23b4-4578-bb58-35032b8b39b8.jpeg" /></figure>
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">New Reto offers a modern villa experience with comfortable interiors and peaceful surroundings.</p>
 
@@ -80,9 +105,9 @@ include '../includes/header.php';
 
 <h2 class="text-2xl sm:text-3xl font-bold text-stone-800 mt-12 mb-4 leading-snug font-display border-b-2 border-amber-500 pb-2 inline-block">Retro Visawa – Cozy & Scenic Retreat</h2>
 
-<figure><img src="images/Retro-Visawa-mob-banner-1-scaled.jpg" alt="https://retrofusion.in/assets/img/retro-viswa/Retro-Visawa-mob-banner.jpg" /></figure>
+<figure><img src="images/Retro-Visawa-mob-banner-1-scaled.webp" alt="https://retrofusion.in/assets/img/retro-viswa/Retro-Visawa-mob-banner.jpg" /></figure>
 
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Retro Visawa provides a warm and cozy ambiance with beautiful hill surroundings.</p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5"><a href="/retro-viswa-lonavala">Retro Visawa</a> provides a warm and cozy ambiance with beautiful hill surroundings.</p>
 
 <h3 class="text-xl sm:text-2xl font-semibold text-stone-800 mt-8 mb-3 leading-snug font-display">Highlights of Retro Visawa:</h3>
 
@@ -102,9 +127,9 @@ include '../includes/header.php';
 
 <h2 class="text-2xl sm:text-3xl font-bold text-stone-800 mt-12 mb-4 leading-snug font-display border-b-2 border-amber-500 pb-2 inline-block">Retro Villa – Private & Celebration Ready</h2>
 
-<figure><img src="images/b92a2e50-7b18-4c58-b04b-e44d23ff2f26-1.jpg" alt="https://a0.muscache.com/im/pictures/hosting/Hosting-53210949/original/b92a2e50-7b18-4c58-b04b-e44d23ff2f26.jpeg" /></figure>
+<figure><img src="images/b92a2e50-7b18-4c58-b04b-e44d23ff2f26-1.webp" alt="https://a0.muscache.com/im/pictures/hosting/Hosting-53210949/original/b92a2e50-7b18-4c58-b04b-e44d23ff2f26.jpeg" /></figure>
 
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Retro Villa is designed for privacy, space, and memorable celebrations.</p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5"><a href="/retro-villas">Retro Villa</a> is designed for privacy, space, and memorable celebrations.</p>
 
 <h4 class="text-lg sm:text-xl font-semibold text-stone-700 mt-6 mb-2 leading-snug font-display">Why Choose Retro Villa?</h4>
 
@@ -118,7 +143,7 @@ include '../includes/header.php';
 <li class="leading-relaxed">Comfortable and scenic surroundings</li>
 </ul>
 
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">If you’re planning birthdays, anniversaries, or group trips, Retro Villa offers the perfect hill view setting.</p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">If you’re planning birthdays, anniversaries, or <a href="/villas-in-lonavala-for-10-people">group trips</a>, Retro Villa offers the perfect hill view setting.</p>
 
 <hr/>
 
@@ -158,7 +183,7 @@ include '../includes/header.php';
 
 <h3 class="text-xl sm:text-2xl font-semibold text-stone-800 mt-8 mb-3 leading-snug font-display">Conclusion</h3>
 
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">A <strong>hill view homestay in Lonavala</strong> offers the perfect escape from busy city life. With scenic mountain views, fresh air, and a peaceful atmosphere, it creates a refreshing holiday experience.</p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">A <strong>hill view homestay in Lonavala</strong> offers the perfect escape from busy city life. With scenic <a href="/mountain-view-villa-lonavala">mountain views</a>, fresh air, and a peaceful atmosphere, it creates a refreshing holiday experience.</p>
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Our premium villas — New Reto, Retro Visawa, and Retro Villa — provide comfort, privacy, and a beautiful hill backdrop for unforgettable moments. Whether it’s a family vacation, group outing, or weekend staycation, our villas make your Lonavala trip truly special.</p>
 

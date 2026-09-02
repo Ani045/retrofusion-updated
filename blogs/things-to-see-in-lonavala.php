@@ -1,10 +1,35 @@
 <?php
 $pageTitle = "Things to See in Lonavala: Complete Visitor's Guide | Retrofusion Blog";
 $pageDescription = "Discover the best things to see in Lonavala — from Tiger Point and Karla Caves to hidden waterfalls and ancient temples. Your complete Lonavala sightseeing guide.";
-$canonicalUrl = "https://retrofusion.in/blog/things-to-see-in-lonavala/";
+$canonicalUrl = "https://retrofusion.in/blogs/things-to-see-in-lonavala/";
 $ogTitle = "Things to See in Lonavala: Complete Visitor's Guide";
 $ogDescription = "Discover the best things to see in Lonavala — from Tiger Point and Karla Caves to hidden waterfalls and ancient temples. Your complete Lonavala sightseeing guide.";
-$ogImage = "images/Things-to-Do-in-Lonavala.png";
+$ogImage = "https://retrofusion.in/blogs/images/Things-to-Do-in-Lonavala.webp";
+$additionalHead = '
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://retrofusion.in/blogs/things-to-see-in-lonavala/" },
+      "headline": "Things to See in Lonavala: Complete Visitor\'s Guide",
+      "description": "Discover the best things to see in Lonavala — from Tiger Point and Karla Caves to hidden waterfalls and ancient temples. Your complete Lonavala sightseeing guide.",
+      "image": "https://retrofusion.in/blogs/images/Things-to-Do-in-Lonavala.webp",
+      "datePublished": "2026-06-25T13:02:32+05:30",
+      "dateModified": "2026-06-25T13:25:47+05:30",
+      "inLanguage": "en-IN",
+      "author": { "@type": "Organization", "name": "Retrofusion Boutique Homestays", "url": "https://retrofusion.in/" },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Retrofusion Boutique Homestays",
+        "logo": { "@type": "ImageObject", "url": "https://retrofusion.in/images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png" }
+      }
+    }
+  ]
+}
+</script>
+';
 include '../includes/header.php';
 ?>
 
@@ -14,9 +39,9 @@ include '../includes/header.php';
       <!-- Main blog content -->
       <div class="min-w-0 bg-white rounded-2xl shadow-md overflow-hidden">
       <div class="relative mb-8 overflow-hidden bg-stone-100 rounded-t-2xl">
-        <img src="images/Things-to-Do-in-Lonavala.png" alt="Things to See in Lonavala" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover blur-2xl scale-110 opacity-60" />
+        <img src="images/Things-to-Do-in-Lonavala.webp" alt="Things to See in Lonavala" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover blur-2xl scale-110 opacity-60" />
         <div class="relative flex items-center justify-center min-h-[200px] sm:min-h-[240px] md:min-h-[280px] py-6 px-4">
-          <img src="images/Things-to-Do-in-Lonavala.png" alt="Things to See in Lonavala" class="max-h-[280px] md:max-h-[320px] w-auto h-auto max-w-full object-contain rounded-lg shadow-lg" />
+          <img src="images/Things-to-Do-in-Lonavala.webp" alt="Things to See in Lonavala" class="max-h-[280px] md:max-h-[320px] w-auto h-auto max-w-full object-contain rounded-lg shadow-lg" />
         </div>
       </div>
         <div class="p-6 sm:p-8 lg:p-10">
@@ -24,7 +49,7 @@ include '../includes/header.php';
           <div class="prose prose-stone max-w-none">
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Lonavala is one of those rare hill stations where every kind of traveller finds something to love. If you're wondering about the best <strong>things to see in Lonavala</strong>, the answer is: quite a lot. From thundering waterfalls and ancient cave temples to misty viewpoints and bustling markets, this compact Sahyadri getaway packs in an extraordinary range of experiences. Whether you have one day or an entire weekend, this guide covers every notable sight, experience, and hidden gem worth your time.</p>
 
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5"><em><strong>Featured Snippet:</strong> The top things to see in Lonavala include Tiger Point, Bhushi Dam, Karla Caves, Rajmachi Fort, Lonavala Lake, Kune Falls, and Ekvira Devi Temple. The hill station is best visited between June and February for the most scenic experience.</em></p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5"><em><strong>Featured Snippet:</strong> The top things to see in Lonavala include <a href="/villas-near-tiger-point-lonavala">Tiger Point</a>, <a href="/villas-near-bhushi-dam-lonavala">Bhushi Dam</a>, Karla Caves, Rajmachi Fort, Lonavala Lake, Kune Falls, and Ekvira Devi Temple. The hill station is best visited between June and February for the most scenic experience.</em></p>
 
 <h2 class="text-2xl sm:text-3xl font-bold text-stone-800 mt-12 mb-4 leading-snug font-display border-b-2 border-amber-500 pb-2 inline-block">Why Lonavala Deserves More Than a Day Trip</h2>
 
@@ -38,7 +63,7 @@ include '../includes/header.php';
 
 <h3 class="text-xl sm:text-2xl font-semibold text-stone-800 mt-8 mb-3 leading-snug font-display">Lion's Point</h3>
 
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Located about 12 km from Lonavala town, Lion's Point offers a different perspective of the valleys compared to Tiger Point. The viewpoint is slightly less crowded on weekdays and offers clear sightlines across two valleys simultaneously — the Amba Valley and the Kune Valley. It's especially beautiful at dusk when the last light turns the hillsides golden.</p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Located about 12 km from Lonavala town, <a href="/villas-near-lion-point">Lion's Point</a> offers a different perspective of the valleys compared to Tiger Point. The viewpoint is slightly less crowded on weekdays and offers clear sightlines across two valleys simultaneously — the Amba Valley and the Kune Valley. It's especially beautiful at dusk when the last light turns the hillsides golden.</p>
 
 <h3 class="text-xl sm:text-2xl font-semibold text-stone-800 mt-8 mb-3 leading-snug font-display">Bhushi Dam</h3>
 
@@ -134,7 +159,7 @@ include '../includes/header.php';
     <svg class="w-5 h-5 text-amber-600 flex-shrink-0 transition-transform duration-200 group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
   </summary>
   <div class="px-5 pb-5 text-stone-600 text-sm sm:text-base leading-relaxed prose prose-stone max-w-none">
-    <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Rajmachi Fort, Bhaja Caves, and the trails near Kune Falls are the best trekking options near Lonavala. The Rajmachi trek (moderate difficulty) is the most popular overnight trek in the region. Bhaja Caves trail is shorter and family-friendly. Always carry water, wear proper footwear, and check weather before heading out.</p>
+    <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Rajmachi Fort, Bhaja Caves, and the trails near Kune Falls are the best trekking options near Lonavala. The Rajmachi trek (moderate difficulty) is the most popular overnight trek in the region. Bhaja Caves trail is shorter and <a href="/best-4bhk-homestay-in-lonavala-for-family">family-friendly</a>. Always carry water, wear proper footwear, and check weather before heading out.</p>
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5"><strong>✈️ Ready to explore Lonavala? Plan your perfect weekend getaway and make memories at every scenic, historic, and cultural spot this hill station has to offer!</strong></p>
   </div>

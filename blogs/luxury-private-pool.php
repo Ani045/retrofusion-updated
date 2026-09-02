@@ -1,10 +1,35 @@
 <?php
 $pageTitle = "Luxury 4BHK Villas in Lonavala with Private Pool – Complete Guide | Retrofusion Blog";
 $pageDescription = "Discover the best luxury 4BHK villas in Lonavala with private pool. Our complete guide covers top villa picks, premium features, pricing, and expert booking tips for 2026.";
-$canonicalUrl = "https://retrofusion.in/blog/luxury-4bhk-villas-lonavala-private-pool-complete-guide/";
+$canonicalUrl = "https://retrofusion.in/blogs/luxury-private-pool/";
 $ogTitle = "Luxury 4BHK Villas in Lonavala with Private Pool – Complete Guide";
 $ogDescription = "Discover the best luxury 4BHK villas in Lonavala with private pool. Our complete guide covers top villa picks, premium features, pricing, and expert booking tips for 2026.";
-$ogImage = "images/Untitled-design-21.jpg";
+$ogImage = "https://retrofusion.in/blogs/images/Untitled-design-21.webp";
+$additionalHead = '
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://retrofusion.in/blogs/luxury-private-pool/" },
+      "headline": "Luxury 4BHK Villas in Lonavala with Private Pool – Complete Guide",
+      "description": "Discover the best luxury 4BHK villas in Lonavala with private pool. Our complete guide covers top villa picks, premium features, pricing, and expert booking tips for 2026.",
+      "image": "https://retrofusion.in/blogs/images/Untitled-design-21.webp",
+      "datePublished": "2026-05-18T12:43:04+05:30",
+      "dateModified": "2026-06-25T13:25:47+05:30",
+      "inLanguage": "en-IN",
+      "author": { "@type": "Organization", "name": "Retrofusion Boutique Homestays", "url": "https://retrofusion.in/" },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Retrofusion Boutique Homestays",
+        "logo": { "@type": "ImageObject", "url": "https://retrofusion.in/images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png" }
+      }
+    }
+  ]
+}
+</script>
+';
 include '../includes/header.php';
 ?>
 
@@ -14,9 +39,9 @@ include '../includes/header.php';
       <!-- Main blog content -->
       <div class="min-w-0 bg-white rounded-2xl shadow-md overflow-hidden">
       <div class="relative mb-8 overflow-hidden bg-stone-100 rounded-t-2xl">
-        <img src="images/Untitled-design-21.jpg" alt="Luxury 4BHK Villas in Lonavala with Private Pool – Complete Guide" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover blur-2xl scale-110 opacity-60" />
+        <img src="images/Untitled-design-21.webp" alt="Luxury 4BHK Villas in Lonavala with Private Pool – Complete Guide" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover blur-2xl scale-110 opacity-60" />
         <div class="relative flex items-center justify-center min-h-[200px] sm:min-h-[240px] md:min-h-[280px] py-6 px-4">
-          <img src="images/Untitled-design-21.jpg" alt="Luxury 4BHK Villas in Lonavala with Private Pool – Complete Guide" class="max-h-[280px] md:max-h-[320px] w-auto h-auto max-w-full object-contain rounded-lg shadow-lg" />
+          <img src="images/Untitled-design-21.webp" alt="Luxury 4BHK Villas in Lonavala with Private Pool – Complete Guide" class="max-h-[280px] md:max-h-[320px] w-auto h-auto max-w-full object-contain rounded-lg shadow-lg" />
         </div>
       </div>
         <div class="p-6 sm:p-8 lg:p-10">
@@ -40,11 +65,11 @@ include '../includes/header.php';
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Retrofusion Boutique Homestays operates three standout luxury properties in Lonavala, each with its own unique character and premium offerings.</p>
 
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">The <a href="https://retrofusion.in/neo-retro">Neo Retro Villa in Lonavala</a> is an artistic masterpiece — a 4BHK retreat designed for art lovers and romance seekers. It features a stunning jacuzzi, curated world library, mountain views, and interiors that feel like living inside a gallery. Every corner has been thoughtfully designed to inspire creativity and relaxation.</p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">The <a href="https://retrofusion.in/neo-retro">Neo Retro Villa in Lonavala</a> is an artistic masterpiece — a 4BHK retreat designed for art lovers and romance seekers. It features a stunning jacuzzi, curated world library, <a href="/mountain-view-villa-lonavala">mountain views</a>, and interiors that feel like living inside a gallery. Every corner has been thoughtfully designed to inspire creativity and relaxation.</p>
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">The <a href="https://retrofusion.in/retro-villas">Retro Villa</a> offers a vintage Bollywood aesthetic combined with modern luxury. This 4BHK property features a plunge pool, expansive terrace, and décor that transports guests back to the golden era of Indian cinema while delivering every modern comfort.</p>
 
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Retro Visawa is the crown jewel for groups seeking panoramic views combined with pool luxury. This hilltop 4BHK villa in Lonavala is designed for large groups and features a generously sized private pool, scenic outdoor spaces, and premium amenities throughout. It consistently ranks as one of the top villa experiences in the region.</p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Retro Visawa is the crown jewel for groups seeking panoramic views combined with pool luxury. This hilltop 4BHK villa in Lonavala is designed for <a href="/villas-in-lonavala-for-20-people">large groups</a> and features a generously sized private pool, scenic outdoor spaces, and premium amenities throughout. It consistently ranks as one of the top villa experiences in the region.</p>
 
 <h2 class="text-2xl sm:text-3xl font-bold text-stone-800 mt-12 mb-4 leading-snug font-display border-b-2 border-amber-500 pb-2 inline-block">Why a Private Pool is a Non-Negotiable Luxury Feature</h2>
 
@@ -56,7 +81,7 @@ include '../includes/header.php';
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Beyond the pool and bedrooms, truly luxury 4BHK villas in Lonavala offer a range of amenities that make the experience unforgettable. Caretaker and concierge services ensure any need is promptly attended to. Optional chef services allow guests to enjoy freshly prepared multi-cuisine meals in the comfort of their villa. Air conditioning in all rooms, premium bathroom products, and in-villa entertainment systems are standard at top-tier properties.</p>
 
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Some villas also offer add-ons like DJ equipment setup, floral decorations, bonfire arrangements, and birthday or anniversary surprise packages. These personalized touches are what transform a villa stay into a truly extraordinary experience. The <a href="https://retrofusion.in/staycation-in-lonavala">luxury staycation experience in Lonavala</a> offered by Retrofusion is designed around this philosophy of going above and beyond standard hospitality.</p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Some villas also offer add-ons like DJ equipment setup, floral decorations, bonfire arrangements, and birthday or <a href="/anniversary-stay-in-lonavala">anniversary</a> surprise packages. These personalized touches are what transform a villa stay into a truly extraordinary experience. The <a href="https://retrofusion.in/staycation-in-lonavala">luxury staycation experience in Lonavala</a> offered by Retrofusion is designed around this philosophy of going above and beyond standard hospitality.</p>
 
 <h2 class="text-2xl sm:text-3xl font-bold text-stone-800 mt-12 mb-4 leading-snug font-display border-b-2 border-amber-500 pb-2 inline-block">Pricing for Luxury 4BHK Villas with Private Pool in Lonavala</h2>
 

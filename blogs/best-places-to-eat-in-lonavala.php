@@ -1,10 +1,35 @@
 <?php
 $pageTitle = "Best Places to Eat in Lonavala – Complete Food & Staycation Guide | Retrofusion Blog";
 $pageDescription = "Let’s explore the best places to eat in Lonavala along with the perfect staycation option.";
-$canonicalUrl = "https://retrofusion.in/blog/best-places-to-eat-in-lonavala/";
+$canonicalUrl = "https://retrofusion.in/blogs/best-places-to-eat-in-lonavala/";
 $ogTitle = "Best Places to Eat in Lonavala – Complete Food & Staycation Guide";
 $ogDescription = "Let’s explore the best places to eat in Lonavala along with the perfect staycation option.";
 $ogImage = "https://retrofusion.in/blogs/wp-content/uploads/2026/03/Best-Places-to-Eat-in-Lonavala-–-Complete-Food-Staycation-Guide.jpg";
+$additionalHead = '
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://retrofusion.in/blogs/best-places-to-eat-in-lonavala/" },
+      "headline": "Best Places to Eat in Lonavala – Complete Food & Staycation Guide",
+      "description": "Let’s explore the best places to eat in Lonavala along with the perfect staycation option.",
+      "image": "https://retrofusion.in/blogs/wp-content/uploads/2026/03/Best-Places-to-Eat-in-Lonavala-–-Complete-Food-Staycation-Guide.jpg",
+      "datePublished": "2026-06-25T13:02:32+05:30",
+      "dateModified": "2026-06-25T13:25:47+05:30",
+      "inLanguage": "en-IN",
+      "author": { "@type": "Organization", "name": "Retrofusion Boutique Homestays", "url": "https://retrofusion.in/" },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Retrofusion Boutique Homestays",
+        "logo": { "@type": "ImageObject", "url": "https://retrofusion.in/images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png" }
+      }
+    }
+  ]
+}
+</script>
+';
 include '../includes/header.php';
 ?>
 
@@ -52,7 +77,7 @@ include '../includes/header.php';
 
 <h3 class="text-xl sm:text-2xl font-semibold text-stone-800 mt-8 mb-3 leading-snug font-display">2. German Bakery – Café & Dessert Spot</h3>
 
-<figure><img src="images/aubzgIdzkDfI.jpg" alt="https://d3gw4aml0lneeh.cloudfront.net/assets/locations/aubzgIdzkDfI.jpg"/></figure>
+<figure><img src="images/aubzgIdzkDfI.webp" alt="https://d3gw4aml0lneeh.cloudfront.net/assets/locations/aubzgIdzkDfI.webp"/></figure>
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">German Bakery is ideal for café lovers. With a cozy ambiance and wide menu selection, it’s perfect for evening coffee or dessert breaks.</p>
 
@@ -66,13 +91,13 @@ include '../includes/header.php';
 <li class="leading-relaxed">Coffee & milkshakes</li>
 </ul>
 
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Great for couples and young travelers.</p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Great for <a href="/homestay-in-lonavala-for-couples">couples</a> and young travelers.</p>
 
 <hr/>
 
 <h3 class="text-xl sm:text-2xl font-semibold text-stone-800 mt-8 mb-3 leading-snug font-display">3. The Kinara Village Dhaba – Rustic Punjabi Dining</h3>
 
-<figure><img src="images/caption.jpg" alt="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/22/15/72/29/caption.jpg?h=1200&s=1&w=1200"/></figure>
+<figure><img src="images/caption.webp" alt="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/22/15/72/29/caption.webp?h=1200&s=1&w=1200"/></figure>
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">The Kinara Village Dhaba offers a traditional Punjabi dining experience with village-style décor.</p>
 

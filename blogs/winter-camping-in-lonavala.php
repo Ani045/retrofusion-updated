@@ -1,10 +1,35 @@
 <?php
 $pageTitle = "Winter Camping in Lonavala: Experience the Chill by Pawna Lake | Retrofusion Blog";
 $pageDescription = "There’s something magical about winter in Lonavala — the cold breeze brushing your face, the soft morning fog, the golden glow of sunrise, and the peaceful";
-$canonicalUrl = "https://retrofusion.in/blog/winter-camping-in-lonavala/";
+$canonicalUrl = "https://retrofusion.in/blogs/winter-camping-in-lonavala/";
 $ogTitle = "Winter Camping in Lonavala: Experience the Chill by Pawna Lake";
 $ogDescription = "There’s something magical about winter in Lonavala — the cold breeze brushing your face, the soft morning fog, the golden glow of sunrise, and the peaceful";
-$ogImage = "images/Untitleddesign.jpg";
+$ogImage = "https://retrofusion.in/blogs/images/Untitleddesign.webp";
+$additionalHead = '
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://retrofusion.in/blogs/winter-camping-in-lonavala/" },
+      "headline": "Winter Camping in Lonavala: Experience the Chill by Pawna Lake",
+      "description": "There’s something magical about winter in Lonavala — the cold breeze brushing your face, the soft morning fog, the golden glow of sunrise, and the peaceful",
+      "image": "https://retrofusion.in/blogs/images/Untitleddesign.webp",
+      "datePublished": "2026-06-25T13:02:32+05:30",
+      "dateModified": "2026-06-25T13:25:47+05:30",
+      "inLanguage": "en-IN",
+      "author": { "@type": "Organization", "name": "Retrofusion Boutique Homestays", "url": "https://retrofusion.in/" },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Retrofusion Boutique Homestays",
+        "logo": { "@type": "ImageObject", "url": "https://retrofusion.in/images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png" }
+      }
+    }
+  ]
+}
+</script>
+';
 include '../includes/header.php';
 ?>
 
@@ -14,17 +39,17 @@ include '../includes/header.php';
       <!-- Main blog content -->
       <div class="min-w-0 bg-white rounded-2xl shadow-md overflow-hidden">
       <div class="relative mb-8 overflow-hidden bg-stone-100 rounded-t-2xl">
-        <img src="images/Untitleddesign.jpg" alt="Winter Camping in Lonavala: Experience the Chill by Pawna Lake" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover blur-2xl scale-110 opacity-60" />
+        <img src="images/Untitleddesign.webp" alt="Winter Camping in Lonavala: Experience the Chill by Pawna Lake" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover blur-2xl scale-110 opacity-60" />
         <div class="relative flex items-center justify-center min-h-[200px] sm:min-h-[240px] md:min-h-[280px] py-6 px-4">
-          <img src="images/Untitleddesign.jpg" alt="Winter Camping in Lonavala: Experience the Chill by Pawna Lake" class="max-h-[280px] md:max-h-[320px] w-auto h-auto max-w-full object-contain rounded-lg shadow-lg" />
+          <img src="images/Untitleddesign.webp" alt="Winter Camping in Lonavala: Experience the Chill by Pawna Lake" class="max-h-[280px] md:max-h-[320px] w-auto h-auto max-w-full object-contain rounded-lg shadow-lg" />
         </div>
       </div>
         <div class="p-6 sm:p-8 lg:p-10">
           <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold text-stone-800 font-display mb-6 leading-tight">Winter Camping in Lonavala: Experience the Chill by Pawna Lake</h1>
           <div class="prose prose-stone max-w-none">
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">There’s something magical about winter in Lonavala — the cold breeze brushing your face, the soft morning fog, the golden glow of sunrise, and the peaceful silence that settles around the hills. But if there’s one experience that captures the true winter charm of this hill town, it’s <strong>camping by Pawna Lake</strong>.</p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">There’s something magical about winter in Lonavala — the cold breeze brushing your face, the soft morning fog, the golden glow of sunrise, and the peaceful silence that settles around the hills. But if there’s one experience that captures the true winter charm of this hill town, it’s <strong>camping by <a href="/best-villas-near-pawna-lake-in-lonavala">Pawna Lake</a></strong>.</p>
 
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Pawna Lake is one of Maharashtra’s most scenic camping spots, and winter makes it even more special. The chilly weather, clear skies, and cozy bonfire vibes create the perfect setting for a memorable getaway. Whether you’re an adventure lover, a couple seeking peace, or a group of friends looking for something exciting — winter camping at Pawna is an experience you’ll cherish.</p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Pawna Lake is one of Maharashtra’s most scenic camping spots, and winter makes it even more special. The chilly weather, clear skies, and cozy <a href="/villas-in-lonavala-with-bonfire">bonfire</a> vibes create the perfect setting for a memorable getaway. Whether you’re an adventure lover, a <a href="/homestay-in-lonavala-for-couples">couple</a> seeking peace, or a group of friends looking for something exciting — winter camping at Pawna is an experience you’ll cherish.</p>
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">To plan your trip smoothly, explore our complete guide:<br>👉 <strong><a href="https://retrofusion.in/blogs/how-to-plan-a-lonavala-trip/?utm_source=chatgpt.com">How to Plan a Lonavala Trip</a></strong></p>
 

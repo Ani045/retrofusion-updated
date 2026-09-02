@@ -1,6 +1,97 @@
 <?php
 $pageTitle = "Retro Visawa - Spacious 4BHK Villa in Lonavala | Retrofusion";
-$pageDescription = "";
+$pageDescription = "Retro Visawa is a spacious 4BHK villa in Lonavala for 8+ guests, with a large private pool and deck, BBQ grill, high-speed WiFi and OTT entertainment. Pet friendly.";
+$canonicalUrl = "https://retrofusion.in/retro-viswa-lonavala";
+$ogTitle = "Retro Visawa | Spacious 4BHK Villa in Lonavala";
+$ogDescription = "Retro Visawa is a spacious 4BHK villa in Lonavala for 8+ guests, with a large private pool and deck, BBQ grill, high-speed WiFi and OTT entertainment. Pet friendly.";
+$ogImage = "https://retrofusion.in/images/v1769858399_8wr207mfxnrmy0cvd61bd2gn1g_result__viprl7.jpg";
+$additionalHead = '
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LodgingBusiness",
+      "@id": "https://retrofusion.in/retro-viswa-lonavala#lodgingbusiness",
+      "name": "Retro Visawa",
+      "description": "Retro Visawa is a spacious 4BHK villa in Lonavala for 8+ guests, with a large private pool and deck, BBQ grill, high-speed WiFi and OTT entertainment. Pet friendly.",
+      "image": "https://retrofusion.in/images/v1769858399_8wr207mfxnrmy0cvd61bd2gn1g_result__viprl7.jpg",
+      "url": "https://retrofusion.in/retro-viswa-lonavala",
+      "telephone": "+91 8999036644",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Lonavala",
+        "addressRegion": "Maharashtra",
+        "addressCountry": "IN",
+        "postalCode": "410401"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "18.7544",
+        "longitude": "73.4062"
+      },
+      "priceRange": "$$",
+      "petsAllowed": true,
+      "numberOfRooms": 4,
+      "amenityFeature": [
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Private pool",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Pool deck",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "4BHK for 8+ guests",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "BBQ grill",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Free high-speed WiFi (60 Mbps)",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "HDTV with OTT apps",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Pet friendly",
+          "value": true
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://retrofusion.in/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Retro Visawa",
+          "item": "https://retrofusion.in/retro-viswa-lonavala"
+        }
+      ]
+    }
+  ]
+}
+</script>
+';
 include 'includes/header.php';
 ?>
 
@@ -77,12 +168,12 @@ include 'includes/header.php';
           </div>
           <div class="grid grid-rows-2 gap-6">
             <div class="relative group overflow-hidden rounded-3xl">
-              <img loading="lazy" src="images/v1769862646_pool_ckwldd.png"
+              <img loading="lazy" src="images/v1769862646_pool_ckwldd.webp"
                 alt="Retro Visawa Pool"
                 class="w-full h-[190px] md:h-[235px] object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
             <div class="relative group overflow-hidden rounded-3xl">
-              <img loading="lazy" src="images/v1769862645_shape_ufdcac.jpg"
+              <img loading="lazy" src="images/v1769862645_shape_ufdcac.webp"
                 alt="Retro Visawa Interior"
                 class="w-full h-[190px] md:h-[235px] object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
@@ -92,10 +183,10 @@ include 'includes/header.php';
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-10 md:mt-14 scroll-reveal">
         <div class="relative overflow-hidden rounded-3xl shadow-xl">
           <!-- Mobile Banner -->
-          <img loading="lazy" src="images/v1773566228_for_neo_and_viswa_mobile_fdd9bu.png"
+          <img loading="lazy" src="images/v1773566228_for_neo_and_viswa_mobile_fdd9bu.webp"
             alt="Retro Visawa Features Mobile" class="block sm:hidden w-full h-auto object-cover" />
           <!-- Desktop Banner -->
-          <img loading="lazy" src="images/v1773566229_for_neo_and_viswa_laptop_s58iv5.png"
+          <img loading="lazy" src="images/v1773566229_for_neo_and_viswa_laptop_s58iv5.webp"
             alt="Retro Visawa Features Desktop" class="hidden sm:block w-full h-auto object-cover" />
         </div>
       </div>
@@ -221,7 +312,7 @@ include 'includes/header.php';
             <div
               class="relative overflow-hidden group cursor-pointer col-span-2 md:col-span-2 row-span-1 md:row-span-2 rounded-2xl shadow-lg"
               onclick="openLightbox(0)">
-              <img loading="lazy" src="images/v1769862645_shape_ufdcac.jpg"
+              <img loading="lazy" src="images/v1769862645_shape_ufdcac.webp"
                 class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 alt="Retro Visawa Interior">
               <div
@@ -241,7 +332,7 @@ include 'includes/header.php';
             <div
               class="relative overflow-hidden group cursor-pointer col-span-2 md:col-span-2 row-span-1 md:row-span-1 rounded-2xl shadow-lg hidden md:block"
               onclick="openLightbox(1)">
-              <img loading="lazy" src="images/v1769862646_small_ysri1e.png"
+              <img loading="lazy" src="images/v1769862646_small_ysri1e.webp"
                 class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 alt="Retro Visawa Detail">
               <div
@@ -261,7 +352,7 @@ include 'includes/header.php';
             <div
               class="relative overflow-hidden group cursor-pointer col-span-1 md:col-span-1 row-span-1 md:row-span-1 rounded-2xl shadow-lg"
               onclick="openLightbox(2)">
-              <img loading="lazy" src="images/v1769862646_20_p33hnk.png"
+              <img loading="lazy" src="images/v1769862646_20_p33hnk.webp"
                 class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 alt="Retro Visawa Bedroom">
               <div
@@ -281,7 +372,7 @@ include 'includes/header.php';
             <div
               class="relative overflow-hidden group cursor-pointer col-span-1 md:col-span-1 row-span-1 md:row-span-1 rounded-2xl shadow-lg"
               onclick="openLightbox(3)">
-              <img loading="lazy" src="images/v1769862646_24_m8sem5.png"
+              <img loading="lazy" src="images/v1769862646_24_m8sem5.webp"
                 class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 alt="Retro Visawa Pool">
               <div
@@ -651,7 +742,7 @@ include 'includes/header.php';
                 <div class="pt-9 sm:pt-11 w-full flex flex-col items-center">
                   <a href="https://www.instagram.com/retrofusion.in/" target="_blank" class="w-full">
                     <img loading="lazy"
-                      src="images/v1772471878_Screenshot_2026-03-02_at_10.47.42_PM_wo3toj.png"
+                      src="images/v1772471878_Screenshot_2026-03-02_at_10.47.42_PM_wo3toj.webp"
                       alt="Instagram Profile Screenshot"
                       class="w-full h-auto block opacity-95 transition-opacity duration-300 group-hover/screen:opacity-100" />
                   </a>
@@ -684,7 +775,7 @@ include 'includes/header.php';
                 <!-- Image with amber border -->
                 <div class="mx-2.5 mb-2 border-[3px] border-amber-600 rounded-lg overflow-hidden">
                   <img loading="lazy"
-                    src="images/v1772473164_Screenshot_2026-03-02_at_11.08.01_PM_a5g0vs.png"
+                    src="images/v1772473164_Screenshot_2026-03-02_at_11.08.01_PM_a5g0vs.webp"
                     alt="Instagram Post"
                     class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" />
                 </div>
@@ -736,7 +827,7 @@ include 'includes/header.php';
                 </div>
                 <div class="mx-2.5 mb-2 border-[3px] border-amber-600 rounded-lg overflow-hidden">
                   <img loading="lazy"
-                    src="images/v1772473164_Screenshot_2026-03-02_at_11.07.23_PM_sbgs0f.png"
+                    src="images/v1772473164_Screenshot_2026-03-02_at_11.07.23_PM_sbgs0f.webp"
                     alt="Instagram Post"
                     class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" />
                 </div>
@@ -787,7 +878,7 @@ include 'includes/header.php';
                 </div>
                 <div class="mx-2.5 mb-2 border-[3px] border-amber-600 rounded-lg overflow-hidden">
                   <img loading="lazy"
-                    src="images/v1772473163_Screenshot_2026-03-02_at_11.07.36_PM_ftkdee.png"
+                    src="images/v1772473163_Screenshot_2026-03-02_at_11.07.36_PM_ftkdee.webp"
                     alt="Instagram Post"
                     class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" />
                 </div>
@@ -838,7 +929,7 @@ include 'includes/header.php';
                 </div>
                 <div class="mx-2.5 mb-2 border-[3px] border-amber-600 rounded-lg overflow-hidden">
                   <img loading="lazy"
-                    src="images/v1772473163_Screenshot_2026-03-02_at_11.07.51_PM_yzseuz.png"
+                    src="images/v1772473163_Screenshot_2026-03-02_at_11.07.51_PM_yzseuz.webp"
                     alt="Instagram Post"
                     class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" />
                 </div>
@@ -920,13 +1011,13 @@ include 'includes/header.php';
   </div><!-- end min-h-screen -->
   <script>
     window.galleryImages = [
-      'images/v1769862645_shape_ufdcac.jpg',
-      'images/v1769862646_small_ysri1e.png',
-      'images/v1769862646_20_p33hnk.png',
-      'images/v1769862646_24_m8sem5.png',
-      'images/v1769862647_tale_wyqqul.png',
-      'images/v1769862646_pool_ckwldd.png',
-      'images/v1769862646_27_f9uanm.png',
+      'images/v1769862645_shape_ufdcac.webp',
+      'images/v1769862646_small_ysri1e.webp',
+      'images/v1769862646_20_p33hnk.webp',
+      'images/v1769862646_24_m8sem5.webp',
+      'images/v1769862647_tale_wyqqul.webp',
+      'images/v1769862646_pool_ckwldd.webp',
+      'images/v1769862646_27_f9uanm.webp',
       'images/v1769858399_8wr207mfxnrmy0cvd61bd2gn1g_result__viprl7.jpg',
     ];
   </script>

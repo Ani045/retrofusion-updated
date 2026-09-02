@@ -1,10 +1,35 @@
 <?php
 $pageTitle = "Haunted Places in Lonavala: Explore the Spookiest Spots in the Hills | Retrofusion Blog";
 $pageDescription = "Explore the most haunted places in Lonavala and uncover the spooky stories behind these mysterious spots in the hills.";
-$canonicalUrl = "https://retrofusion.in/blog/haunted-places-in-lonavala/";
+$canonicalUrl = "https://retrofusion.in/blogs/haunted-places-in-lonavala/";
 $ogTitle = "Haunted Places in Lonavala: Explore the Spookiest Spots in the Hills";
 $ogDescription = "Explore the most haunted places in Lonavala and uncover the spooky stories behind these mysterious spots in the hills.";
-$ogImage = "images/haunted-places-in-lonavala.jpeg";
+$ogImage = "https://retrofusion.in/blogs/images/haunted-places-in-lonavala.webp";
+$additionalHead = '
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://retrofusion.in/blogs/haunted-places-in-lonavala/" },
+      "headline": "Haunted Places in Lonavala: Explore the Spookiest Spots in the Hills",
+      "description": "Explore the most haunted places in Lonavala and uncover the spooky stories behind these mysterious spots in the hills.",
+      "image": "https://retrofusion.in/blogs/images/haunted-places-in-lonavala.webp",
+      "datePublished": "2026-06-25T13:02:32+05:30",
+      "dateModified": "2026-06-25T13:25:47+05:30",
+      "inLanguage": "en-IN",
+      "author": { "@type": "Organization", "name": "Retrofusion Boutique Homestays", "url": "https://retrofusion.in/" },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Retrofusion Boutique Homestays",
+        "logo": { "@type": "ImageObject", "url": "https://retrofusion.in/images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png" }
+      }
+    }
+  ]
+}
+</script>
+';
 include '../includes/header.php';
 ?>
 
@@ -14,9 +39,9 @@ include '../includes/header.php';
       <!-- Main blog content -->
       <div class="min-w-0 bg-white rounded-2xl shadow-md overflow-hidden">
       <div class="relative mb-8 overflow-hidden bg-stone-100 rounded-t-2xl">
-        <img src="images/haunted-places-in-lonavala.jpeg" alt="Haunted Places in Lonavala: Explore the Spookiest Spots in the Hills" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover blur-2xl scale-110 opacity-60" />
+        <img src="images/haunted-places-in-lonavala.webp" alt="Haunted Places in Lonavala: Explore the Spookiest Spots in the Hills" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover blur-2xl scale-110 opacity-60" />
         <div class="relative flex items-center justify-center min-h-[200px] sm:min-h-[240px] md:min-h-[280px] py-6 px-4">
-          <img src="images/haunted-places-in-lonavala.jpeg" alt="Haunted Places in Lonavala: Explore the Spookiest Spots in the Hills" class="max-h-[280px] md:max-h-[320px] w-auto h-auto max-w-full object-contain rounded-lg shadow-lg" />
+          <img src="images/haunted-places-in-lonavala.webp" alt="Haunted Places in Lonavala: Explore the Spookiest Spots in the Hills" class="max-h-[280px] md:max-h-[320px] w-auto h-auto max-w-full object-contain rounded-lg shadow-lg" />
         </div>
       </div>
         <div class="p-6 sm:p-8 lg:p-10">
@@ -26,7 +51,7 @@ include '../includes/header.php';
 
 <h2 class="text-2xl sm:text-3xl font-bold text-stone-800 mt-12 mb-4 leading-snug font-display border-b-2 border-amber-500 pb-2 inline-block"><strong>The Spookiest Spots in Lonavala</strong></h2>
 
-<figure><img src="images/WhatsApp-Image-2025-08-16-at-10.40.53-PM-1024x558.jpeg" /></figure>
+<figure><img src="images/WhatsApp-Image-2025-08-16-at-10.40.53-PM-1024x558.webp" /></figure>
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Prepare to delve into the mysterious narratives surrounding these alleged haunted locations, each with its own unsettling history or local folklore.</p>
 
@@ -62,7 +87,7 @@ include '../includes/header.php';
 
 <h3 class="text-xl sm:text-2xl font-semibold text-stone-800 mt-8 mb-3 leading-snug font-display"><strong>4. Lonavala Railway Station (Old Section)</strong></h3>
 
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Old railway stations often carry a melancholic air, and the older, less-used sections of Lonavala Railway Station are no exception. There are tales of a phantom train that passes through late at night, and the ghost of a station master who still walks the platforms. Travelers waiting for early morning or late-night trains have reported hearing faint whistles when no train is near, or seeing fleeting shadows in the deserted corners.</p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Old railway stations often carry a melancholic air, and the older, less-used sections of <a href="/villas-near-lonavala-railway-station">Lonavala Railway Station</a> are no exception. There are tales of a phantom train that passes through late at night, and the ghost of a station master who still walks the platforms. Travelers waiting for early morning or late-night trains have reported hearing faint whistles when no train is near, or seeing fleeting shadows in the deserted corners.</p>
 
 <ul class="list-disc pl-6 space-y-2 text-base sm:text-lg text-stone-700 mb-5">
 <li class="leading-relaxed"><strong>Legend:</strong> Phantom trains and a lingering station master's spirit.</li>
@@ -72,7 +97,7 @@ include '../includes/header.php';
 
 <h3 class="text-xl sm:text-2xl font-semibold text-stone-800 mt-8 mb-3 leading-snug font-display"><strong>5. Bhushi Dam: Monsoon's Darker Tales</strong></h3>
 
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">While Bhushi Dam is a popular spot for joyful splashes during the monsoon, it also has its share of tragic incidents, leading to local legends. Some believe that the spirits of those who drowned in the strong currents during heavy rains still haunt the waters, occasionally pulling at unsuspecting visitors. While largely a place of fun, the undertones of these stories add a chilling layer to its otherwise lively atmosphere.</p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">While <a href="/villas-near-bhushi-dam-lonavala">Bhushi Dam</a> is a popular spot for joyful splashes during the monsoon, it also has its share of tragic incidents, leading to local legends. Some believe that the spirits of those who drowned in the strong currents during heavy rains still haunt the waters, occasionally pulling at unsuspecting visitors. While largely a place of fun, the undertones of these stories add a chilling layer to its otherwise lively atmosphere.</p>
 
 <ul class="list-disc pl-6 space-y-2 text-base sm:text-lg text-stone-700 mb-5">
 <li class="leading-relaxed"><strong>Legend:</strong> Spirits of those lost to the strong currents.</li>
@@ -107,9 +132,9 @@ include '../includes/header.php';
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">RetroFusion boasts two distinct villas, each designed with a specific traveler in mind:</p>
 
 <ul class="list-disc pl-6 space-y-2 text-base sm:text-lg text-stone-700 mb-5">
-<li class="leading-relaxed"><strong>Retro Villa:</strong> Ideal for families, this villa provides ample space and thoughtful amenities, ensuring a comfortable and memorable group stay while you recount your tales of <strong>Lonavala ghost stories</strong>.</li>
+<li class="leading-relaxed"><strong><a href="/retro-villas">Retro Villa</a>:</strong> Ideal for families, this villa provides ample space and thoughtful amenities, ensuring a comfortable and memorable group stay while you recount your tales of <strong>Lonavala ghost stories</strong>.</li>
 
-<li class="leading-relaxed"><strong>Neo Retro:</strong> Perfect for creatives, corporates, and pet lovers, this villa offers a more contemporary and inspiring environment, fostering relaxation and productivity after a day of indulging in Lonavala's mystical side.</li>
+<li class="leading-relaxed"><strong><a href="/neo-retro">Neo Retro</a>:</strong> Perfect for creatives, corporates, and pet lovers, this villa offers a more contemporary and inspiring environment, fostering relaxation and productivity after a day of indulging in Lonavala's mystical side.</li>
 </ul>
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Each of RetroFusion's villas promises an exclusive escape: indulge in the luxury of private plunge pools, gather around inviting BBQ areas for memorable evenings under the stars, and unwind in cozy sit-outs. Our in-house meals, thoughtfully tailored to Indian palates, ensure a delightful culinary journey that complements your exploration of Lonavala's hidden depths. Founded by an artist and nature lover, RetroFusion is more than just accommodation; it's an immersive experience where modern comforts seamlessly blend with artistic flair and natural tranquility. Don't miss out on this unique <strong>Lonavala <a href="https://retrofusion.in/">homestay</a></strong> – secure your personalized getaway by booking early on their official website today!</p>

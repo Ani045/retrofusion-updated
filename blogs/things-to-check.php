@@ -1,10 +1,35 @@
 <?php
 $pageTitle = "Things to Check Before Booking a 4BHK Villa in Lonavala | Retrofusion Blog";
 $pageDescription = "Don't book a 4BHK villa in Lonavala without reading this checklist. From pool privacy to cancellation policies, here are the essential things to verify before you confirm your booking.";
-$canonicalUrl = "https://retrofusion.in/blog/things-to-check-before-booking-4bhk-villa-lonavala/";
+$canonicalUrl = "https://retrofusion.in/blogs/things-to-check/";
 $ogTitle = "Things to Check Before Booking a 4BHK Villa in Lonavala";
 $ogDescription = "Don't book a 4BHK villa in Lonavala without reading this checklist. From pool privacy to cancellation policies, here are the essential things to verify before you confirm your booking.";
-$ogImage = "images/Untitled-design-25.jpg";
+$ogImage = "https://retrofusion.in/blogs/images/Untitled-design-25.webp";
+$additionalHead = '
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://retrofusion.in/blogs/things-to-check/" },
+      "headline": "Things to Check Before Booking a 4BHK Villa in Lonavala",
+      "description": "Don\'t book a 4BHK villa in Lonavala without reading this checklist. From pool privacy to cancellation policies, here are the essential things to verify before you confirm your booking.",
+      "image": "https://retrofusion.in/blogs/images/Untitled-design-25.webp",
+      "datePublished": "2026-05-18T12:43:04+05:30",
+      "dateModified": "2026-06-25T13:25:47+05:30",
+      "inLanguage": "en-IN",
+      "author": { "@type": "Organization", "name": "Retrofusion Boutique Homestays", "url": "https://retrofusion.in/" },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Retrofusion Boutique Homestays",
+        "logo": { "@type": "ImageObject", "url": "https://retrofusion.in/images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png" }
+      }
+    }
+  ]
+}
+</script>
+';
 include '../includes/header.php';
 ?>
 
@@ -14,9 +39,9 @@ include '../includes/header.php';
       <!-- Main blog content -->
       <div class="min-w-0 bg-white rounded-2xl shadow-md overflow-hidden">
       <div class="relative mb-8 overflow-hidden bg-stone-100 rounded-t-2xl">
-        <img src="images/Untitled-design-25.jpg" alt="Things to Check Before Booking a 4BHK Villa in Lonavala" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover blur-2xl scale-110 opacity-60" />
+        <img src="images/Untitled-design-25.webp" alt="Things to Check Before Booking a 4BHK Villa in Lonavala" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover blur-2xl scale-110 opacity-60" />
         <div class="relative flex items-center justify-center min-h-[200px] sm:min-h-[240px] md:min-h-[280px] py-6 px-4">
-          <img src="images/Untitled-design-25.jpg" alt="Things to Check Before Booking a 4BHK Villa in Lonavala" class="max-h-[280px] md:max-h-[320px] w-auto h-auto max-w-full object-contain rounded-lg shadow-lg" />
+          <img src="images/Untitled-design-25.webp" alt="Things to Check Before Booking a 4BHK Villa in Lonavala" class="max-h-[280px] md:max-h-[320px] w-auto h-auto max-w-full object-contain rounded-lg shadow-lg" />
         </div>
       </div>
         <div class="p-6 sm:p-8 lg:p-10">
@@ -28,7 +53,7 @@ include '../includes/header.php';
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">A "4BHK" designation tells you there are four bedrooms, but it doesn't tell you the full story. Always clarify the exact bed type in each room — whether each room has a king bed, double bed, twin beds, or bunk beds. Confirm the total sleeping capacity with and without extra mattresses, and whether extra mattresses are complimentary or charged additionally. Ask if all four bedrooms have equal-quality beds or if some are notably smaller or less furnished than others.</p>
 
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">This is especially important for families with elderly members who need ground-floor access, or groups with couples who need privacy in larger double-bed rooms. The <a href="https://retrofusion.in/retro-viswa-lonavala">Retro Visawa villa</a> provides transparent room configuration details upfront, which is the standard of clarity all good villa operators should offer.</p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">This is especially important for families with elderly members who need ground-floor access, or groups with <a href="/homestay-in-lonavala-for-couples">couples</a> who need privacy in larger double-bed rooms. The <a href="https://retrofusion.in/retro-viswa-lonavala">Retro Visawa villa</a> provides transparent room configuration details upfront, which is the standard of clarity all good villa operators should offer.</p>
 
 <h2 class="text-2xl sm:text-3xl font-bold text-stone-800 mt-12 mb-4 leading-snug font-display border-b-2 border-amber-500 pb-2 inline-block">2. Confirm the Pool Details</h2>
 

@@ -4,7 +4,7 @@ $pageDescription = "Experience Neo-Retro, a luxury 4 BHK Villa in Lonavala with 
 $canonicalUrl = "https://retrofusion.in/neo-retro";
 $ogTitle = $pageTitle;
 $ogDescription = $pageDescription;
-$ogImage = "images/v1769863039_01_qwhl8a.jpg";
+$ogImage = "https://retrofusion.in/images/v1769863039_01_qwhl8a.webp";
 $twitterCard = "summary_large_image";
 $twitterTitle = "Neo-Retro | Luxury 4 BHK Villa in Lonavala with Private Pool";
 $twitterDescription = "A luxury 4 BHK villa in Lonavala with private pool, jacuzzi & mountain views. Perfect for families & groups near Pune & Mumbai.";
@@ -15,7 +15,7 @@ include 'includes/header.php';
 <section class="relative h-screen overflow-hidden">
     <video autoplay loop muted playsinline preload="auto" onloadeddata="this.play();"
         class="absolute inset-0 w-full h-full object-cover scale-[1.3]"
-        poster="images/v1769863039_01_qwhl8a.jpg">
+        poster="images/v1769863039_01_qwhl8a.webp">
         <source
             src="images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.mp4"
             type="video/mp4" />
@@ -79,18 +79,18 @@ include 'includes/header.php';
         </div>
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8">
             <div class="relative group overflow-hidden rounded-3xl">
-                <img loading="lazy" src="images/v1769863039_01_qwhl8a.jpg"
+                <img loading="lazy" src="images/v1769863039_01_qwhl8a.webp"
                     alt="Neo Retro Villa Exterior"
                     class="w-full h-[400px] md:h-[500px] object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
             <div class="grid grid-rows-2 gap-6">
                 <div class="relative group overflow-hidden rounded-3xl">
-                    <img loading="lazy" src="images/v1769863054_03.1_c7vcel.jpg"
+                    <img loading="lazy" src="images/v1769863054_03.1_c7vcel.webp"
                         alt="Neo Retro Villa Interior"
                         class="w-full h-[190px] md:h-[235px] object-cover transition-transform duration-700 group-hover:scale-105" />
                 </div>
                 <div class="relative group overflow-hidden rounded-3xl">
-                    <img loading="lazy" src="images/v1769863047_29_qtp6zr.jpg"
+                    <img loading="lazy" src="images/v1769863047_29_qtp6zr.webp"
                         alt="Neo Retro Villa Pool Area"
                         class="w-full h-[190px] md:h-[235px] object-cover transition-transform duration-700 group-hover:scale-105" />
                 </div>
@@ -100,10 +100,10 @@ include 'includes/header.php';
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-10 md:mt-14 scroll-reveal">
         <div class="relative overflow-hidden rounded-3xl shadow-xl">
             <!-- Mobile Banner -->
-            <img loading="lazy" src="images/v1773566228_for_neo_and_viswa_mobile_fdd9bu.png"
+            <img loading="lazy" src="images/v1773566228_for_neo_and_viswa_mobile_fdd9bu.webp"
                 alt="Neo Retro Villa Features Mobile" class="block sm:hidden w-full h-auto object-cover" />
             <!-- Desktop Banner -->
-            <img loading="lazy" src="images/v1773566229_for_neo_and_viswa_laptop_s58iv5.png"
+            <img loading="lazy" src="images/v1773566229_for_neo_and_viswa_laptop_s58iv5.webp"
                 alt="Neo Retro Villa Features Desktop" class="hidden sm:block w-full h-auto object-cover" />
         </div>
     </div>
@@ -236,7 +236,7 @@ include 'includes/header.php';
                 <!-- Image 1 -->
                 <div class="relative overflow-hidden group cursor-pointer col-span-2 md:col-span-2 row-span-1 md:row-span-2 rounded-2xl shadow-lg"
                     onclick="openLightbox(0)">
-                    <img loading="lazy" src="images/v1769863054_03.1_c7vcel.jpg"
+                    <img loading="lazy" src="images/v1769863054_03.1_c7vcel.webp"
                         class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                         alt="Villa View 1">
                     <div
@@ -256,7 +256,7 @@ include 'includes/header.php';
                 <!-- Image 2 -->
                 <div class="relative overflow-hidden group cursor-pointer col-span-2 md:col-span-2 row-span-1 md:row-span-1 rounded-2xl shadow-lg hidden md:block"
                     onclick="openLightbox(1)">
-                    <img loading="lazy" src="images/v1769863054_12_myvknr.jpg"
+                    <img loading="lazy" src="images/v1769863054_12_myvknr.webp"
                         class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                         alt="Villa View 2">
                     <div
@@ -276,7 +276,7 @@ include 'includes/header.php';
                 <!-- Image 3 -->
                 <div class="relative overflow-hidden group cursor-pointer col-span-1 md:col-span-1 row-span-1 md:row-span-1 rounded-2xl shadow-lg"
                     onclick="openLightbox(2)">
-                    <img loading="lazy" src="images/v1769863051_07.1_u8yrn6.jpg"
+                    <img loading="lazy" src="images/v1769863051_07.1_u8yrn6.webp"
                         class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                         alt="Villa View 3">
                     <div
@@ -296,7 +296,7 @@ include 'includes/header.php';
                 <!-- Image 4 -->
                 <div class="relative overflow-hidden group cursor-pointer col-span-1 md:col-span-1 row-span-1 md:row-span-1 rounded-2xl shadow-lg"
                     onclick="openLightbox(3)">
-                    <img loading="lazy" src="images/v1769863051_08.2_ws3oiy.jpg"
+                    <img loading="lazy" src="images/v1769863051_08.2_ws3oiy.webp"
                         class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                         alt="Villa View 4">
                     <div
@@ -517,7 +517,7 @@ include 'includes/header.php';
 <!-- ===== FAQ & CTA SECTION ===== -->
 <section class="relative py-12 md:py-14 overflow-hidden">
     <div class="absolute inset-0">
-        <img loading="lazy" src="images/v1769863046_19_jxrtxx.jpg"
+        <img loading="lazy" src="images/v1769863046_19_jxrtxx.webp"
             alt="Neo-Retro Villa Background" class="w-full h-full object-cover" />
         <div class="absolute inset-0 bg-gradient-to-r from-black/70 via-black/60 to-black/50"></div>
     </div>
@@ -682,7 +682,7 @@ include 'includes/header.php';
                         <!-- Screenshot uploaded by user -->
                         <div class="pt-9 sm:pt-11 w-full flex flex-col items-center">
                             <a href="https://www.instagram.com/retrofusion.in/" target="_blank" class="w-full">
-                                <img loading="lazy" src="images/v1772471878_Screenshot_2026-03-02_at_10.47.42_PM_wo3toj.png"
+                                <img loading="lazy" src="images/v1772471878_Screenshot_2026-03-02_at_10.47.42_PM_wo3toj.webp"
                                     alt="Instagram Profile Screenshot"
                                     class="w-full h-auto block opacity-95 transition-opacity duration-300 group-hover/screen:opacity-100" />
                             </a>
@@ -715,7 +715,7 @@ include 'includes/header.php';
                         </div>
                         <!-- Image with amber border -->
                         <div class="mx-2.5 mb-2 border-[3px] border-amber-600 rounded-lg overflow-hidden">
-                            <img loading="lazy" src="images/v1772473164_Screenshot_2026-03-02_at_11.08.01_PM_a5g0vs.png"
+                            <img loading="lazy" src="images/v1772473164_Screenshot_2026-03-02_at_11.08.01_PM_a5g0vs.webp"
                                 alt="Instagram Post"
                                 class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" />
                         </div>
@@ -768,7 +768,7 @@ include 'includes/header.php';
                                 class="text-[10px] font-bold text-amber-600 border border-amber-600 rounded px-1.5 py-0.5">FOLLOW</span>
                         </div>
                         <div class="mx-2.5 mb-2 border-[3px] border-amber-600 rounded-lg overflow-hidden">
-                            <img loading="lazy" src="images/v1772473164_Screenshot_2026-03-02_at_11.07.23_PM_sbgs0f.png"
+                            <img loading="lazy" src="images/v1772473164_Screenshot_2026-03-02_at_11.07.23_PM_sbgs0f.webp"
                                 alt="Instagram Post"
                                 class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" />
                         </div>
@@ -820,7 +820,7 @@ include 'includes/header.php';
                                 class="text-[10px] font-bold text-amber-600 border border-amber-600 rounded px-1.5 py-0.5">FOLLOW</span>
                         </div>
                         <div class="mx-2.5 mb-2 border-[3px] border-amber-600 rounded-lg overflow-hidden">
-                            <img loading="lazy" src="images/v1772473163_Screenshot_2026-03-02_at_11.07.36_PM_ftkdee.png"
+                            <img loading="lazy" src="images/v1772473163_Screenshot_2026-03-02_at_11.07.36_PM_ftkdee.webp"
                                 alt="Instagram Post"
                                 class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" />
                         </div>
@@ -872,7 +872,7 @@ include 'includes/header.php';
                                 class="text-[10px] font-bold text-amber-600 border border-amber-600 rounded px-1.5 py-0.5">FOLLOW</span>
                         </div>
                         <div class="mx-2.5 mb-2 border-[3px] border-amber-600 rounded-lg overflow-hidden">
-                            <img loading="lazy" src="images/v1772473163_Screenshot_2026-03-02_at_11.07.51_PM_yzseuz.png"
+                            <img loading="lazy" src="images/v1772473163_Screenshot_2026-03-02_at_11.07.51_PM_yzseuz.webp"
                                 alt="Instagram Post"
                                 class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" />
                         </div>
@@ -925,39 +925,136 @@ include 'includes/header.php';
       "@type": "LodgingBusiness",
       "@id": "https://retrofusion.in/neo-retro#lodgingbusiness",
       "name": "Neo Retro Villa",
-      "image": "images/v1769863039_01_qwhl8a.jpg",
+      "image": "https://retrofusion.in/images/v1769863039_01_qwhl8a.webp",
       "url": "https://retrofusion.in/neo-retro",
       "telephone": "+91 8999036644",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Lonavala",
         "addressRegion": "Maharashtra",
-        "addressCountry": "IN"
+        "addressCountry": "IN",
+        "postalCode": "410401"
       },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "900"
-      }
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "18.7544",
+        "longitude": "73.4062"
+      },
+      "priceRange": "$$",
+      "amenityFeature": [
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Private pool",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Jacuzzi",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Steam bath",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Mountain view",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "55-inch HDTV with OTT apps",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Indoor games",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Patio",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "BBQ grill",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Pet friendly",
+          "value": true
+        }
+      ]
     },
     {
       "@type": "LocalBusiness",
       "@id": "https://retrofusion.in/neo-retro#localbusiness",
       "name": "Neo Retro Villa",
-      "image": "images/v1769863039_01_qwhl8a.jpg",
-      "url": "https://retrofusion.in/neo-retro"
+      "image": "https://retrofusion.in/images/v1769863039_01_qwhl8a.webp",
+      "url": "https://retrofusion.in/neo-retro",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "18.7544",
+        "longitude": "73.4062"
+      },
+      "priceRange": "$$",
+      "amenityFeature": [
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Private pool",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Jacuzzi",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Steam bath",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Mountain view",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "55-inch HDTV with OTT apps",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Indoor games",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Patio",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "BBQ grill",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Pet friendly",
+          "value": true
+        }
+      ]
     },
     {
       "@type": "Product",
       "@id": "https://retrofusion.in/neo-retro#product",
       "name": "Neo Retro Villa",
       "description": "Experience Neo-Retro, a luxurious 4 BHK Villa in Lonavala with private pool.",
-      "image": "images/v1769863039_01_qwhl8a.jpg",
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "900"
-      }
+      "image": "https://retrofusion.in/images/v1769863039_01_qwhl8a.webp"
     },
     {
       "@type": "BreadcrumbList",
@@ -980,7 +1077,7 @@ include 'includes/header.php';
       "@type": "VideoObject",
       "name": "Neo Retro Villa Lonavala",
       "description": "A visual tour of the luxurious Neo Retro Villa in Lonavala.",
-      "thumbnailUrl": "images/v1769863039_01_qwhl8a.jpg",
+      "thumbnailUrl": "images/v1769863039_01_qwhl8a.webp",
       "uploadDate": "2024-01-01T08:00:00+08:00",
       "contentUrl": "images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.mp4"
     }
@@ -1027,22 +1124,22 @@ include 'includes/header.php';
 </div><!-- end min-h-screen -->
 <script>
     window.galleryImages = [
-        'images/v1769863054_03.1_c7vcel.jpg',
-        'images/v1769863054_12_myvknr.jpg',
-        'images/v1769863051_07.1_u8yrn6.jpg',
-        'images/v1769863051_08.2_ws3oiy.jpg',
-        'images/v1769863047_29_qtp6zr.jpg',
-        'images/v1769863047_20_haycpz.jpg',
-        'images/v1769863046_19_jxrtxx.jpg',
-        'images/v1769863045_18_xqydeo.jpg',
-        'images/v1769863044_14_w8imzc.jpg',
-        'images/v1769863043_08.1_cth2qs.jpg',
-        'images/v1769863043_09_ufowaj.jpg',
-        'images/v1769863041_04_s8l8dy.jpg',
-        'images/v1769863040_07_jrnhvd.jpg',
-        'images/v1769863040_05_sty1kz.jpg',
-        'images/v1769863039_01_qwhl8a.jpg',
-        'images/v1769863039_06_mk52qt.jpg',
+        'images/v1769863054_03.1_c7vcel.webp',
+        'images/v1769863054_12_myvknr.webp',
+        'images/v1769863051_07.1_u8yrn6.webp',
+        'images/v1769863051_08.2_ws3oiy.webp',
+        'images/v1769863047_29_qtp6zr.webp',
+        'images/v1769863047_20_haycpz.webp',
+        'images/v1769863046_19_jxrtxx.webp',
+        'images/v1769863045_18_xqydeo.webp',
+        'images/v1769863044_14_w8imzc.webp',
+        'images/v1769863043_08.1_cth2qs.webp',
+        'images/v1769863043_09_ufowaj.webp',
+        'images/v1769863041_04_s8l8dy.webp',
+        'images/v1769863040_07_jrnhvd.webp',
+        'images/v1769863040_05_sty1kz.webp',
+        'images/v1769863039_01_qwhl8a.webp',
+        'images/v1769863039_06_mk52qt.webp',
     ];
 
     // Define sets to match React component logic exactly

@@ -1,10 +1,35 @@
 <?php
 $pageTitle = "A Weekend of Love in the Clouds | Retrofusion Blog";
 $pageDescription = "Hello, lovebirds!";
-$canonicalUrl = "https://retrofusion.in/blog/a-weekend-of-love-in-the-clouds/";
+$canonicalUrl = "https://retrofusion.in/blogs/a-weekend-of-love-in-the-clouds/";
 $ogTitle = "A Weekend of Love in the Clouds";
 $ogDescription = "Hello, lovebirds!";
-$ogImage = "images/A-Weekend-of-Love-in-the-Clouds.jpeg";
+$ogImage = "https://retrofusion.in/blogs/images/A-Weekend-of-Love-in-the-Clouds.jpeg";
+$additionalHead = '
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://retrofusion.in/blogs/a-weekend-of-love-in-the-clouds/" },
+      "headline": "A Weekend of Love in the Clouds",
+      "description": "Hello, lovebirds!",
+      "image": "https://retrofusion.in/blogs/images/A-Weekend-of-Love-in-the-Clouds.jpeg",
+      "datePublished": "2026-06-25T13:02:32+05:30",
+      "dateModified": "2026-06-25T13:25:47+05:30",
+      "inLanguage": "en-IN",
+      "author": { "@type": "Organization", "name": "Retrofusion Boutique Homestays", "url": "https://retrofusion.in/" },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Retrofusion Boutique Homestays",
+        "logo": { "@type": "ImageObject", "url": "https://retrofusion.in/images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png" }
+      }
+    }
+  ]
+}
+</script>
+';
 include '../includes/header.php';
 ?>
 
@@ -24,7 +49,7 @@ include '../includes/header.php';
           <div class="prose prose-stone max-w-none">
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Hello, lovebirds!</p>
 
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">There’s a reason why Lonavala has been the whispered secret of couples for decades. It’s in the way the mist curls around the hills, creating a private world just for two. It’s in the cool, gentle breeze that invites you to huddle a little closer. As a local, I believe this town isn't just a place; it's a feeling—a natural backdrop for romance.</p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">There’s a reason why Lonavala has been the whispered secret of <a href="/homestay-in-lonavala-for-couples">couples</a> for decades. It’s in the way the mist curls around the hills, creating a private world just for two. It’s in the cool, gentle breeze that invites you to huddle a little closer. As a local, I believe this town isn't just a place; it's a feeling—a natural backdrop for romance.</p>
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">But a truly romantic getaway is more than just booking a room in a popular destination. It’s about finding those quiet corners, sharing experiences that become cherished memories, and escaping the world together. Forget the crowded family spots and noisy tourist traps. Today, I'm sharing my insider's guide on how to plan a weekend in Lonavala that is intimate, magical, and perfectly tailored for two.</p>
 
@@ -34,7 +59,7 @@ include '../includes/header.php';
 
 <h3 class="text-xl sm:text-2xl font-semibold text-stone-800 mt-8 mb-3 leading-snug font-display"><strong>Setting the Mood: The Perfect Itinerary for Two</strong></h3>
 
-<figure><img src="images/Setting-the-Mood-The-Perfect-Itinerary-for-Two-1024x558.jpeg" /></figure>
+<figure><img src="images/Setting-the-Mood-The-Perfect-Itinerary-for-Two-1024x558.webp" /></figure>
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">A great romantic weekend flows effortlessly from one beautiful moment to the next. Here’s a relaxed itinerary that balances iconic experiences with intimate, offbeat moments.</p>
 
@@ -53,7 +78,7 @@ include '../includes/header.php';
 <h4 class="text-lg sm:text-xl font-semibold text-stone-700 mt-6 mb-2 leading-snug font-display"><strong>Saturday: Sunrises, Lakes, and Starlit Dinners</strong></h4>
 
 <ul class="list-disc pl-6 space-y-2 text-base sm:text-lg text-stone-700 mb-5">
-<li class="leading-relaxed"><strong>6:30 AM - Sunrise at Lion's Point:</strong> Waking up early is worth it for this. While Tiger Point is the famous cousin, Lion's Point offers a more serene and expansive view of the valley. Watch as the first rays of the sun paint the sky and burn away the morning mist. It’s a magical, humbling start to your day.</li>
+<li class="leading-relaxed"><strong>6:30 AM - Sunrise at <a href="/villas-near-lion-point">Lion's Point</a>:</strong> Waking up early is worth it for this. While <a href="/villas-near-tiger-point-lonavala">Tiger Point</a> is the famous cousin, Lion's Point offers a more serene and expansive view of the valley. Watch as the first rays of the sun paint the sky and burn away the morning mist. It’s a magical, humbling start to your day.</li>
 
 <li class="leading-relaxed"><strong>9:00 AM - A Cozy Breakfast:</strong> After the sunrise, head to a charming café for a leisurely breakfast. Places like <strong>The German Bakery Wunderbar</strong> offer delicious food in a relaxed, bohemian atmosphere.</li>
 
@@ -82,7 +107,7 @@ include '../includes/header.php';
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">The single most important decision for a romantic getaway is where you choose to stay. A standard hotel room, however luxurious, can feel impersonal. For romance, you need privacy, character, and a touch of magic. This is where <strong>Retrofusion <a href="https://retrofusion.in/">Boutique Home Stay</a></strong> truly shines.</p>
 
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">This isn’t just a place to stay; it’s a private world designed for connection. Imagine having your own villa—be it the charmingly quirky Retro Villa or the artistically elegant Neo Retro—complete with a <strong>private pool</strong>. You can spend your evenings stargazing from the garden, enjoy a lazy morning coffee on your personal sit-out without any disturbances, and truly feel like you are the only two people in the world. The unique, aesthetic interiors provide a beautiful backdrop for your time together. Retrofusion offers the intimacy and exclusivity that transforms a simple weekend away into an unforgettable romantic escape.</p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">This isn’t just a place to stay; it’s a private world designed for connection. Imagine having your own villa—be it the charmingly quirky <a href="/retro-villas">Retro Villa</a> or the artistically elegant <a href="/neo-retro">Neo Retro</a>—complete with a <strong>private pool</strong>. You can spend your evenings stargazing from the garden, enjoy a lazy morning coffee on your personal sit-out without any disturbances, and truly feel like you are the only two people in the world. The unique, aesthetic interiors provide a beautiful backdrop for your time together. Retrofusion offers the intimacy and exclusivity that transforms a simple weekend away into an unforgettable romantic escape.</p>
 
 
 <div>

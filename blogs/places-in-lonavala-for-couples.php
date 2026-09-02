@@ -1,10 +1,35 @@
 <?php
 $pageTitle = "Places to Visit in Lonavala for Couples | 15 Romantic Spots | Retrofusion Blog";
 $pageDescription = "Discover 15 romantic places to visit in Lonavala for couples, with lookouts, cafés, fees, and privacy tips for a perfect date.";
-$canonicalUrl = "https://retrofusion.in/blog/places-in-lonavala-for-couples/";
+$canonicalUrl = "https://retrofusion.in/blogs/places-in-lonavala-for-couples/";
 $ogTitle = "Places to Visit in Lonavala for Couples | 15 Romantic Spots";
 $ogDescription = "Discover 15 romantic places to visit in Lonavala for couples, with lookouts, cafés, fees, and privacy tips for a perfect date.";
-$ogImage = "images/ChatGPT-Image-Jul-4-2025-09_05_50-PM.png";
+$ogImage = "https://retrofusion.in/blogs/images/ChatGPT-Image-Jul-4-2025-09_05_50-PM.webp";
+$additionalHead = '
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://retrofusion.in/blogs/places-in-lonavala-for-couples/" },
+      "headline": "Places to Visit in Lonavala for Couples | 15 Romantic Spots",
+      "description": "Discover 15 romantic places to visit in Lonavala for couples, with lookouts, cafés, fees, and privacy tips for a perfect date.",
+      "image": "https://retrofusion.in/blogs/images/ChatGPT-Image-Jul-4-2025-09_05_50-PM.webp",
+      "datePublished": "2026-06-25T13:02:32+05:30",
+      "dateModified": "2026-06-25T13:25:47+05:30",
+      "inLanguage": "en-IN",
+      "author": { "@type": "Organization", "name": "Retrofusion Boutique Homestays", "url": "https://retrofusion.in/" },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Retrofusion Boutique Homestays",
+        "logo": { "@type": "ImageObject", "url": "https://retrofusion.in/images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png" }
+      }
+    }
+  ]
+}
+</script>
+';
 include '../includes/header.php';
 ?>
 
@@ -14,19 +39,19 @@ include '../includes/header.php';
       <!-- Main blog content -->
       <div class="min-w-0 bg-white rounded-2xl shadow-md overflow-hidden">
       <div class="relative mb-8 overflow-hidden bg-stone-100 rounded-t-2xl">
-        <img src="images/ChatGPT-Image-Jul-4-2025-09_05_50-PM.png" alt="Places to Visit in Lonavala for Couples | 15 Romantic Spots" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover blur-2xl scale-110 opacity-60" />
+        <img src="images/ChatGPT-Image-Jul-4-2025-09_05_50-PM.webp" alt="Places to Visit in Lonavala for Couples | 15 Romantic Spots" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover blur-2xl scale-110 opacity-60" />
         <div class="relative flex items-center justify-center min-h-[200px] sm:min-h-[240px] md:min-h-[280px] py-6 px-4">
-          <img src="images/ChatGPT-Image-Jul-4-2025-09_05_50-PM.png" alt="Places to Visit in Lonavala for Couples | 15 Romantic Spots" class="max-h-[280px] md:max-h-[320px] w-auto h-auto max-w-full object-contain rounded-lg shadow-lg" />
+          <img src="images/ChatGPT-Image-Jul-4-2025-09_05_50-PM.webp" alt="Places to Visit in Lonavala for Couples | 15 Romantic Spots" class="max-h-[280px] md:max-h-[320px] w-auto h-auto max-w-full object-contain rounded-lg shadow-lg" />
         </div>
       </div>
         <div class="p-6 sm:p-8 lg:p-10">
           <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold text-stone-800 font-display mb-6 leading-tight">Places to Visit in Lonavala for Couples | 15 Romantic Spots</h1>
           <div class="prose prose-stone max-w-none">
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Lonavala’s misty hills and sunset hues turn dates into memories. Sipping hot chikki by Pawna Lake or sharing coffee at a cozy café feels magical. This guide to places to visit in Lonavala for couples blends scenic lookouts and quiet cafés with fees, timings, and privacy tips. Perfect for a romantic escape from Mumbai or Pune. For a cozy stay, try RetroFusion (https://retrofusion.in/).</p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Lonavala’s misty hills and sunset hues turn dates into memories. Sipping hot chikki by <a href="/best-villas-near-pawna-lake-in-lonavala">Pawna Lake</a> or sharing coffee at a cozy café feels magical. This guide to places to visit in Lonavala for <a href="/homestay-in-lonavala-for-couples">couples</a> blends scenic lookouts and quiet cafés with fees, timings, and privacy tips. Perfect for a romantic escape from Mumbai or Pune. For a cozy stay, try RetroFusion (https://retrofusion.in/).</p>
 
 <h2 class="text-2xl sm:text-3xl font-bold text-stone-800 mt-12 mb-4 leading-snug font-display border-b-2 border-amber-500 pb-2 inline-block">How This List Was Curated</h2>
 
-<figure><img src="images/ChatGPT-Image-Jul-4-2025-09_09_07-PM-1024x683.png" /></figure>
+<figure><img src="images/ChatGPT-Image-Jul-4-2025-09_09_07-PM-1024x683.webp" /></figure>
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">We combined insights from Pune-Mumbai travel bloggers and over 8,000 couple reviews on TripAdvisor and Holidify. Each spot offers privacy and charm. Lonavala, perched on the Sahyadri ridge, boasts misty valleys and serene lakes for romantic getaways.</p>
 
@@ -58,7 +83,7 @@ include '../includes/header.php';
 
 <h3 class="text-xl sm:text-2xl font-semibold text-stone-800 mt-8 mb-3 leading-snug font-display">Why It Feels Private</h3>
 
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Lion’s Point offers a sweeping view of Tungarli Lake, where couples can cuddle on benches as mist rolls in.</p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5"><a href="/villas-near-lion-point">Lion’s Point</a> offers a sweeping view of Tungarli Lake, where couples can cuddle on benches as mist rolls in.</p>
 
 <h3 class="text-xl sm:text-2xl font-semibold text-stone-800 mt-8 mb-3 leading-snug font-display">Quick Info</h3>
 

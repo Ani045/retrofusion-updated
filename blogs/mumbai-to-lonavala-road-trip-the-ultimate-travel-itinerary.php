@@ -1,10 +1,35 @@
 <?php
 $pageTitle = "Mumbai to Lonavala Road Trip: The Ultimate Travel Itinerary | Retrofusion Blog";
 $pageDescription = "If you’re craving a quick escape, this beautifully curated Mumbai to Lonavala road-trip itinerary will help you enjoy the ride, the stops, the views… and the";
-$canonicalUrl = "https://retrofusion.in/blog/mumbai-to-lonavala-road-trip-the-ultimate-travel-itinerary/";
+$canonicalUrl = "https://retrofusion.in/blogs/mumbai-to-lonavala-road-trip-the-ultimate-travel-itinerary/";
 $ogTitle = "Mumbai to Lonavala Road Trip: The Ultimate Travel Itinerary";
 $ogDescription = "If you’re craving a quick escape, this beautifully curated Mumbai to Lonavala road-trip itinerary will help you enjoy the ride, the stops, the views… and the";
-$ogImage = "images/Gemini_Generated_Image_ryfmflryfmflryf.jpeg";
+$ogImage = "https://retrofusion.in/blogs/images/Gemini_Generated_Image_ryfmflryfmflryf.webp";
+$additionalHead = '
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://retrofusion.in/blogs/mumbai-to-lonavala-road-trip-the-ultimate-travel-itinerary/" },
+      "headline": "Mumbai to Lonavala Road Trip: The Ultimate Travel Itinerary",
+      "description": "If you’re craving a quick escape, this beautifully curated Mumbai to Lonavala road-trip itinerary will help you enjoy the ride, the stops, the views… and the",
+      "image": "https://retrofusion.in/blogs/images/Gemini_Generated_Image_ryfmflryfmflryf.webp",
+      "datePublished": "2026-06-25T13:02:32+05:30",
+      "dateModified": "2026-06-25T13:25:47+05:30",
+      "inLanguage": "en-IN",
+      "author": { "@type": "Organization", "name": "Retrofusion Boutique Homestays", "url": "https://retrofusion.in/" },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Retrofusion Boutique Homestays",
+        "logo": { "@type": "ImageObject", "url": "https://retrofusion.in/images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png" }
+      }
+    }
+  ]
+}
+</script>
+';
 include '../includes/header.php';
 ?>
 
@@ -14,9 +39,9 @@ include '../includes/header.php';
       <!-- Main blog content -->
       <div class="min-w-0 bg-white rounded-2xl shadow-md overflow-hidden">
       <div class="relative mb-8 overflow-hidden bg-stone-100 rounded-t-2xl">
-        <img src="images/Gemini_Generated_Image_ryfmflryfmflryf.jpeg" alt="Mumbai to Lonavala Road Trip: The Ultimate Travel Itinerary" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover blur-2xl scale-110 opacity-60" />
+        <img src="images/Gemini_Generated_Image_ryfmflryfmflryf.webp" alt="Mumbai to Lonavala Road Trip: The Ultimate Travel Itinerary" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover blur-2xl scale-110 opacity-60" />
         <div class="relative flex items-center justify-center min-h-[200px] sm:min-h-[240px] md:min-h-[280px] py-6 px-4">
-          <img src="images/Gemini_Generated_Image_ryfmflryfmflryf.jpeg" alt="Mumbai to Lonavala Road Trip: The Ultimate Travel Itinerary" class="max-h-[280px] md:max-h-[320px] w-auto h-auto max-w-full object-contain rounded-lg shadow-lg" />
+          <img src="images/Gemini_Generated_Image_ryfmflryfmflryf.webp" alt="Mumbai to Lonavala Road Trip: The Ultimate Travel Itinerary" class="max-h-[280px] md:max-h-[320px] w-auto h-auto max-w-full object-contain rounded-lg shadow-lg" />
         </div>
       </div>
         <div class="p-6 sm:p-8 lg:p-10">
@@ -50,7 +75,7 @@ include '../includes/header.php';
 
 <h3 class="text-xl sm:text-2xl font-semibold text-stone-800 mt-8 mb-3 leading-snug font-display"><strong>Slow Down in the Evening — Lonavala Feels Different at Night</strong></h3>
 
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Evenings here are special. The sky turns golden, the breeze gets cooler, and the hilltops glow under soft light. Whether you're sipping hot chocolate at a local café or watching the sun dip behind the cliffs at Tiger Point, the vibe is calm and warm.</p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Evenings here are special. The sky turns golden, the breeze gets cooler, and the hilltops glow under soft light. Whether you're sipping hot chocolate at a local café or watching the sun dip behind the cliffs at <a href="/villas-near-tiger-point-lonavala">Tiger Point</a>, the vibe is calm and warm.</p>
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">This is the moment when you feel grateful you took the trip.</p>
 

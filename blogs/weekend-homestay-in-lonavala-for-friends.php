@@ -1,10 +1,35 @@
 <?php
 $pageTitle = "Weekend Homestay in Lonavala for Friends | Relax & Chill Together | Retrofusion Blog";
 $pageDescription = "But the secret to a genuinely restorative weekend isn't just the destination; it’s the accommodation. You need a space that acts as your private sanctuary,";
-$canonicalUrl = "https://retrofusion.in/blog/weekend-homestay-in-lonavala-for-friends/";
+$canonicalUrl = "https://retrofusion.in/blogs/weekend-homestay-in-lonavala-for-friends/";
 $ogTitle = "Weekend Homestay in Lonavala for Friends | Relax & Chill Together";
 $ogDescription = "But the secret to a genuinely restorative weekend isn't just the destination; it’s the accommodation. You need a space that acts as your private sanctuary,";
-$ogImage = "images/Romantic-Couple-Friendly-Homestays-in-Lonavala-Private-Cozy-Stays.jpg";
+$ogImage = "https://retrofusion.in/blogs/images/Romantic-Couple-Friendly-Homestays-in-Lonavala-Private-Cozy-Stays.webp";
+$additionalHead = '
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://retrofusion.in/blogs/weekend-homestay-in-lonavala-for-friends/" },
+      "headline": "Weekend Homestay in Lonavala for Friends | Relax & Chill Together",
+      "description": "But the secret to a genuinely restorative weekend isn\'t just the destination; it’s the accommodation. You need a space that acts as your private sanctuary,",
+      "image": "https://retrofusion.in/blogs/images/Romantic-Couple-Friendly-Homestays-in-Lonavala-Private-Cozy-Stays.webp",
+      "datePublished": "2026-06-25T13:02:32+05:30",
+      "dateModified": "2026-06-25T13:25:47+05:30",
+      "inLanguage": "en-IN",
+      "author": { "@type": "Organization", "name": "Retrofusion Boutique Homestays", "url": "https://retrofusion.in/" },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Retrofusion Boutique Homestays",
+        "logo": { "@type": "ImageObject", "url": "https://retrofusion.in/images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png" }
+      }
+    }
+  ]
+}
+</script>
+';
 include '../includes/header.php';
 ?>
 
@@ -14,9 +39,9 @@ include '../includes/header.php';
       <!-- Main blog content -->
       <div class="min-w-0 bg-white rounded-2xl shadow-md overflow-hidden">
       <div class="relative mb-8 overflow-hidden bg-stone-100 rounded-t-2xl">
-        <img src="images/Romantic-Couple-Friendly-Homestays-in-Lonavala-Private-Cozy-Stays.jpg" alt="Weekend Homestay in Lonavala for Friends | Relax &amp; Chill Together" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover blur-2xl scale-110 opacity-60" />
+        <img src="images/Romantic-Couple-Friendly-Homestays-in-Lonavala-Private-Cozy-Stays.webp" alt="Weekend Homestay in Lonavala for Friends | Relax &amp; Chill Together" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover blur-2xl scale-110 opacity-60" />
         <div class="relative flex items-center justify-center min-h-[200px] sm:min-h-[240px] md:min-h-[280px] py-6 px-4">
-          <img src="images/Romantic-Couple-Friendly-Homestays-in-Lonavala-Private-Cozy-Stays.jpg" alt="Weekend Homestay in Lonavala for Friends | Relax &amp; Chill Together" class="max-h-[280px] md:max-h-[320px] w-auto h-auto max-w-full object-contain rounded-lg shadow-lg" />
+          <img src="images/Romantic-Couple-Friendly-Homestays-in-Lonavala-Private-Cozy-Stays.webp" alt="Weekend Homestay in Lonavala for Friends | Relax &amp; Chill Together" class="max-h-[280px] md:max-h-[320px] w-auto h-auto max-w-full object-contain rounded-lg shadow-lg" />
         </div>
       </div>
         <div class="p-6 sm:p-8 lg:p-10">
@@ -73,7 +98,7 @@ include '../includes/header.php';
 
 <li class="leading-relaxed"><strong>Poolside Chill Session:</strong> The first order of business should always be a dip in the private pool, perhaps with music and light snacks, to shake off the road dust.</li>
 
-<li class="leading-relaxed"><strong>BBQ and Bonfire Night:</strong> Organize a hassle-free BBQ on the private deck. There is no better way to signal the start of a relaxed weekend than gathering around a bonfire, sharing stories, and enjoying the cool Lonavala night air.</li>
+<li class="leading-relaxed"><strong>BBQ and <a href="/villas-in-lonavala-with-bonfire">Bonfire</a> Night:</strong> Organize a hassle-free BBQ on the private deck. There is no better way to signal the start of a relaxed weekend than gathering around a bonfire, sharing stories, and enjoying the cool Lonavala night air.</li>
 </ul>
 
 <h3 class="text-xl sm:text-2xl font-semibold text-stone-800 mt-8 mb-3 leading-snug font-display">Saturday: The Blend of Relaxation and Exploration</h3>
@@ -83,7 +108,7 @@ include '../includes/header.php';
 
 <li class="leading-relaxed"><strong>Optional Group Excursion (The &#8216;Thrill' Dip):</strong> Since Lonavala is close to adventure, a quick, half-day group activity can inject energy without exhausting the group. Options include:
 <ul class="list-disc pl-6 space-y-2 text-base sm:text-lg text-stone-700 mb-5">
-<li class="leading-relaxed">A scenic drive to <strong>Tiger Point</strong> or <strong>Lion Point</strong> for stunning valley views.</li>
+<li class="leading-relaxed">A scenic drive to <strong><a href="/villas-near-tiger-point-lonavala">Tiger Point</a></strong> or <strong>Lion Point</strong> for stunning valley views.</li>
 
 <li class="leading-relaxed">A visit to <strong>Della Adventure Park</strong> for an hour or two of specific, chosen activity (like a quick ride or a meal) rather than a full-day commitment.</li>
 

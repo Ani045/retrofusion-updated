@@ -1,10 +1,35 @@
 <?php
 $pageTitle = "Top Treks & Waterfalls Near Lonavala: Rajmachi, Kune Falls | Retrofusion Blog";
 $pageDescription = "Hello, fellow adventurers and nature enthusiasts!";
-$canonicalUrl = "https://retrofusion.in/blog/waterfalls-near-lonavala/";
+$canonicalUrl = "https://retrofusion.in/blogs/waterfalls-near-lonavala/";
 $ogTitle = "Top Treks & Waterfalls Near Lonavala: Rajmachi, Kune Falls";
 $ogDescription = "Hello, fellow adventurers and nature enthusiasts!";
-$ogImage = "images/Top-Treks-Waterfalls-Near-Lonavala-Rajmachi-Kune-Falls.jpeg";
+$ogImage = "https://retrofusion.in/blogs/images/Top-Treks-Waterfalls-Near-Lonavala-Rajmachi-Kune-Falls.jpeg";
+$additionalHead = '
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://retrofusion.in/blogs/waterfalls-near-lonavala/" },
+      "headline": "Top Treks & Waterfalls Near Lonavala: Rajmachi, Kune Falls",
+      "description": "Hello, fellow adventurers and nature enthusiasts!",
+      "image": "https://retrofusion.in/blogs/images/Top-Treks-Waterfalls-Near-Lonavala-Rajmachi-Kune-Falls.jpeg",
+      "datePublished": "2026-06-25T13:02:32+05:30",
+      "dateModified": "2026-06-25T13:25:47+05:30",
+      "inLanguage": "en-IN",
+      "author": { "@type": "Organization", "name": "Retrofusion Boutique Homestays", "url": "https://retrofusion.in/" },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Retrofusion Boutique Homestays",
+        "logo": { "@type": "ImageObject", "url": "https://retrofusion.in/images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png" }
+      }
+    }
+  ]
+}
+</script>
+';
 include '../includes/header.php';
 ?>
 
@@ -32,7 +57,7 @@ include '../includes/header.php';
 
 <h3 class="text-xl sm:text-2xl font-semibold text-stone-800 mt-8 mb-3 leading-snug font-display"><strong>Unveiling the Monsoon Magic: Best Time for Treks and Waterfalls</strong></h3>
 
-<figure><img src="images/UnveilingtheMonsoonMagicBestTimeforTreksandWaterfall-1024x558.jpeg" /></figure>
+<figure><img src="images/UnveilingtheMonsoonMagicBestTimeforTreksandWaterfall-1024x558.webp" /></figure>
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">While Lonavala is charming year-round, there's no denying that the <strong>monsoon season (June to September)</strong> is the prime time for waterfall chasing and lush green treks. The rains breathe life into every stream, turning gentle slopes into gushing cascades and painting the hills in every shade of green imaginable.</p>
 
@@ -70,7 +95,7 @@ include '../includes/header.php';
 
 <h3 class="text-xl sm:text-2xl font-semibold text-stone-800 mt-8 mb-3 leading-snug font-display"><strong>The Majestic Cascade: Kune Falls</strong></h3>
 
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">While Bhushi Dam often steals the limelight, <strong>Kune Falls</strong> offers a completely different, more majestic experience. Located between Lonavala and Khandala, this is India's 14th highest waterfall and Maharashtra's 3rd highest, plunging from a height of about 200 meters across three tiers.</p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">While <a href="/villas-near-bhushi-dam-lonavala">Bhushi Dam</a> often steals the limelight, <strong>Kune Falls</strong> offers a completely different, more majestic experience. Located between Lonavala and Khandala, this is India's 14th highest waterfall and Maharashtra's 3rd highest, plunging from a height of about 200 meters across three tiers.</p>
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5"><strong>The Experience:</strong></p>
 
@@ -104,7 +129,7 @@ include '../includes/header.php';
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">After a day of exhilarating treks, breathtaking views, and the invigorating spray of waterfalls, you'll undoubtedly crave a comfortable haven to rest your weary legs and rejuvenate your spirit. While Lonavala offers various accommodations, for an experience that truly complements your adventurous spirit, I highly recommend <strong>Retrofusion <a href="https://retrofusion.in/">Boutique Home Stay</a></strong>.</p>
 
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Imagine returning from a challenging trek to the unique charm of the Retro Villa or the artistic comfort of the Neo Retro. You can unwind by your private pool, share stories of your day's adventures by a crackling bonfire, or simply relax in the serene ambiance that combines nostalgic aesthetics with modern comforts. Retrofusion provides the perfect blend of relaxation and unique style, making it an ideal retreat after a day spent conquering Lonavala’s magnificent natural wonders.</p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Imagine returning from a challenging trek to the unique charm of the <a href="/retro-villas">Retro Villa</a> or the artistic comfort of the <a href="/neo-retro">Neo Retro</a>. You can unwind by your private pool, share stories of your day's adventures by a crackling <a href="/villas-in-lonavala-with-bonfire">bonfire</a>, or simply relax in the serene ambiance that combines nostalgic aesthetics with modern comforts. Retrofusion provides the perfect blend of relaxation and unique style, making it an ideal retreat after a day spent conquering Lonavala’s magnificent natural wonders.</p>
 
 
 <div>

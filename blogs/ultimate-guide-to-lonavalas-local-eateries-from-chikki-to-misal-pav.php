@@ -1,10 +1,35 @@
 <?php
 $pageTitle = "Ultimate Guide to Lonavala’s Local Eateries: From Chikki to Misal Pav | Retrofusion Blog";
 $pageDescription = "Hello again, food lovers!";
-$canonicalUrl = "https://retrofusion.in/blog/ultimate-guide-to-lonavalas-local-eateries-from-chikki-to-misal-pav/";
+$canonicalUrl = "https://retrofusion.in/blogs/ultimate-guide-to-lonavalas-local-eateries-from-chikki-to-misal-pav/";
 $ogTitle = "Ultimate Guide to Lonavala’s Local Eateries: From Chikki to Misal Pav";
 $ogDescription = "Hello again, food lovers!";
-$ogImage = "images/Ultimate-Guide-to-Lonavalas-Local-Eateries-From-Chikki-to-Misal-Pav.jpeg";
+$ogImage = "https://retrofusion.in/blogs/images/Ultimate-Guide-to-Lonavalas-Local-Eateries-From-Chikki-to-Misal-Pav.jpeg";
+$additionalHead = '
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://retrofusion.in/blogs/ultimate-guide-to-lonavalas-local-eateries-from-chikki-to-misal-pav/" },
+      "headline": "Ultimate Guide to Lonavala’s Local Eateries: From Chikki to Misal Pav",
+      "description": "Hello again, food lovers!",
+      "image": "https://retrofusion.in/blogs/images/Ultimate-Guide-to-Lonavalas-Local-Eateries-From-Chikki-to-Misal-Pav.jpeg",
+      "datePublished": "2026-06-25T13:02:32+05:30",
+      "dateModified": "2026-06-25T13:25:47+05:30",
+      "inLanguage": "en-IN",
+      "author": { "@type": "Organization", "name": "Retrofusion Boutique Homestays", "url": "https://retrofusion.in/" },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Retrofusion Boutique Homestays",
+        "logo": { "@type": "ImageObject", "url": "https://retrofusion.in/images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png" }
+      }
+    }
+  ]
+}
+</script>
+';
 include '../includes/header.php';
 ?>
 
@@ -32,7 +57,7 @@ include '../includes/header.php';
 
 <h3 class="text-xl sm:text-2xl font-semibold text-stone-800 mt-8 mb-3 leading-snug font-display"><strong>The Sweet Beginning: Conquering the Chikki and Fudge Trail</strong></h3>
 
-<figure><img src="images/The-Sweet-Beginning-Conquering-the-Chikki-and-Fudge-Trail-1024x558.jpeg" /></figure>
+<figure><img src="images/The-Sweet-Beginning-Conquering-the-Chikki-and-Fudge-Trail-1024x558.webp" /></figure>
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">You can't talk about Lonavala's food without starting with its most famous ambassador: the humble <strong>Chikki</strong>. This sweet, brittle candy, made from jaggery and nuts, is an institution. Walking through the Lonavala market, you'll be flanked by dozens of shops, each claiming to be the original and the best.</p>
 
@@ -48,7 +73,7 @@ include '../includes/header.php';
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5"><strong>1. The Almighty Vada Pav:</strong> This isn't just a snack; it's an emotion. A spicy potato fritter (vada) tucked inside a soft bread bun (pav), served with fiery dry garlic chutney. While you can find it everywhere, the best ones are often at the smallest, most crowded stalls. I recommend heading to <strong>Golden Vada Pav</strong> or simply stopping at any local vendor where you see a crowd. The key is freshness – a hot vada straight from the fryer is a bite of heaven.</p>
 
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5"><strong>2. Kanda Bhaji and Cutting Chai:</strong> If you're visiting during the monsoon, this combination is non-negotiable. Crispy, deep-fried onion fritters (Kanda Bhaji) paired with a small, strong glass of ginger-infused tea (Cutting Chai) is the quintessential Lonavala experience. Find a small shack near any viewpoint like Bushi Dam or Lion's Point, sit under the tin roof, and listen to the rhythm of the rain while you indulge. It's pure bliss.</p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5"><strong>2. Kanda Bhaji and Cutting Chai:</strong> If you're visiting during the monsoon, this combination is non-negotiable. Crispy, deep-fried onion fritters (Kanda Bhaji) paired with a small, strong glass of ginger-infused tea (Cutting Chai) is the quintessential Lonavala experience. Find a small shack near any viewpoint like Bushi Dam or <a href="/villas-near-lion-point">Lion's Point</a>, sit under the tin roof, and listen to the rhythm of the rain while you indulge. It's pure bliss.</p>
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5"><strong>3. Masala Bhutta (Roasted Corn on the Cob):</strong> Another monsoon special! At every scenic point, you will find vendors roasting corn on a coal fire. Once roasted, it's slathered with a mixture of lemon juice, salt, and chili powder. The combination of sweet, smoky, and tangy flavors while you're wrapped in a blanket of mist is an experience you won't forget.</p>
 

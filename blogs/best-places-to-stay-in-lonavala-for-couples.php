@@ -1,10 +1,35 @@
 <?php
 $pageTitle = "Best Places to Stay in Lonavala for Couples | Retrofusion Blog";
 $pageDescription = "Find the best places to stay in Lonavala for couples — from private pool villas to romantic hilltop resorts. Plan your perfect couple's getaway in Lonavala today.";
-$canonicalUrl = "https://retrofusion.in/blog/best-places-to-stay-in-lonavala-for-couples/";
+$canonicalUrl = "https://retrofusion.in/blogs/best-places-to-stay-in-lonavala-for-couples/";
 $ogTitle = "Best Places to Stay in Lonavala for Couples";
 $ogDescription = "Find the best places to stay in Lonavala for couples — from private pool villas to romantic hilltop resorts. Plan your perfect couple's getaway in Lonavala today.";
-$ogImage = "images/Best-Romantic-Spots-in-Lonavala-for-Couples-1024x559.png";
+$ogImage = "https://retrofusion.in/blogs/images/Best-Romantic-Spots-in-Lonavala-for-Couples-1024x559.webp";
+$additionalHead = '
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://retrofusion.in/blogs/best-places-to-stay-in-lonavala-for-couples/" },
+      "headline": "Best Places to Stay in Lonavala for Couples",
+      "description": "Find the best places to stay in Lonavala for couples — from private pool villas to romantic hilltop resorts. Plan your perfect couple\'s getaway in Lonavala today.",
+      "image": "https://retrofusion.in/blogs/images/Best-Romantic-Spots-in-Lonavala-for-Couples-1024x559.webp",
+      "datePublished": "2026-06-25T13:02:32+05:30",
+      "dateModified": "2026-06-25T13:25:47+05:30",
+      "inLanguage": "en-IN",
+      "author": { "@type": "Organization", "name": "Retrofusion Boutique Homestays", "url": "https://retrofusion.in/" },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Retrofusion Boutique Homestays",
+        "logo": { "@type": "ImageObject", "url": "https://retrofusion.in/images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png" }
+      }
+    }
+  ]
+}
+</script>
+';
 include '../includes/header.php';
 ?>
 
@@ -14,15 +39,15 @@ include '../includes/header.php';
       <!-- Main blog content -->
       <div class="min-w-0 bg-white rounded-2xl shadow-md overflow-hidden">
       <div class="relative mb-8 overflow-hidden bg-stone-100 rounded-t-2xl">
-        <img src="images/Best-Romantic-Spots-in-Lonavala-for-Couples-1024x559.png" alt="Best Places to Stay in Lonavala for Couples" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover blur-2xl scale-110 opacity-60" />
+        <img src="images/Best-Romantic-Spots-in-Lonavala-for-Couples-1024x559.webp" alt="Best Places to Stay in Lonavala for Couples" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover blur-2xl scale-110 opacity-60" />
         <div class="relative flex items-center justify-center min-h-[200px] sm:min-h-[240px] md:min-h-[280px] py-6 px-4">
-          <img src="images/Best-Romantic-Spots-in-Lonavala-for-Couples-1024x559.png" alt="Best Places to Stay in Lonavala for Couples" class="max-h-[280px] md:max-h-[320px] w-auto h-auto max-w-full object-contain rounded-lg shadow-lg" />
+          <img src="images/Best-Romantic-Spots-in-Lonavala-for-Couples-1024x559.webp" alt="Best Places to Stay in Lonavala for Couples" class="max-h-[280px] md:max-h-[320px] w-auto h-auto max-w-full object-contain rounded-lg shadow-lg" />
         </div>
       </div>
         <div class="p-6 sm:p-8 lg:p-10">
           <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold text-stone-800 font-display mb-6 leading-tight">Best Places to Stay in Lonavala for Couples</h1>
           <div class="prose prose-stone max-w-none">
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Lonavala has a very special quality that makes it endlessly popular with couples — it's intimate, beautiful, and just close enough to escape to without a week of planning. The <strong>best places to stay in Lonavala for couples</strong> range from cliffside pool villas with sweeping valley views to cosy boutique cottages tucked into forested hillsides. Whether you're celebrating an anniversary, a honeymoon, or just need a quiet weekend away together, this guide finds you the perfect romantic retreat.</p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Lonavala has a very special quality that makes it endlessly popular with <a href="/homestay-in-lonavala-for-couples">couples</a> — it's intimate, beautiful, and just close enough to escape to without a week of planning. The <strong>best places to stay in Lonavala for couples</strong> range from cliffside pool villas with sweeping valley views to cosy boutique cottages tucked into forested hillsides. Whether you're celebrating an <a href="/anniversary-stay-in-lonavala">anniversary</a>, a <a href="/honeymoon-villas-in-lonavala">honeymoon</a>, or just need a quiet weekend away together, this guide finds you the perfect romantic retreat.</p>
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5"><em><strong>Featured Snippet:</strong> The best places to stay in Lonavala for couples include private pool villas in Tungarli, boutique hillside resorts near Khandala, and romantic tented stays with valley views. Look for properties offering candlelit dinners, private jacuzzis, and bonfire setups for the most romantic experience.</em></p>
 

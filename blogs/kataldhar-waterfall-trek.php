@@ -1,10 +1,35 @@
 <?php
 $pageTitle = "Kataldhar Waterfall Trek: The Hidden 350-ft Gem Near Lonavala | Retrofusion Blog";
 $pageDescription = "Hey there, adrenaline junkies and wilderness seekers!";
-$canonicalUrl = "https://retrofusion.in/blog/kataldhar-waterfall-trek/";
+$canonicalUrl = "https://retrofusion.in/blogs/kataldhar-waterfall-trek/";
 $ogTitle = "Kataldhar Waterfall Trek: The Hidden 350-ft Gem Near Lonavala";
 $ogDescription = "Hey there, adrenaline junkies and wilderness seekers!";
-$ogImage = "images/Kataldhar-Waterfall-Trek.jpeg";
+$ogImage = "https://retrofusion.in/blogs/images/Kataldhar-Waterfall-Trek.jpeg";
+$additionalHead = '
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://retrofusion.in/blogs/kataldhar-waterfall-trek/" },
+      "headline": "Kataldhar Waterfall Trek: The Hidden 350-ft Gem Near Lonavala",
+      "description": "Hey there, adrenaline junkies and wilderness seekers!",
+      "image": "https://retrofusion.in/blogs/images/Kataldhar-Waterfall-Trek.jpeg",
+      "datePublished": "2026-06-25T13:02:32+05:30",
+      "dateModified": "2026-06-25T13:25:47+05:30",
+      "inLanguage": "en-IN",
+      "author": { "@type": "Organization", "name": "Retrofusion Boutique Homestays", "url": "https://retrofusion.in/" },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Retrofusion Boutique Homestays",
+        "logo": { "@type": "ImageObject", "url": "https://retrofusion.in/images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png" }
+      }
+    }
+  ]
+}
+</script>
+';
 include '../includes/header.php';
 ?>
 
@@ -32,7 +57,7 @@ include '../includes/header.php';
 
 <h3 class="text-xl sm:text-2xl font-semibold text-stone-800 mt-8 mb-3 leading-snug font-display"><strong>What Makes Kataldhar So Special?</strong></h3>
 
-<figure><img src="images/What-Makes-Kataldhar-So-Specia-1024x558.jpeg" /></figure>
+<figure><img src="images/What-Makes-Kataldhar-So-Specia-1024x558.webp" /></figure>
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Kataldhar, which translates to "Waterfall from the Cliff," isn't your average roadside cascade. It's a seasonal behemoth, born from the monsoon rains, that plunges into a massive, horseshoe-shaped amphitheater of rock.</p>
 
@@ -84,7 +109,7 @@ include '../includes/header.php';
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">After conquering the demanding Kataldhar trail, your body will be screaming for rest and recovery. A hot shower and a comfortable bed are non-negotiable. For the perfect post-trek rejuvenation, I always recommend <strong>Retrofusion Boutique <a href="https://retrofusion.in/">Home Stay</a></strong>.</p>
 
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Imagine returning from the wilderness to your own private sanctuary. You can soothe your aching muscles in the cool, refreshing water of a private pool, a luxury that feels like heaven after a tough trek. The unique, comfortable interiors of the Retro and Neo Retro villas provide a serene and relaxing atmosphere to unwind, share photos of your epic adventure, and simply recharge. It’s the perfect, comfortable base camp for any Lonavala adventurer.</p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Imagine returning from the wilderness to your own private sanctuary. You can soothe your aching muscles in the cool, refreshing water of a private pool, a luxury that feels like heaven after a tough trek. The unique, comfortable interiors of the Retro and <a href="/neo-retro">Neo Retro</a> villas provide a serene and relaxing atmosphere to unwind, share photos of your epic adventure, and simply recharge. It’s the perfect, comfortable base camp for any Lonavala adventurer.</p>
 
 
 <div>

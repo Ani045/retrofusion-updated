@@ -1,10 +1,35 @@
 <?php
 $pageTitle = "Romantic Couple Friendly Homestays in Lonavala | Private & Cozy Stays | Retrofusion Blog";
 $pageDescription = "This is where the magic of a Romantic Couple-Friendly Homestays in Lonavala begins. The discerning couple chooses a private villa or a cozy boutique stay that";
-$canonicalUrl = "https://retrofusion.in/blog/romantic-couple-friendly-homestays-in-lonavala/";
+$canonicalUrl = "https://retrofusion.in/blogs/romantic-couple-friendly-homestays-in-lonavala/";
 $ogTitle = "Romantic Couple Friendly Homestays in Lonavala | Private & Cozy Stays";
 $ogDescription = "This is where the magic of a Romantic Couple-Friendly Homestays in Lonavala begins. The discerning couple chooses a private villa or a cozy boutique stay that";
-$ogImage = "images/ChatGPT-Image-Jul-3-2025-10_01_44-PM-1.png";
+$ogImage = "https://retrofusion.in/blogs/images/ChatGPT-Image-Jul-3-2025-10_01_44-PM-1.webp";
+$additionalHead = '
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://retrofusion.in/blogs/romantic-couple-friendly-homestays-in-lonavala/" },
+      "headline": "Romantic Couple Friendly Homestays in Lonavala | Private & Cozy Stays",
+      "description": "This is where the magic of a Romantic Couple-Friendly Homestays in Lonavala begins. The discerning couple chooses a private villa or a cozy boutique stay that",
+      "image": "https://retrofusion.in/blogs/images/ChatGPT-Image-Jul-3-2025-10_01_44-PM-1.webp",
+      "datePublished": "2026-06-25T13:02:32+05:30",
+      "dateModified": "2026-07-07T22:29:45+05:30",
+      "inLanguage": "en-IN",
+      "author": { "@type": "Organization", "name": "Retrofusion Boutique Homestays", "url": "https://retrofusion.in/" },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Retrofusion Boutique Homestays",
+        "logo": { "@type": "ImageObject", "url": "https://retrofusion.in/images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png" }
+      }
+    }
+  ]
+}
+</script>
+';
 include '../includes/header.php';
 ?>
 
@@ -14,15 +39,15 @@ include '../includes/header.php';
       <!-- Main blog content -->
       <div class="min-w-0 bg-white rounded-2xl shadow-md overflow-hidden">
       <div class="relative mb-8 overflow-hidden bg-stone-100 rounded-t-2xl">
-        <img src="images/ChatGPT-Image-Jul-3-2025-10_01_44-PM-1.png" alt="Romantic Couple Friendly Homestays in Lonavala | Private &amp; Cozy Stays" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover blur-2xl scale-110 opacity-60" />
+        <img src="images/ChatGPT-Image-Jul-3-2025-10_01_44-PM-1.webp" alt="Romantic Couple Friendly Homestays in Lonavala | Private &amp; Cozy Stays" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover blur-2xl scale-110 opacity-60" />
         <div class="relative flex items-center justify-center min-h-[200px] sm:min-h-[240px] md:min-h-[280px] py-6 px-4">
-          <img src="images/ChatGPT-Image-Jul-3-2025-10_01_44-PM-1.png" alt="Romantic Couple Friendly Homestays in Lonavala | Private &amp; Cozy Stays" class="max-h-[280px] md:max-h-[320px] w-auto h-auto max-w-full object-contain rounded-lg shadow-lg" />
+          <img src="images/ChatGPT-Image-Jul-3-2025-10_01_44-PM-1.webp" alt="Romantic Couple Friendly Homestays in Lonavala | Private &amp; Cozy Stays" class="max-h-[280px] md:max-h-[320px] w-auto h-auto max-w-full object-contain rounded-lg shadow-lg" />
         </div>
       </div>
         <div class="p-6 sm:p-8 lg:p-10">
           <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold text-stone-800 font-display mb-6 leading-tight">Romantic Couple Friendly Homestays in Lonavala | Private &amp; Cozy Stays</h1>
           <div class="prose prose-stone max-w-none">
-<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Lonavala, with its misty mountain peaks, lush green valleys, and cool, tranquil climate, is more than just a quick getaway—it’s an intimate escape designed for two. For couples seeking to reconnect, celebrate a milestone, or simply enjoy quality time away from the city’s demanding pace, the setting needs to be as special as the relationship. Standard hotels, with their shared amenities and bustling atmosphere, often fall short of delivering true privacy and romance.</p>
+<p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">Lonavala, with its misty mountain peaks, lush green valleys, and cool, tranquil climate, is more than just a quick getaway—it’s an intimate escape designed for two. For <a href="/homestay-in-lonavala-for-couples">couples</a> seeking to reconnect, celebrate a milestone, or simply enjoy quality time away from the city’s demanding pace, the setting needs to be as special as the relationship. Standard hotels, with their shared amenities and bustling atmosphere, often fall short of delivering true privacy and romance.</p>
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5">This is where the magic of a <strong>Romantic Couple-Friendly <a href="https://retrofusion.in/">Homestays in Lonavala</a></strong> begins. The discerning couple chooses a private villa or a cozy boutique stay that feels exclusively theirs. This guide is dedicated to unlocking the secrets of finding the perfect, intimate sanctuary—a property that prioritizes seclusion, comfort, and personalized luxury.</p>
 
@@ -87,7 +112,7 @@ include '../includes/header.php';
 <h3 class="text-xl sm:text-2xl font-semibold text-stone-800 mt-8 mb-3 leading-snug font-display">Low-Effort Exploration</h3>
 
 <ul class="list-disc pl-6 space-y-2 text-base sm:text-lg text-stone-700 mb-5">
-<li class="leading-relaxed"><strong>Scenic Drives:</strong> Take a relaxed drive to viewpoints like <strong>Tiger Point</strong> or <strong>Lion Point</strong> during the early morning mist or late afternoon golden hour. The journey itself, with Lonavala's winding roads and lush scenery, is a romantic experience.</li>
+<li class="leading-relaxed"><strong>Scenic Drives:</strong> Take a relaxed drive to viewpoints like <strong><a href="/villas-near-tiger-point-lonavala">Tiger Point</a></strong> or <strong>Lion Point</strong> during the early morning mist or late afternoon golden hour. The journey itself, with Lonavala's winding roads and lush scenery, is a romantic experience.</li>
 
 <li class="leading-relaxed"><strong>Historical Charm:</strong> Visit the <strong>Karla or Bhaja Caves</strong> for a shared cultural experience, followed by a local Maharashtrian snack. It’s an easy, rewarding half-day excursion.</li>
 
@@ -106,7 +131,7 @@ include '../includes/header.php';
 
 <p class="text-base sm:text-lg text-stone-700 leading-relaxed mb-5"><strong>Don't leave your romantic getaway to chance. Secure a truly private and memorable experience designed just for couples. Fill out the form below now to check the availability of our most romantic units, explore exclusive couple packages, and book your perfect Private & Cozy Stays Lonavala with Retrofusion.</strong></p>
 
-<div class="my-8 p-6 sm:p-8 bg-gradient-to-br from-[#0F2A24] via-[#1a4a3f] to-[#0F2A24] rounded-2xl shadow-xl relative overflow-hidden"><div class="absolute -top-10 -right-10 w-40 h-40 bg-amber-500/20 rounded-full blur-3xl"></div><div class="absolute -bottom-8 -left-8 w-32 h-32 bg-emerald-400/15 rounded-full blur-2xl"></div><div class="relative text-center"><h3 class="text-xl sm:text-2xl font-bold text-white font-display mb-2">Ready to Experience Lonavala?</h3><p class="text-white/75 text-sm sm:text-base leading-relaxed mb-5 max-w-md mx-auto">Book your private villa with pool, chef &amp; mountain views. Perfect for families, couples &amp; groups.</p><div class="flex flex-col sm:flex-row items-center justify-center gap-3"><a href="/contact" class="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-white font-bold text-sm px-6 py-3 rounded-xl shadow-lg shadow-amber-600/30 transition-all duration-300">Book Your Villa Now <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg></a><a href="https://wa.me/918999036644?text=Hi%2C%20I%27d%20like%20to%20book%20a%20villa%20in%20Lonavala" target="_blank" rel="noopener" class="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur-sm border border-white/20 text-white font-semibold text-sm px-6 py-3 rounded-xl transition-all duration-300"><svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg> WhatsApp Us</a></div></div></div>
+<div class="my-8 p-6 sm:p-8 bg-gradient-to-br from-[#0F2A24] via-[#1a4a3f] to-[#0F2A24] rounded-2xl shadow-xl relative overflow-hidden"><div class="absolute -top-10 -right-10 w-40 h-40 bg-amber-500/20 rounded-full blur-3xl"></div><div class="absolute -bottom-8 -left-8 w-32 h-32 bg-emerald-400/15 rounded-full blur-2xl"></div><div class="relative text-center"><h3 class="text-xl sm:text-2xl font-bold text-white font-display mb-2">Ready to Experience Lonavala?</h3><p class="text-white/75 text-sm sm:text-base leading-relaxed mb-5 max-w-md mx-auto">Book your private villa with pool, chef &amp; <a href="/mountain-view-villa-lonavala">mountain views</a>. Perfect for families, couples &amp; groups.</p><div class="flex flex-col sm:flex-row items-center justify-center gap-3"><a href="/contact" class="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-white font-bold text-sm px-6 py-3 rounded-xl shadow-lg shadow-amber-600/30 transition-all duration-300">Book Your Villa Now <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg></a><a href="https://wa.me/918999036644?text=Hi%2C%20I%27d%20like%20to%20book%20a%20villa%20in%20Lonavala" target="_blank" rel="noopener" class="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur-sm border border-white/20 text-white font-semibold text-sm px-6 py-3 rounded-xl transition-all duration-300"><svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg> WhatsApp Us</a></div></div></div>
 
 <hr/>
 

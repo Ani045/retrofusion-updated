@@ -182,8 +182,8 @@ function initHeroCarousel() {
     const bannerImages = [
         '../images/v1769868140_B30_yc8rqu.webp',
         '../images/v1769868140_C26_j6pstx.webp',
-        '../images/v1769863044_14_w8imzc.jpg',
-        '../images/v1774809448_30_2_xtqtpb.jpg',
+        '../images/v1769863044_14_w8imzc.webp',
+        '../images/v1774809448_30_2_xtqtpb.webp',
     ];
 
     // Preload images
@@ -370,12 +370,12 @@ function initRetrofusionSlider() {
     if (!sliderImg) return;
 
     const images = [
-        '../images/v1774807173_04_y636xz.jpg',
-        '../images/v1774811620_30_1_eexljz.jpg',
-        '../images/v1774809447_06_htf59g.jpg',
+        '../images/v1774807173_04_y636xz.webp',
+        '../images/v1774811620_30_1_eexljz.webp',
+        '../images/v1774809447_06_htf59g.webp',
         '../images/v1769868140_B30_yc8rqu.webp',
         '../images/v1769868143_M01_jjmwdw.webp',
-        '../images/v1769863044_14_w8imzc.jpg',
+        '../images/v1769863044_14_w8imzc.webp',
     ];
     let current = 0;
 
@@ -438,11 +438,11 @@ function initBentoGallery() {
     if (!grid) return;
 
     let allImages = [
-        '../images/v1770226533_N34_stewru.jpg',
+        '../images/v1770226533_N34_stewru.webp',
         '../images/v1769868140_B30_yc8rqu.webp',
         '../images/v1769868140_C26_j6pstx.webp',
         '../images/v1769868140_05_ivb2yz.webp',
-        '../images/v1770226534_N36_om6t9d.jpg',
+        '../images/v1770226534_N36_om6t9d.webp',
         '../images/v1769868155_M08_qewdva.webp',
         '../images/v1769868143_M01_jjmwdw.webp',
         '../images/v1769868142_G31_mdlfjh.webp',

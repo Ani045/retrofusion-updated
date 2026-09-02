@@ -7,7 +7,7 @@ $pageAuthor = "Retrofusion Boutique Homestays";
 $pagePublisher = "Retrofusion Boutique Homestays";
 $canonicalUrl = "https://retrofusion.in/best-4bhk-homestay-in-lonavala-for-family";
 $ogTitle = "Best Family 4BHK Homestay in Lonavala | Private Pool Stays";
-$ogImage = "images/v1773076226_27_ipqwdd.jpg";
+$ogImage = "https://retrofusion.in/images/v1773076226_27_ipqwdd.webp";
 include 'includes/header.php';
 ?>
 
@@ -23,14 +23,13 @@ include 'includes/header.php';
       "description": "Premium 4BHK family homestays in Lonavala featuring private swimming pools, children's play areas, and spacious living for multi-generational families.",
       "url": "https://retrofusion.in/best-4bhk-homestay-in-lonavala-for-family",
       "image": [
-        "https://retrofusion.in/images/v1773076226_27_ipqwdd.jpg",
-        "https://retrofusion.in/images/v1774810269_12_lo4gpx.jpg",
-        "https://retrofusion.in/images/v1774807173_04_y636xz.jpg"
+        "https://retrofusion.in/images/v1773076226_27_ipqwdd.webp",
+        "https://retrofusion.in/images/v1774810269_12_lo4gpx.webp",
+        "https://retrofusion.in/images/v1774807173_04_y636xz.webp"
       ],
       "telephone": "+91 8999036644",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Lonavala",
         "addressLocality": "Lonavala",
         "addressRegion": "Maharashtra",
         "postalCode": "410401",
@@ -40,11 +39,6 @@ include 'includes/header.php';
         "@type": "GeoCoordinates",
         "latitude": "18.7544",
         "longitude": "73.4062"
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "215"
       },
       "priceRange": "₹₹₹"
     },
@@ -72,34 +66,18 @@ include 'includes/header.php';
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Why is a 4BHK homestay better for families than a resort?",
+          "name": "How many people can stay in a 4BHK homestay?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "A 4BHK homestay offers a cohesive living space where the whole family can stay together under one roof, while still having private bedrooms. With a private kitchen, private pool, and no shared spaces, it's more comfortable and personal than multiple hotel rooms."
+            "text": "Typically, our 4BHK homestays can comfortably accommodate 8-12 adults. With extra mattresses, we can host up to 15 guests. Please confirm the exact capacity of your chosen villa during booking."
           }
         },
         {
           "@type": "Question",
-          "name": "Are your homestays child-friendly?",
+          "name": "Is the food prepared in the villa kitchen?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, our homestays are very child-friendly. We offer gated pools, spacious lawns for play, and can provide high chairs or specific meal requests for children upon prior notice."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can we get home-style food for the elderly members?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Absolutely. Our in-house chefs specialize in home-cooked meals that are less spicy and healthy, catering specifically to the dietary needs of elderly family members."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is there enough parking for multiple family cars?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, each of our 4BHK homestays has dedicated parking space for at least 2-3 SUVs within the gated premises."
+            "text": "Yes, we have a dedicated private chef who prepares fresh meals right in the villa kitchen according to your preferences."
           }
         }
       ]
@@ -110,7 +88,7 @@ include 'includes/header.php';
 
 <!-- ===== HERO SECTION ===== -->
 <section class="relative h-screen overflow-hidden">
-  <img src="images/v1773076226_27_ipqwdd.jpg"
+  <img src="images/v1773076226_27_ipqwdd.webp"
     class="absolute inset-0 w-full h-full object-cover" alt="Best 4BHK Homestay in Lonavala for Family" title="Family Homestay Lonavala" />
   <div class="absolute inset-0 bg-gradient-to-b from-black/60 via-black/30 to-black/70"></div>
   <div class="relative z-10 h-full flex flex-col justify-center items-center px-4 sm:px-6 lg:px-8 text-center">
@@ -173,34 +151,34 @@ include 'includes/header.php';
     
     <div class="grid grid-cols-1 md:grid-cols-4 gap-4 h-auto md:h-[800px]">
       <div class="md:col-span-2 relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(0)">
-        <img src="images/v1773076226_27_ipqwdd.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Homestay Interior">
+        <img src="images/v1773076226_27_ipqwdd.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Homestay Interior">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(1)">
-        <img src="images/v1774810269_12_lo4gpx.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Family Pool">
+        <img src="images/v1774810269_12_lo4gpx.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Family Pool">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(2)">
-        <img src="images/v1772868264_1_wqosmq.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Dining Space">
+        <img src="images/v1772868264_1_wqosmq.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Dining Space">
       </div>
       <div class="md:col-span-2 relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(3)">
-        <img src="images/v1774807173_04_y636xz.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Villa View">
+        <img src="images/v1774807173_04_y636xz.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Villa View">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(4)">
         <img src="images/v1769868155_M08_qewdva.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Master Bedroom">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(5)">
-        <img src="images/v1770226533_N34_stewru.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Outdoor Lawn">
+        <img src="images/v1770226533_N34_stewru.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Outdoor Lawn">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(6)">
         <img src="images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Luxury Lounge">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(7)">
-        <img src="images/v1774811620_30_1_eexljz.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Modern Kitchen">
+        <img src="images/v1774811620_30_1_eexljz.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Modern Kitchen">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(8)">
-        <img src="images/v1774807176_34_vpeqgv.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Evening Vibe">
+        <img src="images/v1774807176_34_vpeqgv.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Evening Vibe">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(9)">
-        <img src="images/v1773076342_23_wby8bv.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Chef Special">
+        <img src="images/v1773076342_23_wby8bv.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Chef Special">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(10)">
         <img src="images/v1769868140_B30_yc8rqu.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Spacious Hall">
@@ -209,10 +187,10 @@ include 'includes/header.php';
         <img src="images/v1769868142_H10_byp3oh.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Bright Room">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(12)">
-        <img src="images/v1774810653_N35_h2djzp.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Decor Art">
+        <img src="images/v1774810653_N35_h2djzp.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Decor Art">
       </div>
       <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(13)">
-        <img src="images/v1774809447_06_htf59g.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Night Exterior">
+        <img src="images/v1774809447_06_htf59g.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Night Exterior">
       </div>
     </div>
   </div>
@@ -371,20 +349,20 @@ include 'includes/header.php';
 
 <script>
   const galleryImages = [
-    'images/v1773076226_27_ipqwdd.jpg',
-    'images/v1774810269_12_lo4gpx.jpg',
-    'images/v1772868264_1_wqosmq.jpg',
-    'images/v1774807173_04_y636xz.jpg',
+    'images/v1773076226_27_ipqwdd.webp',
+    'images/v1774810269_12_lo4gpx.webp',
+    'images/v1772868264_1_wqosmq.webp',
+    'images/v1774807173_04_y636xz.webp',
     'images/v1769868155_M08_qewdva.webp',
-    'images/v1770226533_N34_stewru.jpg',
+    'images/v1770226533_N34_stewru.webp',
     'images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg',
-    'images/v1774811620_30_1_eexljz.jpg',
-    'images/v1774807176_34_vpeqgv.jpg',
-    'images/v1773076342_23_wby8bv.jpg',
+    'images/v1774811620_30_1_eexljz.webp',
+    'images/v1774807176_34_vpeqgv.webp',
+    'images/v1773076342_23_wby8bv.webp',
     'images/v1769868140_B30_yc8rqu.webp',
     'images/v1769868142_H10_byp3oh.webp',
-    'images/v1774810653_N35_h2djzp.jpg',
-    'images/v1774809447_06_htf59g.jpg'
+    'images/v1774810653_N35_h2djzp.webp',
+    'images/v1774809447_06_htf59g.webp'
   ];
 
   function openLightbox(idx) {

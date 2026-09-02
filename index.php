@@ -88,7 +88,7 @@ include 'includes/header.php';
         <div
           class="villa-card relative h-[500px] w-full cursor-pointer group overflow-hidden rounded-[2rem] shadow-2xl hover:shadow-[0_30px_60px_-12px_rgba(0,0,0,0.3)] transition-all duration-700 transform hover:scale-[1.03] border-2 border-white/20">
           <img loading="lazy"
-            src="images/v1770226533_N34_stewru.jpg"
+            src="images/v1770226533_N34_stewru.webp"
             alt="Retro Villa"
             class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
@@ -188,7 +188,7 @@ include 'includes/header.php';
         <div
           class="villa-card relative h-[500px] w-full cursor-pointer group overflow-hidden rounded-[2rem] shadow-2xl hover:shadow-[0_30px_60px_-12px_rgba(0,0,0,0.3)] transition-all duration-700 transform hover:scale-[1.03] border-2 border-white/20">
           <img loading="lazy"
-            src="images/v1772474727_Screenshot_2026-03-02_at_11.33.32_PM_wqk7eu.png"
+            src="images/v1772474727_Screenshot_2026-03-02_at_11.33.32_PM_wqk7eu.webp"
             alt="Retro Visawa"
             class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
@@ -282,7 +282,7 @@ include 'includes/header.php';
       <div class="w-full lg:w-[35%] lg:flex-shrink-0">
         <div class="relative overflow-hidden rounded-lg">
           <img loading="lazy" id="retrofusion-slider-img"
-            src="images/v1774807173_04_y636xz.jpg"
+            src="images/v1774807173_04_y636xz.webp"
             alt="Retrofusion experience" class="w-full h-[280px] sm:h-[300px] lg:h-[320px] object-cover" />
 
           <!-- Navigation Arrow - Inside Image on Right -->
@@ -452,7 +452,7 @@ include 'includes/header.php';
         <a href="villas-in-lonavala-for-bachelor-party"
           class="relative w-full rounded-3xl overflow-hidden group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-[1.02] border border-stone-200 block flex-[1.4] hover:-translate-y-1">
           <img loading="lazy"
-            src="images/bachelor-party-villa-lonavala.png"
+            src="images/bachelor-party-villa-lonavala.webp"
             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
             alt="Bachelor Party Villas Lonavala" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
@@ -463,7 +463,7 @@ include 'includes/header.php';
         <a href="private-pool-villas-in-lonavala"
           class="relative w-full rounded-3xl overflow-hidden group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-[1.02] border border-stone-200 block flex-1 hover:-translate-y-1">
           <img loading="lazy"
-            src="images/private_pool_villa_lonavala_hero.png"
+            src="images/private_pool_villa_lonavala_hero.webp"
             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
             alt="Private Pool Villas Lonavala" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
@@ -477,7 +477,7 @@ include 'includes/header.php';
         <a href="retro-villas"
           class="relative w-full rounded-3xl overflow-hidden group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-[1.02] border border-stone-200 block flex-1 hover:-translate-y-1">
           <img loading="lazy"
-            src="images/v1773076226_27_ipqwdd.jpg"
+            src="images/v1773076226_27_ipqwdd.webp"
             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
             alt="Mountain Views" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
@@ -488,7 +488,7 @@ include 'includes/header.php';
         <a href="retro-viswa-lonavala"
           class="relative w-full rounded-3xl overflow-hidden group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-[1.02] border border-stone-200 block flex-[1.4] hover:-translate-y-1">
           <img loading="lazy"
-            src="images/v1772474727_Screenshot_2026-03-02_at_11.33.32_PM_wqk7eu.png"
+            src="images/v1772474727_Screenshot_2026-03-02_at_11.33.32_PM_wqk7eu.webp"
             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
             alt="Retro Visawa" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
@@ -502,7 +502,7 @@ include 'includes/header.php';
         <a href="neo-retro"
           class="relative w-full rounded-3xl overflow-hidden group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-[1.02] border border-stone-200 block flex-[1.4] hover:-translate-y-1">
           <img loading="lazy"
-            src="images/v1769863039_01_qwhl8a.jpg"
+            src="images/v1769863039_01_qwhl8a.webp"
             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
             alt="Neo-Retro Villa" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
@@ -513,7 +513,7 @@ include 'includes/header.php';
         <a href="retro-villas"
           class="relative w-full rounded-3xl overflow-hidden group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-[1.02] border border-stone-200 block flex-1 hover:-translate-y-1">
           <img loading="lazy"
-            src="images/v1772868264_1_wqosmq.jpg"
+            src="images/v1772868264_1_wqosmq.webp"
             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
             alt="Pet-Friendly Stays" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
@@ -527,7 +527,7 @@ include 'includes/header.php';
         <a href="neo-retro"
           class="relative w-full rounded-3xl overflow-hidden group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-[1.02] border border-stone-200 block flex-1 hover:-translate-y-1">
           <img loading="lazy"
-            src="images/v1774810269_12_lo4gpx.jpg"
+            src="images/v1774810269_12_lo4gpx.webp"
             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
             alt="Serene Interiors" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
@@ -539,7 +539,7 @@ include 'includes/header.php';
         <a href="retro-viswa-lonavala"
           class="relative w-full rounded-3xl overflow-hidden group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-[1.02] border border-stone-200 block flex-[1.4] hover:-translate-y-1">
           <img loading="lazy"
-            src="images/v1772868502_16_fxghyv.jpg"
+            src="images/v1772868502_16_fxghyv.webp"
             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
             alt="Lonavala Escape" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
@@ -555,7 +555,7 @@ include 'includes/header.php';
         <!-- Family Stays -->
         <a href="villas-in-lonavala-for-family" class="flex-shrink-0 w-80 group">
           <div class="relative h-96 rounded-3xl overflow-hidden mb-4">
-            <img src="images/family_villa_lonavala_hero.png" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Villas in Lonavala for Family Stays">
+            <img src="images/family_villa_lonavala_hero.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Villas in Lonavala for Family Stays">
             <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
             <div class="absolute bottom-6 left-6">
               <h3 class="text-2xl font-bold text-white mb-2">Family Stays</h3>
@@ -567,7 +567,7 @@ include 'includes/header.php';
         <!-- Private Pool -->
         <a href="private-pool-villas-in-lonavala" class="flex-shrink-0 w-80 group">
           <div class="relative h-96 rounded-3xl overflow-hidden mb-4">
-            <img src="images/private_pool_villa_lonavala_hero.png" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Private Pool Villas in Lonavala">
+            <img src="images/private_pool_villa_lonavala_hero.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Private Pool Villas in Lonavala">
             <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
             <div class="absolute bottom-6 left-6">
               <h3 class="text-2xl font-bold text-white mb-2">Pool Villas</h3>
@@ -579,7 +579,7 @@ include 'includes/header.php';
         <!-- Luxury Villa -->
         <a href="luxury-4bhk-villas-in-lonavala" class="flex-shrink-0 w-80 group">
           <div class="relative h-96 rounded-3xl overflow-hidden mb-4">
-            <img src="images/luxury_villa_lonavala_hero.png" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Luxury Villas in Lonavala">
+            <img src="images/luxury_villa_lonavala_hero.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Luxury Villas in Lonavala">
             <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
             <div class="absolute bottom-6 left-6">
               <h3 class="text-2xl font-bold text-white mb-2">Luxury Villas</h3>
@@ -591,7 +591,7 @@ include 'includes/header.php';
         <div class="flex flex-col gap-4 min-w-[280px]" style="scroll-snap-align: start;">
           <a href="villas-in-lonavala-for-bachelor-party" class="relative w-full h-64 rounded-2xl overflow-hidden shadow-lg block">
             <img loading="lazy"
-              src="images/bachelor-party-villa-lonavala.png"
+              src="images/bachelor-party-villa-lonavala.webp"
               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               alt="Bachelor Party Villas" />
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
@@ -599,7 +599,7 @@ include 'includes/header.php';
           </a>
           <a href="retro-villas" class="relative w-full h-48 rounded-2xl overflow-hidden shadow-lg block">
             <img loading="lazy"
-              src="images/v1774807176_34_vpeqgv.jpg"
+              src="images/v1774807176_34_vpeqgv.webp"
               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               alt="Private Pool" />
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
@@ -610,7 +610,7 @@ include 'includes/header.php';
         <div class="flex flex-col gap-4 min-w-[280px]" style="scroll-snap-align: start;">
           <a href="retro-villas" class="relative w-full h-48 rounded-2xl overflow-hidden shadow-lg block">
             <img loading="lazy"
-              src="images/v1773076226_27_ipqwdd.jpg"
+              src="images/v1773076226_27_ipqwdd.webp"
               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               alt="Mountain Views" />
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
@@ -618,7 +618,7 @@ include 'includes/header.php';
           </a>
           <a href="retro-viswa-lonavala" class="relative w-full h-64 rounded-2xl overflow-hidden shadow-lg block">
             <img loading="lazy"
-              src="images/v1772474727_Screenshot_2026-03-02_at_11.33.32_PM_wqk7eu.png"
+              src="images/v1772474727_Screenshot_2026-03-02_at_11.33.32_PM_wqk7eu.webp"
               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               alt="Retro Visawa" />
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
@@ -629,7 +629,7 @@ include 'includes/header.php';
         <div class="flex flex-col gap-4 min-w-[280px]" style="scroll-snap-align: start;">
           <a href="neo-retro" class="relative w-full h-64 rounded-2xl overflow-hidden shadow-lg block">
             <img loading="lazy"
-              src="images/v1769863039_01_qwhl8a.jpg"
+              src="images/v1769863039_01_qwhl8a.webp"
               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               alt="Neo-Retro Villa" />
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
@@ -637,7 +637,7 @@ include 'includes/header.php';
           </a>
           <a href="retro-villas" class="relative w-full h-48 rounded-2xl overflow-hidden shadow-lg block">
             <img loading="lazy"
-              src="images/v1772868264_1_wqosmq.jpg"
+              src="images/v1772868264_1_wqosmq.webp"
               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               alt="Pet-Friendly Stays" />
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
@@ -648,7 +648,7 @@ include 'includes/header.php';
         <div class="flex flex-col gap-4 min-w-[280px]" style="scroll-snap-align: start;">
           <a href="neo-retro" class="relative w-full h-48 rounded-2xl overflow-hidden shadow-lg block">
             <img loading="lazy"
-              src="images/v1774810269_12_lo4gpx.jpg"
+              src="images/v1774810269_12_lo4gpx.webp"
               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               alt="Serene Interiors" />
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
@@ -656,7 +656,7 @@ include 'includes/header.php';
           </a>
           <a href="retro-viswa-lonavala" class="relative w-full h-64 rounded-2xl overflow-hidden shadow-lg block">
             <img loading="lazy"
-              src="images/v1772868502_16_fxghyv.jpg"
+              src="images/v1772868502_16_fxghyv.webp"
               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               alt="Lonavala Escape" />
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
@@ -820,7 +820,7 @@ include 'includes/header.php';
 </section>
 
 <script>
-  const villaData = [{ name: "Retro Villa", badge: "Budget Friendly", badgeColor: "bg-amber-500", tagline: "Where Bollywood Meets Comfort", img: "images/v1770226533_N34_stewru.jpg", link: "retro-villas", airbnb: "https://www.airbnb.co.in/rooms/53210949", features: [{ icon: "\ud83d\udcb0", title: "Budget Friendly", desc: "More affordable and homely \u2014 perfect for a cozy, no-fuss getaway" }, { icon: "\ud83c\udf56", title: "Food & Bonding", desc: "Great experience for bonding over good food with loved ones" }, { icon: "\ud83c\udfac", title: "Retro Bollywood Vibes", desc: "Bollywood Posters, Barbeque setup \u2014 perfect for retro Bollywood fans" }, { icon: "\ud83d\udccd", title: "Prime Location", desc: "Located closer to Della Resorts and Mumbai city for easy access" }] }, { name: "Neo Retro Villa", badge: "\u2726 Most Popular", badgeColor: "bg-gradient-to-r from-amber-500 to-amber-600", tagline: "Art, Romance & Luxury Redefined", img: "images/v1769863039_01_qwhl8a.jpg", link: "neo-retro", airbnb: "https://www.airbnb.co.in/rooms/759365496263211635", features: [{ icon: "\u2728", title: "Luxurious & Spacious", desc: "Premium interiors with ample room to breathe and relax in style" }, { icon: "\ud83d\udc95", title: "For the Romantics", desc: "An ideal retreat for couples seeking a magical escape together" }, { icon: "\ud83c\udfa8", title: "Art Lover\u2019s Paradise", desc: "World Library, Sculptures, Paintings \u2014 for the artistically inclined" }, { icon: "\ud83d\udec1", title: "Hot Tub & Serenity", desc: "Generous Spaces for Shared Moments" }] }, { name: "Retro Visawa", badge: "Group Favourite", badgeColor: "bg-emerald-500", tagline: "Gather, Celebrate & Create Memories", img: "images/v1772474727_Screenshot_2026-03-02_at_11.33.32_PM_wqk7eu.png", link: "retro-viswa-lonavala", airbnb: "", features: [{ icon: "\ud83c\udfe1", title: "Spacious 4BHK", desc: "Private pool villa perfect for large groups and gatherings" }, { icon: "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d\udc66", title: "Family Reunions", desc: "Ideal for family get-togethers, celebrations and team offsites" }, { icon: "\ud83c\udfad", title: "Vintage-Modern Charm", desc: "Carefully curated interiors blending retro elegance with modern luxury" }, { icon: "\u26f0\ufe0f", title: "Scenic Hilltop", desc: "Nestled in a beautiful Lonavala hilltop with panoramic views" }] }];
+  const villaData = [{ name: "Retro Villa", badge: "Budget Friendly", badgeColor: "bg-amber-500", tagline: "Where Bollywood Meets Comfort", img: "images/v1770226533_N34_stewru.webp", link: "retro-villas", airbnb: "https://www.airbnb.co.in/rooms/53210949", features: [{ icon: "\ud83d\udcb0", title: "Budget Friendly", desc: "More affordable and homely \u2014 perfect for a cozy, no-fuss getaway" }, { icon: "\ud83c\udf56", title: "Food & Bonding", desc: "Great experience for bonding over good food with loved ones" }, { icon: "\ud83c\udfac", title: "Retro Bollywood Vibes", desc: "Bollywood Posters, Barbeque setup \u2014 perfect for retro Bollywood fans" }, { icon: "\ud83d\udccd", title: "Prime Location", desc: "Located closer to Della Resorts and Mumbai city for easy access" }] }, { name: "Neo Retro Villa", badge: "\u2726 Most Popular", badgeColor: "bg-gradient-to-r from-amber-500 to-amber-600", tagline: "Art, Romance & Luxury Redefined", img: "images/v1769863039_01_qwhl8a.webp", link: "neo-retro", airbnb: "https://www.airbnb.co.in/rooms/759365496263211635", features: [{ icon: "\u2728", title: "Luxurious & Spacious", desc: "Premium interiors with ample room to breathe and relax in style" }, { icon: "\ud83d\udc95", title: "For the Romantics", desc: "An ideal retreat for couples seeking a magical escape together" }, { icon: "\ud83c\udfa8", title: "Art Lover\u2019s Paradise", desc: "World Library, Sculptures, Paintings \u2014 for the artistically inclined" }, { icon: "\ud83d\udec1", title: "Hot Tub & Serenity", desc: "Generous Spaces for Shared Moments" }] }, { name: "Retro Visawa", badge: "Group Favourite", badgeColor: "bg-emerald-500", tagline: "Gather, Celebrate & Create Memories", img: "images/v1772474727_Screenshot_2026-03-02_at_11.33.32_PM_wqk7eu.webp", link: "retro-viswa-lonavala", airbnb: "", features: [{ icon: "\ud83c\udfe1", title: "Spacious 4BHK", desc: "Private pool villa perfect for large groups and gatherings" }, { icon: "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d\udc66", title: "Family Reunions", desc: "Ideal for family get-togethers, celebrations and team offsites" }, { icon: "\ud83c\udfad", title: "Vintage-Modern Charm", desc: "Carefully curated interiors blending retro elegance with modern luxury" }, { icon: "\u26f0\ufe0f", title: "Scenic Hilltop", desc: "Nestled in a beautiful Lonavala hilltop with panoramic views" }] }];
   let currentVilla = 0;
   function switchVilla(idx) { if (idx === currentVilla) return; currentVilla = idx; document.querySelectorAll('[id^="vtab-"]').forEach(function (t, i) { if (i === idx) t.classList.add('villa-tab-active'); else t.classList.remove('villa-tab-active') }); var d = document.getElementById('villa-display'); d.style.opacity = '0'; d.style.transform = 'translateY(30px)'; setTimeout(function () { renderVilla(idx); d.style.transition = 'opacity 0.5s ease, transform 0.5s ease'; d.style.opacity = '1'; d.style.transform = 'translateY(0)' }, 250) }
   function renderVilla(idx) { var v = villaData[idx]; var ab = v.airbnb ? '<a href="' + v.airbnb + '" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-amber-400 hover:text-amber-300 text-xs font-medium transition-colors"><span>View on Airbnb</span><svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg></a>' : '<a href="contact.php" class="inline-flex items-center gap-2 text-amber-400 hover:text-amber-300 text-xs font-medium transition-colors"><span>Enquire Now</span><svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg></a>'; var fl = ''; v.features.forEach(function (f, i) { fl += '<div class="flex items-start gap-4 group/feat" style="animation:villa-slide-up 0.5s ease-out ' + i * 0.12 + 's both"><div class="w-12 h-12 rounded-2xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center flex-shrink-0 text-xl group-hover/feat:scale-110 group-hover/feat:bg-amber-500/20 transition-all duration-300">' + f.icon + '</div><div><h5 class="text-white font-semibold text-sm mb-1">' + f.title + '</h5><p class="text-stone-400 text-[13px] leading-relaxed font-light">' + f.desc + '</p></div></div>' }); document.getElementById('villa-display').innerHTML = '<div class="grid grid-cols-1 lg:grid-cols-2 gap-0 items-stretch"><div class="relative rounded-3xl lg:rounded-r-none overflow-hidden h-[350px] md:h-[500px] villa-active-glow"><img loading="lazy" src="' + v.img + '" alt="' + v.name + '" class="w-full h-full object-cover"/><div class="absolute inset-0 bg-gradient-to-t from-[#0F2A24] via-[#0F2A24]/20 to-transparent"></div><div class="absolute top-5 left-5 ' + v.badgeColor + ' text-white text-[10px] uppercase tracking-[0.2em] font-bold px-4 py-1.5 rounded-full shadow-lg">' + v.badge + '</div><div class="absolute bottom-0 left-0 right-0 p-8"><h3 class="text-3xl md:text-4xl font-bold text-white font-display mb-2">' + v.name + '</h3><p class="text-amber-300/80 text-sm font-light tracking-wide">' + v.tagline + '</p></div></div><div class="bg-white/[0.04] backdrop-blur-sm border border-white/10 lg:border-l-0 rounded-3xl lg:rounded-l-none p-8 md:p-10 flex flex-col justify-between"><div><h4 class="text-white font-bold text-lg mb-6 flex items-center gap-2"><svg class="w-5 h-5 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/></svg>What Makes It Special</h4><div class="space-y-5">' + fl + '</div></div><div class="mt-8 pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center gap-3"><a href="' + v.link + '" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-white px-7 py-3.5 rounded-xl font-semibold text-sm transition-all duration-300 shadow-lg shadow-amber-500/20 group/btn"><span>Explore ' + v.name + '</span><svg class="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>' + ab + '</div></div></div>' }
@@ -843,7 +843,7 @@ include 'includes/header.php';
         class="group relative bg-white border border-stone-200 rounded-3xl overflow-hidden transition-all duration-500 hover:shadow-2xl hover:border-amber-300 hover:-translate-y-2">
         <div class="relative h-56 md:h-64 overflow-hidden">
           <img loading="lazy"
-            src="images/v1770226533_N34_stewru.jpg"
+            src="images/v1770226533_N34_stewru.webp"
             alt="Retro Villa"
             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
           <div class="absolute inset-0 bg-gradient-to-t from-[#0F2A24] via-[#0F2A24]/30 to-transparent"></div>
@@ -905,7 +905,7 @@ include 'includes/header.php';
         class="group relative bg-white border-2 border-amber-400 rounded-3xl overflow-hidden transition-all duration-500 hover:shadow-2xl hover:-translate-y-2 lg:scale-[1.03] shadow-lg shadow-amber-100">
         <div class="relative h-56 md:h-64 overflow-hidden">
           <img loading="lazy"
-            src="images/v1769863039_01_qwhl8a.jpg"
+            src="images/v1769863039_01_qwhl8a.webp"
             alt="Neo Retro Villa"
             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
           <div class="absolute inset-0 bg-gradient-to-t from-[#0F2A24] via-[#0F2A24]/30 to-transparent"></div>
@@ -966,7 +966,7 @@ include 'includes/header.php';
         class="group relative bg-white border border-stone-200 rounded-3xl overflow-hidden transition-all duration-500 hover:shadow-2xl hover:border-amber-300 hover:-translate-y-2">
         <div class="relative h-56 md:h-64 overflow-hidden">
           <img loading="lazy"
-            src="images/v1772474727_Screenshot_2026-03-02_at_11.33.32_PM_wqk7eu.png"
+            src="images/v1772474727_Screenshot_2026-03-02_at_11.33.32_PM_wqk7eu.webp"
             alt="Retro Visawa"
             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
           <div class="absolute inset-0 bg-gradient-to-t from-[#0F2A24] via-[#0F2A24]/30 to-transparent"></div>
@@ -1943,7 +1943,7 @@ include 'includes/header.php';
             <div class="pt-9 sm:pt-11 w-full flex flex-col items-center">
               <a href="https://www.instagram.com/retrofusion.in/" target="_blank" class="w-full">
                 <img loading="lazy"
-                  src="images/v1772471878_Screenshot_2026-03-02_at_10.47.42_PM_wo3toj.png"
+                  src="images/v1772471878_Screenshot_2026-03-02_at_10.47.42_PM_wo3toj.webp"
                   alt="Instagram Profile Screenshot"
                   class="w-full h-auto block opacity-95 transition-opacity duration-300 group-hover/screen:opacity-100" />
               </a>
@@ -1976,7 +1976,7 @@ include 'includes/header.php';
             <!-- Image with amber border -->
             <div class="mx-2.5 mb-2 border-[3px] border-amber-600 rounded-lg overflow-hidden">
               <img loading="lazy"
-                src="images/v1772473164_Screenshot_2026-03-02_at_11.08.01_PM_a5g0vs.png"
+                src="images/v1772473164_Screenshot_2026-03-02_at_11.08.01_PM_a5g0vs.webp"
                 alt="Instagram Post"
                 class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
@@ -2028,7 +2028,7 @@ include 'includes/header.php';
             </div>
             <div class="mx-2.5 mb-2 border-[3px] border-amber-600 rounded-lg overflow-hidden">
               <img loading="lazy"
-                src="images/v1772473164_Screenshot_2026-03-02_at_11.07.23_PM_sbgs0f.png"
+                src="images/v1772473164_Screenshot_2026-03-02_at_11.07.23_PM_sbgs0f.webp"
                 alt="Instagram Post"
                 class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
@@ -2079,7 +2079,7 @@ include 'includes/header.php';
             </div>
             <div class="mx-2.5 mb-2 border-[3px] border-amber-600 rounded-lg overflow-hidden">
               <img loading="lazy"
-                src="images/v1772473163_Screenshot_2026-03-02_at_11.07.36_PM_ftkdee.png"
+                src="images/v1772473163_Screenshot_2026-03-02_at_11.07.36_PM_ftkdee.webp"
                 alt="Instagram Post"
                 class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
@@ -2130,7 +2130,7 @@ include 'includes/header.php';
             </div>
             <div class="mx-2.5 mb-2 border-[3px] border-amber-600 rounded-lg overflow-hidden">
               <img loading="lazy"
-                src="images/v1772473163_Screenshot_2026-03-02_at_11.07.51_PM_yzseuz.png"
+                src="images/v1772473163_Screenshot_2026-03-02_at_11.07.51_PM_yzseuz.webp"
                 alt="Instagram Post"
                 class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
@@ -2264,13 +2264,15 @@ include 'includes/header.php';
         "@type": "PostalAddress",
         "addressLocality": "Lonavala",
         "addressRegion": "Maharashtra",
-        "addressCountry": "IN"
+        "addressCountry": "IN",
+        "postalCode": "410401"
       },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "900"
-      }
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "18.7544",
+        "longitude": "73.4062"
+      },
+      "priceRange": "$$"
     },
     {
       "@type": "WebSite",
@@ -2299,7 +2301,13 @@ include 'includes/header.php';
       "@id": "https://retrofusion.in/#localbusiness",
       "name": "Retrofusion Boutique Homestays",
       "image": "https://retrofusion.in/images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png",
-      "url": "https://retrofusion.in/"
+      "url": "https://retrofusion.in/",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "18.7544",
+        "longitude": "73.4062"
+      },
+      "priceRange": "$$"
     },
     {
       "@type": "BreadcrumbList",
@@ -2322,12 +2330,7 @@ include 'includes/header.php';
             "@type": "Product",
             "name": "Retro Villa",
             "url": "https://retrofusion.in/retro-villas",
-            "image": "images/v1770226533_N34_stewru.jpg",
-            "aggregateRating": {
-              "@type": "AggregateRating",
-              "ratingValue": "4.9",
-              "reviewCount": "900"
-            }
+            "image": "https://retrofusion.in/images/v1770226533_N34_stewru.webp"
           }
         },
         {
@@ -2337,12 +2340,7 @@ include 'includes/header.php';
             "@type": "Product",
             "name": "Neo Retro Villa",
             "url": "https://retrofusion.in/neo-retro",
-            "image": "images/v1769863039_01_qwhl8a.jpg",
-            "aggregateRating": {
-              "@type": "AggregateRating",
-              "ratingValue": "4.9",
-              "reviewCount": "900"
-            }
+            "image": "https://retrofusion.in/images/v1769863039_01_qwhl8a.webp"
           }
         },
         {
@@ -2352,12 +2350,7 @@ include 'includes/header.php';
             "@type": "Product",
             "name": "Retro Visawa",
             "url": "https://retrofusion.in/retro-viswa-lonavala",
-            "image": "images/v1772474727_Screenshot_2026-03-02_at_11.33.32_PM_wqk7eu.png",
-            "aggregateRating": {
-              "@type": "AggregateRating",
-              "ratingValue": "4.9",
-              "reviewCount": "900"
-            }
+            "image": "https://retrofusion.in/images/v1772474727_Screenshot_2026-03-02_at_11.33.32_PM_wqk7eu.webp"
           }
         }
       ]
@@ -2368,6 +2361,22 @@ include 'includes/header.php';
       "mainEntity": [
         {
           "@type": "Question",
+          "name": "How do I confirm my booking?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A booking is confirmed once a 50% non-refundable advance payment is made. The remaining balance is to be cleared prior to or upon check-in, with a refundable security deposit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the check-in and check-out timings?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check-in is at 2:00 PM and Check-out is at 11:00 AM."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "Is Retrofusion a boutique homestay in Lonavala with private pool?",
           "acceptedAnswer": {
             "@type": "Answer",
@@ -2376,18 +2385,74 @@ include 'includes/header.php';
         },
         {
           "@type": "Question",
-          "name": "Is food available at the homestay?",
+          "name": "Is food available at the villa?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Retrofusion offers fresh in-house food with vegetarian and non-vegetarian options. BBQ arrangements can also be planned for selected stays."
+            "text": "Yes! We offer an excellent in-house chef service. You can choose from our menu of home-style meals. Meals are prepared fresh and charges are additional. Veg and non-veg options available."
           }
         },
         {
           "@type": "Question",
-          "name": "Are the villas suitable for families, couples, and groups?",
+          "name": "Can we use the kitchen to cook our own meals?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. The 4BHK private pool villas are suitable for family vacations, couple getaways, group stays, celebrations, staycations, and corporate offsites in Lonavala."
+            "text": "The main kitchen is operated by our chefs to ensure hygiene and quality. However, basic amenities like a microwave, refrigerator, and kettle are accessible to guests for heating baby food or late-night snacks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are pets allowed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We love furry friends! We are pet-friendly across selected villas. Please mention that you are bringing a pet when you inquire so we can guide you to the perfect space."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is alcohol allowed at the villas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, alcohol is allowed at all our villas. You're welcome to bring your own drinks and enjoy them responsibly. We do not sell alcohol on premises, but local shops are nearby."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are the villas elderly-friendly?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. All 3 villas are designed with families in mind, featuring ground-floor only in one step, and spacious ground floor layout for the ease of access and movement for the elderly. Each house has a bedroom with an ensuite washroom on the ground floor."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is high-speed Wi-Fi available?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, all our villas are equipped with fast, reliable Wi-Fi and power backups, making them perfect for \"Workations\" or corporate off-sites."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is there safe parking available?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, we provide safe, private parking inside and outside the property premises for all our guests."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How far is the nearest market?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lonavala market is approximately 5-10 minutes by car from our villas. There are plenty of restaurants, convenience stores, and local eateries nearby."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is a security deposit required?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, a fully refundable security deposit of 50% of rent or INR 10,000 (whichever is lower) is collected at check-in to cover any incidental damages. It is refunded at check-out upon a quick property inspection."
           }
         }
       ]
